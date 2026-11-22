@@ -46,6 +46,30 @@
       "icon": "🇫🇷",
       "topics": [
         {
+          "id": "fr-cm1-present",
+          "name": "Présent",
+          "file": "data/fr/cm1-present.json",
+          "squads": [
+            "u10"
+          ]
+        },
+        {
+          "id": "fr-cm1-futur",
+          "name": "Futur simple",
+          "file": "data/fr/cm1-futur.json",
+          "squads": [
+            "u10"
+          ]
+        },
+        {
+          "id": "fr-cm1-imparfait",
+          "name": "Imparfait",
+          "file": "data/fr/cm1-imparfait.json",
+          "squads": [
+            "u10"
+          ]
+        },
+        {
           "id": "fr-conjugaison",
           "name": "Conjugaison",
           "file": "data/fr/conjugaison.json",

@@ -1,0 +1,1985 @@
+{
+  "topic": "fr-cm1-imparfait",
+  "questions": [
+    {
+      "id": "fr-cm1-imp-001",
+      "level": 1,
+      "type": "input",
+      "prompt": "Autrefois, tu ___ (avoir) un nouveau maillot chaque année.",
+      "answer": [
+        "avais"
+      ],
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, tu ___ (marquer) souvent des buts.",
+      "choices": [
+        "marquais",
+        "marqué",
+        "marquions",
+        "marqueras"
+      ],
+      "answer": "marquais",
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand nous étions petits, tu ___ (avoir) toujours le ballon.",
+      "choices": [
+        "avai",
+        "avais",
+        "as",
+        "avait"
+      ],
+      "answer": "avais",
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, les enfants ___ (avoir) peur du noir.",
+      "choices": [
+        "eu",
+        "ont",
+        "avions",
+        "avaient"
+      ],
+      "answer": "avaient",
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, tu ___ (être) dans les buts.",
+      "choices": [
+        "es",
+        "étés",
+        "étais",
+        "étiez"
+      ],
+      "answer": "étais",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, nous ___ (finir) nos devoirs avant le goûter.",
+      "choices": [
+        "finissais",
+        "finissions",
+        "finisais",
+        "finissons"
+      ],
+      "answer": "finissions",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « avoir », à l'imparfait, sujet : tu)",
+      "choices": [
+        "Autrefois, tu avais un petit ballon.",
+        "Autrefois, tu eu un petit ballon.",
+        "Autrefois, tu avait un petit ballon.",
+        "Autrefois, tu auras un petit ballon."
+      ],
+      "answer": "Autrefois, tu avais un petit ballon.",
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, nous ___ (avoir) un petit ballon.",
+      "choices": [
+        "avons",
+        "avaient",
+        "avions",
+        "avé"
+      ],
+      "answer": "avions",
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (être) toujours en retard.",
+      "choices": [
+        "êtes",
+        "étai",
+        "étaient",
+        "étiez"
+      ],
+      "answer": "étiez",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, nous ___ (travailler) en silence.",
+      "choices": [
+        "travaillai",
+        "travaillerons",
+        "travaillions",
+        "travaillait"
+      ],
+      "answer": "travaillions",
+      "explain": "À l'imparfait, on ajoute -ions au radical avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, je ___ (parler) avec mon doudou.",
+      "choices": [
+        "parlais",
+        "parlaient",
+        "parle",
+        "parler"
+      ],
+      "answer": "parlais",
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quand j'étais petit, nous ___ (avoir) un chien.",
+      "answer": [
+        "avions"
+      ],
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Quand j'étais petit, je jouais dans le jardin. »",
+      "choices": [
+        "passé composé",
+        "futur simple",
+        "présent",
+        "imparfait"
+      ],
+      "answer": "imparfait",
+      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
+    },
+    {
+      "id": "fr-cm1-imp-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, les joueurs ___ (chanter) dans le bus.",
+      "choices": [
+        "chanter",
+        "chantaient",
+        "chantent",
+        "chantait"
+      ],
+      "answer": "chantaient",
+      "explain": "À l'imparfait, on ajoute -aient au radical avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « finir », à l'imparfait, sujet : nous)",
+      "choices": [
+        "Avant, nous finisait nos devoirs.",
+        "Avant, nous finissaient nos devoirs.",
+        "Avant, nous finissions nos devoirs.",
+        "Avant, nous finirons nos devoirs."
+      ],
+      "answer": "Avant, nous finissions nos devoirs.",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, mon chat ___ (chasser) les souris.",
+      "choices": [
+        "chasse",
+        "chassait",
+        "chasser",
+        "chassiez"
+      ],
+      "answer": "chassait",
+      "explain": "À l'imparfait, on ajoute -ait au radical avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, nous ___ (jouer) au ballon dans la rue.",
+      "choices": [
+        "jouons",
+        "jouait",
+        "joué",
+        "jouions"
+      ],
+      "answer": "jouions",
+      "explain": "À l'imparfait, on ajoute -ions au radical avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, mon frère ___ (être) souvent malade.",
+      "choices": [
+        "était",
+        "été",
+        "sera",
+        "étiez"
+      ],
+      "answer": "était",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (écouter) toujours le coach.",
+      "choices": [
+        "écoutaient",
+        "écoutai",
+        "écouterez",
+        "écoutiez"
+      ],
+      "answer": "écoutiez",
+      "explain": "À l'imparfait, on ajoute -iez au radical avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, l'entraînement ___ (finir) à six heures.",
+      "choices": [
+        "finissait",
+        "finit",
+        "finissiez",
+        "finira"
+      ],
+      "answer": "finissait",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Avant, tu ___ (gagner) tous les matchs.",
+      "answer": [
+        "gagnais"
+      ],
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, ___ étaient dans les vestiaires.",
+      "choices": [
+        "Tu",
+        "Nous",
+        "Ils",
+        "Il"
+      ],
+      "answer": "Ils",
+      "explain": "La forme « étaient » va avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, ___ finissiez vos devoirs.",
+      "choices": [
+        "Nous",
+        "Vous",
+        "Ils",
+        "Je"
+      ],
+      "answer": "Vous",
+      "explain": "La forme « finissiez » va avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, les élèves ___ (choisir) un livre à la fin de la semaine.",
+      "choices": [
+        "choisissaient",
+        "choisissais",
+        "choisissent",
+        "choisisais"
+      ],
+      "answer": "choisissaient",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "L'an dernier, chaque mercredi, le public ___ (applaudir) les joueurs.",
+      "choices": [
+        "applaudissais",
+        "applaudisais",
+        "applaudit",
+        "applaudissait"
+      ],
+      "answer": "applaudissait",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, j'___ (aller) à l'école à pied.",
+      "choices": [
+        "vais",
+        "allié",
+        "allais",
+        "alliez"
+      ],
+      "answer": "allais",
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Autrefois, les enfants ___ (chanter) dans la cour.",
+      "answer": [
+        "chantaient"
+      ],
+      "explain": "À l'imparfait, on ajoute -aient au radical avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, nous ___ (aller) au stade en bus.",
+      "choices": [
+        "allons",
+        "allions",
+        "allait",
+        "allé"
+      ],
+      "answer": "allions",
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-029",
+      "level": 1,
+      "type": "input",
+      "prompt": "Avant, vous ___ (parler) fort.",
+      "answer": [
+        "parliez"
+      ],
+      "explain": "À l'imparfait, on ajoute -iez au radical avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "L'an dernier, le coach ___ (donner) toujours le ballon à Théo.",
+      "choices": [
+        "donnait",
+        "donniez",
+        "donnai",
+        "donnera"
+      ],
+      "answer": "donnait",
+      "explain": "À l'imparfait, on ajoute -ait au radical avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, je ___ (regarder) tous les matchs.",
+      "choices": [
+        "regarde",
+        "regardais",
+        "regardait",
+        "regarder"
+      ],
+      "answer": "regardais",
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "L'an dernier, chaque mercredi, ma sœur ___ (chanter) à la chorale.",
+      "choices": [
+        "chantera",
+        "chantai",
+        "chantait",
+        "chantaient"
+      ],
+      "answer": "chantait",
+      "explain": "À l'imparfait, on ajoute -ait au radical avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, notre équipe ___ (être) très forte.",
+      "choices": [
+        "été",
+        "étaient",
+        "sera",
+        "était"
+      ],
+      "answer": "était",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, ___ chantais très bien.",
+      "choices": [
+        "Tu",
+        "Nous",
+        "Il",
+        "Vous"
+      ],
+      "answer": "Tu",
+      "explain": "La forme « chantais » va avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Demain, nous gagnerons le tournoi. »",
+      "choices": [
+        "imparfait",
+        "présent",
+        "futur simple",
+        "passé composé"
+      ],
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
+    },
+    {
+      "id": "fr-cm1-imp-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "L'an dernier, chaque mercredi, les joueurs ___ (finir) l'échauffement vite.",
+      "answer": [
+        "finissaient"
+      ],
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-037",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, mes amis ___ (aller) au parc tous les jours.",
+      "choices": [
+        "allé",
+        "allaient",
+        "allions",
+        "iront"
+      ],
+      "answer": "allaient",
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-038",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Aujourd'hui, tu joues dans les buts. »",
+      "choices": [
+        "passé composé",
+        "imparfait",
+        "futur simple",
+        "présent"
+      ],
+      "answer": "présent",
+      "explain": "L'action se passe maintenant : c'est le présent."
+    },
+    {
+      "id": "fr-cm1-imp-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quand j'étais petit, je ___ (donner) mon ballon à tout le monde.",
+      "answer": [
+        "donnais"
+      ],
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-040",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « jouer », à l'imparfait, sujet : mes amis)",
+      "choices": [
+        "Autrefois, mes amis jouai au ballon.",
+        "Autrefois, mes amis jouaient au ballon.",
+        "Autrefois, mes amis jouait au ballon.",
+        "Autrefois, mes amis joueront au ballon."
+      ],
+      "answer": "Autrefois, mes amis jouaient au ballon.",
+      "explain": "À l'imparfait, on ajoute -aient au radical avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-041",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, j'___ (être) très timide.",
+      "choices": [
+        "serai",
+        "étiez",
+        "étais",
+        "étai"
+      ],
+      "answer": "étais",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-042",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quand j'étais petit, je ___ (marquer) beaucoup de buts.",
+      "answer": [
+        "marquais"
+      ],
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avant, tu ___ (jouer) avec ton chien.",
+      "choices": [
+        "joueras",
+        "jouer",
+        "jouaient",
+        "jouais"
+      ],
+      "answer": "jouais",
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Chaque soir, pendant les vacances, Zoé ___ (donner) à manger au lapin.",
+      "choices": [
+        "donnait",
+        "donniez",
+        "donnaient",
+        "donnai"
+      ],
+      "answer": "donnait",
+      "explain": "À l'imparfait, on ajoute -ait au radical avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, ___ jouions au ballon.",
+      "choices": [
+        "Ils",
+        "Je",
+        "Vous",
+        "Nous"
+      ],
+      "answer": "Nous",
+      "explain": "La forme « jouions » va avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, ma mère ___ (aimer) chanter.",
+      "choices": [
+        "aimer",
+        "aimait",
+        "aime",
+        "aimiez"
+      ],
+      "answer": "aimait",
+      "explain": "À l'imparfait, on ajoute -ait au radical avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-047",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quand il était petit, mon père ___ (aller) au stade.",
+      "answer": [
+        "allait"
+      ],
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-048",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, je ___ (gagner) souvent aux billes.",
+      "choices": [
+        "gagner",
+        "gagne",
+        "gagnais",
+        "gagniez"
+      ],
+      "answer": "gagnais",
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Autrefois, vous ___ (chanter) très fort.",
+      "choices": [
+        "chantiez",
+        "chantais",
+        "chanterez",
+        "chanter"
+      ],
+      "answer": "chantiez",
+      "explain": "À l'imparfait, on ajoute -iez au radical avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-050",
+      "level": 1,
+      "type": "input",
+      "prompt": "Autrefois, nous ___ (jouer) au foot.",
+      "answer": [
+        "jouions"
+      ],
+      "explain": "À l'imparfait, on ajoute -ions au radical avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (aller) à la piscine le jeudi.",
+      "choices": [
+        "irez",
+        "alliez",
+        "allait",
+        "allé"
+      ],
+      "answer": "alliez",
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand nous étions petits, tu ___ (grandir) plus vite que moi.",
+      "choices": [
+        "grandiras",
+        "grandisais",
+        "grandissait",
+        "grandissais"
+      ],
+      "answer": "grandissais",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, mon entraîneur ___ (dire) toujours bravo.",
+      "choices": [
+        "disai",
+        "disiez",
+        "disait",
+        "dira"
+      ],
+      "answer": "disait",
+      "explain": "À l'imparfait, on part de « nous disons » sans -ons et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Autrefois, les joueurs ___ (faire) un tour de terrain.",
+      "answer": [
+        "faisaient"
+      ],
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, je ___ (manger) toujours trop vite.",
+      "choices": [
+        "mangeais",
+        "mangions",
+        "mangerai",
+        "mangais"
+      ],
+      "answer": "mangeais",
+      "explain": "Devant -a, on garde le e après le g : mangeais."
+    },
+    {
+      "id": "fr-cm1-imp-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, ___ faisions un exercice.",
+      "choices": [
+        "Nous",
+        "Il",
+        "Je",
+        "Vous"
+      ],
+      "answer": "Nous",
+      "explain": "La forme « faisions » va avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Avant, tu ___ (avoir) souvent mal aux jambes.",
+      "answer": [
+        "avais"
+      ],
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « La semaine prochaine, vous ferez un exposé. »",
+      "choices": [
+        "présent",
+        "imparfait",
+        "futur simple",
+        "passé composé"
+      ],
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
+    },
+    {
+      "id": "fr-cm1-imp-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quand j'étais petit, je ___ (manger) beaucoup de glace.",
+      "answer": [
+        "mangeais"
+      ],
+      "explain": "Devant -a, on garde le e après le g : mangeais."
+    },
+    {
+      "id": "fr-cm1-imp-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, les joueurs ___ (choisir) leur capitaine à la fin.",
+      "choices": [
+        "choisissent",
+        "choisissais",
+        "choisisait",
+        "choisissaient"
+      ],
+      "answer": "choisissaient",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand nous étions petits, nous ___ (être) très timides.",
+      "choices": [
+        "étaient",
+        "étions",
+        "sommes",
+        "étés"
+      ],
+      "answer": "étions",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, les arbitres ___ (être) en noir.",
+      "choices": [
+        "étiez",
+        "étaient",
+        "seront",
+        "étai"
+      ],
+      "answer": "étaient",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « aller », à l'imparfait, sujet : nous)",
+      "choices": [
+        "Autrefois, nous allions au stade.",
+        "Autrefois, nous allons au stade.",
+        "Autrefois, nous allais au stade.",
+        "Autrefois, nous allé au stade."
+      ],
+      "answer": "Autrefois, nous allions au stade.",
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, nous ___ (nager) à la piscine tous les jeudis.",
+      "choices": [
+        "nagerons",
+        "nagai",
+        "nagions",
+        "nageait"
+      ],
+      "answer": "nagions",
+      "explain": "Devant -i, pas de e après le g : nagions."
+    },
+    {
+      "id": "fr-cm1-imp-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (réussir) tous vos tirs.",
+      "choices": [
+        "réussisais",
+        "réussirez",
+        "réussissions",
+        "réussissiez"
+      ],
+      "answer": "réussissiez",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quand j'étais petit, mes amis ___ (choisir) leur maillot ensemble.",
+      "answer": [
+        "choisissaient"
+      ],
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "Avant, vous ___ (faire) du bruit.",
+      "answer": [
+        "faisiez"
+      ],
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "L'an dernier, chaque mercredi, l'équipe ___ (réussir) un beau but.",
+      "choices": [
+        "réussira",
+        "réussissiez",
+        "réussissait",
+        "réussisais"
+      ],
+      "answer": "réussissait",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « faire », à l'imparfait, sujet : vous)",
+      "choices": [
+        "Avant, vous fait un exercice.",
+        "Avant, vous faisiez un exercice.",
+        "Avant, vous faisions un exercice.",
+        "Avant, vous ferez un exercice."
+      ],
+      "answer": "Avant, vous faisiez un exercice.",
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, nous ___ (faire) une passe avant chaque tir.",
+      "choices": [
+        "faisions",
+        "fesais",
+        "faisons",
+        "faisaient"
+      ],
+      "answer": "faisions",
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Avant, vous ___ (aller) au cinéma le samedi.",
+      "answer": [
+        "alliez"
+      ],
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, les élèves ___ (aller) en récréation à dix heures.",
+      "choices": [
+        "allait",
+        "allié",
+        "vont",
+        "allaient"
+      ],
+      "answer": "allaient",
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « En ce moment, les élèves choisissent un livre. »",
+      "choices": [
+        "futur simple",
+        "passé composé",
+        "présent",
+        "imparfait"
+      ],
+      "answer": "présent",
+      "explain": "L'action se passe maintenant : c'est le présent."
+    },
+    {
+      "id": "fr-cm1-imp-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, ___ allaient à l'entraînement.",
+      "choices": [
+        "Ils",
+        "Il",
+        "Je",
+        "Vous"
+      ],
+      "answer": "Ils",
+      "explain": "La forme « allaient » va avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « choisir », à l'imparfait, sujet : les joueurs)",
+      "choices": [
+        "Autrefois, les joueurs choisissait leur maillot.",
+        "Autrefois, les joueurs choisissaient leur maillot.",
+        "Autrefois, les joueurs choisiront leur maillot.",
+        "Autrefois, les joueurs choisisais leur maillot."
+      ],
+      "answer": "Autrefois, les joueurs choisissaient leur maillot.",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-076",
+      "level": 2,
+      "type": "input",
+      "prompt": "Autrefois, tu ___ (dire) bonjour au gardien.",
+      "answer": [
+        "disais"
+      ],
+      "explain": "À l'imparfait, on part de « nous disons » sans -ons et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, on ___ (ranger) nos jouets le soir.",
+      "choices": [
+        "rangeions",
+        "range",
+        "rangeais",
+        "rangeait"
+      ],
+      "answer": "rangeait",
+      "explain": "Devant -a, on garde le e après le g : rangeait."
+    },
+    {
+      "id": "fr-cm1-imp-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, ces arbres ___ (grandir) dans le jardin de ma grand-mère.",
+      "choices": [
+        "grandisait",
+        "grandissions",
+        "grandissent",
+        "grandissaient"
+      ],
+      "answer": "grandissaient",
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, les enfants ___ (faire) du vélo dans la rue.",
+      "choices": [
+        "faisions",
+        "faisaient",
+        "feront",
+        "fait"
+      ],
+      "answer": "faisaient",
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (faire) un tour de terrain chaque soir.",
+      "choices": [
+        "faites",
+        "faisaient",
+        "faisiez",
+        "fesais"
+      ],
+      "answer": "faisiez",
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-081",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, vous ___ (avoir) le droit de jouer dans la cour.",
+      "choices": [
+        "aviez",
+        "avé",
+        "avez",
+        "avions"
+      ],
+      "answer": "aviez",
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, nous ___ (manger) des pâtes avant le match.",
+      "choices": [
+        "mangerons",
+        "mangais",
+        "mangions",
+        "mangiez"
+      ],
+      "answer": "mangions",
+      "explain": "Devant -i, pas de e après le g : mangions."
+    },
+    {
+      "id": "fr-cm1-imp-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, je ___ (lancer) des cailloux dans l'eau.",
+      "choices": [
+        "lançais",
+        "lance",
+        "lancais",
+        "lançait"
+      ],
+      "answer": "lançais",
+      "explain": "Devant -a, le c prend une cédille : lançais."
+    },
+    {
+      "id": "fr-cm1-imp-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (dire) toujours la vérité.",
+      "choices": [
+        "disé",
+        "disiez",
+        "disait",
+        "dites"
+      ],
+      "answer": "disiez",
+      "explain": "À l'imparfait, on part de « nous disons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-085",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "L'an dernier, les supporters ___ (partir) tôt du stade.",
+      "choices": [
+        "partié",
+        "partais",
+        "partent",
+        "partaient"
+      ],
+      "answer": "partaient",
+      "explain": "À l'imparfait, on part de « nous partons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-086",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, tu ___ (faire) ton lit tous les matins.",
+      "choices": [
+        "fait",
+        "faisions",
+        "faisais",
+        "feras"
+      ],
+      "answer": "faisais",
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-087",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, nous ___ (commencer) l'entraînement à cinq heures.",
+      "choices": [
+        "commencions",
+        "commencerons",
+        "commencai",
+        "commençais"
+      ],
+      "answer": "commencions",
+      "explain": "Devant -i, le c n'a pas de cédille : commencions."
+    },
+    {
+      "id": "fr-cm1-imp-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, tu ___ (prendre) toujours le ballon.",
+      "choices": [
+        "prendras",
+        "preniez",
+        "prendait",
+        "prenais"
+      ],
+      "answer": "prenais",
+      "explain": "À l'imparfait, on part de « nous prenons » sans -ons et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, nous ___ (aller) chez le coiffeur ensemble.",
+      "choices": [
+        "allons",
+        "allions",
+        "allaient",
+        "allé"
+      ],
+      "answer": "allions",
+      "explain": "À l'imparfait, on part de « nous allons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-090",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, nous ___ (lancer) le ballon très haut.",
+      "choices": [
+        "lançons",
+        "lancer",
+        "lanciez",
+        "lancions"
+      ],
+      "answer": "lancions",
+      "explain": "Devant -i, le c n'a pas de cédille : lancions."
+    },
+    {
+      "id": "fr-cm1-imp-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, nous ___ (prendre) le bus pour aller au stade.",
+      "choices": [
+        "prendrons",
+        "prenait",
+        "prenions",
+        "prendais"
+      ],
+      "answer": "prenions",
+      "explain": "À l'imparfait, on part de « nous prenons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-092",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, Inès ___ (prendre) toujours son sac.",
+      "choices": [
+        "prenait",
+        "prenais",
+        "prendra",
+        "prendait"
+      ],
+      "answer": "prenait",
+      "explain": "À l'imparfait, on part de « nous prenons » sans -ons et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-093",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Chaque soir, pendant les vacances, ma tante ___ (venir) me chercher.",
+      "choices": [
+        "venaient",
+        "venait",
+        "veniez",
+        "vienais"
+      ],
+      "answer": "venait",
+      "explain": "À l'imparfait, on part de « nous venons » sans -ons et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-094",
+      "level": 2,
+      "type": "input",
+      "prompt": "Autrefois, nous ___ (manger) à la cantine.",
+      "answer": [
+        "mangions"
+      ],
+      "explain": "Devant -i, pas de e après le g : mangions."
+    },
+    {
+      "id": "fr-cm1-imp-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'an dernier, chaque mercredi, nous ___ (prendre) le goûter ensemble.",
+      "answer": [
+        "prenions"
+      ],
+      "explain": "À l'imparfait, on part de « nous prenons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-096",
+      "level": 2,
+      "type": "input",
+      "prompt": "Avant, nous ___ (finir) tôt.",
+      "answer": [
+        "finissions"
+      ],
+      "explain": "À l'imparfait, un verbe du 2e groupe prend -iss- puis -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-097",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Autrefois, ___ choisissait son maillot.",
+      "choices": [
+        "Tu",
+        "Ils",
+        "Il",
+        "Je"
+      ],
+      "answer": "Il",
+      "explain": "La forme « choisissait » va avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « L'an dernier, chaque mercredi, nous faisions du vélo. »",
+      "choices": [
+        "imparfait",
+        "futur simple",
+        "passé composé",
+        "présent"
+      ],
+      "answer": "imparfait",
+      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
+    },
+    {
+      "id": "fr-cm1-imp-099",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avant, ___ disiez bonjour.",
+      "choices": [
+        "Je",
+        "Vous",
+        "Ils",
+        "Tu"
+      ],
+      "answer": "Vous",
+      "explain": "La forme « disiez » va avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-100",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, mes cousins ___ (avoir) un chien.",
+      "choices": [
+        "ont",
+        "avions",
+        "eu",
+        "avaient"
+      ],
+      "answer": "avaient",
+      "explain": "À l'imparfait, « avoir » devient av- et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand il était petit, mon frère ___ (vouloir) tout le temps le ballon.",
+      "choices": [
+        "voudra",
+        "voulions",
+        "voulu",
+        "voulait"
+      ],
+      "answer": "voulait",
+      "explain": "À l'imparfait, on part de « nous voulons » sans -ons et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-102",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (voir) le but de loin.",
+      "choices": [
+        "voiait",
+        "voyiez",
+        "voyez",
+        "voyait"
+      ],
+      "answer": "voyiez",
+      "explain": "À l'imparfait, on part de « nous voyons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, mon frère et ma sœur ___ (dire) des blagues.",
+      "choices": [
+        "disé",
+        "diront",
+        "disaient",
+        "disiez"
+      ],
+      "answer": "disaient",
+      "explain": "À l'imparfait, on part de « nous disons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Dans dix ans, tu seras un grand joueur. »",
+      "choices": [
+        "futur simple",
+        "imparfait",
+        "présent",
+        "passé composé"
+      ],
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
+    },
+    {
+      "id": "fr-cm1-imp-105",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, vous ___ (vouloir) toujours gagner.",
+      "choices": [
+        "veulais",
+        "vouliez",
+        "voudrez",
+        "voulaient"
+      ],
+      "answer": "vouliez",
+      "explain": "À l'imparfait, on part de « nous voulons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-106",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, les joueurs ___ (prendre) leurs sacs au vestiaire.",
+      "choices": [
+        "prenait",
+        "prendait",
+        "prennent",
+        "prenaient"
+      ],
+      "answer": "prenaient",
+      "explain": "À l'imparfait, on part de « nous prenons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-107",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, les joueurs ___ (vouloir) la victoire à tout prix.",
+      "choices": [
+        "voulaient",
+        "voudront",
+        "veulais",
+        "vouliez"
+      ],
+      "answer": "voulaient",
+      "explain": "À l'imparfait, on part de « nous voulons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-108",
+      "level": 3,
+      "type": "input",
+      "prompt": "Autrefois, mes amis ___ (vouloir) jouer au foot.",
+      "answer": [
+        "voulaient"
+      ],
+      "explain": "À l'imparfait, on part de « nous voulons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-109",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quand j'étais petit, je ___ (être) toujours en retard.",
+      "answer": [
+        "étais"
+      ],
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Maintenant, vous pouvez entrer sur le terrain. »",
+      "choices": [
+        "imparfait",
+        "futur simple",
+        "présent",
+        "passé composé"
+      ],
+      "answer": "présent",
+      "explain": "L'action se passe maintenant : c'est le présent."
+    },
+    {
+      "id": "fr-cm1-imp-111",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, ___ devait partir tôt.",
+      "choices": [
+        "Tu",
+        "Je",
+        "Il",
+        "Ils"
+      ],
+      "answer": "Il",
+      "explain": "La forme « devait » va avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-112",
+      "level": 3,
+      "type": "input",
+      "prompt": "Autrefois, le bus ___ (partir) à midi.",
+      "answer": [
+        "partait"
+      ],
+      "explain": "À l'imparfait, on part de « nous partons » sans -ons et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-113",
+      "level": 3,
+      "type": "input",
+      "prompt": "Avant, tu ___ (devoir) partir tôt.",
+      "answer": [
+        "devais"
+      ],
+      "explain": "À l'imparfait, on part de « nous devons » sans -ons et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-114",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, nous ___ (venir) au stade en vélo.",
+      "choices": [
+        "venait",
+        "venons",
+        "venu",
+        "venions"
+      ],
+      "answer": "venions",
+      "explain": "À l'imparfait, on part de « nous venons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-115",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, nous ___ (partir) pour le stade à midi.",
+      "choices": [
+        "partions",
+        "partié",
+        "partaient",
+        "partons"
+      ],
+      "answer": "partions",
+      "explain": "À l'imparfait, on part de « nous partons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, je ___ (pouvoir) courir très vite.",
+      "choices": [
+        "peux",
+        "pouvais",
+        "pu",
+        "pouvait"
+      ],
+      "answer": "pouvais",
+      "explain": "À l'imparfait, on part de « nous pouvons » sans -ons et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, ma mère ___ (nettoyer) mes crampons.",
+      "choices": [
+        "nettoyé",
+        "nettoyions",
+        "nettoie",
+        "nettoyait"
+      ],
+      "answer": "nettoyait",
+      "explain": "À l'imparfait, on ajoute -ait au radical avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, je ___ (vouloir) un chien.",
+      "choices": [
+        "voulais",
+        "vouliez",
+        "voulu",
+        "veux"
+      ],
+      "answer": "voulais",
+      "explain": "À l'imparfait, on part de « nous voulons » sans -ons et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-119",
+      "level": 3,
+      "type": "input",
+      "prompt": "Avant, vous ___ (venir) avec nous.",
+      "answer": [
+        "veniez"
+      ],
+      "explain": "À l'imparfait, on part de « nous venons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, ___ voulions gagner.",
+      "choices": [
+        "Je",
+        "Tu",
+        "Nous",
+        "Vous"
+      ],
+      "answer": "Nous",
+      "explain": "La forme « voulions » va avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « devoir », à l'imparfait, sujet : vous)",
+      "choices": [
+        "Autrefois, vous devions partir tôt.",
+        "Autrefois, vous deviez partir tôt.",
+        "Autrefois, vous devai partir tôt.",
+        "Autrefois, vous devez partir tôt."
+      ],
+      "answer": "Autrefois, vous deviez partir tôt.",
+      "explain": "À l'imparfait, on part de « nous devons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, nous ___ (pouvoir) entrer sur le terrain.",
+      "choices": [
+        "peuvais",
+        "pouvions",
+        "pouvaient",
+        "pourrons"
+      ],
+      "answer": "pouvions",
+      "explain": "À l'imparfait, on part de « nous pouvons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-123",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, Léa et toi ___ (être) dans la même équipe.",
+      "choices": [
+        "étai",
+        "étions",
+        "étiez",
+        "êtes"
+      ],
+      "answer": "étiez",
+      "explain": "À l'imparfait, « être » devient ét- et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-124",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, je ___ (partir) à six heures.",
+      "choices": [
+        "partais",
+        "partait",
+        "partai",
+        "pars"
+      ],
+      "answer": "partais",
+      "explain": "À l'imparfait, on part de « nous partons » sans -ons et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-125",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, vous ___ (venir) à l'entraînement en vélo.",
+      "choices": [
+        "viendrez",
+        "venait",
+        "venai",
+        "veniez"
+      ],
+      "answer": "veniez",
+      "explain": "À l'imparfait, on part de « nous venons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, tu ___ (pouvoir) tirer au but sans peur.",
+      "choices": [
+        "pu",
+        "pouvions",
+        "pourras",
+        "pouvais"
+      ],
+      "answer": "pouvais",
+      "explain": "À l'imparfait, on part de « nous pouvons » sans -ons et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, vous ___ (prendre) un ballon chacun.",
+      "choices": [
+        "prenais",
+        "prendait",
+        "preniez",
+        "prenez"
+      ],
+      "answer": "preniez",
+      "explain": "À l'imparfait, on part de « nous prenons » sans -ons et on ajoute -iez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-128",
+      "level": 3,
+      "type": "input",
+      "prompt": "Avant, je ___ (pouvoir) jouer longtemps.",
+      "answer": [
+        "pouvais"
+      ],
+      "explain": "À l'imparfait, on part de « nous pouvons » sans -ons et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, les enfants ___ (étudier) leur leçon le soir.",
+      "choices": [
+        "étudier",
+        "étudiaient",
+        "étudiait",
+        "étudieront"
+      ],
+      "answer": "étudiaient",
+      "explain": "À l'imparfait, on ajoute -aient au radical avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, le car ___ (partir) à huit heures.",
+      "choices": [
+        "partait",
+        "partié",
+        "partira",
+        "partaient"
+      ],
+      "answer": "partait",
+      "explain": "À l'imparfait, on part de « nous partons » sans -ons et on ajoute -ait avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-imp-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, je ___ (voir) mes amis dans les gradins.",
+      "choices": [
+        "voyiez",
+        "voyais",
+        "vois",
+        "vu"
+      ],
+      "answer": "voyais",
+      "explain": "À l'imparfait, on part de « nous voyons » sans -ons et on ajoute -ais avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, ___ pouvaient entrer.",
+      "choices": [
+        "Ils",
+        "Tu",
+        "Nous",
+        "Il"
+      ],
+      "answer": "Ils",
+      "explain": "La forme « pouvaient » va avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, les enfants ___ (pouvoir) jouer dehors tard.",
+      "choices": [
+        "pouvai",
+        "pourront",
+        "pouvaient",
+        "pouvions"
+      ],
+      "answer": "pouvaient",
+      "explain": "À l'imparfait, on part de « nous pouvons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, les spectateurs ___ (voir) très bien le terrain.",
+      "choices": [
+        "voiait",
+        "voyions",
+        "voient",
+        "voyaient"
+      ],
+      "answer": "voyaient",
+      "explain": "À l'imparfait, on part de « nous voyons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, tu ___ (devoir) écouter le coach.",
+      "choices": [
+        "devais",
+        "devaient",
+        "doivais",
+        "dois"
+      ],
+      "answer": "devais",
+      "explain": "À l'imparfait, on part de « nous devons » sans -ons et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, ___ veniez à nos matchs.",
+      "choices": [
+        "Nous",
+        "Vous",
+        "Tu",
+        "Je"
+      ],
+      "answer": "Vous",
+      "explain": "La forme « veniez » va avec « vous »."
+    },
+    {
+      "id": "fr-cm1-imp-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, mes parents ___ (partir) en voiture.",
+      "choices": [
+        "partiront",
+        "partais",
+        "partaient",
+        "partai"
+      ],
+      "answer": "partaient",
+      "explain": "À l'imparfait, on part de « nous partons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, nous ___ (devoir) ranger nos affaires.",
+      "choices": [
+        "devu",
+        "devais",
+        "devrons",
+        "devions"
+      ],
+      "answer": "devions",
+      "explain": "À l'imparfait, on part de « nous devons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand nous étions petits, Ethan et moi ___ (faire) des passes dans la rue.",
+      "choices": [
+        "faisons",
+        "fait",
+        "faisais",
+        "faisions"
+      ],
+      "answer": "faisions",
+      "explain": "À l'imparfait, on part de « nous faisons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-140",
+      "level": 3,
+      "type": "input",
+      "prompt": "Chaque soir, pendant les vacances, ils ___ (prendre) le goûter dehors.",
+      "answer": [
+        "prenaient"
+      ],
+      "explain": "À l'imparfait, on part de « nous prenons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Avant, tu ___ (venir) avec moi au parc.",
+      "choices": [
+        "viens",
+        "venais",
+        "venait",
+        "vienais"
+      ],
+      "answer": "venais",
+      "explain": "À l'imparfait, on part de « nous venons » sans -ons et on ajoute -ais avec « tu »."
+    },
+    {
+      "id": "fr-cm1-imp-142",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quand j'étais petit, les gardiens ___ (voir) mal le ballon.",
+      "answer": [
+        "voyaient"
+      ],
+      "explain": "À l'imparfait, on part de « nous voyons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « pouvoir », à l'imparfait, sujet : les enfants)",
+      "choices": [
+        "Avant, les enfants pourront jouer dehors.",
+        "Avant, les enfants pouvait jouer dehors.",
+        "Avant, les enfants pouvaient jouer dehors.",
+        "Avant, les enfants peuvais jouer dehors."
+      ],
+      "answer": "Avant, les enfants pouvaient jouer dehors.",
+      "explain": "À l'imparfait, on part de « nous pouvons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-144",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « venir », à l'imparfait, sujet : mes cousins)",
+      "choices": [
+        "Avant, mes cousins venaient au stade.",
+        "Avant, mes cousins venu au stade.",
+        "Avant, mes cousins viendront au stade.",
+        "Avant, mes cousins venions au stade."
+      ],
+      "answer": "Avant, mes cousins venaient au stade.",
+      "explain": "À l'imparfait, on part de « nous venons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quand j'étais petit, je ___ (crier) fort quand l'équipe marquait.",
+      "answer": [
+        "criais"
+      ],
+      "explain": "À l'imparfait, on ajoute -ais au radical avec « je »."
+    },
+    {
+      "id": "fr-cm1-imp-146",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quand j'étais petit, les élèves ___ (devoir) se taire.",
+      "choices": [
+        "doivais",
+        "devaient",
+        "devions",
+        "devront"
+      ],
+      "answer": "devaient",
+      "explain": "À l'imparfait, on part de « nous devons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Autrefois, nous ___ (vouloir) gagner.",
+      "answer": [
+        "voulions"
+      ],
+      "explain": "À l'imparfait, on part de « nous voulons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-148",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, mes cousins ___ (venir) à tous les matchs.",
+      "choices": [
+        "venaient",
+        "vienais",
+        "viennent",
+        "veniez"
+      ],
+      "answer": "venaient",
+      "explain": "À l'imparfait, on part de « nous venons » sans -ons et on ajoute -aient avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-imp-149",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Autrefois, nous ___ (voir) un match à la télé chaque samedi.",
+      "choices": [
+        "vu",
+        "voyons",
+        "voyions",
+        "voyiez"
+      ],
+      "answer": "voyions",
+      "explain": "À l'imparfait, on part de « nous voyons » sans -ons et on ajoute -ions avec « nous »."
+    },
+    {
+      "id": "fr-cm1-imp-150",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Quand nous étions petits, nous voulions tous être gardiens. »",
+      "choices": [
+        "futur simple",
+        "passé composé",
+        "présent",
+        "imparfait"
+      ],
+      "answer": "imparfait",
+      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
+    }
+  ]
+}
