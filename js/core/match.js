@@ -4,6 +4,14 @@ import { checkAnswer, displayAnswer } from './questions.js';
 
 export const PRACTICE_OPPONENT = { id: 'practice', name: 'Équipe d\'entraînement', strength: 0.5 };
 
+/**
+ * Difficulty: 'normal' (a wrong answer lets the opponent score with probability = its strength) or 'expert'
+ * (every wrong answer or timeout is a goal for the opponent). Expert is reserved for the u13 squad.
+ */
+export function resolveDifficulty(squad, wanted) {
+  return squad === 'u13' && wanted === 'expert' ? 'expert' : 'normal';
+}
+
 /** Seconds allowed for a question type. */
 export function timeLimitSeconds(q) {
   return q.type === 'input' ? TIMER_INPUT_SECONDS : TIMER_MCQ_SECONDS;
@@ -33,18 +41,20 @@ export function minuteOf(index, total) {
  *  topicId/subjectId: the one topic (and its subject) being played
  *  division: 0..4 (league)
  *  coachPick: true if the chosen topic was the coach's pick (+50% coins)
- *  rng: seeded rng (used for goals against)
+ *  difficulty: 'normal' | 'expert' (the caller resolves it for the squad with resolveDifficulty)
+ *  rng: seeded rng (used for goals against in normal difficulty)
  *  now: timestamp ms (stored as startedAt)
  */
 export function createMatch({
   mode = 'league', questions, opponent = null, topicId, subjectId = null,
-  division = 0, coachPick = false, rng, now,
+  division = 0, coachPick = false, difficulty = 'normal', rng, now,
 }) {
   if (!questions || !questions.length) throw new Error('createMatch: no questions');
   return {
     mode,
     timed: mode === 'league',
     topicId, subjectId, division, coachPick,
+    difficulty: difficulty === 'expert' ? 'expert' : 'normal',
     opponent: opponent || PRACTICE_OPPONENT,
     questions,
     index: 0,
@@ -101,7 +111,7 @@ export function answerQuestion(match, given, elapsedMs) {
       goalFor = true;
       match.goalsFor += 1;
     }
-  } else if (match.rng.chance(match.opponent.strength)) {
+  } else if (match.difficulty === 'expert' || match.rng.chance(match.opponent.strength)) {
     goalAgainst = true;
     match.goalsAgainst += 1;
   }
@@ -159,6 +169,7 @@ export function summarizeMatch(match, now) {
     subjectId: match.subjectId,
     division: match.division,
     coachPick: match.coachPick,
+    difficulty: match.difficulty,
     opponent: { id: match.opponent.id, name: match.opponent.name, strength: match.opponent.strength },
     goalsFor: match.goalsFor,
     goalsAgainst: match.goalsAgainst,

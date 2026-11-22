@@ -4,7 +4,7 @@
 import { loadTopicQuestions, pickQuestions, listTopics } from '../core/questions.js';
 import { nextFixture, clubOf } from '../core/league.js';
 import { createMatch, summarizeMatch, timeoutQuestion } from '../core/match.js';
-import { applyResult, startPendingMatch, clearPendingMatch, applyPendingForfeit } from '../core/state.js';
+import { applyResult, startPendingMatch, clearPendingMatch, applyPendingForfeit, playerDifficulty } from '../core/state.js';
 import { myClub } from './shell-utils.js';
 
 export const flow = {
@@ -34,18 +34,19 @@ export async function prepareMatch(ctx, { mode, topic, coachPick = false }) {
   const fx = league ? nextFixture(season) : null;
   const questions = pickQuestions(pool, { history: ctx.state.questions, division: league ? season.division : null, rng: ctx.rng });
   const opp = league ? fx.opponent : TRAINING_OPPONENT;
+  const difficulty = league ? playerDifficulty(ctx.state) : 'normal'; // expert mode: u13 league matches only
   const match = createMatch({
     mode, questions, topicId: topic.id, subjectId: topic.subjectId,
     division: league ? season.division : 0,
     opponent: league ? { id: opp.id, name: opp.name, strength: fx.strength } : null,
-    coachPick: league && coachPick, rng: ctx.rng, now: ctx.now(),
+    coachPick: league && coachPick, difficulty, rng: ctx.rng, now: ctx.now(),
   });
   flow.current = { match, mode, topic, me: myClub(ctx.state), opp, matchday: fx ? fx.matchday + 1 : null, coachPick: league && coachPick, applied: false };
   flow.last = null;
   if (league) { // kick-off marker: leaving by reload or closing the page is a forfeit
     ctx.setState(startPendingMatch(ctx.state, {
       opponent: { id: opp.id, name: opp.name, strength: fx.strength }, topicId: topic.id, subjectId: topic.subjectId,
-      division: season.division, total: questions.length, now: ctx.now(),
+      division: season.division, total: questions.length, difficulty, now: ctx.now(),
     }));
     await ctx.save();
   }

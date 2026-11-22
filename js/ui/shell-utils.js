@@ -78,6 +78,23 @@ export function plural(n, one, many) {
   return `${n} ${n > 1 ? many : one}`;
 }
 
+/**
+ * Topics of one subject split by section (the optional `group` text of a topic in the catalog), as [{ group, topics }].
+ * Sections come in order of first appearance; topics without a section come last with group = null.
+ * (Not related to the `group` of a question, which ties together the questions of one verb.)
+ */
+export function groupTopics(topics) {
+  const sections = [];
+  const loose = [];
+  for (const t of topics || []) {
+    if (!t.group) { loose.push(t); continue; }
+    let s = sections.find((x) => x.group === t.group);
+    if (!s) sections.push(s = { group: t.group, topics: [] });
+    s.topics.push(t);
+  }
+  return loose.length ? [...sections, { group: null, topics: loose }] : sections;
+}
+
 /** Subject names are shown as stored; English subject gets a French label for the child. */
 export function subjectLabel(s) {
   return s.id === 'en' ? 'Anglais' : s.name;

@@ -8,7 +8,7 @@ const TIER = {
   'first-match': 'bronze', 'first-win': 'bronze', 'streak-3': 'bronze', 'hat-trick': 'bronze', 'clean-sheet': 'bronze',
   'matches-10': 'bronze', 'day-streak-3': 'bronze', 'cards-10': 'bronze', 'correct-100': 'bronze',
   'streak-5': 'silver', 'perfect': 'silver', 'matches-50': 'silver', 'promotion': 'silver', 'topic-master': 'silver',
-  'day-streak-7': 'silver', 'cards-36': 'silver', 'first-legend': 'silver', 'correct-500': 'silver',
+  'day-streak-7': 'silver', 'cards-36': 'silver', 'cards-100': 'silver', 'first-legend': 'silver', 'correct-500': 'silver',
 };
 
 /** Progress {cur, goal, unit} for the badges that count something, else null. */
@@ -25,7 +25,8 @@ function progressOf(id, s, totalCards) {
     'day-streak-7': [s.streak.best, 7, 'jours d\'affilée'],
     'cards-10': [uniqueCards(s), 10, 'cartes'],
     'cards-36': [uniqueCards(s), 36, 'cartes'],
-    'cards-all': [uniqueCards(s), Math.min(72, totalCards), 'cartes'],
+    'cards-100': [uniqueCards(s), 100, 'cartes'],
+    'cards-all': [uniqueCards(s), totalCards, 'cartes'],
     'correct-100': [t.correct, 100, 'bonnes réponses'],
     'correct-500': [t.correct, 500, 'bonnes réponses'],
     'correct-1000': [t.correct, 1000, 'bonnes réponses'],

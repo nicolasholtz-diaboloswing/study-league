@@ -11,6 +11,17 @@ export const RULE = {
   introMiss: 'Une erreur → l\'adversaire peut marquer',
 };
 
+/** Mode expert (u13): same goals for, but every error is a goal for the opponent. */
+export const RULE_EXPERT = {
+  line: RULE.line,
+  miss: "Chaque erreur = un but pour l'adversaire",
+  intro: RULE.intro,
+  introMiss: "Une erreur → l'adversaire marque !",
+};
+
+/** The rule texts of a difficulty ('normal' | 'expert'). */
+export const ruleFor = (difficulty) => (difficulty === 'expert' ? RULE_EXPERT : RULE);
+
 /** Live countdown under the attack meter. filled = correct answers since the last goal (0..N-1). */
 export function meterText(filled) {
   const left = Math.max(1, N - Math.max(0, filled));

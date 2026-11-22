@@ -1,6 +1,7 @@
 import { test, eq } from './runner.js';
-import { streakInfo, rivalryLine, overtaken, nextPackLevel } from '../js/ui/shell-utils.js';
+import { streakInfo, rivalryLine, overtaken, nextPackLevel, groupTopics } from '../js/ui/shell-utils.js';
 import { dayKey } from '../js/core/stats.js';
+import { FREE_PACK_EVERY_N_LEVELS } from '../js/config.js';
 
 const DAY = 86400000;
 const NOW = new Date(2025, 5, 10, 12, 0).getTime();
@@ -39,6 +40,16 @@ test('overtaken: a rival that was ahead before the match and is behind after it'
   eq(overtaken(board, 'me', 540, 560), null);
 });
 
-test('nextPackLevel: next multiple of 5', () => {
-  eq([1, 4, 5, 7, 9, 10].map(nextPackLevel), [5, 5, 10, 10, 10, 15]);
+test('nextPackLevel: next multiple of the free-pack level step', () => {
+  const E = FREE_PACK_EVERY_N_LEVELS;
+  eq([1, E - 1, E, E + 1, 2 * E - 1, 2 * E].map(nextPackLevel), [E, E, 2 * E, 2 * E, 2 * E, 3 * E]);
+});
+
+test('groupTopics: sections by first appearance, topics without a section last, no empty section', () => {
+  const t = (id, group) => ({ id, ...(group ? { group } : {}) });
+  eq(groupTopics([t('a', 'X'), t('b', 'Y'), t('c', 'X'), t('d'), t('e', 'Y')]).map((s) => [s.group, s.topics.map((x) => x.id)]),
+    [['X', ['a', 'c']], ['Y', ['b', 'e']], [null, ['d']]]);
+  eq(groupTopics([t('a'), t('b')]).map((s) => [s.group, s.topics.map((x) => x.id)]), [[null, ['a', 'b']]]);
+  eq(groupTopics([t('a', 'X')]).map((s) => s.group), ['X']);
+  eq(groupTopics([]), []);
 });

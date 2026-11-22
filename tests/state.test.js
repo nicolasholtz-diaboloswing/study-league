@@ -5,7 +5,10 @@ import {
 } from '../js/core/questions.js';
 import { createMatch, answerQuestion, currentQuestion, summarizeMatch } from '../js/core/match.js';
 import { nextFixture, seasonLength } from '../js/core/league.js';
-import { MATCH_QUESTIONS as NQ, GOAL_EVERY_N_CORRECT as N, SEASON_MATCHDAYS as SL } from '../js/config.js';
+import {
+  MATCH_QUESTIONS as NQ, GOAL_EVERY_N_CORRECT as N, SEASON_MATCHDAYS as SL, PACK_COST, PACK_SIZE, FREE_PACK_EVERY_N_LEVELS as EVERY,
+} from '../js/config.js';
+import { xpToReach, levelForXp } from '../js/core/rewards.js';
 import {
   newPlayerState, migrateState, ensureSeason, applyResult, buyPack, openFreePack, SCHEMA_VERSION,
 } from '../js/core/state.js';
@@ -97,7 +100,8 @@ test('applyResult: full perfect season (SL matchdays: promotion, title, packs, b
   eq(s.league.history[0].position, 1);
   eq([s.league.history[0].promoted, s.league.history[0].champion], [true, true]);
   eq([s.league.season.number, s.league.season.division, s.league.season.matchday], [2, 1, 0]);
-  eq(s.freePacks, 3, 'promotion + title + level 5');
+  const levelPacks = Math.floor(levelForXp(s.xp) / EVERY);
+  eq(s.freePacks, 2 + levelPacks, 'promotion + title + one per multiple of the free-pack level step');
   eq(s.streak, { current: SL, best: SL, lastDay: s.streak.lastDay });
   eq(s.matches.length, SL);
   const types = allEvents.map((e) => e.type);
@@ -105,7 +109,7 @@ test('applyResult: full perfect season (SL matchdays: promotion, title, packs, b
   eq(types.filter((x) => x === 'season-end').length, 1);
   const se = allEvents.find((e) => e.type === 'season-end');
   eq([se.promoted, se.champion, se.nextDivision, se.summary.table.length], [true, true, 1, 8]);
-  eq(allEvents.filter((e) => e.type === 'free-pack').map((e) => e.reason).sort(), ['level', 'promotion', 'title']);
+  eq(allEvents.filter((e) => e.type === 'free-pack').map((e) => e.reason).sort(), [...Array(levelPacks).fill('level'), 'promotion', 'title']);
   for (const id of ['first-match', 'first-win', 'streak-3', 'streak-5', 'hat-trick', 'clean-sheet', 'perfect', 'promotion', 'title', 'day-streak-7']) {
     assert(s.badges[id], 'badge ' + id);
   }
@@ -187,18 +191,30 @@ test('applyResult: coach pick bonus and loss/draw coins flow into state', () => 
   eq(events.find((e) => e.type === 'coins').coachPick, 20);
 });
 
-test('buyPack: needs 50 coins, adds cards and counts legends; openFreePack uses free packs', () => {
+test('applyResult: a free pack comes only when crossing a multiple of the level step (no retroactive pack)', () => {
+  const rng = createRng(11);
+  for (const L of [5, EVERY]) {
+    const s = { ...fresh(2), xp: xpToReach(L) - 1 };
+    const res = playMatch(s, rng, T0, 1);
+    const out = applyResult(s, res, ctx(rng, T0));
+    const lv = out.events.filter((e) => e.type === 'free-pack' && e.reason === 'level');
+    eq(lv.length, L % EVERY === 0 ? 1 : 0, 'level ' + L);
+    eq(out.state.freePacks - s.freePacks, lv.length + out.events.filter((e) => e.type === 'free-pack' && e.reason !== 'level').length);
+  }
+});
+
+test('buyPack: needs PACK_COST coins, adds cards and counts legends; openFreePack uses free packs', () => {
   const rng = createRng(6);
   const s0 = fresh(1);
   let threw = false;
-  try { buyPack(s0, ctx(rng, T0)); } catch { threw = true; }
+  try { buyPack({ ...s0, coins: PACK_COST - 1 }, ctx(rng, T0)); } catch { threw = true; }
   assert(threw, 'not enough coins');
-  const rich = { ...s0, coins: 120 };
+  const rich = { ...s0, coins: PACK_COST + 70 };
   const out = buyPack(rich, ctx(rng, T0));
   eq(out.state.coins, 70);
-  eq(out.cards.length, 3);
-  eq(Object.values(out.state.cards).reduce((a, b) => a + b, 0), 3);
-  eq(rich.coins, 120, 'input untouched');
+  eq(out.cards.length, PACK_SIZE);
+  eq(Object.values(out.state.cards).reduce((a, b) => a + b, 0), PACK_SIZE);
+  eq(rich.coins, PACK_COST + 70, 'input untouched');
   threw = false;
   try { openFreePack(s0, ctx(rng, T0)); } catch { threw = true; }
   assert(threw, 'no free pack');
@@ -321,4 +337,60 @@ test('a match or pending forfeit stored with 15 questions (before the 10-questio
   eq([res.total, res.correct, res.goalsFor, res.perfect], [15, 15, Math.floor(15 / N), true]);
   const s2 = applyResult(s1, res, ctx(rng, T0)).state;
   eq([s2.matches[0].total, s2.totals.answered], [15, 15]);
+});
+
+// ---------- expert difficulty (u13 only) ----------
+import { playerDifficulty, setDifficulty } from '../js/core/state.js';
+
+const fresh10 = (seed) => newPlayerState({ username: 'kid', displayName: 'Kid', squad: 'u10', club: 'My FC', colors: ['#f00', '#fff'], clubs: CLUBS, rng: createRng(seed), now: T0 });
+
+test('difficulty: default is normal (new state, old stored state), choice is stored outside profile and kept without mutating', () => {
+  const s0 = fresh(60);
+  eq([s0.difficulty, playerDifficulty(s0)], ['normal', 'normal']);
+  eq(migrateState({ username: 'old', profile: { displayName: 'Old' } }).difficulty, 'normal');
+  eq(migrateState({ username: 'old', profile: { displayName: 'Old' }, difficulty: 'bogus' }).difficulty, 'normal');
+  const s1 = setDifficulty(s0, 'expert');
+  eq([s0.difficulty, s1.difficulty, playerDifficulty(s1)], ['normal', 'expert', 'expert'], 'input untouched');
+  eq(s1.profile, s0.profile, 'profile has no new key');
+  eq(migrateState(JSON.parse(JSON.stringify(s1))).difficulty, 'expert', 'survives save and load');
+  eq(setDifficulty(s1, 'normal').difficulty, 'normal');
+  eq(setDifficulty(s1, 'bogus').difficulty, 'normal');
+});
+
+test('difficulty: a u10 player cannot get expert, even with a tampered state', () => {
+  const k = fresh10(61);
+  eq(setDifficulty(k, 'expert').difficulty, 'normal');
+  const tampered = { ...k, difficulty: 'expert' };
+  eq(playerDifficulty(tampered), 'normal');
+  const p = startPendingMatch(tampered, { opponent: OPP, topicId: 'en-verbs', difficulty: 'expert', now: T0 }).pendingMatch;
+  assert(!('difficulty' in p), 'marker stays normal');
+  const forged = { ...tampered, pendingMatch: { ...p, difficulty: 'expert' } };
+  const out = applyPendingForfeit(forged, ctx(createRng(62), T0));
+  eq([out.result.difficulty, 'difficulty' in out.state.matches[0]], ['normal', false]);
+});
+
+test('difficulty: pendingMatch carries expert, the forfeit result and the match history keep it, normal leaves records as before', () => {
+  const rng = createRng(63);
+  const s0 = startPendingMatch(fresh(63), { opponent: OPP, topicId: 'en-det', subjectId: 'en', difficulty: 'expert', now: T0 });
+  eq(s0.pendingMatch.difficulty, 'expert');
+  eq(JSON.parse(JSON.stringify(s0)).pendingMatch, s0.pendingMatch);
+  eq(migrateState(JSON.parse(JSON.stringify(s0))).pendingMatch.difficulty, 'expert');
+  const out = applyPendingForfeit(s0, ctx(rng, T0 + 1000));
+  eq([out.result.difficulty, out.result.goalsAgainst, out.state.matches[0].difficulty, out.state.pendingMatch], ['expert', 3, 'expert', null]);
+  const n = startPendingMatch(fresh(64), { opponent: OPP, topicId: 'en-det', now: T0 });
+  assert(!('difficulty' in n.pendingMatch));
+  const outN = applyPendingForfeit(n, ctx(rng, T0 + 1000));
+  eq([outN.result.difficulty, 'difficulty' in outN.state.matches[0]], ['normal', false]);
+});
+
+test('difficulty: a played expert league match is recorded as expert in the history, with a goal against per wrong answer', () => {
+  const rng = createRng(65);
+  const s0 = fresh(65);
+  const fx = nextFixture(s0.league.season);
+  const questions = pickQuestions(POOL.filter((q) => q.topicId === 'en-det'), { history: {}, division: 0, rng });
+  const m = createMatch({ mode: 'league', questions, topicId: 'en-det', subjectId: 'en', opponent: { id: fx.opponent.id, name: fx.opponent.name, strength: 0 }, division: 0, difficulty: playerDifficulty(setDifficulty(s0, 'expert')), rng, now: T0 });
+  for (let i = 0; !m.finished; i++) answerQuestion(m, i < 7 ? acceptedAnswers(currentQuestion(m))[0] : 'zzz', 2000);
+  const res = summarizeMatch(m, T0);
+  eq([res.goalsFor, res.goalsAgainst, res.difficulty], [3, 3, 'expert']);
+  eq(applyResult(s0, res, ctx(rng, T0)).state.matches[0].difficulty, 'expert');
 });

@@ -4,7 +4,7 @@ import * as E from '../effects.js';
 import { currentQuestion, currentMinute, currentTimeLimitMs, answerQuestion, timeoutQuestion } from '../../core/match.js';
 import { optionChoices, acceptedAnswers, normalizeAnswer } from '../../core/questions.js';
 import { flow, finishMatch, dropPendingMatch } from '../flow.js';
-import { RULE, remainingText, MISSED_CHANCE } from '../rules.js';
+import { ruleFor, remainingText, MISSED_CHANCE } from '../rules.js';
 
 const KEY_INDEX = { 1: 0, 2: 1, 3: 2, 4: 3, a: 0, b: 1, c: 2, d: 3 };
 const ACCENTS = ['é', 'è', 'ê', 'à', 'â', 'ç', 'ù', 'î', 'ô', 'œ'];
@@ -22,7 +22,7 @@ export default {
     const { match, me, opp } = c;
     const league = c.mode === 'league';
     const total = match.questions.length;
-    const french = c.topic.subjectId === 'fr';
+    const french = !!c.topic.accents; // subject flagged "accents" in the catalog
     let phase = 'idle'; // idle | asking | feedback | celebrating | leaving | done
     let q = null;
     let uiChoices = null; // answer buttons: the mcq choices, or the options of a typed "(a / b)" question
@@ -296,7 +296,7 @@ export default {
         id: 'intro',
         title: 'Comment marquer ?',
         body: `<div class="intro"><div class="intro__meter">${C.attackMeter(0)}</div>
-          <p class="intro__goal">${C.esc(RULE.intro)}</p><p class="intro__miss">${C.esc(RULE.introMiss)}</p></div>`,
+          <p class="intro__goal">${C.esc(ruleFor(match.difficulty).intro)}</p><p class="intro__miss">${C.esc(ruleFor(match.difficulty).introMiss)}</p></div>`,
         actions: [C.button({ label: "C'est parti !", variant: 'gold', size: 'lg', block: true, attrs: { 'data-modal-close': '', 'data-intro-go': '' } })],
       }));
       m.querySelector('[data-intro-go]')?.focus();

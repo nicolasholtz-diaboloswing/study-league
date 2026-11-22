@@ -4,7 +4,7 @@ import { createRng } from '../js/core/rng.js';
 import { acceptedAnswers } from '../js/core/questions.js';
 import {
   createMatch, answerQuestion, timeoutQuestion, summarizeMatch, currentQuestion, currentMinute,
-  currentTimeLimitMs, minuteOf, speedBonus, outcomeOf,
+  currentTimeLimitMs, minuteOf, speedBonus, outcomeOf, resolveDifficulty,
 } from '../js/core/match.js';
 
 function mk(strength = 0.5, mode = 'league', n = NQ) {
@@ -124,4 +124,52 @@ test('match: answering after the end throws', () => {
   try { answerQuestion(m, 'b', 1); } catch { threw = true; }
   assert(threw);
   eq(currentQuestion(m), null);
+});
+
+// ---------- expert difficulty (u13 only) ----------
+function mkExpert(strength = 0, difficulty = 'expert') {
+  const m = mk(strength);
+  return createMatch({ mode: 'league', questions: m.questions, opponent: m.opponent, topicId: 't1', subjectId: 'en', division: 0, difficulty, rng: createRng(1), now: 1000 });
+}
+
+test('expert: every wrong answer or timeout is a goal against, even when the opponent strength is 0', () => {
+  const m = mkExpert(0);
+  const r1 = answerQuestion(m, 'zzz', 100);
+  const r2 = timeoutQuestion(m);
+  eq([r1.goalAgainst, r2.goalAgainst, m.goalsAgainst], [true, true, 2]);
+  const r3 = answerQuestion(m, right(m), 100);
+  eq([r3.goalAgainst, m.goalsAgainst], [false, 2], 'a correct answer never concedes');
+  while (!m.finished) answerQuestion(m, 'zzz', 100);
+  eq(m.goalsAgainst, NQ - 1);
+});
+
+test('expert: replaces the normal rule (no random roll, no extra goals), goals for are unchanged', () => {
+  const m = mkExpert(1);
+  const seq = [true, false, true, true, false, true, true, true, false, true];
+  for (const ok of seq) answerQuestion(m, ok ? right(m) : 'zzz', 1000);
+  const wrong = seq.filter((x) => !x).length, good = seq.length - wrong;
+  eq([m.goalsAgainst, m.goalsFor, m.correct], [wrong, Math.floor(good / N), good]);
+  eq(summarizeMatch(m, 0).difficulty, 'expert');
+  // the expert rule does not consume any random draw
+  eq(m.rng.next(), createRng(1).next());
+});
+
+test('expert: all correct is the same as normal (full goals, clean sheet)', () => {
+  const m = mkExpert(1);
+  while (!m.finished) answerQuestion(m, right(m), 2000);
+  eq([m.goalsFor, m.goalsAgainst], [Math.floor(NQ / N), 0]);
+});
+
+test('normal difficulty is unchanged: default is normal and wrong answers still follow the strength', () => {
+  eq(mk(0.5).difficulty, 'normal');
+  eq(mkExpert(0, 'whatever').difficulty, 'normal');
+  const m = mkExpert(0, 'normal');
+  while (!m.finished) answerQuestion(m, 'zzz', 100);
+  eq(m.goalsAgainst, 0);
+  eq(summarizeMatch(m, 0).difficulty, 'normal');
+});
+
+test('resolveDifficulty: only the u13 squad can get expert', () => {
+  eq([resolveDifficulty('u13', 'expert'), resolveDifficulty('u13', 'normal'), resolveDifficulty('u13', undefined), resolveDifficulty('u13', 'x')], ['expert', 'normal', 'normal', 'normal']);
+  eq([resolveDifficulty('u10', 'expert'), resolveDifficulty(null, 'expert'), resolveDifficulty(undefined, 'expert')], ['normal', 'normal', 'normal']);
 });

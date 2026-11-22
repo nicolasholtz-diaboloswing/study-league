@@ -67,9 +67,9 @@ test('rewards: a rarity with no cards is skipped', () => {
 
 const player = () => newPlayerState({ username: 'kid', displayName: 'Kid', squad: 'u13', club: 'My FC', now: 0 });
 
-test('badges: about 24, unique ids, complete definitions', () => {
-  eq(BADGES.length, 24);
-  eq(new Set(BADGES.map((b) => b.id)).size, 24);
+test('badges: about 25, unique ids, complete definitions', () => {
+  eq(BADGES.length, 25);
+  eq(new Set(BADGES.map((b) => b.id)).size, 25);
   for (const b of BADGES) assert(b.id && b.name && b.desc && b.icon && typeof b.check === 'function', b.id);
 });
 
@@ -96,6 +96,11 @@ test('badges: unique cards, match counts, titles', () => {
   assert(evaluateBadges(s).some((b) => b.id === 'cards-36'));
   assert(!evaluateBadges(s, { totalCards: 72 }).some((b) => b.id === 'cards-all'));
   assert(evaluateBadges(s, { totalCards: 36 }).some((b) => b.id === 'cards-all'));
+  assert(!evaluateBadges(s).some((b) => b.id === 'cards-all'), 'no deck size, no album badge');
+  assert(!evaluateBadges(s, { totalCards: 191 }).some((b) => b.id === 'cards-100'));
+  for (let i = 0; i < 100; i++) s.cards['p' + i] = 1;
+  const ids100 = evaluateBadges(s, { totalCards: 191 }).map((b) => b.id);
+  assert(ids100.includes('cards-100') && !ids100.includes('cards-all'), 'whole album is the whole deck, not 72');
 });
 
 test('badges: topic mastered and subject mastered (needs catalog)', () => {
@@ -105,6 +110,7 @@ test('badges: topic mastered and subject mastered (needs catalog)', () => {
   assert(ids.includes('topic-master'));
   assert(!ids.includes('subject-master'));
   s.topics['en-verbs'] = { recent: Array(20).fill(1), answered: 20, correct: 20, lastAt: 0 };
+  s.topics['en-verbs-pp'] = { recent: Array(20).fill(1), answered: 20, correct: 20, lastAt: 0 };
   ids = evaluateBadges(s, { catalog: SUBJECTS }).map((b) => b.id);
   assert(ids.includes('subject-master'));
   assert(!evaluateBadges(s).some((b) => b.id === 'subject-master'), 'no catalog, no subject badge');

@@ -1,7 +1,7 @@
 // Result screen: shows the already-applied match (the match view applies it once, then navigates here).
 import * as C from '../components.js';
 import * as E from '../effects.js';
-import { divisionName } from '../../core/league.js';
+import { divisionName, seasonLength } from '../../core/league.js';
 import { listTopics } from '../../core/questions.js';
 import { minCorrectForLossCoins } from '../../core/rewards.js';
 import { flow } from '../flow.js';
@@ -71,7 +71,7 @@ export default {
       const second = md.table?.[1];
       const mine = md.table?.find((row) => row.isPlayer);
       const gap = md.position > 2 && second && mine ? Math.max(1, second.pts - mine.pts) : 0;
-      extras.push(`<div class="panel result__big"><span class="result__big-icon" aria-hidden="true">📊</span><div><b class="display">Tu es ${ordinal(md.position)} au classement</b><br><span class="text-dim">${divisionName(ctx.state.league.season.division)}, ${md.matchday + 1} journée${md.matchday ? 's' : ''} jouée${md.matchday ? 's' : ''} sur 14.</span>
+      extras.push(`<div class="panel result__big"><span class="result__big-icon" aria-hidden="true">📊</span><div><b class="display">Tu es ${ordinal(md.position)} au classement</b><br><span class="text-dim">${divisionName(ctx.state.league.season.division)}, ${md.matchday + 1} journée${md.matchday ? 's' : ''} jouée${md.matchday ? 's' : ''} sur ${seasonLength(ctx.state.league.season)}.</span>
         ${gap ? `<br><span class="result__gap">Il te manque ${gap} point${gap > 1 ? 's' : ''} pour être 2e (zone de montée).</span>` : ''}</div></div>`);
     }
     for (const m of mastery) extras.push(`<div class="panel result__big"><span class="result__big-icon" aria-hidden="true">🌟</span><div><b class="display">${esc(topicNames[m.topicId] || 'Thème')} : ${m.to} étoile${m.to > 1 ? 's' : ''} !</b><br><span class="text-dim">Tu progresses dans ce thème.</span></div></div>`);
@@ -98,6 +98,7 @@ export default {
 
     el.innerHTML = `<div class="page page--narrow result">
       ${score}
+      ${league && result.difficulty === 'expert' ? `<p class="text-center">${C.pill('Mode expert', 'gold')}</p>` : ''}
       ${headline}
       <div class="grid grid--2">
         ${C.statTile({ label: 'bonnes réponses', value: `${result.correct} / ${result.total}`, tone: result.perfect ? 'gold' : 'ok', icon: '✅' })}

@@ -29,12 +29,28 @@ test('checkAnswer: string answer, array answers, empty, null', () => {
   assert(!checkAnswer({ type: 'input', answer: 'eté' }, 'ete'));
 });
 
+test('displayAnswer: numeric typing variants shown once, text forms kept', () => {
+  const d = (answer) => displayAnswer({ type: 'input', answer });
+  eq(d(['-8,5', '-8.5', '−8,5', '−8.5']), '-8,5');
+  eq(d(['4752', '4 752']), '4752');
+  eq(d(['4752', '4 752']), '4752');
+  eq(d(['3', '+3']), '3');
+  eq(d(['1,5', '1.5']), '1,5');
+  eq(d(['got', 'gotten']), 'got / gotten');
+  eq(d(['does not', "doesn't"]), "does not / doesn't");
+  eq(d('went'), 'went');
+  eq(d(['12', '15']), '12 / 15');
+  assert(checkAnswer({ type: 'input', answer: ['-8,5', '-8.5'] }, '-8.5'));
+});
+
 test('listTopics: squad filtering and subject filter', async () => {
   const cat = await loadCatalog(fetchJson);
-  eq(listTopics(cat, 'u13').map((t) => t.id), ['en-det', 'en-verbs', 'fr-gram']);
+  eq(listTopics(cat, 'u13').map((t) => t.id), ['en-det', 'en-verbs', 'en-verbs-pp', 'fr-gram']);
   eq(listTopics(cat, 'u10').map((t) => t.id), ['en-verbs']);
   eq(listTopics(cat, 'u13', 'fr').map((t) => t.id), ['fr-gram']);
   eq(listTopics(cat, 'u13')[0].subjectName, 'English');
+  eq(listTopics(cat, 'u13').map((t) => t.accents), [false, false, false, true], 'accents flag comes from the subject');
+  eq(listTopics(cat, 'u13')[2].forms, ['past', 'pp']);
   eq(listSubjects(cat, 'u10').map((s) => s.id), ['en']);
 });
 
@@ -77,6 +93,26 @@ test('expandVerbs: 2 questions per verb, both about the past simple, ids stable,
   eq(expandVerbs(FILES['data/en/verbs.json']), qs, 'deterministic');
   eq(qs[0].type, 'input');
   eq(qs[0].answer, 'went');
+});
+
+test('expandVerbs with forms past + pp: 3 questions per verb, participle typed, correction base → past → pp', () => {
+  const file = FILES['data/en/verbs.json'];
+  const qs = expandVerbs(file, 'en-verbs-pp', ['past', 'pp']);
+  eq(qs.length, 18);
+  eq(new Set(qs.map((q) => q.id)).size, 18);
+  eq(qs.slice(0, 3).map((q) => q.id), ['en-verbs-pp-go-past', 'en-verbs-pp-go-form', 'en-verbs-pp-go-pp']);
+  const pp = qs.find((q) => q.id === 'en-verbs-pp-go-pp');
+  eq([pp.type, pp.prompt, pp.answer, pp.label, pp.group], ['input', 'I have ___ . (to go)', 'gone', 'Past participle', 'go']);
+  eq(qs.filter((q) => q.group === 'go').map((q) => q.explain), ['go → went → gone', 'go → went → gone', 'go → went → gone']);
+  const get = qs.find((q) => q.id === 'en-verbs-pp-get-pp');
+  eq(get.answer, ['got', 'gotten']);
+  assert(checkAnswer(get, 'gotten') && checkAnswer(get, 'Got') && !checkAnswer(get, 'get'));
+  eq(qs.find((q) => q.id === 'en-verbs-pp-be-past').explain, 'be → was / were → been');
+  eq(qs.find((q) => q.id === 'en-verbs-pp-get-form').explain, 'get → got → got / gotten');
+  // the past simple questions are the same as without pp (apart from the correction)
+  const plain = expandVerbs(file, 'en-verbs-pp');
+  eq(qs.filter((q) => !q.id.endsWith('-pp')).map(({ explain, ...r }) => r), plain.map(({ explain, ...r }) => r));
+  eq(expandVerbs(file, 'x', ['past']), expandVerbs(file, 'x'), 'forms past only = default');
 });
 
 test('expandVerbs: mcq has 4 distinct choices, one correct, no participle-only form (sample verbs)', () => {
@@ -131,6 +167,10 @@ test('loadTopicQuestions tags topicId and expands verbs', async () => {
   const verbs = await loadTopicQuestions(fetchJson, topics[1]);
   eq(verbs.length, 12);
   assert(verbs.every((q) => q.topicId === 'en-verbs'));
+  const verbsPp = await loadTopicQuestions(fetchJson, topics[2]); // same file, forms from the topic
+  eq(verbsPp.length, 18);
+  assert(verbsPp.every((q) => q.topicId === 'en-verbs-pp'));
+  eq(new Set([...verbs, ...verbsPp].map((q) => q.id)).size, 30, 'ids of the two verb topics never collide');
 });
 
 test('pickQuestions: 10 unique ids, mcq choices shuffled but intact', async () => {

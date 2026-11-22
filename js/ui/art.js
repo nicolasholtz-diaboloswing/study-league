@@ -162,10 +162,16 @@ const FLAGS = {
   Morocco: '<rect width="30" height="20" fill="#c1272d"/><path d="M15 5.5 l1.3 3.9 4.1 0 -3.3 2.4 1.3 3.9 -3.4-2.4 -3.4 2.4 1.3-3.9 -3.3-2.4 4.1 0z" fill="none" stroke="#0b6b3a" stroke-width="1.1"/>',
   Mexico: bands(['#006847', '#fff', '#ce1126']) + '<circle cx="15" cy="10" r="2.4" fill="#9b7a3a" opacity=".85"/>',
 };
+const NATION_LABEL = {
+  Argentina: 'Argentine', England: 'Angleterre', Spain: 'Espagne', Germany: 'Allemagne', Italy: 'Italie',
+  Netherlands: 'Pays-Bas', Belgium: 'Belgique', Morocco: 'Maroc', Brazil: 'Brésil',
+};
+/** French name of a nation key (the keys of FLAGS and of the `nation` field of a card). */
+export const nationLabel = (n) => NATION_LABEL[n] || n;
 /** Small SVG flag for a nation name (falls back to a neutral flag). */
 export function flag(nation, width = 24) {
   const inner = FLAGS[nation] || '<rect width="30" height="20" fill="#3a4a78"/><text x="15" y="14" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">?</text>';
-  return `<svg class="art art-flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20" width="${width}" height="${Math.round(width * 2 / 3)}" role="img" aria-label="${esc(nation)}" focusable="false"><rect width="30" height="20" rx="2.5" fill="#222"/><g clip-path="inset(0 round 2.5px)">${inner}</g><rect width="30" height="20" rx="2.5" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/></svg>`;
+  return `<svg class="art art-flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20" width="${width}" height="${Math.round(width * 2 / 3)}" role="img" aria-label="${esc(nationLabel(nation))}" focusable="false"><rect width="30" height="20" rx="2.5" fill="#222"/><g clip-path="inset(0 round 2.5px)">${inner}</g><rect width="30" height="20" rx="2.5" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/></svg>`;
 }
 
 /* ---------- Player portrait ---------- */

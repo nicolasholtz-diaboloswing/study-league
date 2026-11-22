@@ -30,9 +30,28 @@ export function acceptedAnswers(q) {
   return toArray(q.answer).map(String);
 }
 
-/** The answer as shown to the player: accepted forms joined with " / ". */
+/** Canonical numeric form of a typed answer ("−8,5" -> "-8.5", "4 752" -> "4752", "+3" -> "3"), or null if not purely numeric. */
+export function numericKey(s) {
+  const c = String(s)
+    .replace(/[−–]/g, '-')
+    .replace(/\s/g, '') // \s covers no-break and thin spaces
+    .replace(',', '.')
+    .replace(/^\+/, '');
+  return /^-?\d+(\.\d+)?$/.test(c) ? c : null;
+}
+
+/** The answer as shown to the player: accepted forms joined with " / ", keeping one form per group of numeric typing variants. */
 export function displayAnswer(q) {
-  return acceptedAnswers(q).join(' / ');
+  const seen = new Set();
+  return acceptedAnswers(q)
+    .filter((a) => {
+      const k = numericKey(a);
+      if (k === null) return true;
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
+    })
+    .join(' / ');
 }
 
 /** `given` is the player's string (a choice for mcq, typed text for input). */
@@ -53,7 +72,7 @@ export async function loadCatalog(fetchJson) {
 
 /**
  * Topics offered to a squad, flattened. Optional subjectId filter.
- * Each: { id, name, file, squads, subjectId, subjectName, icon }
+ * Each: { id, name, file, squads, subjectId, subjectName, icon, accents } (accents: the subject shows accent keys; `group`, `forms` are optional topic fields)
  */
 export function listTopics(catalog, squad, subjectId = null) {
   const out = [];
@@ -61,7 +80,7 @@ export function listTopics(catalog, squad, subjectId = null) {
     if (subjectId && s.id !== subjectId) continue;
     for (const t of s.topics || []) {
       if (squad && t.squads && !t.squads.includes(squad)) continue;
-      out.push({ ...t, subjectId: s.id, subjectName: s.name, icon: s.icon });
+      out.push({ ...t, subjectId: s.id, subjectName: s.name, icon: s.icon, accents: !!s.accents });
     }
   }
   return out;
@@ -102,12 +121,15 @@ function ingForm(base) {
 }
 
 /**
- * Expand a `"kind":"verbs"` file into 2 questions per verb, both about the past simple (the past participle is not asked):
+ * Expand a `"kind":"verbs"` file into 2 questions per verb about the past simple:
  *   <topic>-<verb>-past (input, "Yesterday, I ___ . (to go)"), <topic>-<verb>-form (mcq).
- * Ids and distractors are stable (derived from the id). The `pp` field of the data is only used to keep participles
- * out of the choices: a form that is only a past participle is never offered.
+ * With `forms` containing 'pp', a third question per verb asks the past participle: <topic>-<verb>-pp (input,
+ * "I have ___ . (to go)"), and the correction of the three becomes "base → past → pp" (several forms joined by " / ").
+ * Ids and distractors are stable (derived from the id). The `pp` field is never offered in the choices of the mcq:
+ * a form that is only a past participle is never proposed there.
  */
-export function expandVerbs(file, topicId = file.topic) {
+export function expandVerbs(file, topicId = file.topic, forms = ['past']) {
+  const withPp = toArray(forms).includes('pp');
   const verbs = file.verbs || [];
   const used = new Map();
   const infos = verbs.map((v) => {
@@ -124,7 +146,8 @@ export function expandVerbs(file, topicId = file.topic) {
   for (const info of infos) {
     const { v, key, past, pp } = info;
     const level = v.level || 1;
-    const explain = `${v.base} → ${past.join(' / ')}`;
+    const askPp = withPp && pp.length > 0;
+    const explain = `${v.base} → ${past.join(' / ')}${askPp ? ` → ${pp.join(' / ')}` : ''}`;
     const sentence = `Yesterday, I ___ . (to ${v.base})`;
     out.push({
       id: `${topicId}-${key}-past`, topicId, level, type: 'input', group: key, label: 'Past simple',
@@ -154,6 +177,12 @@ export function expandVerbs(file, topicId = file.topic) {
       prompt: `Which one is correct?  ${sentence}`,
       choices, answer: past[0], explain,
     });
+    if (askPp) {
+      out.push({
+        id: `${topicId}-${key}-pp`, topicId, level, type: 'input', group: key, label: 'Past participle',
+        prompt: `I have ___ . (to ${v.base})`, answer: pp.length === 1 ? pp[0] : pp, explain,
+      });
+    }
   }
   return out;
 }
@@ -179,15 +208,15 @@ export function optionChoices(q) {
 }
 
 /** Questions of a parsed topic file, each tagged with topicId. */
-export function questionsFromFile(file, topicId = file.topic) {
-  const qs = file.kind === 'verbs' ? expandVerbs(file, topicId) : (file.questions || []).map((q) => ({ ...q }));
+export function questionsFromFile(file, topicId = file.topic, forms) {
+  const qs = file.kind === 'verbs' ? expandVerbs(file, topicId, forms) : (file.questions || []).map((q) => ({ ...q }));
   return qs.map((q) => ({ ...q, topicId, level: q.level || 1 }));
 }
 
-/** topic = an entry from listTopics (needs .id and .file). */
+/** topic = an entry from listTopics (needs .id and .file; .forms is passed to the verb expansion). */
 export async function loadTopicQuestions(fetchJson, topic) {
   const file = await fetchJson(topic.file);
-  return questionsFromFile(file, topic.id);
+  return questionsFromFile(file, topic.id, topic.forms);
 }
 
 // ---------- selection ----------

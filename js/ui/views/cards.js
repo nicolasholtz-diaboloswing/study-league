@@ -2,7 +2,7 @@
 import * as C from '../components.js';
 import * as A from '../art.js';
 import * as E from '../effects.js';
-import { PACK_COST } from '../../config.js';
+import { PACK_COST, PACK_SIZE } from '../../config.js';
 import { buyPack, openFreePack } from '../../core/state.js';
 import { uniqueCards } from '../../core/stats.js';
 import { RARITIES } from '../../core/rewards.js';
@@ -24,7 +24,13 @@ export default {
       return;
     }
     const cards = [...ctx.cards].sort((a, b) => b.rating - a.rating || a.id.localeCompare(b.id));
-    const filter = { rarity: uniqueCards(state) > 0 ? 'mine' : 'all', pos: 'all' };
+    const filter = { rarity: uniqueCards(state) > 0 ? 'mine' : 'all', pos: 'all', nation: 'all' };
+    const nations = [...new Set(cards.map((c) => c.nation || 'France'))].sort((a, b) => (a === 'France' ? -1 : b === 'France' ? 1 : A.nationLabel(a).localeCompare(A.nationLabel(b), 'fr')));
+    const nationOf = (c) => c.nation || 'France';
+    const nationTabs = () => [{ id: 'all', label: 'Toutes les sélections' }, ...nations.map((n) => {
+      const all = cards.filter((c) => nationOf(c) === n);
+      return { id: n, label: `${A.nationLabel(n)} ${all.filter((c) => state.cards[c.id]).length}/${all.length}` };
+    })];
     let newIds = new Set();
     let busy = false;
     let heldToasts = [];   // badge toasts wait until the reveal is over, so they never cover its title
@@ -49,10 +55,10 @@ export default {
       const fan = `<div class="packbox__fan" aria-hidden="true">${A.cardBack({ size: 'sm' })}${A.cardBack({ size: 'sm' })}${A.cardBack({ size: 'sm' })}</div>`;
       let head, btn;
       if (free > 0) {
-        head = `<h2 class="packbox__title">Paquet offert !</h2><p class="text-dim">Tu as ${free} paquet${free > 1 ? 's' : ''} offert${free > 1 ? 's' : ''} qui t'attend${free > 1 ? 'ent' : ''}. 3 cartes dedans.</p>`;
+        head = `<h2 class="packbox__title">Paquet offert !</h2><p class="text-dim">Tu as ${free} paquet${free > 1 ? 's' : ''} offert${free > 1 ? 's' : ''} qui t'attend${free > 1 ? 'ent' : ''}. ${PACK_SIZE} cartes dedans.</p>`;
         btn = C.button({ label: 'Ouvrir mon paquet offert', variant: 'gold', size: 'lg', block: true, icon: '🎁', attrs: { 'data-pack': 'free' } });
       } else if (coins >= PACK_COST) {
-        head = `<h2 class="packbox__title">Ouvrir un paquet</h2><p class="text-dim">3 cartes pour ${PACK_COST} pièces. Tu en as ${coins}.</p>`;
+        head = `<h2 class="packbox__title">Ouvrir un paquet</h2><p class="text-dim">${PACK_SIZE} cartes pour ${PACK_COST} pièces. Tu en as ${coins}.</p>`;
         btn = C.button({ label: `Acheter un paquet · ${PACK_COST} pièces`, variant: 'gold', size: 'lg', block: true, icon: '🃏', attrs: { 'data-pack': 'buy' } });
       } else {
         head = `<h2 class="packbox__title">Ouvrir un paquet</h2><p class="text-dim">Un paquet coûte ${PACK_COST} pièces. Gagne des matchs pour en avoir plus. Tu en as ${coins}.</p>`;
@@ -64,7 +70,7 @@ export default {
 
     const gridHtml = () => {
       const mine = filter.rarity === 'mine';
-      const shown = cards.filter((c) => (filter.rarity === 'all' || mine || c.rarity === filter.rarity) && (filter.pos === 'all' || c.pos === filter.pos) && (!mine || state.cards[c.id]));
+      const shown = cards.filter((c) => (filter.rarity === 'all' || mine || c.rarity === filter.rarity) && (filter.pos === 'all' || c.pos === filter.pos) && (filter.nation === 'all' || nationOf(c) === filter.nation) && (!mine || state.cards[c.id]));
       // owned first (the list is already sorted by rating), then the missing ones
       shown.sort((a, b) => (state.cards[b.id] ? 1 : 0) - (state.cards[a.id] ? 1 : 0));
       const have = shown.filter((c) => state.cards[c.id]).length;
@@ -79,11 +85,12 @@ export default {
     };
 
     const renderAlbum = () => {
-      el.innerHTML = `<div class="page cards-page">${C.pageHead('Mes cartes', { kicker: 'Album', sub: `Gagne des pièces en jouant, puis achète un paquet ici : ${PACK_COST} pièces = 3 cartes.` })}
+      el.innerHTML = `<div class="page cards-page">${C.pageHead('Mes cartes', { kicker: 'Album', sub: `Gagne des pièces en jouant, puis achète un paquet ici : ${PACK_COST} pièces = ${PACK_SIZE} cartes.` })}
         <div class="cards-top">${progress()}${packPanel()}</div>
         <div class="stack stack--sm">
           ${C.tabs(RARITY_TABS, filter.rarity, { scroll: true, attrs: { 'data-filter': 'rarity', 'aria-label': 'Filtrer par rareté' } })}
           ${C.tabs(POS_TABS, filter.pos, { scroll: true, attrs: { 'data-filter': 'pos', 'aria-label': 'Filtrer par poste' } })}
+          ${C.tabs(nationTabs(), filter.nation, { scroll: true, attrs: { 'data-filter': 'nation', 'aria-label': 'Filtrer par sélection' } })}
         </div>
         <div id="album-grid">${gridHtml()}</div></div>`;
       const first = el.querySelector('.album__cell.is-new');

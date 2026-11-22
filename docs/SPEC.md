@@ -10,7 +10,7 @@ Le projet est réussi si les enfants ont envie de rejouer un match, sentent qu'i
 
 - Site statique servi par GitHub Pages depuis la racine du repo (branche `main`). Pas d'étape de build, pas de Node. HTML, CSS et modules ES.
 - Interface en français, avec des mots simples pour un enfant de 9 ans. Les questions d'anglais et leurs explications restent en anglais.
-- Le repo est public : pas de vrais noms d'enfants, pas de secrets. Les cartes portent les noms de vrais joueurs de l'équipe de France (noms seuls, portraits génériques générés). Les clubs adverses sont fictifs.
+- Le repo est public : pas de vrais noms d'enfants, pas de secrets. Les cartes portent les noms de vrais joueurs de sélections nationales (noms seuls, portraits génériques générés). Les clubs adverses sont fictifs.
 - Fonctionne sur téléphone, tablette et ordinateur (tactile d'abord, 360 px de large minimum).
 - Ajouter une matière plus tard (maths, physique, SVT, chinois YCT2) = ajouter des fichiers JSON et une entrée dans `data/subjects.json`. Le moteur ne change pas.
 - Stockage : le mode local (localStorage) marche d'emblée. Le mode cloud (Firebase Auth + Firestore) s'active quand `js/config.js` contient une configuration Firebase.
@@ -19,8 +19,8 @@ Le projet est réussi si les enfants ont envie de rejouer un match, sentent qu'i
 
 ### Équipes (squads)
 Choisie à l'inscription, l'équipe détermine les notions proposées.
-- `u13` « Pro Squad » (11 ans et plus) : toutes les notions d'anglais et de français.
-- `u10` « Academy Squad » (8–10 ans) : les notions marquées `u10` (en v1 : verbes irréguliers anglais).
+- `u13` « Pro Squad » (11 ans et plus) : toutes les matières (anglais, français, maths, SVT, physique-chimie, histoire-géo).
+- `u10` « Academy Squad » (8–10 ans) : les notions marquées `u10` (verbes irréguliers anglais au prétérit, français du CM1).
 
 ### Match
 - 10 questions, soit environ 3 minutes. Chaque question est une « minute » du match (9', 18' … 90').
@@ -29,6 +29,7 @@ Choisie à l'inscription, l'équipe détermine les notions proposées.
 - Après chaque réponse : retour immédiat, bonne réponse, explication en une ligne.
 - **Buts marqués** : une bonne réponse sur deux marque un but (une jauge d'attaque à deux crans le rend visible, avec le décompte « Encore 2 bonnes réponses pour marquer »). 10/10 = 5 buts. La règle est expliquée avant le match (« 2 bonnes réponses = 1 but »), et une fois avant la toute première question. Une courte animation montre un joueur aux couleurs du club qui tire et marque.
 - **Buts encaissés** : chaque mauvaise réponse donne une occasion à l'adversaire, qui marque avec une probabilité égale à sa force (0,35 à 0,90), tirée par un générateur aléatoire à graine.
+- **Mode expert** (u13 seulement, championnat seulement) : choisi sur l'écran d'avant-match (« Normal » / « Expert », mémorisé dans `state.difficulty`, hors `profile`). Les buts marqués ne changent pas ; chaque mauvaise réponse ou chrono écoulé donne un but à l'adversaire, sans tirage (cette règle remplace la probabilité de force). XP et pièces inchangés. Le mode est porté par le match, par `pendingMatch` (forfait après rechargement) et par `matches[].difficulty` (présent seulement pour « expert »). Un joueur u10 joue toujours en normal.
 - Victoire, nul ou défaite selon le score.
 - Vérification des réponses tapées : espaces de début et de fin retirés, casse ignorée, espaces multiples réduits, apostrophes normalisées. Les accents comptent.
 
@@ -49,10 +50,10 @@ Une question ne revient pas tant que toutes les questions de la notion n'ont pas
 
 ### Récompenses
 - XP : 10 par bonne réponse, jusqu'à +5 de bonus de rapidité, +50 pour une victoire, +20 pour un nul, +10 pour une défaite. Niveaux calculés depuis l'XP, avec des paliers croissants.
-- Pièces : victoire 30, nul 15, défaite 5, +10 pour un 10/10 ; une défaite avec moins d'un tiers de bonnes réponses ne rapporte rien. Un paquet de cartes coûte 50 pièces et contient 3 cartes.
-- Paquet offert : à chaque montée, à chaque titre, à chaque niveau multiple de 5.
-- Cartes : 72 joueurs de l'équipe de France, de 1998 à aujourd'hui, dans `data/cards.json` (nom, poste GK/DEF/MID/FWD, époque, note, rareté). Chances par rareté : commune 60 %, rare 28 %, épique 10 %, légende 2 %. Les doublons sont comptés. L'album affiche le nombre de cartes obtenues sur le total, les manquantes en silhouette.
-- Badges : environ 24 paliers (première victoire, série de 3/5/10 victoires, hat-trick = 3 buts ou plus, clean sheet, match parfait, 10/50/100 matchs, montée, titre, notion maîtrisée, toutes les notions d'une matière maîtrisées, 3/7 jours de jeu d'affilée, 10/36/72 cartes différentes, première carte légende, 100/500/1000 bonnes réponses…).
+- Pièces : victoire 30, nul 15, défaite 5, +10 pour un 10/10 ; une défaite avec moins d'un tiers de bonnes réponses ne rapporte rien. Un paquet de cartes coûte 150 pièces et contient 3 cartes.
+- Paquet offert : à chaque montée, à chaque titre, à chaque niveau multiple de 10.
+- Cartes : 191 joueurs dans `data/cards.json` : 72 de l'équipe de France (ids p001 à p072) et 10 à 12 de chacune de dix autres sélections (Argentine, Angleterre, Espagne, Portugal, Brésil, Allemagne, Italie, Pays-Bas, Belgique, Maroc ; ids p073 à p191). Champs : nom, poste GK/DEF/MID/FWD, sélection (`nation`, clé de `flag` dans `js/ui/art.js`), époque, note, rareté. Par sélection : 1 légende, 2 épiques, 4 rares, le reste communes (France : 4/10/22/36). Chances par rareté : commune 60 %, rare 28 %, épique 10 %, légende 2 %. Les doublons sont comptés. L'album affiche le nombre de cartes obtenues sur le total, les manquantes en silhouette, avec un filtre par sélection.
+- Badges : environ 25 paliers (première victoire, série de 3/5/10 victoires, hat-trick = 3 buts ou plus, clean sheet, match parfait, 10/50/100 matchs, montée, titre, notion maîtrisée, toutes les notions d'une matière maîtrisées, 3/7 jours de jeu d'affilée, 10/36/100 cartes différentes, album complet, première carte légende, 100/500/1000 bonnes réponses…).
 - Maîtrise d'une notion : taux de réussite sur les 20 dernières réponses de la notion, affiché en 0 à 3 étoiles (≥ 50 %, ≥ 70 %, ≥ 90 %, avec au moins 10 réponses).
 - Série de jours : jours calendaires consécutifs avec au moins un match.
 
@@ -74,9 +75,10 @@ Un compte de rôle `coach`. Il voit chaque joueur : dernière activité, temps d
 
 `data/subjects.json`
 ```json
-{ "subjects": [ { "id": "en", "name": "English", "icon": "🇬🇧",
-  "topics": [ { "id": "en-determiners", "name": "Determiners", "file": "data/en/determiners.json", "squads": ["u13"] } ] } ] }
+{ "subjects": [ { "id": "en", "name": "Anglais", "icon": "🇬🇧", "accents": false,
+  "topics": [ { "id": "en-determiners", "name": "Determiners & articles", "file": "data/en/determiners.json", "squads": ["u13"], "group": "Intuitive English" } ] } ] }
 ```
+Champs facultatifs : `accents` (matière) affiche les touches d'accents pendant les questions tapées ; `group` (thème) range les thèmes d'une matière par rubrique, dans l'ordre où elles apparaissent, les thèmes sans rubrique venant après ; `forms` (thème de verbes) vaut `["past"]` par défaut, `["past","pp"]` ajoute le participe passé. Deux thèmes peuvent partager un fichier (les verbes) : son champ `topic` est alors l'un des deux.
 
 Fichier de notion standard
 ```json
@@ -86,11 +88,12 @@ Fichier de notion standard
 ```
 - `level` : 1 facile, 2 moyen, 3 difficile. Pour un mcq, `answer` est exactement l'un des `choices` ; pour un input, une chaîne ou un tableau de réponses acceptées. `explain` tient en une phrase courte.
 
-Fichier de verbes irréguliers (`"kind": "verbs"`) : `{ "topic": "en-irregular-verbs", "kind": "verbs", "verbs": [ { "base": "go", "past": "went", "pp": "gone", "level": 1 } ] }` — `past` peut être un tableau de formes acceptées (par exemple `["dived", "dove"]`). Le champ `pp` reste dans le fichier mais n'est jamais demandé ni affiché : l'enfant n'apprend que la forme de base et le prétérit. Le moteur génère deux questions par verbe, toutes deux sur le prétérit : taper le prétérit (« Yesterday, I ___ . (to go) ») et choisir la bonne forme dans un mcq. Les mauvais choix sont de fausses régularisations (« goed »), la forme de base, la troisième personne ou la forme en -ing, jamais un participe passé seul (« gone »). La correction affichée est « go → went » (« dive → dived / dove » quand deux formes sont acceptées).
+Fichier de verbes irréguliers (`"kind": "verbs"`) : `{ "topic": "en-irregular-verbs", "kind": "verbs", "verbs": [ { "base": "go", "past": "went", "pp": "gone", "level": 1 } ] }` — `past` peut être un tableau de formes acceptées (par exemple `["dived", "dove"]`). Le champ `pp` n'est demandé que par les thèmes dont `forms` contient `"pp"` (équipe `u13`) ; l'équipe `u10` n'apprend que la forme de base et le prétérit. Le moteur génère deux questions par verbe sur le prétérit : taper le prétérit (« Yesterday, I ___ . (to go) ») et choisir la bonne forme dans un mcq. Les mauvais choix sont de fausses régularisations (« goed »), la forme de base, la troisième personne ou la forme en -ing, jamais un participe passé seul (« gone »). La correction affichée est « go → went » (« dive → dived / dove » quand deux formes sont acceptées). Avec `"pp"`, une troisième question demande le participe passé (« I have ___ . (to go) », identifiant `<thème>-<verbe>-pp`), les formes multiples sont toutes acceptées (« got » et « gotten »), et la correction des trois questions devient « go → went → gone ». Les deux thèmes de verbes (`en-irregular-verbs` pour `u10`, `en-irregular-verbs-pp` pour `u13`) lisent le même fichier ; leurs identifiants de question diffèrent.
 
 Notions de la v1
-- Anglais (`u13`) : Determiners, Past simple, Past perfect (y compris past simple contre past perfect). Anglais (`u10` et `u13`) : Irregular verbs.
-- Français (`u13`) : Conjugaison, Orthographe et accords, Grammaire, Vocabulaire.
+- Anglais (`u13`), par rubrique : Beowulf ; Intuitive English (Prepositions, Determiners & articles, Conjunctions) ; DOL (Sentence corrections) ; Verb Tense (Mixed tenses, Present simple & continuous, Present perfect, Past simple, Irregular verbs avec participe passé) ; Hero's Journey ; Burger Paragraph ; More grammar (Past perfect). Anglais (`u10`) : Irregular verbs, prétérit seulement.
+- Français (`u13`) : Conjugaison, Le verbe et le présent, Orthographe et accords, Grammaire, Vocabulaire. Français (`u10`) : Présent, Futur simple, Imparfait.
+- Mathématiques, SVT, Physique-chimie, Histoire-Géo (`u13`). Histoire-Géo est en anglais, sans touches d'accents ; SVT et Physique-chimie ont les touches d'accents.
 
 ## Architecture
 
@@ -118,8 +121,9 @@ Stade un soir de match : fond bleu nuit et vert pelouse, halo de projecteurs, or
 - Revue de sécurité par un agent dédié avant la mise en ligne.
 - Tests unitaires dans `tests/tests.html`, lancés sans interface avec Edge (`--headless --dump-dom`) via un `python -m http.server` local.
 - Passe de bout en bout avec Playwright (Python, canal Edge), gardée hors du repo : inscription, match de championnat, résultat, ouverture de paquet, entraînement, vue coach, second joueur et rivaux, en 390 px et 1280 px.
+- `tests/content.test.js` lit les vrais fichiers de `data/` : identifiants uniques, forme des questions, QCM à 4 choix distincts, réponses décimales avec virgule et point.
 - Relecture du contenu : chaque question vérifiée (une seule bonne réponse, niveau adapté, explication juste).
 
 ## Hors périmètre de la v1
 
-Relégation, duels en temps réel, autres matières, son, réinitialisation du mot de passe en mode local.
+Relégation, duels en temps réel, chinois, son, réinitialisation du mot de passe en mode local.

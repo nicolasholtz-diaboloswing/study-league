@@ -11,7 +11,7 @@ Imports from a view (`js/ui/...`): `import { ... } from '../core/match.js'`, `im
 - Speed bonus (spec: "up to +5") is **per correct answer**, 0 to 5 depending on the share of that question's time limit used (<=10 %: 5, <=20 %: 4, <=35 %: 3, <=50 %: 2, <=70 %: 1, else 0). A perfect match can therefore earn up to 75 bonus XP.
 - Training uses a neutral "Équipe d'entraînement" opponent (strength 0.5), so a score and W/D/L exist, but nothing reaches the league, coins or win streak. Training matches do count in `totals.matches`, `correct`, `answered`, `perfect`, mastery, streak and activity. XP is halved (rounded down), no coins.
 - Totals for wins/draws/losses/goals/streak/clean sheets/hat-tricks count **league matches only**.
-- Free packs: one for each promotion, one for each title (winning the top division gives the title pack but no promotion pack; winning a lower division gives both), one per level that is a multiple of 5 (one pack per such level crossed).
+- Free packs: one for each promotion, one for each title (winning the top division gives the title pack but no promotion pack; winning a lower division gives both), one per level that is a multiple of 10 (one pack per such level crossed).
 - Question selection order, across all levels: never seen, then last answered wrong, then least recently seen (questions of the same match share a timestamp). The division level mix only chooses among the questions of the best remaining tier, so **no question repeats while an unseen one remains in the topic**.
 - Coach's pick: lowest recent accuracy; a topic with fewer than 5 recent answers counts as 0.5 (an unplayed topic beats any topic above 50 %).
 - Usernames are case-insensitive and always stored lower case.
@@ -29,9 +29,9 @@ MATCH_QUESTIONS = 10
 TIMER_MCQ_SECONDS = 30
 TIMER_INPUT_SECONDS = 45
 GOAL_EVERY_N_CORRECT = 2
-PACK_COST = 50
+PACK_COST = 150
 PACK_SIZE = 3
-FREE_PACK_EVERY_N_LEVELS = 5
+FREE_PACK_EVERY_N_LEVELS = 10
 TRAINING_XP_FACTOR = 0.5
 HISTORY_LIMIT = 100      // matches kept in state.matches
 MASTERY_WINDOW = 20
@@ -63,22 +63,25 @@ Types used below:
 ```js
 Question = { id, topicId, level: 1|2|3, type: 'mcq'|'input', prompt, choices?: string[] (mcq),
              answer: string | string[], explain: string }
-Topic    = { id, name, file, squads: string[], subjectId, subjectName, icon }   // from listTopics
+Topic    = { id, name, file, squads: string[], subjectId, subjectName, icon, accents: boolean,
+             group?: string, forms?: ('past'|'pp')[] }   // from listTopics; accents = the subject shows accent keys
 ```
 
 ```js
 normalizeAnswer(s) -> string           // NFC, apostrophes unified, spaces collapsed, trimmed, lower case; accents kept
 acceptedAnswers(q) -> string[]
-displayAnswer(q) -> string             // accepted forms joined with ' / '
+displayAnswer(q) -> string             // accepted forms joined with ' / ' (numeric typing variants like '-8,5' / '−8.5' / '4 752' shown once)
 checkAnswer(q, given: string|null) -> boolean
 
 loadCatalog(fetchJson) -> Promise<{ subjects }>          // fetchJson('data/subjects.json')
-listTopics(catalog, squad, subjectId?) -> Topic[]        // squad 'u13'|'u10'; subjectId optional filter
+listTopics(catalog, squad, subjectId?) -> Topic[]        // squad 'u13'|'u10'; subjectId optional filter; adds subjectId, subjectName, icon, accents (from the subject)
 listSubjects(catalog, squad) -> [{ id, name, icon, topics: Topic[] }]   // only subjects with topics for the squad
 
-expandVerbs(file, topicId?) -> Question[]        // 2 per verb, both about the past simple: <topic>-<verb>-past (input), -form (mcq); correction "base → past"; `pp` is never asked or offered
-questionsFromFile(file, topicId?) -> Question[]  // handles standard and "kind":"verbs" files
-loadTopicQuestions(fetchJson, topic: Topic) -> Promise<Question[]>   // fetchJson(topic.file)
+expandVerbs(file, topicId?, forms = ['past']) -> Question[]   // 2 per verb about the past simple: <topic>-<verb>-past (input), -form (mcq); correction "base → past".
+                                                      // forms containing 'pp' adds <topic>-<verb>-pp (input, "I have ___ . (to go)") and the correction becomes "base → past → pp".
+                                                      // The mcq never offers a participle-only form.
+questionsFromFile(file, topicId?, forms?) -> Question[]  // handles standard and "kind":"verbs" files; forms only matters for verbs files
+loadTopicQuestions(fetchJson, topic: Topic) -> Promise<Question[]>   // fetchJson(topic.file); passes topic.forms
 
 pickQuestions(pool: Question[], { n = MATCH_QUESTIONS, history = {}, division = null, rng }) -> Question[]
 LEVEL_WEIGHTS   // per division index, weights for level 1/2/3
@@ -86,6 +89,12 @@ LEVEL_WEIGHTS   // per division index, weights for level 1/2/3
 - `fetchJson(path) -> Promise<object>` is yours to provide (e.g. `(p) => fetch(p).then((r) => r.json())`). Cache loaded pools in the view layer if wanted.
 - `pickQuestions` takes the pool of **one topic**, `history = state.questions`, `division` = the league division index (0..4) or `null` for training (flat level mix). Returns copies in play order, mcq `choices` shuffled. Fewer than `n` are returned only if the pool is smaller.
 - `checkAnswer` for an mcq compares the chosen string with `answer`; for input, the typed text with any accepted form.
+- Topic `group` (a section name of a subject, from the catalog) is unrelated to the `group` of a question (the questions of one verb, never both picked in a match while others remain).
+
+`js/ui/shell-utils.js`
+```js
+groupTopics(topics: Topic[]) -> [{ group: string|null, topics: Topic[] }]   // by topic.group, in order of first appearance; topics without a group last, with group null
+```
 
 ## `js/core/match.js`
 
@@ -93,7 +102,7 @@ LEVEL_WEIGHTS   // per division index, weights for level 1/2/3
 PRACTICE_OPPONENT = { id: 'practice', name: "Équipe d'entraînement", strength: 0.5 }
 
 createMatch({ mode = 'league', questions, opponent = null, topicId, subjectId = null,
-              division = 0, coachPick = false, rng, now }) -> match
+              division = 0, coachPick = false, difficulty = 'normal', rng, now }) -> match
 currentQuestion(match) -> Question | null          // null once finished
 currentMinute(match) -> number                     // 6, 12, ... 90
 currentTimeLimitMs(match) -> number | null         // null in training
@@ -103,11 +112,13 @@ summarizeMatch(match, now) -> MatchResult          // match must be finished
 timeLimitSeconds(question) -> 30 | 45
 speedBonus(ms, question) -> 0..5
 minuteOf(index, total) -> number
+resolveDifficulty(squad, wanted) -> 'expert' only for squad 'u13' and wanted 'expert', else 'normal'
 outcomeOf(goalsFor, goalsAgainst) -> 'W'|'D'|'L'
 ```
 - `mode`: `'league'` (timed, opponent required) or `'training'` (untimed, opponent ignored/neutral).
 - `opponent`: `{ id, name, strength }`; take it from `nextFixture(season)`: `{ id: f.opponent.id, name: f.opponent.name, strength: f.strength }`.
 - `coachPick: true` if the topic chosen is the coach's pick (+50 % coins).
+- `difficulty`: `'normal'` (a wrong answer concedes with probability = opponent strength) or `'expert'` (every wrong answer or timeout concedes, no random draw). The caller resolves it with `resolveDifficulty(squad, wanted)` / `playerDifficulty(state)`. `summarizeMatch` returns it as `difficulty`.
 - The match object is **mutable** and holds the rng; do not store it in the player state. Useful fields: `index` (next question), `questions`, `correct`, `goalsFor`, `goalsAgainst`, `finished`, `opponent`, `timed`.
 - Pass `given = null` when the timer expires (or call `timeoutQuestion`).
 
@@ -245,10 +256,12 @@ openFreePack(state, ctx) -> { state, cards: [{card, isNew}], events }  // uses s
   cards:     { [cardId]: count },
   badges:    { [badgeId]: earnedAtMs },
   streak:    { current, best, lastDay: 'YYYY-MM-DD'|null },
-  activity:  { ['YYYY-MM-DD']: { matches, xp, answered, correct, ms } }   // last 60 days
+  activity:  { ['YYYY-MM-DD']: { matches, xp, answered, correct, ms } },  // last 60 days
+  pendingMatch: null | { mode:'league', opponent, topicId, subjectId, division, total, startedAt, difficulty?: 'expert' },
+  difficulty: 'normal'|'expert'    // choice for the next league match; top-level on purpose (firestore.rules only restricts `profile`); u13 only, see setDifficulty / playerDifficulty
 }
 MatchRecord = { at, mode, topicId, subjectId, opponent: name, division, goalsFor, goalsAgainst,
-                outcome, correct, total, xp, coins }
+                outcome, correct, total, xp, coins, difficulty?: 'expert' }
 ```
 `p` and `a` on a question are only set once it has been answered wrong (for the coach's most-missed list). Trophies: `league.history.filter((h) => h.champion)`.
 
@@ -259,7 +272,7 @@ MatchRecord = { at, mode, topicId, subjectId, opponent: name, division, goalsFor
 { type: 'coins', base, perfect, coachPick, total }                 // league only; coachPick = bonus part
 { type: 'mastery', topicId, from, to }                             // a topic gained stars
 { type: 'level-up', from, to }
-{ type: 'free-pack', reason: 'level', level }                      // one per multiple of 5 crossed
+{ type: 'free-pack', reason: 'level', level }                      // one per multiple of 10 crossed
 { type: 'streak', days }                                           // first match of a new day
 { type: 'matchday', matchday, results: Fixture[], position, table: TableRow[] }   // league only
 { type: 'free-pack', reason: 'promotion' | 'title' }               // at season end

@@ -4,7 +4,7 @@ import { MATCH_QUESTIONS } from '../../config.js';
 import { listSubjects, listTopics } from '../../core/questions.js';
 import { topicMastery } from '../../core/stats.js';
 import { prepareMatch } from '../flow.js';
-import { subjectLabel, subjectIcon } from '../shell-utils.js';
+import { subjectLabel, subjectIcon, groupTopics } from '../shell-utils.js';
 
 export default {
   title: 'Entraînement',
@@ -24,9 +24,13 @@ export default {
     function viewPicker() {
       return `<div class="page">
         ${C.pageHead('Entraînement', { kicker: 'Terrain d\'entraînement', sub: 'Pas de chrono, pas de pression. Ça ne change pas ton classement. Choisis un thème pour progresser.' })}
-        ${subjects.map((s) => C.section(subjectLabel(s), `<div class="grid grid--3">${s.topics.map((t) => C.topicTile({
-          name: t.name, icon: subjectIcon(s.id, s.icon), stars: topicMastery(st, t.id).stars, meta: meta(t), attrs: { 'data-topic': t.id },
-        })).join('')}</div>`)).join('')}
+        ${subjects.map((s) => {
+          const grid = (ts) => `<div class="grid grid--3">${ts.map((t) => C.topicTile({
+            name: t.name, icon: subjectIcon(s.id, s.icon), stars: topicMastery(st, t.id).stars, meta: meta(t), attrs: { 'data-topic': t.id },
+          })).join('')}</div>`;
+          // a section of the subject (topic `group` in the catalog) gets a sub-heading; topics without one come last
+          return C.section(subjectLabel(s), groupTopics(s.topics).map((sec) => (sec.group ? `<h3 class="topic-group">${C.esc(sec.group)}</h3>` : '') + grid(sec.topics)).join(''));
+        }).join('')}
       </div>`;
     }
 

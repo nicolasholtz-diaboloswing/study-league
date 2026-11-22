@@ -26,10 +26,11 @@ export const SUBJECTS = {
       topics: [
         { id: 'en-det', name: 'Determiners', file: 'data/en/det.json', squads: ['u13'] },
         { id: 'en-verbs', name: 'Irregular verbs', file: 'data/en/verbs.json', squads: ['u10', 'u13'] },
+        { id: 'en-verbs-pp', name: 'Irregular verbs (past + participle)', file: 'data/en/verbs.json', squads: ['u13'], forms: ['past', 'pp'], group: 'Verb Tense' },
       ],
     },
     {
-      id: 'fr', name: 'Francais', icon: 'FR',
+      id: 'fr', name: 'Francais', icon: 'FR', accents: true,
       topics: [{ id: 'fr-gram', name: 'Grammaire', file: 'data/fr/gram.json', squads: ['u13'] }],
     },
   ],

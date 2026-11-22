@@ -719,6 +719,1196 @@
    "rating": 74,
    "rarity": "common",
    "era": "2024"
+  },
+  {
+   "id": "p073",
+   "name": "Lionel Messi",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 95,
+   "rarity": "legend",
+   "era": "2022"
+  },
+  {
+   "id": "p074",
+   "name": "Diego Maradona",
+   "pos": "MID",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "1986"
+  },
+  {
+   "id": "p075",
+   "name": "Gabriel Batistuta",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "1998"
+  },
+  {
+   "id": "p076",
+   "name": "Emiliano Martínez",
+   "pos": "GK",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2022"
+  },
+  {
+   "id": "p077",
+   "name": "Ángel Di María",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2022"
+  },
+  {
+   "id": "p078",
+   "name": "Javier Zanetti",
+   "pos": "DEF",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2002"
+  },
+  {
+   "id": "p079",
+   "name": "Sergio Agüero",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p080",
+   "name": "Rodrigo De Paul",
+   "pos": "MID",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p081",
+   "name": "Nicolás Otamendi",
+   "pos": "DEF",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p082",
+   "name": "Alexis Mac Allister",
+   "pos": "MID",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p083",
+   "name": "Julián Álvarez",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p084",
+   "name": "Lautaro Martínez",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p085",
+   "name": "Harry Kane",
+   "pos": "FWD",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 91,
+   "rarity": "legend",
+   "era": "2024"
+  },
+  {
+   "id": "p086",
+   "name": "David Beckham",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2002"
+  },
+  {
+   "id": "p087",
+   "name": "Jude Bellingham",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "2024"
+  },
+  {
+   "id": "p088",
+   "name": "Wayne Rooney",
+   "pos": "FWD",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p089",
+   "name": "Bobby Charlton",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "1966"
+  },
+  {
+   "id": "p090",
+   "name": "Steven Gerrard",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p091",
+   "name": "Gary Lineker",
+   "pos": "FWD",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "1986"
+  },
+  {
+   "id": "p092",
+   "name": "Gordon Banks",
+   "pos": "GK",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 74,
+   "rarity": "common",
+   "era": "1966"
+  },
+  {
+   "id": "p093",
+   "name": "Bukayo Saka",
+   "pos": "FWD",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p094",
+   "name": "Declan Rice",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p095",
+   "name": "John Stones",
+   "pos": "DEF",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p096",
+   "name": "Jordan Pickford",
+   "pos": "GK",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 71,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p097",
+   "name": "Andrés Iniesta",
+   "pos": "MID",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 93,
+   "rarity": "legend",
+   "era": "2010"
+  },
+  {
+   "id": "p098",
+   "name": "Xavi Hernández",
+   "pos": "MID",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "2010"
+  },
+  {
+   "id": "p099",
+   "name": "Rodri",
+   "pos": "MID",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2024"
+  },
+  {
+   "id": "p100",
+   "name": "Iker Casillas",
+   "pos": "GK",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 83,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p101",
+   "name": "Carles Puyol",
+   "pos": "DEF",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p102",
+   "name": "David Villa",
+   "pos": "FWD",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p103",
+   "name": "Sergio Ramos",
+   "pos": "DEF",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2012"
+  },
+  {
+   "id": "p104",
+   "name": "Sergio Busquets",
+   "pos": "MID",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2010"
+  },
+  {
+   "id": "p105",
+   "name": "Fernando Torres",
+   "pos": "FWD",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2008"
+  },
+  {
+   "id": "p106",
+   "name": "Lamine Yamal",
+   "pos": "FWD",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p107",
+   "name": "Pedri",
+   "pos": "MID",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p108",
+   "name": "Dani Carvajal",
+   "pos": "DEF",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p109",
+   "name": "Cristiano Ronaldo",
+   "pos": "FWD",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 93,
+   "rarity": "legend",
+   "era": "2016"
+  },
+  {
+   "id": "p110",
+   "name": "Eusébio",
+   "pos": "FWD",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "1966"
+  },
+  {
+   "id": "p111",
+   "name": "Luís Figo",
+   "pos": "MID",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2000"
+  },
+  {
+   "id": "p112",
+   "name": "Bernardo Silva",
+   "pos": "MID",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2024"
+  },
+  {
+   "id": "p113",
+   "name": "Rúben Dias",
+   "pos": "DEF",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2024"
+  },
+  {
+   "id": "p114",
+   "name": "Rui Costa",
+   "pos": "MID",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2000"
+  },
+  {
+   "id": "p115",
+   "name": "Pepe",
+   "pos": "DEF",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2016"
+  },
+  {
+   "id": "p116",
+   "name": "Bruno Fernandes",
+   "pos": "MID",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p117",
+   "name": "João Cancelo",
+   "pos": "DEF",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p118",
+   "name": "João Félix",
+   "pos": "FWD",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p119",
+   "name": "Rafael Leão",
+   "pos": "FWD",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p120",
+   "name": "Rui Patrício",
+   "pos": "GK",
+   "nation": "Portugal",
+   "flag": "🇵🇹",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2016"
+  },
+  {
+   "id": "p121",
+   "name": "Pelé",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 94,
+   "rarity": "legend",
+   "era": "1970"
+  },
+  {
+   "id": "p122",
+   "name": "Ronaldo Nazário",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 89,
+   "rarity": "epic",
+   "era": "2002"
+  },
+  {
+   "id": "p123",
+   "name": "Ronaldinho",
+   "pos": "MID",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "2002"
+  },
+  {
+   "id": "p124",
+   "name": "Neymar",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p125",
+   "name": "Roberto Carlos",
+   "pos": "DEF",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2002"
+  },
+  {
+   "id": "p126",
+   "name": "Cafu",
+   "pos": "DEF",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2002"
+  },
+  {
+   "id": "p127",
+   "name": "Romário",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "1994"
+  },
+  {
+   "id": "p128",
+   "name": "Alisson",
+   "pos": "GK",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p129",
+   "name": "Casemiro",
+   "pos": "MID",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p130",
+   "name": "Vinícius Júnior",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p131",
+   "name": "Marcelo",
+   "pos": "DEF",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2014"
+  },
+  {
+   "id": "p132",
+   "name": "Thiago Silva",
+   "pos": "DEF",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2014"
+  },
+  {
+   "id": "p133",
+   "name": "Franz Beckenbauer",
+   "pos": "DEF",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 93,
+   "rarity": "legend",
+   "era": "1974"
+  },
+  {
+   "id": "p134",
+   "name": "Gerd Müller",
+   "pos": "FWD",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "1970"
+  },
+  {
+   "id": "p135",
+   "name": "Lothar Matthäus",
+   "pos": "MID",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "1990"
+  },
+  {
+   "id": "p136",
+   "name": "Miroslav Klose",
+   "pos": "FWD",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p137",
+   "name": "Manuel Neuer",
+   "pos": "GK",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p138",
+   "name": "Philipp Lahm",
+   "pos": "DEF",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p139",
+   "name": "Toni Kroos",
+   "pos": "MID",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p140",
+   "name": "Thomas Müller",
+   "pos": "FWD",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2014"
+  },
+  {
+   "id": "p141",
+   "name": "Bastian Schweinsteiger",
+   "pos": "MID",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2014"
+  },
+  {
+   "id": "p142",
+   "name": "Mesut Özil",
+   "pos": "MID",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2014"
+  },
+  {
+   "id": "p143",
+   "name": "Jamal Musiala",
+   "pos": "MID",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p144",
+   "name": "Antonio Rüdiger",
+   "pos": "DEF",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p145",
+   "name": "Paolo Maldini",
+   "pos": "DEF",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 92,
+   "rarity": "legend",
+   "era": "1994"
+  },
+  {
+   "id": "p146",
+   "name": "Roberto Baggio",
+   "pos": "FWD",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "1994"
+  },
+  {
+   "id": "p147",
+   "name": "Andrea Pirlo",
+   "pos": "MID",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2006"
+  },
+  {
+   "id": "p148",
+   "name": "Gianluigi Buffon",
+   "pos": "GK",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 83,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p149",
+   "name": "Fabio Cannavaro",
+   "pos": "DEF",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p150",
+   "name": "Franco Baresi",
+   "pos": "DEF",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "1982"
+  },
+  {
+   "id": "p151",
+   "name": "Alessandro Del Piero",
+   "pos": "FWD",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p152",
+   "name": "Gennaro Gattuso",
+   "pos": "MID",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "p153",
+   "name": "Giorgio Chiellini",
+   "pos": "DEF",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2021"
+  },
+  {
+   "id": "p154",
+   "name": "Marco Verratti",
+   "pos": "MID",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2021"
+  },
+  {
+   "id": "p155",
+   "name": "Gianluigi Donnarumma",
+   "pos": "GK",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2021"
+  },
+  {
+   "id": "p156",
+   "name": "Federico Chiesa",
+   "pos": "FWD",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2021"
+  },
+  {
+   "id": "p157",
+   "name": "Johan Cruyff",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 93,
+   "rarity": "legend",
+   "era": "1974"
+  },
+  {
+   "id": "p158",
+   "name": "Marco van Basten",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "1988"
+  },
+  {
+   "id": "p159",
+   "name": "Dennis Bergkamp",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "1998"
+  },
+  {
+   "id": "p160",
+   "name": "Virgil van Dijk",
+   "pos": "DEF",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2022"
+  },
+  {
+   "id": "p161",
+   "name": "Arjen Robben",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p162",
+   "name": "Wesley Sneijder",
+   "pos": "MID",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p163",
+   "name": "Ruud van Nistelrooy",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p164",
+   "name": "Frenkie de Jong",
+   "pos": "MID",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p165",
+   "name": "Matthijs de Ligt",
+   "pos": "DEF",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p166",
+   "name": "Memphis Depay",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p167",
+   "name": "Cody Gakpo",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p168",
+   "name": "Denzel Dumfries",
+   "pos": "DEF",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 71,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p169",
+   "name": "Kevin De Bruyne",
+   "pos": "MID",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 90,
+   "rarity": "legend",
+   "era": "2018"
+  },
+  {
+   "id": "p170",
+   "name": "Eden Hazard",
+   "pos": "FWD",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "2018"
+  },
+  {
+   "id": "p171",
+   "name": "Thibaut Courtois",
+   "pos": "GK",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2018"
+  },
+  {
+   "id": "p172",
+   "name": "Romelu Lukaku",
+   "pos": "FWD",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p173",
+   "name": "Vincent Kompany",
+   "pos": "DEF",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p174",
+   "name": "Jan Vertonghen",
+   "pos": "DEF",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p175",
+   "name": "Axel Witsel",
+   "pos": "MID",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 78,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p176",
+   "name": "Dries Mertens",
+   "pos": "FWD",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p177",
+   "name": "Youri Tielemans",
+   "pos": "MID",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p178",
+   "name": "Toby Alderweireld",
+   "pos": "DEF",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p179",
+   "name": "Jérémy Doku",
+   "pos": "FWD",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p180",
+   "name": "Jean-Marie Pfaff",
+   "pos": "GK",
+   "nation": "Belgium",
+   "flag": "🇧🇪",
+   "rating": 70,
+   "rarity": "common",
+   "era": "1986"
+  },
+  {
+   "id": "p181",
+   "name": "Achraf Hakimi",
+   "pos": "DEF",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 89,
+   "rarity": "legend",
+   "era": "2022"
+  },
+  {
+   "id": "p182",
+   "name": "Yassine Bounou",
+   "pos": "GK",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "2022"
+  },
+  {
+   "id": "p183",
+   "name": "Sofyan Amrabat",
+   "pos": "MID",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 85,
+   "rarity": "epic",
+   "era": "2022"
+  },
+  {
+   "id": "p184",
+   "name": "Youssef En-Nesyri",
+   "pos": "FWD",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2022"
+  },
+  {
+   "id": "p185",
+   "name": "Noussair Mazraoui",
+   "pos": "DEF",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2022"
+  },
+  {
+   "id": "p186",
+   "name": "Romain Saïss",
+   "pos": "DEF",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 78,
+   "rarity": "rare",
+   "era": "2022"
+  },
+  {
+   "id": "p187",
+   "name": "Mustapha Hadji",
+   "pos": "MID",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 77,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p188",
+   "name": "Azzedine Ounahi",
+   "pos": "MID",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p189",
+   "name": "Nayef Aguerd",
+   "pos": "DEF",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p190",
+   "name": "Noureddine Naybet",
+   "pos": "DEF",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 72,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p191",
+   "name": "Salaheddine Bassir",
+   "pos": "FWD",
+   "nation": "Morocco",
+   "flag": "🇲🇦",
+   "rating": 70,
+   "rarity": "common",
+   "era": "1998"
   }
  ]
 }

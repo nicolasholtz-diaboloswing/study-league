@@ -32,9 +32,9 @@ export const OPPONENTS_PER_SEASON = 7;
 export const SEASON_MATCHDAYS = OPPONENTS_PER_SEASON; // a season of about one week at one match a day
 
 // Rewards
-export const PACK_COST = 50;
+export const PACK_COST = 150;
 export const PACK_SIZE = 3;
-export const FREE_PACK_EVERY_N_LEVELS = 5;
+export const FREE_PACK_EVERY_N_LEVELS = 10;
 export const TRAINING_XP_FACTOR = 0.5;
 
 // State

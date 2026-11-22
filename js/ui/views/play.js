@@ -5,9 +5,10 @@ import { MATCH_QUESTIONS, MATCH_MINUTES } from '../../config.js';
 import { nextFixture, divisionName, seasonLength } from '../../core/league.js';
 import { listSubjects, listTopics } from '../../core/questions.js';
 import { weakestTopic, topicMastery } from '../../core/stats.js';
-import { RULE } from '../rules.js';
+import { ruleFor } from '../rules.js';
+import { playerDifficulty, setDifficulty } from '../../core/state.js';
 import { prepareMatch } from '../flow.js';
-import { myClub, subjectLabel, subjectIcon } from '../shell-utils.js';
+import { myClub, subjectLabel, subjectIcon, groupTopics } from '../shell-utils.js';
 
 export default {
   title: 'Jouer',
@@ -48,15 +49,27 @@ export default {
     function viewTopic() {
       return `<div class="page page--narrow">
         ${C.pageHead('Quel thème ?', { kicker: subjectLabel(subject), sub: 'Le « Choix du coach » est ton point faible : il rapporte 50 % de pièces en plus.' })}
-        <div class="grid grid--2">${subject.topics.map((t) => C.topicTile({
-          name: t.name, icon: subjectIcon(subject.id, subject.icon), stars: mastery(t).stars, meta: meta(t), coachPick: !!pick && pick.id === t.id, attrs: { 'data-topic': t.id },
-        })).join('')}</div>
+        ${groupTopics(subject.topics).map((sec) => {
+          const grid = `<div class="grid grid--2">${sec.topics.map((t) => C.topicTile({
+            name: t.name, icon: subjectIcon(subject.id, subject.icon), stars: mastery(t).stars, meta: meta(t), coachPick: !!pick && pick.id === t.id, attrs: { 'data-topic': t.id },
+          })).join('')}</div>`;
+          return sec.group ? C.section(sec.group, grid) : grid;
+        }).join('')}
         ${subjects.length > 1 ? C.button({ label: 'Changer de matière', variant: 'ghost', attrs: { 'data-action': 'subjects' } }) : ''}
       </div>`;
     }
 
+    // Mode expert (u13 only): the choice lives in state.difficulty, outside profile
+    const canExpert = squad === 'u13';
+    function difficultyPicker(difficulty) {
+      const tab = (id, label) => `<button type="button" class="tabs__tab" role="tab" aria-selected="${difficulty === id}" data-difficulty="${id}">${label}</button>`;
+      return `<div class="tabs" role="tablist" aria-label="Difficulté">${tab('normal', 'Normal')}${tab('expert', 'Expert')}</div>`;
+    }
+
     function viewPrematch() {
       const isPick = !!pick && pick.id === topic.id;
+      const difficulty = playerDifficulty(ctx.state);
+      const rule = ruleFor(difficulty);
       return `<div class="page page--narrow prematch">
         ${C.pageHead('Avant le match', { kicker: `${divisionName(season.division)} · journée ${fx.matchday + 1} sur ${seasonLength(season)}` })}
         <section class="panel panel--gold stack">
@@ -67,7 +80,8 @@ export default {
           </div>
           <div class="prematch__topic"><span aria-hidden="true">${subjectIcon(topic.subjectId, topic.icon)}</span> <b>${C.esc(topic.name)}</b> ${isPick ? C.pill('Choix du coach · +50 % de pièces', 'gold') : ''}</div>
           <p class="text-center text-dim">${MATCH_QUESTIONS} questions · environ ${MATCH_MINUTES} minutes</p>
-          <div class="prematch__rule"><b>${C.esc(RULE.line)} <span aria-hidden="true">⚽</span></b><small>${C.esc(RULE.miss)}</small></div>
+          ${canExpert ? difficultyPicker(difficulty) : ''}
+          <div class="prematch__rule"><b>${C.esc(rule.line)} <span aria-hidden="true">⚽</span></b><small>${C.esc(rule.miss)}</small></div>
         </section>
         ${single(subject) ? (subjects.length > 1 ? C.button({ label: 'Changer de matière', variant: 'ghost', attrs: { 'data-action': 'subjects' } }) : '')
           : C.button({ label: 'Changer de thème', variant: 'ghost', attrs: { 'data-action': 'topics' } })}
@@ -91,6 +105,14 @@ export default {
       }
       const top = e.target.closest('[data-topic]');
       if (top) { topic = allTopics.find((t) => t.id === top.dataset.topic); render(); return; }
+      const diff = e.target.closest('[data-difficulty]');
+      if (diff) {
+        if (busy || !canExpert || diff.dataset.difficulty === playerDifficulty(ctx.state)) return;
+        ctx.setState(setDifficulty(ctx.state, diff.dataset.difficulty));
+        await ctx.save();
+        render();
+        return;
+      }
       const act = e.target.closest('[data-action]')?.dataset.action;
       if (act === 'subjects') { subject = null; topic = null; render(); }
       else if (act === 'topics') { topic = null; render(); }

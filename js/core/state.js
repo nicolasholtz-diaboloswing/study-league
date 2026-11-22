@@ -6,6 +6,7 @@ import {
 import { newSeason, playMatchday, isSeasonOver, seasonEnd, startNextSeason, computeTable } from './league.js';
 import { matchXp, matchCoins, levelForXp, openPack, evaluateBadges } from './rewards.js';
 import { dayKey, updateStreak, topicStars } from './stats.js';
+import { resolveDifficulty } from './match.js';
 
 export const SCHEMA_VERSION = 1;
 
@@ -55,6 +56,7 @@ export function newPlayerState({
     streak: { current: 0, best: 0, lastDay: null },
     activity: {},
     pendingMatch: null,
+    difficulty: 'normal', // choice for the next league match: 'normal' | 'expert' (u13 only), see setDifficulty
   };
   return clubs ? ensureSeason(state, clubs, rng) : state;
 }
@@ -102,6 +104,7 @@ export function migrateState(raw) {
   s.streak = { ...d.streak, ...s.streak };
   s.activity ??= {};
   s.pendingMatch ??= null;
+  s.difficulty = s.difficulty === 'expert' ? 'expert' : 'normal';
   s.createdAt ??= 0;
   s.lastActive ??= s.createdAt;
   return s;
@@ -252,6 +255,7 @@ export function applyResult(state, result, ctx) {
     opponent: result.opponent.name, division: result.division,
     goalsFor: result.goalsFor, goalsAgainst: result.goalsAgainst, outcome: result.outcome,
     correct: result.correct, total: result.total, xp: xp.total, coins: league ? coins.total : 0,
+    ...(result.difficulty === 'expert' ? { difficulty: 'expert' } : {}),
   });
   if (s.matches.length > HISTORY_LIMIT) s.matches.splice(0, s.matches.length - HISTORY_LIMIT);
 
@@ -264,15 +268,29 @@ export function applyResult(state, result, ctx) {
 
 /**
  * Marker written at kick-off of a league match: { mode: 'league', opponent: {id, name, strength}, topicId, subjectId,
- * division, total, startedAt }. A plain JSON object stored in state.pendingMatch; applyResult clears it.
+ * division, total, startedAt, difficulty? }. A plain JSON object stored in state.pendingMatch; applyResult clears it.
+ * `difficulty: 'expert'` is written only for a u13 player (absent = normal).
  */
-export function startPendingMatch(state, { opponent, topicId, subjectId = null, division = 0, total = MATCH_QUESTIONS, now }) {
+export function startPendingMatch(state, { opponent, topicId, subjectId = null, division = 0, total = MATCH_QUESTIONS, difficulty = 'normal', now }) {
   const s = clone(state);
   s.pendingMatch = {
     mode: 'league',
     opponent: { id: opponent.id, name: opponent.name, strength: opponent.strength ?? 0.5 },
     topicId, subjectId, division, total, startedAt: now,
   };
+  if (resolveDifficulty(s.profile.squad, difficulty) === 'expert') s.pendingMatch.difficulty = 'expert';
+  return s;
+}
+
+/** Difficulty of the player's next league match: the stored choice, forced to 'normal' outside the u13 squad. */
+export function playerDifficulty(state) {
+  return resolveDifficulty(state.profile?.squad, state.difficulty);
+}
+
+/** State with the difficulty choice stored for the next league matches ('expert' only accepted for u13). */
+export function setDifficulty(state, difficulty) {
+  const s = clone(state);
+  s.difficulty = resolveDifficulty(s.profile?.squad, difficulty);
   return s;
 }
 
@@ -289,6 +307,7 @@ export function forfeitResult(pending, now) {
   return {
     mode: 'league', topicId: pending.topicId, subjectId: pending.subjectId ?? null, division: pending.division ?? 0, coachPick: false,
     opponent: { id: pending.opponent.id, name: pending.opponent.name, strength: pending.opponent.strength ?? 0.5 },
+    difficulty: pending.difficulty === 'expert' ? 'expert' : 'normal',
     goalsFor: 0, goalsAgainst: 3, outcome: 'L', correct: 0, total, accuracy: 0, perfect: false, cleanSheet: false,
     speedBonus: 0, durationMs: 0, playedAt: now,
     answers: [], // nothing reaches the per-question or topic mastery history
@@ -302,7 +321,7 @@ export function forfeitResult(pending, now) {
 export function applyPendingForfeit(state, ctx) {
   const p = state.pendingMatch;
   if (!p || !p.opponent) return null;
-  const result = forfeitResult(p, ctx.now);
+  const result = forfeitResult({ ...p, difficulty: resolveDifficulty(state.profile?.squad, p.difficulty) }, ctx.now);
   const out = applyResult(state, result, ctx);
   out.state.pendingMatch = null;
   return { ...out, result };
