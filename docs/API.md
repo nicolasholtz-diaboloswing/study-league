@@ -76,7 +76,7 @@ loadCatalog(fetchJson) -> Promise<{ subjects }>          // fetchJson('data/subj
 listTopics(catalog, squad, subjectId?) -> Topic[]        // squad 'u13'|'u10'; subjectId optional filter
 listSubjects(catalog, squad) -> [{ id, name, icon, topics: Topic[] }]   // only subjects with topics for the squad
 
-expandVerbs(file, topicId?) -> Question[]        // 3 per verb: <topic>-<verb>-past (input), -pp (input), -form (mcq)
+expandVerbs(file, topicId?) -> Question[]        // 2 per verb, both about the past simple: <topic>-<verb>-past (input), -form (mcq); correction "base → past"; `pp` is never asked or offered
 questionsFromFile(file, topicId?) -> Question[]  // handles standard and "kind":"verbs" files
 loadTopicQuestions(fetchJson, topic: Topic) -> Promise<Question[]>   // fetchJson(topic.file)
 

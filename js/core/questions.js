@@ -1,6 +1,6 @@
 // Question loading, verb expansion, selection and answer checking. Pure: fetching is injected.
 import { MATCH_QUESTIONS } from '../config.js';
-import { createRng, hashString } from './rng.js';
+import { createRng } from './rng.js';
 
 // Probability weights for question level 1/2/3, per division index 0..4.
 export const LEVEL_WEIGHTS = [
@@ -86,10 +86,26 @@ function slug(s) {
   return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
+function thirdPerson(base) {
+  if (base === 'be') return 'is';
+  if (base === 'have') return 'has';
+  if (/(s|sh|ch|x|z|o)$/.test(base)) return base + 'es';
+  if (/[^aeiou]y$/.test(base)) return base.slice(0, -1) + 'ies';
+  return base + 's';
+}
+
+function ingForm(base) {
+  if (/ie$/.test(base)) return base.slice(0, -2) + 'ying';
+  if (/[^aeiou]e$/.test(base) && base !== 'be') return base.slice(0, -1) + 'ing';
+  if (base.length <= 4 && /^[^aeiou]*[aeiou][^aeiouwxy]$/.test(base)) return base + base.slice(-1) + 'ing';
+  return base + 'ing';
+}
+
 /**
- * Expand a `"kind":"verbs"` file into 3 questions per verb:
- *   <topic>-<verb>-past (input), <topic>-<verb>-pp (input), <topic>-<verb>-form (mcq).
- * Ids and distractors are stable (derived from the id).
+ * Expand a `"kind":"verbs"` file into 2 questions per verb, both about the past simple (the past participle is not asked):
+ *   <topic>-<verb>-past (input, "Yesterday, I ___ . (to go)"), <topic>-<verb>-form (mcq).
+ * Ids and distractors are stable (derived from the id). The `pp` field of the data is only used to keep participles
+ * out of the choices: a form that is only a past participle is never offered.
  */
 export function expandVerbs(file, topicId = file.topic) {
   const verbs = file.verbs || [];
@@ -99,47 +115,44 @@ export function expandVerbs(file, topicId = file.topic) {
     const n = (used.get(key) || 0) + 1;
     used.set(key, n);
     if (n > 1) key += '-' + n;
-    return { v, key, past: toArray(v.past).map(String), pp: toArray(v.pp).map(String) };
+    return { v, key, past: toArray(v.past).map(String), pp: toArray(v.pp ?? []).map(String) };
   });
+  // forms that are a past participle somewhere and a past simple nowhere
+  const allPast = new Set(infos.flatMap((i) => i.past.map(normalizeAnswer)));
+  const ppOnly = new Set(infos.flatMap((i) => i.pp.map(normalizeAnswer)).filter((f) => !allPast.has(f)));
   const out = [];
   for (const info of infos) {
     const { v, key, past, pp } = info;
     const level = v.level || 1;
-    const explain = `${v.base} – ${past.join(' / ')} – ${pp.join(' / ')}`;
-    const hint = `(to ${v.base})`;
-    const sentence = (form) => (form === 'past' ? 'Yesterday, I ___ .' : 'I have ___ .');
+    const explain = `${v.base} → ${past.join(' / ')}`;
+    const sentence = `Yesterday, I ___ . (to ${v.base})`;
     out.push({
       id: `${topicId}-${key}-past`, topicId, level, type: 'input', group: key, label: 'Past simple',
-      prompt: `${sentence('past')} ${hint}`, answer: past.length === 1 ? past[0] : past, explain,
+      prompt: sentence, answer: past.length === 1 ? past[0] : past, explain,
     });
-    out.push({
-      id: `${topicId}-${key}-pp`, topicId, level, type: 'input', group: key, label: 'Past participle',
-      prompt: `${sentence('pp')} ${hint}`, answer: pp.length === 1 ? pp[0] : pp, explain,
-    });
-    // mcq: past simple or past participle, chosen by a hash of the base (stable)
-    const asked = hashString(v.base) % 2 === 0 ? 'past' : 'pp';
-    const accepted = asked === 'past' ? past : pp;
-    const other = asked === 'past' ? pp : past;
     const id = `${topicId}-${key}-form`;
     const rng = createRng(id);
-    const acceptedN = new Set(accepted.map(normalizeAnswer));
+    const banned = new Set([...past, ...pp].map(normalizeAnswer)); // accepted past forms and this verb's own participles
     const wrong = [];
     const add = (f) => {
       const n = normalizeAnswer(f);
-      if (!n || acceptedN.has(n) || wrong.some((w) => normalizeAnswer(w) === n)) return;
+      if (!n || banned.has(n) || ppOnly.has(n) || wrong.some((w) => normalizeAnswer(w) === n)) return;
       wrong.push(f);
     };
     add(regularPast(v.base));
-    other.forEach(add);
+    rng.shuffle([v.base, thirdPerson(v.base), ingForm(v.base)]).forEach((f) => { if (wrong.length < 3) add(f); });
+    // last resorts: past simple of a verb unrelated in sound (other first letter and ending)
     const pool = [];
-    for (const o of infos) if (o !== info) pool.push(...(asked === 'past' ? o.past : o.pp));
+    for (const o of infos) {
+      if (o === info || o.v.base[0] === v.base[0]) continue;
+      pool.push(...o.past.filter((f) => f[0] !== v.base[0] && f.slice(-2) !== past[0].slice(-2)));
+    }
     rng.shuffle(pool).forEach((f) => { if (wrong.length < 3) add(f); });
-    [v.base + 'ed', v.base + 'en', v.base + 't', v.base + 'd', 'a' + v.base].forEach((f) => { if (wrong.length < 3) add(f); });
-    const choices = rng.shuffle([accepted[0], ...wrong.slice(0, 3)]);
+    const choices = rng.shuffle([past[0], ...wrong.slice(0, 3)]);
     out.push({
-      id, topicId, level, type: 'mcq', group: key,
-      prompt: `Which one is correct?  ${sentence(asked)} ${hint}`,
-      choices, answer: accepted[0], explain,
+      id, topicId, level, type: 'mcq', group: key, label: 'Past simple',
+      prompt: `Which one is correct?  ${sentence}`,
+      choices, answer: past[0], explain,
     });
   }
   return out;

@@ -38,41 +38,88 @@ test('listTopics: squad filtering and subject filter', async () => {
   eq(listSubjects(cat, 'u10').map((s) => s.id), ['en']);
 });
 
-test('expandVerbs: 3 questions per verb with stable ids', () => {
+const SAMPLE_VERBS = [
+  { base: 'go', past: 'went', pp: 'gone' }, { base: 'eat', past: 'ate', pp: 'eaten' }, { base: 'see', past: 'saw', pp: 'seen' },
+  { base: 'write', past: 'wrote', pp: 'written' }, { base: 'buy', past: 'bought', pp: 'bought' },
+  { base: 'dive', past: ['dived', 'dove'], pp: ['dived', 'dove'] }, { base: 'get', past: 'got', pp: ['gotten', 'got'] },
+  { base: 'put', past: 'put', pp: 'put' }, { base: 'come', past: 'came', pp: 'come' }, { base: 'be', past: ['was', 'were'], pp: 'been' },
+];
+
+/** forms that are a past participle and never a past simple in the file */
+function ppOnlyForms(verbs) {
+  const past = new Set(verbs.flatMap((v) => [].concat(v.past)).map(normalizeAnswer));
+  return new Set(verbs.flatMap((v) => [].concat(v.pp)).map(normalizeAnswer).filter((f) => !past.has(f)));
+}
+
+function checkVerbQuestions(verbs, qs) {
+  eq(qs.length, verbs.length * 2);
+  const ppOnly = ppOnlyForms(verbs);
+  for (const [i, q] of qs.entries()) {
+    eq(q.label, 'Past simple', q.id);
+    assert(!/participle|have/i.test(q.prompt) && !/participle/i.test(q.explain), q.id + ' no participle shown');
+    const v = verbs[Math.floor(i / 2)];
+    if (q.type !== 'mcq') continue;
+    const accepted = [].concat(v.past).map(normalizeAnswer);
+    eq(q.choices.length, 4, q.id);
+    eq(new Set(q.choices.map(normalizeAnswer)).size, 4, q.id);
+    eq(q.choices.filter((c) => c === q.answer).length, 1, q.id);
+    eq(q.choices.filter((c) => accepted.includes(normalizeAnswer(c))).length, 1, q.id + ' only one accepted past form among the choices');
+    for (const c of q.choices) assert(!ppOnly.has(normalizeAnswer(c)), `${q.id}: participle-only form "${c}" in ${q.choices}`);
+  }
+}
+
+test('expandVerbs: 2 questions per verb, both about the past simple, ids stable, deterministic', () => {
   const qs = expandVerbs(FILES['data/en/verbs.json']);
-  eq(qs.length, 18);
-  eq(new Set(qs.map((q) => q.id)).size, 18);
-  eq(qs.slice(0, 3).map((q) => q.id), ['en-verbs-go-past', 'en-verbs-go-pp', 'en-verbs-go-form']);
+  eq(qs.length, 12);
+  eq(new Set(qs.map((q) => q.id)).size, 12);
+  eq(qs.slice(0, 2).map((q) => q.id), ['en-verbs-go-past', 'en-verbs-go-form']);
+  assert(!qs.some((q) => q.id.endsWith('-pp')));
   eq(expandVerbs(FILES['data/en/verbs.json']), qs, 'deterministic');
   eq(qs[0].type, 'input');
   eq(qs[0].answer, 'went');
 });
 
-test('expandVerbs: array forms accepted, mcq has 4 distinct choices containing the answer and no accepted form', () => {
-  const qs = expandVerbs(FILES['data/en/verbs.json']);
-  const get = qs.filter((q) => q.id.startsWith('en-verbs-get-'));
-  eq(get.find((q) => q.id.endsWith('-pp')).answer, ['got', 'gotten']);
-  for (const q of qs.filter((x) => x.type === 'mcq')) {
-    eq(q.choices.length, 4, q.id);
-    eq(new Set(q.choices.map((c) => c.toLowerCase())).size, 4, q.id);
-    assert(q.choices.includes(q.answer), q.id);
-  }
-  // wrong regularisation is among the distractors for "go" when past is asked, else other forms
-  const goForm = qs.find((q) => q.id === 'en-verbs-go-form');
-  assert(goForm.choices.includes(goForm.answer));
-  const be = qs.find((q) => q.id === 'en-verbs-be-form');
-  assert(!be.choices.includes('was') || be.answer === 'was' || be.answer === 'been');
+test('expandVerbs: mcq has 4 distinct choices, one correct, no participle-only form (sample verbs)', () => {
+  const qs = expandVerbs({ topic: 't', kind: 'verbs', verbs: SAMPLE_VERBS });
+  checkVerbQuestions(SAMPLE_VERBS, qs);
+  const get = qs.find((q) => q.id === 't-get-form');
+  assert(!get.choices.includes('gotten'));
+  const dive = qs.find((q) => q.id === 't-dive-past');
+  eq(dive.answer, ['dived', 'dove']);
+  const buy = qs.find((q) => q.id === 't-buy-form');
+  assert(buy.choices.includes('bought') && buy.answer === 'bought');
 });
 
-test('expandVerbs: regular-looking distractor like "goed" exists for go', () => {
-  const qs = expandVerbs({ topic: 't', kind: 'verbs', verbs: [{ base: 'go', past: 'went', pp: 'gone' }, { base: 'see', past: 'saw', pp: 'seen' }] });
-  const f = qs.find((q) => q.id === 't-go-form');
-  assert(f.choices.includes('goed'), JSON.stringify(f.choices));
+test('expandVerbs: correction is base → past simple, both forms when two are accepted', () => {
+  const qs = expandVerbs({ topic: 't', kind: 'verbs', verbs: SAMPLE_VERBS });
+  for (const q of qs.filter((x) => x.group === 'go')) eq(q.explain, 'go → went');
+  for (const q of qs.filter((x) => x.group === 'dive')) eq(q.explain, 'dive → dived / dove');
+  eq(qs.find((q) => q.id === 't-be-past').explain, 'be → was / were');
+});
+
+test('expandVerbs: real data file (120 verbs) gives 240 questions with no participle-only choice', async () => {
+  const res = await fetch('../data/en/irregular-verbs.json');
+  assert(res.ok, 'fetch irregular-verbs.json');
+  const file = await res.json();
+  const qs = expandVerbs(file);
+  eq(file.verbs.length, 120);
+  eq(qs.length, 240);
+  eq(new Set(qs.map((q) => q.id)).size, 240);
+  checkVerbQuestions(file.verbs, qs);
+});
+
+test('pickQuestions: a 10-question match on the real irregular verbs has 10 distinct verbs', async () => {
+  const file = await (await fetch('../data/en/irregular-verbs.json')).json();
+  const pool = expandVerbs(file);
+  for (let seed = 1; seed <= 20; seed++) {
+    const picked = pickQuestions(pool, { n: 10, division: seed % 5, rng: createRng(seed) });
+    eq(new Set(picked.map((q) => q.group)).size, 10, 'seed ' + seed);
+  }
 });
 
 test('expandVerbs: duplicate bases get unique ids', () => {
   const qs = expandVerbs({ topic: 't', kind: 'verbs', verbs: [{ base: 'lie', past: 'lay', pp: 'lain' }, { base: 'lie', past: 'lied', pp: 'lied' }] });
-  eq(new Set(qs.map((q) => q.id)).size, 6);
+  eq(new Set(qs.map((q) => q.id)).size, 4);
 });
 
 test('loadTopicQuestions tags topicId and expands verbs', async () => {
@@ -82,7 +129,7 @@ test('loadTopicQuestions tags topicId and expands verbs', async () => {
   eq(det.length, 30);
   assert(det.every((q) => q.topicId === 'en-det'));
   const verbs = await loadTopicQuestions(fetchJson, topics[1]);
-  eq(verbs.length, 18);
+  eq(verbs.length, 12);
   assert(verbs.every((q) => q.topicId === 'en-verbs'));
 });
 
@@ -190,11 +237,10 @@ test('expandVerbs: model sentences without grammar jargon, exactly one ___, labe
     assert(typeof q.group === 'string' && q.id.includes(`-${q.group}-`), q.id + ' group');
   }
   const go = qs.filter((q) => q.group === 'go');
-  eq(go.map((q) => q.id), ['en-verbs-go-past', 'en-verbs-go-pp', 'en-verbs-go-form']);
+  eq(go.map((q) => q.id), ['en-verbs-go-past', 'en-verbs-go-form']);
   eq([go[0].prompt, go[0].label], ['Yesterday, I ___ . (to go)', 'Past simple']);
-  eq([go[1].prompt, go[1].label], ['I have ___ . (to go)', 'Past participle']);
-  assert(go[2].prompt.startsWith('Which one is correct?'), go[2].prompt);
-  assert(go[2].prompt.endsWith('(to go)'));
+  assert(go[1].prompt.startsWith('Which one is correct?'), go[1].prompt);
+  assert(go[1].prompt.endsWith('(to go)'));
 });
 
 function verbPool(n) {

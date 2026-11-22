@@ -86,7 +86,7 @@ Fichier de notion standard
 ```
 - `level` : 1 facile, 2 moyen, 3 difficile. Pour un mcq, `answer` est exactement l'un des `choices` ; pour un input, une chaîne ou un tableau de réponses acceptées. `explain` tient en une phrase courte.
 
-Fichier de verbes irréguliers (`"kind": "verbs"`) : `{ "topic": "en-irregular-verbs", "kind": "verbs", "verbs": [ { "base": "go", "past": "went", "pp": "gone", "level": 1 } ] }` — `past` et `pp` peuvent être des tableaux de formes acceptées (par exemple `["got", "gotten"]`). Le moteur génère trois questions par verbe : taper le prétérit, taper le participe passé, choisir la bonne forme dans un mcq sans phrase.
+Fichier de verbes irréguliers (`"kind": "verbs"`) : `{ "topic": "en-irregular-verbs", "kind": "verbs", "verbs": [ { "base": "go", "past": "went", "pp": "gone", "level": 1 } ] }` — `past` peut être un tableau de formes acceptées (par exemple `["dived", "dove"]`). Le champ `pp` reste dans le fichier mais n'est jamais demandé ni affiché : l'enfant n'apprend que la forme de base et le prétérit. Le moteur génère deux questions par verbe, toutes deux sur le prétérit : taper le prétérit (« Yesterday, I ___ . (to go) ») et choisir la bonne forme dans un mcq. Les mauvais choix sont de fausses régularisations (« goed »), la forme de base, la troisième personne ou la forme en -ing, jamais un participe passé seul (« gone »). La correction affichée est « go → went » (« dive → dived / dove » quand deux formes sont acceptées).
 
 Notions de la v1
 - Anglais (`u13`) : Determiners, Past simple, Past perfect (y compris past simple contre past perfect). Anglais (`u10` et `u13`) : Irregular verbs.
