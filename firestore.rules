@@ -1,0 +1,81 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function me() { return request.auth.uid; }
+    function myEmail() { return request.auth.token.email; }
+    function myName() { return myEmail().split('@')[0]; }
+
+    // Family allow-list: documents members/<identifiant>@study-league.app, created by hand in the console.
+    function isMember() {
+      return signedIn() && ('email' in request.auth.token)
+        && exists(/databases/$(database)/documents/members/$(myEmail()));
+    }
+    // Parent: document coaches/{uid}, created by hand.
+    function isCoach() {
+      return signedIn() && exists(/databases/$(database)/documents/coaches/$(me()));
+    }
+    function isFamily() { return isMember() || isCoach(); }
+
+    function str(s, max) { return s is string && s.size() <= max; }
+    function color(c) { return c is string && c.matches('#[0-9a-fA-F]{6}'); }
+    function count(n, max) { return n is int && n >= 0 && n <= max; }
+    function colors(l) { return l is list && l.size() == 2 && color(l[0]) && color(l[1]); }
+
+    function validProfile(p) {
+      return p is map
+        && p.keys().hasOnly(['displayName', 'club', 'colors', 'squad', 'crest'])
+        && str(p.displayName, 40) && str(p.club, 24) && colors(p.colors)
+        && p.get('squad', null) in [null, 'u10', 'u13']
+        && p.get('crest', 'shield') in ['shield', 'round', 'diamond', 'stripes'];
+    }
+
+    function validState(d) {
+      return d.username == myName()
+        && d.role in ['player', 'coach']
+        && validProfile(d.profile)
+        && (d.role == 'coach'
+            || (count(d.get('xp', 0), 10000000) && count(d.get('coins', 0), 10000000)));
+    }
+
+    function validSummary(d) {
+      return d.keys().hasOnly(['username', 'displayName', 'club', 'colors', 'squad', 'xp', 'division',
+                               'weekXp', 'xpByDay', 'wins', 'draws', 'losses', 'matches', 'accuracy',
+                               'bestWinStreak', 'cards', 'titles', 'updatedAt'])
+        && d.username == myName()
+        && str(d.displayName, 40) && str(d.club, 24) && colors(d.colors)
+        && d.squad in ['u10', 'u13']
+        && count(d.division, 4)
+        && count(d.xp, 10000000) && count(d.weekXp, 10000000)
+        && count(d.wins, 100000) && count(d.draws, 100000) && count(d.losses, 100000)
+        && count(d.matches, 100000) && count(d.bestWinStreak, 100000)
+        && count(d.cards, 1000) && count(d.titles, 1000)
+        && d.accuracy is number && d.accuracy >= 0 && d.accuracy <= 1
+        && d.xpByDay is map && d.xpByDay.size() <= 7
+        && d.updatedAt is int;
+    }
+
+    match /users/{uid} {
+      allow get: if signedIn() && ((me() == uid && isFamily()) || isCoach());
+      allow list: if isCoach();
+      allow create, update: if signedIn() && me() == uid && isFamily() && validState(request.resource.data);
+      allow delete: if false;
+    }
+
+    match /leaderboard/{uid} {
+      allow read: if isFamily();
+      allow create, update: if signedIn() && me() == uid && isMember() && validSummary(request.resource.data);
+      allow delete: if false;
+    }
+
+    match /coaches/{uid} {
+      allow get: if signedIn() && me() == uid;
+      allow list, write: if false;
+    }
+
+    match /members/{id} {
+      allow read, write: if false;
+    }
+  }
+}

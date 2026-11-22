@@ -1,0 +1,404 @@
+{
+ "clubs": [
+  {
+   "id": "c01",
+   "name": "Northbridge Rovers",
+   "short": "NBR",
+   "colors": [
+    "#1e40af",
+    "#fbbf24"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c02",
+   "name": "Kestrelmoor United",
+   "short": "KMU",
+   "colors": [
+    "#7f1d1d",
+    "#f8fafc"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c03",
+   "name": "FC Brennholt",
+   "short": "BRH",
+   "colors": [
+    "#166534",
+    "#f8fafc"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c04",
+   "name": "Valdoria Sporting",
+   "short": "VAL",
+   "colors": [
+    "#be123c",
+    "#fde68a"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c05",
+   "name": "SV Kaiserwald",
+   "short": "KAI",
+   "colors": [
+    "#111827",
+    "#f59e0b"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c06",
+   "name": "Montclairet AS",
+   "short": "MCL",
+   "colors": [
+    "#0e7490",
+    "#f8fafc"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c07",
+   "name": "Dunmara Athletic",
+   "short": "DMA",
+   "colors": [
+    "#15803d",
+    "#facc15"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c08",
+   "name": "Torrevento CF",
+   "short": "TRV",
+   "colors": [
+    "#9a3412",
+    "#fef3c7"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c09",
+   "name": "Ostmark Wanderers",
+   "short": "OSW",
+   "colors": [
+    "#4338ca",
+    "#f8fafc"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c10",
+   "name": "Saltwick Town",
+   "short": "SLT",
+   "colors": [
+    "#0f766e",
+    "#fb7185"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c11",
+   "name": "IF Ravnholm",
+   "short": "RAV",
+   "colors": [
+    "#1d4ed8",
+    "#e2e8f0"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c12",
+   "name": "Pellaro Calcio",
+   "short": "PEL",
+   "colors": [
+    "#b91c1c",
+    "#1e293b"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c13",
+   "name": "Altavista Kings",
+   "short": "ALT",
+   "colors": [
+    "#6d28d9",
+    "#fbbf24"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c14",
+   "name": "Bergfjord BK",
+   "short": "BFJ",
+   "colors": [
+    "#0369a1",
+    "#f8fafc"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c15",
+   "name": "Lakemoor City",
+   "short": "LMC",
+   "colors": [
+    "#0891b2",
+    "#1e3a8a"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c16",
+   "name": "Quintarra FC",
+   "short": "QTR",
+   "colors": [
+    "#a21caf",
+    "#f8fafc"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c17",
+   "name": "Hallowfield Albion",
+   "short": "HAL",
+   "colors": [
+    "#047857",
+    "#f8fafc"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c18",
+   "name": "Zelenograd Stars",
+   "short": "ZEL",
+   "colors": [
+    "#15803d",
+    "#dc2626"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c19",
+   "name": "Marisol Sport Club",
+   "short": "MRS",
+   "colors": [
+    "#ea580c",
+    "#1e293b"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c20",
+   "name": "Tarnwick Rangers",
+   "short": "TAR",
+   "colors": [
+    "#1e3a8a",
+    "#ef4444"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c21",
+   "name": "Ironvale Works",
+   "short": "IRV",
+   "colors": [
+    "#374151",
+    "#f97316"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c22",
+   "name": "Costa Verdante",
+   "short": "CVE",
+   "colors": [
+    "#059669",
+    "#fde047"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c23",
+   "name": "Wolsfeld 04",
+   "short": "WOL",
+   "colors": [
+    "#0f172a",
+    "#38bdf8"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c24",
+   "name": "Dornach Eagles",
+   "short": "DOR",
+   "colors": [
+    "#b45309",
+    "#f8fafc"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c25",
+   "name": "Siroco Marina",
+   "short": "SIR",
+   "colors": [
+    "#c2410c",
+    "#0ea5e9"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c26",
+   "name": "Oakhaven Wanderers",
+   "short": "OAK",
+   "colors": [
+    "#14532d",
+    "#d97706"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c27",
+   "name": "Ravenmoor Dynamo",
+   "short": "RMD",
+   "colors": [
+    "#4c1d95",
+    "#a3e635"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c28",
+   "name": "Tessaly Olympic",
+   "short": "TES",
+   "colors": [
+    "#1d4ed8",
+    "#facc15"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c29",
+   "name": "Brightcove Harriers",
+   "short": "BCH",
+   "colors": [
+    "#be185d",
+    "#f8fafc"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c30",
+   "name": "Lindenau SC",
+   "short": "LIN",
+   "colors": [
+    "#65a30d",
+    "#1e293b"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c31",
+   "name": "Portimar Marítimo",
+   "short": "PMA",
+   "colors": [
+    "#0c4a6e",
+    "#fb923c"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c32",
+   "name": "Stormhaven FC",
+   "short": "STH",
+   "colors": [
+    "#334155",
+    "#22d3ee"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c33",
+   "name": "Eskerfield Town",
+   "short": "ESK",
+   "colors": [
+    "#7c2d12",
+    "#fcd34d"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c34",
+   "name": "Kolbrun Vikings",
+   "short": "KOL",
+   "colors": [
+    "#991b1b",
+    "#1e40af"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c35",
+   "name": "Fairmeadow Vale",
+   "short": "FMV",
+   "colors": [
+    "#16a34a",
+    "#f8fafc"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c36",
+   "name": "Ardennes Union",
+   "short": "ARD",
+   "colors": [
+    "#1e293b",
+    "#ef4444"
+   ],
+   "crest": "stripes"
+  },
+  {
+   "id": "c37",
+   "name": "Solmare Stella",
+   "short": "SOL",
+   "colors": [
+    "#0284c7",
+    "#fef08a"
+   ],
+   "crest": "shield"
+  },
+  {
+   "id": "c38",
+   "name": "Grauburg 1907",
+   "short": "GRA",
+   "colors": [
+    "#52525b",
+    "#e11d48"
+   ],
+   "crest": "round"
+  },
+  {
+   "id": "c39",
+   "name": "Tamarind Bay",
+   "short": "TMB",
+   "colors": [
+    "#c026d3",
+    "#fcd34d"
+   ],
+   "crest": "diamond"
+  },
+  {
+   "id": "c40",
+   "name": "Ystad Norrland IK",
+   "short": "YNI",
+   "colors": [
+    "#075985",
+    "#fbbf24"
+   ],
+   "crest": "stripes"
+  }
+ ]
+}

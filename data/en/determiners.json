@@ -1,0 +1,1942 @@
+{
+  "topic": "en-determiners",
+  "questions": [
+    {
+      "id": "en-det-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He scored ___ amazing goal in the final.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "answer": "an",
+      "explain": "'Amazing' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My brother wants to be ___ doctor when he grows up.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explain": "We use 'a' before a consonant sound when we talk about a job."
+    },
+    {
+      "id": "en-det-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We have football practice after ___ school on Tuesdays.",
+      "choices": [
+        "a",
+        "the",
+        "an",
+        "—"
+      ],
+      "answer": "—",
+      "explain": "We say 'after school' with no article."
+    },
+    {
+      "id": "en-det-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My mum goes to ___ work by bus.",
+      "choices": [
+        "the",
+        "a",
+        "—",
+        "an"
+      ],
+      "answer": "—",
+      "explain": "We say 'go to work' with no article."
+    },
+    {
+      "id": "en-det-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ sun rises in the east.",
+      "choices": [
+        "A",
+        "An",
+        "—",
+        "The"
+      ],
+      "answer": "The",
+      "explain": "There is only one sun, so we use 'the'."
+    },
+    {
+      "id": "en-det-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Paris is ___ capital of France.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explain": "France has only one capital, so we use 'the'."
+    },
+    {
+      "id": "en-det-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What ___ lovely day for a match!",
+      "choices": [
+        "an",
+        "the",
+        "a",
+        "—"
+      ],
+      "answer": "a",
+      "explain": "After 'What' we use 'a' with a singular noun that starts with a consonant sound."
+    },
+    {
+      "id": "en-det-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ players over there are the new strikers.",
+      "choices": [
+        "This",
+        "Those",
+        "That",
+        "These"
+      ],
+      "answer": "Those",
+      "explain": "'Those' is for plural things that are far away."
+    },
+    {
+      "id": "en-det-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I love ___ boots here on my feet. I got them for my birthday.",
+      "choices": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "answer": "these",
+      "explain": "'These' is for plural things that are near you."
+    },
+    {
+      "id": "en-det-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The puppy is chasing ___ tail.",
+      "choices": [
+        "its",
+        "it's",
+        "its'",
+        "their"
+      ],
+      "answer": "its",
+      "explain": "'Its' (no apostrophe) shows that something belongs to an animal or a thing."
+    },
+    {
+      "id": "en-det-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tom and Sam forgot ___ football boots.",
+      "choices": [
+        "there",
+        "they're",
+        "their",
+        "them"
+      ],
+      "answer": "their",
+      "explain": "'Their' shows that something belongs to them."
+    },
+    {
+      "id": "en-det-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ is a hole in my sock.",
+      "choices": [
+        "There",
+        "Their",
+        "They're",
+        "Its"
+      ],
+      "answer": "There",
+      "explain": "'There is' tells us that something exists."
+    },
+    {
+      "id": "en-det-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "There isn't ___ milk left in the fridge.",
+      "choices": [
+        "some",
+        "many",
+        "a few",
+        "any"
+      ],
+      "answer": "any",
+      "explain": "We use 'any' in negative sentences."
+    },
+    {
+      "id": "en-det-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How ___ goals did your team score on Saturday?",
+      "choices": [
+        "many",
+        "much",
+        "any",
+        "little"
+      ],
+      "answer": "many",
+      "explain": "'Goals' can be counted, so we use 'many'."
+    },
+    {
+      "id": "en-det-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How ___ money do you need for the match ticket?",
+      "choices": [
+        "many",
+        "few",
+        "much",
+        "a few"
+      ],
+      "answer": "much",
+      "explain": "'Money' cannot be counted, so we use 'much'."
+    },
+    {
+      "id": "en-det-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ player in our team wears a different number.",
+      "choices": [
+        "All",
+        "Both",
+        "Every",
+        "Some"
+      ],
+      "answer": "Every",
+      "explain": "'Every' goes with a singular noun and means all the people, one by one."
+    },
+    {
+      "id": "en-det-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I have two cats. ___ cats are black.",
+      "choices": [
+        "Every",
+        "Much",
+        "Both",
+        "Another"
+      ],
+      "answer": "Both",
+      "explain": "'Both' means the two of them."
+    },
+    {
+      "id": "en-det-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She bought ___ new boots yesterday.",
+      "choices": [
+        "some",
+        "a",
+        "an",
+        "much"
+      ],
+      "answer": "some",
+      "explain": "'Boots' is plural, so we use 'some', not 'a'."
+    },
+    {
+      "id": "en-det-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "We have ___ English lesson at nine. (a / an)",
+      "answer": [
+        "an"
+      ],
+      "explain": "'English' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Our club hasn't got ___ money to buy new players. (some / any)",
+      "answer": [
+        "any"
+      ],
+      "explain": "We use 'any' in negative sentences."
+    },
+    {
+      "id": "en-det-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "I ate one banana at half-time. Can I have ___ one? (other / another)",
+      "answer": [
+        "another"
+      ],
+      "explain": "'Another' means one more."
+    },
+    {
+      "id": "en-det-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "She has ___ friends here, so she is not alone. (a few / a little)",
+      "answer": [
+        "a few"
+      ],
+      "explain": "'A few' goes with plural nouns and means some."
+    },
+    {
+      "id": "en-det-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Look at ___ cat! It is sleeping on my bed. (this / these)",
+      "answer": [
+        "this"
+      ],
+      "explain": "'Cat' is singular and near, so we use 'this'."
+    },
+    {
+      "id": "en-det-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "I think ___ going to rain, so take your coat. (it's / its)",
+      "answer": [
+        "it's",
+        "it is"
+      ],
+      "explain": "'It's' is short for 'it is'."
+    },
+    {
+      "id": "en-det-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "There isn't ___ space on the bench for everyone. (much / many)",
+      "answer": [
+        "much"
+      ],
+      "explain": "'Space' cannot be counted, so we use 'much'."
+    },
+    {
+      "id": "en-det-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The players go to ___ bed early before a big match.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explain": "We say 'go to bed' with no article."
+    },
+    {
+      "id": "en-det-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We watched a film last night. ___ film was very funny.",
+      "choices": [
+        "A",
+        "The",
+        "An",
+        "—"
+      ],
+      "answer": "The",
+      "explain": "We use 'the' for something that was already mentioned."
+    },
+    {
+      "id": "en-det-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The referee is from ___ Netherlands.",
+      "choices": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
+      "answer": "the",
+      "explain": "'Netherlands' is a plural country name, so it takes 'the'."
+    },
+    {
+      "id": "en-det-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Our team will play in ___ France next month.",
+      "choices": [
+        "the",
+        "—",
+        "a",
+        "an"
+      ],
+      "answer": "—",
+      "explain": "Most country names have no article."
+    },
+    {
+      "id": "en-det-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He is ___ best goalkeeper in the league.",
+      "choices": [
+        "a",
+        "the",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explain": "We use 'the' before a superlative like 'best'."
+    },
+    {
+      "id": "en-det-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She is ___ only girl in our football team.",
+      "choices": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explain": "We use 'the' before 'only'."
+    },
+    {
+      "id": "en-det-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In my opinion, ___ dogs are more loyal than cats.",
+      "choices": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
+      "answer": "—",
+      "explain": "We use no article to talk about a whole group in general."
+    },
+    {
+      "id": "en-det-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Do you see ___ boy over there? He is our new goalkeeper.",
+      "choices": [
+        "this",
+        "these",
+        "those",
+        "that"
+      ],
+      "answer": "that",
+      "explain": "'That' is for a singular person or thing that is far away."
+    },
+    {
+      "id": "en-det-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The tree lost all ___ leaves in autumn.",
+      "choices": [
+        "its",
+        "it's",
+        "their",
+        "his"
+      ],
+      "answer": "its",
+      "explain": "'Its' shows that something belongs to a thing."
+    },
+    {
+      "id": "en-det-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "These aren't our shirts. ___ are in the bag.",
+      "choices": [
+        "Our",
+        "Us",
+        "Ours'",
+        "Ours"
+      ],
+      "answer": "Ours",
+      "explain": "'Ours' is a possessive pronoun and replaces 'our shirts'."
+    },
+    {
+      "id": "en-det-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A friend of ___ gave me a ticket for the final.",
+      "choices": [
+        "me",
+        "my",
+        "I",
+        "mine"
+      ],
+      "answer": "mine",
+      "explain": "After 'a friend of' we use a possessive pronoun like 'mine'."
+    },
+    {
+      "id": "en-det-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We don't have ___ time, so hurry up!",
+      "choices": [
+        "many",
+        "few",
+        "a few",
+        "much"
+      ],
+      "answer": "much",
+      "explain": "'Time' cannot be counted, so we use 'much' in a negative sentence."
+    },
+    {
+      "id": "en-det-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He has very ___ friends, so he often feels lonely.",
+      "choices": [
+        "few",
+        "a few",
+        "little",
+        "a little"
+      ],
+      "answer": "few",
+      "explain": "'Few' means almost none and goes with plural nouns."
+    },
+    {
+      "id": "en-det-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Don't worry, there are ___ biscuits left for you.",
+      "choices": [
+        "few",
+        "little",
+        "a few",
+        "much"
+      ],
+      "answer": "a few",
+      "explain": "'A few' means some, and it goes with plural nouns."
+    },
+    {
+      "id": "en-det-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "There are eleven players in the team and ___ of them wants to win.",
+      "choices": [
+        "every",
+        "each",
+        "all",
+        "both"
+      ],
+      "answer": "each",
+      "explain": "'Each of them' is followed by a singular verb."
+    },
+    {
+      "id": "en-det-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Tom has two pens, but ___ of them works. They are both empty.",
+      "choices": [
+        "either",
+        "both",
+        "neither",
+        "each"
+      ],
+      "answer": "neither",
+      "explain": "'Neither of' means not one and not the other."
+    },
+    {
+      "id": "en-det-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "You can sit on ___ chair. They are both free.",
+      "choices": [
+        "both",
+        "all",
+        "either",
+        "neither"
+      ],
+      "answer": "either",
+      "explain": "'Either' means one or the other of two, and it goes with a singular noun."
+    },
+    {
+      "id": "en-det-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ players in my team are under twelve.",
+      "choices": [
+        "The most",
+        "Most",
+        "Almost",
+        "Mostly"
+      ],
+      "answer": "Most",
+      "explain": "'Most' + plural noun means nearly all."
+    },
+    {
+      "id": "en-det-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "I'd like ___ more soup, please. (a few / a little)",
+      "answer": [
+        "a little"
+      ],
+      "explain": "'Soup' cannot be counted, so we use 'a little'."
+    },
+    {
+      "id": "en-det-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ his sisters play tennis. (Both / Either)",
+      "answer": [
+        "Both"
+      ],
+      "explain": "'Both' + plural noun means the two of them."
+    },
+    {
+      "id": "en-det-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "That bike is not mine. It's ___ . (Lucy)",
+      "answer": [
+        "Lucy's",
+        "hers"
+      ],
+      "explain": "We add 's to a name to show who owns something."
+    },
+    {
+      "id": "en-det-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "'Are there any tickets left?' 'No, there are ___ .' (none / no)",
+      "answer": [
+        "none"
+      ],
+      "explain": "'None' stands alone; 'no' needs a noun after it."
+    },
+    {
+      "id": "en-det-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ people came to the match, so the stadium was almost empty. (Few / A few)",
+      "answer": [
+        "Few"
+      ],
+      "explain": "'Few' means almost none, which fits an empty stadium."
+    },
+    {
+      "id": "en-det-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ boots are these? They are very muddy. (Who / Whose)",
+      "answer": [
+        "Whose"
+      ],
+      "explain": "'Whose' asks who something belongs to."
+    },
+    {
+      "id": "en-det-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Some of my friends play rugby; ___ play football. (others / other)",
+      "answer": [
+        "others",
+        "the others"
+      ],
+      "explain": "'Others' replaces 'other friends' when there is no noun after it."
+    },
+    {
+      "id": "en-det-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She is ___ university student and a great striker.",
+      "choices": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explain": "'University' starts with the sound /j/, a consonant sound, so we use 'a'."
+    },
+    {
+      "id": "en-det-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My brother wants to be ___ FBI agent.",
+      "choices": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
+      "answer": "an",
+      "explain": "'FBI' starts with the vowel sound 'eff', so we use 'an'."
+    },
+    {
+      "id": "en-det-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The thieves went to ___ prison for ten years.",
+      "choices": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "—",
+      "explain": "We say 'go to prison' with no article when we mean the punishment."
+    },
+    {
+      "id": "en-det-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The ship sailed across ___ English Channel.",
+      "choices": [
+        "—",
+        "a",
+        "the",
+        "an"
+      ],
+      "answer": "the",
+      "explain": "Seas, oceans and channels take 'the'."
+    },
+    {
+      "id": "en-det-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My uncle dreams of climbing ___ Mount Everest.",
+      "choices": [
+        "the",
+        "—",
+        "a",
+        "an"
+      ],
+      "answer": "—",
+      "explain": "Single mountains have no article."
+    },
+    {
+      "id": "en-det-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Next summer we are going to ___ Philippines.",
+      "choices": [
+        "—",
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": "the",
+      "explain": "Names of island groups are plural and take 'the'."
+    },
+    {
+      "id": "en-det-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The match lasts ninety minutes, but I only watched half ___ hour.",
+      "choices": [
+        "an",
+        "a",
+        "—",
+        "some"
+      ],
+      "answer": "an",
+      "explain": "'Hour' starts with a vowel sound, so we say 'half an hour'."
+    },
+    {
+      "id": "en-det-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ my friends came to watch the final.",
+      "choices": [
+        "Every",
+        "Each",
+        "All",
+        "Whole"
+      ],
+      "answer": "All",
+      "explain": "'All' goes before 'my' + plural noun."
+    },
+    {
+      "id": "en-det-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ate the ___ pizza and was still hungry.",
+      "choices": [
+        "whole",
+        "all",
+        "every",
+        "each"
+      ],
+      "answer": "whole",
+      "explain": "'The whole + singular noun' means the complete thing."
+    },
+    {
+      "id": "en-det-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ of the players has to wear shin pads.",
+      "choices": [
+        "Both",
+        "All",
+        "Many",
+        "Each"
+      ],
+      "answer": "Each",
+      "explain": "'Each of' is followed by a singular verb ('has')."
+    },
+    {
+      "id": "en-det-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The striker scored ___ goals this year than last year: only three.",
+      "choices": [
+        "fewer",
+        "less",
+        "fewest",
+        "little"
+      ],
+      "answer": "fewer",
+      "explain": "We use 'fewer' with countable plural nouns."
+    },
+    {
+      "id": "en-det-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I have ___ money than you, so you pay.",
+      "choices": [
+        "fewer",
+        "less",
+        "few",
+        "little"
+      ],
+      "answer": "less",
+      "explain": "We use 'less' with uncountable nouns like 'money'."
+    },
+    {
+      "id": "en-det-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Hardly ___ fans came because of the rain.",
+      "choices": [
+        "any",
+        "some",
+        "a few",
+        "few"
+      ],
+      "answer": "any",
+      "explain": "'Hardly any' means almost none."
+    },
+    {
+      "id": "en-det-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "You can take ___ seat you like. The stadium is empty.",
+      "choices": [
+        "some",
+        "any",
+        "much",
+        "few"
+      ],
+      "answer": "any",
+      "explain": "'Any' means it does not matter which one."
+    },
+    {
+      "id": "en-det-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I haven't read ___ of these two books.",
+      "choices": [
+        "neither",
+        "either",
+        "none",
+        "every"
+      ],
+      "answer": "either",
+      "explain": "'Either' is used after a negative verb to talk about two things."
+    },
+    {
+      "id": "en-det-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My coach gave me ___ useful advice before the final.",
+      "choices": [
+        "a",
+        "some",
+        "an",
+        "many"
+      ],
+      "answer": "some",
+      "explain": "'Advice' is uncountable, so we can't use 'a'."
+    },
+    {
+      "id": "en-det-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She plays in ___ same team as her brother.",
+      "choices": [
+        "a",
+        "an",
+        "—",
+        "the"
+      ],
+      "answer": "the",
+      "explain": "'Same' is always used with 'the'."
+    },
+    {
+      "id": "en-det-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I wonder ___ going to be the next captain.",
+      "choices": [
+        "who's",
+        "whose",
+        "who",
+        "whom"
+      ],
+      "answer": "who's",
+      "explain": "'Who's' is short for 'who is'."
+    },
+    {
+      "id": "en-det-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "She is ___ unique player; nobody plays like her. (a / an)",
+      "answer": [
+        "a"
+      ],
+      "explain": "'Unique' starts with the sound /j/, so we use 'a'."
+    },
+    {
+      "id": "en-det-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "He won ___ MVP award at the end of the season. (a / an)",
+      "answer": [
+        "an"
+      ],
+      "explain": "'MVP' starts with the vowel sound 'em', so we use 'an'."
+    },
+    {
+      "id": "en-det-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "The match was ___ a boring game that I fell asleep. (such / so)",
+      "answer": [
+        "such"
+      ],
+      "explain": "We use 'such a' + adjective + noun."
+    },
+    {
+      "id": "en-det-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "I saw your brother the ___ day at the shops. (other / another)",
+      "answer": [
+        "other"
+      ],
+      "explain": "'The other day' is a fixed phrase meaning a few days ago."
+    },
+    {
+      "id": "en-det-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "There are two teams in our village and ___ of them has a pitch. (neither / none)",
+      "answer": [
+        "neither"
+      ],
+      "explain": "'Neither' is used for two things, 'none' for more than two."
+    },
+    {
+      "id": "en-det-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "There was very ___ water, so we shared one bottle. (little / a little)",
+      "answer": [
+        "little"
+      ],
+      "explain": "'Very little' means almost none."
+    },
+    {
+      "id": "en-det-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "I trained the ___ week, but I still lost the race. (whole / all)",
+      "answer": [
+        "whole"
+      ],
+      "explain": "After 'the' we use 'whole', not 'all', before a singular noun."
+    },
+    {
+      "id": "en-det-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He bought ___ ice-cream cone after the match.",
+      "choices": [
+        "a",
+        "an",
+        "some",
+        "many"
+      ],
+      "answer": "an",
+      "explain": "'Ice' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My sister is ___ nurse at the city hospital.",
+      "choices": [
+        "an",
+        "some",
+        "much",
+        "a"
+      ],
+      "answer": "a",
+      "explain": "We use 'a' before a consonant sound when we talk about a job."
+    },
+    {
+      "id": "en-det-078",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Children go to ___ school from Monday to Friday.",
+      "choices": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
+      "answer": "—",
+      "explain": "We say 'go to school' with no article."
+    },
+    {
+      "id": "en-det-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Look up! ___ moon is full tonight.",
+      "choices": [
+        "A",
+        "An",
+        "—",
+        "The"
+      ],
+      "answer": "The",
+      "explain": "There is only one moon in the sky, so we use 'the'."
+    },
+    {
+      "id": "en-det-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tom is ___ tallest boy in our class.",
+      "choices": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explain": "We use 'the' before a superlative like 'tallest'."
+    },
+    {
+      "id": "en-det-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What ___ exciting match!",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explain": "'Exciting' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Look at ___ birds in the tree across the road.",
+      "choices": [
+        "these",
+        "those",
+        "this",
+        "that"
+      ],
+      "answer": "those",
+      "explain": "'Those' is for plural things that are far away."
+    },
+    {
+      "id": "en-det-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I'm holding ___ cards in my hand. Do you want to see them?",
+      "choices": [
+        "those",
+        "this",
+        "that",
+        "these"
+      ],
+      "answer": "these",
+      "explain": "'These' is for plural things that are near you."
+    },
+    {
+      "id": "en-det-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Mum, ___ is my friend Alex. He is standing next to me.",
+      "choices": [
+        "that",
+        "these",
+        "those",
+        "this"
+      ],
+      "answer": "this",
+      "explain": "We use 'this' to introduce a person who is near us."
+    },
+    {
+      "id": "en-det-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The cat licked ___ paws after dinner.",
+      "choices": [
+        "it's",
+        "its'",
+        "their",
+        "its"
+      ],
+      "answer": "its",
+      "explain": "'Its' (no apostrophe) shows that something belongs to an animal."
+    },
+    {
+      "id": "en-det-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My parents love ___ new car.",
+      "choices": [
+        "there",
+        "their",
+        "they're",
+        "them"
+      ],
+      "answer": "their",
+      "explain": "'Their' shows that something belongs to them."
+    },
+    {
+      "id": "en-det-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ are three goals on the scoreboard.",
+      "choices": [
+        "There",
+        "Their",
+        "They're",
+        "Its"
+      ],
+      "answer": "There",
+      "explain": "'There are' tells us that something exists."
+    },
+    {
+      "id": "en-det-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Is there ___ juice in the jug?",
+      "choices": [
+        "a few",
+        "many",
+        "any",
+        "an"
+      ],
+      "answer": "any",
+      "explain": "'Juice' is uncountable, so we use 'any' in a question."
+    },
+    {
+      "id": "en-det-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How ___ players are there in a football team?",
+      "choices": [
+        "much",
+        "any",
+        "a little",
+        "many"
+      ],
+      "answer": "many",
+      "explain": "'Players' can be counted, so we use 'many'."
+    },
+    {
+      "id": "en-det-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How ___ sugar do you want in your tea?",
+      "choices": [
+        "many",
+        "few",
+        "a few",
+        "much"
+      ],
+      "answer": "much",
+      "explain": "'Sugar' cannot be counted, so we use 'much'."
+    },
+    {
+      "id": "en-det-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ child in the class got a medal.",
+      "choices": [
+        "Every",
+        "All",
+        "Both",
+        "Many"
+      ],
+      "answer": "Every",
+      "explain": "'Every' goes with a singular noun."
+    },
+    {
+      "id": "en-det-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I have two brothers. ___ of them like football.",
+      "choices": [
+        "Every",
+        "Each",
+        "Both",
+        "Much"
+      ],
+      "answer": "Both",
+      "explain": "'Both of them' means the two of them, with a plural verb."
+    },
+    {
+      "id": "en-det-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I need ___ umbrella because it's raining.",
+      "choices": [
+        "an",
+        "a",
+        "some",
+        "many"
+      ],
+      "answer": "an",
+      "explain": "'Umbrella' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-094",
+      "level": 1,
+      "type": "input",
+      "prompt": "I saw ___ elephant at the zoo yesterday. (a / an)",
+      "answer": [
+        "an"
+      ],
+      "explain": "'Elephant' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "There are ___ biscuits in the tin, so help yourself. (some / any)",
+      "answer": [
+        "some"
+      ],
+      "explain": "We use 'some' in positive sentences."
+    },
+    {
+      "id": "en-det-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "This pen is empty. Can I have ___ pen, please? (other / another)",
+      "answer": [
+        "another"
+      ],
+      "explain": "'Another' means one more."
+    },
+    {
+      "id": "en-det-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "There are only ___ minutes left in the match. (a few / a little)",
+      "answer": [
+        "a few"
+      ],
+      "explain": "'A few' goes with plural countable nouns."
+    },
+    {
+      "id": "en-det-098",
+      "level": 1,
+      "type": "input",
+      "prompt": "Look at ___ shoes on my feet! They are new. (this / these)",
+      "answer": [
+        "these"
+      ],
+      "explain": "'Shoes' is plural and near you, so we use 'these'."
+    },
+    {
+      "id": "en-det-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "The robot lost ___ battery. (it's / its)",
+      "answer": [
+        "its"
+      ],
+      "explain": "'Its' (no apostrophe) shows that something belongs to a thing."
+    },
+    {
+      "id": "en-det-100",
+      "level": 1,
+      "type": "input",
+      "prompt": "How ___ time is left before kick-off? (much / many)",
+      "answer": [
+        "much"
+      ],
+      "explain": "'Time' cannot be counted, so we use 'much'."
+    },
+    {
+      "id": "en-det-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I stayed at ___ home yesterday because I was ill.",
+      "choices": [
+        "the",
+        "—",
+        "a",
+        "an"
+      ],
+      "answer": "—",
+      "explain": "We say 'at home' with no article."
+    },
+    {
+      "id": "en-det-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I saw a dog and a cat in the park. ___ dog was barking loudly.",
+      "choices": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
+      "answer": "The",
+      "explain": "We use 'the' for something that was already mentioned."
+    },
+    {
+      "id": "en-det-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Our cousins live in ___ United States.",
+      "choices": [
+        "the",
+        "—",
+        "a",
+        "an"
+      ],
+      "answer": "the",
+      "explain": "'United States' is a plural name, so it takes 'the'."
+    },
+    {
+      "id": "en-det-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The club is playing a friendly match in ___ Switzerland.",
+      "choices": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "—",
+      "explain": "Most country names have no article."
+    },
+    {
+      "id": "en-det-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The team sailed across ___ Atlantic to play a friendly.",
+      "choices": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
+      "answer": "the",
+      "explain": "Oceans take 'the'."
+    },
+    {
+      "id": "en-det-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "That was ___ most exciting match of the season.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explain": "We use 'the' before 'most' + adjective."
+    },
+    {
+      "id": "en-det-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We have ___ same teacher as last year.",
+      "choices": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explain": "'Same' is always used with 'the'."
+    },
+    {
+      "id": "en-det-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ football is the most popular sport in my country.",
+      "choices": [
+        "The",
+        "A",
+        "An",
+        "—"
+      ],
+      "answer": "—",
+      "explain": "We use no article with the name of a sport."
+    },
+    {
+      "id": "en-det-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I'm looking at ___ girl over there. She is wearing a red shirt.",
+      "choices": [
+        "those",
+        "that",
+        "these",
+        "this"
+      ],
+      "answer": "that",
+      "explain": "'That' is for a singular person who is far away."
+    },
+    {
+      "id": "en-det-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I can't reach ___ cups on the top shelf. Can you help?",
+      "choices": [
+        "these",
+        "those",
+        "this",
+        "that"
+      ],
+      "answer": "those",
+      "explain": "'Those' is for plural things that are far away."
+    },
+    {
+      "id": "en-det-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The two teams and ___ fans celebrated together.",
+      "choices": [
+        "they're",
+        "their",
+        "there",
+        "its"
+      ],
+      "answer": "their",
+      "explain": "'Their' shows that something belongs to them."
+    },
+    {
+      "id": "en-det-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The robot lost ___ way in the maze.",
+      "choices": [
+        "it's",
+        "its",
+        "their",
+        "his"
+      ],
+      "answer": "its",
+      "explain": "'Its' shows that something belongs to a thing."
+    },
+    {
+      "id": "en-det-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Is this ball ___ or ours?",
+      "choices": [
+        "your",
+        "you",
+        "yours",
+        "yours'"
+      ],
+      "answer": "yours",
+      "explain": "'Yours' is a possessive pronoun and replaces 'your ball'."
+    },
+    {
+      "id": "en-det-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "There is too ___ noise in this room.",
+      "choices": [
+        "much",
+        "many",
+        "few",
+        "a few"
+      ],
+      "answer": "much",
+      "explain": "'Noise' is uncountable, so we use 'too much'."
+    },
+    {
+      "id": "en-det-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "There were too ___ people on the bus.",
+      "choices": [
+        "much",
+        "little",
+        "many",
+        "a little"
+      ],
+      "answer": "many",
+      "explain": "'People' is plural, so we use 'too many'."
+    },
+    {
+      "id": "en-det-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We need ___ more minutes to finish the training.",
+      "choices": [
+        "a few",
+        "a little",
+        "little",
+        "few"
+      ],
+      "answer": "a few",
+      "explain": "'Minutes' is countable, so we use 'a few'."
+    },
+    {
+      "id": "en-det-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "There are two exits. You can use ___ exit.",
+      "choices": [
+        "both",
+        "either",
+        "all",
+        "every"
+      ],
+      "answer": "either",
+      "explain": "'Either' + singular noun means one or the other of two."
+    },
+    {
+      "id": "en-det-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I asked two players, but ___ of them knew the answer.",
+      "choices": [
+        "either",
+        "each",
+        "every",
+        "neither"
+      ],
+      "answer": "neither",
+      "explain": "'Neither of' means not the first and not the second."
+    },
+    {
+      "id": "en-det-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "I have very ___ money left, so I can't buy a ticket.",
+      "answer": [
+        "little"
+      ],
+      "explain": "'Little' means almost none, which fits 'can't buy'."
+    },
+    {
+      "id": "en-det-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ my brothers play football. They are twins. (Both / All)",
+      "answer": [
+        "Both"
+      ],
+      "explain": "'Both' is used for two people."
+    },
+    {
+      "id": "en-det-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "This isn't my jacket. It's ___ . (Ben)",
+      "answer": [
+        "Ben's",
+        "his"
+      ],
+      "explain": "We add 's to a name to show who owns something."
+    },
+    {
+      "id": "en-det-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "I looked for tickets, but there were ___ left. (none / no)",
+      "answer": [
+        "none"
+      ],
+      "explain": "'None' stands alone; 'no' needs a noun after it."
+    },
+    {
+      "id": "en-det-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ of the two teams played well, so the match was boring. (Neither / None)",
+      "answer": [
+        "Neither"
+      ],
+      "explain": "'Neither' is used for two things."
+    },
+    {
+      "id": "en-det-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "Some pupils walk to school and ___ come by bus. (others / other)",
+      "answer": [
+        "others",
+        "the others"
+      ],
+      "explain": "'Others' replaces 'other pupils' when there is no noun after it."
+    },
+    {
+      "id": "en-det-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ of the three goalkeepers got a new glove. (Each / Every)",
+      "answer": [
+        "Each"
+      ],
+      "explain": "'Each of' is correct; we can't say 'every of'."
+    },
+    {
+      "id": "en-det-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She is ___ European champion.",
+      "choices": [
+        "an",
+        "some",
+        "many",
+        "a"
+      ],
+      "answer": "a",
+      "explain": "'European' starts with the sound /j/, so we use 'a'."
+    },
+    {
+      "id": "en-det-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He waited for ___ hour outside the stadium.",
+      "choices": [
+        "an",
+        "a",
+        "—",
+        "some"
+      ],
+      "answer": "an",
+      "explain": "'Hour' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I'd like ___ honest answer, please.",
+      "choices": [
+        "a",
+        "some",
+        "an",
+        "many"
+      ],
+      "answer": "an",
+      "explain": "'Honest' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We climbed ___ Alps last summer.",
+      "choices": [
+        "—",
+        "a",
+        "the",
+        "an"
+      ],
+      "answer": "the",
+      "explain": "Mountain ranges take 'the'."
+    },
+    {
+      "id": "en-det-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "They sailed along ___ Nile for a week.",
+      "choices": [
+        "the",
+        "—",
+        "a",
+        "an"
+      ],
+      "answer": "the",
+      "explain": "Rivers take 'the'."
+    },
+    {
+      "id": "en-det-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "They travelled to ___ Czech Republic by train.",
+      "choices": [
+        "the",
+        "—",
+        "a",
+        "an"
+      ],
+      "answer": "the",
+      "explain": "Names with 'republic', 'kingdom' or 'states' take 'the'."
+    },
+    {
+      "id": "en-det-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He is ___ eleven-year-old goalkeeper.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "answer": "an",
+      "explain": "'Eleven' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I spent ___ the afternoon on the pitch.",
+      "choices": [
+        "every",
+        "each",
+        "all",
+        "whole"
+      ],
+      "answer": "all",
+      "explain": "'All the afternoon' means the complete afternoon."
+    },
+    {
+      "id": "en-det-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I have ___ friends than you because I moved a lot.",
+      "choices": [
+        "less",
+        "fewer",
+        "fewest",
+        "little"
+      ],
+      "answer": "fewer",
+      "explain": "We use 'fewer' with countable plural nouns."
+    },
+    {
+      "id": "en-det-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "There is ___ traffic on Sundays, so the journey is quick.",
+      "choices": [
+        "fewer",
+        "few",
+        "less",
+        "a few"
+      ],
+      "answer": "less",
+      "explain": "We use 'less' with uncountable nouns like 'traffic'."
+    },
+    {
+      "id": "en-det-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We saw ___ of fans outside the stadium.",
+      "choices": [
+        "many",
+        "much",
+        "lots",
+        "few"
+      ],
+      "answer": "lots",
+      "explain": "'Lots of' goes before a noun; 'many of fans' is wrong."
+    },
+    {
+      "id": "en-det-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ of the three keepers can play tonight; all are injured.",
+      "choices": [
+        "None",
+        "Neither",
+        "Either",
+        "Each"
+      ],
+      "answer": "None",
+      "explain": "'None' is used for more than two people."
+    },
+    {
+      "id": "en-det-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I have ___ idea where my boots are.",
+      "choices": [
+        "any",
+        "none",
+        "not",
+        "no"
+      ],
+      "answer": "no",
+      "explain": "'No' + noun means not any."
+    },
+    {
+      "id": "en-det-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I'm happy with ___ answer. Both are correct.",
+      "choices": [
+        "both",
+        "neither",
+        "all",
+        "either"
+      ],
+      "answer": "either",
+      "explain": "'Either' + singular noun means one or the other of two."
+    },
+    {
+      "id": "en-det-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The coach gave us ___ useful tips about tackling.",
+      "choices": [
+        "some",
+        "a",
+        "an",
+        "much"
+      ],
+      "answer": "some",
+      "explain": "'Tips' is plural, so we can't use 'a'."
+    },
+    {
+      "id": "en-det-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I don't know ___ boots are under the bench.",
+      "choices": [
+        "who's",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "answer": "whose",
+      "explain": "'Whose' asks who something belongs to."
+    },
+    {
+      "id": "en-det-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I think ___ going to win the cup.",
+      "choices": [
+        "their",
+        "they're",
+        "there",
+        "them"
+      ],
+      "answer": "they're",
+      "explain": "'They're' is short for 'they are'."
+    },
+    {
+      "id": "en-det-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ of the fans left early because of the cold.",
+      "choices": [
+        "Almost",
+        "Mostly",
+        "Most",
+        "The most"
+      ],
+      "answer": "Most",
+      "explain": "'Most of' + plural noun means nearly all."
+    },
+    {
+      "id": "en-det-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "He plays for ___ under-12 team. (a / an)",
+      "answer": [
+        "an"
+      ],
+      "explain": "'Under' starts with a vowel sound, so we use 'an'."
+    },
+    {
+      "id": "en-det-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "In the school play, he is ___ one-eyed pirate. (a / an)",
+      "answer": [
+        "a"
+      ],
+      "explain": "'One' starts with the sound /w/, so we use 'a'."
+    },
+    {
+      "id": "en-det-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "It was ___ an exciting final that nobody sat down. (such / so)",
+      "answer": [
+        "such"
+      ],
+      "explain": "We use 'such a' + adjective + noun."
+    },
+    {
+      "id": "en-det-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "One goal is not enough. We need ___ goal to win. (other / another)",
+      "answer": [
+        "another"
+      ],
+      "explain": "'Another' means one more."
+    },
+    {
+      "id": "en-det-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "I don't like ___ of these two shirts. (either / neither)",
+      "answer": [
+        "either"
+      ],
+      "explain": "'Either' is used after a negative verb to talk about two things."
+    },
+    {
+      "id": "en-det-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "He gave me very ___ help, so I failed. (little / few)",
+      "answer": [
+        "little"
+      ],
+      "explain": "'Help' is uncountable, so we use 'little'."
+    },
+    {
+      "id": "en-det-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "We have ___ players than last year. (fewer / less)",
+      "answer": [
+        "fewer"
+      ],
+      "explain": "We use 'fewer' with countable plural nouns."
+    }
+  ]
+}

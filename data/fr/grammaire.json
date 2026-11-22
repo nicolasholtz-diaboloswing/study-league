@@ -1,0 +1,1965 @@
+{
+  "topic": "fr-grammaire",
+  "questions": [
+    {
+      "id": "fr-gram-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Le [gardien] plonge sur sa gauche.",
+      "choices": [
+        "verbe",
+        "adjectif",
+        "nom",
+        "déterminant"
+      ],
+      "answer": "nom",
+      "explain": "« gardien » désigne une personne : c'est un nom commun."
+    },
+    {
+      "id": "fr-gram-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? [Le] gardien plonge sur sa gauche.",
+      "choices": [
+        "adverbe",
+        "déterminant",
+        "nom",
+        "pronom"
+      ],
+      "answer": "déterminant",
+      "explain": "« le » accompagne le nom « gardien » : c'est un déterminant (article défini)."
+    },
+    {
+      "id": "fr-gram-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Un joueur [rapide] marque.",
+      "choices": [
+        "verbe",
+        "nom",
+        "adverbe",
+        "adjectif"
+      ],
+      "answer": "adjectif",
+      "explain": "« rapide » complète le nom « joueur » : c'est un adjectif."
+    },
+    {
+      "id": "fr-gram-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Le joueur court [vite].",
+      "choices": [
+        "adverbe",
+        "adjectif",
+        "nom",
+        "préposition"
+      ],
+      "answer": "adverbe",
+      "explain": "« vite » complète le verbe « court » et ne s'accorde pas : c'est un adverbe."
+    },
+    {
+      "id": "fr-gram-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Il joue [dans] l'équipe des moins de treize ans.",
+      "choices": [
+        "préposition",
+        "conjonction de coordination",
+        "déterminant",
+        "adverbe"
+      ],
+      "answer": "préposition",
+      "explain": "« dans » introduit un complément : c'est une préposition."
+    },
+    {
+      "id": "fr-gram-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Mon frère aime le foot [mais] je préfère le rugby.",
+      "choices": [
+        "préposition",
+        "conjonction de coordination",
+        "conjonction de subordination",
+        "adverbe"
+      ],
+      "answer": "conjonction de coordination",
+      "explain": "« mais » relie deux propositions de même rang : c'est une conjonction de coordination."
+    },
+    {
+      "id": "fr-gram-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Il pleure [parce qu']il a perdu le match.",
+      "choices": [
+        "conjonction de subordination",
+        "conjonction de coordination",
+        "préposition",
+        "pronom"
+      ],
+      "answer": "conjonction de subordination",
+      "explain": "« parce que » introduit une proposition subordonnée de cause."
+    },
+    {
+      "id": "fr-gram-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? [Il] marque un but.",
+      "choices": [
+        "pronom personnel",
+        "adverbe",
+        "nom",
+        "déterminant"
+      ],
+      "answer": "pronom personnel",
+      "explain": "« il » remplace un nom : c'est un pronom personnel."
+    },
+    {
+      "id": "fr-gram-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le sujet du verbe dans « Les supporters chantent fort » ?",
+      "choices": [
+        "chantent fort",
+        "fort",
+        "Les supporters",
+        "chantent"
+      ],
+      "answer": "Les supporters",
+      "explain": "On pose la question « Qui est-ce qui chante ? » : les supporters."
+    },
+    {
+      "id": "fr-gram-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le capitaine soulève [la coupe].",
+      "choices": [
+        "attribut du sujet",
+        "complément circonstanciel de lieu",
+        "COI",
+        "COD"
+      ],
+      "answer": "COD",
+      "explain": "« la coupe » répond à « soulève quoi ? » sans préposition : COD."
+    },
+    {
+      "id": "fr-gram-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Le gardien est [fatigué].",
+      "choices": [
+        "complément circonstanciel de manière",
+        "attribut du sujet",
+        "COD",
+        "épithète"
+      ],
+      "answer": "attribut du sujet",
+      "explain": "« fatigué » suit le verbe d'état « est » et qualifie le sujet : attribut du sujet."
+    },
+    {
+      "id": "fr-gram-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Les joueurs s'entraînent [au stade].",
+      "choices": [
+        "COD",
+        "complément du nom",
+        "complément circonstanciel de lieu",
+        "COI"
+      ],
+      "answer": "complément circonstanciel de lieu",
+      "explain": "« au stade » répond à « où ? » : complément circonstanciel de lieu."
+    },
+    {
+      "id": "fr-gram-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? [Le samedi], nous jouons contre Lyon.",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "complément circonstanciel de temps",
+        "COD",
+        "attribut du sujet"
+      ],
+      "answer": "complément circonstanciel de temps",
+      "explain": "« Le samedi » répond à « quand ? » : complément circonstanciel de temps."
+    },
+    {
+      "id": "fr-gram-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase « Pourquoi arrives-tu en retard ? »",
+      "choices": [
+        "interrogative",
+        "impérative",
+        "déclarative",
+        "exclamative"
+      ],
+      "answer": "interrogative",
+      "explain": "La phrase pose une question : elle est interrogative."
+    },
+    {
+      "id": "fr-gram-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase « Passe le ballon à ton coéquipier. » ?",
+      "choices": [
+        "exclamative",
+        "interrogative",
+        "impérative",
+        "déclarative"
+      ],
+      "answer": "impérative",
+      "explain": "Le verbe est à l'impératif : la phrase donne un ordre."
+    },
+    {
+      "id": "fr-gram-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la forme de la phrase « Les joueurs ne courent pas. » ?",
+      "choices": [
+        "passive",
+        "interrogative",
+        "négative",
+        "affirmative"
+      ],
+      "answer": "négative",
+      "explain": "La phrase contient « ne… pas » : elle est à la forme négative."
+    },
+    {
+      "id": "fr-gram-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est à la voix passive ?",
+      "choices": [
+        "Le gardien lancera le ballon.",
+        "Le gardien a lancé le ballon.",
+        "Le gardien lance le ballon.",
+        "Le ballon est lancé par le gardien."
+      ],
+      "answer": "Le ballon est lancé par le gardien.",
+      "explain": "À la voix passive, le sujet subit l'action : être + participe passé + complément d'agent."
+    },
+    {
+      "id": "fr-gram-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot est un nom propre ?",
+      "choices": [
+        "équipe",
+        "ville",
+        "stade",
+        "Paris"
+      ],
+      "answer": "Paris",
+      "explain": "Un nom propre désigne un être ou un lieu unique et prend une majuscule."
+    },
+    {
+      "id": "fr-gram-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris l'infinitif du verbe conjugué : Les joueurs courent vers le but.",
+      "answer": [
+        "courir"
+      ],
+      "explain": "« courent » est la forme conjuguée du verbe courir."
+    },
+    {
+      "id": "fr-gram-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le sujet du verbe (un seul mot) : Paul marque un but.",
+      "answer": [
+        "Paul",
+        "paul"
+      ],
+      "explain": "On pose « Qui est-ce qui marque ? » : Paul."
+    },
+    {
+      "id": "fr-gram-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la nature du mot « très » dans « Il est très rapide » ? (un mot)",
+      "answer": [
+        "adverbe"
+      ],
+      "explain": "« très » précise l'adjectif « rapide » et ne varie pas : adverbe."
+    },
+    {
+      "id": "fr-gram-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le COD (2 mots) : Léa lance le ballon.",
+      "answer": [
+        "le ballon"
+      ],
+      "explain": "On pose « Léa lance quoi ? » : le ballon."
+    },
+    {
+      "id": "fr-gram-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le type de la phrase « Où est le ballon ? » (un mot)",
+      "answer": [
+        "interrogative",
+        "interrogatif"
+      ],
+      "explain": "La phrase pose une question : elle est interrogative."
+    },
+    {
+      "id": "fr-gram-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de verbes conjugués y a-t-il dans « Léo court et saute » ? (un chiffre)",
+      "answer": [
+        "2",
+        "deux"
+      ],
+      "explain": "« court » et « saute » sont deux verbes conjugués."
+    },
+    {
+      "id": "fr-gram-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la nature du mot « rouge » dans « un maillot rouge » ? (un mot)",
+      "answer": [
+        "adjectif",
+        "adjectif qualificatif"
+      ],
+      "explain": "« rouge » qualifie le nom « maillot » : adjectif."
+    },
+    {
+      "id": "fr-gram-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le coach parle [à ses joueurs].",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "complément du nom",
+        "COD",
+        "COI"
+      ],
+      "answer": "COI",
+      "explain": "On « parle à quelqu'un » : le complément est introduit par « à », c'est un COI."
+    },
+    {
+      "id": "fr-gram-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Il devient [capitaine].",
+      "choices": [
+        "COD",
+        "COI",
+        "épithète",
+        "attribut du sujet"
+      ],
+      "answer": "attribut du sujet",
+      "explain": "« devenir » est un verbe d'état : « capitaine » est attribut du sujet."
+    },
+    {
+      "id": "fr-gram-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Cette victoire [méritée] fait plaisir.",
+      "choices": [
+        "épithète",
+        "apposition",
+        "attribut du sujet",
+        "COD"
+      ],
+      "answer": "épithète",
+      "explain": "« méritée » complète directement le nom, sans verbe d'état : épithète."
+    },
+    {
+      "id": "fr-gram-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le maillot [de l'équipe] est bleu.",
+      "choices": [
+        "COI",
+        "COD",
+        "complément circonstanciel de lieu",
+        "complément du nom"
+      ],
+      "answer": "complément du nom",
+      "explain": "« de l'équipe » complète le nom « maillot » : complément du nom."
+    },
+    {
+      "id": "fr-gram-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Il tire [avec force].",
+      "choices": [
+        "complément du nom",
+        "complément circonstanciel de lieu",
+        "COI",
+        "complément circonstanciel de manière"
+      ],
+      "answer": "complément circonstanciel de manière",
+      "explain": "« avec force » répond à « comment ? » : complément circonstanciel de manière."
+    },
+    {
+      "id": "fr-gram-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le match est reporté [à cause de la pluie].",
+      "choices": [
+        "complément circonstanciel de temps",
+        "complément circonstanciel de manière",
+        "complément circonstanciel de lieu",
+        "complément circonstanciel de cause"
+      ],
+      "answer": "complément circonstanciel de cause",
+      "explain": "« à cause de la pluie » répond à « pourquoi ? » : complément circonstanciel de cause."
+    },
+    {
+      "id": "fr-gram-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? [Pendant la mi-temps], le coach parle aux joueurs.",
+      "choices": [
+        "complément circonstanciel de temps",
+        "complément circonstanciel de cause",
+        "COD",
+        "complément circonstanciel de lieu"
+      ],
+      "answer": "complément circonstanciel de temps",
+      "explain": "« Pendant la mi-temps » répond à « quand ? » : complément circonstanciel de temps."
+    },
+    {
+      "id": "fr-gram-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la phrase « Le public applaudit quand les joueurs entrent. » ?",
+      "choices": [
+        "une phrase simple",
+        "deux propositions juxtaposées",
+        "deux propositions coordonnées",
+        "une phrase complexe avec une subordonnée"
+      ],
+      "answer": "une phrase complexe avec une subordonnée",
+      "explain": "Elle a deux verbes conjugués ; « quand » introduit une proposition subordonnée."
+    },
+    {
+      "id": "fr-gram-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Comment sont reliées les propositions de « Il pleut, nous jouons quand même. » ?",
+      "choices": [
+        "par coordination",
+        "par juxtaposition",
+        "elles ne sont pas reliées : phrase simple",
+        "par subordination"
+      ],
+      "answer": "par juxtaposition",
+      "explain": "Les deux propositions sont séparées par une virgule, sans mot de liaison : juxtaposées."
+    },
+    {
+      "id": "fr-gram-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Comment sont reliées les propositions de « Il a couru et il a marqué. » ?",
+      "choices": [
+        "elles ne sont pas reliées : phrase simple",
+        "par coordination",
+        "par juxtaposition",
+        "par subordination"
+      ],
+      "answer": "par coordination",
+      "explain": "« et » est une conjonction de coordination qui relie deux propositions."
+    },
+    {
+      "id": "fr-gram-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la proposition entre crochets ? Le joueur [qui a marqué] est mon frère.",
+      "choices": [
+        "subordonnée relative",
+        "subordonnée circonstancielle de temps",
+        "proposition coordonnée",
+        "proposition indépendante"
+      ],
+      "answer": "subordonnée relative",
+      "explain": "Elle commence par le pronom relatif « qui » et complète le nom « joueur »."
+    },
+    {
+      "id": "fr-gram-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pronom relatif dans « Le stade où je joue est grand » ?",
+      "choices": [
+        "où",
+        "joue",
+        "stade",
+        "je"
+      ],
+      "answer": "où",
+      "explain": "« où » relie la relative à son antécédent « stade »."
+    },
+    {
+      "id": "fr-gram-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « Le ballon que tu as shooté est perdu », quel est l'antécédent de « que » ?",
+      "choices": [
+        "perdu",
+        "shooté",
+        "tu",
+        "ballon"
+      ],
+      "answer": "ballon",
+      "explain": "L'antécédent est le nom que le pronom relatif reprend : « ballon »."
+    },
+    {
+      "id": "fr-gram-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase correspond à « Le gardien arrête le tir. » à la voix passive ?",
+      "choices": [
+        "Le tir a arrêté par le gardien.",
+        "Le tir arrête le gardien.",
+        "Le tir est arrêté par le gardien.",
+        "Le gardien est arrêté par le tir."
+      ],
+      "answer": "Le tir est arrêté par le gardien.",
+      "explain": "Le COD devient sujet : être au même temps + participe passé + complément d'agent."
+    },
+    {
+      "id": "fr-gram-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est à la voix passive, et non pas une phrase avec attribut ?",
+      "choices": [
+        "Le joueur est content.",
+        "Le joueur applaudit la foule.",
+        "Le joueur a applaudi.",
+        "Le joueur est applaudi par la foule."
+      ],
+      "answer": "Le joueur est applaudi par la foule.",
+      "explain": "« est applaudi par la foule » = être + participe + complément d'agent ; « est content » est un attribut."
+    },
+    {
+      "id": "fr-gram-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est exclamative ?",
+      "choices": [
+        "Cours vite.",
+        "Ce joueur court vite.",
+        "Ce joueur court-il vite ?",
+        "Comme ce joueur court vite !"
+      ],
+      "answer": "Comme ce joueur court vite !",
+      "explain": "La phrase exclamative exprime un sentiment fort et se termine par « ! »."
+    },
+    {
+      "id": "fr-gram-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot « leur » dans « Le coach leur donne des conseils » ?",
+      "choices": [
+        "adjectif qualificatif",
+        "adverbe",
+        "déterminant possessif",
+        "pronom personnel"
+      ],
+      "answer": "pronom personnel",
+      "explain": "« leur » remplace « à eux » et n'accompagne pas un nom : pronom personnel."
+    },
+    {
+      "id": "fr-gram-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « que » dans « Je crois que tu as raison » ?",
+      "choices": [
+        "adverbe",
+        "pronom relatif",
+        "préposition",
+        "conjonction de subordination"
+      ],
+      "answer": "conjonction de subordination",
+      "explain": "« que » introduit la proposition « tu as raison » et ne reprend aucun nom."
+    },
+    {
+      "id": "fr-gram-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris la fonction du groupe entre crochets (réponse courte) : Les supporters sifflent [l'arbitre].",
+      "answer": [
+        "COD",
+        "cod",
+        "complément d'objet direct"
+      ],
+      "explain": "« l'arbitre » répond à « sifflent qui ? » sans préposition : COD."
+    },
+    {
+      "id": "fr-gram-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le pronom relatif : Le ballon ___ tu as shooté est perdu.",
+      "answer": [
+        "que"
+      ],
+      "explain": "Le pronom relatif est COD de « as shooté » : « que »."
+    },
+    {
+      "id": "fr-gram-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le pronom relatif : Le garçon ___ joue gardien est mon cousin.",
+      "answer": [
+        "qui"
+      ],
+      "explain": "Le pronom relatif est sujet de « joue » : « qui »."
+    },
+    {
+      "id": "fr-gram-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien de propositions contient la phrase ? (un chiffre) Le coach crie et les joueurs courent.",
+      "answer": [
+        "2",
+        "deux"
+      ],
+      "explain": "Il y a un verbe conjugué par proposition : crie, courent."
+    },
+    {
+      "id": "fr-gram-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris la conjonction de coordination qui exprime l'opposition : Il est petit ___ il est rapide.",
+      "answer": [
+        "mais"
+      ],
+      "explain": "« mais » exprime l'opposition."
+    },
+    {
+      "id": "fr-gram-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris l'antécédent (un mot) du pronom « qui » : Le gardien qui arrête le penalty est un héros.",
+      "answer": [
+        "gardien",
+        "le gardien"
+      ],
+      "explain": "L'antécédent est le nom repris par « qui » : gardien."
+    },
+    {
+      "id": "fr-gram-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le complément du nom « maillot » : Le maillot de mon frère est trop grand.",
+      "answer": [
+        "de mon frère",
+        "de mon frere"
+      ],
+      "explain": "Le complément du nom est introduit par une préposition : « de mon frère »."
+    },
+    {
+      "id": "fr-gram-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? La foule applaudit le joueur [qui sort du terrain].",
+      "choices": [
+        "COD du verbe « applaudit »",
+        "complément de l'antécédent « joueur »",
+        "complément circonstanciel de temps",
+        "attribut du sujet"
+      ],
+      "answer": "complément de l'antécédent « joueur »",
+      "explain": "Une subordonnée relative complète le nom qu'elle reprend (son antécédent)."
+    },
+    {
+      "id": "fr-gram-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? Nous resterons au stade [jusqu'à ce que l'arbitre siffle].",
+      "choices": [
+        "COD",
+        "complément circonstanciel de temps",
+        "complément circonstanciel de cause",
+        "complément circonstanciel de manière"
+      ],
+      "answer": "complément circonstanciel de temps",
+      "explain": "Elle répond à « jusqu'à quand ? » : subordonnée circonstancielle de temps."
+    },
+    {
+      "id": "fr-gram-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? Il est tombé [parce qu'il a glissé].",
+      "choices": [
+        "COD",
+        "complément circonstanciel de cause",
+        "complément circonstanciel de temps",
+        "complément circonstanciel de lieu"
+      ],
+      "answer": "complément circonstanciel de cause",
+      "explain": "Elle répond à « pourquoi ? » : subordonnée circonstancielle de cause."
+    },
+    {
+      "id": "fr-gram-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? [Si tu t'entraînes], tu progresseras.",
+      "choices": [
+        "complément circonstanciel de temps",
+        "COD",
+        "complément circonstanciel de condition",
+        "complément circonstanciel de cause"
+      ],
+      "answer": "complément circonstanciel de condition",
+      "explain": "« si » introduit une condition : subordonnée circonstancielle de condition."
+    },
+    {
+      "id": "fr-gram-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Cette équipe semble [invincible].",
+      "choices": [
+        "COD",
+        "attribut du sujet",
+        "épithète",
+        "complément circonstanciel de manière"
+      ],
+      "answer": "attribut du sujet",
+      "explain": "« sembler » est un verbe d'état : « invincible » est attribut du sujet."
+    },
+    {
+      "id": "fr-gram-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le joueur pense [à son prochain match].",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "complément du nom",
+        "COD",
+        "COI"
+      ],
+      "answer": "COI",
+      "explain": "On « pense à quelque chose » : complément d'objet indirect introduit par « à »."
+    },
+    {
+      "id": "fr-gram-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Léo, [le capitaine de l'équipe], a marqué.",
+      "choices": [
+        "apposition",
+        "attribut du sujet",
+        "épithète",
+        "complément du nom"
+      ],
+      "answer": "apposition",
+      "explain": "Ce groupe nominal, séparé par des virgules, apporte une précision sur « Léo » : apposition."
+    },
+    {
+      "id": "fr-gram-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? La balle a été frappée [par l'attaquant].",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "complément d'agent",
+        "complément circonstanciel de manière",
+        "COD"
+      ],
+      "answer": "complément d'agent",
+      "explain": "À la voix passive, celui qui fait l'action est le complément d'agent."
+    },
+    {
+      "id": "fr-gram-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase correspond à « Le penalty a été raté par le capitaine. » à la voix active ?",
+      "choices": [
+        "Le capitaine a été raté le penalty.",
+        "Le capitaine rate le penalty.",
+        "Le penalty a raté le capitaine.",
+        "Le capitaine a raté le penalty."
+      ],
+      "answer": "Le capitaine a raté le penalty.",
+      "explain": "On garde le même temps : le complément d'agent devient sujet, le sujet devient COD."
+    },
+    {
+      "id": "fr-gram-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Combien de propositions contient « Quand le coach siffle, les joueurs, qui sont fatigués, s'arrêtent. » ?",
+      "choices": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "answer": "3",
+      "explain": "Il y a trois verbes conjugués : siffle, sont, s'arrêtent."
+    },
+    {
+      "id": "fr-gram-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la phrase « Quel match ! » ?",
+      "choices": [
+        "une phrase complexe",
+        "une phrase interrogative",
+        "une phrase non verbale",
+        "une phrase déclarative"
+      ],
+      "answer": "une phrase non verbale",
+      "explain": "Elle ne contient aucun verbe conjugué : c'est une phrase non verbale."
+    },
+    {
+      "id": "fr-gram-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « fort » dans « Les joueurs crient fort » ?",
+      "choices": [
+        "adjectif",
+        "nom",
+        "adverbe",
+        "préposition"
+      ],
+      "answer": "adverbe",
+      "explain": "« fort » complète le verbe « crient » et reste invariable : adverbe."
+    },
+    {
+      "id": "fr-gram-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le sujet du verbe dans « Sur la pelouse courent les enfants » ?",
+      "choices": [
+        "Sur la pelouse",
+        "la pelouse",
+        "les enfants",
+        "courent"
+      ],
+      "answer": "les enfants",
+      "explain": "Le sujet est inversé : « Qui est-ce qui court ? » les enfants."
+    },
+    {
+      "id": "fr-gram-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature des propositions de « Le gardien plonge, il arrête le tir, la foule explose. » ?",
+      "choices": [
+        "trois propositions coordonnées",
+        "une phrase simple",
+        "trois propositions juxtaposées",
+        "une principale et deux subordonnées"
+      ],
+      "answer": "trois propositions juxtaposées",
+      "explain": "Les trois propositions sont séparées par des virgules, sans mot de liaison."
+    },
+    {
+      "id": "fr-gram-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « celui » dans « Celui qui marque gagne » ?",
+      "choices": [
+        "déterminant démonstratif",
+        "adjectif qualificatif",
+        "pronom démonstratif",
+        "adverbe"
+      ],
+      "answer": "pronom démonstratif",
+      "explain": "« celui » remplace un nom et ne l'accompagne pas : pronom démonstratif."
+    },
+    {
+      "id": "fr-gram-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « le mien » dans « Ce ballon est le mien » ?",
+      "choices": [
+        "pronom possessif",
+        "pronom personnel",
+        "déterminant possessif",
+        "adjectif qualificatif"
+      ],
+      "answer": "pronom possessif",
+      "explain": "« le mien » remplace « mon ballon » : pronom possessif."
+    },
+    {
+      "id": "fr-gram-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du pronom relatif « que » dans « Le joueur que le coach a choisi est jeune » ?",
+      "choices": [
+        "COD",
+        "complément circonstanciel de lieu",
+        "sujet",
+        "COI"
+      ],
+      "answer": "COD",
+      "explain": "On peut dire « le coach a choisi le joueur » : « que » est COD de « a choisi »."
+    },
+    {
+      "id": "fr-gram-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « où » dans « Où va-t-il ? »",
+      "choices": [
+        "conjonction de subordination",
+        "adverbe",
+        "pronom relatif",
+        "préposition"
+      ],
+      "answer": "adverbe",
+      "explain": "Dans une question, « où » est un adverbe interrogatif."
+    },
+    {
+      "id": "fr-gram-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris la fonction du pronom « qui » dans « Le joueur qui court est rapide ». (un mot)",
+      "answer": [
+        "sujet"
+      ],
+      "explain": "« qui » fait l'action de courir : il est sujet de « court »."
+    },
+    {
+      "id": "fr-gram-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la nature de « chez » dans « Il habite chez sa grand-mère » ? (un mot)",
+      "answer": [
+        "préposition"
+      ],
+      "explain": "« chez » introduit un complément : préposition."
+    },
+    {
+      "id": "fr-gram-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "Recopie la conjonction de subordination (2 mots) : Il regarde le match pendant que je travaille.",
+      "answer": [
+        "pendant que"
+      ],
+      "explain": "« pendant que » introduit une subordonnée de temps."
+    },
+    {
+      "id": "fr-gram-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien de verbes conjugués : Le coach pense que son équipe gagnera et que ses joueurs seront heureux. (un chiffre)",
+      "answer": [
+        "3",
+        "trois"
+      ],
+      "explain": "Les verbes conjugués sont : pense, gagnera, seront."
+    },
+    {
+      "id": "fr-gram-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans « Le but est marqué par Léo », écris le complément d'agent (2 mots).",
+      "answer": [
+        "par Léo",
+        "par léo"
+      ],
+      "explain": "Le complément d'agent est introduit par « par » : « par Léo »."
+    },
+    {
+      "id": "fr-gram-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le type de la phrase « Ne touche pas au ballon. » ? (un mot)",
+      "answer": [
+        "impérative",
+        "injonctive"
+      ],
+      "explain": "Le verbe est à l'impératif et exprime un ordre."
+    },
+    {
+      "id": "fr-gram-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la nature de « ses » dans « Il range ses crampons » ? (réponse courte)",
+      "answer": [
+        "déterminant",
+        "déterminant possessif",
+        "adjectif possessif"
+      ],
+      "explain": "« ses » accompagne le nom « crampons » : déterminant possessif."
+    },
+    {
+      "id": "fr-gram-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? La [victoire] a rendu les joueurs heureux.",
+      "choices": [
+        "adjectif",
+        "nom",
+        "verbe",
+        "adverbe"
+      ],
+      "answer": "nom",
+      "explain": "« victoire » désigne une chose : c'est un nom commun."
+    },
+    {
+      "id": "fr-gram-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? [Mon] frère est gardien.",
+      "choices": [
+        "nom",
+        "pronom",
+        "adjectif qualificatif",
+        "déterminant"
+      ],
+      "answer": "déterminant",
+      "explain": "« mon » accompagne le nom « frère » : c'est un déterminant possessif."
+    },
+    {
+      "id": "fr-gram-078",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Un [beau] but a terminé le match.",
+      "choices": [
+        "adjectif",
+        "verbe",
+        "nom",
+        "adverbe"
+      ],
+      "answer": "adjectif",
+      "explain": "« beau » qualifie le nom « but » : c'est un adjectif."
+    },
+    {
+      "id": "fr-gram-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Les supporters [chantent] fort.",
+      "choices": [
+        "nom",
+        "préposition",
+        "verbe",
+        "adverbe"
+      ],
+      "answer": "verbe",
+      "explain": "« chantent » exprime une action et se conjugue : c'est un verbe."
+    },
+    {
+      "id": "fr-gram-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Il tire [rarement] au but.",
+      "choices": [
+        "préposition",
+        "adjectif",
+        "adverbe",
+        "nom"
+      ],
+      "answer": "adverbe",
+      "explain": "« rarement » complète le verbe et ne varie pas : c'est un adverbe."
+    },
+    {
+      "id": "fr-gram-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Le ballon roule [sous] le banc.",
+      "choices": [
+        "préposition",
+        "adverbe",
+        "conjonction de coordination",
+        "déterminant"
+      ],
+      "answer": "préposition",
+      "explain": "« sous » introduit un complément de lieu : c'est une préposition."
+    },
+    {
+      "id": "fr-gram-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Veux-tu jouer attaquant [ou] défenseur ?",
+      "choices": [
+        "préposition",
+        "conjonction de coordination",
+        "adverbe",
+        "conjonction de subordination"
+      ],
+      "answer": "conjonction de coordination",
+      "explain": "« ou » relie deux mots de même rang : conjonction de coordination."
+    },
+    {
+      "id": "fr-gram-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? Nous gagnerons [si] nous restons concentrés.",
+      "choices": [
+        "pronom",
+        "adverbe",
+        "conjonction de coordination",
+        "conjonction de subordination"
+      ],
+      "answer": "conjonction de subordination",
+      "explain": "« si » introduit une proposition subordonnée de condition."
+    },
+    {
+      "id": "fr-gram-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du mot entre crochets ? [Nous] gagnons le tournoi.",
+      "choices": [
+        "adverbe",
+        "déterminant",
+        "nom",
+        "pronom personnel"
+      ],
+      "answer": "pronom personnel",
+      "explain": "« nous » remplace des personnes : c'est un pronom personnel."
+    },
+    {
+      "id": "fr-gram-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le sujet du verbe dans « Le gardien arrête le tir » ?",
+      "choices": [
+        "Le gardien arrête",
+        "Le gardien",
+        "arrête",
+        "le tir"
+      ],
+      "answer": "Le gardien",
+      "explain": "On pose la question « Qui est-ce qui arrête ? » : le gardien."
+    },
+    {
+      "id": "fr-gram-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Les enfants regardent [le match].",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "attribut du sujet",
+        "COD",
+        "COI"
+      ],
+      "answer": "COD",
+      "explain": "« le match » répond à « regardent quoi ? » sans préposition : COD."
+    },
+    {
+      "id": "fr-gram-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Ce stade est [immense].",
+      "choices": [
+        "attribut du sujet",
+        "COD",
+        "complément circonstanciel de manière",
+        "épithète"
+      ],
+      "answer": "attribut du sujet",
+      "explain": "« immense » suit le verbe d'état « est » : attribut du sujet."
+    },
+    {
+      "id": "fr-gram-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Léo joue [dans la cour].",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "COD",
+        "COI",
+        "complément du nom"
+      ],
+      "answer": "complément circonstanciel de lieu",
+      "explain": "« dans la cour » répond à « où ? » : complément circonstanciel de lieu."
+    },
+    {
+      "id": "fr-gram-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? [Hier soir], Léa a gagné son match.",
+      "choices": [
+        "attribut du sujet",
+        "complément circonstanciel de lieu",
+        "COD",
+        "complément circonstanciel de temps"
+      ],
+      "answer": "complément circonstanciel de temps",
+      "explain": "« Hier soir » répond à « quand ? » : complément circonstanciel de temps."
+    },
+    {
+      "id": "fr-gram-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase « Le gardien a encore arrêté ce tir. » ?",
+      "choices": [
+        "interrogative",
+        "déclarative",
+        "impérative",
+        "exclamative"
+      ],
+      "answer": "déclarative",
+      "explain": "La phrase donne une information : elle est déclarative."
+    },
+    {
+      "id": "fr-gram-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la forme de la phrase « Léo ne marque jamais. » ?",
+      "choices": [
+        "interrogative",
+        "passive",
+        "négative",
+        "affirmative"
+      ],
+      "answer": "négative",
+      "explain": "La phrase contient « ne… jamais » : forme négative."
+    },
+    {
+      "id": "fr-gram-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est à la voix active ?",
+      "choices": [
+        "Le penalty a été arrêté.",
+        "Le penalty est arrêté par le gardien.",
+        "Le gardien arrête le penalty.",
+        "Le penalty était arrêté par le gardien."
+      ],
+      "answer": "Le gardien arrête le penalty.",
+      "explain": "À la voix active, le sujet fait l'action."
+    },
+    {
+      "id": "fr-gram-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot est un nom commun ?",
+      "choices": [
+        "Europe",
+        "Marseille",
+        "Léa",
+        "stade"
+      ],
+      "answer": "stade",
+      "explain": "Un nom commun n'a pas de majuscule et désigne une catégorie : « stade »."
+    },
+    {
+      "id": "fr-gram-094",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris l'infinitif du verbe conjugué : Léa marque un but.",
+      "answer": [
+        "marquer"
+      ],
+      "explain": "« marque » est la forme conjuguée du verbe marquer."
+    },
+    {
+      "id": "fr-gram-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le sujet du verbe (2 mots) : Les joueurs entrent sur le terrain.",
+      "answer": [
+        "Les joueurs",
+        "les joueurs"
+      ],
+      "explain": "On pose « Qui est-ce qui entre ? » : les joueurs."
+    },
+    {
+      "id": "fr-gram-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la nature du mot « trop » dans « Il court trop vite » ? (un mot)",
+      "answer": [
+        "adverbe"
+      ],
+      "explain": "« trop » précise l'adverbe « vite » et ne varie pas : adverbe."
+    },
+    {
+      "id": "fr-gram-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le COD (2 mots) : Le gardien attrape le ballon.",
+      "answer": [
+        "le ballon"
+      ],
+      "explain": "On pose « Le gardien attrape quoi ? » : le ballon."
+    },
+    {
+      "id": "fr-gram-098",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le type de la phrase « Quelle heure est-il ? » (un mot)",
+      "answer": [
+        "interrogative",
+        "interrogatif"
+      ],
+      "explain": "La phrase pose une question : elle est interrogative."
+    },
+    {
+      "id": "fr-gram-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de verbes conjugués y a-t-il dans « Léa saute, court et crie » ? (un chiffre)",
+      "answer": [
+        "3",
+        "trois"
+      ],
+      "explain": "« saute », « court » et « crie » sont trois verbes conjugués."
+    },
+    {
+      "id": "fr-gram-100",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la nature du mot « grand » dans « un grand stade » ? (un mot)",
+      "answer": [
+        "adjectif",
+        "adjectif qualificatif"
+      ],
+      "explain": "« grand » qualifie le nom « stade » : adjectif."
+    },
+    {
+      "id": "fr-gram-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le gardien parle [à l'arbitre].",
+      "choices": [
+        "COI",
+        "complément du nom",
+        "complément circonstanciel de lieu",
+        "COD"
+      ],
+      "answer": "COI",
+      "explain": "On « parle à quelqu'un » : complément introduit par « à », COI."
+    },
+    {
+      "id": "fr-gram-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Mon frère reste [gardien] de but.",
+      "choices": [
+        "COD",
+        "attribut du sujet",
+        "épithète",
+        "complément circonstanciel de lieu"
+      ],
+      "answer": "attribut du sujet",
+      "explain": "« rester » est un verbe d'état : « gardien » est attribut du sujet."
+    },
+    {
+      "id": "fr-gram-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Un [gros] orage a retardé le match.",
+      "choices": [
+        "COD",
+        "apposition",
+        "épithète",
+        "attribut du sujet"
+      ],
+      "answer": "épithète",
+      "explain": "« gros » complète directement le nom « orage » : épithète."
+    },
+    {
+      "id": "fr-gram-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le cri [des supporters] résonne dans le stade.",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "complément du nom",
+        "COI",
+        "COD"
+      ],
+      "answer": "complément du nom",
+      "explain": "« des supporters » complète le nom « cri » : complément du nom."
+    },
+    {
+      "id": "fr-gram-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le gardien plonge [avec courage].",
+      "choices": [
+        "COI",
+        "complément du nom",
+        "complément circonstanciel de lieu",
+        "complément circonstanciel de manière"
+      ],
+      "answer": "complément circonstanciel de manière",
+      "explain": "« avec courage » répond à « comment ? » : complément circonstanciel de manière."
+    },
+    {
+      "id": "fr-gram-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Léo est absent [à cause d'une blessure].",
+      "choices": [
+        "complément circonstanciel de cause",
+        "complément circonstanciel de temps",
+        "complément circonstanciel de manière",
+        "complément circonstanciel de lieu"
+      ],
+      "answer": "complément circonstanciel de cause",
+      "explain": "« à cause d'une blessure » répond à « pourquoi ? » : cause."
+    },
+    {
+      "id": "fr-gram-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le match commence [à quinze heures].",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "COD",
+        "complément circonstanciel de temps",
+        "complément circonstanciel de cause"
+      ],
+      "answer": "complément circonstanciel de temps",
+      "explain": "« à quinze heures » répond à « quand ? » : temps."
+    },
+    {
+      "id": "fr-gram-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Les supporters attendent [devant le stade].",
+      "choices": [
+        "complément circonstanciel de temps",
+        "complément du nom",
+        "COI",
+        "complément circonstanciel de lieu"
+      ],
+      "answer": "complément circonstanciel de lieu",
+      "explain": "« devant le stade » répond à « où ? » : lieu."
+    },
+    {
+      "id": "fr-gram-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien de propositions contient la phrase « Le gardien sait que l'attaquant tirera. » ?",
+      "choices": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "answer": "2",
+      "explain": "Il y a deux verbes conjugués : sait, tirera."
+    },
+    {
+      "id": "fr-gram-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Comment sont reliées les propositions de « Le gardien plonge, le ballon sort. » ?",
+      "choices": [
+        "par coordination",
+        "par juxtaposition",
+        "elles ne sont pas reliées : phrase simple",
+        "par subordination"
+      ],
+      "answer": "par juxtaposition",
+      "explain": "Les propositions sont séparées par une virgule, sans mot de liaison."
+    },
+    {
+      "id": "fr-gram-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Comment sont reliées les propositions de « Le gardien plonge mais le ballon entre. » ?",
+      "choices": [
+        "par subordination",
+        "elles ne sont pas reliées : phrase simple",
+        "par coordination",
+        "par juxtaposition"
+      ],
+      "answer": "par coordination",
+      "explain": "« mais » est une conjonction de coordination."
+    },
+    {
+      "id": "fr-gram-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la proposition entre crochets ? Léo pleure [parce qu'il a perdu].",
+      "choices": [
+        "proposition coordonnée",
+        "subordonnée circonstancielle de cause",
+        "proposition juxtaposée",
+        "subordonnée relative"
+      ],
+      "answer": "subordonnée circonstancielle de cause",
+      "explain": "« parce que » introduit une subordonnée de cause."
+    },
+    {
+      "id": "fr-gram-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la proposition entre crochets ? Les supporters [qui arrivent] portent des écharpes.",
+      "choices": [
+        "proposition juxtaposée",
+        "proposition coordonnée",
+        "subordonnée circonstancielle de temps",
+        "subordonnée relative"
+      ],
+      "answer": "subordonnée relative",
+      "explain": "Elle commence par le pronom relatif « qui » et complète « supporters »."
+    },
+    {
+      "id": "fr-gram-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pronom relatif dans « Le maillot que Léa porte est bleu » ?",
+      "choices": [
+        "que",
+        "Léa",
+        "porte",
+        "maillot"
+      ],
+      "answer": "que",
+      "explain": "« que » reprend « maillot » et relie la relative au nom."
+    },
+    {
+      "id": "fr-gram-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase correspond à « Les supporters acclament le capitaine. » à la voix passive ?",
+      "choices": [
+        "Le capitaine a acclamé par les supporters.",
+        "Le capitaine acclame les supporters.",
+        "Les supporters sont acclamés par le capitaine.",
+        "Le capitaine est acclamé par les supporters."
+      ],
+      "answer": "Le capitaine est acclamé par les supporters.",
+      "explain": "Le COD devient sujet : être au même temps + participe + complément d'agent."
+    },
+    {
+      "id": "fr-gram-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase le verbe est-il à la voix passive ?",
+      "choices": [
+        "Le trophée a été remis par le président.",
+        "Le président remet le trophée.",
+        "Le trophée a brillé.",
+        "Le trophée est brillant."
+      ],
+      "answer": "Le trophée a été remis par le président.",
+      "explain": "« a été remis par le président » = être + participe + complément d'agent."
+    },
+    {
+      "id": "fr-gram-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « un ballon de cuir », « de cuir » est une expansion du nom. Laquelle ?",
+      "choices": [
+        "une apposition",
+        "une épithète",
+        "un complément du nom",
+        "une proposition relative"
+      ],
+      "answer": "un complément du nom",
+      "explain": "« de cuir » est introduit par une préposition : complément du nom."
+    },
+    {
+      "id": "fr-gram-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est interrogative ?",
+      "choices": [
+        "Gagne ce match.",
+        "Qui a gagné le match ?",
+        "Quel beau match !",
+        "Dis-moi qui a gagné."
+      ],
+      "answer": "Qui a gagné le match ?",
+      "explain": "La phrase interrogative pose une question et se termine par « ? »."
+    },
+    {
+      "id": "fr-gram-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris la fonction du mot entre crochets (réponse courte) : Cette équipe est [forte].",
+      "answer": [
+        "attribut du sujet",
+        "attribut"
+      ],
+      "explain": "« forte » suit le verbe d'état « est » : attribut du sujet."
+    },
+    {
+      "id": "fr-gram-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le pronom relatif (un mot) : Le joueur ___ je préfère est gardien.",
+      "answer": [
+        "que"
+      ],
+      "explain": "Le pronom relatif est COD de « préfère » : « que »."
+    },
+    {
+      "id": "fr-gram-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le pronom relatif (un mot) : La ville ___ nous passons nos vacances est grande.",
+      "answer": [
+        "où"
+      ],
+      "explain": "Le pronom relatif a une valeur de lieu : « où »."
+    },
+    {
+      "id": "fr-gram-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien de propositions contient la phrase ? (un chiffre) Il pleut, le match est reporté et les joueurs rentrent.",
+      "answer": [
+        "3",
+        "trois"
+      ],
+      "explain": "Il y a un verbe conjugué par proposition : pleut, est reporté, rentrent."
+    },
+    {
+      "id": "fr-gram-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris la conjonction de coordination qui exprime la cause : Il est content ___ il a gagné.",
+      "answer": [
+        "car"
+      ],
+      "explain": "« car » exprime la cause."
+    },
+    {
+      "id": "fr-gram-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris l'antécédent (un mot) du pronom « que » : Le but que Léa a marqué était superbe.",
+      "answer": [
+        "but",
+        "le but"
+      ],
+      "explain": "L'antécédent est le nom repris par « que » : but."
+    },
+    {
+      "id": "fr-gram-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le COI (3 mots) : Léa téléphone à sa grand-mère.",
+      "answer": [
+        "à sa grand-mère",
+        "à sa grand-mere"
+      ],
+      "explain": "« téléphoner à quelqu'un » : le COI est « à sa grand-mère »."
+    },
+    {
+      "id": "fr-gram-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? La ville [où j'habite] est petite.",
+      "choices": [
+        "sujet du verbe « est »",
+        "attribut du sujet",
+        "complément de l'antécédent « ville »",
+        "COD du verbe « est »"
+      ],
+      "answer": "complément de l'antécédent « ville »",
+      "explain": "La subordonnée relative complète le nom qu'elle reprend (son antécédent)."
+    },
+    {
+      "id": "fr-gram-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? [Dès que l'arbitre a sifflé], les supporters ont crié.",
+      "choices": [
+        "COD",
+        "complément circonstanciel de cause",
+        "complément circonstanciel de condition",
+        "complément circonstanciel de temps"
+      ],
+      "answer": "complément circonstanciel de temps",
+      "explain": "« dès que » répond à « quand ? » : subordonnée de temps."
+    },
+    {
+      "id": "fr-gram-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? Le match est annulé [puisqu'il pleut trop].",
+      "choices": [
+        "complément circonstanciel de lieu",
+        "complément circonstanciel de cause",
+        "COD",
+        "complément circonstanciel de temps"
+      ],
+      "answer": "complément circonstanciel de cause",
+      "explain": "« puisque » exprime la cause."
+    },
+    {
+      "id": "fr-gram-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la proposition entre crochets ? [Si nous gagnons ce soir], nous serons premiers.",
+      "choices": [
+        "complément circonstanciel de condition",
+        "complément circonstanciel de temps",
+        "complément circonstanciel de cause",
+        "COD"
+      ],
+      "answer": "complément circonstanciel de condition",
+      "explain": "« si » exprime une condition."
+    },
+    {
+      "id": "fr-gram-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du mot entre crochets ? Le gardien paraît [serein].",
+      "choices": [
+        "complément circonstanciel de manière",
+        "attribut du sujet",
+        "COD",
+        "épithète"
+      ],
+      "answer": "attribut du sujet",
+      "explain": "« paraître » est un verbe d'état : « serein » est attribut du sujet."
+    },
+    {
+      "id": "fr-gram-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le coach félicite [son capitaine].",
+      "choices": [
+        "COD",
+        "COI",
+        "complément circonstanciel de lieu",
+        "attribut du sujet"
+      ],
+      "answer": "COD",
+      "explain": "On félicite quelqu'un : pas de préposition, c'est un COD."
+    },
+    {
+      "id": "fr-gram-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le joueur obéit [à l'arbitre].",
+      "choices": [
+        "complément du nom",
+        "complément circonstanciel de lieu",
+        "COD",
+        "COI"
+      ],
+      "answer": "COI",
+      "explain": "On obéit à quelqu'un : complément introduit par « à », COI."
+    },
+    {
+      "id": "fr-gram-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Paris, [capitale de la France], accueille les Jeux.",
+      "choices": [
+        "complément du nom",
+        "attribut du sujet",
+        "apposition",
+        "épithète"
+      ],
+      "answer": "apposition",
+      "explain": "Ce groupe nominal, séparé par des virgules, précise « Paris » : apposition."
+    },
+    {
+      "id": "fr-gram-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du groupe entre crochets ? Le penalty est tiré [par le capitaine].",
+      "choices": [
+        "COD",
+        "complément d'agent",
+        "complément circonstanciel de lieu",
+        "complément circonstanciel de manière"
+      ],
+      "answer": "complément d'agent",
+      "explain": "À la voix passive, celui qui fait l'action est le complément d'agent."
+    },
+    {
+      "id": "fr-gram-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase correspond à « Le but a été salué par toute la foule. » à la voix active ?",
+      "choices": [
+        "Toute la foule a été saluée par le but.",
+        "Toute la foule salue le but.",
+        "Toute la foule a salué le but.",
+        "Le but a salué toute la foule."
+      ],
+      "answer": "Toute la foule a salué le but.",
+      "explain": "On garde le même temps : le complément d'agent devient sujet."
+    },
+    {
+      "id": "fr-gram-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Combien de propositions contient « Le gardien, qui est blessé, joue parce que le coach l'a demandé. » ?",
+      "choices": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": "3",
+      "explain": "Il y a trois verbes conjugués : est, joue, a demandé."
+    },
+    {
+      "id": "fr-gram-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est une phrase non verbale ?",
+      "choices": [
+        "La victoire est belle !",
+        "Fêtons la victoire !",
+        "Qui a gagné ?",
+        "Quelle belle victoire !"
+      ],
+      "answer": "Quelle belle victoire !",
+      "explain": "Elle ne contient aucun verbe conjugué."
+    },
+    {
+      "id": "fr-gram-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « bien » dans « Il joue bien. » ?",
+      "choices": [
+        "préposition",
+        "adjectif",
+        "nom",
+        "adverbe"
+      ],
+      "answer": "adverbe",
+      "explain": "« bien » complète le verbe « joue » et ne varie pas : adverbe."
+    },
+    {
+      "id": "fr-gram-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le sujet du verbe dans « Dans le stade résonnent les chants des supporters. » ?",
+      "choices": [
+        "le stade",
+        "les chants des supporters",
+        "résonnent",
+        "Dans le stade"
+      ],
+      "answer": "les chants des supporters",
+      "explain": "Le sujet est inversé : « Qu'est-ce qui résonne ? » les chants des supporters."
+    },
+    {
+      "id": "fr-gram-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la fonction du pronom relatif « où » dans « Le stade où nous jouons est neuf » ?",
+      "choices": [
+        "COI",
+        "COD",
+        "complément circonstanciel de lieu",
+        "sujet"
+      ],
+      "answer": "complément circonstanciel de lieu",
+      "explain": "On peut dire « nous jouons dans le stade » : « où » est complément de lieu."
+    },
+    {
+      "id": "fr-gram-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Comment sont reliées les propositions de « Il a mal, mais il continue de jouer. » ?",
+      "choices": [
+        "par coordination",
+        "par subordination",
+        "elles ne sont pas reliées : phrase simple",
+        "par juxtaposition"
+      ],
+      "answer": "par coordination",
+      "explain": "« mais » est une conjonction de coordination."
+    },
+    {
+      "id": "fr-gram-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « quelques » dans « Quelques joueurs sont blessés » ?",
+      "choices": [
+        "adverbe",
+        "déterminant",
+        "adjectif qualificatif",
+        "pronom"
+      ],
+      "answer": "déterminant",
+      "explain": "« quelques » accompagne le nom « joueurs » : déterminant indéfini."
+    },
+    {
+      "id": "fr-gram-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Il pleure parce qu'il a perdu », quelle est la proposition principale ?",
+      "choices": [
+        "« qu'il a perdu »",
+        "aucune des deux",
+        "« Il pleure »",
+        "« parce qu'il a perdu »"
+      ],
+      "answer": "« Il pleure »",
+      "explain": "La proposition principale est celle qui ne dépend d'aucune autre."
+    },
+    {
+      "id": "fr-gram-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris la fonction du pronom « que » dans « Le but que Léo a marqué est superbe ». (un mot)",
+      "answer": [
+        "COD",
+        "cod"
+      ],
+      "explain": "On peut dire « Léo a marqué le but » : « que » est COD."
+    },
+    {
+      "id": "fr-gram-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la nature de « donc » dans « Il pleut, donc nous jouons dedans » ? (réponse courte)",
+      "answer": [
+        "conjonction de coordination"
+      ],
+      "explain": "« donc » relie deux propositions de même rang."
+    },
+    {
+      "id": "fr-gram-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "Recopie la conjonction de subordination (un mot) : Nous gagnerons si nous restons concentrés.",
+      "answer": [
+        "si"
+      ],
+      "explain": "« si » introduit une subordonnée de condition."
+    },
+    {
+      "id": "fr-gram-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien de verbes conjugués : Le coach dit que les joueurs, qui sont fatigués, doivent se reposer. (un chiffre)",
+      "answer": [
+        "3",
+        "trois"
+      ],
+      "explain": "Les verbes conjugués sont : dit, sont, doivent (« se reposer » est à l'infinitif)."
+    },
+    {
+      "id": "fr-gram-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans « Le trophée est remis par le président », écris le sujet (2 mots).",
+      "answer": [
+        "Le trophée",
+        "le trophée"
+      ],
+      "explain": "On pose « Qu'est-ce qui est remis ? » : le trophée."
+    },
+    {
+      "id": "fr-gram-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le type de la phrase « Gagnons ce match ! » ? (un mot)",
+      "answer": [
+        "impérative",
+        "injonctive"
+      ],
+      "explain": "Le verbe est à l'impératif et exprime un encouragement ou un ordre."
+    },
+    {
+      "id": "fr-gram-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la nature de « nos » dans « Nous aimons nos supporters » ? (réponse courte)",
+      "answer": [
+        "déterminant",
+        "déterminant possessif",
+        "adjectif possessif"
+      ],
+      "explain": "« nos » accompagne le nom « supporters » : déterminant possessif."
+    }
+  ]
+}

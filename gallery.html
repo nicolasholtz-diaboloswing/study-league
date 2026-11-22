@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study League – Galerie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <style>.main{padding-bottom:var(--sp-7)} .swatch-row{display:flex;flex-wrap:wrap;gap:var(--sp-3);align-items:center}.token{width:64px;height:40px;border-radius:8px;border:1px solid var(--line-strong);font-size:10px;display:grid;place-items:end start;padding:3px}</style>
+</head>
+<body>
+  <main class="main"><div class="page" id="gallery"></div></main>
+  <div class="overlay-layer" id="overlay"></div><div class="modal-root" id="modal-root"></div><div class="toasts" id="toasts"></div>
+  <script type="module">
+    import * as C from './js/ui/components.js';
+    import * as A from './js/ui/art.js';
+    import * as E from './js/ui/effects.js';
+    const [{ clubs }, { cards }] = await Promise.all([fetch('data/clubs.json').then(r => r.json()), fetch('data/cards.json').then(r => r.json())]);
+    const you = clubs[0];
+    const row = (club, i) => ({ pos: i + 1, club, played: 8 - (i % 2), won: 7 - i, drawn: i % 3, lost: i % 2 + (i > 3 ? 2 : 0), gf: 22 - i * 2, ga: 6 + i * 2, pts: 22 - i * 3, isYou: i === 2 });
+    const rows = clubs.slice(0, 8).map((c, i) => row(i === 2 ? you : c, i));
+    const T = clubs.slice(1, 9);
+    const sec = (t, body) => C.section(t, body);
+    const byR = (r, n) => cards.filter(c => c.rarity === r).slice(0, n);
+    const dark = ['--ink', '--gold', '--gold-bright', '--pitch-bright', '--ink-dim', '--r-legend', '--ok', '--info', '--r-rare'];
+    const html = [
+      C.pageHead('Galerie des composants', { kicker: 'Study League', sub: 'Tous les composants, dessins et effets au même endroit.' }),
+      sec('Couleurs et polices', `<div class="swatch-row">${['--bg-1','--bg-2','--bg-3','--pitch','--pitch-bright','--gold','--gold-bright','--ok','--bad','--info','--r-rare','--r-epic','--r-legend','--ink','--ink-dim'].map(v => `<div class="token" style="background:var(${v});color:${dark.includes(v) ? '#000' : '#fff'}">${v.slice(2)}</div>`).join('')}</div>
+        <p class="display" style="font-size:3rem">Tableau d'affichage 0123456789</p><p>Texte lisible : portez ce vieux whisky au juge blond qui fume.</p>`),
+      sec('Boutons', `<div class="row row--wrap">${[['primary','Jouer'],['gold','Valider'],['secondary','Retour'],['ghost','Plus tard'],['danger','Quitter']].map(([v,l]) => C.button({ label: l, variant: v })).join('')}${C.button({ label: 'Bloqué', disabled: true })}${C.button({ label: 'Petit', size: 'sm', variant: 'secondary' })}</div>${C.button({ label: 'Jouer le match', size: 'lg', block: true, icon: '⚽' })}`),
+      sec('Tableau de score + attaque', `<div class="grid grid--split"><div class="stack">${C.scoreboard({ home: you, away: clubs[1], homeScore: 3, awayScore: 1, minute: 63, status: 'En direct' })}</div><div class="stack panel">${C.attackMeter(0)}${C.attackMeter(1)}${C.attackMeter(2)}${C.attackMeter(3)}</div></div>`),
+      sec('Questions', `<div class="grid grid--split-even grid--split">
+        ${C.questionCard({ number: 4, total: 15, topic: 'Passé simple (anglais)', type: 'mcq', prompt: 'Yesterday she ___ to the cinema with her friends.', choices: ['go', 'went', 'gone', 'goes'], timer: C.timer({ remaining: 22, total: 30 }) })}
+        ${C.questionCard({ number: 5, total: 15, topic: 'Passé simple (anglais)', type: 'mcq', prompt: 'Yesterday she ___ to the cinema.', choices: ['go', 'went', 'gone', 'goes'], status: 'correct', selected: 1, correctAnswer: 'went', explanation: "'Go' est irrégulier : go – went – gone.", timer: C.timer({ remaining: 17, total: 30 }) })}
+        ${C.questionCard({ number: 6, total: 15, topic: 'Passé simple (anglais)', type: 'mcq', prompt: 'Yesterday she ___ to the cinema.', choices: ['go', 'went', 'gone', 'goes'], status: 'wrong', selected: 2, correctAnswer: 'went', explanation: "'Gone' est le participe passé, pas le passé simple.", timer: C.timer({ remaining: 4, total: 30 }) })}
+        ${C.questionCard({ number: 7, total: 15, topic: 'Conjugaison', type: 'input', prompt: 'Passé simple : nous (finir) ___', timer: C.timer({ remaining: 40, total: 45 }) })}
+        ${C.questionCard({ number: 8, total: 15, topic: 'Conjugaison', type: 'input', prompt: 'Passé simple : nous (finir) ___', status: 'wrong', inputValue: 'finissons', correctAnswer: 'finîmes', explanation: 'Au passé simple, nous finîmes.' })}
+        ${C.questionCard({ number: 9, total: 15, topic: 'Past perfect', type: 'mcq', prompt: 'The match had already started when we ___.', choices: ['arrived', 'had arrived', 'arrive', 'arriving'], status: 'timeout', correctAnswer: 'arrived', explanation: 'On utilise le past simple pour l\'événement le plus récent.' })}</div>`),
+      sec('Chrono', `<div class="row row--wrap">${C.timer({ remaining: 30, total: 30 })}${C.timer({ remaining: 12, total: 30 })}${C.timer({ remaining: 4, total: 30 })}</div>${C.timer({ remaining: 20, total: 30, variant: 'bar' })}${C.timer({ remaining: 5, total: 30, variant: 'bar' })}`),
+      sec('Classement + matchs', `<div class="grid grid--split">${C.leagueTable({ rows })}<div class="stack stack--sm">
+        ${C.fixtureRow({ matchday: 6, home: you, away: T[0], homeScore: 3, awayScore: 1, status: 'played', result: 'W', youSide: 'home' })}
+        ${C.fixtureRow({ matchday: 7, home: T[1], away: you, homeScore: 2, awayScore: 2, status: 'played', result: 'D', youSide: 'away' })}
+        ${C.fixtureRow({ matchday: 8, home: T[2], away: you, homeScore: 4, awayScore: 0, status: 'played', result: 'L', youSide: 'away' })}
+        ${C.fixtureRow({ matchday: 9, home: you, away: T[3], status: 'next', youSide: 'home', href: '#' })}
+        ${C.fixtureRow({ matchday: 10, home: T[4], away: you, youSide: 'away' })}
+        <h3 style="margin-top:12px">Classement réduit</h3>${C.leagueTable({ rows: rows.slice(0, 5), compact: true })}</div></div>`),
+      sec('XP + niveau', `<div class="grid grid--split-even grid--split">${C.xpBar({ level: 7, xp: 140, next: 260 })}<div class="panel" style="background:#08142e">${C.xpBar({ level: 7, xp: 140, next: 260, compact: true })}</div></div>`),
+      sec('Thèmes, étoiles et maîtrise', `<div class="grid grid--3">${C.topicTile({ name: 'Passé simple', icon: '⏪', stars: 2, meta: '14 réponses' })}${C.topicTile({ name: 'Verbes irréguliers', icon: '🔀', stars: 3, coachPick: true, meta: 'Ton point faible' })}${C.topicTile({ name: 'Conjugaison', icon: '✍️', stars: 0, meta: 'Pas encore joué' })}${C.topicTile({ name: 'Déterminants', icon: '🔤', stars: 1, locked: true })}</div>
+        <div class="grid grid--split-even grid--split panel">${C.masteryBar({ label: 'Passé simple', pct: 93, stars: 3 })}${C.masteryBar({ label: 'Plus-que-parfait', pct: 72, stars: 2 })}${C.masteryBar({ label: 'Grammaire', pct: 55, stars: 1 })}${C.masteryBar({ label: 'Orthographe', pct: 28, stars: 0 })}</div>`),
+      sec('Médailles', `<div class="grid grid--3">${C.badgeMedal({ icon: '🏆', name: 'Première victoire', desc: 'Gagne un match', unlocked: true })}${C.badgeMedal({ icon: '🔥', name: 'Triplé', desc: 'Marque 3 buts ou plus', unlocked: true, tier: 'silver' })}${C.badgeMedal({ icon: '🧤', name: 'Cage inviolée', desc: 'N\'encaisse aucun but', unlocked: true, tier: 'bronze' })}${C.badgeMedal({ name: 'Match parfait', desc: 'Réponds juste à tout' })}</div>`),
+      sec('Classement des rivaux + face à face', `<div class="grid grid--split-even grid--split"><div class="stack stack--sm">${C.leaderboardRow({ rank: 1, name: 'Max', club: clubs[5], value: '2 340', label: 'XP' })}${C.leaderboardRow({ rank: 2, name: 'Sam', club: you, value: '1 980', label: 'XP', isYou: true })}${C.leaderboardRow({ rank: 3, name: 'Alex', club: clubs[9], value: '1 402', label: 'XP' })}${C.leaderboardRow({ rank: 4, name: 'Jo', club: clubs[12], value: '980', label: 'XP' })}</div>
+        ${C.h2h({ me: { name: 'Sam', club: you }, rival: { name: 'Max', club: clubs[5] }, rows: [{ label: 'XP', me: 1980, rival: 2340 }, { label: 'Victoires', me: 14, rival: 11 }, { label: 'Réussite', me: 78, rival: 74, format: v => v + '%' }, { label: 'Meilleure série', me: 5, rival: 5 }, { label: 'Cartes', me: 22, rival: 31 }] })}</div>`),
+      sec('Chiffres + graphique', `<div class="grid grid--4">${C.statTile({ label: 'Matchs', value: 24, icon: '⚽' })}${C.statTile({ label: 'Victoires', value: 15, tone: 'ok' })}${C.statTile({ label: 'Réussite', value: '78 %', tone: 'gold', sub: '20 dernières réponses' })}${C.statTile({ label: 'Défaites', value: 4, tone: 'bad' })}</div>
+        <div class="panel">${C.barChart({ data: ['L','M','M','J','V','S','D','L','M','M','J','V','S','D'].map((l, i) => ({ label: l, value: [0,2,1,3,0,4,2,1,0,2,3,1,5,2][i], highlight: i === 13 })), height: 110, unit: 'matchs' })}</div>`),
+      sec('Formulaires', `<div class="grid grid--split-even grid--split panel">${C.field({ label: 'Identifiant', name: 'u', required: true, hint: 'Lettres et chiffres seulement' })}${C.field({ label: 'Mot de passe', name: 'p', type: 'password', error: 'Au moins 6 caractères' })}${C.selectField({ label: 'Division', name: 's', options: ['District', 'Régional', 'National', 'Ligue 2', 'Ligue 1'].map(d => ({ value: d, label: d })) })}${C.colorPicker({ label: 'Couleur du maillot', name: 'k', colors: ['#1e40af', '#b91c1c', '#15803d', '#6d28d9', '#c2410c', '#0e7490'], value: '#15803d' })}</div>
+        ${C.choiceGroup({ label: 'Ton équipe', name: 'squad', value: 'u13', options: [{ value: 'u13', label: 'Équipe Pro', desc: '11 ans et plus, tous les thèmes', icon: '🛡️' }, { value: 'u10', label: 'Équipe Académie', desc: '8 à 10 ans', icon: '⭐' }] })}`),
+      sec('Écran vide, récompense, fenêtre, message', `<div class="grid grid--split-even grid--split">${C.emptyState({ icon: '🃏', title: 'Pas encore de cartes', text: 'Gagne des matchs pour avoir des pièces et ouvrir ton premier paquet.', action: C.button({ label: 'Jouer un match', size: 'sm' }) })}${C.rewardBanner({ title: 'Montée !', text: 'Bienvenue en National.' })}</div>
+        <div class="row row--wrap">${C.button({ label: 'Ouvrir la fenêtre', variant: 'secondary', attrs: { id: 'b-modal' } })}${C.button({ label: 'Message', variant: 'secondary', attrs: { id: 'b-toast' } })}</div>`),
+      sec('Écussons (4 styles)', ['shield', 'round', 'diamond', 'stripes'].map(st => `<div class="row row--wrap">${clubs.filter(c => c.crest === st).slice(0, 6).map(c => A.crest(c, 72)).join('')}<span class="pill">${st}</span></div>`).join('')),
+      sec('Maillots', `<div class="row row--wrap">${[['#1e40af','#fbbf24','plain'],['#b91c1c','#f8fafc','hoops'],['#15803d','#fde047','stripes'],['#6d28d9','#f8fafc','sash'],['#111827','#f59e0b','plain']].map(([a,b,p],i) => A.kit(a,b,{size:90,pattern:p,number:i+7})).join('')}</div>`),
+      sec('Portraits (selon l\'identifiant de la carte)', `<div class="row row--wrap">${cards.slice(0, 24).map(c => `<div style="border-radius:12px;overflow:hidden;width:84px">${A.portrait(c.id, { size: 84 })}</div>`).join('')}</div>`),
+      sec('Cartes par rareté', `<div class="grid grid--cards">${byR('common', 2).map(c => A.card(c)).join('')}${byR('rare', 2).map(c => A.card(c)).join('')}${byR('epic', 2).map(c => A.card(c)).join('')}${byR('legend', 3).map(c => A.card(c)).join('')}${A.card(byR('rare',1)[0], { count: 3 })}${A.cardBack()}${A.cardMissing({ id: 'p033', pos: 'MID' })}</div>`),
+      sec('Scène de but (aperçu)', `<div class="grid grid--split-even grid--split"><div id="scene-a">${E.goalScene({ kit: you.colors })}</div><div id="scene-b">${E.goalScene({ kit: clubs[1].colors, conceded: true })}</div></div>${C.button({ label: 'Rejouer', variant: 'secondary', size: 'sm', attrs: { id: 'e-replay' } })}`),
+      sec('Trophée, ballon', `<div class="row row--wrap">${A.trophy(110)}${A.trophy(80, { color: 'silver' })}${A.trophy(80, { color: 'bronze' })}${A.trophy(80, { color: 'locked' })}${A.football(80)}</div>`),
+      sec('Effets', `<div class="row row--wrap">${C.button({ label: 'BUT !', variant: 'gold', attrs: { id: 'e-goal' } })}${C.button({ label: 'Aïe !', variant: 'danger', attrs: { id: 'e-against' } })}${C.button({ label: 'Scène de but', variant: 'gold', attrs: { id: 'e-scene' } })}${C.button({ label: 'But encaissé', variant: 'secondary', attrs: { id: 'e-scene-against' } })}${C.button({ label: 'Confettis', variant: 'secondary', attrs: { id: 'e-conf' } })}${C.button({ label: 'Ouvrir un paquet', variant: 'primary', attrs: { id: 'e-pack' } })}${C.button({ label: 'Compteur', variant: 'secondary', attrs: { id: 'e-count' } })}<span class="num text-gold" id="count-out" style="font-size:2.5rem">0</span></div><div id="pack-host" style="padding:var(--sp-3) 0"></div>`),
+    ].join('');
+    document.getElementById('gallery').innerHTML = html;
+    const $ = (id) => document.getElementById(id);
+    $('e-goal').onclick = () => E.goalCelebration({ sub: 'Northbridge Rovers 1 – 0', kit: you.colors });
+    $('e-against').onclick = () => E.goalCelebration({ side: 'away', sub: 'On se reprend !', kit: clubs[1].colors });
+    $('e-scene').onclick = () => E.playGoalScene({ kit: you.colors });
+    $('e-scene-against').onclick = () => E.playGoalScene({ kit: clubs[1].colors, conceded: true });
+    $('e-replay').onclick = () => { $('scene-a').innerHTML = E.goalScene({ kit: you.colors }); $('scene-b').innerHTML = E.goalScene({ kit: clubs[1].colors, conceded: true }); };
+    $('e-conf').onclick = () => E.confetti();
+    $('e-count').onclick = () => E.countUp($('count-out'), 1250, { format: n => Math.round(n).toLocaleString('fr') });
+    $('e-pack').onclick = () => E.revealPack($('pack-host'), [byR('common',1)[0], byR('epic',1)[0], byR('legend',1)[0]]).then(() => C.showToast('Paquet ouvert !', 'gold', { icon: '🃏' }));
+    $('b-toast').onclick = () => C.showToast('Nouvelle médaille : Triplé !', 'gold', { icon: '🏅' });
+    $('b-modal').onclick = () => C.showModal(C.modal({ title: 'Quitter le match ?', body: '<p>Si tu pars maintenant, tu perds 0–3.</p>', actions: [C.button({ label: 'Rester', variant: 'ghost', size: 'sm', attrs: { 'data-modal-close': '' } }), C.button({ label: 'Partir', variant: 'danger', size: 'sm', attrs: { 'data-modal-close': '' } })] }));
+    // test hook: ?t=1.4 freezes the goal scenes at t seconds and moves them to the top
+    const tt = new URLSearchParams(location.search).get('t');
+    if (tt != null) { document.head.insertAdjacentHTML('beforeend', `<style>.gscene *{animation-delay:-${tt}s !important;animation-play-state:paused !important}</style>`); document.getElementById('gallery').prepend($('scene-a').closest('section')); }
+    // test hooks: ?fx=goal|pack|modal
+    const fx = new URLSearchParams(location.search).get('fx');
+    if (fx === 'goal') $('e-goal').click();
+    if (fx === 'scene') $('e-scene').click();
+    if (fx === 'against') $('e-scene-against').click();
+    if (fx === 'modal') $('b-modal').click();
+    if (fx === 'pack') { $('e-pack').click(); document.querySelectorAll('.flip').forEach((f, i) => i < 2 && f.click()); }
+  </script>
+</body>
+</html>

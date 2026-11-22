@@ -1,0 +1,1939 @@
+{
+  "topic": "fr-conjugaison",
+  "questions": [
+    {
+      "id": "fr-conj-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Les joueurs ___ (finir) l'entraînement à 18 h.",
+      "choices": [
+        "finisent",
+        "finissons",
+        "finit",
+        "finissent"
+      ],
+      "answer": "finissent",
+      "explain": "Finir est du 2e groupe : le radical prend -iss- au pluriel (ils finissent)."
+    },
+    {
+      "id": "fr-conj-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (manger) des pâtes avant le match.",
+      "choices": [
+        "mangeions",
+        "mangons",
+        "mangeons",
+        "mangeont"
+      ],
+      "answer": "mangeons",
+      "explain": "Pour garder le son [j], on garde le « e » devant « o » : nous mangeons."
+    },
+    {
+      "id": "fr-conj-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À l'imparfait : Quand j'étais petit, je ___ (jouer) au foot tous les jours.",
+      "choices": [
+        "joué",
+        "jouait",
+        "jouai",
+        "jouais"
+      ],
+      "answer": "jouais",
+      "explain": "À l'imparfait, la terminaison de « je » est -ais."
+    },
+    {
+      "id": "fr-conj-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au futur simple : Demain, nous ___ (gagner) le match.",
+      "choices": [
+        "gagnerons",
+        "gagnerions",
+        "gagnerai",
+        "gagnons"
+      ],
+      "answer": "gagnerons",
+      "explain": "Futur : infinitif + terminaison -ons pour « nous »."
+    },
+    {
+      "id": "fr-conj-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À quel temps est le verbe dans « Le capitaine soulevait la coupe. » ?",
+      "choices": [
+        "futur simple",
+        "passé simple",
+        "imparfait",
+        "présent"
+      ],
+      "answer": "imparfait",
+      "explain": "La terminaison -ait de « soulevait » est celle de l'imparfait."
+    },
+    {
+      "id": "fr-conj-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au passé composé : Les supporters ___ au stade (arriver).",
+      "choices": [
+        "sont arrivé",
+        "sont arrivés",
+        "ont arrivés",
+        "ont arrivé"
+      ],
+      "answer": "sont arrivés",
+      "explain": "Arriver se conjugue avec être : le participe s'accorde avec le sujet."
+    },
+    {
+      "id": "fr-conj-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : ___ le ballon à ton coéquipier ! (passer, tu)",
+      "choices": [
+        "Passé",
+        "Passer",
+        "Passe",
+        "Passes"
+      ],
+      "answer": "Passe",
+      "explain": "Les verbes en -er perdent le « s » à la 2e personne de l'impératif."
+    },
+    {
+      "id": "fr-conj-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (avoir) un bon tir de frappe.",
+      "choices": [
+        "as",
+        "ass",
+        "ai",
+        "a"
+      ],
+      "answer": "as",
+      "explain": "Avoir au présent : j'ai, tu as, il a."
+    },
+    {
+      "id": "fr-conj-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Ils ___ (aller) au stade en bus.",
+      "choices": [
+        "vons",
+        "allent",
+        "vaient",
+        "vont"
+      ],
+      "answer": "vont",
+      "explain": "Aller au présent : ils vont."
+    },
+    {
+      "id": "fr-conj-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Vous ___ (dire) la vérité à l'arbitre.",
+      "choices": [
+        "disez",
+        "disent",
+        "dîtes",
+        "dites"
+      ],
+      "answer": "dites",
+      "explain": "Dire fait « vous dites », sans accent circonflexe."
+    },
+    {
+      "id": "fr-conj-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Vous ___ (faire) du sport chaque semaine.",
+      "choices": [
+        "faîtes",
+        "faisez",
+        "faient",
+        "faites"
+      ],
+      "answer": "faites",
+      "explain": "Faire fait « vous faites », sans accent circonflexe."
+    },
+    {
+      "id": "fr-conj-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au passé simple : Le gardien ___ (arrêter) le penalty.",
+      "choices": [
+        "arrêta",
+        "arrêtât",
+        "arrêtait",
+        "arrêtat"
+      ],
+      "answer": "arrêta",
+      "explain": "Au passé simple, les verbes en -er font -a à la 3e personne du singulier."
+    },
+    {
+      "id": "fr-conj-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au futur simple : Demain, je ___ (être) au stade à huit heures.",
+      "choices": [
+        "suis",
+        "serais",
+        "sera",
+        "serai"
+      ],
+      "answer": "serai",
+      "explain": "Être au futur : je serai."
+    },
+    {
+      "id": "fr-conj-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au conditionnel présent : Si j'avais le temps, je ___ (jouer) avec toi.",
+      "choices": [
+        "jouerions",
+        "jouais",
+        "jouerais",
+        "jouerai"
+      ],
+      "answer": "jouerais",
+      "explain": "Conditionnel présent : radical du futur + terminaisons de l'imparfait (-ais pour « je »)."
+    },
+    {
+      "id": "fr-conj-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au plus-que-parfait : Nous ___ (finir) le match quand la pluie est tombée.",
+      "choices": [
+        "avions finis",
+        "avons fini",
+        "avions fini",
+        "aurons fini"
+      ],
+      "answer": "avions fini",
+      "explain": "Plus-que-parfait : auxiliaire à l'imparfait + participe passé."
+    },
+    {
+      "id": "fr-conj-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le verbe « finir » appartient au…",
+      "choices": [
+        "2e groupe",
+        "3e groupe",
+        "1er groupe",
+        "4e groupe"
+      ],
+      "answer": "2e groupe",
+      "explain": "Les verbes en -ir qui font -issant au participe présent sont du 2e groupe."
+    },
+    {
+      "id": "fr-conj-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « nous irons » ?",
+      "choices": [
+        "ire",
+        "allir",
+        "irer",
+        "aller"
+      ],
+      "answer": "aller",
+      "explain": "« Irons » est le futur du verbe aller."
+    },
+    {
+      "id": "fr-conj-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À l'imparfait : Nous ___ (finir) toujours par gagner.",
+      "choices": [
+        "finissons",
+        "finisions",
+        "finissions",
+        "finissaient"
+      ],
+      "answer": "finissions",
+      "explain": "Le radical est « finiss- » à l'imparfait ; la terminaison de « nous » est -ions."
+    },
+    {
+      "id": "fr-conj-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Je ___ (courir) très vite pendant les matchs.",
+      "answer": [
+        "cours"
+      ],
+      "explain": "Courir au présent : je cours, tu cours, il court."
+    },
+    {
+      "id": "fr-conj-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Tu ___ (pouvoir) marquer ce but.",
+      "answer": [
+        "peux"
+      ],
+      "explain": "Pouvoir : je peux, tu peux, il peut."
+    },
+    {
+      "id": "fr-conj-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au futur simple : Demain, il ___ (aller) au stade.",
+      "answer": [
+        "ira"
+      ],
+      "explain": "Aller au futur : j'irai, tu iras, il ira."
+    },
+    {
+      "id": "fr-conj-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le participe passé : Le gardien a ___ (prendre) le ballon.",
+      "answer": [
+        "pris"
+      ],
+      "explain": "Le participe passé de prendre est « pris »."
+    },
+    {
+      "id": "fr-conj-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "À l'impératif présent : ___ (finir, tu) tes devoirs avant le match !",
+      "answer": [
+        "finis",
+        "Finis"
+      ],
+      "explain": "Finir à l'impératif, 2e personne du singulier : finis."
+    },
+    {
+      "id": "fr-conj-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "À l'imparfait : Nous ___ (marcher) vers le stade.",
+      "answer": [
+        "marchions"
+      ],
+      "explain": "Imparfait : radical + -ions pour « nous »."
+    },
+    {
+      "id": "fr-conj-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Ils ___ (avoir) un nouveau ballon.",
+      "answer": [
+        "ont"
+      ],
+      "explain": "Avoir au présent : ils ont."
+    },
+    {
+      "id": "fr-conj-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (répondre) à la question.",
+      "choices": [
+        "répond",
+        "réponds",
+        "répondes",
+        "réponts"
+      ],
+      "answer": "réponds",
+      "explain": "Les verbes en -dre font -ds à la 2e personne du singulier."
+    },
+    {
+      "id": "fr-conj-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Les défenseurs ___ (craindre) cet attaquant.",
+      "choices": [
+        "craignant",
+        "craindent",
+        "craignent",
+        "craignes"
+      ],
+      "answer": "craignent",
+      "explain": "Craindre : au pluriel le radical devient « craign- »."
+    },
+    {
+      "id": "fr-conj-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (résoudre) ce problème de tactique.",
+      "choices": [
+        "résolvons",
+        "résoudrons",
+        "résolverons",
+        "résoudons"
+      ],
+      "answer": "résolvons",
+      "explain": "Résoudre : au pluriel le radical devient « résolv- »."
+    },
+    {
+      "id": "fr-conj-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (lancer) l'attaque.",
+      "choices": [
+        "lançons",
+        "lançeons",
+        "lancons",
+        "lanceons"
+      ],
+      "answer": "lançons",
+      "explain": "On met une cédille devant « o » pour garder le son [s]."
+    },
+    {
+      "id": "fr-conj-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (nettoyer) tes crampons.",
+      "choices": [
+        "nettoies",
+        "nettoyes",
+        "nettoie",
+        "nettoyais"
+      ],
+      "answer": "nettoies",
+      "explain": "Les verbes en -oyer changent le « y » en « i » devant un « e » muet."
+    },
+    {
+      "id": "fr-conj-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Le gardien ___ (appeler) sa défense.",
+      "choices": [
+        "appèle",
+        "appelle",
+        "appelles",
+        "apelle"
+      ],
+      "answer": "appelle",
+      "explain": "Appeler double le « l » devant un « e » muet."
+    },
+    {
+      "id": "fr-conj-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À l'imparfait : En 5e, nous ___ (étudier) les verbes.",
+      "choices": [
+        "étudiyons",
+        "étudiions",
+        "étudions",
+        "étudiont"
+      ],
+      "answer": "étudiions",
+      "explain": "À l'imparfait, les verbes en -ier gardent le « i » du radical avant -ions."
+    },
+    {
+      "id": "fr-conj-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au passé simple : Les joueurs ___ (courir) vers le banc.",
+      "choices": [
+        "courrurent",
+        "coururent",
+        "courirent",
+        "courèrent"
+      ],
+      "answer": "coururent",
+      "explain": "Courir fait « coururent » au passé simple (terminaison -urent)."
+    },
+    {
+      "id": "fr-conj-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au passé simple : Le roi ___ (venir) à la rencontre du chevalier.",
+      "choices": [
+        "venit",
+        "vient",
+        "vint",
+        "viendra"
+      ],
+      "answer": "vint",
+      "explain": "Venir au passé simple : il vint, ils vinrent."
+    },
+    {
+      "id": "fr-conj-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au futur simple : Tu ___ (envoyer) le ballon à droite.",
+      "choices": [
+        "enverras",
+        "envoierais",
+        "enverra",
+        "envoyeras"
+      ],
+      "answer": "enverras",
+      "explain": "Envoyer a un futur irrégulier : j'enverrai."
+    },
+    {
+      "id": "fr-conj-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au futur simple : Nous ___ (voir) le match en direct.",
+      "choices": [
+        "voirons",
+        "verons",
+        "verrions",
+        "verrons"
+      ],
+      "answer": "verrons",
+      "explain": "Voir a un futur irrégulier : je verrai, nous verrons."
+    },
+    {
+      "id": "fr-conj-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au passé composé : Elle ___ (tomber) pendant le match.",
+      "choices": [
+        "est tombée",
+        "est tombé",
+        "a tombé",
+        "a tombée"
+      ],
+      "answer": "est tombée",
+      "explain": "Tomber se conjugue avec être : le participe s'accorde avec le sujet féminin."
+    },
+    {
+      "id": "fr-conj-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au passé composé : Les deux attaquants ___ (se blesser) pendant le match.",
+      "choices": [
+        "se sont blessé",
+        "se sont blessés",
+        "se ont blessés",
+        "s'ont blessés"
+      ],
+      "answer": "se sont blessés",
+      "explain": "Un verbe pronominal prend être ; ici « se » est COD, donc le participe s'accorde."
+    },
+    {
+      "id": "fr-conj-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au plus-que-parfait : Quand nous sommes arrivés, l'arbitre ___ (voir) déjà la faute.",
+      "choices": [
+        "avait vu",
+        "eut vu",
+        "a vu",
+        "avait vue"
+      ],
+      "answer": "avait vu",
+      "explain": "Plus-que-parfait : avait + participe passé ; le COD « la faute » est placé après."
+    },
+    {
+      "id": "fr-conj-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au conditionnel présent : Nous ___ (vouloir) gagner la coupe si nous avions un meilleur gardien.",
+      "choices": [
+        "voulerions",
+        "voudrons",
+        "voulions",
+        "voudrions"
+      ],
+      "answer": "voudrions",
+      "explain": "Conditionnel : radical du futur (voudr-) + -ions."
+    },
+    {
+      "id": "fr-conj-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : ___ (être) fiers de notre équipe, nous aussi !",
+      "choices": [
+        "Soyons",
+        "Sommes",
+        "Étions",
+        "Soyez"
+      ],
+      "answer": "Soyons",
+      "explain": "Impératif d'être : sois, soyons, soyez."
+    },
+    {
+      "id": "fr-conj-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À quel temps est le verbe dans « Le défenseur sauta plus haut que l'attaquant. » ?",
+      "choices": [
+        "imparfait",
+        "passé composé",
+        "passé simple",
+        "futur simple"
+      ],
+      "answer": "passé simple",
+      "explain": "La terminaison -a d'un verbe en -er à la 3e personne marque le passé simple."
+    },
+    {
+      "id": "fr-conj-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « Si on s'entraînait plus, on gagnerait plus de matchs. », à quel temps est « gagnerait » ?",
+      "choices": [
+        "futur simple",
+        "passé simple",
+        "conditionnel présent",
+        "imparfait"
+      ],
+      "answer": "conditionnel présent",
+      "explain": "Radical du futur (gagner-) + terminaison -ait : conditionnel présent."
+    },
+    {
+      "id": "fr-conj-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au passé simple : Le gardien ___ (plonger) sur sa gauche.",
+      "answer": [
+        "plongea"
+      ],
+      "explain": "Après « g » devant « a », on garde le « e » : il plongea."
+    },
+    {
+      "id": "fr-conj-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Nous ___ (commencer) l'échauffement.",
+      "answer": [
+        "commençons"
+      ],
+      "explain": "On met une cédille devant « o » : nous commençons."
+    },
+    {
+      "id": "fr-conj-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au futur simple : Demain, tu ___ (courir) plus vite.",
+      "answer": [
+        "courras"
+      ],
+      "explain": "Courir a un futur irrégulier : je courrai, tu courras."
+    },
+    {
+      "id": "fr-conj-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le participe passé : Le coach a ___ (mettre) ses lunettes.",
+      "answer": [
+        "mis"
+      ],
+      "explain": "Le participe passé de mettre est « mis »."
+    },
+    {
+      "id": "fr-conj-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "À l'imparfait : Quand nous étions petits, nous ___ (voyager) en train.",
+      "answer": [
+        "voyagions"
+      ],
+      "explain": "Voyager garde le « g » doux : nous voyagions."
+    },
+    {
+      "id": "fr-conj-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au passé simple : Les chevaliers ___ (partir) à l'aube.",
+      "answer": [
+        "partirent"
+      ],
+      "explain": "Partir au passé simple, 3e personne du pluriel : ils partirent."
+    },
+    {
+      "id": "fr-conj-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au conditionnel présent : Si j'avais le choix, j'___ (aller) au stade tous les jours.",
+      "answer": [
+        "irais"
+      ],
+      "explain": "Aller a un radical irrégulier au futur et au conditionnel : j'irais."
+    },
+    {
+      "id": "fr-conj-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé composé : Les buts qu'il a ___ (marquer) étaient superbes.",
+      "choices": [
+        "marqués",
+        "marquer",
+        "marquée",
+        "marqué"
+      ],
+      "answer": "marqués",
+      "explain": "Avec avoir, le participe s'accorde avec le COD placé avant : « que » représente « les buts »."
+    },
+    {
+      "id": "fr-conj-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Chaque dimanche, le chevalier partait à la chasse. », quelle est la valeur de l'imparfait « partait » ?",
+      "choices": [
+        "une action brève et soudaine",
+        "une action future",
+        "un ordre",
+        "une action qui se répète"
+      ],
+      "answer": "une action qui se répète",
+      "explain": "« Chaque dimanche » indique une habitude : l'imparfait exprime la répétition."
+    },
+    {
+      "id": "fr-conj-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Il pleuvait quand le héros arriva au château. », que montrent les temps des verbes ?",
+      "choices": [
+        "« pleuvait » décrit le décor, « arriva » raconte l'action principale",
+        "Les deux verbes racontent des actions principales",
+        "Les deux verbes décrivent le décor",
+        "« pleuvait » raconte l'action principale, « arriva » décrit le décor"
+      ],
+      "answer": "« pleuvait » décrit le décor, « arriva » raconte l'action principale",
+      "explain": "Dans un récit, l'imparfait décrit l'arrière-plan et le passé simple raconte les actions."
+    },
+    {
+      "id": "fr-conj-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Les défenseurs ___ (tenir) bon jusqu'au coup de sifflet final.",
+      "choices": [
+        "tiendrent",
+        "tinrent",
+        "tintent",
+        "tenirent"
+      ],
+      "answer": "tinrent",
+      "explain": "Tenir au passé simple : il tint, ils tinrent."
+    },
+    {
+      "id": "fr-conj-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Le chevalier ___ (voir) le dragon surgir.",
+      "choices": [
+        "voyut",
+        "voya",
+        "vit",
+        "voit"
+      ],
+      "answer": "vit",
+      "explain": "Voir au passé simple : il vit, ils virent."
+    },
+    {
+      "id": "fr-conj-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Les supporters ___ (envoyer) des fumigènes sur la pelouse.",
+      "choices": [
+        "envoièrent",
+        "envoyerent",
+        "envoyèrent",
+        "enverront"
+      ],
+      "answer": "envoyèrent",
+      "explain": "Les verbes en -er font -èrent à la 3e personne du pluriel, avec un accent grave."
+    },
+    {
+      "id": "fr-conj-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au futur simple : Je te promets que je ___ (revenir) demain.",
+      "choices": [
+        "reviendra",
+        "revenirai",
+        "reviendrai",
+        "reviendrais"
+      ],
+      "answer": "reviendrai",
+      "explain": "Revenir a un futur irrégulier : je reviendrai."
+    },
+    {
+      "id": "fr-conj-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au conditionnel présent : Si nous avions un meilleur gardien, nous ___ (gagner) plus de matchs.",
+      "choices": [
+        "gagnerions",
+        "gagnerons",
+        "gagnions",
+        "gagneraient"
+      ],
+      "answer": "gagnerions",
+      "explain": "Après « si » + imparfait, on emploie le conditionnel : gagner- + -ions."
+    },
+    {
+      "id": "fr-conj-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au plus-que-parfait : Quand nous sommes arrivés, elle ___ (partir) déjà.",
+      "choices": [
+        "avait parti",
+        "est partie",
+        "était partie",
+        "serait partie"
+      ],
+      "answer": "était partie",
+      "explain": "Partir se conjugue avec être ; auxiliaire à l'imparfait : elle était partie."
+    },
+    {
+      "id": "fr-conj-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au plus-que-parfait : Les joueurs ___ (se préparer) longuement avant le coup d'envoi.",
+      "choices": [
+        "se étaient préparés",
+        "s'étaient préparé",
+        "s'avaient préparés",
+        "s'étaient préparés"
+      ],
+      "answer": "s'étaient préparés",
+      "explain": "Verbe pronominal : auxiliaire être à l'imparfait ; « se » est COD, le participe s'accorde."
+    },
+    {
+      "id": "fr-conj-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : ___ (savoir, vous) que nous gagnerons !",
+      "choices": [
+        "Sachez",
+        "Savez",
+        "Saviez",
+        "Sachiez"
+      ],
+      "answer": "Sachez",
+      "explain": "Savoir à l'impératif : sache, sachons, sachez."
+    },
+    {
+      "id": "fr-conj-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "À quel temps est le verbe dans « Il fut désigné meilleur joueur du tournoi. » ?",
+      "choices": [
+        "imparfait",
+        "passé simple",
+        "passé composé",
+        "plus-que-parfait"
+      ],
+      "answer": "passé simple",
+      "explain": "« Fut » est le passé simple d'être : la forme est un passé simple à la voix passive."
+    },
+    {
+      "id": "fr-conj-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Soudain, le chevalier brandit son épée. », quelle est la valeur du passé simple ?",
+      "choices": [
+        "une description du décor",
+        "une habitude du passé",
+        "une action qui dure longtemps",
+        "une action brève et soudaine, au premier plan"
+      ],
+      "answer": "une action brève et soudaine, au premier plan",
+      "explain": "Le passé simple raconte les actions principales, courtes et terminées."
+    },
+    {
+      "id": "fr-conj-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé composé : Elle ___ l'escalier en courant (monter).",
+      "choices": [
+        "est montée",
+        "a monté",
+        "est monté",
+        "a montée"
+      ],
+      "answer": "a monté",
+      "explain": "Quand le verbe a un COD (ici « l'escalier »), il se conjugue avec avoir."
+    },
+    {
+      "id": "fr-conj-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé composé : Les supporters ___ du bus (descendre).",
+      "choices": [
+        "sont descendu",
+        "ont descendus",
+        "sont descendus",
+        "ont descendu"
+      ],
+      "answer": "sont descendus",
+      "explain": "Sans COD, descendre se conjugue avec être : le participe s'accorde avec le sujet."
+    },
+    {
+      "id": "fr-conj-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au conditionnel présent : Nous ___ (envoyer) un message au capitaine.",
+      "choices": [
+        "enverions",
+        "enverrons",
+        "envoyerions",
+        "enverrions"
+      ],
+      "answer": "enverrions",
+      "explain": "Envoyer a le radical « enverr- » au futur et au conditionnel."
+    },
+    {
+      "id": "fr-conj-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (vaincre) toujours en finale.",
+      "choices": [
+        "vainquais",
+        "vainces",
+        "vaincs",
+        "vainc"
+      ],
+      "answer": "vaincs",
+      "explain": "Vaincre : je vaincs, tu vaincs, il vainc."
+    },
+    {
+      "id": "fr-conj-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Ils ___ (résoudre) tous les problèmes de l'équipe.",
+      "choices": [
+        "résolvent",
+        "résoudront",
+        "résoudent",
+        "résolvaient"
+      ],
+      "answer": "résolvent",
+      "explain": "Résoudre : à la 3e personne du pluriel, le radical est « résolv- »."
+    },
+    {
+      "id": "fr-conj-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au passé simple : Le capitaine ___ (prendre) le ballon des mains de l'arbitre.",
+      "answer": [
+        "prit"
+      ],
+      "explain": "Prendre au passé simple : il prit, ils prirent."
+    },
+    {
+      "id": "fr-conj-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au passé simple : Les mousquetaires ___ (vaincre) leurs ennemis.",
+      "answer": [
+        "vainquirent"
+      ],
+      "explain": "Vaincre au passé simple : il vainquit, ils vainquirent."
+    },
+    {
+      "id": "fr-conj-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au passé simple : Il ___ (naître) en 1850 dans un petit village.",
+      "answer": [
+        "naquit"
+      ],
+      "explain": "Naître au passé simple : il naquit."
+    },
+    {
+      "id": "fr-conj-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au passé simple : Les messagers ___ (venir) annoncer la nouvelle.",
+      "answer": [
+        "vinrent"
+      ],
+      "explain": "Venir au passé simple : ils vinrent."
+    },
+    {
+      "id": "fr-conj-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au plus-que-parfait : Elle ___ (sortir) du terrain quand le coup de sifflet a retenti.",
+      "answer": [
+        "était sortie"
+      ],
+      "explain": "Sortir prend être ; plus-que-parfait : était + participe accordé."
+    },
+    {
+      "id": "fr-conj-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au présent : Les joueurs ___ (mourir) de soif après le match.",
+      "answer": [
+        "meurent"
+      ],
+      "explain": "Mourir au présent : ils meurent."
+    },
+    {
+      "id": "fr-conj-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au futur simple : Elle ___ (cueillir) des fleurs demain.",
+      "answer": [
+        "cueillera"
+      ],
+      "explain": "Cueillir fait son futur en -era : elle cueillera."
+    },
+    {
+      "id": "fr-conj-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Le capitaine ___ (choisir) ses tireurs de penalty.",
+      "choices": [
+        "choisi",
+        "choisit",
+        "choisissent",
+        "choisis"
+      ],
+      "answer": "choisit",
+      "explain": "Choisir au présent : il choisit (2e groupe)."
+    },
+    {
+      "id": "fr-conj-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Les supporters ___ (crier) de joie.",
+      "choices": [
+        "criont",
+        "criez",
+        "crie",
+        "crient"
+      ],
+      "answer": "crient",
+      "explain": "Les verbes en -er font -ent à la 3e personne du pluriel."
+    },
+    {
+      "id": "fr-conj-078",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (avoir) un nouvel entraîneur.",
+      "choices": [
+        "avons",
+        "ayons",
+        "avont",
+        "avions"
+      ],
+      "answer": "avons",
+      "explain": "Avoir au présent : nous avons."
+    },
+    {
+      "id": "fr-conj-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Vous ___ (être) en finale.",
+      "choices": [
+        "est",
+        "étes",
+        "êtes",
+        "êtez"
+      ],
+      "answer": "êtes",
+      "explain": "Être au présent : vous êtes, avec un accent circonflexe."
+    },
+    {
+      "id": "fr-conj-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À l'imparfait : Autrefois, les enfants ___ (jouer) dans la rue.",
+      "choices": [
+        "jouaient",
+        "joueront",
+        "jouèrent",
+        "jouait"
+      ],
+      "answer": "jouaient",
+      "explain": "À l'imparfait, la terminaison de « ils » est -aient."
+    },
+    {
+      "id": "fr-conj-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au futur simple : Samedi, tu ___ (marquer) un but.",
+      "choices": [
+        "marquas",
+        "marquerais",
+        "marquera",
+        "marqueras"
+      ],
+      "answer": "marqueras",
+      "explain": "Futur : infinitif + -as pour « tu »."
+    },
+    {
+      "id": "fr-conj-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au futur simple : Mon équipe ___ (finir) première cette saison.",
+      "choices": [
+        "finit",
+        "finira",
+        "finirai",
+        "finisera"
+      ],
+      "answer": "finira",
+      "explain": "Futur : infinitif + -a pour « elle »."
+    },
+    {
+      "id": "fr-conj-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au passé composé : Léo ___ (marquer) deux buts.",
+      "choices": [
+        "a marquer",
+        "à marqué",
+        "a marqué",
+        "est marqué"
+      ],
+      "answer": "a marqué",
+      "explain": "Marquer se conjugue avec avoir : a + participe passé."
+    },
+    {
+      "id": "fr-conj-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au passé composé : Les joueuses ___ (partir) à midi.",
+      "choices": [
+        "sont parties",
+        "ont parties",
+        "ont parti",
+        "sont partis"
+      ],
+      "answer": "sont parties",
+      "explain": "Partir se conjugue avec être : le participe s'accorde avec le sujet féminin pluriel."
+    },
+    {
+      "id": "fr-conj-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À l'imparfait : Il y a dix ans, j'___ (être) gardien.",
+      "choices": [
+        "étai",
+        "étais",
+        "serais",
+        "était"
+      ],
+      "answer": "étais",
+      "explain": "À l'imparfait, la terminaison de « je » est -ais."
+    },
+    {
+      "id": "fr-conj-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au passé simple : Le roi ___ (monter) sur son cheval.",
+      "choices": [
+        "montat",
+        "montât",
+        "montait",
+        "monta"
+      ],
+      "answer": "monta",
+      "explain": "Au passé simple, les verbes en -er font -a à la 3e personne du singulier."
+    },
+    {
+      "id": "fr-conj-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : ___ (courir, tu) plus vite !",
+      "choices": [
+        "Cour",
+        "Courts",
+        "Cours",
+        "Court"
+      ],
+      "answer": "Cours",
+      "explain": "À l'impératif, « tu » garde la forme du présent : cours."
+    },
+    {
+      "id": "fr-conj-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : ___ (marquer, vous) avant la mi-temps !",
+      "choices": [
+        "Marqués",
+        "Marquer",
+        "Marquiez",
+        "Marquez"
+      ],
+      "answer": "Marquez",
+      "explain": "Impératif, 2e personne du pluriel : marquez."
+    },
+    {
+      "id": "fr-conj-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Les attaquants ___ (prendre) des risques.",
+      "choices": [
+        "prends",
+        "prenent",
+        "prennent",
+        "prendent"
+      ],
+      "answer": "prennent",
+      "explain": "Prendre fait « ils prennent » avec deux « n »."
+    },
+    {
+      "id": "fr-conj-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À quel temps est le verbe dans « Nous jouerons demain à quinze heures. » ?",
+      "choices": [
+        "futur simple",
+        "imparfait",
+        "présent",
+        "conditionnel présent"
+      ],
+      "answer": "futur simple",
+      "explain": "La terminaison -rons de « jouerons » est celle du futur."
+    },
+    {
+      "id": "fr-conj-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "À quel temps est le verbe dans « Il a gagné le tournoi. » ?",
+      "choices": [
+        "passé simple",
+        "passé composé",
+        "imparfait",
+        "plus-que-parfait"
+      ],
+      "answer": "passé composé",
+      "explain": "« a gagné » = auxiliaire au présent + participe passé : passé composé."
+    },
+    {
+      "id": "fr-conj-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « ils vont » ?",
+      "choices": [
+        "aller",
+        "voir",
+        "voner",
+        "alir"
+      ],
+      "answer": "aller",
+      "explain": "« vont » est le présent du verbe aller."
+    },
+    {
+      "id": "fr-conj-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le verbe « marquer » appartient au…",
+      "choices": [
+        "4e groupe",
+        "1er groupe",
+        "2e groupe",
+        "3e groupe"
+      ],
+      "answer": "1er groupe",
+      "explain": "Les verbes en -er (sauf aller) sont du 1er groupe."
+    },
+    {
+      "id": "fr-conj-094",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Les enfants ___ (regarder) le match.",
+      "answer": [
+        "regardent"
+      ],
+      "explain": "Les verbes en -er font -ent à la 3e personne du pluriel."
+    },
+    {
+      "id": "fr-conj-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Elle ___ (finir) son exercice.",
+      "answer": [
+        "finit"
+      ],
+      "explain": "Finir au présent : elle finit."
+    },
+    {
+      "id": "fr-conj-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au futur simple : Nous ___ (être) champions.",
+      "answer": [
+        "serons"
+      ],
+      "explain": "Être au futur : nous serons."
+    },
+    {
+      "id": "fr-conj-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "À l'imparfait : Quand j'étais petit, j'___ (avoir) peur du noir.",
+      "answer": [
+        "avais"
+      ],
+      "explain": "Avoir à l'imparfait : j'avais."
+    },
+    {
+      "id": "fr-conj-098",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le participe passé : Elle a ___ (finir) la partie.",
+      "answer": [
+        "fini"
+      ],
+      "explain": "Le participe passé de finir est « fini »."
+    },
+    {
+      "id": "fr-conj-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "À l'impératif présent : ___ (regarder, tu) l'arbitre !",
+      "answer": [
+        "regarde",
+        "Regarde"
+      ],
+      "explain": "Les verbes en -er n'ont pas de « s » à l'impératif, 2e personne du singulier."
+    },
+    {
+      "id": "fr-conj-100",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au passé simple : Le dragon ___ (rugir) dans la grotte.",
+      "answer": [
+        "rugit"
+      ],
+      "explain": "Les verbes du 2e groupe font -it au passé simple, 3e personne du singulier."
+    },
+    {
+      "id": "fr-conj-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (mettre) ton maillot dans le sac.",
+      "choices": [
+        "mettes",
+        "mest",
+        "mets",
+        "met"
+      ],
+      "answer": "mets",
+      "explain": "Mettre : je mets, tu mets, il met."
+    },
+    {
+      "id": "fr-conj-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Il ___ (peindre) les murs du vestiaire.",
+      "choices": [
+        "peind",
+        "peins",
+        "peinds",
+        "peint"
+      ],
+      "answer": "peint",
+      "explain": "Les verbes en -indre font -int à la 3e personne du singulier."
+    },
+    {
+      "id": "fr-conj-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (joindre) nos efforts pour gagner.",
+      "choices": [
+        "joignont",
+        "joindons",
+        "joinons",
+        "joignons"
+      ],
+      "answer": "joignons",
+      "explain": "Joindre : au pluriel le radical devient « joign- »."
+    },
+    {
+      "id": "fr-conj-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (ranger) les ballons.",
+      "choices": [
+        "rangons",
+        "rangeons",
+        "rangeions",
+        "rangeont"
+      ],
+      "answer": "rangeons",
+      "explain": "On garde le « e » devant « o » pour garder le son [j]."
+    },
+    {
+      "id": "fr-conj-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Vous ___ (employer) mal votre énergie.",
+      "choices": [
+        "employez",
+        "emploient",
+        "employés",
+        "emploiez"
+      ],
+      "answer": "employez",
+      "explain": "Employer : le « y » ne devient « i » que devant un « e » muet ; « vous employez » garde le « y »."
+    },
+    {
+      "id": "fr-conj-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Le gardien ___ (jeter) le ballon vers l'avant.",
+      "choices": [
+        "jetent",
+        "jettes",
+        "jette",
+        "jète"
+      ],
+      "answer": "jette",
+      "explain": "Jeter double le « t » devant un « e » muet."
+    },
+    {
+      "id": "fr-conj-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Le terrain ___ (geler) en hiver.",
+      "choices": [
+        "gele",
+        "gelle",
+        "gèle",
+        "gelait"
+      ],
+      "answer": "gèle",
+      "explain": "Geler prend un accent grave devant un « e » muet : il gèle."
+    },
+    {
+      "id": "fr-conj-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (acheter) un maillot neuf.",
+      "choices": [
+        "achètes",
+        "achettes",
+        "achète",
+        "achetes"
+      ],
+      "answer": "achètes",
+      "explain": "Acheter prend un accent grave devant un « e » muet : tu achètes."
+    },
+    {
+      "id": "fr-conj-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À l'imparfait : Autrefois, les chevaliers ___ (voyager) à cheval.",
+      "choices": [
+        "voyageint",
+        "voyagaient",
+        "voyagèrent",
+        "voyageaient"
+      ],
+      "answer": "voyageaient",
+      "explain": "On garde le « e » après « g » devant « a » : voyageaient."
+    },
+    {
+      "id": "fr-conj-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À l'imparfait : Vous ___ (crier) toujours trop fort.",
+      "choices": [
+        "criez",
+        "criiez",
+        "cria",
+        "criaient"
+      ],
+      "answer": "criiez",
+      "explain": "À l'imparfait, « vous » prend -iez : le radical « cri- » + -iez."
+    },
+    {
+      "id": "fr-conj-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au passé simple : Le chevalier ___ (dire) adieu à sa dame.",
+      "choices": [
+        "dis",
+        "dira",
+        "disa",
+        "dit"
+      ],
+      "answer": "dit",
+      "explain": "Dire au passé simple : il dit, ils dirent."
+    },
+    {
+      "id": "fr-conj-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au passé simple : Les joueurs ___ (savoir) la nouvelle avant le coup d'envoi.",
+      "choices": [
+        "savent",
+        "surent",
+        "saurent",
+        "savèrent"
+      ],
+      "answer": "surent",
+      "explain": "Savoir au passé simple : il sut, ils surent."
+    },
+    {
+      "id": "fr-conj-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au futur simple : Vous ___ (pouvoir) jouer samedi.",
+      "choices": [
+        "pouvrez",
+        "pouvez",
+        "pourrez",
+        "pourez"
+      ],
+      "answer": "pourrez",
+      "explain": "Pouvoir a un futur irrégulier : je pourrai, vous pourrez."
+    },
+    {
+      "id": "fr-conj-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au futur simple : Ils ___ (faire) leurs lacets avant le match.",
+      "choices": [
+        "feront",
+        "faront",
+        "faisent",
+        "ferront"
+      ],
+      "answer": "feront",
+      "explain": "Faire a un futur irrégulier : je ferai, ils feront."
+    },
+    {
+      "id": "fr-conj-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au passé composé : Ils ___ (naître) en 2012.",
+      "choices": [
+        "sont nés",
+        "ont né",
+        "ont nés",
+        "sont nées"
+      ],
+      "answer": "sont nés",
+      "explain": "Naître se conjugue avec être : le participe s'accorde avec le sujet."
+    },
+    {
+      "id": "fr-conj-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au plus-que-parfait : Léo ___ (finir) déjà son exercice quand le coach est arrivé.",
+      "choices": [
+        "avait finit",
+        "a fini",
+        "eut fini",
+        "avait fini"
+      ],
+      "answer": "avait fini",
+      "explain": "Plus-que-parfait : auxiliaire à l'imparfait + participe passé."
+    },
+    {
+      "id": "fr-conj-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au conditionnel présent : Tu ___ (devoir) t'entraîner plus pour gagner.",
+      "choices": [
+        "devras",
+        "devais",
+        "devrais",
+        "deverais"
+      ],
+      "answer": "devrais",
+      "explain": "Devoir a le radical « devr- » au conditionnel."
+    },
+    {
+      "id": "fr-conj-118",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Ils ___ (rejoindre) l'équipe en septembre.",
+      "answer": [
+        "rejoignent"
+      ],
+      "explain": "Rejoindre : le radical devient « rejoign- » au pluriel."
+    },
+    {
+      "id": "fr-conj-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Nous ___ (placer) le ballon sur le point de penalty.",
+      "answer": [
+        "plaçons"
+      ],
+      "explain": "On met une cédille devant « o » : nous plaçons."
+    },
+    {
+      "id": "fr-conj-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au futur simple : Elle ___ (acheter) un ballon.",
+      "answer": [
+        "achètera"
+      ],
+      "explain": "Acheter prend un accent grave au futur : elle achètera."
+    },
+    {
+      "id": "fr-conj-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au passé simple : Les spectateurs ___ (applaudir).",
+      "answer": [
+        "applaudirent"
+      ],
+      "explain": "Les verbes du 2e groupe font -irent à la 3e personne du pluriel."
+    },
+    {
+      "id": "fr-conj-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au passé simple : Les chevaliers ___ (avoir) peur du dragon.",
+      "answer": [
+        "eurent"
+      ],
+      "explain": "Avoir au passé simple : il eut, ils eurent."
+    },
+    {
+      "id": "fr-conj-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au futur simple : Je ___ (voir) mes amis au stade.",
+      "answer": [
+        "verrai"
+      ],
+      "explain": "Voir a un futur irrégulier : je verrai."
+    },
+    {
+      "id": "fr-conj-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au conditionnel présent : Tu ___ (venir) avec nous si tu pouvais.",
+      "answer": [
+        "viendrais"
+      ],
+      "explain": "Venir a le radical « viendr- » au conditionnel."
+    },
+    {
+      "id": "fr-conj-125",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À quel temps est le verbe dans « Les chevaliers avaient déjà quitté le château. » ?",
+      "choices": [
+        "passé composé",
+        "plus-que-parfait",
+        "passé simple",
+        "imparfait"
+      ],
+      "answer": "plus-que-parfait",
+      "explain": "« avaient » (imparfait) + participe passé : plus-que-parfait."
+    },
+    {
+      "id": "fr-conj-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé composé : La coupe qu'ils ont ___ (soulever) brillait au soleil.",
+      "choices": [
+        "soulever",
+        "soulevés",
+        "soulevé",
+        "soulevée"
+      ],
+      "answer": "soulevée",
+      "explain": "Avec avoir, accord avec le COD placé avant : « que » = la coupe."
+    },
+    {
+      "id": "fr-conj-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé composé : Les joueuses se sont ___ (serrer) la main.",
+      "choices": [
+        "serrées",
+        "serré",
+        "serrés",
+        "serrée"
+      ],
+      "answer": "serré",
+      "explain": "« se » est COI (serrer la main à quelqu'un) et le COD est « la main », placé après : pas d'accord."
+    },
+    {
+      "id": "fr-conj-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Il avait plu toute la nuit ; le terrain était boueux. », quelle est la valeur du plus-que-parfait ?",
+      "choices": [
+        "une action antérieure à une autre action passée",
+        "une action future",
+        "un souhait",
+        "une action qui se répète"
+      ],
+      "answer": "une action antérieure à une autre action passée",
+      "explain": "Le plus-que-parfait exprime ce qui s'est passé avant un autre fait du passé."
+    },
+    {
+      "id": "fr-conj-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Le château dominait la vallée. », quelle est la valeur de l'imparfait ?",
+      "choices": [
+        "exprimer le futur",
+        "raconter une action soudaine",
+        "décrire un lieu (arrière-plan)",
+        "donner un ordre"
+      ],
+      "answer": "décrire un lieu (arrière-plan)",
+      "explain": "Dans un récit, l'imparfait sert à décrire le décor."
+    },
+    {
+      "id": "fr-conj-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Le chevalier tira son épée, s'avança et frappa. », que marque la suite de passés simples ?",
+      "choices": [
+        "des actions simultanées",
+        "des descriptions",
+        "des habitudes",
+        "des actions qui s'enchaînent"
+      ],
+      "answer": "des actions qui s'enchaînent",
+      "explain": "Le passé simple raconte des actions successives, l'une après l'autre."
+    },
+    {
+      "id": "fr-conj-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Les mousquetaires ___ (revenir) au château.",
+      "choices": [
+        "revinrent",
+        "revenirent",
+        "reviendrent",
+        "revenèrent"
+      ],
+      "answer": "revinrent",
+      "explain": "Revenir au passé simple : il revint, ils revinrent."
+    },
+    {
+      "id": "fr-conj-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Le prince ___ (devoir) fuir en pleine nuit.",
+      "choices": [
+        "deva",
+        "dut",
+        "dû",
+        "devut"
+      ],
+      "answer": "dut",
+      "explain": "Devoir au passé simple : il dut, ils durent."
+    },
+    {
+      "id": "fr-conj-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Les chevaliers ___ (voir) le dragon.",
+      "choices": [
+        "voyèrent",
+        "voirent",
+        "virent",
+        "vinrent"
+      ],
+      "answer": "virent",
+      "explain": "Voir au passé simple : il vit, ils virent."
+    },
+    {
+      "id": "fr-conj-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Le roi ___ (faire) bâtir un château.",
+      "choices": [
+        "fisa",
+        "fut",
+        "faisit",
+        "fit"
+      ],
+      "answer": "fit",
+      "explain": "Faire au passé simple : il fit, ils firent."
+    },
+    {
+      "id": "fr-conj-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé simple : Elle ___ (pouvoir) enfin parler.",
+      "choices": [
+        "peut",
+        "pouvut",
+        "put",
+        "pu"
+      ],
+      "answer": "put",
+      "explain": "Pouvoir au passé simple : il put, ils purent."
+    },
+    {
+      "id": "fr-conj-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au futur simple : Dans dix ans, je ___ (devenir) champion.",
+      "choices": [
+        "deviendrai",
+        "devenirai",
+        "deviendrais",
+        "devindrai"
+      ],
+      "answer": "deviendrai",
+      "explain": "Devenir a un futur irrégulier : je deviendrai."
+    },
+    {
+      "id": "fr-conj-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au conditionnel présent : Si nous gagnions, nous ___ (aller) fêter ça.",
+      "choices": [
+        "aillions",
+        "irions",
+        "allions",
+        "irons"
+      ],
+      "answer": "irions",
+      "explain": "Aller a le radical « ir- » au conditionnel."
+    },
+    {
+      "id": "fr-conj-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au plus-que-parfait : Avant l'orage, les enfants ___ (rentrer) à la maison.",
+      "choices": [
+        "sont rentrés",
+        "étaient rentrées",
+        "avaient rentré",
+        "étaient rentrés"
+      ],
+      "answer": "étaient rentrés",
+      "explain": "Rentrer prend être ; auxiliaire à l'imparfait, participe accordé avec le sujet."
+    },
+    {
+      "id": "fr-conj-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : ___ (aller, tu) vite chercher le ballon !",
+      "choices": [
+        "Va",
+        "Vas",
+        "Ve",
+        "Allez"
+      ],
+      "answer": "Va",
+      "explain": "Aller à l'impératif, 2e personne du singulier : va (sans « s » ici)."
+    },
+    {
+      "id": "fr-conj-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : N'___ (avoir, tu) pas peur du gardien !",
+      "choices": [
+        "ait",
+        "aies",
+        "aie",
+        "as"
+      ],
+      "answer": "aie",
+      "explain": "Avoir à l'impératif : aie, ayons, ayez."
+    },
+    {
+      "id": "fr-conj-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "À l'impératif présent : ___ (vouloir, vous) bien m'excuser.",
+      "choices": [
+        "Veulliez",
+        "Veuillez",
+        "Voulez",
+        "Voulaient"
+      ],
+      "answer": "Veuillez",
+      "explain": "Vouloir à l'impératif : veuille, veuillons, veuillez."
+    },
+    {
+      "id": "fr-conj-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quels verbes sont à l'imparfait dans « Il pleuvait, il faisait froid, mais les joueurs sourirent. » ?",
+      "choices": [
+        "pleuvait et sourirent",
+        "pleuvait et faisait",
+        "faisait et sourirent",
+        "sourirent seulement"
+      ],
+      "answer": "pleuvait et faisait",
+      "explain": "« sourirent » est au passé simple ; « pleuvait » et « faisait » sont à l'imparfait."
+    },
+    {
+      "id": "fr-conj-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au passé composé : Elle ___ ses crampons de son sac (sortir).",
+      "choices": [
+        "est sortie",
+        "est sorti",
+        "a sortie",
+        "a sorti"
+      ],
+      "answer": "a sorti",
+      "explain": "Sortir avec un COD (« ses crampons ») se conjugue avec avoir."
+    },
+    {
+      "id": "fr-conj-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au passé simple : Les fantômes ___ (disparaître) à l'aube.",
+      "answer": [
+        "disparurent"
+      ],
+      "explain": "Disparaître au passé simple : il disparut, ils disparurent."
+    },
+    {
+      "id": "fr-conj-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au passé simple : Elle ___ (devoir) abandonner le tournoi.",
+      "answer": [
+        "dut"
+      ],
+      "explain": "Devoir au passé simple : elle dut."
+    },
+    {
+      "id": "fr-conj-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au présent : Nous ___ (vaincre) toujours ce rival.",
+      "answer": [
+        "vainquons"
+      ],
+      "explain": "Vaincre : au pluriel le radical devient « vainqu- »."
+    },
+    {
+      "id": "fr-conj-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au futur simple : Un jour, tu ___ (devenir) capitaine.",
+      "answer": [
+        "deviendras"
+      ],
+      "explain": "Devenir au futur : tu deviendras."
+    },
+    {
+      "id": "fr-conj-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au passé simple : Le champion ___ (tenir) la coupe à bout de bras.",
+      "answer": [
+        "tint"
+      ],
+      "explain": "Tenir au passé simple : il tint, ils tinrent."
+    },
+    {
+      "id": "fr-conj-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au plus-que-parfait : Quand le portier est arrivé, les supporters ___ (venir) déjà.",
+      "answer": [
+        "étaient venus"
+      ],
+      "explain": "Venir prend être ; plus-que-parfait : étaient + participe accordé."
+    },
+    {
+      "id": "fr-conj-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au conditionnel présent : À ta place, je ___ (voir) un médecin.",
+      "answer": [
+        "verrais"
+      ],
+      "explain": "Voir a le radical « verr- » au conditionnel."
+    }
+  ]
+}

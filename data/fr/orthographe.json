@@ -1,0 +1,1941 @@
+{
+  "topic": "fr-orthographe",
+  "questions": [
+    {
+      "id": "fr-orth-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le gardien ___ arrêté le tir.",
+      "choices": [
+        "ah",
+        "as",
+        "à",
+        "a"
+      ],
+      "answer": "a",
+      "explain": "On peut remplacer par « avait » : verbe avoir, sans accent."
+    },
+    {
+      "id": "fr-orth-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Les joueurs vont ___ l'entraînement.",
+      "choices": [
+        "as",
+        "ah",
+        "à",
+        "a"
+      ],
+      "answer": "à",
+      "explain": "On ne peut pas remplacer par « avait » : c'est la préposition « à »."
+    },
+    {
+      "id": "fr-orth-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Paul ___ Lina jouent au foot.",
+      "choices": [
+        "ait",
+        "est",
+        "et",
+        "ai"
+      ],
+      "answer": "et",
+      "explain": "« et » relie deux mots ; on peut le remplacer par « et puis »."
+    },
+    {
+      "id": "fr-orth-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le ballon ___ dans le but.",
+      "choices": [
+        "es",
+        "et",
+        "est",
+        "ai"
+      ],
+      "answer": "est",
+      "explain": "On peut remplacer par « était » : c'est le verbe être."
+    },
+    {
+      "id": "fr-orth-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Les joueurs ___ gagné le match.",
+      "choices": [
+        "ons",
+        "hont",
+        "on",
+        "ont"
+      ],
+      "answer": "ont",
+      "explain": "On peut remplacer par « avaient » : c'est le verbe avoir."
+    },
+    {
+      "id": "fr-orth-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Les supporters ___ contents.",
+      "choices": [
+        "son",
+        "sont",
+        "sons",
+        "sond"
+      ],
+      "answer": "sont",
+      "explain": "On peut remplacer par « étaient » : c'est le verbe être."
+    },
+    {
+      "id": "fr-orth-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : ___ habites-tu ?",
+      "choices": [
+        "Oû",
+        "Ous",
+        "Ou",
+        "Où"
+      ],
+      "answer": "Où",
+      "explain": "« où » avec accent indique le lieu ; « ou » sans accent peut se remplacer par « ou bien »."
+    },
+    {
+      "id": "fr-orth-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Veux-tu jouer en attaque ___ en défense ?",
+      "choices": [
+        "où",
+        "oux",
+        "ous",
+        "ou"
+      ],
+      "answer": "ou",
+      "explain": "On peut remplacer par « ou bien » : pas d'accent."
+    },
+    {
+      "id": "fr-orth-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Regarde ___ joueurs ! Je te les montre du doigt.",
+      "choices": [
+        "ses",
+        "s'est",
+        "c'est",
+        "ces"
+      ],
+      "answer": "ces",
+      "explain": "« ces » est un déterminant démonstratif qui montre quelque chose."
+    },
+    {
+      "id": "fr-orth-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Zoé a oublié ___ gants. (Ce sont les gants de Zoé.)",
+      "choices": [
+        "s'est",
+        "ces",
+        "c'est",
+        "ses"
+      ],
+      "answer": "ses",
+      "explain": "« ses » exprime la possession ; on peut le remplacer par « mes »."
+    },
+    {
+      "id": "fr-orth-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le défenseur ___ blessé.",
+      "choices": [
+        "c'est",
+        "ses",
+        "s'est",
+        "ces"
+      ],
+      "answer": "s'est",
+      "explain": "On peut remplacer par « s'était » : verbe pronominal."
+    },
+    {
+      "id": "fr-orth-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le gardien ___ prépare.",
+      "choices": [
+        "ces",
+        "ses",
+        "se",
+        "ce"
+      ],
+      "answer": "se",
+      "explain": "« se » est un pronom placé devant un verbe (se préparer)."
+    },
+    {
+      "id": "fr-orth-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le ballon est ___, sous le banc.",
+      "choices": [
+        "la",
+        "là",
+        "l'a",
+        "las"
+      ],
+      "answer": "là",
+      "explain": "« là » avec accent indique un lieu ; on peut dire « ici »."
+    },
+    {
+      "id": "fr-orth-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Les joueurs saluent ___ supporters.",
+      "choices": [
+        "leurs",
+        "leur",
+        "leurent",
+        "leures"
+      ],
+      "answer": "leurs",
+      "explain": "Le nom « supporters » est au pluriel : « leurs » s'accorde avec lui."
+    },
+    {
+      "id": "fr-orth-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : ___ équipe a gagné ?",
+      "choices": [
+        "Quel",
+        "Quelles",
+        "Qu'elle",
+        "Quelle"
+      ],
+      "answer": "Quelle",
+      "explain": "« équipe » est féminin singulier : « quelle » s'accorde avec le nom."
+    },
+    {
+      "id": "fr-orth-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Il ___ gagner le match.",
+      "choices": [
+        "peu",
+        "peut",
+        "peus",
+        "peux"
+      ],
+      "answer": "peut",
+      "explain": "On peut remplacer par « pouvait » : verbe pouvoir, 3e personne du singulier."
+    },
+    {
+      "id": "fr-orth-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « gardien » ?",
+      "choices": [
+        "gardiene",
+        "gardienee",
+        "gardiène",
+        "gardienne"
+      ],
+      "answer": "gardienne",
+      "explain": "Les noms en -ien doublent le « n » au féminin."
+    },
+    {
+      "id": "fr-orth-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « cheval » ?",
+      "choices": [
+        "chevaus",
+        "chevales",
+        "chevals",
+        "chevaux"
+      ],
+      "answer": "chevaux",
+      "explain": "Les noms en -al font leur pluriel en -aux."
+    },
+    {
+      "id": "fr-orth-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris au pluriel : un but",
+      "answer": [
+        "buts"
+      ],
+      "explain": "On ajoute un « s » au pluriel."
+    },
+    {
+      "id": "fr-orth-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris au pluriel : un journal",
+      "answer": [
+        "journaux"
+      ],
+      "explain": "Les noms en -al font -aux au pluriel."
+    },
+    {
+      "id": "fr-orth-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec peu, peut ou peux : Tu ___ marquer un but.",
+      "answer": [
+        "peux"
+      ],
+      "explain": "Avec « tu », le verbe pouvoir s'écrit « peux »."
+    },
+    {
+      "id": "fr-orth-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec a ou à : Léa ___ gagné le tournoi.",
+      "answer": [
+        "a"
+      ],
+      "explain": "On peut remplacer par « avait » : verbe avoir, sans accent."
+    },
+    {
+      "id": "fr-orth-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec ou ou où : ___ vas-tu ce week-end ?",
+      "answer": [
+        "où",
+        "Où"
+      ],
+      "explain": "« où » avec accent exprime le lieu."
+    },
+    {
+      "id": "fr-orth-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec son ou sont : Les joueurs ___ prêts.",
+      "answer": [
+        "sont"
+      ],
+      "explain": "On peut remplacer par « étaient » : verbe être."
+    },
+    {
+      "id": "fr-orth-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec ces, ses, c'est ou s'est : ___ lui qui a marqué.",
+      "answer": [
+        "c'est",
+        "c’est"
+      ],
+      "explain": "On peut remplacer par « cela est » : « c'est »."
+    },
+    {
+      "id": "fr-orth-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est correctement écrite (sujet placé après le verbe) ?",
+      "choices": [
+        "Sur le terrain entrent les deux équipes.",
+        "Sur le terrain entrent les deux équipe.",
+        "Sur le terrain entre les deux équipes.",
+        "Sur le terrain entres les deux équipes."
+      ],
+      "answer": "Sur le terrain entrent les deux équipes.",
+      "explain": "Le sujet « les deux équipes » est placé après le verbe : le verbe s'accorde avec lui."
+    },
+    {
+      "id": "fr-orth-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Les joueurs, malgré la fatigue et la pluie battante, ___ (continuer) de courir.",
+      "choices": [
+        "continuons",
+        "continues",
+        "continuent",
+        "continue"
+      ],
+      "answer": "continuent",
+      "explain": "Le sujet est « les joueurs » ; il est éloigné du verbe, mais le verbe s'accorde avec lui."
+    },
+    {
+      "id": "fr-orth-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : La foule ___ le nom de son équipe (scander).",
+      "choices": [
+        "scande",
+        "scandes",
+        "scandent",
+        "scandons"
+      ],
+      "answer": "scande",
+      "explain": "« foule » est un nom collectif singulier : le verbe est au singulier."
+    },
+    {
+      "id": "fr-orth-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : C'est moi qui ___ marqué le but.",
+      "choices": [
+        "a",
+        "ai",
+        "ait",
+        "as"
+      ],
+      "answer": "ai",
+      "explain": "Le sujet « qui » reprend « moi » : le verbe s'accorde à la 1re personne."
+    },
+    {
+      "id": "fr-orth-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choisis la bonne orthographe : Les supporters agitent des écharpes ___.",
+      "choices": [
+        "bleues marines",
+        "bleu marine",
+        "bleu marines",
+        "bleues marine"
+      ],
+      "answer": "bleu marine",
+      "explain": "Un adjectif de couleur suivi d'un autre mot est invariable."
+    },
+    {
+      "id": "fr-orth-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un tribunal » ?",
+      "choices": [
+        "des tribunales",
+        "des tribunaus",
+        "des tribunals",
+        "des tribunaux"
+      ],
+      "answer": "des tribunaux",
+      "explain": "Les noms en -al font leur pluriel en -aux."
+    },
+    {
+      "id": "fr-orth-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un trou » ?",
+      "choices": [
+        "des trouts",
+        "des trouxs",
+        "des trous",
+        "des troux"
+      ],
+      "answer": "des trous",
+      "explain": "Les noms en -ou prennent un « s » ; seulement 7 noms prennent un « x »."
+    },
+    {
+      "id": "fr-orth-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un carnaval » ?",
+      "choices": [
+        "des carnavaus",
+        "des carnavaux",
+        "des carnavals",
+        "des carnavales"
+      ],
+      "answer": "des carnavals",
+      "explain": "Carnaval fait partie des noms en -al qui prennent un « s »."
+    },
+    {
+      "id": "fr-orth-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « spectateur » ?",
+      "choices": [
+        "spectateure",
+        "spectatrise",
+        "spectatrice",
+        "spectateuse"
+      ],
+      "answer": "spectatrice",
+      "explain": "Les noms en -teur font souvent -trice au féminin."
+    },
+    {
+      "id": "fr-orth-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les joueuses sont ___ en retard (arriver).",
+      "choices": [
+        "arriver",
+        "arrivés",
+        "arrivée",
+        "arrivées"
+      ],
+      "answer": "arrivées",
+      "explain": "Avec être, le participe s'accorde avec le sujet : féminin pluriel."
+    },
+    {
+      "id": "fr-orth-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les photos que j'ai ___ sont belles (prendre).",
+      "choices": [
+        "prise",
+        "prises",
+        "pris",
+        "prit"
+      ],
+      "answer": "prises",
+      "explain": "Avec avoir, le participe s'accorde avec le COD placé avant : « que » = les photos."
+    },
+    {
+      "id": "fr-orth-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les maillots que les joueurs ont ___ hier étaient blancs (porter).",
+      "choices": [
+        "portées",
+        "porter",
+        "porté",
+        "portés"
+      ],
+      "answer": "portés",
+      "explain": "Le COD « que » (les maillots) est placé avant : accord au masculin pluriel."
+    },
+    {
+      "id": "fr-orth-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Léa va ___ le penalty (tirer).",
+      "choices": [
+        "tirer",
+        "tirait",
+        "tiré",
+        "tirez"
+      ],
+      "answer": "tirer",
+      "explain": "Après « aller », on met l'infinitif ; on peut le remplacer par « mordre »."
+    },
+    {
+      "id": "fr-orth-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les enfants ont ___ toute la journée (jouer).",
+      "choices": [
+        "jouer",
+        "jouez",
+        "jouait",
+        "joué"
+      ],
+      "answer": "joué",
+      "explain": "Après « avoir », on met un participe passé ; on peut le remplacer par « mordu »."
+    },
+    {
+      "id": "fr-orth-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Léa est capitaine ; je crois ___ a raison.",
+      "choices": [
+        "qu'elle",
+        "quel",
+        "quelle",
+        "quelles"
+      ],
+      "answer": "qu'elle",
+      "explain": "« qu'elle » = « que » + « elle » ; on peut remplacer par « qu'il »."
+    },
+    {
+      "id": "fr-orth-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les joueurs sont ___ arrivés à l'heure.",
+      "choices": [
+        "toute",
+        "touts",
+        "tous",
+        "tout"
+      ],
+      "answer": "tous",
+      "explain": "Ici « tous » est un pronom qui reprend « les joueurs » : on entend le [s]."
+    },
+    {
+      "id": "fr-orth-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : La balle est tombée ; le gardien ___ attrapée.",
+      "choices": [
+        "la",
+        "las",
+        "l'a",
+        "là"
+      ],
+      "answer": "l'a",
+      "explain": "On peut remplacer par « l'avait » : pronom « l' » + verbe avoir."
+    },
+    {
+      "id": "fr-orth-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Mon grand-père ___ au foot tous les dimanches (imparfait de jouer).",
+      "choices": [
+        "jouer",
+        "joué",
+        "jouez",
+        "jouait"
+      ],
+      "answer": "jouait",
+      "explain": "Pour distinguer, on remplace par « prenait » : imparfait, terminaison -ait."
+    },
+    {
+      "id": "fr-orth-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris au pluriel : un bijou",
+      "answer": [
+        "bijoux"
+      ],
+      "explain": "Bijou fait partie des 7 noms en -ou qui font -oux (bijou, caillou, chou, genou, hibou, joujou, pou)."
+    },
+    {
+      "id": "fr-orth-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris au pluriel : un animal",
+      "answer": [
+        "animaux"
+      ],
+      "explain": "Les noms en -al font -aux au pluriel."
+    },
+    {
+      "id": "fr-orth-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris au pluriel : un vitrail",
+      "answer": [
+        "vitraux"
+      ],
+      "explain": "Vitrail fait partie des noms en -ail qui font -aux (travail, corail, vitrail, émail…)."
+    },
+    {
+      "id": "fr-orth-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de partir : Les joueuses sont ___ tôt.",
+      "answer": [
+        "parties"
+      ],
+      "explain": "Avec être, le participe s'accorde avec le sujet : féminin pluriel."
+    },
+    {
+      "id": "fr-orth-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de sortir : Les cartes que l'arbitre a ___ étaient jaunes.",
+      "answer": [
+        "sorties"
+      ],
+      "explain": "Avec avoir, le participe s'accorde avec le COD placé avant : « que » = les cartes."
+    },
+    {
+      "id": "fr-orth-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le féminin de « un boulanger ».",
+      "answer": [
+        "boulangère"
+      ],
+      "explain": "Les noms en -er font -ère au féminin."
+    },
+    {
+      "id": "fr-orth-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec l'infinitif de siffler : Je vais ___ la fin du match.",
+      "answer": [
+        "siffler"
+      ],
+      "explain": "Après « aller », on met l'infinitif."
+    },
+    {
+      "id": "fr-orth-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : La plupart des joueurs ___ fatigués.",
+      "choices": [
+        "ont",
+        "est",
+        "sont",
+        "soit"
+      ],
+      "answer": "sont",
+      "explain": "« La plupart des joueurs » désigne plusieurs personnes : verbe au pluriel."
+    },
+    {
+      "id": "fr-orth-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Quels buts ont ___ ces attaquants ? (marquer)",
+      "choices": [
+        "marqués",
+        "marquées",
+        "marqué",
+        "marquer"
+      ],
+      "answer": "marqués",
+      "explain": "Le COD « quels buts » est placé avant le verbe : accord au masculin pluriel."
+    },
+    {
+      "id": "fr-orth-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Les efforts qu'il a ___ pour guérir ont payé (faire).",
+      "choices": [
+        "faite",
+        "fait",
+        "faites",
+        "faits"
+      ],
+      "answer": "faits",
+      "explain": "Avec avoir, accord avec le COD « que » (les efforts), masculin pluriel."
+    },
+    {
+      "id": "fr-orth-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Elle s'est ___ les mains (laver).",
+      "choices": [
+        "lavés",
+        "lavée",
+        "lavées",
+        "lavé"
+      ],
+      "answer": "lavé",
+      "explain": "Le COD est « les mains », placé après : « se » est COI, donc pas d'accord."
+    },
+    {
+      "id": "fr-orth-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Elles se sont ___ hier soir (parler).",
+      "choices": [
+        "parlée",
+        "parlées",
+        "parlé",
+        "parlés"
+      ],
+      "answer": "parlé",
+      "explain": "On parle « à quelqu'un » : « se » est COI, donc le participe ne s'accorde pas."
+    },
+    {
+      "id": "fr-orth-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Le club a ___ son meilleur joueur (vendre).",
+      "choices": [
+        "vendu",
+        "vendue",
+        "vendus",
+        "vendre"
+      ],
+      "answer": "vendu",
+      "explain": "Après « avoir », on met un participe passé ; on peut le remplacer par « pris »."
+    },
+    {
+      "id": "fr-orth-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : ___ que soit la météo, le match aura lieu.",
+      "choices": [
+        "Qu'elle",
+        "Quel",
+        "Quelle",
+        "Quelles"
+      ],
+      "answer": "Quelle",
+      "explain": "« quelle que soit » s'écrit en deux mots et s'accorde avec « la météo » (féminin singulier)."
+    },
+    {
+      "id": "fr-orth-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Elles sont ___ contentes d'avoir gagné.",
+      "choices": [
+        "tous",
+        "tout",
+        "toutes",
+        "toute"
+      ],
+      "answer": "toutes",
+      "explain": "Tout adverbe s'accorde devant un adjectif féminin commençant par une consonne."
+    },
+    {
+      "id": "fr-orth-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Elle est ___ étonnée de sa victoire.",
+      "choices": [
+        "toutes",
+        "tous",
+        "tout",
+        "toute"
+      ],
+      "answer": "tout",
+      "explain": "Tout adverbe reste invariable devant un adjectif féminin commençant par une voyelle."
+    },
+    {
+      "id": "fr-orth-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Les gardiens enfilent des gants ___.",
+      "choices": [
+        "rouges vif",
+        "rouges vifs",
+        "rouge vif",
+        "rouge vifs"
+      ],
+      "answer": "rouge vif",
+      "explain": "Un adjectif de couleur modifié par un autre adjectif est invariable."
+    },
+    {
+      "id": "fr-orth-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un bal » ?",
+      "choices": [
+        "des bales",
+        "des baux",
+        "des balx",
+        "des bals"
+      ],
+      "answer": "des bals",
+      "explain": "Bal, carnaval, festival, récital, régal font leur pluriel en -s."
+    },
+    {
+      "id": "fr-orth-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un genou » ?",
+      "choices": [
+        "des genouts",
+        "des genoux",
+        "des genous",
+        "des genouxs"
+      ],
+      "answer": "des genoux",
+      "explain": "Genou est l'un des 7 noms en -ou qui prennent un « x »."
+    },
+    {
+      "id": "fr-orth-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « duc » ?",
+      "choices": [
+        "duque",
+        "duchesse",
+        "ducette",
+        "ducesse"
+      ],
+      "answer": "duchesse",
+      "explain": "Duc fait « duchesse » au féminin."
+    },
+    {
+      "id": "fr-orth-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « âne » ?",
+      "choices": [
+        "ânesse",
+        "ânière",
+        "ânette",
+        "ânne"
+      ],
+      "answer": "ânesse",
+      "explain": "Beaucoup de noms d'animaux font -esse au féminin (tigre, tigresse)."
+    },
+    {
+      "id": "fr-orth-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Chacun de ces joueurs ___ la victoire (mériter, présent).",
+      "choices": [
+        "mérite",
+        "mérites",
+        "méritez",
+        "méritent"
+      ],
+      "answer": "mérite",
+      "explain": "« Chacun » est singulier : le verbe est au singulier."
+    },
+    {
+      "id": "fr-orth-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Ce sont les deux avant-centres qui ___ marqué.",
+      "choices": [
+        "as",
+        "a",
+        "ont",
+        "ai"
+      ],
+      "answer": "ont",
+      "explain": "Le sujet « qui » reprend « les deux avant-centres » : verbe au pluriel."
+    },
+    {
+      "id": "fr-orth-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Toi qui ___ rapide, tu seras attaquant (être).",
+      "choices": [
+        "êtes",
+        "ai",
+        "es",
+        "est"
+      ],
+      "answer": "es",
+      "explain": "« qui » reprend « toi » : le verbe s'accorde à la 2e personne du singulier."
+    },
+    {
+      "id": "fr-orth-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase respecte tous les accords ?",
+      "choices": [
+        "Les joueuses que l'entraîneur a convoqué sont arrivées.",
+        "Les joueuses que l'entraîneur à convoquées sont arrivées.",
+        "Les joueuses que l'entraîneur a convoquées sont arrivés.",
+        "Les joueuses que l'entraîneur a convoquées sont arrivées."
+      ],
+      "answer": "Les joueuses que l'entraîneur a convoquées sont arrivées.",
+      "explain": "Accord avec le COD placé avant (« que » = les joueuses) ; « à » est une préposition, pas avoir."
+    },
+    {
+      "id": "fr-orth-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec le participe passé d'écrire : Les lettres qu'il a ___ sont arrivées.",
+      "answer": [
+        "écrites"
+      ],
+      "explain": "Avec avoir, accord avec le COD placé avant : « que » = les lettres, féminin pluriel."
+    },
+    {
+      "id": "fr-orth-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de blesser : Elle s'est ___ à la jambe.",
+      "answer": [
+        "blessée"
+      ],
+      "explain": "« se » est COD : le participe s'accorde avec le sujet « elle »."
+    },
+    {
+      "id": "fr-orth-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris au pluriel : un chandail",
+      "answer": [
+        "chandails"
+      ],
+      "explain": "Chandail est un nom en -ail qui prend simplement un « s »."
+    },
+    {
+      "id": "fr-orth-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris au pluriel : un pou",
+      "answer": [
+        "poux"
+      ],
+      "explain": "Pou est l'un des 7 noms en -ou qui prennent un « x »."
+    },
+    {
+      "id": "fr-orth-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris au pluriel : un festival",
+      "answer": [
+        "festivals"
+      ],
+      "explain": "Festival est un nom en -al qui prend un « s »."
+    },
+    {
+      "id": "fr-orth-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec quel, quelle, quels ou quelles : ___ que soient tes choix, je te soutiens.",
+      "answer": [
+        "quels",
+        "Quels"
+      ],
+      "explain": "« quels que soient » s'accorde avec « tes choix » (masculin pluriel)."
+    },
+    {
+      "id": "fr-orth-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le féminin de « un empereur ».",
+      "answer": [
+        "impératrice"
+      ],
+      "explain": "Le féminin de « empereur » est « impératrice »."
+    },
+    {
+      "id": "fr-orth-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Mon frère habite ___ côté du stade.",
+      "choices": [
+        "ah",
+        "à",
+        "a",
+        "as"
+      ],
+      "answer": "à",
+      "explain": "On ne peut pas remplacer par « avait » : c'est la préposition « à »."
+    },
+    {
+      "id": "fr-orth-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Zoé ___ un ballon rouge.",
+      "choices": [
+        "as",
+        "à",
+        "ah",
+        "a"
+      ],
+      "answer": "a",
+      "explain": "On peut remplacer par « avait » : verbe avoir, sans accent."
+    },
+    {
+      "id": "fr-orth-078",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Il court ___ il saute.",
+      "choices": [
+        "ait",
+        "est",
+        "et",
+        "ai"
+      ],
+      "answer": "et",
+      "explain": "« et » relie deux mots ; on peut le remplacer par « et puis »."
+    },
+    {
+      "id": "fr-orth-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Mon frère ___ gardien.",
+      "choices": [
+        "est",
+        "es",
+        "ai",
+        "et"
+      ],
+      "answer": "est",
+      "explain": "On peut remplacer par « était » : verbe être."
+    },
+    {
+      "id": "fr-orth-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : ___ joue au foot ce soir ?",
+      "choices": [
+        "Ont",
+        "Ons",
+        "On",
+        "Hon"
+      ],
+      "answer": "On",
+      "explain": "On peut remplacer par « il » : pronom « on »."
+    },
+    {
+      "id": "fr-orth-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Les enfants ___ faim après le match.",
+      "choices": [
+        "ons",
+        "ont",
+        "on",
+        "hont"
+      ],
+      "answer": "ont",
+      "explain": "On peut remplacer par « avaient » : verbe avoir."
+    },
+    {
+      "id": "fr-orth-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Léo a perdu ___ ballon.",
+      "choices": [
+        "son",
+        "sonts",
+        "sont",
+        "sons"
+      ],
+      "answer": "son",
+      "explain": "On peut remplacer par « mon » : déterminant possessif."
+    },
+    {
+      "id": "fr-orth-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Mes amis ___ au stade.",
+      "choices": [
+        "son",
+        "sond",
+        "sons",
+        "sont"
+      ],
+      "answer": "sont",
+      "explain": "On peut remplacer par « étaient » : verbe être."
+    },
+    {
+      "id": "fr-orth-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Tu préfères le chocolat ___ la vanille ?",
+      "choices": [
+        "oû",
+        "u",
+        "ou",
+        "où"
+      ],
+      "answer": "ou",
+      "explain": "On peut remplacer par « ou bien » : « ou » sans accent."
+    },
+    {
+      "id": "fr-orth-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le stade ___ nous jouons est neuf.",
+      "choices": [
+        "où",
+        "oû",
+        "ou",
+        "ous"
+      ],
+      "answer": "où",
+      "explain": "« où » avec accent indique un lieu."
+    },
+    {
+      "id": "fr-orth-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le gardien enfile ___ gants. (Ce sont les gants du gardien.)",
+      "choices": [
+        "c'est",
+        "ses",
+        "ces",
+        "s'est"
+      ],
+      "answer": "ses",
+      "explain": "« ses » exprime la possession ; on peut le remplacer par « mes »."
+    },
+    {
+      "id": "fr-orth-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Tu vois ___ joueurs, là-bas ? Je te les montre du doigt.",
+      "choices": [
+        "ses",
+        "s'est",
+        "c'est",
+        "ces"
+      ],
+      "answer": "ces",
+      "explain": "« ces » est un déterminant démonstratif : il sert à montrer."
+    },
+    {
+      "id": "fr-orth-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : ___ le plus grand stade de la ville.",
+      "choices": [
+        "C'est",
+        "Ses",
+        "Ces",
+        "S'est"
+      ],
+      "answer": "C'est",
+      "explain": "On peut remplacer par « cela est » : « c'est »."
+    },
+    {
+      "id": "fr-orth-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Léa ___ entraînée tout l'été.",
+      "choices": [
+        "c'est",
+        "ces",
+        "s'est",
+        "ses"
+      ],
+      "answer": "s'est",
+      "explain": "On peut remplacer par « s'était » : verbe pronominal."
+    },
+    {
+      "id": "fr-orth-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : ___ match est très important.",
+      "choices": [
+        "Ces",
+        "Ce",
+        "Ses",
+        "Se"
+      ],
+      "answer": "Ce",
+      "explain": "« ce » est un déterminant devant le nom masculin « match »."
+    },
+    {
+      "id": "fr-orth-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le gardien est ___ ; il attend le tir.",
+      "choices": [
+        "la",
+        "l'a",
+        "las",
+        "là"
+      ],
+      "answer": "là",
+      "explain": "« là » avec accent indique un lieu ; on peut dire « ici »."
+    },
+    {
+      "id": "fr-orth-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le coach ___ explique la tactique.",
+      "choices": [
+        "leur",
+        "leurent",
+        "leures",
+        "leurs"
+      ],
+      "answer": "leur",
+      "explain": "Ici « leur » remplace « à eux » : pronom, toujours invariable."
+    },
+    {
+      "id": "fr-orth-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : ___ joueur a marqué ?",
+      "choices": [
+        "Qu'elle",
+        "Quels",
+        "Quel",
+        "Quelle"
+      ],
+      "answer": "Quel",
+      "explain": "« joueur » est masculin singulier : « quel »."
+    },
+    {
+      "id": "fr-orth-094",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris au pluriel : un ballon",
+      "answer": [
+        "ballons"
+      ],
+      "explain": "On ajoute un « s » au pluriel."
+    },
+    {
+      "id": "fr-orth-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris au pluriel : un hôpital",
+      "answer": [
+        "hôpitaux"
+      ],
+      "explain": "Les noms en -al font -aux au pluriel."
+    },
+    {
+      "id": "fr-orth-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec a ou à : Il habite ___ Paris.",
+      "answer": [
+        "à"
+      ],
+      "explain": "On ne peut pas remplacer par « avait » : préposition « à »."
+    },
+    {
+      "id": "fr-orth-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec et ou est : Le ciel ___ bleu.",
+      "answer": [
+        "est"
+      ],
+      "explain": "On peut remplacer par « était » : verbe être."
+    },
+    {
+      "id": "fr-orth-098",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec on ou ont : Les joueurs ___ marqué trois buts.",
+      "answer": [
+        "ont"
+      ],
+      "explain": "On peut remplacer par « avaient » : verbe avoir."
+    },
+    {
+      "id": "fr-orth-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec leur ou leurs : Les élèves rangent ___ cahiers.",
+      "answer": [
+        "leurs"
+      ],
+      "explain": "« cahiers » est au pluriel : « leurs » s'accorde avec lui."
+    },
+    {
+      "id": "fr-orth-100",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète avec là, la ou l'a : Le ballon est tombé ___, près du poteau.",
+      "answer": [
+        "là"
+      ],
+      "explain": "« là » avec accent indique un lieu."
+    },
+    {
+      "id": "fr-orth-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est correctement écrite (le sujet vient après le verbe) ?",
+      "choices": [
+        "Dans la nuit retentissent les cris des supporter.",
+        "Dans la nuit retentit les cris des supporters.",
+        "Dans la nuit retentissez les cris des supporters.",
+        "Dans la nuit retentissent les cris des supporters."
+      ],
+      "answer": "Dans la nuit retentissent les cris des supporters.",
+      "explain": "Le sujet « les cris » est après le verbe : le verbe s'accorde avec lui, au pluriel."
+    },
+    {
+      "id": "fr-orth-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Le gardien, que les attaquants redoutent, ___ (arrêter) tous les tirs.",
+      "choices": [
+        "arrêtent",
+        "arrête",
+        "arrêtes",
+        "arrêtons"
+      ],
+      "answer": "arrête",
+      "explain": "Le sujet est « le gardien », même si « les attaquants » est tout près du verbe."
+    },
+    {
+      "id": "fr-orth-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Toute l'équipe ___ (fêter) la victoire.",
+      "choices": [
+        "fêtes",
+        "fêtons",
+        "fête",
+        "fêtent"
+      ],
+      "answer": "fête",
+      "explain": "« équipe » est un nom collectif singulier : le verbe est au singulier."
+    },
+    {
+      "id": "fr-orth-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Ce sont les gardiens qui ___ (arrêter) les penaltys.",
+      "choices": [
+        "arrêtons",
+        "arrêtent",
+        "arrête",
+        "arrêtes"
+      ],
+      "answer": "arrêtent",
+      "explain": "Le sujet « qui » reprend « les gardiens » : verbe au pluriel."
+    },
+    {
+      "id": "fr-orth-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choisis la bonne orthographe : Léo a des chaussettes ___.",
+      "choices": [
+        "vert claires",
+        "verts clairs",
+        "vertes claires",
+        "vert clair"
+      ],
+      "answer": "vert clair",
+      "explain": "Un adjectif de couleur suivi d'un autre mot est invariable."
+    },
+    {
+      "id": "fr-orth-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choisis la bonne orthographe : Elle a des yeux ___.",
+      "choices": [
+        "noisette",
+        "noisetes",
+        "noisettees",
+        "noisettes"
+      ],
+      "answer": "noisette",
+      "explain": "Un nom employé comme couleur (noisette, orange, marron) reste invariable."
+    },
+    {
+      "id": "fr-orth-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un signal » ?",
+      "choices": [
+        "des signals",
+        "des signaus",
+        "des signales",
+        "des signaux"
+      ],
+      "answer": "des signaux",
+      "explain": "Les noms en -al font leur pluriel en -aux."
+    },
+    {
+      "id": "fr-orth-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un soupirail » ?",
+      "choices": [
+        "des soupiraux",
+        "des soupirau",
+        "des soupirales",
+        "des soupirails"
+      ],
+      "answer": "des soupiraux",
+      "explain": "Les noms en -ail font en général -ails, mais soupirail fait -aux."
+    },
+    {
+      "id": "fr-orth-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un caillou » ?",
+      "choices": [
+        "des cailloues",
+        "des cailloux",
+        "des caillouts",
+        "des caillous"
+      ],
+      "answer": "des cailloux",
+      "explain": "Caillou est l'un des 7 noms en -ou qui prennent un « x »."
+    },
+    {
+      "id": "fr-orth-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un verrou » ?",
+      "choices": [
+        "des verrouxs",
+        "des verroux",
+        "des verrous",
+        "des verrouts"
+      ],
+      "answer": "des verrous",
+      "explain": "Verrou prend un « s » : seuls 7 noms en -ou prennent un « x »."
+    },
+    {
+      "id": "fr-orth-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « lecteur » ?",
+      "choices": [
+        "lecteuse",
+        "lectrice",
+        "lectère",
+        "lectrise"
+      ],
+      "answer": "lectrice",
+      "explain": "Beaucoup de noms en -teur font -trice au féminin."
+    },
+    {
+      "id": "fr-orth-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « paysan » ?",
+      "choices": [
+        "paysante",
+        "paysane",
+        "paysanne",
+        "paysaine"
+      ],
+      "answer": "paysanne",
+      "explain": "Les noms en -an font souvent -anne au féminin."
+    },
+    {
+      "id": "fr-orth-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Léa est ___ du terrain à la mi-temps (sortir).",
+      "choices": [
+        "sortie",
+        "sorti",
+        "sorties",
+        "sortir"
+      ],
+      "answer": "sortie",
+      "explain": "Avec être, le participe s'accorde avec le sujet : « Léa », féminin singulier."
+    },
+    {
+      "id": "fr-orth-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : La balle que le gardien a ___ était très rapide (arrêter).",
+      "choices": [
+        "arrêter",
+        "arrêté",
+        "arrêtés",
+        "arrêtée"
+      ],
+      "answer": "arrêtée",
+      "explain": "Avec avoir, accord avec le COD placé avant : « que » = la balle."
+    },
+    {
+      "id": "fr-orth-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les chansons que les supporters ont ___ résonnent encore (chanter).",
+      "choices": [
+        "chanté",
+        "chantées",
+        "chantés",
+        "chanter"
+      ],
+      "answer": "chantées",
+      "explain": "Le COD « que » (les chansons) est placé avant : féminin pluriel."
+    },
+    {
+      "id": "fr-orth-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Le gardien doit ___ le ballon (attraper).",
+      "choices": [
+        "attrapé",
+        "attrapez",
+        "attraper",
+        "attrapait"
+      ],
+      "answer": "attraper",
+      "explain": "Après « devoir », on met l'infinitif ; on peut le remplacer par « prendre »."
+    },
+    {
+      "id": "fr-orth-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Elle a ___ le tournoi (gagner).",
+      "choices": [
+        "gagné",
+        "gagnez",
+        "gagnait",
+        "gagner"
+      ],
+      "answer": "gagné",
+      "explain": "Après « avoir », on met un participe passé ; on peut le remplacer par « pris »."
+    },
+    {
+      "id": "fr-orth-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Vous avez ___ cette victoire (mériter).",
+      "choices": [
+        "méritait",
+        "méritez",
+        "mériter",
+        "mérité"
+      ],
+      "answer": "mérité",
+      "explain": "Après « avoir », on met un participe passé ; on peut le remplacer par « mordu »."
+    },
+    {
+      "id": "fr-orth-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris au pluriel : un hibou",
+      "answer": [
+        "hiboux"
+      ],
+      "explain": "Hibou est l'un des 7 noms en -ou qui font -oux."
+    },
+    {
+      "id": "fr-orth-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris au pluriel : un général",
+      "answer": [
+        "généraux"
+      ],
+      "explain": "Les noms en -al font -aux au pluriel."
+    },
+    {
+      "id": "fr-orth-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris au pluriel : un récital",
+      "answer": [
+        "récitals"
+      ],
+      "explain": "Récital est un nom en -al qui prend un « s »."
+    },
+    {
+      "id": "fr-orth-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le féminin de « un musicien ».",
+      "answer": [
+        "musicienne"
+      ],
+      "explain": "Les noms en -ien doublent le « n » au féminin."
+    },
+    {
+      "id": "fr-orth-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de mettre : Les lunettes qu'elle a ___ sont cassées.",
+      "answer": [
+        "mises"
+      ],
+      "explain": "Avec avoir, accord avec le COD placé avant : « que » = les lunettes."
+    },
+    {
+      "id": "fr-orth-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de partir : Les supporters sont ___ avant la fin.",
+      "answer": [
+        "partis"
+      ],
+      "explain": "Avec être, le participe s'accorde avec le sujet : masculin pluriel."
+    },
+    {
+      "id": "fr-orth-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec l'infinitif de marquer : Pour gagner, il faut ___ plus de buts.",
+      "answer": [
+        "marquer"
+      ],
+      "explain": "Après « il faut », on met l'infinitif."
+    },
+    {
+      "id": "fr-orth-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Peu de joueurs ___ capables de courir 90 minutes (être).",
+      "choices": [
+        "sont",
+        "sois",
+        "est",
+        "ont"
+      ],
+      "answer": "sont",
+      "explain": "« Peu de joueurs » désigne plusieurs personnes : verbe au pluriel."
+    },
+    {
+      "id": "fr-orth-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Chaque joueur ___ son sac (porter).",
+      "choices": [
+        "portons",
+        "portes",
+        "portent",
+        "porte"
+      ],
+      "answer": "porte",
+      "explain": "« Chaque » est singulier : le verbe est au singulier."
+    },
+    {
+      "id": "fr-orth-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Beaucoup de supporters ___ en train (venir).",
+      "choices": [
+        "viens",
+        "vient",
+        "viennent",
+        "venons"
+      ],
+      "answer": "viennent",
+      "explain": "« Beaucoup de supporters » désigne plusieurs personnes : verbe au pluriel."
+    },
+    {
+      "id": "fr-orth-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Mon équipe et moi ___ gagné le tournoi.",
+      "choices": [
+        "a",
+        "avons",
+        "ont",
+        "avez"
+      ],
+      "answer": "avons",
+      "explain": "« Mon équipe et moi » équivaut à « nous » : verbe à la 1re personne du pluriel."
+    },
+    {
+      "id": "fr-orth-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Quelles victoires ont ___ les supporters ? (fêter)",
+      "choices": [
+        "fêter",
+        "fêté",
+        "fêtées",
+        "fêtés"
+      ],
+      "answer": "fêtées",
+      "explain": "Le COD « quelles victoires » est placé avant : féminin pluriel."
+    },
+    {
+      "id": "fr-orth-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Elles se sont ___ hier soir (téléphoner).",
+      "choices": [
+        "téléphonés",
+        "téléphoné",
+        "téléphonées",
+        "téléphoner"
+      ],
+      "answer": "téléphoné",
+      "explain": "On téléphone « à quelqu'un » : « se » est COI, donc pas d'accord."
+    },
+    {
+      "id": "fr-orth-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Zoé et Léa se sont ___ en riant (regarder).",
+      "choices": [
+        "regardées",
+        "regarder",
+        "regardé",
+        "regardés"
+      ],
+      "answer": "regardées",
+      "explain": "On regarde quelqu'un : « se » est COD, le participe s'accorde avec le sujet féminin pluriel."
+    },
+    {
+      "id": "fr-orth-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Elle s'est ___ les cheveux (couper).",
+      "choices": [
+        "coupés",
+        "couper",
+        "coupée",
+        "coupé"
+      ],
+      "answer": "coupé",
+      "explain": "Le COD est « les cheveux », placé après : « se » est COI, pas d'accord."
+    },
+    {
+      "id": "fr-orth-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Léa est ___ heureuse de sa victoire.",
+      "choices": [
+        "toutes",
+        "tout",
+        "tous",
+        "toute"
+      ],
+      "answer": "tout",
+      "explain": "Tout adverbe reste invariable devant un adjectif féminin commençant par un « h » muet."
+    },
+    {
+      "id": "fr-orth-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : ___ que soient les difficultés, il continuera.",
+      "choices": [
+        "Quel",
+        "Quelle",
+        "Qu'elles",
+        "Quelles"
+      ],
+      "answer": "Quelles",
+      "explain": "« quelles que soient » s'accorde avec « les difficultés » (féminin pluriel)."
+    },
+    {
+      "id": "fr-orth-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Dis-moi ___ équipes ont gagné.",
+      "choices": [
+        "qu'elles",
+        "quelle",
+        "quelles",
+        "quels"
+      ],
+      "answer": "quelles",
+      "explain": "« quelles » s'accorde avec « équipes » (féminin pluriel) ; « qu'elles » ne convient pas ici."
+    },
+    {
+      "id": "fr-orth-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choisis la bonne orthographe : Léo a des maillots ___.",
+      "choices": [
+        "bleu ciel",
+        "bleus ciels",
+        "bleus ciel",
+        "bleu ciels"
+      ],
+      "answer": "bleu ciel",
+      "explain": "Un adjectif de couleur suivi d'un autre mot est invariable."
+    },
+    {
+      "id": "fr-orth-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un chacal » ?",
+      "choices": [
+        "des chacaux",
+        "des chacalx",
+        "des chacales",
+        "des chacals"
+      ],
+      "answer": "des chacals",
+      "explain": "Chacal fait partie des noms en -al qui prennent un « s »."
+    },
+    {
+      "id": "fr-orth-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un pneu » ?",
+      "choices": [
+        "des pneuts",
+        "des pneus",
+        "des pneux",
+        "des pneues"
+      ],
+      "answer": "des pneus",
+      "explain": "Pneu fait partie des rares noms en -eu qui prennent un « s » (bleu, pneu)."
+    },
+    {
+      "id": "fr-orth-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de « un chou » ?",
+      "choices": [
+        "des chouts",
+        "des chous",
+        "des choux",
+        "des chouxs"
+      ],
+      "answer": "des choux",
+      "explain": "Chou est l'un des 7 noms en -ou qui prennent un « x »."
+    },
+    {
+      "id": "fr-orth-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « comte » ?",
+      "choices": [
+        "comtesse",
+        "comtine",
+        "comtèsse",
+        "comtte"
+      ],
+      "answer": "comtesse",
+      "explain": "Comte fait « comtesse » au féminin."
+    },
+    {
+      "id": "fr-orth-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le féminin de « vendeur » ?",
+      "choices": [
+        "vendrice",
+        "vendeure",
+        "vendeuse",
+        "vendeuze"
+      ],
+      "answer": "vendeuse",
+      "explain": "Les noms en -eur qui viennent d'un verbe font en général -euse au féminin."
+    },
+    {
+      "id": "fr-orth-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est correctement accordée ?",
+      "choices": [
+        "Les ballons que Léo a gonflés sont neufs.",
+        "Les ballons que Léo a gonflées sont neufs.",
+        "Les ballons que Léo a gonfler sont neufs.",
+        "Les ballons que Léo a gonflé sont neufs."
+      ],
+      "answer": "Les ballons que Léo a gonflés sont neufs.",
+      "explain": "Avec avoir, accord avec le COD placé avant : « que » = les ballons."
+    },
+    {
+      "id": "fr-orth-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de lire : Les livres qu'il a ___ étaient passionnants.",
+      "answer": [
+        "lus"
+      ],
+      "explain": "Avec avoir, accord avec le COD placé avant : « que » = les livres."
+    },
+    {
+      "id": "fr-orth-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de brosser : Ils se sont ___ les dents.",
+      "answer": [
+        "brossé"
+      ],
+      "explain": "Le COD est « les dents », placé après : « se » est COI, pas d'accord."
+    },
+    {
+      "id": "fr-orth-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de voir : Elle s'est ___ dans le miroir.",
+      "answer": [
+        "vue"
+      ],
+      "explain": "« se » est COD : le participe s'accorde avec le sujet « elle »."
+    },
+    {
+      "id": "fr-orth-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris au pluriel : un régal",
+      "answer": [
+        "régals"
+      ],
+      "explain": "Régal est un nom en -al qui prend un « s »."
+    },
+    {
+      "id": "fr-orth-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris au pluriel : un joujou",
+      "answer": [
+        "joujoux"
+      ],
+      "explain": "Joujou est l'un des 7 noms en -ou qui font -oux."
+    },
+    {
+      "id": "fr-orth-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le féminin de « un loup ».",
+      "answer": [
+        "louve"
+      ],
+      "explain": "Le féminin de « loup » est « louve »."
+    },
+    {
+      "id": "fr-orth-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec quel, quelle, quels ou quelles : ___ que soit l'adversaire, nous gagnerons.",
+      "answer": [
+        "quel",
+        "Quel"
+      ],
+      "explain": "« quel que soit » s'accorde avec « l'adversaire » (masculin singulier)."
+    }
+  ]
+}

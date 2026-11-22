@@ -1,0 +1,1957 @@
+{
+  "topic": "fr-vocabulaire",
+  "questions": [
+    {
+      "id": "fr-voc-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le synonyme de « énorme » ?",
+      "choices": [
+        "étroit",
+        "gigantesque",
+        "normal",
+        "minuscule"
+      ],
+      "answer": "gigantesque",
+      "explain": "« énorme » et « gigantesque » ont un sens très proche."
+    },
+    {
+      "id": "fr-voc-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « victoire » ?",
+      "choices": [
+        "triomphe",
+        "match",
+        "défaite",
+        "succès"
+      ],
+      "answer": "défaite",
+      "explain": "Une victoire s'oppose à une défaite."
+    },
+    {
+      "id": "fr-voc-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « courageux » ?",
+      "choices": [
+        "brave",
+        "vaillant",
+        "téméraire",
+        "lâche"
+      ],
+      "answer": "lâche",
+      "explain": "« lâche » est l'antonyme de « courageux » ; les autres sont des synonymes ou des mots proches."
+    },
+    {
+      "id": "fr-voc-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot n'appartient pas à la famille de « terre » ?",
+      "choices": [
+        "terrasse",
+        "enterrer",
+        "terrible",
+        "terrain"
+      ],
+      "answer": "terrible",
+      "explain": "« terrible » est de la famille de « terreur » (faire peur), pas de « terre »."
+    },
+    {
+      "id": "fr-voc-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans « refaire », que signifie le préfixe re- ?",
+      "choices": [
+        "de nouveau",
+        "avant",
+        "contre",
+        "sans"
+      ],
+      "answer": "de nouveau",
+      "explain": "Le préfixe re- indique la répétition."
+    },
+    {
+      "id": "fr-voc-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « possible » formé avec un préfixe ?",
+      "choices": [
+        "malpossible",
+        "dépossible",
+        "impossible",
+        "nonpossible"
+      ],
+      "answer": "impossible",
+      "explain": "Devant « p », le préfixe in- devient im- : impossible."
+    },
+    {
+      "id": "fr-voc-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans « joueur », qu'indique le suffixe -eur ?",
+      "choices": [
+        "celui qui fait l'action",
+        "une qualité",
+        "un petit objet",
+        "un lieu"
+      ],
+      "answer": "celui qui fait l'action",
+      "explain": "Le suffixe -eur forme des noms de personnes qui font l'action (joueur, chanteur)."
+    },
+    {
+      "id": "fr-voc-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans « Il a un cœur d'or », le mot « cœur » est employé au sens…",
+      "choices": [
+        "propre",
+        "figuré",
+        "ancien",
+        "familier"
+      ],
+      "answer": "figuré",
+      "explain": "Ici « cœur » désigne la bonté : c'est un sens figuré."
+    },
+    {
+      "id": "fr-voc-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est en langage familier ?",
+      "choices": [
+        "Ce mec joue vachement bien.",
+        "Ce garçon joue remarquablement.",
+        "Ce jeune homme joue avec brio.",
+        "Ce garçon joue très bien."
+      ],
+      "answer": "Ce mec joue vachement bien.",
+      "explain": "« mec » et « vachement » sont des mots familiers."
+    },
+    {
+      "id": "fr-voc-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot est familier pour désigner l'argent ?",
+      "choices": [
+        "fric",
+        "monnaie",
+        "économies",
+        "capital"
+      ],
+      "answer": "fric",
+      "explain": "« fric » appartient au langage familier."
+    },
+    {
+      "id": "fr-voc-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot appartient au champ lexical du football ?",
+      "choices": [
+        "crayon",
+        "fourchette",
+        "cartable",
+        "corner"
+      ],
+      "answer": "corner",
+      "explain": "Le corner est un coup de pied de coin : un mot du football."
+    },
+    {
+      "id": "fr-voc-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le mot générique qui regroupe « pomme, poire, banane » ?",
+      "choices": [
+        "légume",
+        "fruit",
+        "arbre",
+        "gâteau"
+      ],
+      "answer": "fruit",
+      "explain": "Un mot générique désigne l'ensemble : ce sont tous des fruits."
+    },
+    {
+      "id": "fr-voc-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le mot générique qui regroupe « maillot, short, chaussettes » ?",
+      "choices": [
+        "vêtement",
+        "matériel",
+        "sport",
+        "accessoire"
+      ],
+      "answer": "vêtement",
+      "explain": "Ce sont tous des vêtements."
+    },
+    {
+      "id": "fr-voc-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Il court comme un lièvre. » ?",
+      "choices": [
+        "une comparaison",
+        "une personnification",
+        "une métaphore",
+        "une hyperbole"
+      ],
+      "answer": "une comparaison",
+      "explain": "Le mot « comme » compare deux éléments : c'est une comparaison."
+    },
+    {
+      "id": "fr-voc-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Le vent hurle dans la nuit. » ?",
+      "choices": [
+        "une hyperbole",
+        "une comparaison",
+        "une énumération",
+        "une personnification"
+      ],
+      "answer": "une personnification",
+      "explain": "Le vent « hurle » comme un être vivant : personnification."
+    },
+    {
+      "id": "fr-voc-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Cet attaquant est une fusée. » ?",
+      "choices": [
+        "une hyperbole",
+        "une métaphore",
+        "une personnification",
+        "une comparaison"
+      ],
+      "answer": "une métaphore",
+      "explain": "On identifie l'attaquant à une fusée sans mot de comparaison : métaphore."
+    },
+    {
+      "id": "fr-voc-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Je meurs de faim ! » ?",
+      "choices": [
+        "une personnification",
+        "une comparaison",
+        "une énumération",
+        "une hyperbole"
+      ],
+      "answer": "une hyperbole",
+      "explain": "L'hyperbole exagère pour insister."
+    },
+    {
+      "id": "fr-voc-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que signifie l'expression « avoir le cafard » ?",
+      "choices": [
+        "être fâché",
+        "être triste",
+        "être sale",
+        "avoir peur"
+      ],
+      "answer": "être triste",
+      "explain": "« avoir le cafard » veut dire avoir le moral bas."
+    },
+    {
+      "id": "fr-voc-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le contraire de « grand » (un mot).",
+      "answer": [
+        "petit",
+        "minuscule"
+      ],
+      "explain": "Le contraire de grand est petit."
+    },
+    {
+      "id": "fr-voc-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Ajoute le préfixe mal- à « heureux » pour former son contraire.",
+      "answer": [
+        "malheureux"
+      ],
+      "explain": "mal- + heureux = malheureux."
+    },
+    {
+      "id": "fr-voc-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Ajoute le préfixe in- à « utile » pour former son contraire.",
+      "answer": [
+        "inutile"
+      ],
+      "explain": "in- + utile = inutile."
+    },
+    {
+      "id": "fr-voc-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le nom de la famille de « dent » qui désigne le métier de soigner les dents.",
+      "answer": [
+        "dentiste"
+      ],
+      "explain": "dent + -iste = dentiste."
+    },
+    {
+      "id": "fr-voc-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le nom de celui qui entraîne une équipe (nom en -eur de « entraîner »).",
+      "answer": [
+        "entraîneur",
+        "entraineur"
+      ],
+      "explain": "entraîn(er) + -eur = entraîneur."
+    },
+    {
+      "id": "fr-voc-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le préfixe du mot « surnaturel » (un mot).",
+      "answer": [
+        "sur",
+        "sur-"
+      ],
+      "explain": "« surnaturel » = sur- + naturel."
+    },
+    {
+      "id": "fr-voc-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le suffixe du mot « jardinage » (un mot).",
+      "answer": [
+        "age",
+        "-age"
+      ],
+      "explain": "« jardinage » = jardin + -age."
+    },
+    {
+      "id": "fr-voc-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est un synonyme de « achever » ?",
+      "choices": [
+        "terminer",
+        "commencer",
+        "réussir",
+        "essayer"
+      ],
+      "answer": "terminer",
+      "explain": "Achever et terminer signifient mettre fin à quelque chose."
+    },
+    {
+      "id": "fr-voc-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est un synonyme de « essayer » ?",
+      "choices": [
+        "réussir",
+        "finir",
+        "tenter",
+        "hésiter"
+      ],
+      "answer": "tenter",
+      "explain": "Essayer et tenter ont le même sens."
+    },
+    {
+      "id": "fr-voc-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est un synonyme de « copain » ?",
+      "choices": [
+        "entraîneur",
+        "adversaire",
+        "voisin",
+        "camarade"
+      ],
+      "answer": "camarade",
+      "explain": "Un copain est un camarade."
+    },
+    {
+      "id": "fr-voc-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « accélérer » ?",
+      "choices": [
+        "démarrer",
+        "courir",
+        "avancer",
+        "ralentir"
+      ],
+      "answer": "ralentir",
+      "explain": "Accélérer s'oppose à ralentir."
+    },
+    {
+      "id": "fr-voc-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot appartient à la famille de « jouer » ?",
+      "choices": [
+        "jouet",
+        "juge",
+        "jeudi",
+        "joyeux"
+      ],
+      "answer": "jouet",
+      "explain": "« jouet » est formé sur le radical « jou- »."
+    },
+    {
+      "id": "fr-voc-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « antivol », que signifie le préfixe anti- ?",
+      "choices": [
+        "sans",
+        "après",
+        "contre",
+        "avant"
+      ],
+      "answer": "contre",
+      "explain": "Anti- signifie « contre » : un antivol protège contre le vol."
+    },
+    {
+      "id": "fr-voc-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « mangeable », qu'indique le suffixe -able ?",
+      "choices": [
+        "la profession",
+        "l'action",
+        "le lieu",
+        "la possibilité"
+      ],
+      "answer": "la possibilité",
+      "explain": "Le suffixe -able exprime la possibilité : mangeable = qui peut être mangé."
+    },
+    {
+      "id": "fr-voc-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « boulangerie », qu'indique le suffixe -erie ?",
+      "choices": [
+        "un métier",
+        "une action",
+        "une qualité",
+        "un lieu où l'on fabrique ou vend"
+      ],
+      "answer": "un lieu où l'on fabrique ou vend",
+      "explain": "boulangerie = lieu où le boulanger fait et vend le pain."
+    },
+    {
+      "id": "fr-voc-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase emploie « froid » au sens figuré ?",
+      "choices": [
+        "Le vent est froid.",
+        "Le coach a eu un accueil froid.",
+        "L'eau est froide.",
+        "Le café est froid."
+      ],
+      "answer": "Le coach a eu un accueil froid.",
+      "explain": "Un accueil « froid » est peu chaleureux : c'est un sens figuré."
+    },
+    {
+      "id": "fr-voc-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel verbe est du langage soutenu pour « manger » ?",
+      "choices": [
+        "se restaurer",
+        "grignoter",
+        "bouffer",
+        "croquer"
+      ],
+      "answer": "se restaurer",
+      "explain": "« se restaurer » appartient au langage soutenu ; « bouffer » est familier."
+    },
+    {
+      "id": "fr-voc-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est en langage courant ?",
+      "choices": [
+        "Le gardien est très fatigué.",
+        "Le gardien est harassé de fatigue.",
+        "Le gardien est sur les rotules.",
+        "Le gardien est vanné."
+      ],
+      "answer": "Le gardien est très fatigué.",
+      "explain": "« vanné » et « sur les rotules » sont familiers ; « harassé » est soutenu."
+    },
+    {
+      "id": "fr-voc-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est l'intrus dans le champ lexical de la mer : vague, plage, voilier, neige ?",
+      "choices": [
+        "plage",
+        "vague",
+        "voilier",
+        "neige"
+      ],
+      "answer": "neige",
+      "explain": "La neige n'appartient pas au champ lexical de la mer."
+    },
+    {
+      "id": "fr-voc-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel verbe précis remplace « dire » dans « Le coach dit très fort ses consignes » ?",
+      "choices": [
+        "chuchoter",
+        "bafouiller",
+        "crier",
+        "murmurer"
+      ],
+      "answer": "crier",
+      "explain": "« très fort » correspond à crier ; les autres verbes expriment le contraire ou un défaut de parole."
+    },
+    {
+      "id": "fr-voc-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient une métaphore ?",
+      "choices": [
+        "Cet avant-centre est un lion.",
+        "Cet avant-centre est aussi fort qu'un lion.",
+        "Cet avant-centre court comme un lion.",
+        "Cet avant-centre ressemble à un lion."
+      ],
+      "answer": "Cet avant-centre est un lion.",
+      "explain": "La métaphore compare sans mot de comparaison."
+    },
+    {
+      "id": "fr-voc-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient une personnification ?",
+      "choices": [
+        "Le stade est immense.",
+        "Le stade est comme une fourmilière.",
+        "Le stade retenait son souffle.",
+        "Le stade est plein."
+      ],
+      "answer": "Le stade retenait son souffle.",
+      "explain": "Un stade ne respire pas : on lui donne une action humaine."
+    },
+    {
+      "id": "fr-voc-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient une hyperbole ?",
+      "choices": [
+        "Ce match dure une éternité.",
+        "Ce match est ennuyeux.",
+        "Ce match dure 90 minutes.",
+        "Ce match est long."
+      ],
+      "answer": "Ce match dure une éternité.",
+      "explain": "« une éternité » exagère la durée : c'est une hyperbole."
+    },
+    {
+      "id": "fr-voc-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le mot latin « aqua » signifie « eau ». Quel mot vient de cette racine ?",
+      "choices": [
+        "aérien",
+        "solaire",
+        "terrain",
+        "aquarium"
+      ],
+      "answer": "aquarium",
+      "explain": "Un aquarium est un réservoir d'eau."
+    },
+    {
+      "id": "fr-voc-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que signifie l'expression « prendre la mouche » ?",
+      "choices": [
+        "s'endormir",
+        "attraper un insecte",
+        "se vexer",
+        "s'enfuir"
+      ],
+      "answer": "se vexer",
+      "explain": "« prendre la mouche » veut dire se fâcher pour peu de chose."
+    },
+    {
+      "id": "fr-voc-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris l'antonyme de « avare » commençant par « g » (un mot).",
+      "answer": [
+        "généreux",
+        "genereux"
+      ],
+      "explain": "Le contraire d'avare est généreux."
+    },
+    {
+      "id": "fr-voc-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Forme l'adverbe à partir de « rapide ».",
+      "answer": [
+        "rapidement"
+      ],
+      "explain": "On ajoute le suffixe -ment à l'adjectif."
+    },
+    {
+      "id": "fr-voc-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le préfixe : le contraire de « possible » est « ___possible ».",
+      "answer": [
+        "im"
+      ],
+      "explain": "Devant « p », in- devient im-."
+    },
+    {
+      "id": "fr-voc-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le nom de celui qui court (nom en -eur de « courir »).",
+      "answer": [
+        "coureur"
+      ],
+      "explain": "cour(ir) + -eur = coureur."
+    },
+    {
+      "id": "fr-voc-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris l'adjectif de la famille de « victoire » qui signifie « qui a gagné ».",
+      "answer": [
+        "victorieux"
+      ],
+      "explain": "victoire + -eux = victorieux."
+    },
+    {
+      "id": "fr-voc-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le préfixe du mot « prévoir » (un mot).",
+      "answer": [
+        "pré",
+        "pré-",
+        "pre"
+      ],
+      "explain": "« prévoir » = pré- + voir ; pré- signifie « avant »."
+    },
+    {
+      "id": "fr-voc-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le suffixe du mot « lenteur » (un mot).",
+      "answer": [
+        "eur",
+        "-eur"
+      ],
+      "explain": "« lenteur » = lent + -eur."
+    },
+    {
+      "id": "fr-voc-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie « téméraire » ?",
+      "choices": [
+        "très fatigué",
+        "très prudent",
+        "qui prend des risques sans réfléchir",
+        "très drôle"
+      ],
+      "answer": "qui prend des risques sans réfléchir",
+      "explain": "Un téméraire fonce sans mesurer le danger."
+    },
+    {
+      "id": "fr-voc-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « éphémère » ?",
+      "choices": [
+        "durable",
+        "court",
+        "bref",
+        "fragile"
+      ],
+      "answer": "durable",
+      "explain": "Éphémère signifie qui ne dure pas ; son contraire est durable."
+    },
+    {
+      "id": "fr-voc-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « hardi » ?",
+      "choices": [
+        "rapide",
+        "timide",
+        "fier",
+        "courageux"
+      ],
+      "answer": "timide",
+      "explain": "Hardi veut dire audacieux ; son contraire est timide."
+    },
+    {
+      "id": "fr-voc-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel mot n'est pas de la famille de « porter » ?",
+      "choices": [
+        "transporter",
+        "portion",
+        "porteur",
+        "portable"
+      ],
+      "answer": "portion",
+      "explain": "« portion » vient d'un autre mot latin."
+    },
+    {
+      "id": "fr-voc-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel nom est formé sur l'adjectif « rapide » ?",
+      "choices": [
+        "rapidisme",
+        "rapidité",
+        "rapideur",
+        "rapidement"
+      ],
+      "answer": "rapidité",
+      "explain": "Le suffixe -ité forme des noms de qualité : rapide, rapidité."
+    },
+    {
+      "id": "fr-voc-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « coéquipier », que signifie le préfixe co- ?",
+      "choices": [
+        "contre",
+        "sans",
+        "avec",
+        "avant"
+      ],
+      "answer": "avec",
+      "explain": "co- signifie « avec » : le coéquipier fait partie de la même équipe."
+    },
+    {
+      "id": "fr-voc-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « parapluie », que signifie le préfixe para- ?",
+      "choices": [
+        "qui coupe",
+        "qui accompagne",
+        "qui protège contre",
+        "qui annonce"
+      ],
+      "answer": "qui protège contre",
+      "explain": "Para- indique la protection (parapluie, parasol, paratonnerre)."
+    },
+    {
+      "id": "fr-voc-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "La racine grecque « philo » se trouve dans « philosophie ». Que signifie-t-elle ?",
+      "choices": [
+        "avoir peur",
+        "détester",
+        "savoir",
+        "aimer"
+      ],
+      "answer": "aimer",
+      "explain": "Philosophie signifie « amour de la sagesse »."
+    },
+    {
+      "id": "fr-voc-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie le suffixe grec -logie dans « biologie » ?",
+      "choices": [
+        "peur",
+        "étude, science",
+        "mesure",
+        "écriture"
+      ],
+      "answer": "étude, science",
+      "explain": "La biologie est la science de la vie."
+    },
+    {
+      "id": "fr-voc-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "La racine grecque « géo » se trouve dans « géographie ». Que signifie-t-elle ?",
+      "choices": [
+        "écriture",
+        "eau",
+        "terre",
+        "ciel"
+      ],
+      "answer": "terre",
+      "explain": "Géographie : description de la Terre."
+    },
+    {
+      "id": "fr-voc-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « carnivore », que signifie la racine latine -vore ?",
+      "choices": [
+        "qui voit",
+        "qui mange",
+        "qui court",
+        "qui chasse"
+      ],
+      "answer": "qui mange",
+      "explain": "Un carnivore mange de la viande ; un herbivore mange de l'herbe."
+    },
+    {
+      "id": "fr-voc-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Le soleil souriait à la pelouse. » ?",
+      "choices": [
+        "une énumération",
+        "une personnification",
+        "une hyperbole",
+        "une comparaison"
+      ],
+      "answer": "une personnification",
+      "explain": "Le soleil sourit comme un être humain : personnification."
+    },
+    {
+      "id": "fr-voc-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Dans le petit stade du quartier, il y avait un million de spectateurs. » ?",
+      "choices": [
+        "une métaphore",
+        "une comparaison",
+        "une personnification",
+        "une hyperbole"
+      ],
+      "answer": "une hyperbole",
+      "explain": "Le nombre est volontairement exagéré : hyperbole."
+    },
+    {
+      "id": "fr-voc-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel mot est du registre soutenu pour « peur » ?",
+      "choices": [
+        "frousse",
+        "trouille",
+        "effroi",
+        "flip"
+      ],
+      "answer": "effroi",
+      "explain": "« effroi » est soutenu ; « trouille », « frousse » et « flip » sont familiers."
+    },
+    {
+      "id": "fr-voc-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel mot est familier pour « enfant » ?",
+      "choices": [
+        "garçonnet",
+        "gosse",
+        "descendant",
+        "progéniture"
+      ],
+      "answer": "gosse",
+      "explain": "« gosse » est un mot familier."
+    },
+    {
+      "id": "fr-voc-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie l'expression « mettre les points sur les i » ?",
+      "choices": [
+        "s'expliquer clairement",
+        "se dépêcher",
+        "se disputer",
+        "corriger l'orthographe"
+      ],
+      "answer": "s'expliquer clairement",
+      "explain": "On précise tout pour qu'il n'y ait pas de malentendu."
+    },
+    {
+      "id": "fr-voc-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie l'expression « coûter les yeux de la tête » ?",
+      "choices": [
+        "être invisible",
+        "être aveugle",
+        "être très cher",
+        "faire mal"
+      ],
+      "answer": "être très cher",
+      "explain": "Une chose qui coûte les yeux de la tête est très chère."
+    },
+    {
+      "id": "fr-voc-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie l'expression « tomber dans les pommes » ?",
+      "choices": [
+        "perdre son temps",
+        "manger beaucoup",
+        "tomber d'un arbre",
+        "s'évanouir"
+      ],
+      "answer": "s'évanouir",
+      "explain": "« tomber dans les pommes » veut dire perdre connaissance."
+    },
+    {
+      "id": "fr-voc-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le nom de la famille de « chaud » qui désigne la sensation de ce qui est chaud.",
+      "answer": [
+        "chaleur"
+      ],
+      "explain": "chaud + -eur = chaleur."
+    },
+    {
+      "id": "fr-voc-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris l'adverbe formé sur « courageux ».",
+      "answer": [
+        "courageusement"
+      ],
+      "explain": "Après -eux, on ajoute -ement : courageusement."
+    },
+    {
+      "id": "fr-voc-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "Forme un mot avec le préfixe « co- » et le mot « équipier ».",
+      "answer": [
+        "coéquipier",
+        "coequipier"
+      ],
+      "explain": "co- + équipier = coéquipier."
+    },
+    {
+      "id": "fr-voc-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "Ajoute le préfixe « dé- » à « charger » pour former son contraire.",
+      "answer": [
+        "décharger",
+        "decharger"
+      ],
+      "explain": "dé- + charger = décharger."
+    },
+    {
+      "id": "fr-voc-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le mot formé de « télé » (loin) et de « phone » (voix, son).",
+      "answer": [
+        "téléphone",
+        "telephone"
+      ],
+      "explain": "télé + phone = téléphone."
+    },
+    {
+      "id": "fr-voc-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle figure de style y a-t-il dans « Cette gardienne est un mur. » ? (un mot)",
+      "answer": [
+        "métaphore",
+        "une métaphore"
+      ],
+      "explain": "La gardienne est identifiée à un mur, sans « comme » : métaphore."
+    },
+    {
+      "id": "fr-voc-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle figure de style y a-t-il dans « Il court comme le vent. » ? (un mot)",
+      "answer": [
+        "comparaison",
+        "une comparaison"
+      ],
+      "explain": "Le mot « comme » compare : comparaison."
+    },
+    {
+      "id": "fr-voc-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le synonyme de « joli » ?",
+      "choices": [
+        "lourd",
+        "laid",
+        "grand",
+        "beau"
+      ],
+      "answer": "beau",
+      "explain": "« joli » et « beau » ont un sens proche."
+    },
+    {
+      "id": "fr-voc-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le synonyme de « rapide » ?",
+      "choices": [
+        "tardif",
+        "lent",
+        "vif",
+        "paresseux"
+      ],
+      "answer": "vif",
+      "explain": "« vif » peut remplacer « rapide » dans « un pas vif »."
+    },
+    {
+      "id": "fr-voc-078",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « attaquer » ?",
+      "choices": [
+        "défendre",
+        "marquer",
+        "tirer",
+        "jouer"
+      ],
+      "answer": "défendre",
+      "explain": "Attaquer s'oppose à défendre."
+    },
+    {
+      "id": "fr-voc-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « dernier » ?",
+      "choices": [
+        "ancien",
+        "premier",
+        "ultime",
+        "final"
+      ],
+      "answer": "premier",
+      "explain": "« final » et « ultime » sont des synonymes de « dernier » ; le contraire est « premier »."
+    },
+    {
+      "id": "fr-voc-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot appartient à la famille de « sport » ?",
+      "choices": [
+        "portier",
+        "sportif",
+        "sporadique",
+        "spot"
+      ],
+      "answer": "sportif",
+      "explain": "« sportif » est formé sur le radical « sport »."
+    },
+    {
+      "id": "fr-voc-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot n'appartient pas à la famille de « mer » ?",
+      "choices": [
+        "outre-mer",
+        "marin",
+        "maritime",
+        "mère"
+      ],
+      "answer": "mère",
+      "explain": "« mère » est un mot sans lien avec « mer » ; il se prononce de la même façon."
+    },
+    {
+      "id": "fr-voc-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans « défaire », que signifie le préfixe dé- ?",
+      "choices": [
+        "le contraire, l'action inverse",
+        "avant",
+        "de nouveau",
+        "avec"
+      ],
+      "answer": "le contraire, l'action inverse",
+      "explain": "Dé- indique l'action inverse : faire / défaire."
+    },
+    {
+      "id": "fr-voc-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans « sous-marin », que signifie le préfixe sous- ?",
+      "choices": [
+        "au-dessus",
+        "contre",
+        "en dessous",
+        "avec"
+      ],
+      "answer": "en dessous",
+      "explain": "Un sous-marin navigue sous la mer."
+    },
+    {
+      "id": "fr-voc-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans « fleuriste », que désigne le suffixe -iste ?",
+      "choices": [
+        "un métier",
+        "une action",
+        "une qualité",
+        "un lieu"
+      ],
+      "answer": "un métier",
+      "explain": "Le suffixe -iste forme souvent des noms de métiers (fleuriste, dentiste)."
+    },
+    {
+      "id": "fr-voc-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans « Il a dévoré ce livre », le verbe « dévorer » est employé au sens…",
+      "choices": [
+        "familier",
+        "soutenu",
+        "figuré",
+        "propre"
+      ],
+      "answer": "figuré",
+      "explain": "Ici « dévorer » veut dire lire avec avidité : c'est un sens figuré."
+    },
+    {
+      "id": "fr-voc-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase le verbe « brûler » est-il employé au sens propre ?",
+      "choices": [
+        "Il brûle d'impatience.",
+        "Le feu brûle le bois.",
+        "Il brûle les étapes.",
+        "Elle brûle de colère."
+      ],
+      "answer": "Le feu brûle le bois.",
+      "explain": "Au sens propre, brûler veut dire détruire par le feu."
+    },
+    {
+      "id": "fr-voc-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot est familier pour désigner une voiture ?",
+      "choices": [
+        "automobile",
+        "véhicule",
+        "voiture",
+        "bagnole"
+      ],
+      "answer": "bagnole",
+      "explain": "« bagnole » appartient au langage familier."
+    },
+    {
+      "id": "fr-voc-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase le langage est-il courant ?",
+      "choices": [
+        "Ce film est top.",
+        "Ce film est très bon.",
+        "Ce film déchire.",
+        "Ce film est ouf."
+      ],
+      "answer": "Ce film est très bon.",
+      "explain": "Les autres phrases emploient des expressions familières."
+    },
+    {
+      "id": "fr-voc-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot n'appartient pas au champ lexical du football ?",
+      "choices": [
+        "raquette",
+        "arbitre",
+        "but",
+        "corner"
+      ],
+      "answer": "raquette",
+      "explain": "La raquette sert au tennis ou au badminton."
+    },
+    {
+      "id": "fr-voc-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le mot générique qui regroupe « rose, tulipe, marguerite » ?",
+      "choices": [
+        "légume",
+        "fruit",
+        "arbre",
+        "fleur"
+      ],
+      "answer": "fleur",
+      "explain": "Ce sont toutes des fleurs."
+    },
+    {
+      "id": "fr-voc-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le mot générique qui regroupe « football, rugby, tennis » ?",
+      "choices": [
+        "match",
+        "joueur",
+        "sport",
+        "stade"
+      ],
+      "answer": "sport",
+      "explain": "Ce sont tous des sports."
+    },
+    {
+      "id": "fr-voc-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Elle est rusée comme un renard. » ?",
+      "choices": [
+        "une personnification",
+        "une hyperbole",
+        "une métaphore",
+        "une comparaison"
+      ],
+      "answer": "une comparaison",
+      "explain": "Le mot « comme » compare deux éléments."
+    },
+    {
+      "id": "fr-voc-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Ce jeune joueur est un diamant brut. » ?",
+      "choices": [
+        "une personnification",
+        "une métaphore",
+        "une comparaison",
+        "une hyperbole"
+      ],
+      "answer": "une métaphore",
+      "explain": "On identifie le joueur à un diamant, sans mot de comparaison."
+    },
+    {
+      "id": "fr-voc-094",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le contraire de « froid » (un mot).",
+      "answer": [
+        "chaud"
+      ],
+      "explain": "Le contraire de froid est chaud."
+    },
+    {
+      "id": "fr-voc-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le contraire de « avant » (un mot).",
+      "answer": [
+        "après"
+      ],
+      "explain": "Le contraire de avant est après."
+    },
+    {
+      "id": "fr-voc-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "Ajoute le préfixe im- à « mobile » pour former son contraire.",
+      "answer": [
+        "immobile"
+      ],
+      "explain": "im- + mobile = immobile."
+    },
+    {
+      "id": "fr-voc-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le nom de celui qui chante (nom masculin en -eur de « chanter »).",
+      "answer": [
+        "chanteur"
+      ],
+      "explain": "chant(er) + -eur = chanteur."
+    },
+    {
+      "id": "fr-voc-098",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le préfixe du mot « replacer » (un mot).",
+      "answer": [
+        "re",
+        "re-"
+      ],
+      "explain": "« replacer » = re- + placer."
+    },
+    {
+      "id": "fr-voc-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le suffixe du mot « sportif » (un mot).",
+      "answer": [
+        "if",
+        "-if"
+      ],
+      "explain": "« sportif » = sport + -if."
+    },
+    {
+      "id": "fr-voc-100",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le contraire de « monter » (verbe à l'infinitif).",
+      "answer": [
+        "descendre"
+      ],
+      "explain": "Le contraire de monter est descendre."
+    },
+    {
+      "id": "fr-voc-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est un synonyme de « apercevoir » ?",
+      "choices": [
+        "ignorer",
+        "cacher",
+        "remarquer",
+        "oublier"
+      ],
+      "answer": "remarquer",
+      "explain": "Apercevoir et remarquer ont un sens proche."
+    },
+    {
+      "id": "fr-voc-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est un synonyme de « bavarder » ?",
+      "choices": [
+        "discuter",
+        "écouter",
+        "se taire",
+        "crier"
+      ],
+      "answer": "discuter",
+      "explain": "Bavarder et discuter ont un sens proche."
+    },
+    {
+      "id": "fr-voc-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est un synonyme de « craindre » ?",
+      "choices": [
+        "redouter",
+        "admirer",
+        "oublier",
+        "désirer"
+      ],
+      "answer": "redouter",
+      "explain": "Craindre et redouter signifient avoir peur de quelque chose."
+    },
+    {
+      "id": "fr-voc-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « fragile » ?",
+      "choices": [
+        "léger",
+        "solide",
+        "faible",
+        "mince"
+      ],
+      "answer": "solide",
+      "explain": "Fragile s'oppose à solide."
+    },
+    {
+      "id": "fr-voc-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « se souvenir » ?",
+      "choices": [
+        "raconter",
+        "apprendre",
+        "revenir",
+        "oublier"
+      ],
+      "answer": "oublier",
+      "explain": "Se souvenir s'oppose à oublier."
+    },
+    {
+      "id": "fr-voc-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot appartient à la famille de « fort » ?",
+      "choices": [
+        "forme",
+        "forêt",
+        "forteresse",
+        "fortune"
+      ],
+      "answer": "forteresse",
+      "explain": "Une forteresse est un lieu fort, bien défendu."
+    },
+    {
+      "id": "fr-voc-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « inconnu », qu'exprime le préfixe in- ?",
+      "choices": [
+        "la négation, le contraire",
+        "la possibilité",
+        "l'avant",
+        "la répétition"
+      ],
+      "answer": "la négation, le contraire",
+      "explain": "inconnu = qui n'est pas connu."
+    },
+    {
+      "id": "fr-voc-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « bicolore », que signifie le préfixe bi- ?",
+      "choices": [
+        "avec",
+        "deux",
+        "beaucoup",
+        "trois"
+      ],
+      "answer": "deux",
+      "explain": "Bi- signifie « deux » : bicolore, bicyclette."
+    },
+    {
+      "id": "fr-voc-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel suffixe permet de former un adverbe ?",
+      "choices": [
+        "-age",
+        "-ité",
+        "-ment",
+        "-eur"
+      ],
+      "answer": "-ment",
+      "explain": "On forme beaucoup d'adverbes avec -ment : lent, lentement."
+    },
+    {
+      "id": "fr-voc-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase l'adjectif « chaud » est-il au sens figuré ?",
+      "choices": [
+        "La soupe est chaude.",
+        "Il fait chaud.",
+        "Le thé est chaud.",
+        "Cette discussion a été très chaude."
+      ],
+      "answer": "Cette discussion a été très chaude.",
+      "explain": "Une discussion « chaude » est animée : c'est un sens figuré."
+    },
+    {
+      "id": "fr-voc-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « Ce joueur est un lion », le mot « lion » est employé au sens…",
+      "choices": [
+        "propre",
+        "figuré",
+        "ancien",
+        "familier"
+      ],
+      "answer": "figuré",
+      "explain": "Le joueur n'est pas un animal : « lion » exprime le courage, sens figuré."
+    },
+    {
+      "id": "fr-voc-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est du langage soutenu pour désigner une maison ?",
+      "choices": [
+        "bicoque",
+        "piaule",
+        "baraque",
+        "demeure"
+      ],
+      "answer": "demeure",
+      "explain": "« demeure » est soutenu ; les autres mots sont familiers ou péjoratifs."
+    },
+    {
+      "id": "fr-voc-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot est familier pour « travail » ?",
+      "choices": [
+        "boulot",
+        "emploi",
+        "labeur",
+        "tâche"
+      ],
+      "answer": "boulot",
+      "explain": "« boulot » appartient au langage familier."
+    },
+    {
+      "id": "fr-voc-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est en langage soutenu ?",
+      "choices": [
+        "Désolé, mec.",
+        "Pardon, ça m'a échappé.",
+        "Je vous prie de bien vouloir m'excuser.",
+        "Excuse-moi, hein."
+      ],
+      "answer": "Je vous prie de bien vouloir m'excuser.",
+      "explain": "La formule « Je vous prie de bien vouloir » est polie et soutenue."
+    },
+    {
+      "id": "fr-voc-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le champ lexical dominant de « ballon, tir, but, gardien » ?",
+      "choices": [
+        "la mer",
+        "la cuisine",
+        "le football",
+        "l'école"
+      ],
+      "answer": "le football",
+      "explain": "Tous ces mots se rapportent au football."
+    },
+    {
+      "id": "fr-voc-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot vient de la racine latine « terra » (la terre) ?",
+      "choices": [
+        "territoire",
+        "terreur",
+        "terroriser",
+        "terrible"
+      ],
+      "answer": "territoire",
+      "explain": "Un territoire est une étendue de terre."
+    },
+    {
+      "id": "fr-voc-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « La pluie pleurait sur le stade vide. » ?",
+      "choices": [
+        "une comparaison",
+        "une personnification",
+        "une énumération",
+        "une onomatopée"
+      ],
+      "answer": "une personnification",
+      "explain": "La pluie « pleure » comme un être humain : personnification."
+    },
+    {
+      "id": "fr-voc-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « J'ai attendu ce match pendant cent ans. » ?",
+      "choices": [
+        "une énumération",
+        "une onomatopée",
+        "une comparaison",
+        "une hyperbole"
+      ],
+      "answer": "une hyperbole",
+      "explain": "L'exagération de la durée est une hyperbole."
+    },
+    {
+      "id": "fr-voc-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris l'antonyme de « ancien » commençant par « n » (un mot).",
+      "answer": [
+        "nouveau",
+        "neuf"
+      ],
+      "explain": "Le contraire d'ancien est nouveau (ou neuf)."
+    },
+    {
+      "id": "fr-voc-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "Forme l'adverbe à partir de « gentil ».",
+      "answer": [
+        "gentiment"
+      ],
+      "explain": "Gentil fait gentiment : le « l » disparaît avant -ment."
+    },
+    {
+      "id": "fr-voc-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le préfixe : le contraire de « lisible » est « ___lisible ».",
+      "answer": [
+        "il"
+      ],
+      "explain": "Devant « l », in- devient il- : illisible."
+    },
+    {
+      "id": "fr-voc-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le nom du magasin où l'on vend du poisson (poisson + -erie).",
+      "answer": [
+        "poissonnerie"
+      ],
+      "explain": "poisson + -erie = poissonnerie."
+    },
+    {
+      "id": "fr-voc-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris l'adjectif de la famille de « danger » qui signifie « qui présente un danger ».",
+      "answer": [
+        "dangereux"
+      ],
+      "explain": "danger + -eux = dangereux."
+    },
+    {
+      "id": "fr-voc-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le préfixe du mot « disparaître » (un mot).",
+      "answer": [
+        "dis",
+        "dis-"
+      ],
+      "explain": "« disparaître » = dis- + paraître."
+    },
+    {
+      "id": "fr-voc-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le suffixe du mot « gentillesse » (un mot).",
+      "answer": [
+        "esse",
+        "-esse"
+      ],
+      "explain": "« gentillesse » = gentil + -esse."
+    },
+    {
+      "id": "fr-voc-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie « intrépide » ?",
+      "choices": [
+        "qui est très lent",
+        "qui a très peur",
+        "qui n'a peur de rien",
+        "qui parle beaucoup"
+      ],
+      "answer": "qui n'a peur de rien",
+      "explain": "Un intrépide affronte le danger sans trembler."
+    },
+    {
+      "id": "fr-voc-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel mot est un synonyme de « tristesse » ?",
+      "choices": [
+        "chagrin",
+        "fatigue",
+        "colère",
+        "joie"
+      ],
+      "answer": "chagrin",
+      "explain": "Tristesse et chagrin ont un sens proche."
+    },
+    {
+      "id": "fr-voc-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « abondant » ?",
+      "choices": [
+        "énorme",
+        "rare",
+        "fréquent",
+        "riche"
+      ],
+      "answer": "rare",
+      "explain": "Abondant veut dire qu'il y en a beaucoup ; le contraire est rare."
+    },
+    {
+      "id": "fr-voc-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le contraire de « taciturne » ?",
+      "choices": [
+        "timide",
+        "silencieux",
+        "joyeux",
+        "bavard"
+      ],
+      "answer": "bavard",
+      "explain": "Un taciturne parle très peu ; son contraire est bavard."
+    },
+    {
+      "id": "fr-voc-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel mot n'appartient pas à la famille de « sang » ?",
+      "choices": [
+        "saigner",
+        "sanguin",
+        "sangle",
+        "sanglant"
+      ],
+      "answer": "sangle",
+      "explain": "« sangle » vient d'un autre mot latin (cingulum, ceinture)."
+    },
+    {
+      "id": "fr-voc-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel mot est formé d'un préfixe, d'un radical et d'un suffixe ?",
+      "choices": [
+        "jouer",
+        "maison",
+        "rapidement",
+        "malheureusement"
+      ],
+      "answer": "malheureusement",
+      "explain": "malheureusement = mal- + heureu(x) + -ment."
+    },
+    {
+      "id": "fr-voc-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « pâleur », que forme le suffixe -eur ?",
+      "choices": [
+        "un nom de lieu",
+        "un nom de qualité",
+        "un nom de métier",
+        "un verbe"
+      ],
+      "answer": "un nom de qualité",
+      "explain": "pâle + -eur = pâleur : la qualité de ce qui est pâle."
+    },
+    {
+      "id": "fr-voc-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « hypermarché », que signifie le préfixe hyper- ?",
+      "choices": [
+        "beaucoup plus grand que la normale",
+        "très petit",
+        "avant",
+        "contre"
+      ],
+      "answer": "beaucoup plus grand que la normale",
+      "explain": "Hyper- exprime l'excès ou la grande taille."
+    },
+    {
+      "id": "fr-voc-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le mot grec « graphein » signifie « écrire ». Quel mot vient de cette racine ?",
+      "choices": [
+        "grave",
+        "graphique",
+        "gratuit",
+        "grappe"
+      ],
+      "answer": "graphique",
+      "explain": "Un graphique est un dessin qui représente des données."
+    },
+    {
+      "id": "fr-voc-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le mot latin « vox, vocis » signifie « voix ». Quel mot vient de cette racine ?",
+      "choices": [
+        "voie",
+        "vaste",
+        "vocal",
+        "vache"
+      ],
+      "answer": "vocal",
+      "explain": "Une consigne vocale est dite avec la voix."
+    },
+    {
+      "id": "fr-voc-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie la racine grecque « chrono » dans « chronomètre » ?",
+      "choices": [
+        "temps",
+        "pied",
+        "couleur",
+        "main"
+      ],
+      "answer": "temps",
+      "explain": "Un chronomètre mesure le temps."
+    },
+    {
+      "id": "fr-voc-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie la racine grecque « photo » dans « photographie » ?",
+      "choices": [
+        "mouvement",
+        "écriture",
+        "eau",
+        "lumière"
+      ],
+      "answer": "lumière",
+      "explain": "Photographie signifie « écriture avec la lumière »."
+    },
+    {
+      "id": "fr-voc-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel mot vient du latin « pedis », qui signifie « du pied » ?",
+      "choices": [
+        "pédale",
+        "pétale",
+        "pédant",
+        "pelage"
+      ],
+      "answer": "pédale",
+      "explain": "La pédale est le levier que l'on actionne avec le pied."
+    },
+    {
+      "id": "fr-voc-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Le vent chuchotait dans les arbres. » ?",
+      "choices": [
+        "une onomatopée",
+        "une comparaison",
+        "une personnification",
+        "une énumération"
+      ],
+      "answer": "une personnification",
+      "explain": "Le vent « chuchote » comme une personne : personnification."
+    },
+    {
+      "id": "fr-voc-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Ce sac pèse une tonne. » ?",
+      "choices": [
+        "une énumération",
+        "une hyperbole",
+        "une onomatopée",
+        "une comparaison"
+      ],
+      "answer": "une hyperbole",
+      "explain": "Le poids est volontairement exagéré : hyperbole."
+    },
+    {
+      "id": "fr-voc-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle figure de style y a-t-il dans « Ses yeux sont des étoiles. » ?",
+      "choices": [
+        "une comparaison",
+        "une énumération",
+        "une personnification",
+        "une métaphore"
+      ],
+      "answer": "une métaphore",
+      "explain": "Les yeux sont identifiés à des étoiles, sans mot de comparaison."
+    },
+    {
+      "id": "fr-voc-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel verbe est du langage soutenu pour « se dépêcher » ?",
+      "choices": [
+        "se hâter",
+        "se bouger",
+        "se grouiller",
+        "se magner"
+      ],
+      "answer": "se hâter",
+      "explain": "« se hâter » est soutenu ; les autres verbes sont familiers."
+    },
+    {
+      "id": "fr-voc-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie l'expression « se mettre sur son trente et un » ?",
+      "choices": [
+        "se fâcher",
+        "s'habiller avec élégance",
+        "se coucher",
+        "se dépêcher"
+      ],
+      "answer": "s'habiller avec élégance",
+      "explain": "On met ses plus beaux vêtements."
+    },
+    {
+      "id": "fr-voc-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le nom en -eur de la famille de « froid » (la qualité de ce qui est froid).",
+      "answer": [
+        "froideur"
+      ],
+      "explain": "froid + -eur = froideur."
+    },
+    {
+      "id": "fr-voc-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris l'adverbe formé sur « prudent ».",
+      "answer": [
+        "prudemment"
+      ],
+      "explain": "Les adjectifs en -ent font -emment : prudemment."
+    },
+    {
+      "id": "fr-voc-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "Ajoute le préfixe « mal- » à « adroit » pour former son contraire.",
+      "answer": [
+        "maladroit"
+      ],
+      "explain": "mal- + adroit = maladroit."
+    },
+    {
+      "id": "fr-voc-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le mot formé de « micro » (petit) et de « scope » (qui sert à voir).",
+      "answer": [
+        "microscope"
+      ],
+      "explain": "micro + scope = microscope."
+    },
+    {
+      "id": "fr-voc-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le mot formé de « bio » (vie) et de « graphie » (écriture).",
+      "answer": [
+        "biographie"
+      ],
+      "explain": "bio + graphie = biographie : récit d'une vie."
+    },
+    {
+      "id": "fr-voc-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle figure de style y a-t-il dans « Ce match est un vrai volcan. » ? (un mot)",
+      "answer": [
+        "métaphore",
+        "une métaphore"
+      ],
+      "explain": "Le match est identifié à un volcan, sans « comme » : métaphore."
+    },
+    {
+      "id": "fr-voc-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle figure de style y a-t-il dans « La lune veillait sur le stade endormi. » ? (un mot)",
+      "answer": [
+        "personnification",
+        "une personnification"
+      ],
+      "explain": "La lune « veille » et le stade « dort » : personnification."
+    }
+  ]
+}

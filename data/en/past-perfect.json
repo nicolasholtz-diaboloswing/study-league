@@ -1,0 +1,1988 @@
+{
+  "topic": "en-past-perfect",
+  "questions": [
+    {
+      "id": "en-pp-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "When we arrived, the match ___ already started.",
+      "choices": [
+        "had",
+        "has",
+        "have",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "Past perfect = had + past participle."
+    },
+    {
+      "id": "en-pp-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ eaten all the cake before I came home.",
+      "choices": [
+        "has",
+        "had",
+        "have",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "Past perfect = had + past participle, for something that happened earlier."
+    },
+    {
+      "id": "en-pp-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He was tired because he ___ played two matches that day.",
+      "choices": [
+        "has",
+        "did",
+        "had",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "Past perfect = had + past participle."
+    },
+    {
+      "id": "en-pp-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I couldn't open the door because I ___ my keys.",
+      "choices": [
+        "had lose",
+        "have lost",
+        "was losing",
+        "had lost"
+      ],
+      "answer": "had lost",
+      "explain": "Past perfect = had + past participle ('lost')."
+    },
+    {
+      "id": "en-pp-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The film ___ before we got to the cinema.",
+      "choices": [
+        "has started",
+        "had start",
+        "was started",
+        "had started"
+      ],
+      "answer": "had started",
+      "explain": "We use the past perfect for the earlier of two past events."
+    },
+    {
+      "id": "en-pp-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "By six o'clock, the fans ___ gone home.",
+      "choices": [
+        "had",
+        "have",
+        "has",
+        "were"
+      ],
+      "answer": "had",
+      "explain": "Past perfect = had + past participle."
+    },
+    {
+      "id": "en-pp-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My dad ___ never seen snow before our trip.",
+      "choices": [
+        "has",
+        "did",
+        "had",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "'Never ... before' + a past moment needs the past perfect."
+    },
+    {
+      "id": "en-pp-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ not eaten, so we were hungry.",
+      "choices": [
+        "have",
+        "did",
+        "were",
+        "had"
+      ],
+      "answer": "had",
+      "explain": "Negative past perfect = had not + past participle."
+    },
+    {
+      "id": "en-pp-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Had you ___ the ball before the referee blew the whistle?",
+      "choices": [
+        "kick",
+        "kicking",
+        "kicks",
+        "kicked"
+      ],
+      "answer": "kicked",
+      "explain": "After 'had' we use the past participle."
+    },
+    {
+      "id": "en-pp-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She told me she ___ the book before the film came out.",
+      "choices": [
+        "had read",
+        "has read",
+        "have read",
+        "had reading"
+      ],
+      "answer": "had read",
+      "explain": "In the past perfect we use had + past participle."
+    },
+    {
+      "id": "en-pp-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The team celebrated because they ___ the cup.",
+      "choices": [
+        "had won",
+        "had win",
+        "have won",
+        "has won"
+      ],
+      "answer": "had won",
+      "explain": "The win happened before the celebration, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He had ___ in Paris before he moved to London.",
+      "choices": [
+        "live",
+        "lived",
+        "living",
+        "lives"
+      ],
+      "answer": "lived",
+      "explain": "After 'had' we use the past participle."
+    },
+    {
+      "id": "en-pp-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The shop ___ already when we got there.",
+      "choices": [
+        "had closed",
+        "closes",
+        "has closed",
+        "will close"
+      ],
+      "answer": "had closed",
+      "explain": "'Already' + an earlier past event: past perfect."
+    },
+    {
+      "id": "en-pp-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I had never ___ a lion before that day.",
+      "choices": [
+        "saw",
+        "seen",
+        "see",
+        "sees"
+      ],
+      "answer": "seen",
+      "explain": "'See' has the past participle 'seen'."
+    },
+    {
+      "id": "en-pp-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He ___ his boots before the game started.",
+      "choices": [
+        "has cleaned",
+        "had clean",
+        "had cleaned",
+        "was clean"
+      ],
+      "answer": "had cleaned",
+      "explain": "We use the past perfect for the earlier action."
+    },
+    {
+      "id": "en-pp-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you ever been to Spain before last summer?",
+      "choices": [
+        "Have",
+        "Did",
+        "Had",
+        "Were"
+      ],
+      "answer": "Had",
+      "explain": "Past perfect question = Had + subject + past participle."
+    },
+    {
+      "id": "en-pp-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How many goals ___ he scored before he was injured?",
+      "choices": [
+        "has",
+        "had",
+        "did",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "Past perfect question = had + subject + past participle."
+    },
+    {
+      "id": "en-pp-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "They hadn't ___ their lunch when I called.",
+      "choices": [
+        "finish",
+        "finishing",
+        "finished",
+        "finishes"
+      ],
+      "answer": "finished",
+      "explain": "After 'hadn't' we use the past participle."
+    },
+    {
+      "id": "en-pp-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "When I got home, my mum ___ (already / cook) dinner.",
+      "answer": [
+        "had already cooked",
+        "'d already cooked",
+        "had cooked already",
+        "'d cooked already"
+      ],
+      "explain": "Past perfect = had + past participle; 'already' goes between them."
+    },
+    {
+      "id": "en-pp-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "I ___ (not / see) that film before, so I loved it.",
+      "answer": [
+        "hadn't seen",
+        "had not seen"
+      ],
+      "explain": "Negative past perfect = hadn't + past participle."
+    },
+    {
+      "id": "en-pp-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "She was sad because she ___ (just / lose) her phone.",
+      "answer": [
+        "had just lost",
+        "'d just lost"
+      ],
+      "explain": "'Just' goes between 'had' and the past participle."
+    },
+    {
+      "id": "en-pp-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "The players ___ (already / leave) when we reached the stadium.",
+      "answer": [
+        "had already left",
+        "'d already left",
+        "had left already"
+      ],
+      "explain": "'Leave' has the past participle 'left'."
+    },
+    {
+      "id": "en-pp-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "He ___ (never / ride) a horse before that day.",
+      "answer": [
+        "had never ridden",
+        "'d never ridden"
+      ],
+      "explain": "'Ride' has the past participle 'ridden'."
+    },
+    {
+      "id": "en-pp-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "The bus ___ (go) by the time we ran to the stop.",
+      "answer": [
+        "had gone",
+        "'d gone"
+      ],
+      "explain": "'By the time' + a past event: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "They ___ (not / eat) anything since breakfast, so they were very hungry.",
+      "answer": [
+        "hadn't eaten",
+        "had not eaten"
+      ],
+      "explain": "'Eat' has the past participle 'eaten'."
+    },
+    {
+      "id": "en-pp-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "After he ___ his homework, he played football.",
+      "choices": [
+        "has finished",
+        "had finished",
+        "was finishing",
+        "finishes"
+      ],
+      "answer": "had finished",
+      "explain": "The homework came first, so we use the past perfect for it."
+    },
+    {
+      "id": "en-pp-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "By the time we arrived, the match ___.",
+      "choices": [
+        "has already begun",
+        "was already beginning",
+        "already begins",
+        "had already begun"
+      ],
+      "answer": "had already begun",
+      "explain": "'By the time' + a past event needs the past perfect for the earlier action."
+    },
+    {
+      "id": "en-pp-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I was nervous because I ___ never played in a final.",
+      "choices": [
+        "have",
+        "did",
+        "was",
+        "had"
+      ],
+      "answer": "had",
+      "explain": "'Never' + a past moment: past perfect."
+    },
+    {
+      "id": "en-pp-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ the players warmed up before the coach arrived?",
+      "choices": [
+        "Have",
+        "Had",
+        "Did",
+        "Do"
+      ],
+      "answer": "Had",
+      "explain": "Past perfect question = Had + subject + past participle."
+    },
+    {
+      "id": "en-pp-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He couldn't get in because he ___ his ticket.",
+      "choices": [
+        "had forgotten",
+        "has forgotten",
+        "was forgetting",
+        "forgetting"
+      ],
+      "answer": "had forgotten",
+      "explain": "The forgetting happened first, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Until yesterday, I ___ never tried sushi.",
+      "choices": [
+        "had",
+        "have",
+        "did",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "'Until' + a past time and 'never': past perfect."
+    },
+    {
+      "id": "en-pp-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The coach was angry because the team ___ the training.",
+      "choices": [
+        "has missed",
+        "had missed",
+        "will miss",
+        "misses"
+      ],
+      "answer": "had missed",
+      "explain": "The missing happened before the coach was angry."
+    },
+    {
+      "id": "en-pp-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I wanted to see the film, but my friends ___ it.",
+      "choices": [
+        "have already seen",
+        "had already seen",
+        "were already seeing",
+        "already seeing"
+      ],
+      "answer": "had already seen",
+      "explain": "'Already' + an earlier past event: past perfect."
+    },
+    {
+      "id": "en-pp-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When Tom arrived at the party, everybody ___ home.",
+      "choices": [
+        "has gone",
+        "is going",
+        "had gone",
+        "goes"
+      ],
+      "answer": "had gone",
+      "explain": "Everybody left before Tom arrived, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She was proud of her son because he ___ the exam.",
+      "choices": [
+        "has passed",
+        "will pass",
+        "passes",
+        "had passed"
+      ],
+      "answer": "had passed",
+      "explain": "Passing the exam happened before she felt proud."
+    },
+    {
+      "id": "en-pp-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ the book before he watched the film.",
+      "choices": [
+        "has read",
+        "reads",
+        "will read",
+        "had read"
+      ],
+      "answer": "had read",
+      "explain": "'Before' + simple past: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I felt better after I ___ a rest.",
+      "choices": [
+        "have had",
+        "had had",
+        "was having",
+        "had have"
+      ],
+      "answer": "had had",
+      "explain": "'Have' has the past participle 'had', so we say 'had had'."
+    },
+    {
+      "id": "en-pp-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "They didn't leave until the rain ___.",
+      "choices": [
+        "has stopped",
+        "had stopped",
+        "stops",
+        "was stopped"
+      ],
+      "answer": "had stopped",
+      "explain": "'Until' + the earlier event can use the past perfect."
+    },
+    {
+      "id": "en-pp-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Where ___ the boys gone when you arrived?",
+      "choices": [
+        "have",
+        "did",
+        "were",
+        "had"
+      ],
+      "answer": "had",
+      "explain": "Past perfect question = had + subject + past participle."
+    },
+    {
+      "id": "en-pp-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "It was the first time she ___ a goal in a match.",
+      "choices": [
+        "has scored",
+        "was scoring",
+        "had scored",
+        "scores"
+      ],
+      "answer": "had scored",
+      "explain": "After 'the first time' + past, we use the past perfect."
+    },
+    {
+      "id": "en-pp-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We were sure we ___ the door, but it was open.",
+      "choices": [
+        "have locked",
+        "were locking",
+        "had locked",
+        "lock"
+      ],
+      "answer": "had locked",
+      "explain": "The locking came before 'we were sure'."
+    },
+    {
+      "id": "en-pp-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She told us that she ___ the film twice.",
+      "choices": [
+        "has seen",
+        "sees",
+        "was seeing",
+        "had seen"
+      ],
+      "answer": "had seen",
+      "explain": "In reported speech about earlier events, we use the past perfect."
+    },
+    {
+      "id": "en-pp-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The fans were sad because their team ___ seven games in a row.",
+      "choices": [
+        "had lost",
+        "has lost",
+        "will lose",
+        "loses"
+      ],
+      "answer": "had lost",
+      "explain": "The losing came before the sadness."
+    },
+    {
+      "id": "en-pp-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "By the time we got to the station, the train ___ (already / leave).",
+      "answer": [
+        "had already left",
+        "'d already left",
+        "had left already"
+      ],
+      "explain": "'By the time' + simple past: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "By the time my friend called, I ___ (just / finish) my homework.",
+      "answer": [
+        "had just finished",
+        "'d just finished"
+      ],
+      "explain": "'Just' goes between 'had' and the past participle."
+    },
+    {
+      "id": "en-pp-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ you ever seen a live match before last night? (have / had)",
+      "answer": [
+        "Had"
+      ],
+      "explain": "Past perfect question starts with 'Had'."
+    },
+    {
+      "id": "en-pp-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "She ___ (never / eat) pizza until she came to Italy.",
+      "answer": [
+        "had never eaten",
+        "'d never eaten"
+      ],
+      "explain": "'Never ... until' + a past event: past perfect."
+    },
+    {
+      "id": "en-pp-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "When we found him on Friday, he ___ (not / eat) anything for two days.",
+      "answer": [
+        "hadn't eaten",
+        "had not eaten"
+      ],
+      "explain": "Negative past perfect = hadn't + past participle."
+    },
+    {
+      "id": "en-pp-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "We ___ (not / start) the match when the rain began.",
+      "answer": [
+        "hadn't started",
+        "had not started"
+      ],
+      "explain": "The rain began before we could start, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Before that trip, my sister ___ (never / see) the sea.",
+      "answer": [
+        "had never seen",
+        "'d never seen"
+      ],
+      "explain": "'See' has the past participle 'seen'."
+    },
+    {
+      "id": "en-pp-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If we ___ harder, we would have won the match.",
+      "choices": [
+        "trained",
+        "would train",
+        "had trained",
+        "have trained"
+      ],
+      "answer": "had trained",
+      "explain": "Third conditional: if + past perfect, would have + past participle."
+    },
+    {
+      "id": "en-pp-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If she ___ her glasses, she wouldn't have missed the goal.",
+      "choices": [
+        "hadn't forgotten",
+        "didn't forget",
+        "wouldn't forget",
+        "hasn't forgotten"
+      ],
+      "answer": "hadn't forgotten",
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He said that he ___ the keys on the table.",
+      "choices": [
+        "had left",
+        "leaves",
+        "has left",
+        "leave"
+      ],
+      "answer": "had left",
+      "explain": "In reported speech, an earlier past action becomes the past perfect."
+    },
+    {
+      "id": "en-pp-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She asked me if I ___ the match.",
+      "choices": [
+        "have seen",
+        "had seen",
+        "see",
+        "will see"
+      ],
+      "answer": "had seen",
+      "explain": "In reported speech, a past question becomes the past perfect."
+    },
+    {
+      "id": "en-pp-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If they ___ the penalty, they would have won.",
+      "choices": [
+        "hadn't missed",
+        "didn't miss",
+        "haven't missed",
+        "wouldn't miss"
+      ],
+      "answer": "hadn't missed",
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The coach said the players ___ never trained so hard before that week.",
+      "choices": [
+        "had",
+        "have",
+        "did",
+        "were"
+      ],
+      "answer": "had",
+      "explain": "'Before that week' points to a past moment, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The players had already left when the coach ___.",
+      "choices": [
+        "arrives",
+        "has arrived",
+        "was arrive",
+        "arrived"
+      ],
+      "answer": "arrived",
+      "explain": "The later event is in the past simple, the earlier one in the past perfect."
+    },
+    {
+      "id": "en-pp-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The team ___ the first goal in the tenth minute and the second just before half-time.",
+      "choices": [
+        "had scored",
+        "has scored",
+        "scores",
+        "scored"
+      ],
+      "answer": "scored",
+      "explain": "Events told in the order they happened use the past simple."
+    },
+    {
+      "id": "en-pp-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He opened the box, took out the ball and ___ it to me.",
+      "choices": [
+        "had handed",
+        "hands",
+        "has handed",
+        "handed"
+      ],
+      "answer": "handed",
+      "explain": "Events told in order use the past simple."
+    },
+    {
+      "id": "en-pp-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I realised that I ___ the wrong bus.",
+      "choices": [
+        "have taken",
+        "had taken",
+        "take",
+        "was taking"
+      ],
+      "answer": "had taken",
+      "explain": "The mistake came before the realisation, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "No sooner had he sat down ___ the phone rang.",
+      "choices": [
+        "when",
+        "then",
+        "than",
+        "that"
+      ],
+      "answer": "than",
+      "explain": "'No sooner' is followed by 'than'."
+    },
+    {
+      "id": "en-pp-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Hardly had we arrived ___ it started to rain.",
+      "choices": [
+        "then",
+        "when",
+        "that",
+        "as"
+      ],
+      "answer": "when",
+      "explain": "'Hardly' is followed by 'when'."
+    },
+    {
+      "id": "en-pp-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She wished she ___ more for the exam.",
+      "choices": [
+        "has studied",
+        "would study",
+        "had studied",
+        "studies"
+      ],
+      "answer": "had studied",
+      "explain": "'Wish' + past perfect expresses regret about the past."
+    },
+    {
+      "id": "en-pp-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If he hadn't been injured, he ___ in the final.",
+      "choices": [
+        "would play",
+        "would have played",
+        "had played",
+        "will play"
+      ],
+      "answer": "would have played",
+      "explain": "Third conditional: would have + past participle."
+    },
+    {
+      "id": "en-pp-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She told me she ___ anything since the day before.",
+      "choices": [
+        "hasn't eaten",
+        "didn't eat",
+        "hadn't eaten",
+        "doesn't eat"
+      ],
+      "answer": "hadn't eaten",
+      "explain": "'Since the day before' links to a past moment, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The referee checked the video and decided the ball ___ the line.",
+      "choices": [
+        "hadn't crossed",
+        "hasn't crossed",
+        "doesn't cross",
+        "won't cross"
+      ],
+      "answer": "hadn't crossed",
+      "explain": "In reported speech, we move back one tense into the past perfect."
+    },
+    {
+      "id": "en-pp-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She looked happy because she ___ good news.",
+      "choices": [
+        "has just received",
+        "just receives",
+        "had just received",
+        "was just received"
+      ],
+      "answer": "had just received",
+      "explain": "The news came before she looked happy."
+    },
+    {
+      "id": "en-pp-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ the film, so I didn't want to see it again.",
+      "choices": [
+        "had seen",
+        "have seen",
+        "see",
+        "seeing"
+      ],
+      "answer": "had seen",
+      "explain": "The seeing came before 'didn't want', so we use the past perfect."
+    },
+    {
+      "id": "en-pp-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "If I ___ (know) about the traffic, I would have left earlier.",
+      "answer": [
+        "had known",
+        "'d known"
+      ],
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "She said she ___ (never / see) such a big crowd before that match.",
+      "answer": [
+        "had never seen",
+        "'d never seen"
+      ],
+      "explain": "'Before that match' points to a past moment, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "If she ___ (not / miss) the bus, she would have been on time.",
+      "answer": [
+        "hadn't missed",
+        "had not missed"
+      ],
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "If it ___ (not / rain), we would have played outside.",
+      "answer": [
+        "hadn't rained",
+        "had not rained"
+      ],
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "I wish I ___ (listen) to my coach last week.",
+      "answer": [
+        "had listened",
+        "'d listened"
+      ],
+      "explain": "'Wish' + past perfect expresses regret about the past."
+    },
+    {
+      "id": "en-pp-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "He realised he ___ (not / bring) his boots.",
+      "answer": [
+        "hadn't brought",
+        "had not brought"
+      ],
+      "explain": "The forgetting came before the realising, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "By the time the doctor came, the player ___ (already / recover).",
+      "answer": [
+        "had already recovered",
+        "'d already recovered",
+        "had recovered already"
+      ],
+      "explain": "'By the time' + simple past: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "When the bus came, we ___ already left.",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "were"
+      ],
+      "answer": "had",
+      "explain": "Past perfect = had + past participle, for the earlier action."
+    },
+    {
+      "id": "en-pp-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "By the time I woke up, my brother ___ left for school.",
+      "choices": [
+        "has",
+        "did",
+        "had",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "'By the time' + a past event: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-078",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ finished her homework before her mum came home.",
+      "choices": [
+        "had",
+        "has",
+        "did",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "Past perfect = had + past participle."
+    },
+    {
+      "id": "en-pp-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The match ___ started when we reached the stadium.",
+      "choices": [
+        "had already",
+        "has already",
+        "have already",
+        "did already"
+      ],
+      "answer": "had already",
+      "explain": "'Already' goes after 'had' in the past perfect."
+    },
+    {
+      "id": "en-pp-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I was hungry because I ___ eaten since morning.",
+      "choices": [
+        "haven't",
+        "hadn't",
+        "didn't",
+        "wasn't"
+      ],
+      "answer": "hadn't",
+      "explain": "Negative past perfect = hadn't + past participle."
+    },
+    {
+      "id": "en-pp-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He ___ never been abroad before that summer.",
+      "choices": [
+        "has",
+        "did",
+        "was",
+        "had"
+      ],
+      "answer": "had",
+      "explain": "'Never ... before that summer' needs the past perfect."
+    },
+    {
+      "id": "en-pp-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "They ___ the cup before, so they weren't nervous in the final.",
+      "choices": [
+        "had win",
+        "have won",
+        "had won",
+        "has won"
+      ],
+      "answer": "had won",
+      "explain": "'Before' + a past moment: past perfect."
+    },
+    {
+      "id": "en-pp-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She was crying because she ___ her ring.",
+      "choices": [
+        "had lose",
+        "has lost",
+        "had lost",
+        "was losing"
+      ],
+      "answer": "had lost",
+      "explain": "The losing came before the crying, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My friend ___ his phone at home, so he couldn't call me.",
+      "choices": [
+        "has left",
+        "had leave",
+        "is leaving",
+        "had left"
+      ],
+      "answer": "had left",
+      "explain": "The leaving happened before he couldn't call, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We were late because the train ___ already gone.",
+      "choices": [
+        "has",
+        "did",
+        "had",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "Past perfect = had + past participle."
+    },
+    {
+      "id": "en-pp-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Had they ___ the stadium before the gates closed?",
+      "choices": [
+        "reached",
+        "reach",
+        "reaching",
+        "reaches"
+      ],
+      "answer": "reached",
+      "explain": "After 'had' we use the past participle."
+    },
+    {
+      "id": "en-pp-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He told me he ___ seen the film twice before.",
+      "choices": [
+        "has",
+        "had",
+        "have",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "'Before' points to an earlier past time, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "After the fans ___ their seats, the match began.",
+      "choices": [
+        "had taken",
+        "has taken",
+        "take",
+        "were taking"
+      ],
+      "answer": "had taken",
+      "explain": "The first action is in the past perfect."
+    },
+    {
+      "id": "en-pp-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I had never ___ so tired before that match.",
+      "choices": [
+        "feel",
+        "feeling",
+        "feels",
+        "felt"
+      ],
+      "answer": "felt",
+      "explain": "After 'had' we use the past participle."
+    },
+    {
+      "id": "en-pp-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He ___ his boots before he went onto the pitch.",
+      "choices": [
+        "has put on",
+        "had put on",
+        "had putting on",
+        "was put on"
+      ],
+      "answer": "had put on",
+      "explain": "The first action is in the past perfect."
+    },
+    {
+      "id": "en-pp-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ she ever played in a final before that day?",
+      "choices": [
+        "Has",
+        "Had",
+        "Did",
+        "Was"
+      ],
+      "answer": "Had",
+      "explain": "Past perfect question = Had + subject + past participle."
+    },
+    {
+      "id": "en-pp-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How long ___ they waited when the bus finally came?",
+      "choices": [
+        "have",
+        "had",
+        "did",
+        "were"
+      ],
+      "answer": "had",
+      "explain": "Past perfect question = had + subject + past participle."
+    },
+    {
+      "id": "en-pp-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We hadn't ___ any lunch before the match started.",
+      "choices": [
+        "ate",
+        "eaten",
+        "eat",
+        "eating"
+      ],
+      "answer": "eaten",
+      "explain": "After 'hadn't' we use the past participle."
+    },
+    {
+      "id": "en-pp-094",
+      "level": 1,
+      "type": "input",
+      "prompt": "When we got to the cinema, the film ___ (already / start).",
+      "answer": [
+        "had already started",
+        "'d already started",
+        "had started already"
+      ],
+      "explain": "Past perfect = had + past participle; 'already' goes between them."
+    },
+    {
+      "id": "en-pp-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "She ___ (not / finish) her homework yet when her friend came.",
+      "answer": [
+        "hadn't finished",
+        "had not finished"
+      ],
+      "explain": "Negative past perfect = hadn't + past participle."
+    },
+    {
+      "id": "en-pp-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "By the time dinner started, he ___ (eat) six sweets.",
+      "answer": [
+        "had eaten",
+        "'d eaten"
+      ],
+      "explain": "'By the time' + a past event: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "By the time the coach came in, the players ___ (just / sit) down.",
+      "answer": [
+        "had just sat",
+        "'d just sat"
+      ],
+      "explain": "'Sit' has the past participle 'sat'."
+    },
+    {
+      "id": "en-pp-098",
+      "level": 1,
+      "type": "input",
+      "prompt": "I ___ (never / visit) London before that trip.",
+      "answer": [
+        "had never visited",
+        "'d never visited"
+      ],
+      "explain": "'Never ... before that trip' needs the past perfect."
+    },
+    {
+      "id": "en-pp-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "My dad ___ (already / leave) when I woke up.",
+      "answer": [
+        "had already left",
+        "'d already left",
+        "had left already"
+      ],
+      "explain": "'Leave' has the past participle 'left'."
+    },
+    {
+      "id": "en-pp-100",
+      "level": 1,
+      "type": "input",
+      "prompt": "They ___ (not / hear) the news until I told them.",
+      "answer": [
+        "hadn't heard",
+        "had not heard"
+      ],
+      "explain": "'Hear' has the past participle 'heard'."
+    },
+    {
+      "id": "en-pp-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "As soon as the referee ___ the whistle, the fans cheered.",
+      "choices": [
+        "has blown",
+        "blows",
+        "had blown",
+        "will blow"
+      ],
+      "answer": "had blown",
+      "explain": "The first action is in the past perfect."
+    },
+    {
+      "id": "en-pp-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He didn't know the way because he ___ there before.",
+      "choices": [
+        "hadn't been",
+        "wasn't",
+        "hasn't been",
+        "didn't be"
+      ],
+      "answer": "hadn't been",
+      "explain": "'Before' + a past moment: past perfect."
+    },
+    {
+      "id": "en-pp-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "By the time the ambulance arrived, the player ___ up and walked away.",
+      "choices": [
+        "has stood",
+        "had stood",
+        "was standing",
+        "stands"
+      ],
+      "answer": "had stood",
+      "explain": "'By the time' + a past event: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We found out that someone ___ our boots.",
+      "choices": [
+        "has stolen",
+        "had stolen",
+        "was stealing",
+        "steals"
+      ],
+      "answer": "had stolen",
+      "explain": "The stealing happened before we found out."
+    },
+    {
+      "id": "en-pp-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I didn't want to watch the film because I ___ it twice.",
+      "choices": [
+        "had already seen",
+        "have already seen",
+        "am already seeing",
+        "already see"
+      ],
+      "answer": "had already seen",
+      "explain": "'Already' + an earlier past event: past perfect."
+    },
+    {
+      "id": "en-pp-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Before the final, she ___ never lost a match.",
+      "choices": [
+        "has",
+        "did",
+        "had",
+        "was"
+      ],
+      "answer": "had",
+      "explain": "'Before the final' sets a past moment, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The teacher was angry because we ___ our homework by Monday.",
+      "choices": [
+        "hadn't done",
+        "haven't done",
+        "didn't done",
+        "don't do"
+      ],
+      "answer": "hadn't done",
+      "explain": "'By Monday' in a past story: past perfect."
+    },
+    {
+      "id": "en-pp-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When I arrived at the stadium, the gates ___ already.",
+      "choices": [
+        "has closed",
+        "had closed",
+        "will close",
+        "closes"
+      ],
+      "answer": "had closed",
+      "explain": "'Already' + an earlier past event: past perfect."
+    },
+    {
+      "id": "en-pp-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She said she ___ to the dentist the day before.",
+      "choices": [
+        "has been",
+        "goes",
+        "had been",
+        "will be"
+      ],
+      "answer": "had been",
+      "explain": "'The day before' is an earlier past time, so we use the past perfect."
+    },
+    {
+      "id": "en-pp-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "After they ___ dinner, they watched the match.",
+      "choices": [
+        "have finished",
+        "had finished",
+        "are finishing",
+        "finish"
+      ],
+      "answer": "had finished",
+      "explain": "The first action is in the past perfect."
+    },
+    {
+      "id": "en-pp-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I realised that I ___ my bag on the train.",
+      "choices": [
+        "had left",
+        "have left",
+        "leave",
+        "was leaving"
+      ],
+      "answer": "had left",
+      "explain": "The leaving came before the realising."
+    },
+    {
+      "id": "en-pp-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The goalkeeper ___ the ball before it crossed the line.",
+      "choices": [
+        "has touched",
+        "touches",
+        "was touching",
+        "had touched"
+      ],
+      "answer": "had touched",
+      "explain": "The touching came before the ball crossed the line."
+    },
+    {
+      "id": "en-pp-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Before his injury in April, he ___ every game that season.",
+      "choices": [
+        "has played",
+        "plays",
+        "was played",
+        "had played"
+      ],
+      "answer": "had played",
+      "explain": "'Before' + a past moment: past perfect."
+    },
+    {
+      "id": "en-pp-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "It was the third time they ___ the final.",
+      "choices": [
+        "had reached",
+        "have reached",
+        "reach",
+        "were reaching"
+      ],
+      "answer": "had reached",
+      "explain": "After 'the third time' + past, we use the past perfect."
+    },
+    {
+      "id": "en-pp-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I was surprised because I ___ him since school.",
+      "choices": [
+        "haven't seen",
+        "don't see",
+        "didn't see",
+        "hadn't seen"
+      ],
+      "answer": "hadn't seen",
+      "explain": "'Since' + a past moment needs the past perfect."
+    },
+    {
+      "id": "en-pp-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Had you finished your lunch ___ the bell rang?",
+      "choices": [
+        "that",
+        "when",
+        "as",
+        "then"
+      ],
+      "answer": "when",
+      "explain": "'When' links the two past events."
+    },
+    {
+      "id": "en-pp-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We were sure that we ___ this road before.",
+      "choices": [
+        "had driven",
+        "have driven",
+        "drive",
+        "were driving"
+      ],
+      "answer": "had driven",
+      "explain": "'Before' + a past moment: past perfect."
+    },
+    {
+      "id": "en-pp-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The fans were still outside because the staff ___ opened the gates yet.",
+      "choices": [
+        "haven't",
+        "hadn't",
+        "didn't",
+        "wasn't"
+      ],
+      "answer": "hadn't",
+      "explain": "Negative past perfect = hadn't + past participle."
+    },
+    {
+      "id": "en-pp-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "By the time we arrived, the concert ___ (already / end).",
+      "answer": [
+        "had already ended",
+        "'d already ended",
+        "had ended already"
+      ],
+      "explain": "'By the time' + a past event: the earlier action is in the past perfect."
+    },
+    {
+      "id": "en-pp-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "Before the final, our team ___ (never / lose) at home.",
+      "answer": [
+        "had never lost",
+        "'d never lost"
+      ],
+      "explain": "'Lose' has the past participle 'lost'."
+    },
+    {
+      "id": "en-pp-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "I couldn't ride my bike because someone ___ (already / take) it.",
+      "answer": [
+        "had already taken",
+        "'d already taken",
+        "had taken already"
+      ],
+      "explain": "'Take' has the past participle 'taken'."
+    },
+    {
+      "id": "en-pp-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ (have / had) the players left before you arrived?",
+      "answer": [
+        "Had"
+      ],
+      "explain": "Past perfect question starts with 'Had'."
+    },
+    {
+      "id": "en-pp-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "She ___ (not / speak) any French before she moved to Paris.",
+      "answer": [
+        "hadn't spoken",
+        "had not spoken"
+      ],
+      "explain": "'Speak' has the past participle 'spoken'."
+    },
+    {
+      "id": "en-pp-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "He ___ (never / see) the sea until he was twenty.",
+      "answer": [
+        "had never seen",
+        "'d never seen"
+      ],
+      "explain": "'Never ... until' + a past event: past perfect."
+    },
+    {
+      "id": "en-pp-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "When the referee blew the whistle, the visitors ___ (already / score) twice.",
+      "answer": [
+        "had already scored",
+        "'d already scored",
+        "had scored already"
+      ],
+      "explain": "The scoring came before the whistle."
+    },
+    {
+      "id": "en-pp-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If I ___ about the test, I would have studied.",
+      "choices": [
+        "knew",
+        "have known",
+        "had known",
+        "would know"
+      ],
+      "answer": "had known",
+      "explain": "Third conditional: if + past perfect, would have + past participle."
+    },
+    {
+      "id": "en-pp-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If the keeper ___ the ball, they wouldn't have conceded.",
+      "choices": [
+        "saved",
+        "would save",
+        "had saved",
+        "has saved"
+      ],
+      "answer": "had saved",
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On Monday Mia said she ___ her keys, but she found them on Tuesday.",
+      "choices": [
+        "has lost",
+        "have lost",
+        "was losing",
+        "had lost"
+      ],
+      "answer": "had lost",
+      "explain": "Reported speech: the earlier action moves back to the past perfect."
+    },
+    {
+      "id": "en-pp-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I wish I ___ the ticket earlier. Now it's sold out.",
+      "choices": [
+        "bought",
+        "had bought",
+        "would buy",
+        "have bought"
+      ],
+      "answer": "had bought",
+      "explain": "'Wish' + past perfect expresses regret about the past."
+    },
+    {
+      "id": "en-pp-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If they ___ in the rain, they wouldn't have caught a cold.",
+      "choices": [
+        "hadn't played",
+        "didn't play",
+        "haven't played",
+        "wouldn't play"
+      ],
+      "answer": "hadn't played",
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "No sooner ___ the match started than it began to rain.",
+      "choices": [
+        "did",
+        "had",
+        "was",
+        "has"
+      ],
+      "answer": "had",
+      "explain": "'No sooner' is followed by 'had' + subject + past participle."
+    },
+    {
+      "id": "en-pp-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Not until he ___ the letter did he understand.",
+      "choices": [
+        "has read",
+        "had read",
+        "reads",
+        "was reading"
+      ],
+      "answer": "had read",
+      "explain": "After 'not until' + a past event, we use the past perfect for the first action."
+    },
+    {
+      "id": "en-pp-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The coach asked whether anybody ___ the video before the match.",
+      "choices": [
+        "has watched",
+        "watches",
+        "will watch",
+        "had watched"
+      ],
+      "answer": "had watched",
+      "explain": "Reported speech: a question about an earlier action uses the past perfect."
+    },
+    {
+      "id": "en-pp-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She was angry. Someone ___ her bike without asking.",
+      "choices": [
+        "has borrowed",
+        "borrows",
+        "was borrowing",
+        "had borrowed"
+      ],
+      "answer": "had borrowed",
+      "explain": "The borrowing came before she was angry."
+    },
+    {
+      "id": "en-pp-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The goal was disallowed because the striker ___ offside.",
+      "choices": [
+        "has been",
+        "being",
+        "had been",
+        "is"
+      ],
+      "answer": "had been",
+      "explain": "The offside position came before the whistle."
+    },
+    {
+      "id": "en-pp-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We would have won if we ___ the last chance.",
+      "choices": [
+        "didn't waste",
+        "haven't wasted",
+        "wouldn't waste",
+        "hadn't wasted"
+      ],
+      "answer": "hadn't wasted",
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He told us he ___ the exam the week before.",
+      "choices": [
+        "had failed",
+        "has failed",
+        "fails",
+        "will fail"
+      ],
+      "answer": "had failed",
+      "explain": "Reported speech: 'the week before' needs the past perfect."
+    },
+    {
+      "id": "en-pp-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I wish my team ___ the final last year.",
+      "choices": [
+        "won",
+        "would win",
+        "had won",
+        "has won"
+      ],
+      "answer": "had won",
+      "explain": "'Wish' + past perfect expresses regret about the past."
+    },
+    {
+      "id": "en-pp-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Because it ___ all night, the pitch was flooded in the morning.",
+      "choices": [
+        "had rained",
+        "has rained",
+        "rains",
+        "will rain"
+      ],
+      "answer": "had rained",
+      "explain": "The rain came before the flooding."
+    },
+    {
+      "id": "en-pp-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The players realised that the referee ___ the final whistle.",
+      "choices": [
+        "has blown",
+        "blows",
+        "was blowing",
+        "had blown"
+      ],
+      "answer": "had blown",
+      "explain": "The blowing came before the realising."
+    },
+    {
+      "id": "en-pp-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If you ___ me earlier, I would have helped you.",
+      "choices": [
+        "told",
+        "tell",
+        "would tell",
+        "had told"
+      ],
+      "answer": "had told",
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She asked me whether I ___ the news the day before.",
+      "choices": [
+        "have heard",
+        "hear",
+        "will hear",
+        "had heard"
+      ],
+      "answer": "had heard",
+      "explain": "Reported speech: a question about an earlier action uses the past perfect."
+    },
+    {
+      "id": "en-pp-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He couldn't remember where he ___ his keys.",
+      "choices": [
+        "had put",
+        "has put",
+        "puts",
+        "was putting"
+      ],
+      "answer": "had put",
+      "explain": "The putting came before the remembering."
+    },
+    {
+      "id": "en-pp-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "If we ___ (take) the early train, we wouldn't have missed the start.",
+      "answer": [
+        "had taken",
+        "'d taken"
+      ],
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "I wish I ___ (not / eat) so much pizza last night.",
+      "answer": [
+        "hadn't eaten",
+        "had not eaten"
+      ],
+      "explain": "'Wish' + past perfect expresses regret about the past."
+    },
+    {
+      "id": "en-pp-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "If the referee ___ (see) the foul, he would have given a penalty.",
+      "answer": [
+        "had seen",
+        "'d seen"
+      ],
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "She said she ___ (never / meet) him before that day.",
+      "answer": [
+        "had never met",
+        "'d never met"
+      ],
+      "explain": "'Before that day' points to an earlier past time."
+    },
+    {
+      "id": "en-pp-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "They would have scored if the keeper ___ (not / save) that shot.",
+      "answer": [
+        "hadn't saved",
+        "had not saved"
+      ],
+      "explain": "Third conditional: if + past perfect."
+    },
+    {
+      "id": "en-pp-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "I wish I ___ (go) to bed earlier last night.",
+      "answer": [
+        "had gone",
+        "'d gone"
+      ],
+      "explain": "'Wish' + past perfect expresses regret about the past."
+    },
+    {
+      "id": "en-pp-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "By the time the coach arrived, the players ___ (already / warm up).",
+      "answer": [
+        "had already warmed up",
+        "'d already warmed up",
+        "had warmed up already"
+      ],
+      "explain": "'By the time' + a past event: the earlier action is in the past perfect."
+    }
+  ]
+}

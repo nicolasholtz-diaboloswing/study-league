@@ -1,0 +1,1946 @@
+{
+  "topic": "en-past-simple",
+  "questions": [
+    {
+      "id": "en-ps-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday our team ___ a great match.",
+      "choices": [
+        "play",
+        "played",
+        "plays",
+        "playing"
+      ],
+      "answer": "played",
+      "explain": "We use the past simple with 'yesterday': verb + -ed."
+    },
+    {
+      "id": "en-ps-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last summer I ___ to Spain with my family.",
+      "choices": [
+        "go",
+        "went",
+        "goed",
+        "gone"
+      ],
+      "answer": "went",
+      "explain": "'Go' is irregular: its past simple is 'went'."
+    },
+    {
+      "id": "en-ps-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday she ___ her homework before dinner.",
+      "choices": [
+        "finish",
+        "finished",
+        "finishes",
+        "finishing"
+      ],
+      "answer": "finished",
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ the bus at eight o'clock this morning.",
+      "choices": [
+        "caught",
+        "catched",
+        "catch",
+        "catching"
+      ],
+      "answer": "caught",
+      "explain": "'Catch' is irregular: its past simple is 'caught'."
+    },
+    {
+      "id": "en-ps-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He ___ football on Sunday because he was ill.",
+      "choices": [
+        "didn't played",
+        "doesn't play",
+        "didn't play",
+        "not played"
+      ],
+      "answer": "didn't play",
+      "explain": "After 'didn't' we use the base verb, not the past form."
+    },
+    {
+      "id": "en-ps-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you see the goal last night?",
+      "choices": [
+        "Did",
+        "Do",
+        "Were",
+        "Have"
+      ],
+      "answer": "Did",
+      "explain": "We make past simple questions with 'did' + base verb."
+    },
+    {
+      "id": "en-ps-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The weather ___ terrible yesterday, so the match was cancelled.",
+      "choices": [
+        "were",
+        "is",
+        "was",
+        "be"
+      ],
+      "answer": "was",
+      "explain": "The past of 'be' is 'was' for I, he, she, it and 'weather'."
+    },
+    {
+      "id": "en-ps-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My friends ___ at the stadium at six o'clock.",
+      "choices": [
+        "was",
+        "are",
+        "were",
+        "been"
+      ],
+      "answer": "were",
+      "explain": "The past of 'be' is 'were' for you, we and they."
+    },
+    {
+      "id": "en-ps-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My dad ___ me new boots two weeks ago.",
+      "choices": [
+        "buyed",
+        "bought",
+        "buys",
+        "buying"
+      ],
+      "answer": "bought",
+      "explain": "'Buy' is irregular: its past simple is 'bought'."
+    },
+    {
+      "id": "en-ps-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday the striker ___ the ball into the net.",
+      "choices": [
+        "kicks",
+        "kick",
+        "kicked",
+        "kicking"
+      ],
+      "answer": "kicked",
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last night we ___ pizza for dinner.",
+      "choices": [
+        "eat",
+        "eated",
+        "ate",
+        "eaten"
+      ],
+      "answer": "ate",
+      "explain": "'Eat' is irregular: its past simple is 'ate'."
+    },
+    {
+      "id": "en-ps-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "They ___ the cup in 2019.",
+      "choices": [
+        "win",
+        "won",
+        "winned",
+        "wined"
+      ],
+      "answer": "won",
+      "explain": "'Win' is irregular: its past simple is 'won'."
+    },
+    {
+      "id": "en-ps-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ my keys yesterday, so I couldn't open the door.",
+      "choices": [
+        "losed",
+        "lose",
+        "losted",
+        "lost"
+      ],
+      "answer": "lost",
+      "explain": "'Lose' is irregular: its past simple is 'lost'."
+    },
+    {
+      "id": "en-ps-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ the door and went out.",
+      "choices": [
+        "closed",
+        "closeed",
+        "close",
+        "closes"
+      ],
+      "answer": "closed",
+      "explain": "When a verb already ends in -e, we add only -d."
+    },
+    {
+      "id": "en-ps-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How many goals ___ he score last week?",
+      "choices": [
+        "did",
+        "does",
+        "was",
+        "has"
+      ],
+      "answer": "did",
+      "explain": "We make past simple questions with 'did' + base verb."
+    },
+    {
+      "id": "en-ps-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tom ___ to the party because he was tired.",
+      "choices": [
+        "didn't come",
+        "didn't came",
+        "doesn't come",
+        "not came"
+      ],
+      "answer": "didn't come",
+      "explain": "After 'didn't' we use the base verb."
+    },
+    {
+      "id": "en-ps-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ a film at the cinema last Saturday.",
+      "choices": [
+        "seen",
+        "saw",
+        "see",
+        "seed"
+      ],
+      "answer": "saw",
+      "explain": "'See' is irregular: its past simple is 'saw'."
+    },
+    {
+      "id": "en-ps-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ a letter to my grandma yesterday.",
+      "choices": [
+        "writed",
+        "wrote",
+        "written",
+        "write"
+      ],
+      "answer": "wrote",
+      "explain": "'Write' is irregular: its past simple is 'wrote'."
+    },
+    {
+      "id": "en-ps-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Last week we ___ (visit) our cousins.",
+      "answer": [
+        "visited"
+      ],
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "She ___ (not / like) the film, so she left early.",
+      "answer": [
+        "didn't like",
+        "did not like"
+      ],
+      "explain": "Negative past simple: didn't + base verb."
+    },
+    {
+      "id": "en-ps-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Yesterday he ___ (take) a photo of the trophy.",
+      "answer": [
+        "took"
+      ],
+      "explain": "'Take' is irregular: its past simple is 'took'."
+    },
+    {
+      "id": "en-ps-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "The boys ___ (stop) playing when it started to rain.",
+      "answer": [
+        "stopped"
+      ],
+      "explain": "A short verb ending in vowel + consonant doubles the last letter before -ed."
+    },
+    {
+      "id": "en-ps-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Yesterday our coach ___ (give) us a speech before the final.",
+      "answer": [
+        "gave"
+      ],
+      "explain": "'Give' is irregular: its past simple is 'gave'."
+    },
+    {
+      "id": "en-ps-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "My sister ___ (cry) when her team lost.",
+      "answer": [
+        "cried"
+      ],
+      "explain": "Consonant + y changes to -ied."
+    },
+    {
+      "id": "en-ps-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Last year I ___ (be) in London for a week.",
+      "answer": [
+        "was"
+      ],
+      "explain": "The past of 'be' is 'was' after I."
+    },
+    {
+      "id": "en-ps-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What time ___ the match start yesterday?",
+      "choices": [
+        "was",
+        "does",
+        "did",
+        "has"
+      ],
+      "answer": "did",
+      "explain": "Past simple questions use 'did' + base verb."
+    },
+    {
+      "id": "en-ps-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ___ her leg in the last minute of the game.",
+      "choices": [
+        "breaked",
+        "broken",
+        "break",
+        "broke"
+      ],
+      "answer": "broke",
+      "explain": "'Break' is irregular: its past simple is 'broke'."
+    },
+    {
+      "id": "en-ps-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ an email to his coach an hour ago.",
+      "choices": [
+        "sended",
+        "sending",
+        "sent",
+        "sends"
+      ],
+      "answer": "sent",
+      "explain": "'Send' is irregular: its past simple is 'sent'."
+    },
+    {
+      "id": "en-ps-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ the match because our goalkeeper made a mistake.",
+      "choices": [
+        "losed",
+        "lost",
+        "loosed",
+        "lose"
+      ],
+      "answer": "lost",
+      "explain": "'Lose' is irregular: its past simple is 'lost'."
+    },
+    {
+      "id": "en-ps-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The referee ___ the whistle and the game ended.",
+      "choices": [
+        "blowed",
+        "blew",
+        "blown",
+        "blow"
+      ],
+      "answer": "blew",
+      "explain": "'Blow' is irregular: its past simple is 'blew'."
+    },
+    {
+      "id": "en-ps-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Your grandparents visited us yesterday. What time ___ they arrive?",
+      "choices": [
+        "do",
+        "were",
+        "are",
+        "did"
+      ],
+      "answer": "did",
+      "explain": "Past simple questions use 'did' + base verb."
+    },
+    {
+      "id": "en-ps-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Mum ___ me the answer, but I didn't understand it.",
+      "choices": [
+        "told",
+        "tell",
+        "telled",
+        "tolded"
+      ],
+      "answer": "told",
+      "explain": "'Tell' is irregular: its past simple is 'told'."
+    },
+    {
+      "id": "en-ps-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We didn't ___ the goal because we were too far away.",
+      "choices": [
+        "saw",
+        "seen",
+        "see",
+        "seeing"
+      ],
+      "answer": "see",
+      "explain": "After 'didn't' we use the base verb."
+    },
+    {
+      "id": "en-ps-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ___ the winning goal in the final in 2018.",
+      "choices": [
+        "scorred",
+        "skored",
+        "scored",
+        "scores"
+      ],
+      "answer": "scored",
+      "explain": "A verb ending in -e takes just -d."
+    },
+    {
+      "id": "en-ps-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Yesterday he ___ his knee against the post.",
+      "choices": [
+        "hurt",
+        "hurted",
+        "hurts",
+        "hurting"
+      ],
+      "answer": "hurt",
+      "explain": "'Hurt' has the same form in the present and the past."
+    },
+    {
+      "id": "en-ps-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Last month they ___ a big surprise for his birthday.",
+      "choices": [
+        "planed",
+        "plan",
+        "plans",
+        "planned"
+      ],
+      "answer": "planned",
+      "explain": "A short verb ending in vowel + consonant doubles the consonant before -ed."
+    },
+    {
+      "id": "en-ps-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ in the sea every day on holiday last year.",
+      "choices": [
+        "swum",
+        "swimmed",
+        "swam",
+        "swim"
+      ],
+      "answer": "swam",
+      "explain": "'Swim' is irregular: its past simple is 'swam'."
+    },
+    {
+      "id": "en-ps-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My brother ___ to play the guitar when he was six.",
+      "choices": [
+        "begun",
+        "began",
+        "beginned",
+        "begin"
+      ],
+      "answer": "began",
+      "explain": "'Begin' is irregular: its past simple is 'began'."
+    },
+    {
+      "id": "en-ps-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Where ___ you yesterday afternoon? I called you.",
+      "choices": [
+        "was",
+        "did",
+        "are",
+        "were"
+      ],
+      "answer": "were",
+      "explain": "The past of 'be' is 'were' after 'you'."
+    },
+    {
+      "id": "en-ps-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "They ___ for the bus for twenty minutes before it came.",
+      "choices": [
+        "waited",
+        "waitted",
+        "waits",
+        "wait"
+      ],
+      "answer": "waited",
+      "explain": "Regular verbs take -ed; we don't double the t after two consonants or a long vowel."
+    },
+    {
+      "id": "en-ps-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When I was little, I ___ football every day.",
+      "choices": [
+        "use to play",
+        "was used to play",
+        "am used to playing",
+        "used to play"
+      ],
+      "answer": "used to play",
+      "explain": "'Used to' + base verb talks about past habits that have stopped."
+    },
+    {
+      "id": "en-ps-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He didn't ___ to the party last week.",
+      "choices": [
+        "come",
+        "came",
+        "comes",
+        "coming"
+      ],
+      "answer": "come",
+      "explain": "After 'didn't' we use the base verb."
+    },
+    {
+      "id": "en-ps-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Last summer they ___ to New York by plane.",
+      "choices": [
+        "flown",
+        "flied",
+        "fly",
+        "flew"
+      ],
+      "answer": "flew",
+      "explain": "'Fly' is irregular: its past simple is 'flew'."
+    },
+    {
+      "id": "en-ps-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "My uncle ___ (drive) us to the stadium last Saturday.",
+      "answer": [
+        "drove"
+      ],
+      "explain": "'Drive' is irregular: its past simple is 'drove'."
+    },
+    {
+      "id": "en-ps-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ (do / does / did) you enjoy the trip last week?",
+      "answer": [
+        "Did"
+      ],
+      "explain": "Past simple questions start with 'did'."
+    },
+    {
+      "id": "en-ps-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "She ___ (study) hard for the test, so she passed.",
+      "answer": [
+        "studied"
+      ],
+      "explain": "Consonant + y changes to -ied."
+    },
+    {
+      "id": "en-ps-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "We ___ (not / be) at home last night; we were at the stadium.",
+      "answer": [
+        "weren't",
+        "were not"
+      ],
+      "explain": "The negative of 'were' is 'weren't'."
+    },
+    {
+      "id": "en-ps-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "The player ___ (put) the ball on the spot and scored a minute ago.",
+      "answer": [
+        "put"
+      ],
+      "explain": "'Put' has the same form in the present and the past."
+    },
+    {
+      "id": "en-ps-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "He ___ (leave) the house at seven this morning.",
+      "answer": [
+        "left"
+      ],
+      "explain": "'Leave' is irregular: its past simple is 'left'."
+    },
+    {
+      "id": "en-ps-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 2018 our school ___ (build) a new gym.",
+      "answer": [
+        "built"
+      ],
+      "explain": "'Build' is irregular: its past simple is 'built'."
+    },
+    {
+      "id": "en-ps-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ my cousin since last summer.",
+      "choices": [
+        "didn't see",
+        "don't see",
+        "wasn't seeing",
+        "haven't seen"
+      ],
+      "answer": "haven't seen",
+      "explain": "'Since' links the past to now, so we use the present perfect."
+    },
+    {
+      "id": "en-ps-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We ___ to Rome in 2017.",
+      "choices": [
+        "went",
+        "have gone",
+        "have been",
+        "go"
+      ],
+      "answer": "went",
+      "explain": "With a finished time like 'in 2017' we use the past simple."
+    },
+    {
+      "id": "en-ps-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Have you ever met a famous player? Yes, I ___ one last year at the airport.",
+      "choices": [
+        "have met",
+        "meet",
+        "met",
+        "had met"
+      ],
+      "answer": "met",
+      "explain": "With 'last year' we use the past simple, not the present perfect."
+    },
+    {
+      "id": "en-ps-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ___ play tennis when he was young, but now he plays golf.",
+      "choices": [
+        "used to",
+        "use to",
+        "is used to",
+        "was used to"
+      ],
+      "answer": "used to",
+      "explain": "'Used to' + base verb talks about past habits that have stopped."
+    },
+    {
+      "id": "en-ps-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Last year they ___ in a flat, but now they have a house.",
+      "choices": [
+        "have lived",
+        "live",
+        "are living",
+        "lived"
+      ],
+      "answer": "lived",
+      "explain": "'Last year' is a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-ps-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The match ___ at three and finished at five.",
+      "choices": [
+        "has started",
+        "started",
+        "was starting",
+        "starts"
+      ],
+      "answer": "started",
+      "explain": "Two finished events in order are both in the past simple."
+    },
+    {
+      "id": "en-ps-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ my phone yesterday, but now I have found it.",
+      "choices": [
+        "have lost",
+        "lose",
+        "lost",
+        "am losing"
+      ],
+      "answer": "lost",
+      "explain": "'Yesterday' is a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-ps-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She ___ in that house for ten years, but then she moved.",
+      "choices": [
+        "has lived",
+        "lived",
+        "lives",
+        "is living"
+      ],
+      "answer": "lived",
+      "explain": "The period is finished (she moved), so we use the past simple."
+    },
+    {
+      "id": "en-ps-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ___ his shirt on a nail yesterday.",
+      "choices": [
+        "teared",
+        "torn",
+        "tore",
+        "tear"
+      ],
+      "answer": "tore",
+      "explain": "'Tear' is irregular: its past simple is 'tore'."
+    },
+    {
+      "id": "en-ps-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Someone ___ my bike last night.",
+      "choices": [
+        "stealed",
+        "stole",
+        "stolen",
+        "steal"
+      ],
+      "answer": "stole",
+      "explain": "'Steal' is irregular: its past simple is 'stole'."
+    },
+    {
+      "id": "en-ps-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ___ his ankle during training last week.",
+      "choices": [
+        "has sprained",
+        "had sprained",
+        "sprains",
+        "sprained"
+      ],
+      "answer": "sprained",
+      "explain": "'Last week' is a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-ps-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ a text from Dad half an hour ago.",
+      "choices": [
+        "got",
+        "have got",
+        "getting",
+        "gets"
+      ],
+      "answer": "got",
+      "explain": "'Ago' always goes with the past simple."
+    },
+    {
+      "id": "en-ps-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'Where's Tom?' 'He ___ out a minute ago.'",
+      "choices": [
+        "has gone",
+        "goes",
+        "was gone",
+        "went"
+      ],
+      "answer": "went",
+      "explain": "'Ago' always goes with the past simple."
+    },
+    {
+      "id": "en-ps-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ___ anything to eat since breakfast.",
+      "choices": [
+        "hasn't eaten",
+        "didn't eat",
+        "doesn't eat",
+        "hadn't ate"
+      ],
+      "answer": "hasn't eaten",
+      "explain": "'Since breakfast' links the past to now, so we use the present perfect."
+    },
+    {
+      "id": "en-ps-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Did she ___ her bag at the station?",
+      "choices": [
+        "left",
+        "leaves",
+        "leaving",
+        "leave"
+      ],
+      "answer": "leave",
+      "explain": "After 'did' we use the base verb."
+    },
+    {
+      "id": "en-ps-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How long ago ___ you move here?",
+      "choices": [
+        "have",
+        "did",
+        "do",
+        "are"
+      ],
+      "answer": "did",
+      "explain": "'How long ago' asks about a finished time, so we use 'did'."
+    },
+    {
+      "id": "en-ps-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ___ for the club since 2019.",
+      "choices": [
+        "played",
+        "plays",
+        "was playing",
+        "has played"
+      ],
+      "answer": "has played",
+      "explain": "'Since 2019' means from then until now, so we use the present perfect."
+    },
+    {
+      "id": "en-ps-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Last night I ___ asleep during the film.",
+      "choices": [
+        "fell",
+        "falled",
+        "felt",
+        "fallen"
+      ],
+      "answer": "fell",
+      "explain": "'Fall' is irregular: its past simple is 'fell'."
+    },
+    {
+      "id": "en-ps-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "They ___ (not / go) on holiday last summer because of the rain.",
+      "answer": [
+        "didn't go",
+        "did not go"
+      ],
+      "explain": "Negative past simple: didn't + base verb."
+    },
+    {
+      "id": "en-ps-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "My grandad ___ (play) rugby when he was young, but he doesn't now. (used to)",
+      "answer": [
+        "used to play"
+      ],
+      "explain": "'Used to' + base verb talks about past habits that have stopped."
+    },
+    {
+      "id": "en-ps-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "I ___ (see) that film twice last year.",
+      "answer": [
+        "saw"
+      ],
+      "explain": "'Last year' is a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-ps-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "He ___ (not / do) his homework yesterday, so he got a detention.",
+      "answer": [
+        "didn't do",
+        "did not do"
+      ],
+      "explain": "Negative past simple: didn't + base verb."
+    },
+    {
+      "id": "en-ps-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "The match was so close that nobody ___ (leave) before the final whistle.",
+      "answer": [
+        "left"
+      ],
+      "explain": "'Leave' is irregular: its past simple is 'left'."
+    },
+    {
+      "id": "en-ps-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "We ___ (swim) in the sea every day when we were in Italy.",
+      "answer": [
+        "swam"
+      ],
+      "explain": "'Swim' is irregular: its past simple is 'swam'."
+    },
+    {
+      "id": "en-ps-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "I ___ (forget) my boots at home yesterday.",
+      "answer": [
+        "forgot"
+      ],
+      "explain": "'Forget' is irregular: its past simple is 'forgot'."
+    },
+    {
+      "id": "en-ps-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last Saturday our team ___ at home.",
+      "choices": [
+        "play",
+        "plays",
+        "playing",
+        "played"
+      ],
+      "answer": "played",
+      "explain": "We use the past simple with 'last Saturday': verb + -ed."
+    },
+    {
+      "id": "en-ps-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Two days ago my cousins ___ to our house.",
+      "choices": [
+        "came",
+        "come",
+        "comed",
+        "coming"
+      ],
+      "answer": "came",
+      "explain": "'Come' is irregular: its past simple is 'came'."
+    },
+    {
+      "id": "en-ps-078",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday the keeper ___ a penalty.",
+      "choices": [
+        "save",
+        "saves",
+        "saving",
+        "saved"
+      ],
+      "answer": "saved",
+      "explain": "A verb ending in -e takes just -d in the past simple."
+    },
+    {
+      "id": "en-ps-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last night I ___ a strange noise outside.",
+      "choices": [
+        "hear",
+        "heared",
+        "heard",
+        "hearing"
+      ],
+      "answer": "heard",
+      "explain": "'Hear' is irregular: its past simple is 'heard'."
+    },
+    {
+      "id": "en-ps-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Our teacher ___ us a test last Friday.",
+      "choices": [
+        "give",
+        "gived",
+        "gave",
+        "given"
+      ],
+      "answer": "gave",
+      "explain": "'Give' is irregular: its past simple is 'gave'."
+    },
+    {
+      "id": "en-ps-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He ___ breakfast this morning because he was late.",
+      "choices": [
+        "didn't ate",
+        "didn't eat",
+        "doesn't eat",
+        "not eat"
+      ],
+      "answer": "didn't eat",
+      "explain": "After 'didn't' we use the base verb."
+    },
+    {
+      "id": "en-ps-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ your team win last Sunday?",
+      "choices": [
+        "Does",
+        "Do",
+        "Did",
+        "Was"
+      ],
+      "answer": "Did",
+      "explain": "We make past simple questions with 'did' + base verb."
+    },
+    {
+      "id": "en-ps-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ very tired last night.",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "be"
+      ],
+      "answer": "was",
+      "explain": "The past of 'be' is 'was' after I."
+    },
+    {
+      "id": "en-ps-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The boys ___ happy after the game yesterday.",
+      "choices": [
+        "was",
+        "are",
+        "were",
+        "been"
+      ],
+      "answer": "were",
+      "explain": "The past of 'be' is 'were' after a plural subject."
+    },
+    {
+      "id": "en-ps-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday I ___ a sandwich for lunch.",
+      "choices": [
+        "made",
+        "maked",
+        "make",
+        "making"
+      ],
+      "answer": "made",
+      "explain": "'Make' is irregular: its past simple is 'made'."
+    },
+    {
+      "id": "en-ps-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday we ___ a wallet on the pitch.",
+      "choices": [
+        "found",
+        "finded",
+        "founded",
+        "find"
+      ],
+      "answer": "found",
+      "explain": "'Find' is irregular: its past simple is 'found'."
+    },
+    {
+      "id": "en-ps-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last year the coach ___ the team to the final.",
+      "choices": [
+        "leaded",
+        "led",
+        "lead",
+        "leads"
+      ],
+      "answer": "led",
+      "explain": "'Lead' is irregular: its past simple is 'led'."
+    },
+    {
+      "id": "en-ps-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday it ___ all afternoon, so we stayed inside.",
+      "choices": [
+        "rained",
+        "rain",
+        "rains",
+        "raining"
+      ],
+      "answer": "rained",
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday she ___ the ball to me.",
+      "choices": [
+        "throwed",
+        "thrown",
+        "throw",
+        "threw"
+      ],
+      "answer": "threw",
+      "explain": "'Throw' is irregular: its past simple is 'threw'."
+    },
+    {
+      "id": "en-ps-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last month my brother ___ ten years old.",
+      "choices": [
+        "turn",
+        "turned",
+        "turns",
+        "turning"
+      ],
+      "answer": "turned",
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ the question yesterday, so the teacher helped her.",
+      "choices": [
+        "didn't understood",
+        "doesn't understand",
+        "not understand",
+        "didn't understand"
+      ],
+      "answer": "didn't understand",
+      "explain": "After 'didn't' we use the base verb."
+    },
+    {
+      "id": "en-ps-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What ___ you do last weekend?",
+      "choices": [
+        "do",
+        "does",
+        "did",
+        "are"
+      ],
+      "answer": "did",
+      "explain": "Past simple questions use 'did' + base verb."
+    },
+    {
+      "id": "en-ps-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ the match on TV last night.",
+      "choices": [
+        "watch",
+        "watched",
+        "watches",
+        "watching"
+      ],
+      "answer": "watched",
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-094",
+      "level": 1,
+      "type": "input",
+      "prompt": "Yesterday I ___ (walk) to school.",
+      "answer": [
+        "walked"
+      ],
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "He ___ (not / go) to training last Tuesday.",
+      "answer": [
+        "didn't go",
+        "did not go"
+      ],
+      "explain": "Negative past simple: didn't + base verb."
+    },
+    {
+      "id": "en-ps-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "Last night we ___ (have) fish for dinner.",
+      "answer": [
+        "had"
+      ],
+      "explain": "'Have' is irregular: its past simple is 'had'."
+    },
+    {
+      "id": "en-ps-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "The fans ___ (clap) when the team came out yesterday.",
+      "answer": [
+        "clapped"
+      ],
+      "explain": "A short verb ending in vowel + consonant doubles the last letter before -ed."
+    },
+    {
+      "id": "en-ps-098",
+      "level": 1,
+      "type": "input",
+      "prompt": "The crowd ___ (sing) after the final last night.",
+      "answer": [
+        "sang"
+      ],
+      "explain": "'Sing' is irregular: its past simple is 'sang'."
+    },
+    {
+      "id": "en-ps-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "She ___ (carry) the bag to the car yesterday.",
+      "answer": [
+        "carried"
+      ],
+      "explain": "Consonant + y changes to -ied."
+    },
+    {
+      "id": "en-ps-100",
+      "level": 1,
+      "type": "input",
+      "prompt": "We ___ (be) at the park last Sunday.",
+      "answer": [
+        "were"
+      ],
+      "explain": "The past of 'be' is 'were' after we."
+    },
+    {
+      "id": "en-ps-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How many players ___ you invite to your party last week?",
+      "choices": [
+        "did",
+        "do",
+        "were",
+        "have"
+      ],
+      "answer": "did",
+      "explain": "Past simple questions use 'did' + base verb."
+    },
+    {
+      "id": "en-ps-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ a lot of money on tickets last year.",
+      "choices": [
+        "spended",
+        "spend",
+        "spenting",
+        "spent"
+      ],
+      "answer": "spent",
+      "explain": "'Spend' is irregular: its past simple is 'spent'."
+    },
+    {
+      "id": "en-ps-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The fox ___ across the pitch yesterday.",
+      "choices": [
+        "run",
+        "runned",
+        "running",
+        "ran"
+      ],
+      "answer": "ran",
+      "explain": "'Run' is irregular: its past simple is 'ran'."
+    },
+    {
+      "id": "en-ps-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Last night he ___ the present under his bed.",
+      "choices": [
+        "hid",
+        "hidded",
+        "hide",
+        "hidden"
+      ],
+      "answer": "hid",
+      "explain": "'Hide' is irregular: its past simple is 'hid'."
+    },
+    {
+      "id": "en-ps-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In 2022 the captain ___ the trophy above his head.",
+      "choices": [
+        "holded",
+        "held",
+        "holds",
+        "holding"
+      ],
+      "answer": "held",
+      "explain": "'Hold' is irregular: its past simple is 'held'."
+    },
+    {
+      "id": "en-ps-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Nobody ___ the answer in class yesterday.",
+      "choices": [
+        "know",
+        "knew",
+        "knowed",
+        "known"
+      ],
+      "answer": "knew",
+      "explain": "'Know' is irregular: its past simple is 'knew'."
+    },
+    {
+      "id": "en-ps-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ to score from the halfway line last Saturday.",
+      "choices": [
+        "tryed",
+        "try",
+        "tried",
+        "tries"
+      ],
+      "answer": "tried",
+      "explain": "Consonant + y changes to -ied."
+    },
+    {
+      "id": "en-ps-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ the cup on the floor yesterday.",
+      "choices": [
+        "droped",
+        "drop",
+        "dropped",
+        "drops"
+      ],
+      "answer": "dropped",
+      "explain": "A short verb ending in vowel + consonant doubles the last letter before -ed."
+    },
+    {
+      "id": "en-ps-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I ___ him an hour ago, but he didn't answer.",
+      "choices": [
+        "rang",
+        "ringed",
+        "rung",
+        "ring"
+      ],
+      "answer": "rang",
+      "explain": "'Ring' is irregular: its past simple is 'rang'."
+    },
+    {
+      "id": "en-ps-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When ___ the final end last night?",
+      "choices": [
+        "does",
+        "was",
+        "has",
+        "did"
+      ],
+      "answer": "did",
+      "explain": "Past simple questions use 'did' + base verb."
+    },
+    {
+      "id": "en-ps-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Yesterday he ___ a picture of the stadium.",
+      "choices": [
+        "drawed",
+        "drew",
+        "drawn",
+        "draw"
+      ],
+      "answer": "drew",
+      "explain": "'Draw' is irregular: its past simple is 'drew'."
+    },
+    {
+      "id": "en-ps-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ outside for hours last winter, and we were cold.",
+      "choices": [
+        "standed",
+        "stand",
+        "stands",
+        "stood"
+      ],
+      "answer": "stood",
+      "explain": "'Stand' is irregular: its past simple is 'stood'."
+    },
+    {
+      "id": "en-ps-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ ten push-ups yesterday.",
+      "choices": [
+        "done",
+        "did",
+        "doed",
+        "does"
+      ],
+      "answer": "did",
+      "explain": "'Do' is irregular: its past simple is 'did'."
+    },
+    {
+      "id": "en-ps-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When we were children, we ___ to the lake every summer.",
+      "choices": [
+        "use to go",
+        "used to go",
+        "were used to go",
+        "are used to going"
+      ],
+      "answer": "used to go",
+      "explain": "'Used to' + base verb talks about past habits that have stopped."
+    },
+    {
+      "id": "en-ps-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She didn't ___ the film last night.",
+      "choices": [
+        "enjoy",
+        "enjoyed",
+        "enjoys",
+        "enjoying"
+      ],
+      "answer": "enjoy",
+      "explain": "After 'didn't' we use the base verb."
+    },
+    {
+      "id": "en-ps-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ born in Lyon in 2014.",
+      "choices": [
+        "were",
+        "is",
+        "was",
+        "did"
+      ],
+      "answer": "was",
+      "explain": "'Was born' is the past passive of 'be born'; 'was' goes with he."
+    },
+    {
+      "id": "en-ps-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I felt cold, so I ___ a jumper yesterday.",
+      "choices": [
+        "weared",
+        "worn",
+        "wear",
+        "wore"
+      ],
+      "answer": "wore",
+      "explain": "'Wear' is irregular: its past simple is 'wore'."
+    },
+    {
+      "id": "en-ps-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The match ___ two hours yesterday because of the rain delay.",
+      "choices": [
+        "lasted",
+        "last",
+        "lasts",
+        "lasting"
+      ],
+      "answer": "lasted",
+      "explain": "Regular verbs take -ed in the past simple."
+    },
+    {
+      "id": "en-ps-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "The referee ___ (blow) his whistle ten seconds ago.",
+      "answer": [
+        "blew"
+      ],
+      "explain": "'Blow' is irregular: its past simple is 'blew'."
+    },
+    {
+      "id": "en-ps-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "We ___ (not / win) the cup last year.",
+      "answer": [
+        "didn't win",
+        "did not win"
+      ],
+      "explain": "Negative past simple: didn't + base verb."
+    },
+    {
+      "id": "en-ps-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ (do / did) your cousin come to the party last Saturday?",
+      "answer": [
+        "Did"
+      ],
+      "explain": "Past simple questions start with 'did'."
+    },
+    {
+      "id": "en-ps-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "She ___ (hurry) to the station because she was late this morning.",
+      "answer": [
+        "hurried"
+      ],
+      "explain": "Consonant + y changes to -ied."
+    },
+    {
+      "id": "en-ps-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "He ___ (shoot) from outside the box and hit the post in the first half yesterday.",
+      "answer": [
+        "shot"
+      ],
+      "explain": "'Shoot' is irregular: its past simple is 'shot'."
+    },
+    {
+      "id": "en-ps-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "They ___ (not / be) happy with the result last night.",
+      "answer": [
+        "weren't",
+        "were not"
+      ],
+      "explain": "The negative of 'were' is 'weren't'."
+    },
+    {
+      "id": "en-ps-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "Last summer we ___ (ride) horses on the beach.",
+      "answer": [
+        "rode"
+      ],
+      "explain": "'Ride' is irregular: its past simple is 'rode'."
+    },
+    {
+      "id": "en-ps-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ that film last night, so I know the ending.",
+      "choices": [
+        "have seen",
+        "saw",
+        "see",
+        "was seeing"
+      ],
+      "answer": "saw",
+      "explain": "'Last night' is a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-ps-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ to Japan twice so far in my life.",
+      "choices": [
+        "have been",
+        "went",
+        "was",
+        "had been"
+      ],
+      "answer": "have been",
+      "explain": "'So far' links the past to now, so we use the present perfect."
+    },
+    {
+      "id": "en-ps-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ___ here since last Monday.",
+      "choices": [
+        "was",
+        "is",
+        "had been",
+        "has been"
+      ],
+      "answer": "has been",
+      "explain": "'Since' links the past to now, so we use the present perfect."
+    },
+    {
+      "id": "en-ps-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My uncle ___ in Canada for three years, but then he moved to France in 2015.",
+      "choices": [
+        "lived",
+        "has lived",
+        "lives",
+        "is living"
+      ],
+      "answer": "lived",
+      "explain": "The period is finished (he moved in 2015), so we use the past simple."
+    },
+    {
+      "id": "en-ps-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "When ___ the new stadium open? It opened ten years ago.",
+      "choices": [
+        "has",
+        "does",
+        "did",
+        "is"
+      ],
+      "answer": "did",
+      "explain": "A question about a finished time uses 'did' + base verb."
+    },
+    {
+      "id": "en-ps-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We ___ play chess every evening when I was ten.",
+      "choices": [
+        "use to",
+        "were used to",
+        "used to",
+        "are used to"
+      ],
+      "answer": "used to",
+      "explain": "'Used to' + base verb talks about past habits that have stopped."
+    },
+    {
+      "id": "en-ps-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I never ___ to like fish, but now I love it.",
+      "choices": [
+        "use",
+        "was used",
+        "used",
+        "am used"
+      ],
+      "answer": "used",
+      "explain": "'Never used to' + base verb talks about a past state that has changed."
+    },
+    {
+      "id": "en-ps-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She ___ her wallet on the bus yesterday, so she walked home.",
+      "choices": [
+        "leaves",
+        "has left",
+        "left",
+        "was leaving"
+      ],
+      "answer": "left",
+      "explain": "'Yesterday' is a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-ps-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The goalkeeper ___ across the wet grass yesterday.",
+      "choices": [
+        "slid",
+        "slided",
+        "slidden",
+        "slide"
+      ],
+      "answer": "slid",
+      "explain": "'Slide' is irregular: its past simple is 'slid'."
+    },
+    {
+      "id": "en-ps-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ my brother's bike without asking last weekend.",
+      "choices": [
+        "taked",
+        "took",
+        "taken",
+        "take"
+      ],
+      "answer": "took",
+      "explain": "'Take' is irregular: its past simple is 'took'."
+    },
+    {
+      "id": "en-ps-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "An earthquake ___ the town in 2005.",
+      "choices": [
+        "shaked",
+        "shaken",
+        "shake",
+        "shook"
+      ],
+      "answer": "shook",
+      "explain": "'Shake' is irregular: its past simple is 'shook'."
+    },
+    {
+      "id": "en-ps-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He ___ sorry for what he said last night.",
+      "choices": [
+        "feeled",
+        "feels",
+        "felt",
+        "felled"
+      ],
+      "answer": "felt",
+      "explain": "'Feel' is irregular: its past simple is 'felt'."
+    },
+    {
+      "id": "en-ps-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The dog ___ the postman yesterday.",
+      "choices": [
+        "bitted",
+        "bit",
+        "bitten",
+        "bite"
+      ],
+      "answer": "bit",
+      "explain": "'Bite' is irregular: its past simple is 'bit'."
+    },
+    {
+      "id": "en-ps-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She ___ the whistle because the crowd was so loud.",
+      "choices": [
+        "didn't heard",
+        "hasn't heard",
+        "doesn't hear",
+        "didn't hear"
+      ],
+      "answer": "didn't hear",
+      "explain": "After 'didn't' we use the base verb."
+    },
+    {
+      "id": "en-ps-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Last night I ___ for ten hours.",
+      "choices": [
+        "sleeped",
+        "sleep",
+        "slepted",
+        "slept"
+      ],
+      "answer": "slept",
+      "explain": "'Sleep' is irregular: its past simple is 'slept'."
+    },
+    {
+      "id": "en-ps-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why ___ you laugh at the end of the film yesterday?",
+      "choices": [
+        "do",
+        "did",
+        "have",
+        "are"
+      ],
+      "answer": "did",
+      "explain": "Past simple questions use 'did' + base verb."
+    },
+    {
+      "id": "en-ps-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ you ever play chess when you were ten?",
+      "choices": [
+        "Did",
+        "Have",
+        "Do",
+        "Had"
+      ],
+      "answer": "Did",
+      "explain": "'When you were ten' is a finished time, so we use 'did'."
+    },
+    {
+      "id": "en-ps-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "They ___ married in 2012.",
+      "choices": [
+        "have got",
+        "got",
+        "get",
+        "have gotten"
+      ],
+      "answer": "got",
+      "explain": "'In 2012' is a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-ps-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "I ___ (not / see) him since Monday.",
+      "answer": [
+        "haven't seen",
+        "have not seen"
+      ],
+      "explain": "'Since' links the past to now, so we use the present perfect."
+    },
+    {
+      "id": "en-ps-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "We ___ (play) in the street every day when we were kids. (used to)",
+      "answer": [
+        "used to play"
+      ],
+      "explain": "'Used to' + base verb talks about past habits that have stopped."
+    },
+    {
+      "id": "en-ps-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "He ___ (win) the prize in 2019 and again in 2021.",
+      "answer": [
+        "won"
+      ],
+      "explain": "Finished years like 2019 need the past simple."
+    },
+    {
+      "id": "en-ps-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "I ___ (read) three books last month.",
+      "answer": [
+        "read"
+      ],
+      "explain": "'Read' is spelled the same in the past simple, but pronounced 'red'."
+    },
+    {
+      "id": "en-ps-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "She ___ (fly) to Paris two days ago.",
+      "answer": [
+        "flew"
+      ],
+      "explain": "'Ago' always goes with the past simple."
+    },
+    {
+      "id": "en-ps-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "Yesterday they ___ (not / know) the answer.",
+      "answer": [
+        "didn't know",
+        "did not know"
+      ],
+      "explain": "Negative past simple: didn't + base verb."
+    },
+    {
+      "id": "en-ps-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "He ___ (feel) ill yesterday, so he stayed at home.",
+      "answer": [
+        "felt"
+      ],
+      "explain": "'Feel' is irregular: its past simple is 'felt'."
+    }
+  ]
+}

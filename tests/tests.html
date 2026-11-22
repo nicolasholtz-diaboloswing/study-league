@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Study League tests (running)</title>
+</head>
+<body>
+<pre id="results">running...</pre>
+<script type="module">
+import { runAll } from './runner.js';
+
+const files = ['rng', 'questions', 'match', 'league', 'rewards', 'stats', 'state', 'store-local', 'ui-utils'];
+const loadFailures = [];
+for (const f of files) {
+  try {
+    await import(`./${f}.test.js`);
+  } catch (e) {
+    loadFailures.push({ name: `load ${f}.test.js`, error: String(e && e.stack ? e.stack.split('\n').slice(0, 3).join(' | ') : e) });
+  }
+}
+const r = await runAll();
+const failures = [...loadFailures, ...r.failures];
+const total = r.total + loadFailures.length;
+const first = failures.length ? `FAIL ${failures.length}/${total}` : `PASS ${total}/${total}`;
+document.getElementById('results').textContent =
+  first + '\n' + failures.map((f) => `- ${f.name}: ${f.error}`).join('\n');
+document.title = first;
+</script>
+</body>
+</html>

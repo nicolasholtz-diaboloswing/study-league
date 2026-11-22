@@ -1,0 +1,724 @@
+{
+ "cards": [
+  {
+   "id": "p001",
+   "name": "Zinedine Zidane",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 94,
+   "rarity": "legend",
+   "era": "1998"
+  },
+  {
+   "id": "p002",
+   "name": "Michel Platini",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 92,
+   "rarity": "legend",
+   "era": "1984"
+  },
+  {
+   "id": "p003",
+   "name": "Thierry Henry",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 91,
+   "rarity": "legend",
+   "era": "1998"
+  },
+  {
+   "id": "p004",
+   "name": "Kylian Mbappé",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 90,
+   "rarity": "legend",
+   "era": "2024"
+  },
+  {
+   "id": "p005",
+   "name": "Antoine Griezmann",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "2018"
+  },
+  {
+   "id": "p006",
+   "name": "Karim Benzema",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "2014"
+  },
+  {
+   "id": "p007",
+   "name": "N'Golo Kanté",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2018"
+  },
+  {
+   "id": "p008",
+   "name": "Paul Pogba",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "2018"
+  },
+  {
+   "id": "p009",
+   "name": "Patrick Vieira",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "1998"
+  },
+  {
+   "id": "p010",
+   "name": "Lilian Thuram",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "1998"
+  },
+  {
+   "id": "p011",
+   "name": "Marcel Desailly",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 85,
+   "rarity": "epic",
+   "era": "1998"
+  },
+  {
+   "id": "p012",
+   "name": "Just Fontaine",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 85,
+   "rarity": "epic",
+   "era": "1958"
+  },
+  {
+   "id": "p013",
+   "name": "Raymond Kopa",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 84,
+   "rarity": "epic",
+   "era": "1958"
+  },
+  {
+   "id": "p014",
+   "name": "Laurent Blanc",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 83,
+   "rarity": "epic",
+   "era": "1998"
+  },
+  {
+   "id": "p015",
+   "name": "Fabien Barthez",
+   "pos": "GK",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p016",
+   "name": "Hugo Lloris",
+   "pos": "GK",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p017",
+   "name": "Raphaël Varane",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p018",
+   "name": "Olivier Giroud",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p019",
+   "name": "William Saliba",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2024"
+  },
+  {
+   "id": "p020",
+   "name": "Mike Maignan",
+   "pos": "GK",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 81,
+   "rarity": "rare",
+   "era": "2024"
+  },
+  {
+   "id": "p021",
+   "name": "Didier Deschamps",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p022",
+   "name": "Bixente Lizarazu",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p023",
+   "name": "Emmanuel Petit",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p024",
+   "name": "David Trezeguet",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p025",
+   "name": "Ousmane Dembélé",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p026",
+   "name": "Aurélien Tchouaméni",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2024"
+  },
+  {
+   "id": "p027",
+   "name": "Youri Djorkaeff",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p028",
+   "name": "Claude Makélélé",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p029",
+   "name": "Franck Ribéry",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p030",
+   "name": "Robert Pires",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p031",
+   "name": "Eduardo Camavinga",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "2024"
+  },
+  {
+   "id": "p032",
+   "name": "Eric Cantona",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 78,
+   "rarity": "rare",
+   "era": "1992"
+  },
+  {
+   "id": "p033",
+   "name": "Patrice Evra",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 77,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p034",
+   "name": "Blaise Matuidi",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 77,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p035",
+   "name": "Benjamin Pavard",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 77,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p036",
+   "name": "Samuel Umtiti",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 76,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p037",
+   "name": "Christophe Dugarry",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p038",
+   "name": "Lucas Hernandez",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p039",
+   "name": "Jules Koundé",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p040",
+   "name": "Marcus Thuram",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p041",
+   "name": "Frank Leboeuf",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p042",
+   "name": "Presnel Kimpembe",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p043",
+   "name": "Nabil Fekir",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p044",
+   "name": "Dayot Upamecano",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p045",
+   "name": "Ibrahima Konaté",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p046",
+   "name": "Christian Karembeu",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p047",
+   "name": "Lucas Digne",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p048",
+   "name": "Kingsley Coman",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p049",
+   "name": "Sylvain Wiltord",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "p050",
+   "name": "Thomas Lemar",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 71,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p051",
+   "name": "Corentin Tolisso",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 71,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p052",
+   "name": "Michael Olise",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 71,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p053",
+   "name": "Willy Sagnol",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 71,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "p054",
+   "name": "Vincent Candela",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 70,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p055",
+   "name": "Benjamin Mendy",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 70,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p056",
+   "name": "Florian Thauvin",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 70,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p057",
+   "name": "Steve Mandanda",
+   "pos": "GK",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 70,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p058",
+   "name": "Steven Nzonzi",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 70,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p059",
+   "name": "Randal Kolo Muani",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 70,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p060",
+   "name": "Bradley Barcola",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 70,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p061",
+   "name": "Djibril Sidibé",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 69,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p062",
+   "name": "Youssouf Fofana",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 69,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p063",
+   "name": "Alain Boghossian",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 68,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p064",
+   "name": "Stéphane Guivarc'h",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 68,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p065",
+   "name": "Alphonse Areola",
+   "pos": "GK",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 68,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p066",
+   "name": "Warren Zaïre-Emery",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 68,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p067",
+   "name": "Louis Saha",
+   "pos": "FWD",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 68,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "p068",
+   "name": "Florent Malouda",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 68,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "p069",
+   "name": "Bernard Lama",
+   "pos": "GK",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 67,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p070",
+   "name": "Mattéo Guendouzi",
+   "pos": "MID",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 67,
+   "rarity": "common",
+   "era": "2024"
+  },
+  {
+   "id": "p071",
+   "name": "Gaël Clichy",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 64,
+   "rarity": "common",
+   "era": "2010"
+  },
+  {
+   "id": "p072",
+   "name": "Théo Hernandez",
+   "pos": "DEF",
+   "nation": "France",
+   "flag": "🇫🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2024"
+  }
+ ]
+}

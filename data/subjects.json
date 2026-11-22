@@ -1,0 +1,83 @@
+{
+  "subjects": [
+    {
+      "id": "en",
+      "name": "Anglais",
+      "icon": "🇬🇧",
+      "topics": [
+        {
+          "id": "en-determiners",
+          "name": "Determiners",
+          "file": "data/en/determiners.json",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "en-past-simple",
+          "name": "Past simple",
+          "file": "data/en/past-simple.json",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "en-past-perfect",
+          "name": "Past perfect",
+          "file": "data/en/past-perfect.json",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "en-irregular-verbs",
+          "name": "Irregular verbs",
+          "file": "data/en/irregular-verbs.json",
+          "squads": [
+            "u10",
+            "u13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr",
+      "name": "Français",
+      "icon": "🇫🇷",
+      "topics": [
+        {
+          "id": "fr-conjugaison",
+          "name": "Conjugaison",
+          "file": "data/fr/conjugaison.json",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "fr-orthographe",
+          "name": "Orthographe et accords",
+          "file": "data/fr/orthographe.json",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "fr-grammaire",
+          "name": "Grammaire",
+          "file": "data/fr/grammaire.json",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "fr-vocabulaire",
+          "name": "Vocabulaire",
+          "file": "data/fr/vocabulaire.json",
+          "squads": [
+            "u13"
+          ]
+        }
+      ]
+    }
+  ]
+}

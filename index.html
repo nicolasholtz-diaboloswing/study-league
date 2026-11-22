@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.gstatic.com/firebasejs/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com; frame-src https://study-league-83cbe.firebaseapp.com; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Study League</title>
+  <meta name="description" content="Joue des matchs de foot, réponds aux questions, grimpe au classement.">
+  <meta name="theme-color" content="#08142e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M10 6H54V34C54 48 44 56 32 61C20 56 10 48 10 34Z' fill='%231fb457' stroke='%23fbbf24' stroke-width='4'/%3E%3Ccircle cx='32' cy='30' r='9' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/views.css">
+  <link rel="stylesheet" href="css/views-meta.css">
+</head>
+<body>
+  <a class="skip-link" href="#view">Aller au contenu</a>
+  <div class="app">
+    <header class="topbar" id="topbar">
+      <a class="topbar__club" href="#/home" aria-label="Accueil">
+        <span class="topbar__crest" id="top-crest"></span>
+        <span class="topbar__name" id="top-club">Study League</span>
+      </a>
+      <div class="topbar__level" id="top-level"><!-- main.js renders xpBar({compact:true}) here --></div>
+      <div class="topbar__coins" id="top-coins" title="Pièces"><span class="coin-icon" aria-hidden="true">$</span><span class="num" id="top-coins-n">0</span><span class="sr-only"> pièces</span></div>
+    </header>
+
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a class="nav__link" href="#/home" data-route="home">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg>
+        <span class="nav__label">Accueil</span></a>
+      <a class="nav__link" href="#/league" data-route="league">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H4v1a4 4 0 0 0 4 4M16 6h4v1a4 4 0 0 1-4 4"/><path d="M12 13v4M8 21h8M9 17h6"/></svg>
+        <span class="nav__label">Championnat</span></a>
+      <a class="nav__link" href="#/training" data-route="training">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8l3.5 2.5-1.3 4h-4.4l-1.3-4z"/><path d="M12 3v5M20.5 9.5L15.5 10.5M17 19l-2.8-4.5M7 19l2.8-4.5M3.5 9.5l5 1"/></svg>
+        <span class="nav__label">Entraînement</span></a>
+      <a class="nav__link" href="#/cards" data-route="cards">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2.5"/><circle cx="12" cy="10" r="2.5"/><path d="M8.5 17c.7-2 2-3 3.5-3s2.8 1 3.5 3"/></svg>
+        <span class="nav__label">Cartes</span></a>
+      <a class="nav__link" href="#/rivals" data-route="rivals">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg>
+        <span class="nav__label">Rivaux</span></a>
+      <a class="nav__link" href="#/more" data-route="more">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+        <span class="nav__label">Plus</span></a>
+    </nav>
+
+    <main class="main" id="main">
+      <div id="view" tabindex="-1"><!-- views render here --></div>
+      <noscript><p style="padding:1rem">Study League a besoin de JavaScript.</p></noscript>
+    </main>
+  </div>
+
+  <div class="overlay-layer" id="overlay"></div>
+  <div class="modal-root" id="modal-root"></div>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

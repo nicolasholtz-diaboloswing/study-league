@@ -1,0 +1,831 @@
+{
+  "topic": "en-irregular-verbs",
+  "kind": "verbs",
+  "verbs": [
+    {
+      "base": "be",
+      "past": [
+        "was",
+        "were"
+      ],
+      "pp": "been",
+      "level": 1
+    },
+    {
+      "base": "begin",
+      "past": "began",
+      "pp": "begun",
+      "level": 1
+    },
+    {
+      "base": "break",
+      "past": "broke",
+      "pp": "broken",
+      "level": 1
+    },
+    {
+      "base": "bring",
+      "past": "brought",
+      "pp": "brought",
+      "level": 1
+    },
+    {
+      "base": "build",
+      "past": "built",
+      "pp": "built",
+      "level": 1
+    },
+    {
+      "base": "buy",
+      "past": "bought",
+      "pp": "bought",
+      "level": 1
+    },
+    {
+      "base": "catch",
+      "past": "caught",
+      "pp": "caught",
+      "level": 1
+    },
+    {
+      "base": "choose",
+      "past": "chose",
+      "pp": "chosen",
+      "level": 1
+    },
+    {
+      "base": "come",
+      "past": "came",
+      "pp": "come",
+      "level": 1
+    },
+    {
+      "base": "cut",
+      "past": "cut",
+      "pp": "cut",
+      "level": 1
+    },
+    {
+      "base": "do",
+      "past": "did",
+      "pp": "done",
+      "level": 1
+    },
+    {
+      "base": "draw",
+      "past": "drew",
+      "pp": "drawn",
+      "level": 1
+    },
+    {
+      "base": "drink",
+      "past": "drank",
+      "pp": "drunk",
+      "level": 1
+    },
+    {
+      "base": "drive",
+      "past": "drove",
+      "pp": "driven",
+      "level": 1
+    },
+    {
+      "base": "eat",
+      "past": "ate",
+      "pp": "eaten",
+      "level": 1
+    },
+    {
+      "base": "fall",
+      "past": "fell",
+      "pp": "fallen",
+      "level": 1
+    },
+    {
+      "base": "feel",
+      "past": "felt",
+      "pp": "felt",
+      "level": 1
+    },
+    {
+      "base": "find",
+      "past": "found",
+      "pp": "found",
+      "level": 1
+    },
+    {
+      "base": "fly",
+      "past": "flew",
+      "pp": "flown",
+      "level": 1
+    },
+    {
+      "base": "forget",
+      "past": "forgot",
+      "pp": [
+        "forgotten",
+        "forgot"
+      ],
+      "level": 1
+    },
+    {
+      "base": "get",
+      "past": "got",
+      "pp": [
+        "gotten",
+        "got"
+      ],
+      "level": 1
+    },
+    {
+      "base": "give",
+      "past": "gave",
+      "pp": "given",
+      "level": 1
+    },
+    {
+      "base": "go",
+      "past": "went",
+      "pp": "gone",
+      "level": 1
+    },
+    {
+      "base": "have",
+      "past": "had",
+      "pp": "had",
+      "level": 1
+    },
+    {
+      "base": "hear",
+      "past": "heard",
+      "pp": "heard",
+      "level": 1
+    },
+    {
+      "base": "hit",
+      "past": "hit",
+      "pp": "hit",
+      "level": 1
+    },
+    {
+      "base": "hold",
+      "past": "held",
+      "pp": "held",
+      "level": 1
+    },
+    {
+      "base": "keep",
+      "past": "kept",
+      "pp": "kept",
+      "level": 1
+    },
+    {
+      "base": "know",
+      "past": "knew",
+      "pp": "known",
+      "level": 1
+    },
+    {
+      "base": "leave",
+      "past": "left",
+      "pp": "left",
+      "level": 1
+    },
+    {
+      "base": "lose",
+      "past": "lost",
+      "pp": "lost",
+      "level": 1
+    },
+    {
+      "base": "make",
+      "past": "made",
+      "pp": "made",
+      "level": 1
+    },
+    {
+      "base": "meet",
+      "past": "met",
+      "pp": "met",
+      "level": 1
+    },
+    {
+      "base": "put",
+      "past": "put",
+      "pp": "put",
+      "level": 1
+    },
+    {
+      "base": "read",
+      "past": "read",
+      "pp": "read",
+      "level": 1
+    },
+    {
+      "base": "run",
+      "past": "ran",
+      "pp": "run",
+      "level": 1
+    },
+    {
+      "base": "say",
+      "past": "said",
+      "pp": "said",
+      "level": 1
+    },
+    {
+      "base": "see",
+      "past": "saw",
+      "pp": "seen",
+      "level": 1
+    },
+    {
+      "base": "sell",
+      "past": "sold",
+      "pp": "sold",
+      "level": 1
+    },
+    {
+      "base": "send",
+      "past": "sent",
+      "pp": "sent",
+      "level": 1
+    },
+    {
+      "base": "sing",
+      "past": "sang",
+      "pp": "sung",
+      "level": 2
+    },
+    {
+      "base": "sit",
+      "past": "sat",
+      "pp": "sat",
+      "level": 2
+    },
+    {
+      "base": "sleep",
+      "past": "slept",
+      "pp": "slept",
+      "level": 2
+    },
+    {
+      "base": "speak",
+      "past": "spoke",
+      "pp": "spoken",
+      "level": 2
+    },
+    {
+      "base": "spend",
+      "past": "spent",
+      "pp": "spent",
+      "level": 2
+    },
+    {
+      "base": "stand",
+      "past": "stood",
+      "pp": "stood",
+      "level": 2
+    },
+    {
+      "base": "steal",
+      "past": "stole",
+      "pp": "stolen",
+      "level": 2
+    },
+    {
+      "base": "swim",
+      "past": "swam",
+      "pp": "swum",
+      "level": 2
+    },
+    {
+      "base": "take",
+      "past": "took",
+      "pp": "taken",
+      "level": 2
+    },
+    {
+      "base": "teach",
+      "past": "taught",
+      "pp": "taught",
+      "level": 2
+    },
+    {
+      "base": "tell",
+      "past": "told",
+      "pp": "told",
+      "level": 2
+    },
+    {
+      "base": "think",
+      "past": "thought",
+      "pp": "thought",
+      "level": 2
+    },
+    {
+      "base": "throw",
+      "past": "threw",
+      "pp": "thrown",
+      "level": 2
+    },
+    {
+      "base": "understand",
+      "past": "understood",
+      "pp": "understood",
+      "level": 2
+    },
+    {
+      "base": "wear",
+      "past": "wore",
+      "pp": "worn",
+      "level": 2
+    },
+    {
+      "base": "win",
+      "past": "won",
+      "pp": "won",
+      "level": 2
+    },
+    {
+      "base": "write",
+      "past": "wrote",
+      "pp": "written",
+      "level": 2
+    },
+    {
+      "base": "hide",
+      "past": "hid",
+      "pp": "hidden",
+      "level": 2
+    },
+    {
+      "base": "ride",
+      "past": "rode",
+      "pp": "ridden",
+      "level": 2
+    },
+    {
+      "base": "ring",
+      "past": "rang",
+      "pp": "rung",
+      "level": 2
+    },
+    {
+      "base": "rise",
+      "past": "rose",
+      "pp": "risen",
+      "level": 2
+    },
+    {
+      "base": "shake",
+      "past": "shook",
+      "pp": "shaken",
+      "level": 2
+    },
+    {
+      "base": "shoot",
+      "past": "shot",
+      "pp": "shot",
+      "level": 2
+    },
+    {
+      "base": "shut",
+      "past": "shut",
+      "pp": "shut",
+      "level": 2
+    },
+    {
+      "base": "sink",
+      "past": [
+        "sank",
+        "sunk"
+      ],
+      "pp": "sunk",
+      "level": 2
+    },
+    {
+      "base": "let",
+      "past": "let",
+      "pp": "let",
+      "level": 2
+    },
+    {
+      "base": "lend",
+      "past": "lent",
+      "pp": "lent",
+      "level": 2
+    },
+    {
+      "base": "burn",
+      "past": [
+        "burned",
+        "burnt"
+      ],
+      "pp": [
+        "burned",
+        "burnt"
+      ],
+      "level": 2
+    },
+    {
+      "base": "dream",
+      "past": [
+        "dreamed",
+        "dreamt"
+      ],
+      "pp": [
+        "dreamed",
+        "dreamt"
+      ],
+      "level": 2
+    },
+    {
+      "base": "fight",
+      "past": "fought",
+      "pp": "fought",
+      "level": 2
+    },
+    {
+      "base": "feed",
+      "past": "fed",
+      "pp": "fed",
+      "level": 2
+    },
+    {
+      "base": "hang",
+      "past": [
+        "hung",
+        "hanged"
+      ],
+      "pp": [
+        "hung",
+        "hanged"
+      ],
+      "level": 2
+    },
+    {
+      "base": "hurt",
+      "past": "hurt",
+      "pp": "hurt",
+      "level": 2
+    },
+    {
+      "base": "lead",
+      "past": "led",
+      "pp": "led",
+      "level": 2
+    },
+    {
+      "base": "learn",
+      "past": [
+        "learned",
+        "learnt"
+      ],
+      "pp": [
+        "learned",
+        "learnt"
+      ],
+      "level": 2
+    },
+    {
+      "base": "mean",
+      "past": "meant",
+      "pp": "meant",
+      "level": 2
+    },
+    {
+      "base": "pay",
+      "past": "paid",
+      "pp": "paid",
+      "level": 2
+    },
+    {
+      "base": "set",
+      "past": "set",
+      "pp": "set",
+      "level": 2
+    },
+    {
+      "base": "show",
+      "past": "showed",
+      "pp": [
+        "shown",
+        "showed"
+      ],
+      "level": 2
+    },
+    {
+      "base": "wake",
+      "past": "woke",
+      "pp": [
+        "woken",
+        "woke"
+      ],
+      "level": 2
+    },
+    {
+      "base": "forbid",
+      "past": [
+        "forbade",
+        "forbid"
+      ],
+      "pp": [
+        "forbidden",
+        "forbid"
+      ],
+      "level": 3
+    },
+    {
+      "base": "seek",
+      "past": "sought",
+      "pp": "sought",
+      "level": 3
+    },
+    {
+      "base": "weave",
+      "past": [
+        "wove",
+        "weaved"
+      ],
+      "pp": [
+        "woven",
+        "weaved"
+      ],
+      "level": 3
+    },
+    {
+      "base": "strive",
+      "past": [
+        "strove",
+        "strived"
+      ],
+      "pp": [
+        "striven",
+        "strived"
+      ],
+      "level": 3
+    },
+    {
+      "base": "shrink",
+      "past": [
+        "shrank",
+        "shrunk"
+      ],
+      "pp": [
+        "shrunk",
+        "shrunken"
+      ],
+      "level": 3
+    },
+    {
+      "base": "bite",
+      "past": "bit",
+      "pp": "bitten",
+      "level": 3
+    },
+    {
+      "base": "bind",
+      "past": "bound",
+      "pp": "bound",
+      "level": 3
+    },
+    {
+      "base": "bleed",
+      "past": "bled",
+      "pp": "bled",
+      "level": 3
+    },
+    {
+      "base": "blow",
+      "past": "blew",
+      "pp": "blown",
+      "level": 3
+    },
+    {
+      "base": "breed",
+      "past": "bred",
+      "pp": "bred",
+      "level": 3
+    },
+    {
+      "base": "bend",
+      "past": "bent",
+      "pp": "bent",
+      "level": 3
+    },
+    {
+      "base": "bet",
+      "past": [
+        "bet",
+        "betted"
+      ],
+      "pp": [
+        "bet",
+        "betted"
+      ],
+      "level": 3
+    },
+    {
+      "base": "creep",
+      "past": "crept",
+      "pp": "crept",
+      "level": 3
+    },
+    {
+      "base": "deal",
+      "past": "dealt",
+      "pp": "dealt",
+      "level": 3
+    },
+    {
+      "base": "dig",
+      "past": "dug",
+      "pp": "dug",
+      "level": 3
+    },
+    {
+      "base": "dive",
+      "past": [
+        "dived",
+        "dove"
+      ],
+      "pp": [
+        "dived",
+        "dove"
+      ],
+      "level": 3
+    },
+    {
+      "base": "flee",
+      "past": "fled",
+      "pp": "fled",
+      "level": 3
+    },
+    {
+      "base": "fling",
+      "past": "flung",
+      "pp": "flung",
+      "level": 3
+    },
+    {
+      "base": "forgive",
+      "past": "forgave",
+      "pp": "forgiven",
+      "level": 3
+    },
+    {
+      "base": "freeze",
+      "past": "froze",
+      "pp": "frozen",
+      "level": 3
+    },
+    {
+      "base": "grind",
+      "past": "ground",
+      "pp": "ground",
+      "level": 3
+    },
+    {
+      "base": "grow",
+      "past": "grew",
+      "pp": "grown",
+      "level": 3
+    },
+    {
+      "base": "kneel",
+      "past": [
+        "knelt",
+        "kneeled"
+      ],
+      "pp": [
+        "knelt",
+        "kneeled"
+      ],
+      "level": 3
+    },
+    {
+      "base": "lay",
+      "past": "laid",
+      "pp": "laid",
+      "level": 3
+    },
+    {
+      "base": "lie",
+      "past": "lay",
+      "pp": "lain",
+      "level": 3
+    },
+    {
+      "base": "overcome",
+      "past": "overcame",
+      "pp": "overcome",
+      "level": 3
+    },
+    {
+      "base": "prove",
+      "past": "proved",
+      "pp": [
+        "proven",
+        "proved"
+      ],
+      "level": 3
+    },
+    {
+      "base": "quit",
+      "past": [
+        "quit",
+        "quitted"
+      ],
+      "pp": [
+        "quit",
+        "quitted"
+      ],
+      "level": 3
+    },
+    {
+      "base": "shed",
+      "past": "shed",
+      "pp": "shed",
+      "level": 3
+    },
+    {
+      "base": "sew",
+      "past": "sewed",
+      "pp": [
+        "sewn",
+        "sewed"
+      ],
+      "level": 3
+    },
+    {
+      "base": "slide",
+      "past": "slid",
+      "pp": "slid",
+      "level": 3
+    },
+    {
+      "base": "spin",
+      "past": [
+        "spun",
+        "span"
+      ],
+      "pp": "spun",
+      "level": 3
+    },
+    {
+      "base": "spread",
+      "past": "spread",
+      "pp": "spread",
+      "level": 3
+    },
+    {
+      "base": "spring",
+      "past": [
+        "sprang",
+        "sprung"
+      ],
+      "pp": "sprung",
+      "level": 3
+    },
+    {
+      "base": "sting",
+      "past": "stung",
+      "pp": "stung",
+      "level": 3
+    },
+    {
+      "base": "stink",
+      "past": [
+        "stank",
+        "stunk"
+      ],
+      "pp": "stunk",
+      "level": 3
+    },
+    {
+      "base": "strike",
+      "past": "struck",
+      "pp": "struck",
+      "level": 3
+    },
+    {
+      "base": "swear",
+      "past": "swore",
+      "pp": "sworn",
+      "level": 3
+    },
+    {
+      "base": "sweep",
+      "past": "swept",
+      "pp": "swept",
+      "level": 3
+    },
+    {
+      "base": "tear",
+      "past": "tore",
+      "pp": "torn",
+      "level": 3
+    }
+  ]
+}
