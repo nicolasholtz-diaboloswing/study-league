@@ -5,107 +5,321 @@
       "id": "fr-cm1-fut-001",
       "level": 1,
       "type": "mcq",
-      "prompt": "Demain, ___ seront dans les vestiaires.",
+      "prompt": "Demain, nous ___ (avoir) une glace pour le goûter.",
       "choices": [
-        "Ils",
-        "Je",
-        "Vous",
-        "Il"
+        "aurez",
+        "avions",
+        "aurons",
+        "aurai"
       ],
-      "answer": "Ils",
-      "explain": "La forme « seront » va avec « ils ou elles »."
+      "answer": "aurons",
+      "explain": "Au futur, « avoir » devient aur- : on écrit « aurons »."
     },
     {
       "id": "fr-cm1-fut-002",
       "level": 1,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, j'___ (aller) chez mon copain.",
+      "choices": [
+        "iront",
+        "allais",
+        "irez",
+        "irai"
+      ],
+      "answer": "irai",
+      "explain": "Au futur, « aller » devient ir- : on écrit « irai »."
+    },
+    {
+      "id": "fr-cm1-fut-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Samedi prochain, tu ___ (avoir) un nouveau vélo.",
+      "choices": [
+        "aurai",
+        "auras",
+        "avais",
+        "aurez"
+      ],
+      "answer": "auras",
+      "explain": "Au futur, « avoir » devient aur- : on écrit « auras »."
+    },
+    {
+      "id": "fr-cm1-fut-004",
+      "level": 1,
       "type": "input",
-      "prompt": "Demain, nous ___ (avoir) un match.",
+      "prompt": "Dimanche prochain, nous ___ (avoir) un pique-nique.",
       "answer": [
         "aurons"
       ],
       "explain": "Au futur, « avoir » devient aur- : on écrit « aurons »."
     },
     {
-      "id": "fr-cm1-fut-003",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « aller », au futur, sujet : nous)",
-      "choices": [
-        "Demain, nous iras au stade.",
-        "Demain, nous irons au stade.",
-        "Demain, nous allerons au stade.",
-        "Demain, nous allions au stade."
-      ],
-      "answer": "Demain, nous irons au stade.",
-      "explain": "Au futur, « aller » devient ir- : on écrit « irons »."
-    },
-    {
-      "id": "fr-cm1-fut-004",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, ___ jouerons au ballon.",
-      "choices": [
-        "Tu",
-        "Vous",
-        "Nous",
-        "Il"
-      ],
-      "answer": "Nous",
-      "explain": "La forme « jouerons » va avec « nous »."
-    },
-    {
       "id": "fr-cm1-fut-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Après-demain, vous ___ (gagner) la coupe de l'école.",
+      "choices": [
+        "gagnerez",
+        "gagniez",
+        "gagneront",
+        "gagnerons"
+      ],
+      "answer": "gagnerez",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-fut-006",
       "level": 1,
       "type": "mcq",
       "prompt": "Dans deux jours, vous ___ (être) en vacances.",
       "choices": [
-        "serrez",
+        "serez",
         "serons",
-        "étiez",
-        "serez"
+        "seras",
+        "étiez"
       ],
       "answer": "serez",
       "explain": "Au futur, « être » devient ser- : on écrit « serez »."
     },
     {
-      "id": "fr-cm1-fut-006",
+      "id": "fr-cm1-fut-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « gagner », au futur, sujet : les joueurs)",
+      "choices": [
+        "La semaine prochaine, les joueurs gagnerons un match amical.",
+        "La semaine prochaine, les joueurs gagnaient un match amical.",
+        "La semaine prochaine, les joueurs gagneront un match amical.",
+        "La semaine prochaine, les joueurs gagnerez un match amical."
+      ],
+      "answer": "La semaine prochaine, les joueurs gagneront un match amical.",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-fut-008",
       "level": 1,
       "type": "input",
-      "prompt": "La semaine prochaine, vous ___ (parler) au coach.",
+      "prompt": "Bientôt, vous ___ (parler) au directeur.",
       "answer": [
         "parlerez"
       ],
       "explain": "Au futur, on garde l'infinitif et on ajoute -ez avec « vous »."
     },
     {
-      "id": "fr-cm1-fut-007",
-      "level": 1,
-      "type": "input",
-      "prompt": "Samedi prochain, Lucas ___ (marquer) un but.",
-      "answer": [
-        "marquera"
-      ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-fut-008",
+      "id": "fr-cm1-fut-009",
       "level": 1,
       "type": "mcq",
-      "prompt": "Demain, ma mère ___ (aimer) ton dessin.",
+      "prompt": "Plus tard, ma grande sœur ___ (être) à la maison.",
       "choices": [
+        "serai",
+        "était",
+        "serez",
+        "sera"
+      ],
+      "answer": "sera",
+      "explain": "Au futur, « être » devient ser- : on écrit « sera »."
+    },
+    {
+      "id": "fr-cm1-fut-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Demain, maman ___ (aimer) ton dessin.",
+      "choices": [
+        "aimeras",
         "aimera",
-        "aimerrons",
-        "aimait",
-        "aimeront"
+        "aimerai",
+        "aimait"
       ],
       "answer": "aimera",
       "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-fut-009",
+      "id": "fr-cm1-fut-011",
       "level": 1,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Avant, le gardien parlait beaucoup. »",
+      "prompt": "Dans une heure, nous ___ (finir) la lecture.",
+      "choices": [
+        "finirez",
+        "finissions",
+        "finirons",
+        "finirai"
+      ],
+      "answer": "finirons",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
+    },
+    {
+      "id": "fr-cm1-fut-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Demain, l'entraîneur ___ (donner) les maillots.",
+      "choices": [
+        "donnera",
+        "donnerez",
+        "donnait",
+        "donneront"
+      ],
+      "answer": "donnera",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-fut-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « aller », au futur, sujet : nous)",
+      "choices": [
+        "Demain, nous allions à la plage.",
+        "Demain, nous aller à la plage.",
+        "Demain, nous ira à la plage.",
+        "Demain, nous irons à la plage."
+      ],
+      "answer": "Demain, nous irons à la plage.",
+      "explain": "Au futur, « aller » devient ir- : on écrit « irons »."
+    },
+    {
+      "id": "fr-cm1-fut-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, notre équipe ___ (être) au tournoi de Lyon.",
+      "choices": [
+        "seras",
+        "sera",
+        "serez",
+        "était"
+      ],
+      "answer": "sera",
+      "explain": "Au futur, « être » devient ser- : on écrit « sera »."
+    },
+    {
+      "id": "fr-cm1-fut-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dimanche prochain, ___ chanteras en public.",
+      "choices": [
+        "Tu",
+        "Nous",
+        "Je",
+        "Ils"
+      ],
+      "answer": "Tu",
+      "explain": "La forme « chanteras » va avec « tu »."
+    },
+    {
+      "id": "fr-cm1-fut-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Demain, ___ jouerons dehors.",
+      "choices": [
+        "Il",
+        "Tu",
+        "Vous",
+        "Nous"
+      ],
+      "answer": "Nous",
+      "explain": "La forme « jouerons » va avec « nous »."
+    },
+    {
+      "id": "fr-cm1-fut-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Samedi prochain, je ___ (parler) à l'arbitre.",
+      "choices": [
+        "parlera",
+        "parlerez",
+        "parlerai",
+        "parlais"
+      ],
+      "answer": "parlerai",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ai avec « je »."
+    },
+    {
+      "id": "fr-cm1-fut-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Bientôt, ___ seront en vacances.",
+      "choices": [
+        "Il",
+        "Ils",
+        "Vous",
+        "Nous"
+      ],
+      "answer": "Ils",
+      "explain": "La forme « seront » va avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-fut-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Dans deux jours, ma sœur jouera au basket. »",
+      "choices": [
+        "imparfait",
+        "passé composé",
+        "présent",
+        "futur simple"
+      ],
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
+    },
+    {
+      "id": "fr-cm1-fut-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dimanche prochain, je ___ (être) le premier à l'arrivée.",
+      "choices": [
+        "seront",
+        "étais",
+        "serai",
+        "serons"
+      ],
+      "answer": "serai",
+      "explain": "Au futur, « être » devient ser- : on écrit « serai »."
+    },
+    {
+      "id": "fr-cm1-fut-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Après-demain, ma cousine ___ (manger) avec nous.",
+      "choices": [
+        "mangera",
+        "mangeait",
+        "mangerez",
+        "mangeras"
+      ],
+      "answer": "mangera",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a : mangera."
+    },
+    {
+      "id": "fr-cm1-fut-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans deux jours, le chat ___ (chasser) les souris du jardin.",
+      "choices": [
+        "chasserai",
+        "chassera",
+        "chasserez",
+        "chassait"
+      ],
+      "answer": "chassera",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-fut-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Bientôt, nous ___ (travailler) les tables de multiplication.",
+      "choices": [
+        "travaillerez",
+        "travaillerons",
+        "travaillions",
+        "travailleront"
+      ],
+      "answer": "travaillerons",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
+    },
+    {
+      "id": "fr-cm1-fut-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Autrefois, le gardien criait très fort. »",
       "choices": [
         "futur simple",
         "présent",
@@ -116,739 +330,411 @@
       "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
     },
     {
-      "id": "fr-cm1-fut-010",
+      "id": "fr-cm1-fut-025",
       "level": 1,
       "type": "mcq",
-      "prompt": "La semaine prochaine, nous ___ (travailler) en classe sur les verbes.",
+      "prompt": "Plus tard, le gardien ___ (arrêter) tous les tirs.",
       "choices": [
-        "travaillé",
-        "travaillera",
-        "travaillions",
-        "travaillerons"
+        "arrêteront",
+        "arrêtait",
+        "arrêterai",
+        "arrêtera"
       ],
-      "answer": "travaillerons",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
+      "answer": "arrêtera",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-fut-011",
+      "id": "fr-cm1-fut-026",
       "level": 1,
-      "type": "input",
-      "prompt": "Demain, tu ___ (gagner) la partie.",
-      "answer": [
-        "gagneras"
+      "type": "mcq",
+      "prompt": "L'année prochaine, les élèves ___ (choisir) un sujet d'exposé.",
+      "choices": [
+        "choisiront",
+        "choisissaient",
+        "choisirez",
+        "choisirons"
       ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
+      "answer": "choisiront",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-fut-012",
+      "id": "fr-cm1-fut-027",
       "level": 1,
       "type": "mcq",
       "prompt": "Quelle phrase est bien conjuguée ? (verbe « être », au futur, sujet : tu)",
       "choices": [
-        "Demain, tu étais dans les buts.",
-        "Demain, tu seras dans les buts.",
-        "Demain, tu seront dans les buts.",
-        "Demain, tu êtrons dans les buts."
+        "Samedi prochain, tu étais le gardien.",
+        "Samedi prochain, tu seront le gardien.",
+        "Samedi prochain, tu serez le gardien.",
+        "Samedi prochain, tu seras le gardien."
       ],
-      "answer": "Demain, tu seras dans les buts.",
+      "answer": "Samedi prochain, tu seras le gardien.",
       "explain": "Au futur, « être » devient ser- : on écrit « seras »."
     },
     {
-      "id": "fr-cm1-fut-013",
+      "id": "fr-cm1-fut-028",
       "level": 1,
       "type": "mcq",
-      "prompt": "Demain, mon chat ___ (chasser) les souris.",
+      "prompt": "Dans une heure, les enfants ___ (avoir) une surprise.",
       "choices": [
-        "chassait",
-        "chassé",
-        "chassera",
-        "chasserons"
+        "avoir",
+        "auront",
+        "avaient",
+        "aurai"
       ],
-      "answer": "chassera",
+      "answer": "auront",
+      "explain": "Au futur, « avoir » devient aur- : on écrit « auront »."
+    },
+    {
+      "id": "fr-cm1-fut-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Demain, les joueurs ___ (chanter) l'hymne avant le match.",
+      "choices": [
+        "chanterons",
+        "chantaient",
+        "chanteront",
+        "chanterez"
+      ],
+      "answer": "chanteront",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-fut-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, le match ___ (finir) à dix-sept heures.",
+      "choices": [
+        "finira",
+        "finissait",
+        "finiras",
+        "finirons"
+      ],
+      "answer": "finira",
       "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-fut-014",
+      "id": "fr-cm1-fut-031",
       "level": 1,
       "type": "mcq",
-      "prompt": "Samedi prochain, ___ finirez vos devoirs.",
+      "prompt": "Samedi prochain, ___ finirez la partie.",
       "choices": [
         "Nous",
-        "Tu",
-        "Je",
+        "Ils",
+        "Il",
         "Vous"
       ],
       "answer": "Vous",
       "explain": "La forme « finirez » va avec « vous »."
     },
     {
-      "id": "fr-cm1-fut-015",
+      "id": "fr-cm1-fut-032",
       "level": 1,
       "type": "mcq",
-      "prompt": "Samedi prochain, vous ___ (gagner) le tournoi.",
-      "choices": [
-        "gagnerra",
-        "gagnerez",
-        "gagnerons",
-        "gagniez"
-      ],
-      "answer": "gagnerez",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ez avec « vous »."
-    },
-    {
-      "id": "fr-cm1-fut-016",
-      "level": 1,
-      "type": "input",
-      "prompt": "Dans deux jours, tu ___ (avoir) un nouveau maillot.",
-      "answer": [
-        "auras"
-      ],
-      "explain": "Au futur, « avoir » devient aur- : on écrit « auras »."
-    },
-    {
-      "id": "fr-cm1-fut-017",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, les enfants ___ (avoir) une surprise.",
-      "choices": [
-        "auront",
-        "aurrons",
-        "aurai",
-        "avaient"
-      ],
-      "answer": "auront",
-      "explain": "Au futur, « avoir » devient aur- : on écrit « auront »."
-    },
-    {
-      "id": "fr-cm1-fut-018",
-      "level": 1,
-      "type": "input",
-      "prompt": "Demain, nous ___ (jouer) au foot.",
-      "answer": [
-        "jouerons"
-      ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
-    },
-    {
-      "id": "fr-cm1-fut-019",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, je ___ (être) très content.",
-      "choices": [
-        "étais",
-        "seras",
-        "êtrons",
-        "serai"
-      ],
-      "answer": "serai",
-      "explain": "Au futur, « être » devient ser- : on écrit « serai »."
-    },
-    {
-      "id": "fr-cm1-fut-020",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, tu ___ (jouer) avec ton chien.",
-      "choices": [
-        "jouais",
-        "joueras",
-        "jouerons",
-        "jouerrons"
-      ],
-      "answer": "joueras",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
-    },
-    {
-      "id": "fr-cm1-fut-021",
-      "level": 1,
-      "type": "input",
-      "prompt": "Demain, mon père ___ (aller) au stade.",
-      "answer": [
-        "ira"
-      ],
-      "explain": "Au futur, « aller » devient ir- : on écrit « ira »."
-    },
-    {
-      "id": "fr-cm1-fut-022",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Dans deux jours, ma sœur ___ (manger) chez nous.",
-      "choices": [
-        "mangerrons",
-        "mangerai",
-        "mangera",
-        "mangeait"
-      ],
-      "answer": "mangera",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a : mangera."
-    },
-    {
-      "id": "fr-cm1-fut-023",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, mon frère ___ (être) à la maison.",
-      "choices": [
-        "sera",
-        "étrai",
-        "était",
-        "seras"
-      ],
-      "answer": "sera",
-      "explain": "Au futur, « être » devient ser- : on écrit « sera »."
-    },
-    {
-      "id": "fr-cm1-fut-024",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, je ___ (regarder) le match à la télé.",
+      "prompt": "Samedi prochain, je ___ (regarder) un film avec papa.",
       "choices": [
         "regarderai",
-        "regarderra",
-        "regarderont",
-        "regardais"
+        "regarder",
+        "regardais",
+        "regarderons"
       ],
       "answer": "regarderai",
       "explain": "Au futur, on garde l'infinitif et on ajoute -ai avec « je »."
     },
     {
-      "id": "fr-cm1-fut-025",
+      "id": "fr-cm1-fut-033",
       "level": 1,
       "type": "mcq",
-      "prompt": "Demain, vous ___ (chanter) très fort.",
+      "prompt": "Dimanche prochain, mes amis ___ (aller) au cinéma.",
       "choices": [
-        "chanter",
-        "chantiez",
-        "chanterons",
-        "chanterez"
-      ],
-      "answer": "chanterez",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ez avec « vous »."
-    },
-    {
-      "id": "fr-cm1-fut-026",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, nous ___ (finir) nos devoirs.",
-      "choices": [
-        "finisserai",
-        "finirons",
-        "finiras",
-        "finissions"
-      ],
-      "answer": "finirons",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
-    },
-    {
-      "id": "fr-cm1-fut-027",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Bientôt, les joueurs ___ (chanter) l'hymne.",
-      "choices": [
-        "chanterai",
-        "chanté",
-        "chanteront",
-        "chantaient"
-      ],
-      "answer": "chanteront",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-fut-028",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Dans une heure, mes amis ___ (aller) au parc.",
-      "choices": [
-        "iront",
-        "allerai",
         "allaient",
-        "iras"
+        "iront",
+        "iras",
+        "irons"
       ],
       "answer": "iront",
       "explain": "Au futur, « aller » devient ir- : on écrit « iront »."
     },
     {
-      "id": "fr-cm1-fut-029",
-      "level": 1,
-      "type": "input",
-      "prompt": "Demain, je ___ (donner) le ballon à Mia.",
-      "answer": [
-        "donnerai"
-      ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ai avec « je »."
-    },
-    {
-      "id": "fr-cm1-fut-030",
-      "level": 1,
-      "type": "input",
-      "prompt": "Samedi prochain, les joueurs ___ (finir) l'échauffement.",
-      "answer": [
-        "finiront"
-      ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-fut-031",
+      "id": "fr-cm1-fut-034",
       "level": 1,
       "type": "mcq",
-      "prompt": "Demain, nous ___ (aller) au stade.",
+      "prompt": "Après-demain, nous ___ (aller) à la mer.",
       "choices": [
-        "irai",
+        "allions",
         "allerons",
         "irons",
-        "allions"
+        "iront"
       ],
       "answer": "irons",
       "explain": "Au futur, « aller » devient ir- : on écrit « irons »."
     },
     {
-      "id": "fr-cm1-fut-032",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, Zoé ___ (donner) à manger au lapin.",
-      "choices": [
-        "donnerai",
-        "donné",
-        "donnait",
-        "donnera"
-      ],
-      "answer": "donnera",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-fut-033",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, nous ___ (avoir) un nouveau ballon.",
-      "choices": [
-        "avrons",
-        "aurons",
-        "aurai",
-        "avions"
-      ],
-      "answer": "aurons",
-      "explain": "Au futur, « avoir » devient aur- : on écrit « aurons »."
-    },
-    {
-      "id": "fr-cm1-fut-034",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Samedi prochain, le public ___ (applaudir) les joueurs.",
-      "choices": [
-        "applaudissait",
-        "applaudisserai",
-        "applaudira",
-        "applaudirai"
-      ],
-      "answer": "applaudira",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
-    },
-    {
       "id": "fr-cm1-fut-035",
       "level": 1,
       "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « gagner », au futur, sujet : les joueurs)",
+      "prompt": "Dans deux jours, Maëlle ___ (marquer) deux buts.",
       "choices": [
-        "La semaine prochaine, les joueurs gagnaient un tournoi.",
-        "La semaine prochaine, les joueurs gagnerez un tournoi.",
-        "La semaine prochaine, les joueurs gagné un tournoi.",
-        "La semaine prochaine, les joueurs gagneront un tournoi."
+        "marquait",
+        "marquerons",
+        "marquera",
+        "marqueras"
       ],
-      "answer": "La semaine prochaine, les joueurs gagneront un tournoi.",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+      "answer": "marquera",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-fut-036",
       "level": 1,
-      "type": "mcq",
-      "prompt": "La semaine prochaine, tu ___ (être) dans les buts.",
-      "choices": [
-        "seras",
-        "étais",
-        "étrai",
-        "serai"
-      ],
-      "answer": "seras",
-      "explain": "Au futur, « être » devient ser- : on écrit « seras »."
-    },
-    {
-      "id": "fr-cm1-fut-037",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Samedi prochain, le coach ___ (donner) le maillot à Théo.",
-      "choices": [
-        "donnerrons",
-        "donnera",
-        "donnait",
-        "donnerons"
-      ],
-      "answer": "donnera",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-fut-038",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Bientôt, ___ chanteras très bien.",
-      "choices": [
-        "Il",
-        "Je",
-        "Ils",
-        "Tu"
-      ],
-      "answer": "Tu",
-      "explain": "La forme « chanteras » va avec « tu »."
-    },
-    {
-      "id": "fr-cm1-fut-039",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, tu ___ (avoir) le ballon.",
-      "choices": [
-        "auras",
-        "aurai",
-        "avais",
-        "avrai"
-      ],
-      "answer": "auras",
-      "explain": "Au futur, « avoir » devient aur- : on écrit « auras »."
-    },
-    {
-      "id": "fr-cm1-fut-040",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "La semaine prochaine, le gardien ___ (arrêter) un penalty.",
-      "choices": [
-        "arrêtait",
-        "arrêterons",
-        "arrêtera",
-        "arrêterrons"
-      ],
-      "answer": "arrêtera",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-fut-041",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, j'___ (aller) à la piscine.",
-      "choices": [
-        "allerez",
-        "irai",
-        "irons",
-        "allais"
-      ],
-      "answer": "irai",
-      "explain": "Au futur, « aller » devient ir- : on écrit « irai »."
-    },
-    {
-      "id": "fr-cm1-fut-042",
-      "level": 1,
       "type": "input",
-      "prompt": "Bientôt, les enfants ___ (chanter) dans la cour.",
+      "prompt": "Bientôt, les élèves ___ (chanter) en classe.",
       "answer": [
         "chanteront"
       ],
       "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-fut-043",
+      "id": "fr-cm1-fut-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "Plus tard, Lucas ___ (tirer) le corner.",
+      "answer": [
+        "tirera"
+      ],
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-fut-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "L'année prochaine, mon oncle ___ (aller) à la pêche.",
+      "answer": [
+        "ira"
+      ],
+      "explain": "Au futur, « aller » devient ir- : on écrit « ira »."
+    },
+    {
+      "id": "fr-cm1-fut-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans une heure, tu ___ (avoir) un livre neuf.",
+      "answer": [
+        "auras"
+      ],
+      "explain": "Au futur, « avoir » devient aur- : on écrit « auras »."
+    },
+    {
+      "id": "fr-cm1-fut-040",
       "level": 1,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Aujourd'hui, nous gagnons le match. »",
+      "prompt": "Demain, vous ___ (chanter) à la fête de l'école.",
       "choices": [
-        "passé composé",
-        "présent",
-        "futur simple",
-        "imparfait"
+        "chantera",
+        "chanterez",
+        "chantiez",
+        "chanteras"
       ],
-      "answer": "présent",
-      "explain": "L'action se passe maintenant : c'est le présent."
+      "answer": "chanterez",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-fut-041",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, tu ___ (être) le capitaine.",
+      "choices": [
+        "étais",
+        "sera",
+        "serez",
+        "seras"
+      ],
+      "answer": "seras",
+      "explain": "Au futur, « être » devient ser- : on écrit « seras »."
+    },
+    {
+      "id": "fr-cm1-fut-042",
+      "level": 1,
+      "type": "input",
+      "prompt": "Samedi prochain, tu ___ (gagner) la course.",
+      "answer": [
+        "gagneras"
+      ],
+      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
+    },
+    {
+      "id": "fr-cm1-fut-043",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dimanche prochain, je ___ (donner) mon ballon à Mia.",
+      "answer": [
+        "donnerai"
+      ],
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ai avec « je »."
     },
     {
       "id": "fr-cm1-fut-044",
       "level": 1,
-      "type": "mcq",
-      "prompt": "Dans deux jours, les élèves ___ (choisir) un livre.",
-      "choices": [
-        "choisiront",
-        "choisissaient",
-        "choisirai",
-        "choisisserai"
+      "type": "input",
+      "prompt": "Après-demain, nous ___ (jouer) dans le jardin.",
+      "answer": [
+        "jouerons"
       ],
-      "answer": "choisiront",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
     },
     {
       "id": "fr-cm1-fut-045",
       "level": 1,
       "type": "mcq",
-      "prompt": "Samedi prochain, notre équipe ___ (être) en finale.",
+      "prompt": "Dans deux jours, la foule ___ (applaudir) les buteurs.",
       "choices": [
-        "étrai",
-        "était",
-        "seras",
-        "sera"
+        "applaudira",
+        "applaudissait",
+        "applaudiras",
+        "applaudirai"
       ],
-      "answer": "sera",
-      "explain": "Au futur, « être » devient ser- : on écrit « sera »."
+      "answer": "applaudira",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-fut-046",
       "level": 1,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Demain, mon frère jouera au foot avec moi. »",
+      "prompt": "Bientôt, Zoé ___ (donner) un biscuit au chien.",
       "choices": [
-        "présent",
-        "passé composé",
-        "futur simple",
-        "imparfait"
+        "donnerons",
+        "donnait",
+        "donnerai",
+        "donnera"
       ],
-      "answer": "futur simple",
-      "explain": "L'action se passera plus tard : c'est le futur."
+      "answer": "donnera",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-fut-047",
       "level": 1,
       "type": "mcq",
-      "prompt": "Samedi prochain, l'entraînement ___ (finir) à six heures.",
+      "prompt": "Quel est le temps de cette phrase ? « En ce moment, la maîtresse lit une histoire. »",
       "choices": [
-        "finissait",
-        "finira",
-        "finissera",
-        "finirez"
+        "passé composé",
+        "imparfait",
+        "présent",
+        "futur simple"
       ],
-      "answer": "finira",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+      "answer": "présent",
+      "explain": "L'action se passe maintenant, ou tous les jours : c'est le présent."
     },
     {
       "id": "fr-cm1-fut-048",
       "level": 1,
-      "type": "mcq",
-      "prompt": "Demain, tu ___ (marquer) un beau but.",
-      "choices": [
-        "marquais",
-        "marquera",
-        "marquerrons",
-        "marqueras"
+      "type": "input",
+      "prompt": "Plus tard, les joueurs ___ (finir) l'échauffement.",
+      "answer": [
+        "finiront"
       ],
-      "answer": "marqueras",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
     },
     {
       "id": "fr-cm1-fut-049",
       "level": 1,
       "type": "mcq",
-      "prompt": "Demain, nous ___ (jouer) contre l'équipe bleue.",
+      "prompt": "L'année prochaine, tu ___ (jouer) au tennis avec ta tante.",
       "choices": [
-        "jouerons",
-        "jouerrons",
-        "jouions",
-        "jouerez"
+        "jouera",
+        "joueras",
+        "jouais",
+        "jouerons"
       ],
-      "answer": "jouerons",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
+      "answer": "joueras",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
     },
     {
       "id": "fr-cm1-fut-050",
       "level": 1,
       "type": "mcq",
-      "prompt": "Bientôt, je ___ (parler) avec mon ami.",
+      "prompt": "Dans une heure, nous ___ (jouer) contre l'école voisine.",
       "choices": [
-        "parlerons",
-        "parlerrons",
-        "parlerai",
-        "parlais"
+        "jouerons",
+        "jouions",
+        "joueront",
+        "jouerai"
       ],
-      "answer": "parlerai",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ai avec « je »."
+      "answer": "jouerons",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
     },
     {
       "id": "fr-cm1-fut-051",
       "level": 2,
       "type": "mcq",
-      "prompt": "La semaine prochaine, nous ___ (lancer) un nouveau jeu.",
-      "choices": [
-        "lancerons",
-        "lancerez",
-        "lancer",
-        "lancions"
-      ],
-      "answer": "lancerons",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : lancerons."
-    },
-    {
-      "id": "fr-cm1-fut-052",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, nous ___ (commencer) l'entraînement à cinq heures.",
+      "prompt": "Demain, Maxime et moi ___ (commencer) un nouveau livre.",
       "choices": [
         "commencions",
+        "commenceras",
         "commenceront",
-        "commençerons",
         "commencerons"
       ],
       "answer": "commencerons",
       "explain": "Au futur, on garde l'infinitif et on ajoute -ons : commencerons."
     },
     {
+      "id": "fr-cm1-fut-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "La semaine prochaine, tu ___ (dire) la vérité.",
+      "answer": [
+        "diras"
+      ],
+      "explain": "Au futur, on enlève le e de « dire » et on ajoute -as : diras."
+    },
+    {
       "id": "fr-cm1-fut-053",
       "level": 2,
       "type": "mcq",
-      "prompt": "Demain, nous ___ (faire) une passe.",
+      "prompt": "Samedi prochain, on ___ (ranger) le matériel.",
       "choices": [
-        "faira",
-        "feras",
-        "ferons",
-        "faisions"
+        "rangeront",
+        "rangera",
+        "rangeait",
+        "rangeras"
       ],
-      "answer": "ferons",
-      "explain": "Au futur, « faire » devient fer- : on écrit « ferons »."
+      "answer": "rangera",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a : rangera."
     },
     {
       "id": "fr-cm1-fut-054",
       "level": 2,
-      "type": "input",
-      "prompt": "Samedi prochain, nous ___ (finir) tôt.",
-      "answer": [
-        "finirons"
+      "type": "mcq",
+      "prompt": "Après-demain, ___ direz au revoir.",
+      "choices": [
+        "Tu",
+        "Nous",
+        "Vous",
+        "Je"
       ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
+      "answer": "Vous",
+      "explain": "La forme « direz » va avec « vous »."
     },
     {
       "id": "fr-cm1-fut-055",
       "level": 2,
       "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « faire », au futur, sujet : vous)",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « choisir », au futur, sujet : les joueurs)",
       "choices": [
-        "Demain, vous faira un exercice.",
-        "Demain, vous ferez un exercice.",
-        "Demain, vous faisiez un exercice.",
-        "Demain, vous ferai un exercice."
+        "Demain, les joueurs choisiront leur capitaine.",
+        "Demain, les joueurs choisirez leur capitaine.",
+        "Demain, les joueurs choisissaient leur capitaine.",
+        "Demain, les joueurs choisirai leur capitaine."
       ],
-      "answer": "Demain, vous ferez un exercice.",
-      "explain": "Au futur, « faire » devient fer- : on écrit « ferez »."
+      "answer": "Demain, les joueurs choisiront leur capitaine.",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
     },
     {
       "id": "fr-cm1-fut-056",
       "level": 2,
       "type": "mcq",
-      "prompt": "Demain, vous ___ (dire) la vérité.",
+      "prompt": "Dimanche prochain, Karim ___ (prendre) le train de huit heures.",
       "choices": [
-        "diront",
-        "disiez",
-        "direz",
-        "dirrons"
-      ],
-      "answer": "direz",
-      "explain": "Au futur, on enlève le e de « dire » et on ajoute -ez : direz."
-    },
-    {
-      "id": "fr-cm1-fut-057",
-      "level": 2,
-      "type": "input",
-      "prompt": "Samedi prochain, nous ___ (prendre) le goûter.",
-      "answer": [
-        "prendrons"
-      ],
-      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ons : prendrons."
-    },
-    {
-      "id": "fr-cm1-fut-058",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, tu ___ (finir) tes devoirs avant le goûter.",
-      "choices": [
-        "finiras",
-        "finissera",
-        "finirai",
-        "finissais"
-      ],
-      "answer": "finiras",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
-    },
-    {
-      "id": "fr-cm1-fut-059",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, ___ iront à l'entraînement.",
-      "choices": [
-        "Il",
-        "Ils",
-        "Je",
-        "Tu"
-      ],
-      "answer": "Ils",
-      "explain": "La forme « iront » va avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-fut-060",
-      "level": 2,
-      "type": "input",
-      "prompt": "Dans deux jours, mes amis ___ (choisir) leur maillot.",
-      "answer": [
-        "choisiront"
-      ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-fut-061",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « choisir », au futur, sujet : les joueurs)",
-      "choices": [
-        "Demain, les joueurs choisissaient leur maillot.",
-        "Demain, les joueurs choisirez leur maillot.",
-        "Demain, les joueurs choisisserai leur maillot.",
-        "Demain, les joueurs choisiront leur maillot."
-      ],
-      "answer": "Demain, les joueurs choisiront leur maillot.",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-fut-062",
-      "level": 2,
-      "type": "input",
-      "prompt": "Demain, nous ___ (manger) à la cantine.",
-      "answer": [
-        "mangerons"
-      ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : mangerons."
-    },
-    {
-      "id": "fr-cm1-fut-063",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Samedi prochain, l'équipe ___ (réussir) un beau but.",
-      "choices": [
-        "réussira",
-        "réussisserai",
-        "réussissait",
-        "réussirons"
-      ],
-      "answer": "réussira",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-fut-064",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, ___ ferons un exercice.",
-      "choices": [
-        "Tu",
-        "Je",
-        "Nous",
-        "Ils"
-      ],
-      "answer": "Nous",
-      "explain": "La forme « ferons » va avec « nous »."
-    },
-    {
-      "id": "fr-cm1-fut-065",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, Inès ___ (prendre) son sac.",
-      "choices": [
-        "prenderons",
-        "prendras",
+        "prendrai",
+        "prendrez",
         "prenait",
         "prendra"
       ],
@@ -856,53 +742,175 @@
       "explain": "Au futur, on enlève le e de « prendre » et on ajoute -a : prendra."
     },
     {
-      "id": "fr-cm1-fut-066",
+      "id": "fr-cm1-fut-057",
       "level": 2,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Aujourd'hui, nous prenons le train. »",
+      "prompt": "Après-demain, nous ___ (être) en retard à l'entraînement.",
+      "choices": [
+        "étions",
+        "serons",
+        "seras",
+        "sera"
+      ],
+      "answer": "serons",
+      "explain": "Au futur, « être » devient ser- : on écrit « serons »."
+    },
+    {
+      "id": "fr-cm1-fut-058",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans deux jours, vous ___ (aller) au marché.",
+      "answer": [
+        "irez"
+      ],
+      "explain": "Au futur, « aller » devient ir- : on écrit « irez »."
+    },
+    {
+      "id": "fr-cm1-fut-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Bientôt, les enfants ___ (aller) à la bibliothèque.",
+      "choices": [
+        "alleront",
+        "aller",
+        "iront",
+        "allaient"
+      ],
+      "answer": "iront",
+      "explain": "Au futur, « aller » devient ir- : on écrit « iront »."
+    },
+    {
+      "id": "fr-cm1-fut-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Plus tard, vous ___ (avoir) un jour de repos.",
+      "choices": [
+        "aurez",
+        "aviez",
+        "aura",
+        "avoir"
+      ],
+      "answer": "aurez",
+      "explain": "Au futur, « avoir » devient aur- : on écrit « aurez »."
+    },
+    {
+      "id": "fr-cm1-fut-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "L'année prochaine, l'arbitre ___ (choisir) le ballon du match.",
+      "choices": [
+        "choisiront",
+        "choisira",
+        "choisirai",
+        "choisissait"
+      ],
+      "answer": "choisira",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-fut-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « faire », au futur, sujet : vous)",
+      "choices": [
+        "Samedi prochain, vous ferez un gâteau.",
+        "Samedi prochain, vous faisiez un gâteau.",
+        "Samedi prochain, vous fairez un gâteau.",
+        "Samedi prochain, vous feront un gâteau."
+      ],
+      "answer": "Samedi prochain, vous ferez un gâteau.",
+      "explain": "Au futur, « faire » devient fer- : on écrit « ferez »."
+    },
+    {
+      "id": "fr-cm1-fut-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Dans une heure, nous prendrons le goûter. »",
       "choices": [
         "imparfait",
         "présent",
         "futur simple",
         "passé composé"
       ],
-      "answer": "présent",
-      "explain": "L'action se passe maintenant : c'est le présent."
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
+    },
+    {
+      "id": "fr-cm1-fut-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans une heure, le directeur ___ (dire) un mot aux élèves.",
+      "choices": [
+        "disait",
+        "diront",
+        "diras",
+        "dira"
+      ],
+      "answer": "dira",
+      "explain": "Au futur, on enlève le e de « dire » et on ajoute -a : dira."
+    },
+    {
+      "id": "fr-cm1-fut-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Demain, nous ___ (prendre) un bain de soleil.",
+      "answer": [
+        "prendrons"
+      ],
+      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ons : prendrons."
+    },
+    {
+      "id": "fr-cm1-fut-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, nous ___ (manger) dans le train.",
+      "choices": [
+        "mangeras",
+        "mangerons",
+        "mangerai",
+        "mangions"
+      ],
+      "answer": "mangerons",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : mangerons."
     },
     {
       "id": "fr-cm1-fut-067",
       "level": 2,
       "type": "mcq",
-      "prompt": "La semaine prochaine, nous ___ (prendre) le bus pour le stade.",
+      "prompt": "Samedi prochain, vous ___ (réussir) votre exposé.",
       "choices": [
-        "prendrai",
-        "prenions",
-        "prendrerez",
-        "prendrons"
+        "réussiront",
+        "réussissiez",
+        "réussirez",
+        "réussiras"
       ],
-      "answer": "prendrons",
-      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ons : prendrons."
+      "answer": "réussirez",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ez avec « vous »."
     },
     {
       "id": "fr-cm1-fut-068",
       "level": 2,
-      "type": "input",
-      "prompt": "Plus tard, ma petite sœur ___ (grandir) encore.",
-      "answer": [
-        "grandira"
+      "type": "mcq",
+      "prompt": "Dimanche prochain, nous ___ (faire) des crêpes.",
+      "choices": [
+        "ferons",
+        "faisions",
+        "faire",
+        "fera"
       ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+      "answer": "ferons",
+      "explain": "Au futur, « faire » devient fer- : on écrit « ferons »."
     },
     {
       "id": "fr-cm1-fut-069",
       "level": 2,
       "type": "mcq",
-      "prompt": "Dans deux jours, mes cousins ___ (avoir) un chien.",
+      "prompt": "Après-demain, mes voisins ___ (avoir) un bébé.",
       "choices": [
         "avaient",
-        "auront",
-        "aura",
-        "avrai"
+        "aurez",
+        "aurons",
+        "auront"
       ],
       "answer": "auront",
       "explain": "Au futur, « avoir » devient aur- : on écrit « auront »."
@@ -911,502 +919,498 @@
       "id": "fr-cm1-fut-070",
       "level": 2,
       "type": "mcq",
-      "prompt": "Plus tard, tu ___ (grandir) encore.",
+      "prompt": "Demain, ___ ferons une surprise.",
       "choices": [
-        "grandiras",
-        "grandissera",
-        "grandirai",
-        "grandissais"
+        "Je",
+        "Tu",
+        "Nous",
+        "Il"
       ],
-      "answer": "grandiras",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
+      "answer": "Nous",
+      "explain": "La forme « ferons » va avec « nous »."
     },
     {
       "id": "fr-cm1-fut-071",
       "level": 2,
       "type": "mcq",
-      "prompt": "Samedi prochain, le coach ___ (choisir) les remplaçants.",
+      "prompt": "Dans deux jours, tu ___ (finir) avant la sonnerie.",
       "choices": [
-        "choisisserai",
-        "choisissait",
-        "choisira",
-        "choisiras"
+        "finissais",
+        "finirez",
+        "finirai",
+        "finiras"
       ],
-      "answer": "choisira",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+      "answer": "finiras",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
     },
     {
       "id": "fr-cm1-fut-072",
       "level": 2,
-      "type": "input",
-      "prompt": "Demain, vous ___ (aller) au cinéma.",
-      "answer": [
-        "irez"
-      ],
-      "explain": "Au futur, « aller » devient ir- : on écrit « irez »."
-    },
-    {
-      "id": "fr-cm1-fut-073",
-      "level": 2,
-      "type": "input",
-      "prompt": "Demain, tu ___ (dire) bonjour au gardien.",
-      "answer": [
-        "diras"
-      ],
-      "explain": "Au futur, on enlève le e de « dire » et on ajoute -as : diras."
-    },
-    {
-      "id": "fr-cm1-fut-074",
-      "level": 2,
       "type": "mcq",
-      "prompt": "Demain, vous ___ (avoir) le droit de jouer.",
-      "choices": [
-        "aviez",
-        "aurez",
-        "avrons",
-        "aurai"
-      ],
-      "answer": "aurez",
-      "explain": "Au futur, « avoir » devient aur- : on écrit « aurez »."
-    },
-    {
-      "id": "fr-cm1-fut-075",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Dimanche prochain, ma tante ___ (venir) me chercher.",
-      "choices": [
-        "venait",
-        "viendras",
-        "viendra",
-        "venira"
-      ],
-      "answer": "viendra",
-      "explain": "Au futur, « venir » devient viendr- : on écrit « viendra »."
-    },
-    {
-      "id": "fr-cm1-fut-076",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « aller », au futur, sujet : vous)",
-      "choices": [
-        "Dimanche prochain, vous irez au musée.",
-        "Dimanche prochain, vous iront au musée.",
-        "Dimanche prochain, vous alliez au musée.",
-        "Dimanche prochain, vous allerai au musée."
-      ],
-      "answer": "Dimanche prochain, vous irez au musée.",
-      "explain": "Au futur, « aller » devient ir- : on écrit « irez »."
-    },
-    {
-      "id": "fr-cm1-fut-077",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "La semaine prochaine, ___ direz bonjour.",
-      "choices": [
-        "Tu",
-        "Il",
-        "Ils",
-        "Vous"
-      ],
-      "answer": "Vous",
-      "explain": "La forme « direz » va avec « vous »."
-    },
-    {
-      "id": "fr-cm1-fut-078",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, nous ___ (être) très contents.",
-      "choices": [
-        "serrez",
-        "étions",
-        "serons",
-        "sera"
-      ],
-      "answer": "serons",
-      "explain": "Au futur, « être » devient ser- : on écrit « serons »."
-    },
-    {
-      "id": "fr-cm1-fut-079",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, vous ___ (réussir) tous vos tirs.",
-      "choices": [
-        "réussisserai",
-        "réussissiez",
-        "réussiras",
-        "réussirez"
-      ],
-      "answer": "réussirez",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ez avec « vous »."
-    },
-    {
-      "id": "fr-cm1-fut-080",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Dans dix ans, ces arbres ___ (grandir) beaucoup.",
+      "prompt": "Bientôt, ces graines ___ (grandir) au soleil.",
       "choices": [
         "grandiront",
-        "grandirez",
-        "grandissent",
-        "grandisserai"
+        "grandirai",
+        "grandissaient",
+        "grandira"
       ],
       "answer": "grandiront",
       "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-fut-081",
+      "id": "fr-cm1-fut-073",
       "level": 2,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Dans deux jours, nous prendrons le train. »",
+      "prompt": "Plus tard, tu ___ (faire) ta valise.",
       "choices": [
-        "passé composé",
-        "futur simple",
-        "présent",
-        "imparfait"
-      ],
-      "answer": "futur simple",
-      "explain": "L'action se passera plus tard : c'est le futur."
-    },
-    {
-      "id": "fr-cm1-fut-082",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, on ___ (ranger) nos crampons.",
-      "choices": [
-        "rangera",
-        "rangerai",
-        "rangeraient",
-        "rangeait"
-      ],
-      "answer": "rangera",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a : rangera."
-    },
-    {
-      "id": "fr-cm1-fut-083",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Samedi prochain, les arbitres ___ (être) sur le terrain.",
-      "choices": [
-        "seras",
-        "serrez",
-        "étaient",
-        "seront"
-      ],
-      "answer": "seront",
-      "explain": "Au futur, « être » devient ser- : on écrit « seront »."
-    },
-    {
-      "id": "fr-cm1-fut-084",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Samedi prochain, vous ___ (faire) un super match.",
-      "choices": [
+        "fairas",
         "feras",
-        "faira",
-        "ferez",
-        "faisiez"
+        "faisais",
+        "ferons"
       ],
-      "answer": "ferez",
-      "explain": "Au futur, « faire » devient fer- : on écrit « ferez »."
+      "answer": "feras",
+      "explain": "Au futur, « faire » devient fer- : on écrit « feras »."
     },
     {
-      "id": "fr-cm1-fut-085",
+      "id": "fr-cm1-fut-074",
       "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, nous ___ (manger) des pâtes avant le match.",
-      "choices": [
-        "mangeraient",
-        "mangerons",
-        "mangions",
-        "mangerai"
+      "type": "input",
+      "prompt": "L'année prochaine, la plante ___ (grandir) vite.",
+      "answer": [
+        "grandira"
       ],
-      "answer": "mangerons",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : mangerons."
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-fut-086",
+      "id": "fr-cm1-fut-075",
       "level": 2,
       "type": "mcq",
-      "prompt": "Demain, tu ___ (prendre) le ballon.",
+      "prompt": "Dans une heure, tu ___ (prendre) ton parapluie.",
       "choices": [
         "prenais",
-        "prenderai",
-        "prendras",
-        "prendrez"
+        "prendre",
+        "prenderas",
+        "prendras"
       ],
       "answer": "prendras",
       "explain": "Au futur, on enlève le e de « prendre » et on ajoute -as : prendras."
     },
     {
-      "id": "fr-cm1-fut-087",
+      "id": "fr-cm1-fut-076",
       "level": 2,
       "type": "mcq",
-      "prompt": "Demain, vous ___ (aller) à la piscine.",
+      "prompt": "Demain, vous ___ (faire) un tour de vélo.",
       "choices": [
-        "allerons",
-        "irez",
-        "ira",
-        "alliez"
+        "ferai",
+        "ferez",
+        "faisiez",
+        "fairez"
       ],
-      "answer": "irez",
-      "explain": "Au futur, « aller » devient ir- : on écrit « irez »."
+      "answer": "ferez",
+      "explain": "Au futur, « faire » devient fer- : on écrit « ferez »."
     },
     {
-      "id": "fr-cm1-fut-088",
+      "id": "fr-cm1-fut-077",
       "level": 2,
       "type": "input",
-      "prompt": "Samedi prochain, vous ___ (faire) du bruit.",
+      "prompt": "La semaine prochaine, mes amis ___ (choisir) un film.",
+      "answer": [
+        "choisiront"
+      ],
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-fut-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Quand il était petit, mon père aimait le vélo. »",
+      "choices": [
+        "imparfait",
+        "passé composé",
+        "présent",
+        "futur simple"
+      ],
+      "answer": "imparfait",
+      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
+    },
+    {
+      "id": "fr-cm1-fut-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "L'année prochaine, tu ___ (grandir) encore de trois centimètres.",
+      "choices": [
+        "grandissais",
+        "grandirons",
+        "grandiras",
+        "grandiront"
+      ],
+      "answer": "grandiras",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -as avec « tu »."
+    },
+    {
+      "id": "fr-cm1-fut-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dimanche prochain, nous ___ (nager) dans le lac.",
+      "choices": [
+        "nagions",
+        "nagé",
+        "nagerons",
+        "nageras"
+      ],
+      "answer": "nagerons",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : nagerons."
+    },
+    {
+      "id": "fr-cm1-fut-081",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Maintenant, nous prenons notre petit-déjeuner. »",
+      "choices": [
+        "passé composé",
+        "présent",
+        "imparfait",
+        "futur simple"
+      ],
+      "answer": "présent",
+      "explain": "L'action se passe maintenant, ou tous les jours : c'est le présent."
+    },
+    {
+      "id": "fr-cm1-fut-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Après-demain, Camille ___ (réussir) son penalty.",
+      "choices": [
+        "réussira",
+        "réussirai",
+        "réussissait",
+        "réussiras"
+      ],
+      "answer": "réussira",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-fut-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans deux jours, nous ___ (aller) au zoo.",
+      "choices": [
+        "allerons",
+        "irai",
+        "allions",
+        "irons"
+      ],
+      "answer": "irons",
+      "explain": "Au futur, « aller » devient ir- : on écrit « irons »."
+    },
+    {
+      "id": "fr-cm1-fut-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Bientôt, les joueurs ___ (choisir) leur tenue.",
+      "choices": [
+        "choisiront",
+        "choisiras",
+        "choisirez",
+        "choisissaient"
+      ],
+      "answer": "choisiront",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-fut-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Plus tard, vous ___ (faire) un gâteau.",
       "answer": [
         "ferez"
       ],
       "explain": "Au futur, « faire » devient fer- : on écrit « ferez »."
     },
     {
-      "id": "fr-cm1-fut-089",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Quand il était petit, mon père aimait le foot. »",
-      "choices": [
-        "imparfait",
-        "futur simple",
-        "passé composé",
-        "présent"
-      ],
-      "answer": "imparfait",
-      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
-    },
-    {
-      "id": "fr-cm1-fut-090",
+      "id": "fr-cm1-fut-086",
       "level": 2,
       "type": "input",
-      "prompt": "Demain, les joueurs ___ (faire) un tour de terrain.",
-      "answer": [
-        "feront"
-      ],
-      "explain": "Au futur, « faire » devient fer- : on écrit « feront »."
-    },
-    {
-      "id": "fr-cm1-fut-091",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "La semaine prochaine, les élèves ___ (aller) au musée.",
-      "choices": [
-        "allaient",
-        "allerez",
-        "iras",
-        "iront"
-      ],
-      "answer": "iront",
-      "explain": "Au futur, « aller » devient ir- : on écrit « iront »."
-    },
-    {
-      "id": "fr-cm1-fut-092",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Dimanche prochain, nous ___ (nager) à la piscine.",
-      "choices": [
-        "nageront",
-        "nagerons",
-        "nageraient",
-        "nagions"
-      ],
-      "answer": "nagerons",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : nagerons."
-    },
-    {
-      "id": "fr-cm1-fut-093",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "La semaine prochaine, tu ___ (faire) du vélo.",
-      "choices": [
-        "faira",
-        "faisais",
-        "ferai",
-        "feras"
-      ],
-      "answer": "feras",
-      "explain": "Au futur, « faire » devient fer- : on écrit « feras »."
-    },
-    {
-      "id": "fr-cm1-fut-094",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Samedi prochain, ___ choisira son maillot.",
-      "choices": [
-        "Tu",
-        "Vous",
-        "Il",
-        "Je"
-      ],
-      "answer": "Il",
-      "explain": "La forme « choisira » va avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-fut-095",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, mon entraîneur ___ (dire) bravo.",
-      "choices": [
-        "dira",
-        "dirons",
-        "disait",
-        "disera"
-      ],
-      "answer": "dira",
-      "explain": "Au futur, on enlève le e de « dire » et on ajoute -a : dira."
-    },
-    {
-      "id": "fr-cm1-fut-096",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Demain, les supporters ___ (partir) tôt du stade.",
-      "choices": [
-        "partirez",
-        "partera",
-        "partiront",
-        "partaient"
-      ],
-      "answer": "partiront",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-fut-097",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Samedi prochain, les joueurs ___ (choisir) un capitaine.",
-      "choices": [
-        "choisiront",
-        "choisissaient",
-        "choisirez",
-        "choisissera"
-      ],
-      "answer": "choisiront",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-fut-098",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Après-demain, nous ___ (aller) chez le coiffeur.",
-      "choices": [
-        "allerons",
-        "irons",
-        "iras",
-        "allions"
-      ],
-      "answer": "irons",
-      "explain": "Au futur, « aller » devient ir- : on écrit « irons »."
-    },
-    {
-      "id": "fr-cm1-fut-099",
-      "level": 2,
-      "type": "input",
-      "prompt": "Demain, tu ___ (avoir) mal aux jambes.",
+      "prompt": "L'année prochaine, tu ___ (avoir) un cadeau.",
       "answer": [
         "auras"
       ],
       "explain": "Au futur, « avoir » devient aur- : on écrit « auras »."
     },
     {
-      "id": "fr-cm1-fut-100",
+      "id": "fr-cm1-fut-087",
       "level": 2,
       "type": "mcq",
-      "prompt": "Demain, les enfants ___ (faire) leurs devoirs.",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « aller », au futur, sujet : vous)",
       "choices": [
+        "Dimanche prochain, vous ira au musée.",
+        "Dimanche prochain, vous irez au musée.",
+        "Dimanche prochain, vous alliez au musée.",
+        "Dimanche prochain, vous irons au musée."
+      ],
+      "answer": "Dimanche prochain, vous irez au musée.",
+      "explain": "Au futur, « aller » devient ir- : on écrit « irez »."
+    },
+    {
+      "id": "fr-cm1-fut-088",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une heure, nous ___ (manger) des fruits.",
+      "answer": [
+        "mangerons"
+      ],
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : mangerons."
+    },
+    {
+      "id": "fr-cm1-fut-089",
+      "level": 2,
+      "type": "input",
+      "prompt": "Demain, nous ___ (finir) vers midi.",
+      "answer": [
+        "finirons"
+      ],
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
+    },
+    {
+      "id": "fr-cm1-fut-090",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans deux jours, ___ choisira un cadeau.",
+      "choices": [
+        "Vous",
+        "Je",
+        "Il",
+        "Tu"
+      ],
+      "answer": "Il",
+      "explain": "La forme « choisira » va avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-fut-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, mamie ___ (venir) à la fête.",
+      "choices": [
+        "venira",
+        "venir",
+        "venait",
+        "viendra"
+      ],
+      "answer": "viendra",
+      "explain": "Au futur, « venir » devient viendr- : on écrit « viendra »."
+    },
+    {
+      "id": "fr-cm1-fut-092",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Samedi prochain, mes parents ___ (faire) un grand gâteau.",
+      "choices": [
+        "feras",
+        "fairont",
         "faisaient",
-        "ferrai",
-        "ferons",
         "feront"
       ],
       "answer": "feront",
       "explain": "Au futur, « faire » devient fer- : on écrit « feront »."
     },
     {
+      "id": "fr-cm1-fut-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dimanche prochain, les garçons ___ (faire) un château de sable.",
+      "answer": [
+        "feront"
+      ],
+      "explain": "Au futur, « faire » devient fer- : on écrit « feront »."
+    },
+    {
+      "id": "fr-cm1-fut-094",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Après-demain, nous ___ (prendre) un taxi.",
+      "choices": [
+        "prenions",
+        "prendrons",
+        "prendrai",
+        "prendrez"
+      ],
+      "answer": "prendrons",
+      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ons : prendrons."
+    },
+    {
+      "id": "fr-cm1-fut-095",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans deux jours, vous ___ (aller) chez vos grands-parents.",
+      "choices": [
+        "ira",
+        "iras",
+        "irez",
+        "alliez"
+      ],
+      "answer": "irez",
+      "explain": "Au futur, « aller » devient ir- : on écrit « irez »."
+    },
+    {
+      "id": "fr-cm1-fut-096",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Bientôt, nous ___ (lancer) un cerf-volant.",
+      "choices": [
+        "lancerons",
+        "lanceront",
+        "lancions",
+        "lancerai"
+      ],
+      "answer": "lancerons",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons : lancerons."
+    },
+    {
+      "id": "fr-cm1-fut-097",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Plus tard, les supporters ___ (être) derrière le but.",
+      "choices": [
+        "seront",
+        "serons",
+        "étaient",
+        "être"
+      ],
+      "answer": "seront",
+      "explain": "Au futur, « être » devient ser- : on écrit « seront »."
+    },
+    {
+      "id": "fr-cm1-fut-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Demain, les touristes ___ (partir) après le déjeuner.",
+      "choices": [
+        "partirons",
+        "partiront",
+        "partaient",
+        "partira"
+      ],
+      "answer": "partiront",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-fut-099",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans une heure, vous ___ (dire) la bonne réponse.",
+      "choices": [
+        "diras",
+        "dire",
+        "disiez",
+        "direz"
+      ],
+      "answer": "direz",
+      "explain": "Au futur, on enlève le e de « dire » et on ajoute -ez : direz."
+    },
+    {
+      "id": "fr-cm1-fut-100",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, ___ iront au stade.",
+      "choices": [
+        "Il",
+        "Vous",
+        "Ils",
+        "Tu"
+      ],
+      "answer": "Ils",
+      "explain": "La forme « iront » va avec « ils ou elles »."
+    },
+    {
       "id": "fr-cm1-fut-101",
       "level": 3,
-      "type": "mcq",
-      "prompt": "Demain, vous ___ (prendre) un ballon chacun.",
-      "choices": [
-        "preniez",
-        "prendrons",
-        "prendrez",
-        "prenderons"
+      "type": "input",
+      "prompt": "Demain, le car ___ (partir) à sept heures.",
+      "answer": [
+        "partira"
       ],
-      "answer": "prendrez",
-      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ez : prendrez."
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-fut-102",
       "level": 3,
-      "type": "input",
-      "prompt": "Demain, je ___ (pouvoir) jouer.",
-      "answer": [
-        "pourrai"
+      "type": "mcq",
+      "prompt": "La semaine prochaine, nous ___ (partir) en classe verte.",
+      "choices": [
+        "partirez",
+        "partirons",
+        "partira",
+        "partions"
       ],
-      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourrai »."
+      "answer": "partirons",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
     },
     {
       "id": "fr-cm1-fut-103",
       "level": 3,
-      "type": "input",
-      "prompt": "Dimanche prochain, mes amis ___ (vouloir) jouer au foot.",
-      "answer": [
-        "voudront"
+      "type": "mcq",
+      "prompt": "Samedi prochain, tu ___ (pouvoir) jouer devant.",
+      "choices": [
+        "pourra",
+        "pouvais",
+        "pourras",
+        "pourrons"
       ],
-      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudront »."
+      "answer": "pourras",
+      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourras »."
     },
     {
       "id": "fr-cm1-fut-104",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, le car ___ (partir) à huit heures.",
+      "prompt": "Dimanche prochain, les supporters ___ (vouloir) un autographe.",
       "choices": [
-        "partira",
-        "partirons",
-        "partait",
-        "partrai"
+        "voudront",
+        "vouloiront",
+        "voulaient",
+        "vouloir"
       ],
-      "answer": "partira",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+      "answer": "voudront",
+      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudront »."
     },
     {
       "id": "fr-cm1-fut-105",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, nous ___ (devoir) ranger nos affaires.",
+      "prompt": "Après-demain, vous ___ (vouloir) gagner le match.",
       "choices": [
-        "devions",
-        "devrons",
-        "devrai",
-        "devoira"
+        "voudrons",
+        "vouloirez",
+        "vouliez",
+        "voudrez"
       ],
-      "answer": "devrons",
-      "explain": "Au futur, « devoir » devient devr- : on écrit « devrons »."
+      "answer": "voudrez",
+      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudrez »."
     },
     {
       "id": "fr-cm1-fut-106",
       "level": 3,
       "type": "mcq",
-      "prompt": "Samedi prochain, Léa et toi ___ (être) dans la même équipe.",
+      "prompt": "Dans deux jours, le bateau ___ (partir) du port.",
       "choices": [
-        "serai",
-        "étiez",
-        "serrez",
-        "serez"
+        "partira",
+        "partait",
+        "partiront",
+        "partirai"
       ],
-      "answer": "serez",
-      "explain": "Au futur, « être » devient ser- : on écrit « serez »."
+      "answer": "partira",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-fut-107",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, ___ pourront entrer.",
+      "prompt": "Demain, ___ pourront sortir.",
       "choices": [
+        "Nous",
         "Il",
-        "Ils",
-        "Tu",
-        "Je"
+        "Je",
+        "Ils"
       ],
       "answer": "Ils",
       "explain": "La forme « pourront » va avec « ils ou elles »."
@@ -1415,199 +1419,195 @@
       "id": "fr-cm1-fut-108",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, les spectateurs ___ (voir) très bien le terrain.",
+      "prompt": "Bientôt, papa ___ (nettoyer) la voiture.",
       "choices": [
-        "voyaient",
-        "verra",
-        "voirai",
-        "verront"
+        "nettoierons",
+        "nettoyait",
+        "nettoiera",
+        "nettoierai"
       ],
-      "answer": "verront",
-      "explain": "Au futur, « voir » devient verr- : on écrit « verront »."
+      "answer": "nettoiera",
+      "explain": "Au futur, le y de nettoyer devient i : nettoiera."
     },
     {
       "id": "fr-cm1-fut-109",
       "level": 3,
       "type": "mcq",
-      "prompt": "Dans une heure, nous ___ (partir) pour le stade.",
+      "prompt": "Quel est le temps de cette phrase ? « Tous les jours, je vois mes amis à la récré. »",
       "choices": [
-        "partions",
-        "parterons",
-        "partirons",
-        "partirez"
+        "futur simple",
+        "présent",
+        "imparfait",
+        "passé composé"
       ],
-      "answer": "partirons",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ons avec « nous »."
+      "answer": "présent",
+      "explain": "L'action se passe maintenant, ou tous les jours : c'est le présent."
     },
     {
       "id": "fr-cm1-fut-110",
       "level": 3,
-      "type": "mcq",
-      "prompt": "Demain, mon frère et ma sœur ___ (dire) des blagues.",
-      "choices": [
-        "diront",
-        "disaient",
-        "dirai",
-        "dirrons"
+      "type": "input",
+      "prompt": "Plus tard, ils ___ (prendre) le métro.",
+      "answer": [
+        "prendront"
       ],
-      "answer": "diront",
-      "explain": "Au futur, on enlève le e de « dire » et on ajoute -ont : diront."
+      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ont : prendront."
     },
     {
       "id": "fr-cm1-fut-111",
       "level": 3,
-      "type": "mcq",
-      "prompt": "Demain, nous ___ (voir) un match à la télé.",
-      "choices": [
-        "verrai",
-        "verrons",
-        "voyerons",
-        "voyions"
+      "type": "input",
+      "prompt": "L'année prochaine, je ___ (pouvoir) nager sans bouée.",
+      "answer": [
+        "pourrai"
       ],
-      "answer": "verrons",
-      "explain": "Au futur, « voir » devient verr- : on écrit « verrons »."
+      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourrai »."
     },
     {
       "id": "fr-cm1-fut-112",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, mes cousins ___ (venir) au match.",
+      "prompt": "Dans une heure, je ___ (partir) en colonie de vacances.",
       "choices": [
-        "viendras",
-        "venaient",
-        "venira",
-        "viendront"
+        "partirai",
+        "partais",
+        "partirons",
+        "partira"
       ],
-      "answer": "viendront",
-      "explain": "Au futur, « venir » devient viendr- : on écrit « viendront »."
+      "answer": "partirai",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ai avec « je »."
     },
     {
       "id": "fr-cm1-fut-113",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, nous ___ (pouvoir) entrer sur le terrain.",
+      "prompt": "Demain, je ___ (voir) la mer pour la première fois.",
       "choices": [
-        "pourrons",
-        "pouvions",
-        "pouverons",
-        "pourront"
+        "voyais",
+        "verrai",
+        "voir",
+        "voirai"
       ],
-      "answer": "pourrons",
-      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourrons »."
+      "answer": "verrai",
+      "explain": "Au futur, « voir » devient verr- : on écrit « verrai »."
     },
     {
       "id": "fr-cm1-fut-114",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, les joueurs ___ (vouloir) la victoire.",
+      "prompt": "La semaine prochaine, Jade et moi ___ (faire) de la peinture.",
       "choices": [
-        "voudra",
-        "vouloirai",
-        "voudront",
-        "voulaient"
+        "faisions",
+        "feras",
+        "ferons",
+        "fairons"
       ],
-      "answer": "voudront",
-      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudront »."
+      "answer": "ferons",
+      "explain": "Au futur, « faire » devient fer- : on écrit « ferons »."
     },
     {
       "id": "fr-cm1-fut-115",
       "level": 3,
       "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « venir », au futur, sujet : mes cousins)",
+      "prompt": "Samedi prochain, je ___ (vouloir) une glace à la fraise.",
       "choices": [
-        "Demain, mes cousins viendront au stade.",
-        "Demain, mes cousins venaient au stade.",
-        "Demain, mes cousins viendrons au stade.",
-        "Demain, mes cousins venirons au stade."
+        "vouloir",
+        "voudront",
+        "voulais",
+        "voudrai"
       ],
-      "answer": "Demain, mes cousins viendront au stade.",
-      "explain": "Au futur, « venir » devient viendr- : on écrit « viendront »."
+      "answer": "voudrai",
+      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudrai »."
     },
     {
       "id": "fr-cm1-fut-116",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, ___ viendras à ton match.",
+      "prompt": "Dimanche prochain, mon frère ___ (vouloir) un chien.",
       "choices": [
-        "Ils",
-        "Je",
-        "Tu",
-        "Il"
+        "voudra",
+        "voudront",
+        "voudrons",
+        "voulait"
       ],
-      "answer": "Tu",
-      "explain": "La forme « viendras » va avec « tu »."
+      "answer": "voudra",
+      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudra »."
     },
     {
       "id": "fr-cm1-fut-117",
       "level": 3,
-      "type": "input",
-      "prompt": "Dans une heure, le bus ___ (partir).",
-      "answer": [
-        "partira"
+      "type": "mcq",
+      "prompt": "Samedi prochain, ___ voudrons le ballon.",
+      "choices": [
+        "Je",
+        "Nous",
+        "Ils",
+        "Vous"
       ],
-      "explain": "Au futur, on garde l'infinitif et on ajoute -a avec « il, elle ou on »."
+      "answer": "Nous",
+      "explain": "La forme « voudrons » va avec « nous »."
     },
     {
       "id": "fr-cm1-fut-118",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, ___ devra partir tôt.",
+      "prompt": "Après-demain, nous ___ (devoir) être à l'heure.",
       "choices": [
-        "Je",
-        "Il",
-        "Ils",
-        "Nous"
+        "devra",
+        "devions",
+        "devrai",
+        "devrons"
       ],
-      "answer": "Il",
-      "explain": "La forme « devra » va avec « il, elle ou on »."
+      "answer": "devrons",
+      "explain": "Au futur, « devoir » devient devr- : on écrit « devrons »."
     },
     {
       "id": "fr-cm1-fut-119",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, mes parents ___ (partir) en voiture.",
+      "prompt": "Dans deux jours, les élèves ___ (pouvoir) sortir en récréation.",
       "choices": [
-        "partrai",
-        "partaient",
-        "partirons",
-        "partiront"
+        "pouvoiront",
+        "pourra",
+        "pourront",
+        "pouvaient"
       ],
-      "answer": "partiront",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+      "answer": "pourront",
+      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourront »."
     },
     {
       "id": "fr-cm1-fut-120",
       "level": 3,
       "type": "mcq",
-      "prompt": "Samedi prochain, tu ___ (devoir) écouter le coach.",
+      "prompt": "Bientôt, les gardiens ___ (prendre) leurs gants.",
       "choices": [
-        "devras",
-        "devera",
-        "devrai",
-        "devais"
+        "prenderont",
+        "prendront",
+        "prendrez",
+        "prenaient"
       ],
-      "answer": "devras",
-      "explain": "Au futur, « devoir » devient devr- : on écrit « devras »."
+      "answer": "prendront",
+      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ont : prendront."
     },
     {
       "id": "fr-cm1-fut-121",
       "level": 3,
       "type": "mcq",
-      "prompt": "Dans une heure, nous ___ (venir) au stade.",
+      "prompt": "Plus tard, je ___ (pouvoir) dormir tard.",
       "choices": [
-        "viendrez",
-        "viendrons",
-        "venira",
-        "venions"
+        "pourrai",
+        "pouvoirai",
+        "pouvais",
+        "pourrez"
       ],
-      "answer": "viendrons",
-      "explain": "Au futur, « venir » devient viendr- : on écrit « viendrons »."
+      "answer": "pourrai",
+      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourrai »."
     },
     {
       "id": "fr-cm1-fut-122",
       "level": 3,
       "type": "input",
-      "prompt": "Demain, si je marque, le public ___ (crier) mon nom.",
+      "prompt": "L'année prochaine, le public ___ (crier) de joie.",
       "answer": [
         "criera"
       ],
@@ -1617,369 +1617,369 @@
       "id": "fr-cm1-fut-123",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, les élèves ___ (devoir) se taire.",
+      "prompt": "Demain, ___ devra se lever tôt.",
       "choices": [
-        "devoira",
-        "devrons",
-        "devront",
-        "devaient"
+        "Vous",
+        "Ils",
+        "Il",
+        "Je"
       ],
-      "answer": "devront",
-      "explain": "Au futur, « devoir » devient devr- : on écrit « devront »."
+      "answer": "Il",
+      "explain": "La forme « devra » va avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-fut-124",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, vous ___ (venir) à l'entraînement en vélo.",
+      "prompt": "Dans une heure, tu ___ (devoir) apprendre ta leçon.",
       "choices": [
-        "venira",
-        "viendrons",
-        "veniez",
-        "viendrez"
+        "devais",
+        "devrai",
+        "devra",
+        "devras"
       ],
-      "answer": "viendrez",
-      "explain": "Au futur, « venir » devient viendr- : on écrit « viendrez »."
+      "answer": "devras",
+      "explain": "Au futur, « devoir » devient devr- : on écrit « devras »."
     },
     {
       "id": "fr-cm1-fut-125",
       "level": 3,
-      "type": "input",
-      "prompt": "Demain, vous ___ (venir) avec nous.",
-      "answer": [
-        "viendrez"
+      "type": "mcq",
+      "prompt": "Demain, nous ___ (pouvoir) visiter le stade.",
+      "choices": [
+        "pourra",
+        "pouvions",
+        "pourras",
+        "pourrons"
       ],
-      "explain": "Au futur, « venir » devient viendr- : on écrit « viendrez »."
+      "answer": "pourrons",
+      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourrons »."
     },
     {
       "id": "fr-cm1-fut-126",
       "level": 3,
       "type": "mcq",
-      "prompt": "Samedi prochain, vous ___ (vouloir) gagner la coupe.",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « pouvoir », au futur, sujet : les enfants)",
       "choices": [
-        "voudrez",
-        "voudras",
-        "voulerons",
-        "vouliez"
+        "Demain, les enfants pourrons nager.",
+        "Demain, les enfants pouvaient nager.",
+        "Demain, les enfants pourront nager.",
+        "Demain, les enfants pouvoiront nager."
       ],
-      "answer": "voudrez",
-      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudrez »."
+      "answer": "Demain, les enfants pourront nager.",
+      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourront »."
     },
     {
       "id": "fr-cm1-fut-127",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, je ___ (partir) à six heures.",
+      "prompt": "La semaine prochaine, nous ___ (venir) te chercher à l'école.",
       "choices": [
-        "partera",
-        "partais",
-        "partirez",
-        "partirai"
+        "viendrons",
+        "venirons",
+        "venions",
+        "viendrez"
       ],
-      "answer": "partirai",
-      "explain": "Au futur, on garde l'infinitif et on ajoute -ai avec « je »."
+      "answer": "viendrons",
+      "explain": "Au futur, « venir » devient viendr- : on écrit « viendrons »."
     },
     {
       "id": "fr-cm1-fut-128",
       "level": 3,
-      "type": "input",
-      "prompt": "Samedi prochain, ils ___ (prendre) le train.",
-      "answer": [
-        "prendront"
-      ],
-      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ont : prendront."
-    },
-    {
-      "id": "fr-cm1-fut-129",
-      "level": 3,
       "type": "mcq",
-      "prompt": "Samedi prochain, tu ___ (pouvoir) tirer au but.",
-      "choices": [
-        "pourra",
-        "pourras",
-        "pouverons",
-        "pouvais"
-      ],
-      "answer": "pourras",
-      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourras »."
-    },
-    {
-      "id": "fr-cm1-fut-130",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Demain, ma mère ___ (nettoyer) mes crampons.",
-      "choices": [
-        "nettoyait",
-        "nettoieront",
-        "nettoiera",
-        "nettoyer"
-      ],
-      "answer": "nettoiera",
-      "explain": "Au futur, le y de nettoyer devient i : nettoiera."
-    },
-    {
-      "id": "fr-cm1-fut-131",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Demain, Ethan et moi ___ (faire) une passe.",
-      "choices": [
-        "ferons",
-        "faisions",
-        "fairons",
-        "fera"
-      ],
-      "answer": "ferons",
-      "explain": "Au futur, « faire » devient fer- : on écrit « ferons »."
-    },
-    {
-      "id": "fr-cm1-fut-132",
-      "level": 3,
-      "type": "input",
-      "prompt": "Demain, les gardiens ___ (voir) le ballon.",
-      "answer": [
-        "verront"
-      ],
-      "explain": "Au futur, « voir » devient verr- : on écrit « verront »."
-    },
-    {
-      "id": "fr-cm1-fut-133",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « L'été prochain, nous irons à la mer. »",
+      "prompt": "Quel est le temps de cette phrase ? « Chaque soir, pendant les vacances, nous jouions aux cartes. »",
       "choices": [
         "passé composé",
         "imparfait",
         "futur simple",
-        "présent"
-      ],
-      "answer": "futur simple",
-      "explain": "L'action se passera plus tard : c'est le futur."
-    },
-    {
-      "id": "fr-cm1-fut-134",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « devoir », au futur, sujet : vous)",
-      "choices": [
-        "Samedi prochain, vous deviez partir.",
-        "Samedi prochain, vous devront partir.",
-        "Samedi prochain, vous devoira partir.",
-        "Samedi prochain, vous devrez partir."
-      ],
-      "answer": "Samedi prochain, vous devrez partir.",
-      "explain": "Au futur, « devoir » devient devr- : on écrit « devrez »."
-    },
-    {
-      "id": "fr-cm1-fut-135",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Dimanche prochain, les joueurs ___ (prendre) leurs sacs.",
-      "choices": [
-        "prendra",
-        "prendront",
-        "prenaient",
-        "prenderai"
-      ],
-      "answer": "prendront",
-      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ont : prendront."
-    },
-    {
-      "id": "fr-cm1-fut-136",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Samedi prochain, ___ voudrons gagner.",
-      "choices": [
-        "Tu",
-        "Nous",
-        "Il",
-        "Je"
-      ],
-      "answer": "Nous",
-      "explain": "La forme « voudrons » va avec « nous »."
-    },
-    {
-      "id": "fr-cm1-fut-137",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Chaque soir, pendant les vacances, nous jouions dehors. »",
-      "choices": [
-        "futur simple",
-        "passé composé",
-        "imparfait",
         "présent"
       ],
       "answer": "imparfait",
       "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
     },
     {
-      "id": "fr-cm1-fut-138",
+      "id": "fr-cm1-fut-129",
       "level": 3,
-      "type": "input",
-      "prompt": "Samedi prochain, nous ___ (nettoyer) les vestiaires.",
-      "answer": [
-        "nettoierons"
+      "type": "mcq",
+      "prompt": "Samedi prochain, vous ___ (voir) le feu d'artifice.",
+      "choices": [
+        "verras",
+        "verrez",
+        "verrai",
+        "voyiez"
       ],
-      "explain": "Au futur, le y de nettoyer devient i : nettoierons."
+      "answer": "verrez",
+      "explain": "Au futur, « voir » devient verr- : on écrit « verrez »."
     },
     {
-      "id": "fr-cm1-fut-139",
+      "id": "fr-cm1-fut-130",
       "level": 3,
-      "type": "input",
-      "prompt": "Samedi prochain, nous ___ (vouloir) gagner.",
-      "answer": [
-        "voudrons"
+      "type": "mcq",
+      "prompt": "Dimanche prochain, les joueurs ___ (devoir) courir vite.",
+      "choices": [
+        "devront",
+        "devoir",
+        "devaient",
+        "devrons"
       ],
-      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudrons »."
+      "answer": "devront",
+      "explain": "Au futur, « devoir » devient devr- : on écrit « devront »."
     },
     {
-      "id": "fr-cm1-fut-140",
+      "id": "fr-cm1-fut-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dimanche prochain, ___ viendras me voir.",
+      "choices": [
+        "Il",
+        "Ils",
+        "Vous",
+        "Tu"
+      ],
+      "answer": "Tu",
+      "explain": "La forme « viendras » va avec « tu »."
+    },
+    {
+      "id": "fr-cm1-fut-132",
       "level": 3,
       "type": "input",
-      "prompt": "Demain, tu ___ (devoir) partir.",
+      "prompt": "Après-demain, tu ___ (devoir) attendre.",
       "answer": [
         "devras"
       ],
       "explain": "Au futur, « devoir » devient devr- : on écrit « devras »."
     },
     {
-      "id": "fr-cm1-fut-141",
+      "id": "fr-cm1-fut-133",
       "level": 3,
       "type": "mcq",
-      "prompt": "Samedi prochain, vous ___ (voir) le but de près.",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « venir », au futur, sujet : mes voisins)",
       "choices": [
-        "verrez",
-        "voirai",
-        "voyiez",
-        "verras"
+        "Demain, mes voisins viendrons à la fête.",
+        "Demain, mes voisins venaient à la fête.",
+        "Demain, mes voisins viendront à la fête.",
+        "Demain, mes voisins venir à la fête."
       ],
-      "answer": "verrez",
-      "explain": "Au futur, « voir » devient verr- : on écrit « verrez »."
+      "answer": "Demain, mes voisins viendront à la fête.",
+      "explain": "Au futur, « venir » devient viendr- : on écrit « viendront »."
     },
     {
-      "id": "fr-cm1-fut-142",
+      "id": "fr-cm1-fut-134",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, je ___ (pouvoir) courir très vite.",
+      "prompt": "Quel est le temps de cette phrase ? « L'été prochain, nous irons à la montagne. »",
       "choices": [
-        "pouvais",
-        "pourront",
-        "pouvrai",
-        "pourrai"
-      ],
-      "answer": "pourrai",
-      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourrai »."
-    },
-    {
-      "id": "fr-cm1-fut-143",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Tous les jours, je vois mes amis à l'école. »",
-      "choices": [
-        "passé composé",
-        "imparfait",
+        "futur simple",
         "présent",
-        "futur simple"
+        "passé composé",
+        "imparfait"
       ],
-      "answer": "présent",
-      "explain": "L'action se passe aujourd'hui, comme une habitude : c'est le présent."
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
     },
     {
-      "id": "fr-cm1-fut-144",
+      "id": "fr-cm1-fut-135",
       "level": 3,
       "type": "mcq",
-      "prompt": "Demain, je ___ (vouloir) un verre d'eau.",
+      "prompt": "Dans deux jours, tu ___ (venir) à ma fête.",
       "choices": [
-        "vouloirai",
-        "voudrai",
-        "voudront",
-        "voulais"
-      ],
-      "answer": "voudrai",
-      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudrai »."
-    },
-    {
-      "id": "fr-cm1-fut-145",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Bientôt, mon frère ___ (vouloir) le ballon.",
-      "choices": [
-        "voudrons",
-        "voulait",
-        "voulra",
-        "voudra"
-      ],
-      "answer": "voudra",
-      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudra »."
-    },
-    {
-      "id": "fr-cm1-fut-146",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Samedi prochain, tu ___ (venir) avec moi au parc.",
-      "choices": [
-        "viendras",
-        "viendra",
         "venais",
-        "venira"
+        "viendras",
+        "viendrai",
+        "venir"
       ],
       "answer": "viendras",
       "explain": "Au futur, « venir » devient viendr- : on écrit « viendras »."
     },
     {
-      "id": "fr-cm1-fut-147",
+      "id": "fr-cm1-fut-136",
       "level": 3,
       "type": "mcq",
-      "prompt": "Dimanche prochain, les enfants ___ (pouvoir) jouer dehors.",
+      "prompt": "Bientôt, Sami et toi ___ (être) dans la même équipe.",
       "choices": [
-        "pouvaient",
-        "pourront",
-        "pouvera",
-        "pourras"
+        "être",
+        "étiez",
+        "serons",
+        "serez"
       ],
-      "answer": "pourront",
-      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourront »."
+      "answer": "serez",
+      "explain": "Au futur, « être » devient ser- : on écrit « serez »."
     },
     {
-      "id": "fr-cm1-fut-148",
+      "id": "fr-cm1-fut-137",
       "level": 3,
       "type": "mcq",
-      "prompt": "La semaine prochaine, les enfants ___ (étudier) leur leçon.",
+      "prompt": "Plus tard, vous ___ (prendre) une photo.",
       "choices": [
+        "prendre",
+        "preniez",
+        "prendrez",
+        "prenderez"
+      ],
+      "answer": "prendrez",
+      "explain": "Au futur, on enlève le e de « prendre » et on ajoute -ez : prendrez."
+    },
+    {
+      "id": "fr-cm1-fut-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "L'année prochaine, nous ___ (voir) un film d'aventure.",
+      "choices": [
+        "voyions",
+        "verra",
+        "voirons",
+        "verrons"
+      ],
+      "answer": "verrons",
+      "explain": "Au futur, « voir » devient verr- : on écrit « verrons »."
+    },
+    {
+      "id": "fr-cm1-fut-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans une heure, vous ___ (venir) en bus.",
+      "choices": [
+        "viendrai",
+        "veniez",
+        "viendrez",
+        "viendront"
+      ],
+      "answer": "viendrez",
+      "explain": "Au futur, « venir » devient viendr- : on écrit « viendrez »."
+    },
+    {
+      "id": "fr-cm1-fut-140",
+      "level": 3,
+      "type": "input",
+      "prompt": "Demain, vous ___ (venir) au cinéma.",
+      "answer": [
+        "viendrez"
+      ],
+      "explain": "Au futur, « venir » devient viendr- : on écrit « viendrez »."
+    },
+    {
+      "id": "fr-cm1-fut-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "La semaine prochaine, mes grands-parents ___ (venir) à ton anniversaire.",
+      "choices": [
+        "viendront",
+        "veniront",
+        "venaient",
+        "viendrons"
+      ],
+      "answer": "viendront",
+      "explain": "Au futur, « venir » devient viendr- : on écrit « viendront »."
+    },
+    {
+      "id": "fr-cm1-fut-142",
+      "level": 3,
+      "type": "input",
+      "prompt": "Samedi prochain, nous ___ (nettoyer) la cuisine.",
+      "answer": [
+        "nettoierons"
+      ],
+      "explain": "Au futur, le y de nettoyer devient i : nettoierons."
+    },
+    {
+      "id": "fr-cm1-fut-143",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dimanche prochain, nous ___ (vouloir) une photo.",
+      "answer": [
+        "voudrons"
+      ],
+      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudrons »."
+    },
+    {
+      "id": "fr-cm1-fut-144",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « devoir », au futur, sujet : vous)",
+      "choices": [
+        "Samedi prochain, vous devoir partir tôt.",
+        "Samedi prochain, vous devrez partir tôt.",
+        "Samedi prochain, vous devront partir tôt.",
+        "Samedi prochain, vous deviez partir tôt."
+      ],
+      "answer": "Samedi prochain, vous devrez partir tôt.",
+      "explain": "Au futur, « devoir » devient devr- : on écrit « devrez »."
+    },
+    {
+      "id": "fr-cm1-fut-145",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Après-demain, les voisins ___ (voir) notre jardin.",
+      "choices": [
+        "verras",
+        "verront",
+        "voyaient",
+        "voiront"
+      ],
+      "answer": "verront",
+      "explain": "Au futur, « voir » devient verr- : on écrit « verront »."
+    },
+    {
+      "id": "fr-cm1-fut-146",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans deux jours, les élèves ___ (étudier) les planètes.",
+      "choices": [
+        "étudiera",
         "étudiaient",
-        "étudier",
         "étudieront",
-        "étudieras"
+        "étudierez"
       ],
       "answer": "étudieront",
       "explain": "Au futur, on garde le i de l'infinitif : étudieront."
     },
     {
+      "id": "fr-cm1-fut-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Bientôt, les arbitres ___ (voir) la faute.",
+      "answer": [
+        "verront"
+      ],
+      "explain": "Au futur, « voir » devient verr- : on écrit « verront »."
+    },
+    {
+      "id": "fr-cm1-fut-148",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Plus tard, les cyclistes ___ (partir) à neuf heures.",
+      "choices": [
+        "partiront",
+        "partira",
+        "partaient",
+        "partir"
+      ],
+      "answer": "partiront",
+      "explain": "Au futur, on garde l'infinitif et on ajoute -ont avec « ils ou elles »."
+    },
+    {
       "id": "fr-cm1-fut-149",
       "level": 3,
       "type": "mcq",
-      "prompt": "Plus tard, je ___ (voir) mes amis dans les gradins.",
+      "prompt": "L'année prochaine, mon père et mon oncle ___ (dire) bravo.",
       "choices": [
-        "verrai",
-        "voira",
-        "verrez",
-        "voyais"
+        "dira",
+        "dirons",
+        "disaient",
+        "diront"
       ],
-      "answer": "verrai",
-      "explain": "Au futur, « voir » devient verr- : on écrit « verrai »."
+      "answer": "diront",
+      "explain": "Au futur, on enlève le e de « dire » et on ajoute -ont : diront."
     },
     {
       "id": "fr-cm1-fut-150",
       "level": 3,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « pouvoir », au futur, sujet : les enfants)",
-      "choices": [
-        "Demain, les enfants pouvaient jouer dehors.",
-        "Demain, les enfants pouverons jouer dehors.",
-        "Demain, les enfants pourrai jouer dehors.",
-        "Demain, les enfants pourront jouer dehors."
+      "type": "input",
+      "prompt": "Dans une heure, mes cousins ___ (vouloir) faire du vélo.",
+      "answer": [
+        "voudront"
       ],
-      "answer": "Demain, les enfants pourront jouer dehors.",
-      "explain": "Au futur, « pouvoir » devient pourr- : on écrit « pourront »."
+      "explain": "Au futur, « vouloir » devient voudr- : on écrit « voudront »."
     }
   ]
 }

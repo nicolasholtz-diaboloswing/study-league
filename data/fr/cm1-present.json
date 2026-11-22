@@ -5,360 +5,430 @@
       "id": "fr-cm1-pres-001",
       "level": 1,
       "type": "mcq",
-      "prompt": "En ce moment, nous ___ (avoir) un nouveau ballon.",
+      "prompt": "Tous les jours, ___ mangeons à la cantine.",
       "choices": [
-        "aurons",
-        "ont",
-        "avons",
-        "avont"
+        "Il",
+        "Tu",
+        "Nous",
+        "Ils"
       ],
-      "answer": "avons",
-      "explain": "« avoir » est irrégulier : avec « nous », on écrit « avons »."
+      "answer": "Nous",
+      "explain": "La forme « mangeons » va avec « nous »."
     },
     {
       "id": "fr-cm1-pres-002",
       "level": 1,
       "type": "mcq",
-      "prompt": "Aujourd'hui, je ___ (aller) à l'école à vélo.",
+      "prompt": "En ce moment, je ___ (être) un peu fatigué.",
       "choices": [
-        "vais",
-        "vas",
-        "allais",
-        "alles"
+        "suis",
+        "être",
+        "étais",
+        "es"
       ],
-      "answer": "vais",
-      "explain": "« aller » est irrégulier : avec « je », on écrit « vais »."
+      "answer": "suis",
+      "explain": "« être » est irrégulier : avec « je », on écrit « suis »."
     },
     {
       "id": "fr-cm1-pres-003",
       "level": 1,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Maintenant, mon frère joue au foot. »",
+      "prompt": "En ce moment, nous ___ (finir) nos devoirs.",
       "choices": [
-        "futur simple",
-        "passé composé",
-        "imparfait",
-        "présent"
+        "finis",
+        "finissions",
+        "finit",
+        "finissons"
       ],
-      "answer": "présent",
-      "explain": "L'action se passe maintenant : c'est le présent."
+      "answer": "finissons",
+      "explain": "Un verbe du 2e groupe se termine par -issons avec « nous »."
     },
     {
       "id": "fr-cm1-pres-004",
       "level": 1,
-      "type": "input",
-      "prompt": "Maintenant, nous ___ (avoir) le ballon.",
-      "answer": [
-        "avons"
-      ],
-      "explain": "« avoir » est irrégulier : avec « nous », on écrit « avons »."
-    },
-    {
-      "id": "fr-cm1-pres-005",
-      "level": 1,
-      "type": "input",
-      "prompt": "En ce moment, je ___ (donner) le ballon à Mia.",
-      "answer": [
-        "donne"
-      ],
-      "explain": "Au présent, un verbe en -er se termine par -e avec « je »."
-    },
-    {
-      "id": "fr-cm1-pres-006",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, tu ___ (avoir) le ballon.",
-      "choices": [
-        "avont",
-        "as",
-        "avez",
-        "avais"
-      ],
-      "answer": "as",
-      "explain": "« avoir » est irrégulier : avec « tu », on écrit « as »."
-    },
-    {
-      "id": "fr-cm1-pres-007",
-      "level": 1,
-      "type": "input",
-      "prompt": "En ce moment, les enfants ___ (chanter) dans la cour.",
-      "answer": [
-        "chantent"
-      ],
-      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-pres-008",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "En ce moment, le gardien ___ (regarder) le ballon.",
-      "choices": [
-        "regardont",
-        "regardes",
-        "regarde",
-        "regardait"
-      ],
-      "answer": "regarde",
-      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-009",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "En ce moment, vous ___ (être) très fatigués.",
-      "choices": [
-        "sont",
-        "êtez",
-        "étiez",
-        "êtes"
-      ],
-      "answer": "êtes",
-      "explain": "« être » est irrégulier : avec « vous », on écrit « êtes »."
-    },
-    {
-      "id": "fr-cm1-pres-010",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Maintenant, tu ___ (marquer) un but.",
-      "choices": [
-        "marqueras",
-        "marques",
-        "marquons",
-        "marquont"
-      ],
-      "answer": "marques",
-      "explain": "Au présent, un verbe en -er se termine par -es avec « tu »."
-    },
-    {
-      "id": "fr-cm1-pres-011",
-      "level": 1,
-      "type": "input",
-      "prompt": "En ce moment, Lucas ___ (marquer) un but.",
-      "answer": [
-        "marque"
-      ],
-      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-012",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, le public ___ (applaudir) les joueurs.",
-      "choices": [
-        "applaudit",
-        "applaudissont",
-        "applaudissait",
-        "applaudissons"
-      ],
-      "answer": "applaudit",
-      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-013",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, ___ chantes très bien.",
-      "choices": [
-        "Il",
-        "Ils",
-        "Tu",
-        "Je"
-      ],
-      "answer": "Tu",
-      "explain": "La forme « chantes » va avec « tu »."
-    },
-    {
-      "id": "fr-cm1-pres-014",
-      "level": 1,
       "type": "mcq",
       "prompt": "Maintenant, tu ___ (être) dans les buts.",
       "choices": [
-        "êtes",
+        "être",
         "es",
-        "ets",
+        "sont",
         "étais"
       ],
       "answer": "es",
       "explain": "« être » est irrégulier : avec « tu », on écrit « es »."
     },
     {
-      "id": "fr-cm1-pres-015",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « jouer », au présent, sujet : mes amis)",
-      "choices": [
-        "En ce moment, mes amis jouez un match.",
-        "En ce moment, mes amis jouont un match.",
-        "En ce moment, mes amis jouaient un match.",
-        "En ce moment, mes amis jouent un match."
-      ],
-      "answer": "En ce moment, mes amis jouent un match.",
-      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-pres-016",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Maintenant, vous ___ (chanter) très fort.",
-      "choices": [
-        "chantez",
-        "chantons",
-        "chanter",
-        "chantiez"
-      ],
-      "answer": "chantez",
-      "explain": "Au présent, un verbe en -er se termine par -ez avec « vous »."
-    },
-    {
-      "id": "fr-cm1-pres-017",
+      "id": "fr-cm1-pres-005",
       "level": 1,
       "type": "input",
-      "prompt": "En ce moment, mon père ___ (aller) au stade.",
+      "prompt": "Maintenant, Lucas ___ (tirer) au but.",
+      "answer": [
+        "tire"
+      ],
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Regarde : le public ___ (applaudir) les joueurs.",
+      "choices": [
+        "applaudissez",
+        "applaudit",
+        "applaudissait",
+        "applaudis"
+      ],
+      "answer": "applaudit",
+      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "En ce moment, nous ___ (avoir) le ballon rouge.",
+      "answer": [
+        "avons"
+      ],
+      "explain": "« avoir » est irrégulier : avec « nous », on écrit « avons »."
+    },
+    {
+      "id": "fr-cm1-pres-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "Tous les jours, papa ___ (aller) au stade en bus.",
       "answer": [
         "va"
       ],
       "explain": "« aller » est irrégulier : avec « il, elle ou on », on écrit « va »."
     },
     {
-      "id": "fr-cm1-pres-018",
+      "id": "fr-cm1-pres-009",
       "level": 1,
       "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « avoir », au présent, sujet : tu)",
+      "prompt": "Maintenant, les élèves ___ (choisir) un livre à la bibliothèque.",
       "choices": [
-        "Maintenant, tu ayons le ballon.",
-        "Maintenant, tu as le ballon.",
-        "Maintenant, tu avais le ballon.",
-        "Maintenant, tu avez le ballon."
+        "choisissons",
+        "choisisent",
+        "choisiront",
+        "choisissent"
       ],
-      "answer": "Maintenant, tu as le ballon.",
-      "explain": "« avoir » est irrégulier : avec « tu », on écrit « as »."
+      "answer": "choisissent",
+      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-pres-019",
-      "level": 1,
-      "type": "input",
-      "prompt": "En ce moment, vous ___ (parler) fort.",
-      "answer": [
-        "parlez"
-      ],
-      "explain": "Au présent, un verbe en -er se termine par -ez avec « vous »."
-    },
-    {
-      "id": "fr-cm1-pres-020",
+      "id": "fr-cm1-pres-010",
       "level": 1,
       "type": "mcq",
-      "prompt": "Maintenant, je ___ (être) très content.",
+      "prompt": "Quel est le temps de cette phrase ? « Autrefois, Lola jouait à la corde. »",
       "choices": [
-        "est",
-        "serai",
-        "somes",
-        "suis"
+        "passé composé",
+        "présent",
+        "imparfait",
+        "futur simple"
       ],
-      "answer": "suis",
-      "explain": "« être » est irrégulier : avec « je », on écrit « suis »."
+      "answer": "imparfait",
+      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
     },
     {
-      "id": "fr-cm1-pres-021",
+      "id": "fr-cm1-pres-011",
       "level": 1,
       "type": "mcq",
-      "prompt": "Maintenant, nous ___ (finir) nos devoirs.",
+      "prompt": "Tous les jours, Zoé ___ (donner) des carottes au lapin.",
       "choices": [
-        "finissions",
-        "finissont",
-        "finissons",
-        "finissent"
+        "donne",
+        "donnent",
+        "donner",
+        "donnons"
       ],
-      "answer": "finissons",
-      "explain": "Un verbe du 2e groupe se termine par -issons avec « nous »."
+      "answer": "donne",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-pres-022",
+      "id": "fr-cm1-pres-012",
       "level": 1,
       "type": "mcq",
-      "prompt": "En ce moment, nous ___ (jouer) au ballon dans la cour.",
+      "prompt": "En ce moment, tu ___ (jouer) à la console avec Noah.",
       "choices": [
-        "jouons",
-        "jouez",
-        "jouerons",
-        "joué"
-      ],
-      "answer": "jouons",
-      "explain": "Au présent, un verbe en -er se termine par -ons avec « nous »."
-    },
-    {
-      "id": "fr-cm1-pres-023",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Tous les jours, l'entraînement ___ (finir) à six heures.",
-      "choices": [
-        "finit",
-        "finira",
-        "finissont",
-        "finis"
-      ],
-      "answer": "finit",
-      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-024",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, tu ___ (jouer) avec ton chien.",
-      "choices": [
-        "jouer",
         "jouez",
         "joues",
-        "joueras"
+        "jouent",
+        "jouais"
       ],
       "answer": "joues",
       "explain": "Au présent, un verbe en -er se termine par -es avec « tu »."
     },
     {
-      "id": "fr-cm1-pres-025",
+      "id": "fr-cm1-pres-013",
       "level": 1,
       "type": "mcq",
-      "prompt": "Tous les jours, nous ___ (travailler) en classe.",
+      "prompt": "Maintenant, tu ___ (avoir) le ballon.",
       "choices": [
-        "travaillé",
-        "travaillons",
-        "travaille",
-        "travaillont"
+        "avais",
+        "avons",
+        "as",
+        "a"
       ],
-      "answer": "travaillons",
-      "explain": "Au présent, un verbe en -er se termine par -ons avec « nous »."
+      "answer": "as",
+      "explain": "« avoir » est irrégulier : avec « tu », on écrit « as »."
     },
     {
-      "id": "fr-cm1-pres-026",
+      "id": "fr-cm1-pres-014",
       "level": 1,
       "type": "input",
-      "prompt": "En ce moment, tu ___ (avoir) un nouveau maillot.",
+      "prompt": "En ce moment, vous ___ (chanter) trop fort.",
+      "answer": [
+        "chantez"
+      ],
+      "explain": "Au présent, un verbe en -er se termine par -ez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-pres-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Regarde : nous ___ (avoir) un nouveau ballon.",
+      "choices": [
+        "avons",
+        "ai",
+        "as",
+        "aurons"
+      ],
+      "answer": "avons",
+      "explain": "« avoir » est irrégulier : avec « nous », on écrit « avons »."
+    },
+    {
+      "id": "fr-cm1-pres-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « regarder », au présent, sujet : les gardiens)",
+      "choices": [
+        "En ce moment, les gardiens regardes le ballon.",
+        "En ce moment, les gardiens regarderont le ballon.",
+        "En ce moment, les gardiens regardons le ballon.",
+        "En ce moment, les gardiens regardent le ballon."
+      ],
+      "answer": "En ce moment, les gardiens regardent le ballon.",
+      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « avoir », au présent, sujet : tu)",
+      "choices": [
+        "Maintenant, tu avons le maillot rouge.",
+        "Maintenant, tu avoir le maillot rouge.",
+        "Maintenant, tu as le maillot rouge.",
+        "Maintenant, tu auras le maillot rouge."
+      ],
+      "answer": "Maintenant, tu as le maillot rouge.",
+      "explain": "« avoir » est irrégulier : avec « tu », on écrit « as »."
+    },
+    {
+      "id": "fr-cm1-pres-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « finir », au présent, sujet : nous)",
+      "choices": [
+        "Maintenant, nous finissons nos exercices.",
+        "Maintenant, nous finissez nos exercices.",
+        "Maintenant, nous finirons nos exercices.",
+        "Maintenant, nous finissent nos exercices."
+      ],
+      "answer": "Maintenant, nous finissons nos exercices.",
+      "explain": "Un verbe du 2e groupe se termine par -issons avec « nous »."
+    },
+    {
+      "id": "fr-cm1-pres-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "En ce moment, le gardien ___ (arrêter) le penalty.",
+      "choices": [
+        "arrêtes",
+        "arrête",
+        "arrêtez",
+        "arrêtait"
+      ],
+      "answer": "arrête",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Maintenant, Tom et Lila ___ (parler) avec la maîtresse.",
+      "choices": [
+        "parle",
+        "parlaient",
+        "parlé",
+        "parlent"
+      ],
+      "answer": "parlent",
+      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Chaque semaine, Inès ___ (chanter) dans la chorale.",
+      "choices": [
+        "chantent",
+        "chantes",
+        "chante",
+        "chantons"
+      ],
+      "answer": "chante",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Maintenant, tu ___ (avoir) un maillot neuf.",
       "answer": [
         "as"
       ],
       "explain": "« avoir » est irrégulier : avec « tu », on écrit « as »."
     },
     {
-      "id": "fr-cm1-pres-027",
+      "id": "fr-cm1-pres-023",
       "level": 1,
       "type": "mcq",
-      "prompt": "Tous les jours, mon chat ___ (chasser) les souris.",
+      "prompt": "En ce moment, je ___ (gagner) aux billes.",
       "choices": [
-        "chassons",
-        "chassé",
+        "gagne",
+        "gagnez",
+        "gagnais",
+        "gagnons"
+      ],
+      "answer": "gagne",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « je »."
+    },
+    {
+      "id": "fr-cm1-pres-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Maintenant, ___ chantes très fort.",
+      "choices": [
+        "Vous",
+        "Tu",
+        "Ils",
+        "Nous"
+      ],
+      "answer": "Tu",
+      "explain": "La forme « chantes » va avec « tu »."
+    },
+    {
+      "id": "fr-cm1-pres-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tous les jours, papa ___ (aimer) regarder le foot à la télé.",
+      "choices": [
+        "aiment",
+        "aimes",
+        "aimez",
+        "aime"
+      ],
+      "answer": "aime",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tous les jours, ma chatte ___ (chasser) les mouches.",
+      "choices": [
+        "chasser",
         "chassent",
-        "chasse"
+        "chasse",
+        "chassez"
       ],
       "answer": "chasse",
       "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
     },
     {
+      "id": "fr-cm1-pres-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Regarde : nous ___ (jouer) dans la cour.",
+      "choices": [
+        "jouons",
+        "jouions",
+        "joues",
+        "jouez"
+      ],
+      "answer": "jouons",
+      "explain": "Au présent, un verbe en -er se termine par -ons avec « nous »."
+    },
+    {
       "id": "fr-cm1-pres-028",
       "level": 1,
       "type": "mcq",
-      "prompt": "En ce moment, vous ___ (écouter) le coach.",
+      "prompt": "Chaque matin, je ___ (aller) à l'école à vélo.",
+      "choices": [
+        "aller",
+        "vont",
+        "va",
+        "vais"
+      ],
+      "answer": "vais",
+      "explain": "« aller » est irrégulier : avec « je », on écrit « vais »."
+    },
+    {
+      "id": "fr-cm1-pres-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Regarde : ___ marquent un but !",
+      "choices": [
+        "Il",
+        "Ils",
+        "Je",
+        "Nous"
+      ],
+      "answer": "Ils",
+      "explain": "La forme « marquent » va avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "En ce moment, les arbitres ___ (siffler) la fin du match.",
+      "answer": [
+        "sifflent"
+      ],
+      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Maintenant, Léa ___ (regarder) le match depuis les gradins.",
+      "choices": [
+        "regarde",
+        "regardons",
+        "regardait",
+        "regardez"
+      ],
+      "answer": "regarde",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "Regarde : les filles ___ (danser) dans la cour.",
+      "answer": [
+        "dansent"
+      ],
+      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Maintenant, vous ___ (écouter) le coach.",
       "choices": [
         "écoutent",
-        "écouter",
+        "écoute",
         "écoutez",
         "écouterez"
       ],
@@ -366,77 +436,15 @@
       "explain": "Au présent, un verbe en -er se termine par -ez avec « vous »."
     },
     {
-      "id": "fr-cm1-pres-029",
-      "level": 1,
-      "type": "input",
-      "prompt": "En ce moment, nous ___ (jouer) au foot.",
-      "answer": [
-        "jouons"
-      ],
-      "explain": "Au présent, un verbe en -er se termine par -ons avec « nous »."
-    },
-    {
-      "id": "fr-cm1-pres-030",
-      "level": 1,
-      "type": "input",
-      "prompt": "Maintenant, les joueurs ___ (finir) l'échauffement.",
-      "answer": [
-        "finissent"
-      ],
-      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-pres-031",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, les enfants ___ (avoir) très faim.",
-      "choices": [
-        "avaient",
-        "ont",
-        "avont",
-        "avons"
-      ],
-      "answer": "ont",
-      "explain": "« avoir » est irrégulier : avec « ils ou elles », on écrit « ont »."
-    },
-    {
-      "id": "fr-cm1-pres-032",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Tous les jours, ma sœur ___ (manger) une pomme.",
-      "choices": [
-        "manges",
-        "mangé",
-        "mangeions",
-        "mange"
-      ],
-      "answer": "mange",
-      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-033",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Maintenant, je ___ (gagner) un point.",
-      "choices": [
-        "gagne",
-        "gagnent",
-        "gagnerai",
-        "gagner"
-      ],
-      "answer": "gagne",
-      "explain": "Au présent, un verbe en -er se termine par -e avec « je »."
-    },
-    {
       "id": "fr-cm1-pres-034",
       "level": 1,
       "type": "mcq",
       "prompt": "En ce moment, ___ finissez vos devoirs.",
       "choices": [
-        "Je",
+        "Il",
         "Vous",
-        "Ils",
-        "Il"
+        "Nous",
+        "Ils"
       ],
       "answer": "Vous",
       "explain": "La forme « finissez » va avec « vous »."
@@ -445,488 +453,222 @@
       "id": "fr-cm1-pres-035",
       "level": 1,
       "type": "mcq",
-      "prompt": "Maintenant, ___ sont dans les vestiaires.",
+      "prompt": "Tous les jours, l'entraînement ___ (finir) à dix-huit heures.",
       "choices": [
-        "Il",
-        "Vous",
-        "Tu",
-        "Ils"
+        "fini",
+        "finissent",
+        "finis",
+        "finit"
       ],
-      "answer": "Ils",
-      "explain": "La forme « sont » va avec « ils ou elles »."
+      "answer": "finit",
+      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-pres-036",
       "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, nous ___ (aller) au stade.",
-      "choices": [
-        "va",
-        "allions",
-        "allons",
-        "aillent"
+      "type": "input",
+      "prompt": "En ce moment, nous ___ (jouer) au ballon prisonnier.",
+      "answer": [
+        "jouons"
       ],
-      "answer": "allons",
-      "explain": "« aller » est irrégulier : avec « nous », on écrit « allons »."
+      "explain": "Au présent, un verbe en -er se termine par -ons avec « nous »."
     },
     {
       "id": "fr-cm1-pres-037",
       "level": 1,
-      "type": "mcq",
-      "prompt": "En ce moment, les élèves ___ (choisir) un livre.",
-      "choices": [
-        "choisissent",
-        "choisiront",
-        "choisisent",
-        "choisit"
+      "type": "input",
+      "prompt": "En ce moment, tu ___ (passer) le ballon à Mia.",
+      "answer": [
+        "passes"
       ],
-      "answer": "choisissent",
-      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
+      "explain": "Au présent, un verbe en -er se termine par -es avec « tu »."
     },
     {
       "id": "fr-cm1-pres-038",
       "level": 1,
       "type": "mcq",
-      "prompt": "Maintenant, le coach ___ (donner) le ballon à Théo.",
+      "prompt": "Tous les jours, ma sœur ___ (travailler) bien en classe.",
       "choices": [
-        "donné",
-        "donnez",
-        "donnait",
-        "donne"
+        "travaillons",
+        "travaillent",
+        "travaille",
+        "travaillez"
       ],
-      "answer": "donne",
+      "answer": "travaille",
       "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-pres-039",
       "level": 1,
       "type": "mcq",
-      "prompt": "En ce moment, les joueurs ___ (chanter) dans le bus.",
+      "prompt": "Tous les jours, vous ___ (être) en avance.",
       "choices": [
-        "chanteront",
-        "chanté",
-        "chantent",
-        "chantes"
+        "êtes",
+        "sont",
+        "être",
+        "suis"
       ],
-      "answer": "chantent",
-      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+      "answer": "êtes",
+      "explain": "« être » est irrégulier : avec « vous », on écrit « êtes »."
     },
     {
       "id": "fr-cm1-pres-040",
       "level": 1,
       "type": "mcq",
-      "prompt": "En ce moment, je ___ (parler) avec mon ami.",
+      "prompt": "Maintenant, mon petit frère ___ (manger) une banane.",
       "choices": [
-        "parlont",
-        "parle",
-        "parlais",
-        "parles"
+        "mangeons",
+        "mange",
+        "mangera",
+        "mangent"
       ],
-      "answer": "parle",
-      "explain": "Au présent, un verbe en -er se termine par -e avec « je »."
+      "answer": "mange",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
     },
     {
       "id": "fr-cm1-pres-041",
       "level": 1,
+      "type": "input",
+      "prompt": "Tous les jours, je ___ (donner) à manger aux poissons.",
+      "answer": [
+        "donne"
+      ],
+      "explain": "Au présent, un verbe en -er se termine par -e avec « je »."
+    },
+    {
+      "id": "fr-cm1-pres-042",
+      "level": 1,
       "type": "mcq",
-      "prompt": "Maintenant, mes amis ___ (aller) au parc.",
+      "prompt": "Regarde : les supporters ___ (chanter) dans le bus.",
       "choices": [
+        "chanteront",
+        "chantes",
+        "chantons",
+        "chantent"
+      ],
+      "answer": "chantent",
+      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tous les jours, nous ___ (aller) à la piscine.",
+      "choices": [
+        "va",
         "vont",
-        "alles",
         "vas",
+        "allons"
+      ],
+      "answer": "allons",
+      "explain": "« aller » est irrégulier : avec « nous », on écrit « allons »."
+    },
+    {
+      "id": "fr-cm1-pres-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "En ce moment, le coach ___ (donner) un maillot à Théo.",
+      "choices": [
+        "donnez",
+        "donne",
+        "donnent",
+        "donnera"
+      ],
+      "answer": "donne",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Samedi prochain, nous jouerons le tournoi. »",
+      "choices": [
+        "futur simple",
+        "imparfait",
+        "présent",
+        "passé composé"
+      ],
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
+    },
+    {
+      "id": "fr-cm1-pres-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Maintenant, tu ___ (marquer) un joli but.",
+      "choices": [
+        "marquent",
+        "marqueras",
+        "marques",
+        "marque"
+      ],
+      "answer": "marques",
+      "explain": "Au présent, un verbe en -er se termine par -es avec « tu »."
+    },
+    {
+      "id": "fr-cm1-pres-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Maintenant, les enfants ___ (avoir) très froid.",
+      "choices": [
+        "avaient",
+        "as",
+        "ont",
+        "avez"
+      ],
+      "answer": "ont",
+      "explain": "« avoir » est irrégulier : avec « ils ou elles », on écrit « ont »."
+    },
+    {
+      "id": "fr-cm1-pres-048",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « En ce moment, Noah joue au ping-pong. »",
+      "choices": [
+        "futur simple",
+        "passé composé",
+        "imparfait",
+        "présent"
+      ],
+      "answer": "présent",
+      "explain": "L'action se passe maintenant, ou tous les jours : c'est le présent."
+    },
+    {
+      "id": "fr-cm1-pres-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Regarde : mes amis ___ (aller) au parc.",
+      "choices": [
+        "vas",
+        "vont",
+        "va",
         "allaient"
       ],
       "answer": "vont",
       "explain": "« aller » est irrégulier : avec « ils ou elles », on écrit « vont »."
     },
     {
-      "id": "fr-cm1-pres-042",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "En ce moment, Zoé ___ (donner) à manger au lapin.",
-      "choices": [
-        "donnes",
-        "donnont",
-        "donnera",
-        "donne"
-      ],
-      "answer": "donne",
-      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-043",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "En ce moment, mon frère ___ (être) à la maison.",
-      "choices": [
-        "ets",
-        "est",
-        "suis",
-        "sera"
-      ],
-      "answer": "est",
-      "explain": "« être » est irrégulier : avec « il, elle ou on », on écrit « est »."
-    },
-    {
-      "id": "fr-cm1-pres-044",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Demain, nous jouerons contre les rouges. »",
-      "choices": [
-        "futur simple",
-        "imparfait",
-        "passé composé",
-        "présent"
-      ],
-      "answer": "futur simple",
-      "explain": "L'action se passera plus tard : c'est le futur."
-    },
-    {
-      "id": "fr-cm1-pres-045",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Autrefois, je jouais dans la rue. »",
-      "choices": [
-        "présent",
-        "passé composé",
-        "imparfait",
-        "futur simple"
-      ],
-      "answer": "imparfait",
-      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
-    },
-    {
-      "id": "fr-cm1-pres-046",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, notre équipe ___ (être) en finale.",
-      "choices": [
-        "sommes",
-        "êtez",
-        "était",
-        "est"
-      ],
-      "answer": "est",
-      "explain": "« être » est irrégulier : avec « il, elle ou on », on écrit « est »."
-    },
-    {
-      "id": "fr-cm1-pres-047",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « finir », au présent, sujet : nous)",
-      "choices": [
-        "Aujourd'hui, nous finirons notre devoir.",
-        "Aujourd'hui, nous finis notre devoir.",
-        "Aujourd'hui, nous finissons notre devoir.",
-        "Aujourd'hui, nous finisent notre devoir."
-      ],
-      "answer": "Aujourd'hui, nous finissons notre devoir.",
-      "explain": "Un verbe du 2e groupe se termine par -issons avec « nous »."
-    },
-    {
-      "id": "fr-cm1-pres-048",
-      "level": 1,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, ___ jouons au ballon.",
-      "choices": [
-        "Nous",
-        "Il",
-        "Je",
-        "Vous"
-      ],
-      "answer": "Nous",
-      "explain": "La forme « jouons » va avec « nous »."
-    },
-    {
-      "id": "fr-cm1-pres-049",
-      "level": 1,
-      "type": "input",
-      "prompt": "Maintenant, tu ___ (gagner) la partie.",
-      "answer": [
-        "gagnes"
-      ],
-      "explain": "Au présent, un verbe en -er se termine par -es avec « tu »."
-    },
-    {
       "id": "fr-cm1-pres-050",
       "level": 1,
       "type": "mcq",
-      "prompt": "Aujourd'hui, ma mère ___ (aimer) le foot.",
+      "prompt": "En ce moment, mon équipe ___ (être) première du classement.",
       "choices": [
-        "aimait",
-        "aime",
-        "aimont",
-        "aiment"
+        "est",
+        "sont",
+        "êtes",
+        "était"
       ],
-      "answer": "aime",
-      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+      "answer": "est",
+      "explain": "« être » est irrégulier : avec « il, elle ou on », on écrit « est »."
     },
     {
       "id": "fr-cm1-pres-051",
       "level": 2,
       "type": "mcq",
-      "prompt": "Maintenant, ___ vont à l'entraînement.",
-      "choices": [
-        "Ils",
-        "Il",
-        "Nous",
-        "Je"
-      ],
-      "answer": "Ils",
-      "explain": "La forme « vont » va avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-pres-052",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Tous les jours, tu ___ (faire) ton lit.",
-      "choices": [
-        "fesons",
-        "fais",
-        "fait",
-        "faites"
-      ],
-      "answer": "fais",
-      "explain": "« faire » est irrégulier : avec « tu », on écrit « fais »."
-    },
-    {
-      "id": "fr-cm1-pres-053",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, nous ___ (être) très contents.",
-      "choices": [
-        "étions",
-        "suis",
-        "ets",
-        "sommes"
-      ],
-      "answer": "sommes",
-      "explain": "« être » est irrégulier : avec « nous », on écrit « sommes »."
-    },
-    {
-      "id": "fr-cm1-pres-054",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Maintenant, nous ___ (prendre) le bus pour le stade.",
-      "choices": [
-        "prendons",
-        "prennent",
-        "prenons",
-        "prenions"
-      ],
-      "answer": "prenons",
-      "explain": "« prendre » est irrégulier : avec « nous », on écrit « prenons »."
-    },
-    {
-      "id": "fr-cm1-pres-055",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « faire », au présent, sujet : vous)",
-      "choices": [
-        "En ce moment, vous faites un exercice.",
-        "En ce moment, vous fesons un exercice.",
-        "En ce moment, vous faisiez un exercice.",
-        "En ce moment, vous fais un exercice."
-      ],
-      "answer": "En ce moment, vous faites un exercice.",
-      "explain": "« faire » est irrégulier : avec « vous », on écrit « faites »."
-    },
-    {
-      "id": "fr-cm1-pres-056",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, les supporters ___ (partir) du stade.",
-      "choices": [
-        "partes",
-        "partaient",
-        "part",
-        "partent"
-      ],
-      "answer": "partent",
-      "explain": "« partir » est irrégulier : avec « ils ou elles », on écrit « partent »."
-    },
-    {
-      "id": "fr-cm1-pres-057",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Tous les jours, ma tante ___ (venir) me chercher.",
-      "choices": [
-        "venons",
-        "vienons",
-        "vient",
-        "venez"
-      ],
-      "answer": "vient",
-      "explain": "« venir » est irrégulier : avec « il, elle ou on », on écrit « vient »."
-    },
-    {
-      "id": "fr-cm1-pres-058",
-      "level": 2,
-      "type": "input",
-      "prompt": "En ce moment, mes amis ___ (choisir) leur maillot.",
-      "answer": [
-        "choisissent"
-      ],
-      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-pres-059",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Maintenant, nous ___ (faire) une passe.",
-      "choices": [
-        "fesons",
-        "faisons",
-        "ferons",
-        "faites"
-      ],
-      "answer": "faisons",
-      "explain": "« faire » est irrégulier : avec « nous », on écrit « faisons »."
-    },
-    {
-      "id": "fr-cm1-pres-060",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, les arbitres ___ (être) sur le terrain.",
-      "choices": [
-        "suis",
-        "sont",
-        "étaient",
-        "ets"
-      ],
-      "answer": "sont",
-      "explain": "« être » est irrégulier : avec « ils ou elles », on écrit « sont »."
-    },
-    {
-      "id": "fr-cm1-pres-061",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, les arbres ___ (grandir) dans le jardin.",
-      "choices": [
-        "grandissons",
-        "grandisent",
-        "grandissaient",
-        "grandissent"
-      ],
-      "answer": "grandissent",
-      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-pres-062",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Maintenant, vous ___ (réussir) tous vos tirs.",
-      "choices": [
-        "réussissez",
-        "réussissiez",
-        "réussise",
-        "réussit"
-      ],
-      "answer": "réussissez",
-      "explain": "Un verbe du 2e groupe se termine par -issez avec « vous »."
-    },
-    {
-      "id": "fr-cm1-pres-063",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, ___ choisit son maillot.",
-      "choices": [
-        "Vous",
-        "Je",
-        "Il",
-        "Ils"
-      ],
-      "answer": "Il",
-      "explain": "La forme « choisit » va avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-064",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, Inès ___ (prendre) son sac.",
-      "choices": [
-        "prend",
-        "prendra",
-        "prendent",
-        "prenez"
-      ],
-      "answer": "prend",
-      "explain": "« prendre » est irrégulier : avec « il, elle ou on », on écrit « prend »."
-    },
-    {
-      "id": "fr-cm1-pres-065",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Maintenant, vous ___ (avoir) le droit de jouer.",
-      "choices": [
-        "ayons",
-        "aurez",
-        "a",
-        "avez"
-      ],
-      "answer": "avez",
-      "explain": "« avoir » est irrégulier : avec « vous », on écrit « avez »."
-    },
-    {
-      "id": "fr-cm1-pres-066",
-      "level": 2,
-      "type": "input",
-      "prompt": "En ce moment, tu ___ (avoir) mal aux jambes.",
-      "answer": [
-        "as"
-      ],
-      "explain": "« avoir » est irrégulier : avec « tu », on écrit « as »."
-    },
-    {
-      "id": "fr-cm1-pres-067",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, tu ___ (finir) tes devoirs avant le goûter.",
-      "choices": [
-        "finissons",
-        "finisent",
-        "finis",
-        "finissais"
-      ],
-      "answer": "finis",
-      "explain": "Un verbe du 2e groupe se termine par -is avec « tu »."
-    },
-    {
-      "id": "fr-cm1-pres-068",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Maintenant, mes cousins ___ (avoir) un chien.",
-      "choices": [
-        "auront",
-        "ont",
-        "avons",
-        "avont"
-      ],
-      "answer": "ont",
-      "explain": "« avoir » est irrégulier : avec « ils ou elles », on écrit « ont »."
-    },
-    {
-      "id": "fr-cm1-pres-069",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, ___ faisons un exercice.",
-      "choices": [
-        "Je",
-        "Il",
-        "Ils",
-        "Nous"
-      ],
-      "answer": "Nous",
-      "explain": "La forme « faisons » va avec « nous »."
-    },
-    {
-      "id": "fr-cm1-pres-070",
-      "level": 2,
-      "type": "mcq",
       "prompt": "Maintenant, les élèves ___ (aller) en récréation.",
       "choices": [
-        "allez",
-        "alles",
+        "vas",
+        "va",
         "vont",
         "iront"
       ],
@@ -934,965 +676,653 @@
       "explain": "« aller » est irrégulier : avec « ils ou elles », on écrit « vont »."
     },
     {
-      "id": "fr-cm1-pres-071",
+      "id": "fr-cm1-pres-052",
       "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, tu ___ (grandir) vite.",
+      "prompt": "En ce moment, vous ___ (aller) à la cantine.",
       "choices": [
-        "grandissont",
-        "grandis",
-        "grandit",
-        "grandiras"
-      ],
-      "answer": "grandis",
-      "explain": "Un verbe du 2e groupe se termine par -is avec « tu »."
-    },
-    {
-      "id": "fr-cm1-pres-072",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, les joueurs ___ (choisir) un capitaine.",
-      "choices": [
-        "choisissent",
-        "choisit",
-        "choisissaient",
-        "choisissont"
-      ],
-      "answer": "choisissent",
-      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
-    },
-    {
-      "id": "fr-cm1-pres-073",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Tous les jours, on ___ (ranger) nos crampons.",
-      "choices": [
-        "rangeions",
-        "range",
-        "rangeons",
-        "ranges"
-      ],
-      "answer": "range",
-      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-074",
-      "level": 2,
-      "type": "input",
-      "prompt": "En ce moment, nous ___ (finir) tôt.",
-      "answer": [
-        "finissons"
-      ],
-      "explain": "Un verbe du 2e groupe se termine par -issons avec « nous »."
-    },
-    {
-      "id": "fr-cm1-pres-075",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, tu ___ (prendre) le ballon.",
-      "choices": [
-        "prenais",
-        "prend",
-        "prendez",
-        "prends"
-      ],
-      "answer": "prends",
-      "explain": "« prendre » est irrégulier : avec « tu », on écrit « prends »."
-    },
-    {
-      "id": "fr-cm1-pres-076",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, mon entraîneur ___ (dire) bravo.",
-      "choices": [
-        "dit",
-        "disont",
-        "disait",
-        "disons"
-      ],
-      "answer": "dit",
-      "explain": "« dire » est irrégulier : avec « il, elle ou on », on écrit « dit »."
-    },
-    {
-      "id": "fr-cm1-pres-077",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, nous ___ (aller) chez le coiffeur.",
-      "choices": [
-        "allez",
-        "irons",
-        "allons",
-        "aillent"
-      ],
-      "answer": "allons",
-      "explain": "« aller » est irrégulier : avec « nous », on écrit « allons »."
-    },
-    {
-      "id": "fr-cm1-pres-078",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, vous ___ (aller) à la piscine.",
-      "choices": [
-        "allez",
-        "allent",
+        "vas",
+        "aller",
         "irez",
-        "vais"
+        "allez"
       ],
       "answer": "allez",
       "explain": "« aller » est irrégulier : avec « vous », on écrit « allez »."
     },
     {
-      "id": "fr-cm1-pres-079",
+      "id": "fr-cm1-pres-053",
       "level": 2,
       "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « choisir », au présent, sujet : les joueurs)",
+      "prompt": "Regarde : le coach ___ (choisir) les remplaçants.",
       "choices": [
-        "Aujourd'hui, les joueurs choisiront leur maillot.",
-        "Aujourd'hui, les joueurs choisisent leur maillot.",
-        "Aujourd'hui, les joueurs choisissez leur maillot.",
-        "Aujourd'hui, les joueurs choisissent leur maillot."
+        "choisit",
+        "choisissait",
+        "choisis",
+        "choisissons"
       ],
-      "answer": "Aujourd'hui, les joueurs choisissent leur maillot.",
-      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
+      "answer": "choisit",
+      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-pres-080",
+      "id": "fr-cm1-pres-054",
       "level": 2,
       "type": "mcq",
-      "prompt": "Maintenant, nous ___ (manger) des pâtes avant le match.",
+      "prompt": "En ce moment, nous ___ (être) très contents du résultat.",
+      "choices": [
+        "es",
+        "sommes",
+        "serons",
+        "suis"
+      ],
+      "answer": "sommes",
+      "explain": "« être » est irrégulier : avec « nous », on écrit « sommes »."
+    },
+    {
+      "id": "fr-cm1-pres-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Tous les jours, ___ choisit un fruit.",
+      "choices": [
+        "Tu",
+        "Vous",
+        "Il",
+        "Je"
+      ],
+      "answer": "Il",
+      "explain": "La forme « choisit » va avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Chaque semaine, ma tante ___ (venir) à mes matchs.",
+      "choices": [
+        "vient",
+        "venir",
+        "venons",
+        "viennent"
+      ],
+      "answer": "vient",
+      "explain": "« venir » est irrégulier : avec « il, elle ou on », on écrit « vient »."
+    },
+    {
+      "id": "fr-cm1-pres-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Maintenant, les arbitres ___ (être) sur le terrain.",
+      "choices": [
+        "est",
+        "seront",
+        "es",
+        "sont"
+      ],
+      "answer": "sont",
+      "explain": "« être » est irrégulier : avec « ils ou elles », on écrit « sont »."
+    },
+    {
+      "id": "fr-cm1-pres-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "En ce moment, ___ faisons un exercice.",
+      "choices": [
+        "Vous",
+        "Nous",
+        "Tu",
+        "Ils"
+      ],
+      "answer": "Nous",
+      "explain": "La forme « faisons » va avec « nous »."
+    },
+    {
+      "id": "fr-cm1-pres-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Maintenant, ___ dites bonjour au coach.",
+      "choices": [
+        "Il",
+        "Ils",
+        "Vous",
+        "Tu"
+      ],
+      "answer": "Vous",
+      "explain": "La forme « dites » va avec « vous »."
+    },
+    {
+      "id": "fr-cm1-pres-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Tous les jours, nous ___ (manger) des crêpes à la cantine.",
       "choices": [
         "mange",
-        "mangé",
-        "mangeons",
-        "mangerons"
+        "manges",
+        "mangent",
+        "mangeons"
       ],
       "answer": "mangeons",
       "explain": "Avec « nous », on garde le e après le g : mangeons."
     },
     {
-      "id": "fr-cm1-pres-081",
-      "level": 2,
-      "type": "input",
-      "prompt": "Maintenant, tu ___ (dire) bonjour au gardien.",
-      "answer": [
-        "dis"
-      ],
-      "explain": "« dire » est irrégulier : avec « tu », on écrit « dis »."
-    },
-    {
-      "id": "fr-cm1-pres-082",
-      "level": 2,
-      "type": "input",
-      "prompt": "Maintenant, les joueurs ___ (faire) un tour de terrain.",
-      "answer": [
-        "font"
-      ],
-      "explain": "« faire » est irrégulier : avec « ils ou elles », on écrit « font »."
-    },
-    {
-      "id": "fr-cm1-pres-083",
-      "level": 2,
-      "type": "input",
-      "prompt": "En ce moment, vous ___ (faire) du bruit.",
-      "answer": [
-        "faites"
-      ],
-      "explain": "« faire » est irrégulier : avec « vous », on écrit « faites »."
-    },
-    {
-      "id": "fr-cm1-pres-084",
+      "id": "fr-cm1-pres-061",
       "level": 2,
       "type": "mcq",
-      "prompt": "Maintenant, nous ___ (commencer) l'entraînement.",
+      "prompt": "Regarde : l'équipe ___ (réussir) un beau corner.",
       "choices": [
-        "commencerons",
-        "commençons",
-        "commencer",
-        "commence"
+        "réussit",
+        "réussis",
+        "réussira",
+        "réussi"
       ],
-      "answer": "commençons",
-      "explain": "Avec « nous », le c prend une cédille devant o : commençons."
+      "answer": "réussit",
+      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-pres-085",
+      "id": "fr-cm1-pres-062",
       "level": 2,
       "type": "mcq",
-      "prompt": "Aujourd'hui, nous ___ (nager) à la piscine.",
+      "prompt": "En ce moment, les tomates ___ (grandir) dans le jardin.",
       "choices": [
-        "nagé",
-        "nagions",
-        "nageons",
-        "nages"
+        "grandit",
+        "grandissent",
+        "grandissez",
+        "grandissaient"
       ],
-      "answer": "nageons",
-      "explain": "Avec « nous », on garde le e après le g : nageons."
+      "answer": "grandissent",
+      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-pres-086",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Maintenant, vous ___ (dire) la vérité.",
-      "choices": [
-        "dites",
-        "disiez",
-        "disent",
-        "disez"
-      ],
-      "answer": "dites",
-      "explain": "« dire » est irrégulier : avec « vous », on écrit « dites »."
-    },
-    {
-      "id": "fr-cm1-pres-087",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Samedi prochain, les joueurs prendront le bus. »",
-      "choices": [
-        "présent",
-        "futur simple",
-        "passé composé",
-        "imparfait"
-      ],
-      "answer": "futur simple",
-      "explain": "L'action se passera plus tard : c'est le futur."
-    },
-    {
-      "id": "fr-cm1-pres-088",
+      "id": "fr-cm1-pres-063",
       "level": 2,
       "type": "input",
-      "prompt": "En ce moment, nous ___ (manger) à la cantine.",
-      "answer": [
-        "mangeons"
-      ],
-      "explain": "Avec « nous », on garde le e après le g : mangeons."
-    },
-    {
-      "id": "fr-cm1-pres-089",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « En ce moment, nous finissons nos devoirs. »",
-      "choices": [
-        "futur simple",
-        "passé composé",
-        "imparfait",
-        "présent"
-      ],
-      "answer": "présent",
-      "explain": "L'action se passe maintenant : c'est le présent."
-    },
-    {
-      "id": "fr-cm1-pres-090",
-      "level": 2,
-      "type": "input",
-      "prompt": "En ce moment, nous ___ (prendre) le goûter.",
+      "prompt": "Tous les jours, nous ___ (prendre) le goûter dans la cour.",
       "answer": [
         "prenons"
       ],
       "explain": "« prendre » est irrégulier : avec « nous », on écrit « prenons »."
     },
     {
-      "id": "fr-cm1-pres-091",
+      "id": "fr-cm1-pres-064",
       "level": 2,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Avant, vous aviez un petit ballon. »",
+      "prompt": "Maintenant, vous ___ (réussir) vos passes.",
+      "choices": [
+        "réussi",
+        "réussissez",
+        "réussissent",
+        "réussirez"
+      ],
+      "answer": "réussissez",
+      "explain": "Un verbe du 2e groupe se termine par -issez avec « vous »."
+    },
+    {
+      "id": "fr-cm1-pres-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Avant, vous aviez un vieux ballon. »",
       "choices": [
         "imparfait",
-        "futur simple",
         "présent",
-        "passé composé"
+        "passé composé",
+        "futur simple"
       ],
       "answer": "imparfait",
       "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
     },
     {
-      "id": "fr-cm1-pres-092",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, les enfants ___ (faire) leurs devoirs.",
-      "choices": [
-        "fesons",
-        "feront",
-        "fait",
-        "font"
-      ],
-      "answer": "font",
-      "explain": "« faire » est irrégulier : avec « ils ou elles », on écrit « font »."
-    },
-    {
-      "id": "fr-cm1-pres-093",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, vous ___ (faire) un super match.",
-      "choices": [
-        "fesons",
-        "faites",
-        "faisons",
-        "ferez"
-      ],
-      "answer": "faites",
-      "explain": "« faire » est irrégulier : avec « vous », on écrit « faites »."
-    },
-    {
-      "id": "fr-cm1-pres-094",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "En ce moment, ___ dites bonjour.",
-      "choices": [
-        "Nous",
-        "Ils",
-        "Vous",
-        "Je"
-      ],
-      "answer": "Vous",
-      "explain": "La forme « dites » va avec « vous »."
-    },
-    {
-      "id": "fr-cm1-pres-095",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « aller », au présent, sujet : nous)",
-      "choices": [
-        "Maintenant, nous vais au stade.",
-        "Maintenant, nous irons au stade.",
-        "Maintenant, nous allons au stade.",
-        "Maintenant, nous alles au stade."
-      ],
-      "answer": "Maintenant, nous allons au stade.",
-      "explain": "« aller » est irrégulier : avec « nous », on écrit « allons »."
-    },
-    {
-      "id": "fr-cm1-pres-096",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Maintenant, le coach ___ (choisir) les remplaçants.",
-      "choices": [
-        "choisissez",
-        "choisit",
-        "choisira",
-        "choisise"
-      ],
-      "answer": "choisit",
-      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-097",
-      "level": 2,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, l'équipe ___ (réussir) un beau but.",
-      "choices": [
-        "réussit",
-        "réussissait",
-        "réussissons",
-        "réussisent"
-      ],
-      "answer": "réussit",
-      "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
-    },
-    {
-      "id": "fr-cm1-pres-098",
+      "id": "fr-cm1-pres-066",
       "level": 2,
       "type": "input",
-      "prompt": "Tous les jours, ma petite sœur ___ (grandir).",
+      "prompt": "Maintenant, nous ___ (finir) la peinture.",
+      "answer": [
+        "finissons"
+      ],
+      "explain": "Un verbe du 2e groupe se termine par -issons avec « nous »."
+    },
+    {
+      "id": "fr-cm1-pres-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Regarde : nous ___ (commencer) l'entraînement.",
+      "choices": [
+        "commencons",
+        "commencent",
+        "commençons",
+        "commencerons"
+      ],
+      "answer": "commençons",
+      "explain": "Avec « nous », le c prend une cédille devant o : commençons."
+    },
+    {
+      "id": "fr-cm1-pres-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "En ce moment, le bébé ___ (grandir) vite.",
       "answer": [
         "grandit"
       ],
       "explain": "Un verbe du 2e groupe se termine par -it avec « il, elle ou on »."
     },
     {
-      "id": "fr-cm1-pres-099",
+      "id": "fr-cm1-pres-069",
       "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, nous ___ (lancer) le ballon très haut.",
+      "prompt": "Quel est le temps de cette phrase ? « Maintenant, nous finissons le puzzle. »",
       "choices": [
-        "lancerons",
-        "lancer",
-        "lance",
+        "imparfait",
+        "passé composé",
+        "futur simple",
+        "présent"
+      ],
+      "answer": "présent",
+      "explain": "L'action se passe maintenant, ou tous les jours : c'est le présent."
+    },
+    {
+      "id": "fr-cm1-pres-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « aller », au présent, sujet : nous)",
+      "choices": [
+        "Regarde : nous aller vers le stade.",
+        "Regarde : nous vais vers le stade.",
+        "Regarde : nous allons vers le stade.",
+        "Regarde : nous irons vers le stade."
+      ],
+      "answer": "Regarde : nous allons vers le stade.",
+      "explain": "« aller » est irrégulier : avec « nous », on écrit « allons »."
+    },
+    {
+      "id": "fr-cm1-pres-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "En ce moment, tu ___ (prendre) ton vélo.",
+      "choices": [
+        "prends",
+        "prend",
+        "prenons",
+        "prendras"
+      ],
+      "answer": "prends",
+      "explain": "« prendre » est irrégulier : avec « tu », on écrit « prends »."
+    },
+    {
+      "id": "fr-cm1-pres-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Maintenant, nous ___ (lancer) des ballons dans le filet.",
+      "choices": [
+        "lances",
+        "lancions",
+        "lancez",
         "lançons"
       ],
       "answer": "lançons",
       "explain": "Avec « nous », le c prend une cédille devant o : lançons."
     },
     {
-      "id": "fr-cm1-pres-100",
+      "id": "fr-cm1-pres-073",
       "level": 2,
       "type": "input",
-      "prompt": "En ce moment, vous ___ (aller) au cinéma.",
+      "prompt": "Tous les jours, tu ___ (dire) merci au gardien.",
       "answer": [
-        "allez"
+        "dis"
       ],
-      "explain": "« aller » est irrégulier : avec « vous », on écrit « allez »."
+      "explain": "« dire » est irrégulier : avec « tu », on écrit « dis »."
     },
     {
-      "id": "fr-cm1-pres-101",
-      "level": 3,
+      "id": "fr-cm1-pres-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Maintenant, nous ___ (aller) chez le dentiste.",
+      "choices": [
+        "vais",
+        "allons",
+        "va",
+        "irons"
+      ],
+      "answer": "allons",
+      "explain": "« aller » est irrégulier : avec « nous », on écrit « allons »."
+    },
+    {
+      "id": "fr-cm1-pres-075",
+      "level": 2,
       "type": "input",
-      "prompt": "En ce moment, nous ___ (vouloir) gagner.",
+      "prompt": "Tous les jours, nous ___ (manger) du riz avec du poulet.",
       "answer": [
-        "voulons"
+        "mangeons"
       ],
-      "explain": "« vouloir » est irrégulier : avec « nous », on écrit « voulons »."
+      "explain": "Avec « nous », on garde le e après le g : mangeons."
     },
     {
-      "id": "fr-cm1-pres-102",
-      "level": 3,
+      "id": "fr-cm1-pres-076",
+      "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, Léa et toi ___ (être) dans la même équipe.",
+      "prompt": "En ce moment, les enfants ___ (faire) des dessins pour l'anniversaire.",
       "choices": [
-        "êtez",
-        "serez",
-        "est",
-        "êtes"
+        "faisaient",
+        "fait",
+        "faisons",
+        "font"
       ],
-      "answer": "êtes",
-      "explain": "« être » est irrégulier : avec « vous », on écrit « êtes »."
+      "answer": "font",
+      "explain": "« faire » est irrégulier : avec « ils ou elles », on écrit « font »."
     },
     {
-      "id": "fr-cm1-pres-103",
-      "level": 3,
+      "id": "fr-cm1-pres-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « choisir », au présent, sujet : les joueurs)",
+      "choices": [
+        "En ce moment, les joueurs choisissent leur maillot.",
+        "En ce moment, les joueurs choisit leur maillot.",
+        "En ce moment, les joueurs choisiront leur maillot.",
+        "En ce moment, les joueurs choisis leur maillot."
+      ],
+      "answer": "En ce moment, les joueurs choisissent leur maillot.",
+      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-078",
+      "level": 2,
       "type": "input",
-      "prompt": "En ce moment, je ___ (pouvoir) jouer.",
+      "prompt": "Maintenant, vous ___ (faire) trop de bruit.",
       "answer": [
-        "peux"
+        "faites"
       ],
-      "explain": "« pouvoir » est irrégulier : avec « je », on écrit « peux »."
+      "explain": "« faire » est irrégulier : avec « vous », on écrit « faites »."
     },
     {
-      "id": "fr-cm1-pres-104",
-      "level": 3,
+      "id": "fr-cm1-pres-079",
+      "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, les joueurs ___ (prendre) leurs sacs.",
+      "prompt": "En ce moment, vous ___ (avoir) un ballon neuf.",
       "choices": [
-        "prenaient",
-        "prennent",
-        "prendez",
-        "prend"
+        "ai",
+        "avez",
+        "aurez",
+        "ont"
       ],
-      "answer": "prennent",
-      "explain": "« prendre » est irrégulier : avec « ils ou elles », on écrit « prennent »."
+      "answer": "avez",
+      "explain": "« avoir » est irrégulier : avec « vous », on écrit « avez »."
     },
     {
-      "id": "fr-cm1-pres-105",
-      "level": 3,
+      "id": "fr-cm1-pres-080",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « venir », au présent, sujet : mes cousins)",
+      "prompt": "Maintenant, mes cousins ___ (avoir) un chiot.",
       "choices": [
-        "Maintenant, mes cousins viennez au stade.",
-        "Maintenant, mes cousins viendront au stade.",
-        "Maintenant, mes cousins viennent au stade.",
-        "Maintenant, mes cousins venons au stade."
+        "avons",
+        "a",
+        "ont",
+        "avaient"
       ],
-      "answer": "Maintenant, mes cousins viennent au stade.",
-      "explain": "« venir » est irrégulier : avec « ils ou elles », on écrit « viennent »."
+      "answer": "ont",
+      "explain": "« avoir » est irrégulier : avec « ils ou elles », on écrit « ont »."
     },
     {
-      "id": "fr-cm1-pres-106",
-      "level": 3,
+      "id": "fr-cm1-pres-081",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Aujourd'hui, les joueurs ___ (vouloir) la victoire.",
+      "prompt": "Regarde : les supporters ___ (partir) du stade.",
       "choices": [
-        "veulent",
-        "veuxent",
-        "voulaient",
-        "voulez"
-      ],
-      "answer": "veulent",
-      "explain": "« vouloir » est irrégulier : avec « ils ou elles », on écrit « veulent »."
-    },
-    {
-      "id": "fr-cm1-pres-107",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "En ce moment, vous ___ (voir) le but de loin.",
-      "choices": [
-        "voyes",
-        "verrez",
-        "voyons",
-        "voyez"
-      ],
-      "answer": "voyez",
-      "explain": "« voir » est irrégulier : avec « vous », on écrit « voyez »."
-    },
-    {
-      "id": "fr-cm1-pres-108",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, je ___ (partir) à six heures.",
-      "choices": [
-        "pars",
-        "partais",
-        "partont",
+        "partent",
+        "partiront",
+        "partir",
         "part"
       ],
-      "answer": "pars",
-      "explain": "« partir » est irrégulier : avec « je », on écrit « pars »."
+      "answer": "partent",
+      "explain": "« partir » est irrégulier : avec « ils ou elles », on écrit « partent »."
     },
     {
-      "id": "fr-cm1-pres-109",
-      "level": 3,
+      "id": "fr-cm1-pres-082",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Maintenant, nous ___ (partir) pour le stade.",
+      "prompt": "Chaque semaine, Inès ___ (prendre) son sac de sport.",
       "choices": [
-        "partirons",
-        "partons",
-        "partont",
-        "partez"
+        "prenons",
+        "prends",
+        "prennent",
+        "prend"
       ],
-      "answer": "partons",
-      "explain": "« partir » est irrégulier : avec « nous », on écrit « partons »."
+      "answer": "prend",
+      "explain": "« prendre » est irrégulier : avec « il, elle ou on », on écrit « prend »."
     },
     {
-      "id": "fr-cm1-pres-110",
-      "level": 3,
+      "id": "fr-cm1-pres-083",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « devoir », au présent, sujet : vous)",
+      "prompt": "En ce moment, l'entraîneur ___ (dire) bravo à toute l'équipe.",
       "choices": [
-        "En ce moment, vous deviez partir.",
-        "En ce moment, vous devont partir.",
-        "En ce moment, vous devez partir.",
-        "En ce moment, vous doit partir."
+        "disait",
+        "disent",
+        "dit",
+        "disons"
       ],
-      "answer": "En ce moment, vous devez partir.",
-      "explain": "« devoir » est irrégulier : avec « vous », on écrit « devez »."
+      "answer": "dit",
+      "explain": "« dire » est irrégulier : avec « il, elle ou on », on écrit « dit »."
     },
     {
-      "id": "fr-cm1-pres-111",
-      "level": 3,
+      "id": "fr-cm1-pres-084",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Maintenant, nous ___ (venir) du stade.",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « faire », au présent, sujet : vous)",
       "choices": [
-        "venons",
-        "viens",
-        "viendrons",
-        "venont"
+        "Maintenant, vous faisez un exercice.",
+        "Maintenant, vous faites un exercice.",
+        "Maintenant, vous faisiez un exercice.",
+        "Maintenant, vous faire un exercice."
       ],
-      "answer": "venons",
-      "explain": "« venir » est irrégulier : avec « nous », on écrit « venons »."
+      "answer": "Maintenant, vous faites un exercice.",
+      "explain": "« faire » est irrégulier : avec « vous », on écrit « faites »."
     },
     {
-      "id": "fr-cm1-pres-112",
-      "level": 3,
+      "id": "fr-cm1-pres-085",
+      "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, ___ voulons gagner.",
+      "prompt": "Tous les jours, vous ___ (dire) la vérité.",
       "choices": [
-        "Tu",
-        "Nous",
-        "Il",
-        "Vous"
+        "dire",
+        "disent",
+        "dites",
+        "disez"
       ],
-      "answer": "Nous",
-      "explain": "La forme « voulons » va avec « nous »."
+      "answer": "dites",
+      "explain": "« dire » est irrégulier : avec « vous », on écrit « dites »."
     },
     {
-      "id": "fr-cm1-pres-113",
-      "level": 3,
+      "id": "fr-cm1-pres-086",
+      "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, les élèves ___ (devoir) se taire.",
+      "prompt": "Maintenant, nous ___ (faire) une passe en retrait.",
       "choices": [
-        "devont",
-        "devront",
-        "doivent",
-        "devons"
+        "fais",
+        "faisons",
+        "faisions",
+        "fait"
       ],
-      "answer": "doivent",
-      "explain": "« devoir » est irrégulier : avec « ils ou elles », on écrit « doivent »."
+      "answer": "faisons",
+      "explain": "« faire » est irrégulier : avec « nous », on écrit « faisons »."
     },
     {
-      "id": "fr-cm1-pres-114",
-      "level": 3,
+      "id": "fr-cm1-pres-087",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Aujourd'hui, ___ part en voyage.",
+      "prompt": "Maintenant, vous ___ (faire) un super match.",
       "choices": [
-        "Nous",
-        "Ils",
-        "Vous",
-        "Il"
+        "faites",
+        "fait",
+        "faisez",
+        "faisiez"
       ],
-      "answer": "Il",
-      "explain": "La forme « part » va avec « il, elle ou on »."
+      "answer": "faites",
+      "explain": "« faire » est irrégulier : avec « vous », on écrit « faites »."
     },
     {
-      "id": "fr-cm1-pres-115",
-      "level": 3,
-      "type": "input",
-      "prompt": "Tous les jours, mes amis ___ (vouloir) jouer au foot.",
-      "answer": [
-        "veulent"
-      ],
-      "explain": "« vouloir » est irrégulier : avec « ils ou elles », on écrit « veulent »."
-    },
-    {
-      "id": "fr-cm1-pres-116",
-      "level": 3,
+      "id": "fr-cm1-pres-088",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Aujourd'hui, ___ peuvent entrer.",
+      "prompt": "En ce moment, tu ___ (grandir) très vite.",
       "choices": [
-        "Vous",
-        "Tu",
-        "Je",
-        "Ils"
+        "grandissent",
+        "grandissais",
+        "grandissons",
+        "grandis"
       ],
-      "answer": "Ils",
-      "explain": "La forme « peuvent » va avec « ils ou elles »."
+      "answer": "grandis",
+      "explain": "Un verbe du 2e groupe se termine par -is avec « tu »."
     },
     {
-      "id": "fr-cm1-pres-117",
-      "level": 3,
+      "id": "fr-cm1-pres-089",
+      "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, tu ___ (pouvoir) tirer au but.",
+      "prompt": "Chaque semaine, nous ___ (prendre) le bus pour aller à la piscine.",
       "choices": [
-        "peux",
-        "pouvez",
-        "peuxent",
-        "pourras"
+        "prend",
+        "prenons",
+        "prendre",
+        "prennent"
       ],
-      "answer": "peux",
-      "explain": "« pouvoir » est irrégulier : avec « tu », on écrit « peux »."
+      "answer": "prenons",
+      "explain": "« prendre » est irrégulier : avec « nous », on écrit « prenons »."
     },
     {
-      "id": "fr-cm1-pres-118",
-      "level": 3,
+      "id": "fr-cm1-pres-090",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Tous les jours, le car ___ (partir) à huit heures.",
+      "prompt": "Quel est le temps de cette phrase ? « La semaine prochaine, les joueurs prendront le train. »",
       "choices": [
-        "partie",
-        "part",
-        "partont",
-        "partez"
-      ],
-      "answer": "part",
-      "explain": "« partir » est irrégulier : avec « il, elle ou on », on écrit « part »."
-    },
-    {
-      "id": "fr-cm1-pres-119",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « L'année prochaine, je pourrai jouer en équipe. »",
-      "choices": [
-        "présent",
-        "imparfait",
         "futur simple",
+        "imparfait",
+        "présent",
         "passé composé"
       ],
       "answer": "futur simple",
       "explain": "L'action se passera plus tard : c'est le futur."
     },
     {
-      "id": "fr-cm1-pres-120",
-      "level": 3,
+      "id": "fr-cm1-pres-091",
+      "level": 2,
       "type": "input",
-      "prompt": "En ce moment, nous ___ (lancer) le ballon.",
+      "prompt": "Maintenant, vous ___ (aller) au cinéma.",
       "answer": [
-        "lançons"
+        "allez"
       ],
-      "explain": "Avec « nous », le c prend une cédille devant o : lançons."
+      "explain": "« aller » est irrégulier : avec « vous », on écrit « allez »."
     },
     {
-      "id": "fr-cm1-pres-121",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Maintenant, nous ___ (devoir) ranger nos affaires.",
-      "choices": [
-        "doivent",
-        "devions",
-        "devons",
-        "doivez"
-      ],
-      "answer": "devons",
-      "explain": "« devoir » est irrégulier : avec « nous », on écrit « devons »."
-    },
-    {
-      "id": "fr-cm1-pres-122",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "En ce moment, tu ___ (venir) avec moi au parc.",
-      "choices": [
-        "viennez",
-        "viens",
-        "venez",
-        "venais"
-      ],
-      "answer": "viens",
-      "explain": "« venir » est irrégulier : avec « tu », on écrit « viens »."
-    },
-    {
-      "id": "fr-cm1-pres-123",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Maintenant, vous ___ (prendre) un ballon chacun.",
-      "choices": [
-        "prennent",
-        "preniez",
-        "prendez",
-        "prenez"
-      ],
-      "answer": "prenez",
-      "explain": "« prendre » est irrégulier : avec « vous », on écrit « prenez »."
-    },
-    {
-      "id": "fr-cm1-pres-124",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, tu ___ (devoir) écouter le coach.",
-      "choices": [
-        "dois",
-        "devais",
-        "doivez",
-        "devez"
-      ],
-      "answer": "dois",
-      "explain": "« devoir » est irrégulier : avec « tu », on écrit « dois »."
-    },
-    {
-      "id": "fr-cm1-pres-125",
-      "level": 3,
+      "id": "fr-cm1-pres-092",
+      "level": 2,
       "type": "input",
-      "prompt": "En ce moment, vous ___ (être) en retard.",
+      "prompt": "Regarde : les joueurs ___ (faire) un tour de terrain.",
       "answer": [
-        "êtes"
+        "font"
       ],
-      "explain": "« être » est irrégulier : avec « vous », on écrit « êtes »."
+      "explain": "« faire » est irrégulier : avec « ils ou elles », on écrit « font »."
     },
     {
-      "id": "fr-cm1-pres-126",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Maintenant, vous ___ (vouloir) gagner la coupe.",
-      "choices": [
-        "voulez",
-        "veulent",
-        "voudrez",
-        "veuxent"
+      "id": "fr-cm1-pres-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "En ce moment, tu ___ (avoir) mal au genou.",
+      "answer": [
+        "as"
       ],
-      "answer": "voulez",
-      "explain": "« vouloir » est irrégulier : avec « vous », on écrit « voulez »."
+      "explain": "« avoir » est irrégulier : avec « tu », on écrit « as »."
     },
     {
-      "id": "fr-cm1-pres-127",
-      "level": 3,
+      "id": "fr-cm1-pres-094",
+      "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, mon frère ___ (vouloir) le ballon.",
+      "prompt": "Chaque semaine, Mamie et moi ___ (nager) à la piscine.",
       "choices": [
-        "veux",
-        "voulait",
-        "veulons",
-        "veut"
+        "nagent",
+        "nagez",
+        "nage",
+        "nageons"
       ],
-      "answer": "veut",
-      "explain": "« vouloir » est irrégulier : avec « il, elle ou on », on écrit « veut »."
+      "answer": "nageons",
+      "explain": "Avec « nous », on garde le e après le g : nageons."
     },
     {
-      "id": "fr-cm1-pres-128",
-      "level": 3,
+      "id": "fr-cm1-pres-095",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Aujourd'hui, ma mère ___ (nettoyer) mes crampons.",
+      "prompt": "Tous les jours, tu ___ (faire) ton lit.",
       "choices": [
-        "nettoyait",
-        "nettoie",
-        "nettoyons",
-        "nettoyé"
-      ],
-      "answer": "nettoie",
-      "explain": "Avec « il, elle ou on », le y devient i : nettoie."
-    },
-    {
-      "id": "fr-cm1-pres-129",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Quelle phrase est bien conjuguée ? (verbe « pouvoir », au présent, sujet : les enfants)",
-      "choices": [
-        "Aujourd'hui, les enfants pouvez jouer dehors.",
-        "Aujourd'hui, les enfants peuxent jouer dehors.",
-        "Aujourd'hui, les enfants peuvent jouer dehors.",
-        "Aujourd'hui, les enfants pourront jouer dehors."
-      ],
-      "answer": "Aujourd'hui, les enfants peuvent jouer dehors.",
-      "explain": "« pouvoir » est irrégulier : avec « ils ou elles », on écrit « peuvent »."
-    },
-    {
-      "id": "fr-cm1-pres-130",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, les enfants ___ (pouvoir) jouer dehors.",
-      "choices": [
-        "peuxent",
-        "pouvaient",
-        "peux",
-        "peuvent"
-      ],
-      "answer": "peuvent",
-      "explain": "« pouvoir » est irrégulier : avec « ils ou elles », on écrit « peuvent »."
-    },
-    {
-      "id": "fr-cm1-pres-131",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "En ce moment, Ethan et moi ___ (faire) une passe.",
-      "choices": [
-        "fesons",
         "faisons",
+        "faites",
         "fais",
-        "ferons"
+        "font"
       ],
-      "answer": "faisons",
-      "explain": "« faire » est irrégulier : avec « nous », on écrit « faisons »."
+      "answer": "fais",
+      "explain": "« faire » est irrégulier : avec « tu », on écrit « fais »."
     },
     {
-      "id": "fr-cm1-pres-132",
-      "level": 3,
+      "id": "fr-cm1-pres-096",
+      "level": 2,
       "type": "mcq",
-      "prompt": "En ce moment, je ___ (vouloir) un verre d'eau.",
+      "prompt": "En ce moment, les joueurs ___ (choisir) un capitaine.",
       "choices": [
-        "voudrai",
-        "veulons",
-        "veux",
-        "voulons"
+        "choisisent",
+        "choisissons",
+        "choisissaient",
+        "choisissent"
       ],
-      "answer": "veux",
-      "explain": "« vouloir » est irrégulier : avec « je », on écrit « veux »."
+      "answer": "choisissent",
+      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-pres-133",
-      "level": 3,
+      "id": "fr-cm1-pres-097",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Tous les jours, on ___ (ranger) nos crampons dans le sac.",
+      "choices": [
+        "ranges",
+        "rangent",
+        "range",
+        "rangez"
+      ],
+      "answer": "range",
+      "explain": "Au présent, un verbe en -er se termine par -e avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-098",
+      "level": 2,
       "type": "input",
-      "prompt": "Maintenant, tu ___ (devoir) partir.",
+      "prompt": "Maintenant, mes amis ___ (choisir) leurs places.",
       "answer": [
-        "dois"
+        "choisissent"
       ],
-      "explain": "« devoir » est irrégulier : avec « tu », on écrit « dois »."
+      "explain": "Un verbe du 2e groupe se termine par -issent avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-pres-134",
-      "level": 3,
+      "id": "fr-cm1-pres-099",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Maintenant, je ___ (voir) mes amis dans les gradins.",
+      "prompt": "Maintenant, tu ___ (finir) ton assiette.",
       "choices": [
-        "vois",
-        "voyes",
-        "voient",
-        "verrai"
+        "finis",
+        "finiras",
+        "finissons",
+        "finissez"
       ],
-      "answer": "vois",
-      "explain": "« voir » est irrégulier : avec « je », on écrit « vois »."
+      "answer": "finis",
+      "explain": "Un verbe du 2e groupe se termine par -is avec « tu »."
     },
     {
-      "id": "fr-cm1-pres-135",
-      "level": 3,
+      "id": "fr-cm1-pres-100",
+      "level": 2,
       "type": "mcq",
-      "prompt": "Maintenant, mon frère et ma sœur ___ (dire) des blagues.",
-      "choices": [
-        "disaient",
-        "dit",
-        "disent",
-        "dissons"
-      ],
-      "answer": "disent",
-      "explain": "« dire » est irrégulier : avec « ils ou elles », on écrit « disent »."
-    },
-    {
-      "id": "fr-cm1-pres-136",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, vous ___ (venir) à l'entraînement en vélo.",
-      "choices": [
-        "viennez",
-        "viens",
-        "viendrez",
-        "venez"
-      ],
-      "answer": "venez",
-      "explain": "« venir » est irrégulier : avec « vous », on écrit « venez »."
-    },
-    {
-      "id": "fr-cm1-pres-137",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Maintenant, ___ viens à ton match.",
+      "prompt": "Regarde : ___ vont vers le but !",
       "choices": [
         "Tu",
+        "Ils",
         "Nous",
-        "Il",
-        "Ils"
+        "Vous"
       ],
-      "answer": "Tu",
-      "explain": "La forme « viens » va avec « tu »."
+      "answer": "Ils",
+      "explain": "La forme « vont » va avec « ils ou elles »."
     },
     {
-      "id": "fr-cm1-pres-138",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "En ce moment, je ___ (pouvoir) courir très vite.",
-      "choices": [
-        "pouvez",
-        "peux",
-        "pourrai",
-        "peuvons"
-      ],
-      "answer": "peux",
-      "explain": "« pouvoir » est irrégulier : avec « je », on écrit « peux »."
-    },
-    {
-      "id": "fr-cm1-pres-139",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Aujourd'hui, nous ___ (voir) un match à la télé.",
-      "choices": [
-        "voyions",
-        "voyons",
-        "voyont",
-        "voient"
-      ],
-      "answer": "voyons",
-      "explain": "« voir » est irrégulier : avec « nous », on écrit « voyons »."
-    },
-    {
-      "id": "fr-cm1-pres-140",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Maintenant, nous ___ (pouvoir) entrer sur le terrain.",
-      "choices": [
-        "pouvons",
-        "peut",
-        "pouvions",
-        "peuxent"
-      ],
-      "answer": "pouvons",
-      "explain": "« pouvoir » est irrégulier : avec « nous », on écrit « pouvons »."
-    },
-    {
-      "id": "fr-cm1-pres-141",
-      "level": 3,
-      "type": "input",
-      "prompt": "En ce moment, les gardiens ___ (voir) le ballon.",
-      "answer": [
-        "voient"
-      ],
-      "explain": "« voir » est irrégulier : avec « ils ou elles », on écrit « voient »."
-    },
-    {
-      "id": "fr-cm1-pres-142",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « En ce moment, nous voulons gagner la coupe. »",
-      "choices": [
-        "imparfait",
-        "futur simple",
-        "passé composé",
-        "présent"
-      ],
-      "answer": "présent",
-      "explain": "L'action se passe maintenant : c'est le présent."
-    },
-    {
-      "id": "fr-cm1-pres-143",
-      "level": 3,
-      "type": "input",
-      "prompt": "Maintenant, le bus ___ (partir).",
-      "answer": [
-        "part"
-      ],
-      "explain": "« partir » est irrégulier : avec « il, elle ou on », on écrit « part »."
-    },
-    {
-      "id": "fr-cm1-pres-144",
+      "id": "fr-cm1-pres-101",
       "level": 3,
       "type": "input",
       "prompt": "En ce moment, vous ___ (venir) avec nous.",
@@ -1902,84 +1332,654 @@
       "explain": "« venir » est irrégulier : avec « vous », on écrit « venez »."
     },
     {
-      "id": "fr-cm1-pres-145",
+      "id": "fr-cm1-pres-102",
+      "level": 3,
+      "type": "input",
+      "prompt": "Regarde : mes amis ___ (vouloir) jouer à la console.",
+      "answer": [
+        "veulent"
+      ],
+      "explain": "« vouloir » est irrégulier : avec « ils ou elles », on écrit « veulent »."
+    },
+    {
+      "id": "fr-cm1-pres-103",
       "level": 3,
       "type": "mcq",
-      "prompt": "Quel est le temps de cette phrase ? « Quand j'étais petit, je voulais être gardien. »",
+      "prompt": "En ce moment, maman ___ (nettoyer) mes crampons.",
+      "choices": [
+        "nettoyer",
+        "nettoyait",
+        "nettoie",
+        "nettoyons"
+      ],
+      "answer": "nettoie",
+      "explain": "Avec « il, elle ou on », le y devient i : nettoie."
+    },
+    {
+      "id": "fr-cm1-pres-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, je ___ (vouloir) un verre d'eau.",
+      "choices": [
+        "voulons",
+        "veux",
+        "voulais",
+        "voulez"
+      ],
+      "answer": "veux",
+      "explain": "« vouloir » est irrégulier : avec « je », on écrit « veux »."
+    },
+    {
+      "id": "fr-cm1-pres-105",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Chaque semaine, vous ___ (venir) au stade en vélo.",
+      "choices": [
+        "venez",
+        "viens",
+        "viennent",
+        "vient"
+      ],
+      "answer": "venez",
+      "explain": "« venir » est irrégulier : avec « vous », on écrit « venez »."
+    },
+    {
+      "id": "fr-cm1-pres-106",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, les élèves ___ (devoir) se mettre en rang.",
+      "choices": [
+        "devoir",
+        "devaient",
+        "dois",
+        "doivent"
+      ],
+      "answer": "doivent",
+      "explain": "« devoir » est irrégulier : avec « ils ou elles », on écrit « doivent »."
+    },
+    {
+      "id": "fr-cm1-pres-107",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, ___ voulons gagner.",
+      "choices": [
+        "Vous",
+        "Ils",
+        "Il",
+        "Nous"
+      ],
+      "answer": "Nous",
+      "explain": "La forme « voulons » va avec « nous »."
+    },
+    {
+      "id": "fr-cm1-pres-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Regarde : nous ___ (partir) pour le stade.",
+      "choices": [
+        "partons",
+        "partirons",
+        "pars",
+        "partir"
+      ],
+      "answer": "partons",
+      "explain": "« partir » est irrégulier : avec « nous », on écrit « partons »."
+    },
+    {
+      "id": "fr-cm1-pres-109",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, vous ___ (vouloir) gagner la coupe.",
+      "choices": [
+        "veut",
+        "veux",
+        "voulez",
+        "voudrez"
+      ],
+      "answer": "voulez",
+      "explain": "« vouloir » est irrégulier : avec « vous », on écrit « voulez »."
+    },
+    {
+      "id": "fr-cm1-pres-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, les enfants ___ (pouvoir) jouer dehors.",
+      "choices": [
+        "pouvaient",
+        "peuvent",
+        "pouvez",
+        "peut"
+      ],
+      "answer": "peuvent",
+      "explain": "« pouvoir » est irrégulier : avec « ils ou elles », on écrit « peuvent »."
+    },
+    {
+      "id": "fr-cm1-pres-111",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Chaque matin, ___ viens à pied.",
+      "choices": [
+        "Vous",
+        "Nous",
+        "Ils",
+        "Je"
+      ],
+      "answer": "Je",
+      "explain": "La forme « viens » va avec « je »."
+    },
+    {
+      "id": "fr-cm1-pres-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « devoir », au présent, sujet : vous)",
+      "choices": [
+        "En ce moment, vous devoir partir.",
+        "En ce moment, vous doit partir.",
+        "En ce moment, vous devez partir.",
+        "En ce moment, vous deviez partir."
+      ],
+      "answer": "En ce moment, vous devez partir.",
+      "explain": "« devoir » est irrégulier : avec « vous », on écrit « devez »."
+    },
+    {
+      "id": "fr-cm1-pres-113",
+      "level": 3,
+      "type": "input",
+      "prompt": "Maintenant, je ___ (pouvoir) sauter très haut.",
+      "answer": [
+        "peux"
+      ],
+      "explain": "« pouvoir » est irrégulier : avec « je », on écrit « peux »."
+    },
+    {
+      "id": "fr-cm1-pres-114",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, Ethan et moi ___ (faire) un gâteau.",
+      "choices": [
+        "faisons",
+        "faisions",
+        "fais",
+        "faire"
+      ],
+      "answer": "faisons",
+      "explain": "« faire » est irrégulier : avec « nous », on écrit « faisons »."
+    },
+    {
+      "id": "fr-cm1-pres-115",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Chaque semaine, mes cousins ___ (venir) à la piscine avec nous.",
+      "choices": [
+        "viens",
+        "viennent",
+        "venez",
+        "venons"
+      ],
+      "answer": "viennent",
+      "explain": "« venir » est irrégulier : avec « ils ou elles », on écrit « viennent »."
+    },
+    {
+      "id": "fr-cm1-pres-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Dans deux jours, je pourrai courir. »",
+      "choices": [
+        "présent",
+        "imparfait",
+        "passé composé",
+        "futur simple"
+      ],
+      "answer": "futur simple",
+      "explain": "L'action se passera plus tard : c'est le futur."
+    },
+    {
+      "id": "fr-cm1-pres-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, tu ___ (devoir) écouter ton coach.",
+      "choices": [
+        "dois",
+        "devais",
+        "doivent",
+        "devoir"
+      ],
+      "answer": "dois",
+      "explain": "« devoir » est irrégulier : avec « tu », on écrit « dois »."
+    },
+    {
+      "id": "fr-cm1-pres-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, tu ___ (venir) avec moi au parc.",
+      "choices": [
+        "viendras",
+        "vient",
+        "viens",
+        "venons"
+      ],
+      "answer": "viens",
+      "explain": "« venir » est irrégulier : avec « tu », on écrit « viens »."
+    },
+    {
+      "id": "fr-cm1-pres-119",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, vous ___ (prendre) un ballon chacun.",
+      "choices": [
+        "prennent",
+        "prenez",
+        "preniez",
+        "prend"
+      ],
+      "answer": "prenez",
+      "explain": "« prendre » est irrégulier : avec « vous », on écrit « prenez »."
+    },
+    {
+      "id": "fr-cm1-pres-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Regarde : les joueurs ___ (vouloir) la victoire.",
+      "choices": [
+        "veut",
+        "voulez",
+        "veulent",
+        "voudront"
+      ],
+      "answer": "veulent",
+      "explain": "« vouloir » est irrégulier : avec « ils ou elles », on écrit « veulent »."
+    },
+    {
+      "id": "fr-cm1-pres-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « venir », au présent, sujet : mes cousins)",
+      "choices": [
+        "Regarde : mes cousins viennent vers nous.",
+        "Regarde : mes cousins venaient vers nous.",
+        "Regarde : mes cousins venez vers nous.",
+        "Regarde : mes cousins viens vers nous."
+      ],
+      "answer": "Regarde : mes cousins viennent vers nous.",
+      "explain": "« venir » est irrégulier : avec « ils ou elles », on écrit « viennent »."
+    },
+    {
+      "id": "fr-cm1-pres-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, les joueurs ___ (prendre) leurs sacs.",
+      "choices": [
+        "prenons",
+        "prennent",
+        "prends",
+        "prenaient"
+      ],
+      "answer": "prennent",
+      "explain": "« prendre » est irrégulier : avec « ils ou elles », on écrit « prennent »."
+    },
+    {
+      "id": "fr-cm1-pres-123",
+      "level": 3,
+      "type": "input",
+      "prompt": "Maintenant, tu ___ (devoir) partir.",
+      "answer": [
+        "dois"
+      ],
+      "explain": "« devoir » est irrégulier : avec « tu », on écrit « dois »."
+    },
+    {
+      "id": "fr-cm1-pres-124",
+      "level": 3,
+      "type": "input",
+      "prompt": "Maintenant, nous ___ (vouloir) la revanche.",
+      "answer": [
+        "voulons"
+      ],
+      "explain": "« vouloir » est irrégulier : avec « nous », on écrit « voulons »."
+    },
+    {
+      "id": "fr-cm1-pres-125",
+      "level": 3,
+      "type": "input",
+      "prompt": "Regarde : les gardiens ___ (voir) tout le terrain.",
+      "answer": [
+        "voient"
+      ],
+      "explain": "« voir » est irrégulier : avec « ils ou elles », on écrit « voient »."
+    },
+    {
+      "id": "fr-cm1-pres-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « En ce moment, nous voulons gagner. »",
       "choices": [
         "futur simple",
         "passé composé",
         "imparfait",
         "présent"
       ],
-      "answer": "imparfait",
-      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
+      "answer": "présent",
+      "explain": "L'action se passe maintenant, ou tous les jours : c'est le présent."
     },
     {
-      "id": "fr-cm1-pres-146",
+      "id": "fr-cm1-pres-127",
       "level": 3,
       "type": "input",
-      "prompt": "En ce moment, ils ___ (prendre) le goûter.",
+      "prompt": "Chaque matin, le train ___ (partir) à huit heures.",
+      "answer": [
+        "part"
+      ],
+      "explain": "« partir » est irrégulier : avec « il, elle ou on », on écrit « part »."
+    },
+    {
+      "id": "fr-cm1-pres-128",
+      "level": 3,
+      "type": "input",
+      "prompt": "En ce moment, nous ___ (lancer) un défi.",
+      "answer": [
+        "lançons"
+      ],
+      "explain": "Avec « nous », le c prend une cédille devant o : lançons."
+    },
+    {
+      "id": "fr-cm1-pres-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, le car ___ (partir) devant l'école.",
+      "choices": [
+        "part",
+        "partons",
+        "partent",
+        "partait"
+      ],
+      "answer": "part",
+      "explain": "« partir » est irrégulier : avec « il, elle ou on », on écrit « part »."
+    },
+    {
+      "id": "fr-cm1-pres-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Chaque matin, je ___ (partir) à huit heures.",
+      "choices": [
+        "part",
+        "pars",
+        "partez",
+        "partent"
+      ],
+      "answer": "pars",
+      "explain": "« partir » est irrégulier : avec « je », on écrit « pars »."
+    },
+    {
+      "id": "fr-cm1-pres-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, vous ___ (voir) le but de loin.",
+      "choices": [
+        "voit",
+        "voyiez",
+        "voyez",
+        "voir"
+      ],
+      "answer": "voyez",
+      "explain": "« voir » est irrégulier : avec « vous », on écrit « voyez »."
+    },
+    {
+      "id": "fr-cm1-pres-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Tous les jours, Léa et toi ___ (être) dans la même classe.",
+      "choices": [
+        "sommes",
+        "est",
+        "suis",
+        "êtes"
+      ],
+      "answer": "êtes",
+      "explain": "« être » est irrégulier : avec « vous », on écrit « êtes »."
+    },
+    {
+      "id": "fr-cm1-pres-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, nous ___ (voir) un dessin animé.",
+      "choices": [
+        "voyons",
+        "voyez",
+        "vois",
+        "verrons"
+      ],
+      "answer": "voyons",
+      "explain": "« voir » est irrégulier : avec « nous », on écrit « voyons »."
+    },
+    {
+      "id": "fr-cm1-pres-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, nous ___ (venir) de la boulangerie.",
+      "choices": [
+        "viennent",
+        "viendrons",
+        "venons",
+        "venez"
+      ],
+      "answer": "venons",
+      "explain": "« venir » est irrégulier : avec « nous », on écrit « venons »."
+    },
+    {
+      "id": "fr-cm1-pres-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, les enfants ___ (étudier) leur leçon.",
+      "choices": [
+        "étudiez",
+        "étudient",
+        "étudions",
+        "étudiaient"
+      ],
+      "answer": "étudient",
+      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+    },
+    {
+      "id": "fr-cm1-pres-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, je ___ (pouvoir) courir très vite.",
+      "choices": [
+        "pouvais",
+        "pouvez",
+        "peut",
+        "peux"
+      ],
+      "answer": "peux",
+      "explain": "« pouvoir » est irrégulier : avec « je », on écrit « peux »."
+    },
+    {
+      "id": "fr-cm1-pres-137",
+      "level": 3,
+      "type": "input",
+      "prompt": "Regarde : ils ___ (prendre) un goûter.",
       "answer": [
         "prennent"
       ],
       "explain": "« prendre » est irrégulier : avec « ils ou elles », on écrit « prennent »."
     },
     {
+      "id": "fr-cm1-pres-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le temps de cette phrase ? « Quand j'étais petit, je voulais un chien. »",
+      "choices": [
+        "futur simple",
+        "passé composé",
+        "présent",
+        "imparfait"
+      ],
+      "answer": "imparfait",
+      "explain": "L'action durait ou se répétait dans le passé : c'est l'imparfait."
+    },
+    {
+      "id": "fr-cm1-pres-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, je ___ (voir) mes amis dans les gradins.",
+      "choices": [
+        "vois",
+        "voyez",
+        "verrai",
+        "voient"
+      ],
+      "answer": "vois",
+      "explain": "« voir » est irrégulier : avec « je », on écrit « vois »."
+    },
+    {
+      "id": "fr-cm1-pres-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En ce moment, nous ___ (pouvoir) entrer sur le terrain.",
+      "choices": [
+        "peuvent",
+        "pourrons",
+        "pouvons",
+        "pouvoir"
+      ],
+      "answer": "pouvons",
+      "explain": "« pouvoir » est irrégulier : avec « nous », on écrit « pouvons »."
+    },
+    {
+      "id": "fr-cm1-pres-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, tu ___ (pouvoir) tirer avec le pied gauche.",
+      "choices": [
+        "pourras",
+        "peux",
+        "peuvent",
+        "pouvez"
+      ],
+      "answer": "peux",
+      "explain": "« pouvoir » est irrégulier : avec « tu », on écrit « peux »."
+    },
+    {
+      "id": "fr-cm1-pres-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maintenant, mon cousin ___ (vouloir) le ballon.",
+      "choices": [
+        "veulent",
+        "voulait",
+        "veux",
+        "veut"
+      ],
+      "answer": "veut",
+      "explain": "« vouloir » est irrégulier : avec « il, elle ou on », on écrit « veut »."
+    },
+    {
+      "id": "fr-cm1-pres-143",
+      "level": 3,
+      "type": "input",
+      "prompt": "En ce moment, vous ___ (être) en retard.",
+      "answer": [
+        "êtes"
+      ],
+      "explain": "« être » est irrégulier : avec « vous », on écrit « êtes »."
+    },
+    {
+      "id": "fr-cm1-pres-144",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Tous les jours, ___ part à huit heures.",
+      "choices": [
+        "Nous",
+        "Tu",
+        "Il",
+        "Vous"
+      ],
+      "answer": "Il",
+      "explain": "La forme « part » va avec « il, elle ou on »."
+    },
+    {
+      "id": "fr-cm1-pres-145",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien conjuguée ? (verbe « pouvoir », au présent, sujet : les enfants)",
+      "choices": [
+        "Maintenant, les enfants peut jouer dehors.",
+        "Maintenant, les enfants peuvent jouer dehors.",
+        "Maintenant, les enfants pouvaient jouer dehors.",
+        "Maintenant, les enfants pouvons jouer dehors."
+      ],
+      "answer": "Maintenant, les enfants peuvent jouer dehors.",
+      "explain": "« pouvoir » est irrégulier : avec « ils ou elles », on écrit « peuvent »."
+    },
+    {
+      "id": "fr-cm1-pres-146",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Regarde : mon frère et ma sœur ___ (dire) des blagues.",
+      "choices": [
+        "disent",
+        "diront",
+        "dites",
+        "dit"
+      ],
+      "answer": "disent",
+      "explain": "« dire » est irrégulier : avec « ils ou elles », on écrit « disent »."
+    },
+    {
       "id": "fr-cm1-pres-147",
       "level": 3,
       "type": "mcq",
-      "prompt": "En ce moment, mes parents ___ (partir) en voiture.",
+      "prompt": "En ce moment, les spectateurs ___ (voir) très bien le terrain.",
       "choices": [
-        "partiront",
-        "partent",
-        "pars",
-        "partes"
+        "voyent",
+        "voyons",
+        "voient",
+        "voyaient"
       ],
-      "answer": "partent",
-      "explain": "« partir » est irrégulier : avec « ils ou elles », on écrit « partent »."
+      "answer": "voient",
+      "explain": "« voir » est irrégulier : avec « ils ou elles », on écrit « voient »."
     },
     {
       "id": "fr-cm1-pres-148",
       "level": 3,
       "type": "mcq",
-      "prompt": "En ce moment, les enfants ___ (étudier) leur leçon.",
+      "prompt": "Maintenant, mes parents ___ (partir) en voiture.",
       "choices": [
-        "étudient",
-        "étudiaient",
-        "étudié",
-        "étudions"
+        "pars",
+        "partiront",
+        "part",
+        "partent"
       ],
-      "answer": "étudient",
-      "explain": "Au présent, un verbe en -er se termine par -ent avec « ils ou elles »."
+      "answer": "partent",
+      "explain": "« partir » est irrégulier : avec « ils ou elles », on écrit « partent »."
     },
     {
       "id": "fr-cm1-pres-149",
       "level": 3,
       "type": "mcq",
-      "prompt": "En ce moment, mes cousins ___ (venir) au match.",
+      "prompt": "Maintenant, ___ peuvent entrer.",
       "choices": [
-        "viendront",
-        "viennez",
-        "viennent",
-        "venez"
+        "Ils",
+        "Nous",
+        "Tu",
+        "Je"
       ],
-      "answer": "viennent",
-      "explain": "« venir » est irrégulier : avec « ils ou elles », on écrit « viennent »."
+      "answer": "Ils",
+      "explain": "La forme « peuvent » va avec « ils ou elles »."
     },
     {
       "id": "fr-cm1-pres-150",
       "level": 3,
       "type": "mcq",
-      "prompt": "Maintenant, les spectateurs ___ (voir) très bien le terrain.",
+      "prompt": "Maintenant, nous ___ (devoir) ranger la salle.",
       "choices": [
-        "voions",
-        "verront",
-        "vois",
-        "voient"
+        "devoir",
+        "devons",
+        "devez",
+        "devions"
       ],
-      "answer": "voient",
-      "explain": "« voir » est irrégulier : avec « ils ou elles », on écrit « voient »."
+      "answer": "devons",
+      "explain": "« devoir » est irrégulier : avec « nous », on écrit « devons »."
     }
   ]
 }
