@@ -73,7 +73,21 @@ export function createFirebaseStore(config, { now = () => Date.now() } = {}) {
   async function toUser(fbUser, wantedCoach = false) {
     const coach = await isCoach(fbUser.uid);
     const u = { uid: fbUser.uid, username: usernameOf(fbUser.email), role: coach ? 'coach' : 'player' };
-    if (wantedCoach && !coach) u.coachPending = true;
+    if (!coach) {
+      // A parent account stays "pending" on every later sign-in or reload until coaches/{uid} exists:
+      // its saved state carries role 'coach'.
+      let wants = wantedCoach;
+      if (!wants) {
+        try {
+          const { fs, db } = await load();
+          const snap = await fs.getDoc(fs.doc(db, 'users', fbUser.uid));
+          wants = snap.exists() && snap.data().role === 'coach';
+        } catch {
+          wants = false;
+        }
+      }
+      if (wants) u.coachPending = true;
+    }
     return u;
   }
 
