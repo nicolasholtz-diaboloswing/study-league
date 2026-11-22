@@ -19,6 +19,7 @@ Un jeu de révision en forme de championnat de football. On répond à des quest
 | Anglais | Determiners, Past simple, Past perfect | 150 par thème (15 matchs sans répétition) |
 | Anglais | Irregular verbs (120 verbes) | 240 |
 | Français | Conjugaison, Orthographe et accords, Grammaire, Vocabulaire | 150 par thème (15 matchs sans répétition) |
+| Français (Académie, 8-10 ans) | Présent, Futur simple, Imparfait | 150 par thème |
 
 Une question ne revient pas tant que tout le thème n'a pas été vu.
 
