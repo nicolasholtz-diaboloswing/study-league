@@ -1,15 +1,16 @@
 // Home: the club, one big "Jouer le match" button, the next fixture, progress, level, streak, coins, coach's pick, rivalry, table snippet.
 import * as C from '../components.js';
 import * as A from '../art.js';
-import { PACK_COST, MATCH_QUESTIONS } from '../../config.js';
-import { nextFixture, divisionName, MATCHDAYS } from '../../core/league.js';
+import { PACK_COST, MATCH_QUESTIONS, MATCH_MINUTES } from '../../config.js';
+import { nextFixture, divisionName, seasonLength } from '../../core/league.js';
+import { RULE } from '../rules.js';
 import { listTopics } from '../../core/questions.js';
 import { weakestTopic, topicStars } from '../../core/stats.js';
 import { myClub, levelBar, tableRows, ordinal, lsGet, lsDel, subjectIcon, streakInfo, nextPackLevel, rivalryLine, esc } from '../shell-utils.js';
 
 const WELCOME = [
-  { icon: '❓', title: 'Réponds aux questions', text: 'Un match, c\'est 15 questions. Réponds juste et vite pour gagner de l\'XP.' },
-  { icon: '⚽', title: 'Marque des buts', text: 'Trois bonnes réponses, et tu marques un but. Une erreur, et l\'adversaire peut marquer !' },
+  { icon: '❓', title: 'Réponds aux questions', text: `Un match, c'est ${MATCH_QUESTIONS} questions. Réponds juste et vite pour gagner de l'XP.` },
+  { icon: '⚽', title: 'Marque des buts', text: `${RULE.line}. Une erreur, et l'adversaire peut marquer !` },
   { icon: '🏆', title: 'Monte et gagne des cartes', text: 'Bats les autres clubs pour monter de division. Tu gagnes des pièces pour ouvrir des paquets de cartes.' },
 ];
 
@@ -79,7 +80,7 @@ export default {
 
       <div class="home__top">
         <section class="panel panel--gold home__next">
-          <p class="home__kicker">Prochain match${fx ? ` · journée ${fx.matchday + 1} sur ${MATCHDAYS}` : ''}</p>
+          <p class="home__kicker">Prochain match${fx ? ` · journée ${fx.matchday + 1} sur ${seasonLength(season)}` : ''}</p>
           ${fixture}
           ${C.button({ label: 'Jouer le match', size: 'lg', block: true, icon: '⚽', href: '#/play', cls: 'home__play' })}
           <div class="home__progress" aria-label="Progression">
@@ -87,7 +88,7 @@ export default {
             <div class="minibar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div>
             <p class="text-dim text-sm">${st.freePacks > 0 ? 'Tu as un paquet à ouvrir !' : `Paquet offert au niveau ${nextPackLevel(lvl.level)}`}</p>
           </div>
-          <p class="text-center text-dim text-sm">${MATCH_QUESTIONS} questions · environ 5 minutes</p>
+          <p class="text-center text-dim text-sm">${MATCH_QUESTIONS} questions · environ ${MATCH_MINUTES} minutes</p>
         </section>
 
         <div class="home__stats stack">

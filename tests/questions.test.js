@@ -4,6 +4,7 @@ import {
   normalizeAnswer, checkAnswer, acceptedAnswers, displayAnswer, listTopics, listSubjects, expandVerbs,
   loadCatalog, loadTopicQuestions, pickQuestions,
 } from '../js/core/questions.js';
+import { MATCH_QUESTIONS as NQ } from '../js/config.js';
 import { fetchJson, FILES } from './fixtures.js';
 
 test('normalizeAnswer: trim, case, spaces, apostrophes; accents kept', () => {
@@ -133,7 +134,7 @@ function playRounds(pool, rounds, division, seed, wrongEvery = 0) {
   const history = {};
   const matches = [];
   for (let m = 0; m < rounds; m++) {
-    const picked = pickQuestions(pool, { n: 15, history, division, rng });
+    const picked = pickQuestions(pool, { n: NQ, history, division, rng });
     matches.push(picked.map((q) => q.id));
     picked.forEach((q, i) => {
       const h = history[q.id] || { seen: 0 };
@@ -143,13 +144,13 @@ function playRounds(pool, rounds, division, seed, wrongEvery = 0) {
   return matches;
 }
 
-test('pickQuestions: 5 consecutive matches on a 75-question topic share no question (every division)', () => {
+test('pickQuestions: 15 consecutive matches on a 150-question topic share no question (MATCH_QUESTIONS each) (every division)', () => {
   for (const division of [null, 0, 2, 4]) {
     for (let seed = 1; seed <= 5; seed++) {
-      const matches = playRounds(bigPool(75), 5, division, seed, 3);
+      const matches = playRounds(bigPool(15 * NQ), 15, division, seed, 3);
       const all = matches.flat();
-      eq(all.length, 75);
-      eq(new Set(all).size, 75, `division ${division} seed ${seed}`);
+      eq(all.length, 15 * NQ);
+      eq(new Set(all).size, 15 * NQ, `division ${division} seed ${seed}`);
     }
   }
 });
@@ -157,23 +158,24 @@ test('pickQuestions: 5 consecutive matches on a 75-question topic share no quest
 test('pickQuestions: once exhausted, wrong-last-time come back first, then least recently seen', () => {
   const pool = bigPool(30);
   const history = {};
-  pool.forEach((q, i) => { history[q.id] = { seen: 1, lastAt: 1000 + (i < 15 ? 0 : 1), lastCorrect: !(i === 20 || i === 25) }; });
-  const ids = pickQuestions(pool, { n: 15, history, rng: createRng(3) }).map((q) => q.id);
+  pool.forEach((q, i) => { history[q.id] = { seen: 1, lastAt: 1000 + (i < NQ ? 0 : 1), lastCorrect: !(i === 20 || i === 25) }; });
+  const ids = pickQuestions(pool, { n: NQ, history, rng: createRng(3) }).map((q) => q.id);
   assert(ids.includes('b20') && ids.includes('b25'), 'wrong ones first');
-  // the 13 others come from the older group (lastAt 1000)
+  // the others come from the older group (lastAt 1000)
   const others = ids.filter((id) => id !== 'b20' && id !== 'b25');
-  assert(others.every((id) => Number(id.slice(1)) < 15), others.join());
-  // a 6th match after 5 matches of a 75 pool replays match 1 (the oldest)
-  const matches = playRounds(bigPool(75), 6, 4, 9);
-  eq(matches[5].slice().sort(), matches[0].slice().sort());
+  assert(others.every((id) => Number(id.slice(1)) < NQ), others.join());
+  // a match after a full cycle of the pool replays match 1 (the oldest)
+  const cycle = 7;
+  const matches = playRounds(bigPool(cycle * NQ), cycle + 1, 4, 9);
+  eq(matches[cycle].slice().sort(), matches[0].slice().sort());
 });
 
 test('pickQuestions: unseen questions beat the level mix', () => {
   // all level-3 questions already seen, level-1 unseen: a division-4 match (wants level 3) still takes unseen first
-  const pool = bigPool(60);
+  const pool = bigPool(6 * NQ);
   const history = {};
   for (const q of pool) if (q.level === 3) history[q.id] = { seen: 1, lastAt: 5, lastCorrect: true };
-  const picked = pickQuestions(pool, { n: 15, history, division: 4, rng: createRng(2) });
+  const picked = pickQuestions(pool, { n: NQ, history, division: 4, rng: createRng(2) });
   assert(picked.every((q) => q.level !== 3), 'no repeat while unseen remain');
 });
 
@@ -203,22 +205,22 @@ function verbPool(n) {
 test('pickQuestions: never two questions about the same verb in a match while others exist', () => {
   const pool = verbPool(25);
   for (let seed = 1; seed <= 40; seed++) {
-    const picked = pickQuestions(pool, { n: 15, division: seed % 5, rng: createRng(seed) });
-    eq(picked.length, 15);
-    eq(new Set(picked.map((q) => q.group)).size, 15, 'seed ' + seed);
+    const picked = pickQuestions(pool, { n: NQ, division: seed % 5, rng: createRng(seed) });
+    eq(picked.length, NQ);
+    eq(new Set(picked.map((q) => q.group)).size, NQ, 'seed ' + seed);
   }
 });
 
 test('pickQuestions: with fewer verbs than questions, groups repeat only as a last resort', () => {
-  const picked = pickQuestions(verbPool(6), { n: 15, rng: createRng(4) });
-  eq(picked.length, 15);
-  eq(new Set(picked.map((q) => q.id)).size, 15);
+  const picked = pickQuestions(verbPool(6), { n: NQ, rng: createRng(4) });
+  eq(picked.length, NQ);
+  eq(new Set(picked.map((q) => q.id)).size, NQ);
   eq(new Set(picked.map((q) => q.group)).size, 6);
 });
 
 test('pickQuestions: questions without group are unaffected', () => {
   const pool = Array.from({ length: 20 }, (_, i) => ({ id: 'n' + i, level: 1, type: 'input', answer: 'x', prompt: 'p' }));
-  eq(pickQuestions(pool, { n: 15, rng: createRng(1) }).length, 15);
+  eq(pickQuestions(pool, { n: NQ, rng: createRng(1) }).length, NQ);
 });
 
 test('optionChoices: typed question with "(a / b)" whose answers are among the options becomes buttons', () => {

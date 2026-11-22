@@ -21,10 +21,15 @@ export const FIREBASE_CONFIG = isDevHost && !forceCloud ? null : CLOUD_CONFIG;
 export const APP_NAME = 'Study League';
 
 // Match
-export const MATCH_QUESTIONS = 15;   // questions per match (league and training), about 5 minutes
+export const MATCH_QUESTIONS = 10;   // questions per match (league and training), about 3 minutes
+export const MATCH_MINUTES = 3;      // about how long a match takes (shown to the child)
 export const TIMER_MCQ_SECONDS = 30;
 export const TIMER_INPUT_SECONDS = 45;
-export const GOAL_EVERY_N_CORRECT = 3; // every 3rd correct answer scores (attack meter has 3 steps)
+export const GOAL_EVERY_N_CORRECT = 2; // every Nth correct answer scores (the attack meter has N segments)
+
+// League season: 8 clubs (the player + 7 opponents), single round-robin = one match per opponent, one matchday each.
+export const OPPONENTS_PER_SEASON = 7;
+export const SEASON_MATCHDAYS = OPPONENTS_PER_SEASON; // a season of about one week at one match a day
 
 // Rewards
 export const PACK_COST = 50;

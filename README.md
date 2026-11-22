@@ -6,8 +6,8 @@ Un jeu de révision en forme de championnat de football. On répond à des quest
 
 ## Comment ça marche
 
-- Un match = 15 questions, environ 5 minutes. Trois bonnes réponses marquent un but ; une erreur donne une occasion à l'adversaire.
-- Une saison = 14 journées contre 7 clubs. Les 2 premiers montent : District, Régional, National, Ligue 2, Ligue 1.
+- Un match = 10 questions, environ 3 minutes. Deux bonnes réponses marquent un but ; une erreur donne une occasion à l'adversaire.
+- Une saison = 7 journées, une rencontre contre chacun des 7 autres clubs (matchs aller simples). Les 2 premiers montent : District, Régional, National, Ligue 2, Ligue 1.
 - Chaque match rapporte de l'XP et des pièces. 50 pièces = un paquet de 3 cartes (72 joueurs de l'équipe de France à collectionner).
 - 24 médailles à gagner, un classement entre joueurs et un face-à-face.
 - Un compte parent voit le temps de jeu, les résultats et les thèmes à travailler de chaque enfant.
@@ -16,9 +16,9 @@ Un jeu de révision en forme de championnat de football. On répond à des quest
 
 | Matière | Thèmes | Questions |
 |---|---|---|
-| Anglais | Determiners, Past simple, Past perfect | 150 par thème |
+| Anglais | Determiners, Past simple, Past perfect | 150 par thème (15 matchs sans répétition) |
 | Anglais | Irregular verbs (120 verbes) | 360 |
-| Français | Conjugaison, Orthographe et accords, Grammaire, Vocabulaire | 150 par thème |
+| Français | Conjugaison, Orthographe et accords, Grammaire, Vocabulaire | 150 par thème (15 matchs sans répétition) |
 
 Une question ne revient pas tant que tout le thème n'a pas été vu.
 

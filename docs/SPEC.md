@@ -23,11 +23,11 @@ Choisie à l'inscription, l'équipe détermine les notions proposées.
 - `u10` « Academy Squad » (8–10 ans) : les notions marquées `u10` (en v1 : verbes irréguliers anglais).
 
 ### Match
-- 15 questions, soit environ 5 minutes. Chaque question est une « minute » du match (6', 12' … 90').
+- 10 questions, soit environ 3 minutes. Chaque question est une « minute » du match (9', 18' … 90').
 - Types de question : `mcq` (4 choix) et `input` (réponse tapée).
 - Chrono par question : 30 s pour un mcq, 45 s pour un input. Temps écoulé = réponse fausse.
 - Après chaque réponse : retour immédiat, bonne réponse, explication en une ligne.
-- **Buts marqués** : une bonne réponse sur trois marque un but (une jauge d'attaque à trois crans le rend visible). 15/15 = 5 buts. Une courte animation montre un joueur aux couleurs du club qui tire et marque.
+- **Buts marqués** : une bonne réponse sur deux marque un but (une jauge d'attaque à deux crans le rend visible, avec le décompte « Encore 2 bonnes réponses pour marquer »). 10/10 = 5 buts. La règle est expliquée avant le match (« 2 bonnes réponses = 1 but »), et une fois avant la toute première question. Une courte animation montre un joueur aux couleurs du club qui tire et marque.
 - **Buts encaissés** : chaque mauvaise réponse donne une occasion à l'adversaire, qui marque avec une probabilité égale à sa force (0,35 à 0,90), tirée par un générateur aléatoire à graine.
 - Victoire, nul ou défaite selon le score.
 - Vérification des réponses tapées : espaces de début et de fin retirés, casse ignorée, espaces multiples réduits, apostrophes normalisées. Les accents comptent.
@@ -36,20 +36,20 @@ Choisie à l'inscription, l'équipe détermine les notions proposées.
 - Un championnat par joueur, toutes matières confondues. Avant chaque match de championnat, le joueur choisit une matière puis une notion. Pas de mélange de notions en v1.
 - « Le choix du coach » : la notion la plus faible du joueur (ou une notion jamais jouée) est mise en avant et rapporte 50 % de pièces en plus.
 - 5 divisions, de bas en haut : District, Régional, National, Ligue 2, Ligue 1.
-- Une saison : le club du joueur et 7 clubs fictifs, matchs aller-retour, 14 journées. Les 3 autres rencontres de chaque journée sont simulées d'après la force des clubs.
+- Une saison : le club du joueur et 7 clubs fictifs, matchs aller simples, 7 journées (une rencontre contre chaque adversaire, environ une semaine à un match par jour). Une saison déjà enregistrée avec 14 journées se termine telle quelle. Les 3 autres rencontres de chaque journée sont simulées d'après la force des clubs.
 - Victoire 3 points, nul 1, défaite 0. Classement par points, différence de buts, buts marqués.
 - Fin de saison : les 2 premiers montent (on reste en Ligue 1 une fois au sommet). Le premier gagne le titre (trophée gardé dans l'historique). Pas de relégation en v1. Une nouvelle saison démarre automatiquement avec de nouveaux clubs.
 - Plus la division est haute, plus les adversaires sont forts et les questions difficiles (la part des niveaux 2 et 3 augmente).
 
 ### Terrain d'entraînement
-Choix libre d'une notion, 15 questions, pas de chrono, aucun effet sur le championnat. XP à 50 %, pas de pièces. Met à jour la maîtrise.
+Choix libre d'une notion, 10 questions, pas de chrono, aucun effet sur le championnat. XP à 50 %, pas de pièces. Met à jour la maîtrise.
 
 ### Choix des questions
 Une question ne revient pas tant que toutes les questions de la notion n'ont pas été vues. Ensuite, les questions ratées la dernière fois reviennent d'abord, puis les plus anciennes. Jamais deux fois la même question dans un match. Chaque notion compte environ 150 questions, soit une dizaine de matchs sans répétition.
 
 ### Récompenses
 - XP : 10 par bonne réponse, jusqu'à +5 de bonus de rapidité, +50 pour une victoire, +20 pour un nul, +10 pour une défaite. Niveaux calculés depuis l'XP, avec des paliers croissants.
-- Pièces : victoire 30, nul 15, défaite 5, +10 pour un 15/15. Un paquet de cartes coûte 50 pièces et contient 3 cartes.
+- Pièces : victoire 30, nul 15, défaite 5, +10 pour un 10/10 ; une défaite avec moins d'un tiers de bonnes réponses ne rapporte rien. Un paquet de cartes coûte 50 pièces et contient 3 cartes.
 - Paquet offert : à chaque montée, à chaque titre, à chaque niveau multiple de 5.
 - Cartes : 72 joueurs de l'équipe de France, de 1998 à aujourd'hui, dans `data/cards.json` (nom, poste GK/DEF/MID/FWD, époque, note, rareté). Chances par rareté : commune 60 %, rare 28 %, épique 10 %, légende 2 %. Les doublons sont comptés. L'album affiche le nombre de cartes obtenues sur le total, les manquantes en silhouette.
 - Badges : environ 24 paliers (première victoire, série de 3/5/10 victoires, hat-trick = 3 buts ou plus, clean sheet, match parfait, 10/50/100 matchs, montée, titre, notion maîtrisée, toutes les notions d'une matière maîtrisées, 3/7 jours de jeu d'affilée, 10/36/72 cartes différentes, première carte légende, 100/500/1000 bonnes réponses…).

@@ -122,10 +122,12 @@ test('rewards: levelForXp / levelInfo tolerate hostile xp (no freeze, no NaN)', 
   assert(Number.isFinite(levelInfo(1e20).progress));
 });
 
-test('rewards: a league defeat with fewer than 5 correct answers earns no coins; 5 correct earns them; draws unaffected', () => {
-  eq(matchCoins(res({ outcome: 'L', correct: 4, perfect: false })).total, 0);
-  eq(matchCoins(res({ outcome: 'L', correct: 0, perfect: false, coachPick: true })).total, 0);
-  eq(matchCoins(res({ outcome: 'L', correct: 5, perfect: false })).total, 5);
+test('rewards: a league defeat with fewer than a third of the questions right earns no coins; a third earns them; draws unaffected', () => {
+  eq(matchCoins(res({ outcome: 'L', correct: 3, total: 10, perfect: false })).total, 0);
+  eq(matchCoins(res({ outcome: 'L', correct: 0, total: 10, perfect: false, coachPick: true })).total, 0);
+  eq(matchCoins(res({ outcome: 'L', correct: 4, total: 10, perfect: false })).total, 5);
+  eq(matchCoins(res({ outcome: 'L', correct: 4, total: 15, perfect: false })).total, 0, 'an old 15-question match: a third is 5');
+  eq(matchCoins(res({ outcome: 'L', correct: 5, total: 15, perfect: false })).total, 5);
   eq(matchCoins(res({ outcome: 'D', correct: 2, perfect: false })).total, 15);
-  eq(matchXp(res({ outcome: 'L', correct: 4, perfect: false, speedBonus: 0 })).total, 4 * 10 + 10, 'xp unchanged');
+  eq(matchXp(res({ outcome: 'L', correct: 3, total: 10, perfect: false, speedBonus: 0 })).total, 3 * 10 + 10, 'xp unchanged');
 });

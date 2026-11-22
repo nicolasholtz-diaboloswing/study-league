@@ -45,12 +45,13 @@ export function matchXp(result) {
   return { base, speed, outcome, total };
 }
 
-export const MIN_CORRECT_FOR_LOSS_COINS = 5;
+/** A league defeat earns no coins when fewer than a third of the questions are right (4 of 10). */
+export const minCorrectForLossCoins = (total) => Math.ceil((Number(total) || 0) / 3);
 
-/** Coins of a result: { base, perfect, coachPick (bonus part), total }. Training earns none; a league defeat with fewer than 5 correct answers earns none. */
+/** Coins of a result: { base, perfect, coachPick (bonus part), total }. Training earns none; a league defeat with fewer than a third of the questions right earns none. */
 export function matchCoins(result) {
   if (result.mode !== 'league') return { base: 0, perfect: 0, coachPick: 0, total: 0 };
-  if (result.outcome === 'L' && result.correct < MIN_CORRECT_FOR_LOSS_COINS) return { base: 0, perfect: 0, coachPick: 0, total: 0 };
+  if (result.outcome === 'L' && result.correct < minCorrectForLossCoins(result.total)) return { base: 0, perfect: 0, coachPick: 0, total: 0 };
   const base = OUTCOME_COINS[result.outcome];
   const perfect = result.perfect ? PERFECT_COINS : 0;
   const sub = base + perfect;

@@ -1,4 +1,5 @@
 import { test, eq, assert } from './runner.js';
+import { MATCH_QUESTIONS as NQ, GOAL_EVERY_N_CORRECT as N } from '../js/config.js';
 import { createRng } from '../js/core/rng.js';
 import { acceptedAnswers } from '../js/core/questions.js';
 import {
@@ -6,7 +7,7 @@ import {
   currentTimeLimitMs, minuteOf, speedBonus, outcomeOf,
 } from '../js/core/match.js';
 
-function mk(strength = 0.5, mode = 'league', n = 15) {
+function mk(strength = 0.5, mode = 'league', n = NQ) {
   const questions = Array.from({ length: n }, (_, i) => (i % 2
     ? { id: 'q' + i, topicId: 't1', level: 1, type: 'input', prompt: 'P' + i, answer: ['yes', 'oui'], explain: 'E' + i }
     : { id: 'q' + i, topicId: 't1', level: 1, type: 'mcq', prompt: 'P' + i, choices: ['a', 'b', 'c', 'd'], answer: 'b', explain: 'E' + i }));
@@ -17,28 +18,33 @@ function mk(strength = 0.5, mode = 'league', n = 15) {
 }
 const right = (m) => acceptedAnswers(currentQuestion(m))[0];
 
-test('match: 15/15 correct = 5 goals, attack meter has 3 steps, no goals against', () => {
+test('match: all correct = NQ/N goals, attack meter has N steps, no goals against', () => {
   const m = mk(1);
   const goals = [];
   const charges = [];
   while (!m.finished) { const r = answerQuestion(m, right(m), 2000); goals.push(r.goalFor); charges.push(r.attack.charge); }
-  eq(goals, [false, false, true, false, false, true, false, false, true, false, false, true, false, false, true]);
-  eq(charges, [1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0]);
-  eq(m.goalsFor, 5);
+  eq(goals, Array.from({ length: NQ }, (_, i) => (i + 1) % N === 0));
+  eq(charges, Array.from({ length: NQ }, (_, i) => (i + 1) % N));
+  eq(m.goalsFor, Math.floor(NQ / N));
   eq(m.goalsAgainst, 0);
   const res = summarizeMatch(m, 5000);
-  eq([res.outcome, res.perfect, res.cleanSheet, res.correct, res.total], ['W', true, true, 15, 15]);
+  eq([res.outcome, res.perfect, res.cleanSheet, res.correct, res.total], ['W', true, true, NQ, NQ]);
 });
 
-test('match: correct answers are counted across wrong ones (every 3rd correct scores)', () => {
+test('match: correct answers are counted across wrong ones (every Nth correct scores)', () => {
   const m = mk(0);
-  const seq = [true, false, true, true, false, true, true, true, false, false, false, false, false, false, false];
+  // wrong answers between correct ones do not reset the count
+  const seq = [];
+  for (let i = 0; seq.length < NQ; i++) seq.push(i % 3 !== 1);
   const goalsAt = [];
-  for (const ok of seq) goalsAt.push(answerQuestion(m, ok ? right(m) : 'zzz', 1000).goalFor);
-  eq(goalsAt.filter(Boolean).length, 2);
-  eq(goalsAt[3], true);   // 3rd correct
-  eq(goalsAt[7], true);   // 6th correct
-  eq(m.goalsFor, 2);
+  let correct = 0;
+  for (const ok of seq) {
+    const g = answerQuestion(m, ok ? right(m) : 'zzz', 1000).goalFor;
+    if (ok) correct++;
+    goalsAt.push([ok, g, correct]);
+  }
+  for (const [ok, g, c] of goalsAt) eq(g, ok && c % N === 0);
+  eq(m.goalsFor, Math.floor(correct / N));
 });
 
 test('match: wrong answers concede with probability = strength (0 never, 1 always)', () => {
@@ -46,7 +52,7 @@ test('match: wrong answers concede with probability = strength (0 never, 1 alway
   while (!never.finished) answerQuestion(never, 'zzz', 100);
   while (!always.finished) answerQuestion(always, 'zzz', 100);
   eq(never.goalsAgainst, 0);
-  eq(always.goalsAgainst, 15);
+  eq(always.goalsAgainst, NQ);
   eq(summarizeMatch(always, 0).outcome, 'L');
   eq(summarizeMatch(never, 0).outcome, 'D');
 });
@@ -77,15 +83,15 @@ test('match: timeout and over-limit answers are wrong', () => {
 test('match: answer feedback carries correct answer and explanation', () => {
   const m = mk(0);
   const r = answerQuestion(m, 'zzz', 100);
-  eq([r.correctAnswer, r.explanation, r.minute], ['b', 'E0', 6]);
+  eq([r.correctAnswer, r.explanation, r.minute], ['b', 'E0', 90 / NQ]);
   const r2 = answerQuestion(m, 'zzz', 100);
   eq(r2.correctAnswer, 'yes / oui');
 });
 
 test('match: minutes, limits, training is untimed with neutral opponent', () => {
-  eq([0, 1, 14].map((i) => minuteOf(i, 15)), [6, 12, 90]);
+  eq([0, 1, 9].map((i) => minuteOf(i, 10)), [9, 18, 90]);
   const m = mk(0.5);
-  eq(currentMinute(m), 6);
+  eq(currentMinute(m), 90 / NQ);
   eq(currentTimeLimitMs(m), 30000);
   const t = createMatch({ mode: 'training', questions: m.questions, topicId: 't1', rng: createRng(2), now: 0 });
   eq(currentTimeLimitMs(t), null);
@@ -102,9 +108,9 @@ test('match: summarize requires a finished match, aggregates speed and time', ()
   while (!m.finished) answerQuestion(m, right(m), 1000);
   const res = summarizeMatch(m, 7777);
   eq(res.playedAt, 7777);
-  eq(res.durationMs, 15000);
-  eq(res.speedBonus, 15 * speedBonus(1000, { type: 'mcq' }));
-  eq(res.answers.length, 15);
+  eq(res.durationMs, NQ * 1000);
+  eq(res.speedBonus, NQ * speedBonus(1000, { type: 'mcq' }));
+  eq(res.answers.length, NQ);
   eq(res.answers[0].topicId, 't1');
   eq(res.answers[0].prompt, 'P0');
   assert(speedBonus(100, { type: 'mcq' }) === 5 && speedBonus(29000, { type: 'mcq' }) === 0);

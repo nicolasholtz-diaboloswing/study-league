@@ -1,7 +1,9 @@
 import { test, eq, assert } from './runner.js';
 import { createRng } from '../js/core/rng.js';
+import { MATCH_QUESTIONS as NQ, SEASON_MATCHDAYS as SL } from '../js/config.js';
+import { createMatch, answerQuestion, summarizeMatch } from '../js/core/match.js';
 import {
-  DIVISIONS, MATCHDAYS, newSeason, nextFixture, playMatchday, computeTable, isSeasonOver, seasonEnd,
+  DIVISIONS, seasonLength, newSeason, nextFixture, playMatchday, computeTable, isSeasonOver, seasonEnd,
   startNextSeason, fixturesOf, simulateScore, divisionName,
 } from '../js/core/league.js';
 import { CLUBS } from './fixtures.js';
@@ -30,24 +32,34 @@ test('league: higher division has stronger opponents on average', () => {
   assert(avg(4) > avg(0) + 0.3);
 });
 
-test('league: double round-robin, 14 matchdays, everyone plays once per day, each pair twice home and away', () => {
-  const s = mkSeason();
-  eq(s.fixtures.length, 56);
-  for (let md = 0; md < MATCHDAYS; md++) {
-    const day = s.fixtures.filter((f) => f.md === md);
-    eq(day.length, 4);
-    eq(new Set(day.flatMap((f) => [f.home, f.away])).size, 8);
+test('league: single round-robin, SL matchdays, everyone plays once per day, each pair meets exactly once, home/away balanced', () => {
+  eq(SL, 7);
+  for (let seed = 1; seed <= 40; seed++) {
+    const s = mkSeason(seed % 5, seed);
+    eq(seasonLength(s), SL);
+    eq(s.fixtures.length, SL * 4);
+    for (let md = 0; md < SL; md++) {
+      const day = s.fixtures.filter((f) => f.md === md);
+      eq(day.length, 4);
+      eq(new Set(day.flatMap((f) => [f.home, f.away])).size, 8);
+    }
+    const pairs = new Set(s.fixtures.map((f) => [f.home, f.away].sort().join('|')));
+    eq(pairs.size, s.fixtures.length, 'a pair meets twice');
+    for (const a of s.clubs) for (const b of s.clubs) if (a.id < b.id) assert(pairs.has([a.id, b.id].sort().join('|')), `${a.id} vs ${b.id}`);
+    eq(fixturesOf(s).length, SL);
+    for (const c of s.clubs) {
+      const home = s.fixtures.filter((f) => f.home === c.id).length;
+      assert(home >= 2 && home <= 5, `seed ${seed} ${c.id} home ${home}`);
+    }
+    const mine = s.fixtures.filter((f) => f.home === 'me').length;
+    assert(mine >= 3 && mine <= 4, `seed ${seed} player home ${mine}`);
   }
-  const seen = new Set(s.fixtures.map((f) => `${f.home}>${f.away}`));
-  eq(seen.size, 56);
-  for (const a of s.clubs) for (const b of s.clubs) if (a !== b) assert(seen.has(`${a.id}>${b.id}`), `${a.id}>${b.id}`);
-  eq(fixturesOf(s).length, 14);
 });
 
 test('league: no club name equals the player club; next season avoids previous opponents when possible', () => {
   const s = mkSeason(0, 4);
   const s2 = startNextSeason(
-    (() => { const x = JSON.parse(JSON.stringify(s)); x.matchday = 14; return x; })(),
+    (() => { const x = JSON.parse(JSON.stringify(s)); x.matchday = SL; return x; })(),
     { clubs: CLUBS, profile, rng: createRng(8) });
   const prev = new Set(s.clubs.map((c) => c.id));
   eq(s2.clubs.filter((c) => !c.isPlayer && prev.has(c.id)).length, 0);
@@ -105,7 +117,7 @@ test('league: perfect season = title and promotion; next season starts one divis
   eq(isSeasonOver(s), true);
   eq(nextFixture(s), null);
   const end = seasonEnd(s);
-  eq([end.position, end.points, end.champion, end.promoted, end.nextDivision], [1, 42, true, true, 2]);
+  eq([end.position, end.points, end.champion, end.promoted, end.nextDivision], [1, SL * 3, true, true, 2]);
   const s2 = startNextSeason(s, { clubs: CLUBS, profile, rng: createRng(1) });
   eq([s2.division, s2.number, s2.matchday], [2, 2, 0]);
 });
@@ -129,7 +141,7 @@ test('league: second place is promoted but is not champion', () => {
   const clubs = ['me', 'B', 'C', 'D'].map((n) => ({ id: n, name: n, short: n, colors: [], crest: 'shield', strength: 0.5, isPlayer: n === 'me' }));
   const w = (home, away) => ({ md: 0, home, away, hg: 1, ag: 0 });
   const fixtures = [w('B', 'me'), w('B', 'C'), w('B', 'D'), w('me', 'C'), w('me', 'D'), w('C', 'D')];
-  const end = seasonEnd({ number: 1, division: 1, clubs, fixtures, matchday: 14 });
+  const end = seasonEnd({ number: 1, division: 1, clubs, fixtures, matchday: SL });
   eq([end.position, end.champion, end.promoted, end.nextDivision], [2, false, true, 2]);
 });
 
@@ -153,4 +165,67 @@ test('league: divisionName tolerates hostile indexes', () => {
     assert(names.includes(divisionName(bad)), `divisionName(${String(bad)})`);
   }
   eq([divisionName(NaN), divisionName('x'), divisionName(-5), divisionName(99), divisionName(Infinity)], ['District', 'District', 'District', 'Ligue 1', 'District']);
+});
+
+/** A season object as saved before the change: double round-robin, 14 matchdays, 56 fixtures. */
+function legacySeason(seed = 3) {
+  const s = mkSeason(1, seed);
+  const first = s.fixtures.map((f) => ({ ...f }));
+  const second = first.map((f) => ({ md: f.md + SL, home: f.away, away: f.home, hg: null, ag: null }));
+  return JSON.parse(JSON.stringify({ ...s, fixtures: [...first, ...second] }));
+}
+
+test('league: a legacy 14-matchday season still runs 14 matchdays, ends, promotes, then the next season has SL', () => {
+  const s = legacySeason();
+  eq([seasonLength(s), s.fixtures.length], [2 * SL, 8 * SL]);
+  const rng = createRng(5);
+  for (let i = 0; i < 2 * SL - 1; i++) { playMatchday(s, { goalsFor: 3, goalsAgainst: 0 }, rng); eq(isSeasonOver(s), false, 'matchday ' + i); }
+  assert(nextFixture(s) && nextFixture(s).matchday === 2 * SL - 1);
+  playMatchday(s, { goalsFor: 3, goalsAgainst: 0 }, rng);
+  eq(isSeasonOver(s), true);
+  eq(nextFixture(s), null);
+  const end = seasonEnd(s);
+  eq([end.position, end.points, end.promoted, end.nextDivision], [1, 2 * SL * 3, true, 2]);
+  const s2 = startNextSeason(s, { clubs: CLUBS, profile, rng: createRng(1) });
+  eq([seasonLength(s2), s2.fixtures.length, s2.matchday, s2.division], [SL, SL * 4, 0, 2]);
+});
+
+test('league: every season of SL matchdays ends exactly after SL played matchdays and the table is complete', () => {
+  const s = mkSeason(0, 12);
+  const rng = createRng(2);
+  for (let i = 0; i < SL; i++) { eq(isSeasonOver(s), false); playMatchday(s, { goalsFor: 1, goalsAgainst: 1 }, rng); }
+  eq(isSeasonOver(s), true);
+  const t = computeTable(s);
+  eq(t.every((r) => r.played === SL), true);
+  eq(t.reduce((a, r) => a + r.won, 0), t.reduce((a, r) => a + r.lost, 0));
+});
+
+/** One league match through the real engine: p = chance of a right answer per question. */
+function playOne(opp, p, rng, seed) {
+  const questions = Array.from({ length: NQ }, (_, i) => ({ id: 'q' + i, topicId: 't1', level: 1, type: 'input', prompt: 'P', answer: ['yes'], explain: '' }));
+  const m = createMatch({ mode: 'league', questions, opponent: { id: opp.id, name: opp.name, strength: opp.strength }, topicId: 't1', subjectId: 'en', division: 0, rng: createRng(seed), now: 0 });
+  while (!m.finished) answerQuestion(m, rng.chance(p) ? 'yes' : 'zzz', 3000);
+  const r = summarizeMatch(m, 0);
+  return { goalsFor: r.goalsFor, goalsAgainst: r.goalsAgainst };
+}
+
+function topTwoRate(p, runs = 300) {
+  let top2 = 0, champ = 0;
+  for (let seed = 1; seed <= runs; seed++) {
+    const s = mkSeason(0, seed);
+    const rng = createRng(seed * 7919);
+    while (!isSeasonOver(s)) playMatchday(s, playOne(nextFixture(s).opponent, p, rng, rng.int(1e9)), rng);
+    const end = seasonEnd(s);
+    if (end.position <= 2) top2++;
+    if (end.position === 1) champ++;
+  }
+  return { top2: top2 / runs, champ: champ / runs };
+}
+
+test('league: simulation, a player at 8/10 usually finishes top 2 of the lowest division; a player at 4/10 usually does not', () => {
+  const good = topTwoRate(0.8);
+  const bad = topTwoRate(0.4);
+  globalThis.__sim = { good, bad };
+  assert(good.top2 > 0.6, `8/10 top2 rate ${good.top2}`);
+  assert(bad.top2 < 0.4, `4/10 top2 rate ${bad.top2}`);
 });

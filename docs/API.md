@@ -7,7 +7,7 @@ Imports from a view (`js/ui/...`): `import { ... } from '../core/match.js'`, `im
 ## Decisions taken (spec gaps)
 
 - A match is **always one subject and one topic** (no "Mixed"). `topicId` is a single id.
-- A match has **15 questions** (`MATCH_QUESTIONS`), minutes 6', 12' ... 90'. A goal is scored on **every 3rd correct answer** (`GOAL_EVERY_N_CORRECT`), counted over the whole match, not consecutive. 15/15 = 5 goals. "Perfect match" = all questions correct. Training also uses 15 questions. Both constants live in `js/config.js`.
+- A match has **10 questions** (`MATCH_QUESTIONS`), minutes 9', 18' ... 90'. A goal is scored on **every 2nd correct answer** (`GOAL_EVERY_N_CORRECT`), counted over the whole match, not consecutive. 10/10 = 5 goals. All rule texts in the UI are generated from these constants (`js/ui/rules.js`). "Perfect match" = all questions correct. Training also uses 15 questions. Both constants live in `js/config.js`.
 - Speed bonus (spec: "up to +5") is **per correct answer**, 0 to 5 depending on the share of that question's time limit used (<=10 %: 5, <=20 %: 4, <=35 %: 3, <=50 %: 2, <=70 %: 1, else 0). A perfect match can therefore earn up to 75 bonus XP.
 - Training uses a neutral "Équipe d'entraînement" opponent (strength 0.5), so a score and W/D/L exist, but nothing reaches the league, coins or win streak. Training matches do count in `totals.matches`, `correct`, `answered`, `perfect`, mastery, streak and activity. XP is halved (rounded down), no coins.
 - Totals for wins/draws/losses/goals/streak/clean sheets/hat-tricks count **league matches only**.
@@ -25,10 +25,10 @@ Imports from a view (`js/ui/...`): `import { ... } from '../core/match.js'`, `im
 ```js
 FIREBASE_CONFIG          // null = local mode, or the Firebase web config object
 APP_NAME                 // 'Study League'
-MATCH_QUESTIONS = 15
+MATCH_QUESTIONS = 10
 TIMER_MCQ_SECONDS = 30
 TIMER_INPUT_SECONDS = 45
-GOAL_EVERY_N_CORRECT = 3
+GOAL_EVERY_N_CORRECT = 2
 PACK_COST = 50
 PACK_SIZE = 3
 FREE_PACK_EVERY_N_LEVELS = 5
@@ -140,11 +140,12 @@ MatchResult = {
 ```js
 DIVISIONS = [ {index:0,id:'district',name:'District',strength:[0.35,0.5]}, {1,'regional','Régional',[0.45,0.6]},
               {2,'national','National',[0.55,0.7]}, {3,'ligue2','Ligue 2',[0.65,0.8]}, {4,'ligue1','Ligue 1',[0.75,0.9]} ]
-TOP_DIVISION = 4; MATCHDAYS = 14; OPPONENTS_PER_SEASON = 7; PROMOTION_PLACES = 2; PLAYER_CLUB_ID = 'me'
+TOP_DIVISION = 4; OPPONENTS_PER_SEASON = 7 and SEASON_MATCHDAYS = 7 (both in config.js); PROMOTION_PLACES = 2; PLAYER_CLUB_ID = 'me'
 divisionName(index) -> string
 
 newSeason({ clubs, profile: { club, colors }, division = 0, number = 1, rng, exclude = [] }) -> Season
 clubOf(season, id) -> Club
+seasonLength(season) -> number     // matchdays of THIS season, read from its fixtures (a saved 14-matchday season stays 14)
 isSeasonOver(season) -> boolean
 nextFixture(season) -> { matchday, home, away, isHome, opponent: Club, strength } | null
 playMatchday(season, { goalsFor, goalsAgainst }, rng) -> { matchday, results: Fixture[] }   // MUTATES season
@@ -156,7 +157,7 @@ simulateScore(strengthHome, strengthAway, rng) -> [homeGoals, awayGoals]
 
 Club      = { id, name, short, colors: [c1,c2], crest, strength: number|null, isPlayer }   // player club id is 'me'
 Fixture   = { md (0-based), home: clubId, away: clubId, hg: number|null, ag: number|null }
-Season    = { number, division, clubs: Club[8], fixtures: Fixture[56] (flat), matchday: 0..14 }
+Season    = { number, division, clubs: Club[8], fixtures: Fixture[28] (flat, single round-robin), matchday: 0..7 }
 TableRow  = { clubId, name, short, colors, crest, isPlayer, played, won, drawn, lost, gf, ga, gd, pts, position }
 SeasonEnd = { number, division, position, points, gf, ga, champion, promoted, nextDivision, table: TableRow[] }
 ```
@@ -169,7 +170,7 @@ xpToReach(level) -> number                 // total XP to reach `level`: 0, 100,
 levelForXp(xp) -> level (>= 1)
 levelInfo(xp) -> { level, xp, levelStart, nextLevelAt, progress: 0..1 }
 matchXp(result) -> { base, speed, outcome, total }          // 10/correct, speed sum, 50/20/10; training halves total
-matchCoins(result) -> { base, perfect, coachPick, total }   // 30/15/5, +10 perfect, x1.5 coach pick; training: 0
+matchCoins(result) -> { base, perfect, coachPick, total }   // 30/15/5, +10 perfect, x1.5 coach pick; training: 0; a league defeat with fewer than a third of the questions right (minCorrectForLossCoins(total)): 0
 RARITY_ODDS = { common: 0.6, rare: 0.28, epic: 0.1, legend: 0.02 }
 RARITIES = ['common','rare','epic','legend']
 openPack(cards, rng, collection = {}, size = PACK_SIZE) -> [{ card, isNew }]

@@ -4,6 +4,7 @@ import * as E from '../effects.js';
 import { currentQuestion, currentMinute, currentTimeLimitMs, answerQuestion, timeoutQuestion } from '../../core/match.js';
 import { optionChoices, acceptedAnswers, normalizeAnswer } from '../../core/questions.js';
 import { flow, finishMatch, dropPendingMatch } from '../flow.js';
+import { RULE, remainingText, MISSED_CHANCE } from '../rules.js';
 
 const KEY_INDEX = { 1: 0, 2: 1, 3: 2, 4: 3, a: 0, b: 1, c: 2, d: 3 };
 const ACCENTS = ['é', 'è', 'ê', 'à', 'â', 'ç', 'ù', 'î', 'ô', 'œ'];
@@ -113,7 +114,7 @@ export default {
       const question = o.question;
       $q.innerHTML = C.questionCard({
         number: o.number, total, prompt: question.prompt, type: uiChoices ? 'mcq' : 'input', choices: uiChoices || undefined, topic: c.topic.name,
-        status: o.status, selected: o.selected, correctAnswer: o.correctAnswer, explanation: o.explanation, inputValue: o.inputValue || '',
+        status: o.status, note: o.note, selected: o.selected, correctAnswer: o.correctAnswer, explanation: o.explanation, inputValue: o.inputValue || '',
         timer: limitMs ? C.timer({ remaining: o.remaining, total: limitMs / 1000 }) : '',
       });
       if (question.label) $q.querySelector('.qcard__prompt')?.insertAdjacentHTML('beforebegin', `<span class="qcard__label">${C.esc(question.label)}</span>`);
@@ -133,7 +134,7 @@ export default {
       phase = 'asking';
       setTyping(false);
       $sb.innerHTML = scoreboard(currentMinute(match));
-      $meter.innerHTML = C.attackMeter(attackStep);
+      $meter.innerHTML = C.attackMeter(attackStep, { live: true });
       $next.innerHTML = '';
       renderCard({ question: q, number: match.index + 1, status: 'idle', remaining: limitMs ? limitMs / 1000 : 0 });
       const field = input();
@@ -153,12 +154,13 @@ export default {
       attackStep = fb.attack.charge;
       const status = fb.correct ? 'correct' : fb.timedOut ? 'timeout' : 'wrong';
       const marked = uiChoices && question.type === 'input' ? optionAnswer(question, uiChoices) : fb.correctAnswer;
+      const note = fb.correct ? (fb.goalFor ? '' : remainingText(fb.attack.charge)) : (fb.goalAgainst ? '' : MISSED_CHANCE);
       renderCard({
-        question, number, status, selected, correctAnswer: marked ?? fb.correctAnswer, explanation: fb.explanation, inputValue: given || '',
+        question, number, status, selected, correctAnswer: marked ?? fb.correctAnswer, explanation: fb.explanation, inputValue: given || '', note,
         remaining: limitMs ? Math.max(0, limitMs - ms) / 1000 : 0,
       });
       $sb.innerHTML = scoreboard(fb.minute, fb.goalFor ? 'home' : fb.goalAgainst ? 'away' : undefined);
-      $meter.innerHTML = C.attackMeter(fb.goalFor ? 3 : fb.attack.charge);
+      $meter.innerHTML = C.attackMeter(fb.goalFor ? fb.attack.max : fb.attack.charge, { live: true });
       afterAnswer(fb);
     }
 
@@ -170,7 +172,7 @@ export default {
           ? E.goalCelebration({ sub: score, kit: me.colors })
           : E.goalCelebration({ side: 'away', sub: 'Raté : l\'adversaire en profite !', score, kit: opp.colors }));
         if (destroyed) return;
-        $meter.innerHTML = C.attackMeter(fb.attack.charge);
+        $meter.innerHTML = C.attackMeter(fb.attack.charge, { live: true });
       }
       if (phase === 'leaving' || phase === 'done') return;
       phase = 'feedback';
@@ -286,10 +288,30 @@ export default {
     el.addEventListener('submit', onSubmit);
     document.addEventListener('keydown', onKey);
 
-    showQuestion();
+    /* ---- the very first match: the rule is explained once, the clock starts when the overlay is closed ---- */
+    let introObserver = null;
+    if (!ctx.state?.matches?.length) {
+      $sb.innerHTML = scoreboard(0);
+      const m = C.showModal(C.modal({
+        id: 'intro',
+        title: 'Comment marquer ?',
+        body: `<div class="intro"><div class="intro__meter">${C.attackMeter(0)}</div>
+          <p class="intro__goal">${C.esc(RULE.intro)}</p><p class="intro__miss">${C.esc(RULE.introMiss)}</p></div>`,
+        actions: [C.button({ label: "C'est parti !", variant: 'gold', size: 'lg', block: true, attrs: { 'data-modal-close': '', 'data-intro-go': '' } })],
+      }));
+      m.querySelector('[data-intro-go]')?.focus();
+      introObserver = new MutationObserver(() => {
+        if (document.querySelector('[data-modal]')) return;
+        introObserver.disconnect();
+        introObserver = null;
+        if (!destroyed && phase === 'idle') showQuestion();
+      });
+      introObserver.observe(document.getElementById('modal-root'), { childList: true });
+    } else showQuestion();
 
     return () => {
       destroyed = true;
+      introObserver?.disconnect();
       clearInterval(interval);
       mo.disconnect();
       document.removeEventListener('visibilitychange', onVisibility);

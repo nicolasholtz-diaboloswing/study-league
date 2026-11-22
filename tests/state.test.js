@@ -4,7 +4,8 @@ import {
   loadCatalog, listTopics, loadTopicQuestions, pickQuestions, acceptedAnswers,
 } from '../js/core/questions.js';
 import { createMatch, answerQuestion, currentQuestion, summarizeMatch } from '../js/core/match.js';
-import { nextFixture } from '../js/core/league.js';
+import { nextFixture, seasonLength } from '../js/core/league.js';
+import { MATCH_QUESTIONS as NQ, GOAL_EVERY_N_CORRECT as N, SEASON_MATCHDAYS as SL } from '../js/config.js';
 import {
   newPlayerState, migrateState, ensureSeason, applyResult, buyPack, openFreePack, SCHEMA_VERSION,
 } from '../js/core/state.js';
@@ -71,16 +72,16 @@ test('state: migrateState fills defaults, rejects non-objects, handles coach', (
   eq([c.role, c.schema], ['coach', SCHEMA_VERSION]);
 });
 
-test('applyResult: full 14-match perfect season (promotion, title, packs, badges)', () => {
+test('applyResult: full perfect season (SL matchdays: promotion, title, packs, badges) (promotion, title, packs, badges)', () => {
   const rng = createRng(11);
   let s = fresh(2);
   const original = JSON.stringify(s);
   const allEvents = [];
-  for (let i = 0; i < 14; i++) {
+  for (let i = 0; i < SL; i++) {
     const now = T0 + i * DAY;
     const before = JSON.stringify(s);
     const res = playMatch(s, rng, now, 1);
-    eq([res.outcome, res.goalsFor, res.goalsAgainst], ['W', 5, 0]);
+    eq([res.outcome, res.goalsFor, res.goalsAgainst], ['W', NQ / N, 0]);
     const out = applyResult(s, res, ctx(rng, now));
     eq(JSON.stringify(s), before, 'input state not mutated');
     s = out.state;
@@ -88,24 +89,24 @@ test('applyResult: full 14-match perfect season (promotion, title, packs, badges
   }
   assert(JSON.stringify(s) !== original);
   const t = s.totals;
-  eq([t.matches, t.leagueMatches, t.wins, t.winStreak, t.bestWinStreak, t.perfect, t.cleanSheets, t.hatTricks], [14, 14, 14, 14, 14, 14, 14, 14]);
-  eq([t.promotions, t.titles, t.correct, t.answered, t.goalsFor, t.goalsAgainst], [1, 1, 210, 210, 70, 0]);
-  eq(s.coins, 14 * 40);
-  eq(s.xp, 14 * 275);
+  eq([t.matches, t.leagueMatches, t.wins, t.winStreak, t.bestWinStreak, t.perfect, t.cleanSheets, t.hatTricks], [SL, SL, SL, SL, SL, SL, SL, SL]);
+  eq([t.promotions, t.titles, t.correct, t.answered, t.goalsFor, t.goalsAgainst], [1, 1, SL * NQ, SL * NQ, SL * NQ / N, 0]);
+  eq(s.coins, SL * 40);
+  eq(s.xp, SL * (NQ * 15 + 50));
   eq(s.league.history.length, 1);
   eq(s.league.history[0].position, 1);
   eq([s.league.history[0].promoted, s.league.history[0].champion], [true, true]);
   eq([s.league.season.number, s.league.season.division, s.league.season.matchday], [2, 1, 0]);
-  eq(s.freePacks, 4, 'promotion + title + levels 5 and 10');
-  eq(s.streak, { current: 14, best: 14, lastDay: s.streak.lastDay });
-  eq(s.matches.length, 14);
+  eq(s.freePacks, 3, 'promotion + title + level 5');
+  eq(s.streak, { current: SL, best: SL, lastDay: s.streak.lastDay });
+  eq(s.matches.length, SL);
   const types = allEvents.map((e) => e.type);
-  eq(types.filter((x) => x === 'matchday').length, 14);
+  eq(types.filter((x) => x === 'matchday').length, SL);
   eq(types.filter((x) => x === 'season-end').length, 1);
   const se = allEvents.find((e) => e.type === 'season-end');
   eq([se.promoted, se.champion, se.nextDivision, se.summary.table.length], [true, true, 1, 8]);
-  eq(allEvents.filter((e) => e.type === 'free-pack').map((e) => e.reason).sort(), ['level', 'level', 'promotion', 'title']);
-  for (const id of ['first-match', 'first-win', 'streak-3', 'streak-10', 'hat-trick', 'clean-sheet', 'perfect', 'matches-10', 'promotion', 'title', 'day-streak-7', 'correct-100']) {
+  eq(allEvents.filter((e) => e.type === 'free-pack').map((e) => e.reason).sort(), ['level', 'promotion', 'title']);
+  for (const id of ['first-match', 'first-win', 'streak-3', 'streak-5', 'hat-trick', 'clean-sheet', 'perfect', 'promotion', 'title', 'day-streak-7']) {
     assert(s.badges[id], 'badge ' + id);
   }
   eq(allEvents.filter((e) => e.type === 'badge').length, Object.keys(s.badges).length);
@@ -124,8 +125,8 @@ test('applyResult: 120 league matches keep 100 in history, seasons roll over, st
   eq(s.totals.matches, 120);
   eq(s.matches.length, 100);
   eq(s.matches[99].at, T0 + 119 * 3600000);
-  eq(s.league.history.length, Math.floor(120 / 14));
-  eq(s.league.season.number, 9);
+  eq(s.league.history.length, Math.floor(120 / SL));
+  eq(s.league.season.number, Math.floor(120 / SL) + 1);
   eq(s.totals.wins + s.totals.draws + s.totals.losses, 120);
   assert(s.league.season.division >= 0 && s.league.season.division <= 4);
   assert(Object.keys(s.activity).length <= 60);
@@ -153,10 +154,10 @@ test('applyResult: training gives half XP, no coins, no league effect, updates m
   eq(s.totals.wins, 0);
   eq(s.totals.matches, 1);
   const xpEv = events.find((e) => e.type === 'xp');
-  eq(xpEv.total, Math.floor((150 + res.speedBonus + 50) / 2));
+  eq(xpEv.total, Math.floor((NQ * 10 + res.speedBonus + 50) / 2));
   eq(s.xp, xpEv.total);
   assert(!events.some((e) => e.type === 'coins' || e.type === 'matchday'));
-  eq(s.topics['en-det'].recent.length, 15);
+  eq(s.topics['en-det'].recent.length, NQ);
   const mastery = events.find((e) => e.type === 'mastery');
   eq([mastery.topicId, mastery.from, mastery.to], ['en-det', 0, 3]);
   assert(s.badges['topic-master'] && s.badges['perfect']);
@@ -169,7 +170,7 @@ test('applyResult: question history records misses with prompt/answer, and wrong
   const res = playMatch(s0, rng, T0, 0, { mode: 'training', topic: 'fr-gram' });
   const { state: s } = applyResult(s0, res, ctx(rng, T0));
   const ids = Object.keys(s.questions);
-  eq(ids.length, 15);
+  eq(ids.length, NQ);
   const q = s.questions[ids[0]];
   eq([q.seen, q.wrong, q.correct, q.lastCorrect, q.topicId, typeof q.p, typeof q.a], [1, 1, 0, false, 'fr-gram', 'string', 'string']);
   const next = pickQuestions(POOL.filter((x) => x.topicId === 'fr-gram'), { n: 9, history: s.questions, rng: createRng(1) });
@@ -269,7 +270,7 @@ test('pendingMatch: new states have a null marker; startPendingMatch writes a pl
   eq(s0.pendingMatch, null);
   const s1 = startPendingMatch(s0, { opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, now: T0 });
   eq(s0.pendingMatch, null, 'input untouched');
-  eq(s1.pendingMatch, { mode: 'league', opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: 15, startedAt: T0 });
+  eq(s1.pendingMatch, { mode: 'league', opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: NQ, startedAt: T0 });
   eq(JSON.parse(JSON.stringify(s1)).pendingMatch, s1.pendingMatch, 'JSON round trip');
   eq(migrateState(JSON.parse(JSON.stringify(s1))).pendingMatch, s1.pendingMatch, 'survives migration');
   eq(migrateState({ username: 'old', profile: { displayName: 'Old' } }).pendingMatch, null);
@@ -293,7 +294,7 @@ test('applyPendingForfeit: one defeat 0-3, all questions counted wrong in totals
   const s = out.state;
   eq(s.pendingMatch, null);
   eq([s.totals.losses, s.totals.wins, s.totals.leagueMatches, s.totals.matches], [1, 0, 1, 1]);
-  eq([s.totals.goalsFor, s.totals.goalsAgainst, s.totals.correct, s.totals.answered], [0, 3, 0, 15]);
+  eq([s.totals.goalsFor, s.totals.goalsAgainst, s.totals.correct, s.totals.answered], [0, 3, 0, NQ]);
   eq([out.result.outcome, out.result.goalsFor, out.result.goalsAgainst], ['L', 0, 3]);
   eq([s.questions, s.topics], [{}, {}], 'no mastery history');
   eq(s.coins, 0);
@@ -303,4 +304,21 @@ test('applyPendingForfeit: one defeat 0-3, all questions counted wrong in totals
   assert(out.events.some((e) => e.type === 'matchday'));
   eq(applyPendingForfeit(s, ctx(rng, T0 + 2000)), null, 'second pass: nothing');
   eq(s0.league.season.matchday, 0, 'input untouched');
+});
+
+test('a match or pending forfeit stored with 15 questions (before the 10-question format) still settles', () => {
+  const rng = createRng(43);
+  const s0 = startPendingMatch(fresh(43), { opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: 15, now: T0 });
+  const out = applyPendingForfeit(s0, ctx(rng, T0 + 1000));
+  eq([out.result.total, out.state.totals.answered, out.state.pendingMatch], [15, 15, null]);
+  // a 15-question match played now: goals follow GOAL_EVERY_N_CORRECT, perfect = all right, total kept per match
+  const s1 = fresh(44);
+  const fx = nextFixture(s1.league.season);
+  const questions = pickQuestions(POOL.filter((q) => q.topicId === 'en-det'), { n: 15, history: {}, division: 0, rng });
+  const m = createMatch({ mode: 'league', questions, topicId: 'en-det', subjectId: 'en', opponent: { id: fx.opponent.id, name: fx.opponent.name, strength: fx.strength }, division: 0, rng, now: T0 });
+  while (!m.finished) answerQuestion(m, acceptedAnswers(currentQuestion(m))[0], 2000);
+  const res = summarizeMatch(m, T0);
+  eq([res.total, res.correct, res.goalsFor, res.perfect], [15, 15, Math.floor(15 / N), true]);
+  const s2 = applyResult(s1, res, ctx(rng, T0)).state;
+  eq([s2.matches[0].total, s2.totals.answered], [15, 15]);
 });

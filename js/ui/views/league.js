@@ -1,7 +1,7 @@
 // League: full table, fixtures, division ladder, past seasons with trophies.
 import * as C from '../components.js';
 import * as A from '../art.js';
-import { DIVISIONS, MATCHDAYS, PLAYER_CLUB_ID, clubOf, fixturesOf, nextFixture, divisionName } from '../../core/league.js';
+import { DIVISIONS, seasonLength, PLAYER_CLUB_ID, clubOf, fixturesOf, nextFixture, divisionName } from '../../core/league.js';
 import { tableRows, ordinal, esc } from '../shell-utils.js';
 
 export default {
@@ -50,7 +50,7 @@ export default {
       : '<p class="text-dim">Ta première saison est en cours. Les trophées de tes saisons apparaîtront ici.</p>';
 
     el.innerHTML = `<div class="page">
-      ${C.pageHead('Championnat', { kicker: `Saison ${season.number} · ${divisionName(season.division)}`, sub: `Tu es ${ordinal(me.pos)}. Les 2 premiers montent de division. ${next ? `Journée ${next.matchday + 1} sur ${MATCHDAYS} à venir.` : ''}` })}
+      ${C.pageHead('Championnat', { kicker: `Saison ${season.number} · ${divisionName(season.division)}`, sub: `Tu es ${ordinal(me.pos)}. Les 2 premiers montent de division. ${next ? `Journée ${next.matchday + 1} sur ${seasonLength(season)} à venir.` : ''}` })}
       ${next ? C.button({ label: `Jouer la journée ${next.matchday + 1}`, size: 'lg', block: true, href: '#/play', icon: '⚽', cls: 'league__play' }) : ''}
       <div class="grid grid--split">
         ${C.section('Classement', C.leagueTable({ rows }))}

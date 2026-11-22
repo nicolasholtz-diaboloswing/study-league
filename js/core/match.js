@@ -1,4 +1,4 @@
-// One match: MATCH_QUESTIONS (15) questions = 15 "minutes" (6', 12' ... 90'). Mutable match object, driven by the view.
+// One match: MATCH_QUESTIONS questions = as many "minutes" (9', 18' ... 90' for 10). Mutable match object, driven by the view.
 import { TIMER_MCQ_SECONDS, TIMER_INPUT_SECONDS, GOAL_EVERY_N_CORRECT } from '../config.js';
 import { checkAnswer, displayAnswer } from './questions.js';
 
@@ -20,7 +20,7 @@ export function speedBonus(ms, q) {
   return 0;
 }
 
-/** Minute shown for question index i of total: 6', 12' ... 90' for 15 questions. */
+/** Minute shown for question index i of total: 90 / total per question (9', 18' ... 90' for 10). */
 export function minuteOf(index, total) {
   return Math.round(((index + 1) * 90) / total);
 }

@@ -1,10 +1,11 @@
 // Match set-up for the league match: subject -> topic -> pre-match screen -> kick-off.
 import * as C from '../components.js';
 import * as A from '../art.js';
-import { MATCH_QUESTIONS } from '../../config.js';
-import { nextFixture, divisionName, MATCHDAYS } from '../../core/league.js';
+import { MATCH_QUESTIONS, MATCH_MINUTES } from '../../config.js';
+import { nextFixture, divisionName, seasonLength } from '../../core/league.js';
 import { listSubjects, listTopics } from '../../core/questions.js';
 import { weakestTopic, topicMastery } from '../../core/stats.js';
+import { RULE } from '../rules.js';
 import { prepareMatch } from '../flow.js';
 import { myClub, subjectLabel, subjectIcon } from '../shell-utils.js';
 
@@ -35,7 +36,7 @@ export default {
 
     function viewSubject() {
       return `<div class="page page--narrow">
-        ${C.pageHead('Quelle matière ?', { kicker: `Journée ${fx.matchday + 1} sur ${MATCHDAYS}`, sub: 'Choisis ce que tu veux réviser pour ce match.' })}
+        ${C.pageHead('Quelle matière ?', { kicker: `Journée ${fx.matchday + 1} sur ${seasonLength(season)}`, sub: 'Choisis ce que tu veux réviser pour ce match.' })}
         <div class="grid grid--2">${subjects.map((s) => {
           const avg = Math.floor(s.topics.reduce((a, t) => a + mastery(t).stars, 0) / s.topics.length);
           const hasPick = pick && s.topics.some((t) => t.id === pick.id);
@@ -57,7 +58,7 @@ export default {
     function viewPrematch() {
       const isPick = !!pick && pick.id === topic.id;
       return `<div class="page page--narrow prematch">
-        ${C.pageHead('Avant le match', { kicker: `${divisionName(season.division)} · journée ${fx.matchday + 1} sur ${MATCHDAYS}` })}
+        ${C.pageHead('Avant le match', { kicker: `${divisionName(season.division)} · journée ${fx.matchday + 1} sur ${seasonLength(season)}` })}
         <section class="panel panel--gold stack">
           <div class="fixture-card">
             <div class="fixture-card__team">${A.crest(me, 72)}<b>${C.esc(me.name)}</b></div>
@@ -65,7 +66,8 @@ export default {
             <div class="fixture-card__team">${A.crest(fx.opponent, 72)}<b>${C.esc(fx.opponent.name)}</b></div>
           </div>
           <div class="prematch__topic"><span aria-hidden="true">${subjectIcon(topic.subjectId, topic.icon)}</span> <b>${C.esc(topic.name)}</b> ${isPick ? C.pill('Choix du coach · +50 % de pièces', 'gold') : ''}</div>
-          <p class="text-center text-dim">${MATCH_QUESTIONS} questions · environ 5 minutes</p>
+          <p class="text-center text-dim">${MATCH_QUESTIONS} questions · environ ${MATCH_MINUTES} minutes</p>
+          <div class="prematch__rule"><b>${C.esc(RULE.line)} <span aria-hidden="true">⚽</span></b><small>${C.esc(RULE.miss)}</small></div>
         </section>
         ${single(subject) ? (subjects.length > 1 ? C.button({ label: 'Changer de matière', variant: 'ghost', attrs: { 'data-action': 'subjects' } }) : '')
           : C.button({ label: 'Changer de thème', variant: 'ghost', attrs: { 'data-action': 'topics' } })}

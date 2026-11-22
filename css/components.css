@@ -97,6 +97,13 @@
 .attack.is-goal .attack__goal { background: linear-gradient(180deg, var(--gold-bright), var(--gold)); color: var(--gold-ink); box-shadow: var(--glow-gold); animation: digit-pop .6s var(--ease); }
 .attack.is-goal .attack__goal svg { opacity: 1; }
 
+/* live countdown version: the sentence gets its own line above the segments */
+.attack--live { flex-wrap: wrap; row-gap: var(--sp-2); }
+.attack--live .attack__label--live { flex: 0 0 100%; order: -1; text-align: center; letter-spacing: 0; text-transform: none; font-family: var(--font-text); font-weight: 700; font-size: 1.1rem; color: var(--ink); white-space: nowrap; }
+.attack--live .attack__label--live.is-ready { color: var(--gold-bright); text-shadow: 0 0 10px rgba(251,191,36,.55); }
+.attack__short { display: none; }
+@media (max-width: 399px) { .attack--live .attack__long { display: none; } .attack--live .attack__short { display: inline; } }
+
 /* ---------- Question card ---------- */
 .qcard { display: flex; flex-direction: column; gap: var(--sp-4); padding: var(--sp-4); border-radius: var(--radius-lg); background: linear-gradient(180deg, rgba(23,42,92,.7), rgba(10,22,52,.9)); border: 1px solid var(--line-strong); box-shadow: var(--shadow-2); }
 .qcard__head { display: flex; align-items: center; gap: var(--sp-3); min-height: 56px; }
@@ -141,6 +148,8 @@
 .feedback__verdict { font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; letter-spacing: .06em; text-transform: uppercase; line-height: 1; }
 .feedback--ok .feedback__verdict { color: var(--ok); }
 .feedback--bad .feedback__verdict { color: var(--bad); }
+.feedback__note { font-weight: 700; font-size: .95rem; color: var(--ink); }
+.feedback--ok .feedback__note { color: var(--gold-bright); }
 .feedback__answer { font-size: 1.05rem; }
 .feedback__why { color: var(--ink-dim); font-size: .98rem; }
 @keyframes rise { from { opacity: 0; transform: translateY(8px); } }

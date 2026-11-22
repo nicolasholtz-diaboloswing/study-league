@@ -1,6 +1,8 @@
 // Study League UI components. Convention: every component is a pure function returning an HTML string.
 // Interactive hooks are data-attributes (data-action, data-choice, ...). Views attach listeners themselves.
 // Only the three helpers at the bottom (showModal, closeModal, showToast, updateTimer) touch the DOM.
+import { GOAL_EVERY_N_CORRECT } from '../config.js';
+import { meterText } from './rules.js';
 import { crest, esc, flag, football, safeColor, trophy } from './art.js';
 
 export { esc };
@@ -91,12 +93,22 @@ export function scoreboard({ home, away, homeScore = 0, awayScore = 0, minute, s
   </div>`;
 }
 
-/** Attack meter: step 0..3 (3 = BUT lit). A goal on every 3rd correct answer. */
-export function attackMeter(step = 0) {
-  const s = clamp(step, 0, 3);
-  return `<div class="attack ${s === 3 ? 'is-goal' : ''}" role="img" aria-label="${s === 3 ? 'But !' : `Attaque : ${s} sur 3`}">
-    <span class="attack__label">Attaque</span>
-    <span class="attack__track">${[1, 2, 3].map((n) => `<span class="attack__seg ${s >= n ? 'is-on' : ''}"></span>`).join('')}</span>
+/**
+ * Attack meter: GOAL_EVERY_N_CORRECT segments, step 0..N (N = BUT lit).
+ * Optional `{ live: true }` replaces the bare « Attaque » label by the countdown (« Encore 2 bonnes réponses pour marquer »).
+ */
+export function attackMeter(step = 0, { live = false } = {}) {
+  const N = GOAL_EVERY_N_CORRECT;
+  const s = clamp(step, 0, N);
+  const goal = s === N;
+  const t = meterText(s);
+  const label = live && !goal
+    ? `<span class="attack__label attack__label--live ${t.ready ? 'is-ready' : ''}"><span class="attack__long">${esc(t.long)}</span><span class="attack__short" aria-hidden="true">${esc(t.short)}</span></span>`
+    : '<span class="attack__label">Attaque</span>';
+  const aria = goal ? 'But !' : live ? t.long : `Attaque : ${s} sur ${N}`;
+  return `<div class="attack ${goal ? 'is-goal' : ''} ${live ? 'attack--live' : ''}" role="img" aria-label="${esc(aria)}">
+    ${label}
+    <span class="attack__track">${Array.from({ length: N }, (_, i) => `<span class="attack__seg ${s >= i + 1 ? 'is-on' : ''}"></span>`).join('')}</span>
     <span class="attack__goal">${football(22)}<b>BUT</b></span>
   </div>`;
 }
@@ -110,7 +122,7 @@ export function attackMeter(step = 0) {
  * After an answer (status != idle) all inputs are disabled; the right choice is marked, the explanation shown.
  */
 export function questionCard(q) {
-  const { number, total, prompt, type, choices = [], status = 'idle', selected, correctAnswer, explanation, inputValue = '', placeholder = 'Écris ta réponse', topic, timer = '' } = q;
+  const { number, total, prompt, type, choices = [], status = 'idle', selected, correctAnswer, explanation, inputValue = '', placeholder = 'Écris ta réponse', topic, timer = '', note = '' } = q;
   const done = status !== 'idle';
   const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
   let body;
@@ -131,6 +143,7 @@ export function questionCard(q) {
   const feedback = `<div class="qcard__feedback" role="status" aria-live="polite">${done ? `
       <div class="feedback feedback--${verdict[1]}">
         <div class="feedback__verdict">${verdict[0]}</div>
+        ${note ? `<div class="feedback__note">${esc(note)}</div>` : ''}
         ${status !== 'correct' && correctAnswer ? `<div class="feedback__answer">La réponse : <b>${esc(correctAnswer)}</b></div>` : ''}
         ${explanation ? `<div class="feedback__why">${esc(explanation)}</div>` : ''}
       </div>` : ''}</div>`;

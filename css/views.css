@@ -231,3 +231,16 @@ body.in-match .topbar { display: none; }
 }
 
 .result__outcome--long h1 { font-size: var(--fs-2xl); line-height: 1.05; }
+
+/* scoring rule line (pre-match) and first-match overlay */
+.prematch__rule { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: var(--sp-3); border-radius: var(--radius); background: rgba(0,0,0,.28); border: 1px solid var(--line-strong); text-align: center; }
+.prematch__rule b { display: inline-flex; align-items: center; gap: var(--sp-2); font-size: 1.2rem; color: var(--gold-bright); }
+.prematch__rule small { font-size: 1rem; color: var(--ink-dim); }
+.intro { display: flex; flex-direction: column; gap: var(--sp-3); text-align: center; }
+.intro__meter .attack__label { display: none; }
+.intro__goal { margin: 0; font-size: 1.35rem; font-weight: 800; color: var(--gold-bright); }
+.intro__miss { margin: 0; font-size: 1.1rem; }
+
+/* after an answer the unchosen choices shrink so that the verdict and its short line stay above the sticky « Question suivante » */
+.match .qcard:not(.qcard--idle) .choice { min-height: 44px; padding-block: 4px; }
+.match .choice.is-dim { min-height: 36px; }

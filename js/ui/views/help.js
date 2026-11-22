@@ -1,22 +1,24 @@
 // « Comment jouer » in six short illustrated steps.
 import * as C from '../components.js';
 import * as A from '../art.js';
+import { RULE } from '../rules.js';
+import { minuteOf } from '../../core/match.js';
 import { DIVISIONS } from '../../core/league.js';
-import { PACK_COST } from '../../config.js';
+import { PACK_COST, MATCH_QUESTIONS, GOAL_EVERY_N_CORRECT } from '../../config.js';
 
 export default {
   title: 'Comment jouer',
   async mount(el, ctx) {
     const legend = ctx.cards.find((c) => c.rarity === 'legend') || ctx.cards[0];
     const rare = ctx.cards.find((c) => c.rarity === 'rare') || ctx.cards[1];
-    const minutes = ['6\'', '12\'', '18\'', '…', '90\''];
+    const minutes = [minuteOf(0, MATCH_QUESTIONS), minuteOf(1, MATCH_QUESTIONS), minuteOf(2, MATCH_QUESTIONS), '…', minuteOf(MATCH_QUESTIONS - 1, MATCH_QUESTIONS)].map((m) => (m === '…' ? m : `${m}'`));
     const steps = [
       { t: 'Choisis une matière', p: 'Anglais ou français, puis la notion que tu veux travailler.',
         art: `<div class="how__tiles"><span class="how__tile">${A.football(34)}<b>Anglais</b></span><span class="how__tile">${A.football(34)}<b>Français</b></span></div>` },
-      { t: 'Réponds à 15 questions', p: 'Chaque question est une minute du match. Tu as un peu de temps pour répondre.',
+      { t: `Réponds à ${MATCH_QUESTIONS} questions`, p: 'Chaque question est une minute du match. Tu as un peu de temps pour répondre.',
         art: `<div class="how__mins">${minutes.map((m) => `<span class="how__min">${m}</span>`).join('')}</div>` },
-      { t: '3 bonnes réponses = un but', p: 'Trois bonnes réponses remplissent la jauge : BUT ! Une erreur donne une chance à l\'adversaire.',
-        art: C.attackMeter(3) },
+      { t: RULE.line, p: `${RULE.intro} ${RULE.miss}.`,
+        art: C.attackMeter(GOAL_EVERY_N_CORRECT) },
       { t: 'Gagne des points au classement', p: 'Chaque bonne réponse et chaque victoire te donnent de l\'XP. Dépasse ton frère !',
         art: `<div class="how__xp"><span class="pill pill--info">Niveau 4</span><div class="cprog__track" style="width:100%"><span style="width:60%"></span></div><span class="pill pill--gold">+ 150 XP</span></div>` },
       { t: 'Monte de division', p: 'Finis dans les deux premiers pour monter, de District jusqu\'à la Ligue 1.',

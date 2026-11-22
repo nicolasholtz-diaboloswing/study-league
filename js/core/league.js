@@ -1,9 +1,9 @@
 // League: divisions, seasons, fixtures, table. Season objects are plain JSON (no nested arrays,
 // so they can be stored in Firestore). playMatchday mutates the season it is given.
 
+import { OPPONENTS_PER_SEASON, SEASON_MATCHDAYS } from '../config.js';
+
 export const PLAYER_CLUB_ID = 'me';
-export const MATCHDAYS = 14;
-export const OPPONENTS_PER_SEASON = 7;
 export const PROMOTION_PLACES = 2;
 
 export const DIVISIONS = [
@@ -27,23 +27,30 @@ function shortOf(name) {
   return (letters.slice(0, 3) || 'ME').padEnd(3, 'X');
 }
 
-/** Double round-robin, circle method. Returns 14 rounds of 4 [home, away] pairs. */
-function doubleRoundRobin(ids) {
+/**
+ * Round-robin by the circle method: `rounds` rounds of n/2 [home, away] pairs. With rounds <= n - 1 every pair meets once;
+ * beyond that the first rounds are replayed with home and away swapped.
+ */
+function roundRobin(ids, rounds) {
   const n = ids.length;
   const arr = ids.slice();
-  const first = [];
+  const pairs = [];
   for (let r = 0; r < n - 1; r++) {
     const round = [];
-    for (let i = 0; i < n / 2; i++) {
-      const a = arr[i];
-      const b = arr[n - 1 - i];
-      round.push((r + i) % 2 === 0 ? [a, b] : [b, a]);
-    }
-    first.push(round);
+    for (let i = 0; i < n / 2; i++) round.push([arr[i], arr[n - 1 - i]]);
+    pairs.push(round);
     arr.splice(1, 0, arr.pop());
   }
-  const second = first.map((round) => round.map(([h, a]) => [a, h]));
-  return [...first, ...second];
+  // home side = the club that has played fewer home games so far (keeps every club near half home, half away)
+  const home = new Map(ids.map((id) => [id, 0]));
+  const first = pairs.map((round, r) => round.map(([a, b], i) => {
+    const flip = home.get(a) === home.get(b) ? (r + i) % 2 === 1 : home.get(a) > home.get(b);
+    const [h, w] = flip ? [b, a] : [a, b];
+    home.set(h, home.get(h) + 1);
+    return [h, w];
+  }));
+  const all = [...first, ...first.map((round) => round.map(([h, a]) => [a, h]))];
+  return all.slice(0, rounds);
 }
 
 /**
@@ -52,7 +59,7 @@ function doubleRoundRobin(ids) {
  *  profile: {club, colors:[c1,c2]} of the player
  *  division: 0..4, number: season number (1-based), rng, exclude: club ids to avoid (previous opponents)
  * Season: { number, division, clubs:[{id,name,short,colors,crest,strength,isPlayer}],
- *           fixtures:[{md,home,away,hg,ag}] (56, flat), matchday: 0 }
+ *           fixtures:[{md,home,away,hg,ag}] (28, flat), matchday: 0 }
  */
 export function newSeason({ clubs, profile, division = 0, number = 1, rng, exclude = [] }) {
   const ex = new Set(exclude);
@@ -79,7 +86,7 @@ export function newSeason({ clubs, profile, division = 0, number = 1, rng, exclu
       isPlayer: false,
     })),
   ];
-  const rounds = doubleRoundRobin(rng.shuffle(teams.map((t) => t.id)));
+  const rounds = roundRobin(rng.shuffle(teams.map((t) => t.id)), SEASON_MATCHDAYS);
   const fixtures = [];
   rounds.forEach((round, md) => round.forEach(([home, away]) => fixtures.push({ md, home, away, hg: null, ag: null })));
   return { number, division, clubs: teams, fixtures, matchday: 0 };
@@ -89,8 +96,15 @@ export function clubOf(season, id) {
   return season.clubs.find((c) => c.id === id);
 }
 
+/** Number of matchdays of this season, read from its own fixtures (a season saved with 14 matchdays stays a 14-matchday season). */
+export function seasonLength(season) {
+  let max = -1;
+  for (const f of season?.fixtures || []) if (f.md > max) max = f.md;
+  return max >= 0 ? max + 1 : SEASON_MATCHDAYS;
+}
+
 export function isSeasonOver(season) {
-  return season.matchday >= MATCHDAYS;
+  return season.matchday >= seasonLength(season);
 }
 
 /**

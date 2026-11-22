@@ -3,7 +3,7 @@ import * as C from '../components.js';
 import * as E from '../effects.js';
 import { divisionName } from '../../core/league.js';
 import { listTopics } from '../../core/questions.js';
-import { MIN_CORRECT_FOR_LOSS_COINS } from '../../core/rewards.js';
+import { minCorrectForLossCoins } from '../../core/rewards.js';
 import { flow } from '../flow.js';
 import { ordinal, esc, rivalryLine, overtaken } from '../shell-utils.js';
 
@@ -51,9 +51,9 @@ export default {
     rewards.push(`<div class="reward-row"><span class="reward-row__label">XP gagnés</span><b class="reward-row__val num text-gold">+<span data-count="${xp.total}">0</span></b>
       <span class="reward-row__sub">${league ? `Réponses ${xp.base} · Rapidité ${xp.speed} · Résultat ${xp.outcome}` : 'Moitié moins qu\'en championnat'}</span></div>`);
     if (league && coins) {
-      const noCoins = result.outcome === 'L' && result.correct < MIN_CORRECT_FOR_LOSS_COINS;
+      const noCoins = result.outcome === 'L' && result.correct < minCorrectForLossCoins(result.total);
       rewards.push(`<div class="reward-row"><span class="reward-row__label">Pièces</span><b class="reward-row__val num text-gold">+<span data-count="${coins.total}">0</span></b>
-        <span class="reward-row__sub">${noCoins ? `Défaite avec moins de ${MIN_CORRECT_FOR_LOSS_COINS} bonnes réponses : pas de pièces` : `${coins.perfect ? 'Match parfait : +' + coins.perfect + ' · ' : ''}${coins.coachPick ? `Choix du coach : +${coins.coachPick}` : 'Joue le Choix du coach pour 50 % en plus'}`}</span></div>`);
+        <span class="reward-row__sub">${noCoins ? `Défaite avec moins de ${minCorrectForLossCoins(result.total)} bonnes réponses : pas de pièces` : `${coins.perfect ? 'Match parfait : +' + coins.perfect + ' · ' : ''}${coins.coachPick ? `Choix du coach : +${coins.coachPick}` : 'Joue le Choix du coach pour 50 % en plus'}`}</span></div>`);
     }
 
     const extras = [];
