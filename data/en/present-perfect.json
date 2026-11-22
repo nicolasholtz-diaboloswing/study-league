@@ -1,0 +1,2005 @@
+{
+  "topic": "en-present-perfect",
+  "questions": [
+    {
+      "id": "en-perf-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ three goals so far this season.",
+      "choices": [
+        "has scored",
+        "have scored",
+        "has score",
+        "did scored"
+      ],
+      "answer": "has scored",
+      "explain": "'So far' links the past to now: has + past participle."
+    },
+    {
+      "id": "en-perf-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ our teacher for two years.",
+      "choices": [
+        "has known",
+        "have known",
+        "have knew",
+        "have know"
+      ],
+      "answer": "have known",
+      "explain": "Present perfect: have + known (know - knew - known)."
+    },
+    {
+      "id": "en-perf-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He has never ___ a horse.",
+      "choices": [
+        "rode",
+        "ride",
+        "ridden",
+        "rided"
+      ],
+      "answer": "ridden",
+      "explain": "The past participle of 'ride' is 'ridden'."
+    },
+    {
+      "id": "en-perf-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My sister has ___ a long letter to our grandmother this week.",
+      "choices": [
+        "wrote",
+        "writed",
+        "write",
+        "written"
+      ],
+      "answer": "written",
+      "explain": "The past participle of 'write' is 'written'."
+    },
+    {
+      "id": "en-perf-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "They have ___ to Paris three times.",
+      "choices": [
+        "been",
+        "be",
+        "was",
+        "being"
+      ],
+      "answer": "been",
+      "explain": "Present perfect of 'be': have + been."
+    },
+    {
+      "id": "en-perf-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In the poem, Beowulf has ___ Grendel, and the hall is safe again.",
+      "choices": [
+        "defeat",
+        "defeated",
+        "defeating",
+        "defeats"
+      ],
+      "answer": "defeated",
+      "explain": "After has / have we use a past participle: defeated."
+    },
+    {
+      "id": "en-perf-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The poem has ___ for more than a thousand years.",
+      "choices": [
+        "survive",
+        "surviving",
+        "survived",
+        "survives"
+      ],
+      "answer": "survived",
+      "explain": "has + past participle: has survived."
+    },
+    {
+      "id": "en-perf-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Have you ever ___ a mountain?",
+      "choices": [
+        "climb",
+        "climbing",
+        "climbs",
+        "climbed"
+      ],
+      "answer": "climbed",
+      "explain": "Questions: Have + subject + ever + past participle."
+    },
+    {
+      "id": "en-perf-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ my keys, so I can't open the door.",
+      "choices": [
+        "have lost",
+        "has lost",
+        "have lose",
+        "did lost"
+      ],
+      "answer": "have lost",
+      "explain": "With 'I' we use 'have': I have lost."
+    },
+    {
+      "id": "en-perf-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Someone has ___ the window. Look at the glass!",
+      "choices": [
+        "broke",
+        "broken",
+        "breaked",
+        "break"
+      ],
+      "answer": "broken",
+      "explain": "The past participle of 'break' is 'broken'."
+    },
+    {
+      "id": "en-perf-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My brother has already ___ all the pizza.",
+      "choices": [
+        "ate",
+        "eated",
+        "eaten",
+        "eat"
+      ],
+      "answer": "eaten",
+      "explain": "The past participle of 'eat' is 'eaten'."
+    },
+    {
+      "id": "en-perf-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We haven't ___ that film yet.",
+      "choices": [
+        "saw",
+        "see",
+        "seeing",
+        "seen"
+      ],
+      "answer": "seen",
+      "explain": "Negative: haven't + past participle (see - saw - seen)."
+    },
+    {
+      "id": "en-perf-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She has ___ her phone at home again.",
+      "choices": [
+        "forgotten",
+        "forgetting",
+        "forget",
+        "forgetted"
+      ],
+      "answer": "forgotten",
+      "explain": "The past participle of 'forget' is 'forgotten'."
+    },
+    {
+      "id": "en-perf-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf has ___ every fight so far.",
+      "choices": [
+        "win",
+        "won",
+        "winned",
+        "winning"
+      ],
+      "answer": "won",
+      "explain": "The past participle of 'win' is 'won'."
+    },
+    {
+      "id": "en-perf-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ she finished her essay yet?",
+      "choices": [
+        "Have",
+        "Is",
+        "Has",
+        "Does"
+      ],
+      "answer": "Has",
+      "explain": "With she / he / it we use 'has'."
+    },
+    {
+      "id": "en-perf-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you ever been to London?",
+      "choices": [
+        "Has",
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "answer": "Have",
+      "explain": "With you we use 'have': Have you ever been ...?"
+    },
+    {
+      "id": "en-perf-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "They ___ finished the match yet.",
+      "choices": [
+        "haven't",
+        "hasn't",
+        "didn't",
+        "don't"
+      ],
+      "answer": "haven't",
+      "explain": "Negative with they: haven't + past participle."
+    },
+    {
+      "id": "en-perf-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complete the three forms of the verb: go - went - ___",
+      "choices": [
+        "goed",
+        "gone",
+        "going",
+        "goes"
+      ],
+      "answer": "gone",
+      "explain": "The past participle of 'go' is 'gone'."
+    },
+    {
+      "id": "en-perf-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complete the three forms of the verb: take - took - ___",
+      "choices": [
+        "taked",
+        "tooken",
+        "taken",
+        "taking"
+      ],
+      "answer": "taken",
+      "explain": "The past participle of 'take' is 'taken'."
+    },
+    {
+      "id": "en-perf-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complete the three forms of the verb: know - knew - ___",
+      "choices": [
+        "knowed",
+        "knowing",
+        "knows",
+        "known"
+      ],
+      "answer": "known",
+      "explain": "The past participle of 'know' is 'known'."
+    },
+    {
+      "id": "en-perf-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complete the three forms of the verb: do - did - ___",
+      "choices": [
+        "done",
+        "did",
+        "doed",
+        "doing"
+      ],
+      "answer": "done",
+      "explain": "The past participle of 'do' is 'done'."
+    },
+    {
+      "id": "en-perf-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How do we form the present perfect?",
+      "choices": [
+        "did + past participle",
+        "have / has + past participle",
+        "have / has + base verb",
+        "am / is / are + past participle"
+      ],
+      "answer": "have / has + past participle",
+      "explain": "We form the present perfect with have / has + past participle."
+    },
+    {
+      "id": "en-perf-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ lived here all her life.",
+      "choices": [
+        "have",
+        "is",
+        "has",
+        "does"
+      ],
+      "answer": "has",
+      "explain": "With she we use 'has': She has lived."
+    },
+    {
+      "id": "en-perf-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is the negative of 'He has called me'?",
+      "choices": [
+        "He doesn't called me.",
+        "He haven't called me.",
+        "He didn't called me.",
+        "He hasn't called me."
+      ],
+      "answer": "He hasn't called me.",
+      "explain": "Negative: has not (hasn't) + past participle."
+    },
+    {
+      "id": "en-perf-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question is correct?",
+      "choices": [
+        "Has she ever won a medal?",
+        "Does she ever won a medal?",
+        "Have she ever won a medal?",
+        "Did she ever won a medal?"
+      ],
+      "answer": "Has she ever won a medal?",
+      "explain": "Question: Has + she + ever + past participle."
+    },
+    {
+      "id": "en-perf-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The warriors ___ the hall for three nights now.",
+      "choices": [
+        "has guarded",
+        "have guarded",
+        "have guard",
+        "did guarded"
+      ],
+      "answer": "have guarded",
+      "explain": "Plural subject: have + guarded."
+    },
+    {
+      "id": "en-perf-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My grandparents ___ married for fifty years.",
+      "choices": [
+        "has been",
+        "have be",
+        "have been",
+        "have being"
+      ],
+      "answer": "have been",
+      "explain": "Plural subject: have been."
+    },
+    {
+      "id": "en-perf-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf ___ many battles, so the Danes trust him.",
+      "choices": [
+        "have fought",
+        "has fighted",
+        "has fight",
+        "has fought"
+      ],
+      "answer": "has fought",
+      "explain": "The past participle of 'fight' is 'fought'."
+    },
+    {
+      "id": "en-perf-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf has never ___ afraid of Grendel.",
+      "choices": [
+        "been",
+        "be",
+        "was",
+        "being"
+      ],
+      "answer": "been",
+      "explain": "Present perfect of 'be': has + been."
+    },
+    {
+      "id": "en-perf-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My dad has ___ his glasses in the car, so he can't read the menu.",
+      "choices": [
+        "leave",
+        "left",
+        "leaved",
+        "leaving"
+      ],
+      "answer": "left",
+      "explain": "The past participle of 'leave' is 'left'."
+    },
+    {
+      "id": "en-perf-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Our coach has ___ us a lot this year.",
+      "choices": [
+        "teached",
+        "teach",
+        "taught",
+        "teaching"
+      ],
+      "answer": "taught",
+      "explain": "The past participle of 'teach' is 'taught'."
+    },
+    {
+      "id": "en-perf-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ this film three times so far. (to see)",
+      "answer": [
+        "have seen",
+        "'ve seen",
+        "I have seen",
+        "I've seen"
+      ],
+      "explain": "'So far': have + seen."
+    },
+    {
+      "id": "en-perf-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ all her homework this week. (to do)",
+      "answer": [
+        "has done",
+        "'s done",
+        "She has done",
+        "She's done"
+      ],
+      "explain": "has + done."
+    },
+    {
+      "id": "en-perf-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We ___ our dog since 2020. (to have)",
+      "answer": [
+        "have had",
+        "'ve had",
+        "We have had",
+        "We've had"
+      ],
+      "explain": "Since + a date: have + had."
+    },
+    {
+      "id": "en-perf-035",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: He ___ three books this month. (to read)",
+      "answer": [
+        "has read",
+        "'s read",
+        "He has read",
+        "He's read"
+      ],
+      "explain": "'Read' is spelt the same in all three forms."
+    },
+    {
+      "id": "en-perf-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: They ___ in this stadium for ten years and still love it. (to play)",
+      "answer": [
+        "have played",
+        "'ve played",
+        "They have played",
+        "They've played",
+        "have been playing",
+        "'ve been playing",
+        "They have been playing",
+        "They've been playing"
+      ],
+      "explain": "For + a length of time: have played."
+    },
+    {
+      "id": "en-perf-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: My friend ___ to Spain three times. (to be)",
+      "answer": [
+        "has been",
+        "'s been",
+        "She has been",
+        "She's been",
+        "He has been",
+        "He's been"
+      ],
+      "explain": "has + been."
+    },
+    {
+      "id": "en-perf-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "I have never ___ sushi. (to eat)",
+      "answer": [
+        "eaten"
+      ],
+      "explain": "The past participle of 'eat' is 'eaten'."
+    },
+    {
+      "id": "en-perf-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ a single goal so far this season. (to score - negative)",
+      "answer": [
+        "hasn't scored",
+        "has not scored",
+        "'s not scored",
+        "She hasn't scored",
+        "She has not scored",
+        "She's not scored"
+      ],
+      "explain": "Negative: hasn't + past participle."
+    },
+    {
+      "id": "en-perf-040",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Beowulf ___ two monsters since he arrived in Denmark. (to kill)",
+      "answer": [
+        "has killed",
+        "'s killed"
+      ],
+      "explain": "Since + a starting point: has killed."
+    },
+    {
+      "id": "en-perf-041",
+      "level": 1,
+      "type": "input",
+      "prompt": "She has never ___ a medal. (to win)",
+      "answer": [
+        "won"
+      ],
+      "explain": "The past participle of 'win' is 'won'."
+    },
+    {
+      "id": "en-perf-042",
+      "level": 1,
+      "type": "input",
+      "prompt": "He has ___ a shower, so he feels fresh. (to take)",
+      "answer": [
+        "taken"
+      ],
+      "explain": "The past participle of 'take' is 'taken'."
+    },
+    {
+      "id": "en-perf-043",
+      "level": 1,
+      "type": "input",
+      "prompt": "The dragon is still there. It ___ the treasure for centuries. (to guard)",
+      "answer": [
+        "has guarded",
+        "'s guarded",
+        "It has guarded",
+        "It's guarded",
+        "has been guarding",
+        "'s been guarding",
+        "It has been guarding",
+        "It's been guarding"
+      ],
+      "explain": "For + a length of time: has guarded."
+    },
+    {
+      "id": "en-perf-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I have lived in this town ___ 2019.",
+      "choices": [
+        "for",
+        "ago",
+        "from",
+        "since"
+      ],
+      "answer": "since",
+      "explain": "'Since' goes with a starting point (2019)."
+    },
+    {
+      "id": "en-perf-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We have been friends ___ five years.",
+      "choices": [
+        "for",
+        "since",
+        "ago",
+        "from"
+      ],
+      "answer": "for",
+      "explain": "'For' goes with a length of time."
+    },
+    {
+      "id": "en-perf-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She has played the violin ___ she was seven.",
+      "choices": [
+        "for",
+        "since",
+        "ago",
+        "during"
+      ],
+      "answer": "since",
+      "explain": "'Since' + a starting point (she was seven)."
+    },
+    {
+      "id": "en-perf-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He has had that bike ___ three months.",
+      "choices": [
+        "since",
+        "ago",
+        "for",
+        "from"
+      ],
+      "answer": "for",
+      "explain": "'For' + a length of time (three months)."
+    },
+    {
+      "id": "en-perf-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "They have studied English ___ September.",
+      "choices": [
+        "for",
+        "ago",
+        "during",
+        "since"
+      ],
+      "answer": "since",
+      "explain": "'Since' + a starting point (September)."
+    },
+    {
+      "id": "en-perf-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Our class has read poetry ___ two weeks.",
+      "choices": [
+        "for",
+        "since",
+        "ago",
+        "during"
+      ],
+      "answer": "for",
+      "explain": "'For' + a length of time."
+    },
+    {
+      "id": "en-perf-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Danes have been afraid of Grendel ___ twelve years.",
+      "choices": [
+        "for",
+        "since",
+        "ago",
+        "from"
+      ],
+      "answer": "for",
+      "explain": "'For' + a length of time (twelve years)."
+    },
+    {
+      "id": "en-perf-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My grandfather has worked here ___ forty years.",
+      "choices": [
+        "since",
+        "ago",
+        "for",
+        "from"
+      ],
+      "answer": "for",
+      "explain": "'For' + a length of time."
+    },
+    {
+      "id": "en-perf-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My parents met ten years ___.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "ago"
+      ],
+      "answer": "ago",
+      "explain": "'Ago' counts back from now and goes with the past simple."
+    },
+    {
+      "id": "en-perf-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Scholars have studied Beowulf ___ the 1800s.",
+      "choices": [
+        "since",
+        "for",
+        "ago",
+        "during"
+      ],
+      "answer": "since",
+      "explain": "'Since' + a starting point (the 1800s)."
+    },
+    {
+      "id": "en-perf-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The dragon has guarded the gold ___ three hundred years.",
+      "choices": [
+        "since",
+        "for",
+        "ago",
+        "from"
+      ],
+      "answer": "for",
+      "explain": "'For' + a length of time."
+    },
+    {
+      "id": "en-perf-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'How ___ have you played the guitar?' 'For two years.'",
+      "choices": [
+        "many",
+        "much",
+        "long",
+        "far"
+      ],
+      "answer": "long",
+      "explain": "'How long ...?' asks about duration."
+    },
+    {
+      "id": "en-perf-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'How long ___ you known Tom?' 'Since 2021.'",
+      "choices": [
+        "do",
+        "did",
+        "are",
+        "have"
+      ],
+      "answer": "have",
+      "explain": "How long + have you + past participle."
+    },
+    {
+      "id": "en-perf-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I haven't done my homework ___.",
+      "choices": [
+        "yet",
+        "already",
+        "ago",
+        "ever"
+      ],
+      "answer": "yet",
+      "explain": "'Yet' is used in negatives and questions."
+    },
+    {
+      "id": "en-perf-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "It's only nine o'clock and she has ___ finished her book!",
+      "choices": [
+        "yet",
+        "already",
+        "ago",
+        "since"
+      ],
+      "answer": "already",
+      "explain": "'Already' means earlier than expected."
+    },
+    {
+      "id": "en-perf-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We have ___ eaten, so we aren't hungry.",
+      "choices": [
+        "yet",
+        "ago",
+        "already",
+        "since"
+      ],
+      "answer": "already",
+      "explain": "'Already' goes in the positive sentence."
+    },
+    {
+      "id": "en-perf-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'Have you ___ eaten sushi?' 'No, never.'",
+      "choices": [
+        "still",
+        "ago",
+        "since",
+        "ever"
+      ],
+      "answer": "ever",
+      "explain": "'Ever' is used in questions about life experience."
+    },
+    {
+      "id": "en-perf-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I have ___ seen snow. I live in a hot country.",
+      "choices": [
+        "never",
+        "ever",
+        "yet",
+        "already"
+      ],
+      "answer": "never",
+      "explain": "'Never' = not at any time in my life."
+    },
+    {
+      "id": "en-perf-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Where is Ella? She has ___ to the bakery. She will be back soon.",
+      "choices": [
+        "been",
+        "gone",
+        "went",
+        "going"
+      ],
+      "answer": "gone",
+      "explain": "'Has gone' = he went there and is still there."
+    },
+    {
+      "id": "en-perf-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I have ___ to Scotland twice. It's lovely.",
+      "choices": [
+        "gone",
+        "went",
+        "been",
+        "go"
+      ],
+      "answer": "been",
+      "explain": "'Have been' = I went and came back."
+    },
+    {
+      "id": "en-perf-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Mia isn't here. She has ___ to school.",
+      "choices": [
+        "been",
+        "went",
+        "going",
+        "gone"
+      ],
+      "answer": "gone",
+      "explain": "'Has gone' = she is not here now."
+    },
+    {
+      "id": "en-perf-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The warriors are not in the hall. They have ___ to the sea.",
+      "choices": [
+        "gone",
+        "been",
+        "went",
+        "going"
+      ],
+      "answer": "gone",
+      "explain": "'Have gone' = they are away now."
+    },
+    {
+      "id": "en-perf-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I have ___ read Beowulf in class.",
+      "choices": [
+        "yesterday",
+        "recently",
+        "ago",
+        "last year"
+      ],
+      "answer": "recently",
+      "explain": "'Recently' goes with the present perfect."
+    },
+    {
+      "id": "en-perf-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We have trained four times ___.",
+      "choices": [
+        "last week",
+        "yesterday",
+        "this week",
+        "two days ago"
+      ],
+      "answer": "this week",
+      "explain": "'This week' is not finished, so it goes with the present perfect."
+    },
+    {
+      "id": "en-perf-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I haven't played tennis ___ the summer.",
+      "choices": [
+        "for",
+        "ago",
+        "yet",
+        "since"
+      ],
+      "answer": "since",
+      "explain": "'Since' + a starting point (Monday)."
+    },
+    {
+      "id": "en-perf-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She hasn't ___ the answer yet.",
+      "choices": [
+        "found",
+        "find",
+        "finds",
+        "finded"
+      ],
+      "answer": "found",
+      "explain": "Negative: hasn't + past participle (find - found - found)."
+    },
+    {
+      "id": "en-perf-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ they ever won the cup?",
+      "choices": [
+        "Has",
+        "Have",
+        "Do",
+        "Were"
+      ],
+      "answer": "Have",
+      "explain": "Question: Have + they + ever + past participle."
+    },
+    {
+      "id": "en-perf-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How many books ___ you read this term?",
+      "choices": [
+        "has",
+        "are",
+        "have",
+        "were"
+      ],
+      "answer": "have",
+      "explain": "How many + have you + past participle."
+    },
+    {
+      "id": "en-perf-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (duration)",
+      "choices": [
+        "I am living here since 2018.",
+        "I live here since 2018.",
+        "I have lived here for 2018.",
+        "I have lived here since 2018."
+      ],
+      "answer": "I have lived here since 2018.",
+      "explain": "With 'since' and a date we use the present perfect."
+    },
+    {
+      "id": "en-perf-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (illness)",
+      "choices": [
+        "She has been ill since Tuesday.",
+        "She is ill since Tuesday.",
+        "She was ill since Tuesday.",
+        "She has been ill for Tuesday."
+      ],
+      "answer": "She has been ill since Tuesday.",
+      "explain": "Since + a starting point needs the present perfect."
+    },
+    {
+      "id": "en-perf-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (friends)",
+      "choices": [
+        "We know each other for years.",
+        "We have known each other for years.",
+        "We have known each other since years.",
+        "We are knowing each other for years."
+      ],
+      "answer": "We have known each other for years.",
+      "explain": "For + a length of time, with the present perfect."
+    },
+    {
+      "id": "en-perf-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (experience)",
+      "choices": [
+        "Have you ever saw a ghost?",
+        "Did you ever have seen a ghost?",
+        "Have you ever seen a ghost?",
+        "Are you ever seen a ghost?"
+      ],
+      "answer": "Have you ever seen a ghost?",
+      "explain": "Have + subject + ever + past participle (seen)."
+    },
+    {
+      "id": "en-perf-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (food)",
+      "choices": [
+        "He has never ate snails.",
+        "He hasn't never eaten snails.",
+        "He never has eat snails.",
+        "He has never eaten snails."
+      ],
+      "answer": "He has never eaten snails.",
+      "explain": "'Never' + past participle; no double negative."
+    },
+    {
+      "id": "en-perf-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (hero)",
+      "choices": [
+        "Beowulf has fought two great battles.",
+        "Beowulf has fighted two great battles.",
+        "Beowulf have fought two great battles.",
+        "Beowulf has fight two great battles."
+      ],
+      "answer": "Beowulf has fought two great battles.",
+      "explain": "has + fought (fight - fought - fought)."
+    },
+    {
+      "id": "en-perf-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Hrothgar has ___ a great hall, and it is the pride of the Danes.",
+      "choices": [
+        "build",
+        "built",
+        "builded",
+        "building"
+      ],
+      "answer": "built",
+      "explain": "The past participle of 'build' is 'built'."
+    },
+    {
+      "id": "en-perf-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "I have lived here ___ 2016. (for / since)",
+      "answer": [
+        "since"
+      ],
+      "explain": "'Since' + a starting point (2016)."
+    },
+    {
+      "id": "en-perf-080",
+      "level": 2,
+      "type": "input",
+      "prompt": "They have known each other ___ ten years. (for / since)",
+      "answer": [
+        "for"
+      ],
+      "explain": "'For' + a length of time."
+    },
+    {
+      "id": "en-perf-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "We moved here five years ___. (ago / for)",
+      "answer": [
+        "ago"
+      ],
+      "explain": "'Ago' goes with the past simple."
+    },
+    {
+      "id": "en-perf-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "The bus hasn't arrived ___. (yet / already)",
+      "answer": [
+        "yet"
+      ],
+      "explain": "'Yet' is used in questions and negatives."
+    },
+    {
+      "id": "en-perf-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "I have ___ finished my book. Now I want another one! (yet / already)",
+      "answer": [
+        "already"
+      ],
+      "explain": "'Already' is used in positive sentences."
+    },
+    {
+      "id": "en-perf-084",
+      "level": 2,
+      "type": "input",
+      "prompt": "Sam isn't here. He has ___ to the library. (been / gone)",
+      "answer": [
+        "gone"
+      ],
+      "explain": "'Has gone' = he is away now."
+    },
+    {
+      "id": "en-perf-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "She is always on time. She has ___ been late. (ever / never)",
+      "answer": [
+        "never"
+      ],
+      "explain": "'Never' = not at any time."
+    },
+    {
+      "id": "en-perf-086",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Beowulf ___ two great fights so far. (to win)",
+      "answer": [
+        "has won",
+        "'s won"
+      ],
+      "explain": "'So far' + present perfect: has won."
+    },
+    {
+      "id": "en-perf-087",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Our class ___ four poems so far this term. (to study)",
+      "answer": [
+        "has studied"
+      ],
+      "explain": "This term is not finished: has studied."
+    },
+    {
+      "id": "en-perf-088",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The manuscript ___ safe in a library since 1753. (to stay)",
+      "answer": [
+        "has stayed",
+        "'s stayed",
+        "has been staying",
+        "'s been staying"
+      ],
+      "explain": "Since + a date: has stayed."
+    },
+    {
+      "id": "en-perf-089",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: You ___ much progress since September. (to make)",
+      "answer": [
+        "have made",
+        "'ve made",
+        "You have made",
+        "You've made",
+        "have been making",
+        "'ve been making",
+        "You have been making",
+        "You've been making"
+      ],
+      "explain": "Since + a starting point: have made."
+    },
+    {
+      "id": "en-perf-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The players ___ two matches so far this month. (to lose)",
+      "answer": [
+        "have lost"
+      ],
+      "explain": "'So far this month' + have lost."
+    },
+    {
+      "id": "en-perf-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ from my aunt since March. (not to hear)",
+      "answer": [
+        "haven't heard",
+        "have not heard",
+        "'ve not heard",
+        "I haven't heard",
+        "I have not heard",
+        "I've not heard"
+      ],
+      "explain": "Negative: haven't + heard."
+    },
+    {
+      "id": "en-perf-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ much better at chess this year. (to get)",
+      "answer": [
+        "has got",
+        "'s got",
+        "She has got",
+        "She's got",
+        "has gotten",
+        "'s gotten",
+        "She has gotten",
+        "She's gotten"
+      ],
+      "explain": "Both 'got' and 'gotten' are accepted."
+    },
+    {
+      "id": "en-perf-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Beowulf's story is still popular. It ___ readers for generations. (to inspire)",
+      "answer": [
+        "has inspired",
+        "'s inspired",
+        "It has inspired",
+        "It's inspired",
+        "has been inspiring",
+        "'s been inspiring",
+        "It has been inspiring",
+        "It's been inspiring"
+      ],
+      "explain": "For + a length of time: has inspired."
+    },
+    {
+      "id": "en-perf-094",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: He ___ his phone so far today. (to touch - negative)",
+      "answer": [
+        "hasn't touched",
+        "has not touched",
+        "'s not touched",
+        "He hasn't touched",
+        "He has not touched",
+        "He's not touched"
+      ],
+      "explain": "Negative: hasn't + past participle."
+    },
+    {
+      "id": "en-perf-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "I have never ___ to a rugby match. (to be)",
+      "answer": [
+        "been"
+      ],
+      "explain": "Have never been to = no experience of going there."
+    },
+    {
+      "id": "en-perf-096",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ me a postcard two days ago.",
+      "choices": [
+        "has sent",
+        "send",
+        "sent",
+        "sended"
+      ],
+      "answer": "sent",
+      "explain": "'Ago' goes with the past simple."
+    },
+    {
+      "id": "en-perf-097",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ the match on TV last Saturday.",
+      "choices": [
+        "have watched",
+        "watch",
+        "are watching",
+        "watched"
+      ],
+      "answer": "watched",
+      "explain": "'Last Saturday' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In 'She's lost her bag', what does 's mean?",
+      "choices": [
+        "has",
+        "is",
+        "does",
+        "will"
+      ],
+      "answer": "has",
+      "explain": "'s = has before a past participle: She has lost her bag."
+    },
+    {
+      "id": "en-perf-099",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which line gives the correct three forms of the verb?",
+      "choices": [
+        "begin - began - begun",
+        "swim - swam - swimmed",
+        "sing - sung - sang",
+        "choose - chose - choosed"
+      ],
+      "answer": "begin - began - begun",
+      "explain": "begin - began - begun."
+    },
+    {
+      "id": "en-perf-100",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (dinner)",
+      "choices": [
+        "I haven't eaten yet.",
+        "I didn't ate yet.",
+        "I haven't ate yet.",
+        "I don't eat yet."
+      ],
+      "answer": "I haven't eaten yet.",
+      "explain": "Negative: haven't + eaten."
+    },
+    {
+      "id": "en-perf-101",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ these boots last week. (to buy)",
+      "answer": [
+        "bought"
+      ],
+      "explain": "'Last week' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-102",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We ___ him at the match yesterday. (to see)",
+      "answer": [
+        "saw"
+      ],
+      "explain": "'Yesterday' needs the past simple."
+    },
+    {
+      "id": "en-perf-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Our teacher ___ us a new poem on Monday.",
+      "choices": [
+        "gave",
+        "has given",
+        "gives",
+        "has give"
+      ],
+      "answer": "gave",
+      "explain": "'On Monday' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My grandparents ___ to this village in 1975.",
+      "choices": [
+        "moved",
+        "have moved",
+        "move",
+        "have been moving"
+      ],
+      "answer": "moved",
+      "explain": "A past year (1975) needs the past simple."
+    },
+    {
+      "id": "en-perf-105",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Long ago, Beowulf ___ Grendel's mother in her cave.",
+      "choices": [
+        "killed",
+        "has killed",
+        "kills",
+        "has kill"
+      ],
+      "answer": "killed",
+      "explain": "'Long ago' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-106",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "When I was six, I ___ my arm.",
+      "choices": [
+        "have broken",
+        "broke",
+        "has broken",
+        "breaked"
+      ],
+      "answer": "broke",
+      "explain": "'When I was six' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-107",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'Have you finished your tea?' 'Yes, I ___ it ten minutes ago.'",
+      "choices": [
+        "finished",
+        "have finished",
+        "finish",
+        "was finishing"
+      ],
+      "answer": "finished",
+      "explain": "Once we give a past time (ten minutes ago), we use the past simple."
+    },
+    {
+      "id": "en-perf-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Long ago, Grendel ___ the mead hall at night.",
+      "choices": [
+        "has attacked",
+        "attacked",
+        "attacks",
+        "has attack"
+      ],
+      "answer": "attacked",
+      "explain": "'Long ago' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-109",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf ___ Grendel's arm off in a fierce fight that night.",
+      "choices": [
+        "has torn",
+        "tears",
+        "tore",
+        "teared"
+      ],
+      "answer": "tore",
+      "explain": "'That night' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Scholars ___ the poem for 200 years, and they still discuss it.",
+      "choices": [
+        "studied",
+        "study",
+        "are studying",
+        "have studied"
+      ],
+      "answer": "have studied",
+      "explain": "The action continues now: present perfect."
+    },
+    {
+      "id": "en-perf-111",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "A monk copied the manuscript around the year 1000. Since then, it ___ a fire.",
+      "choices": [
+        "has survived",
+        "survived",
+        "survives",
+        "has survive"
+      ],
+      "answer": "has survived",
+      "explain": "'Since then' links the past to now: present perfect."
+    },
+    {
+      "id": "en-perf-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'When did you last see her?' 'I ___ her two weeks ago.'",
+      "choices": [
+        "have seen",
+        "saw",
+        "see",
+        "was seeing"
+      ],
+      "answer": "saw",
+      "explain": "'Two weeks ago' needs the past simple."
+    },
+    {
+      "id": "en-perf-113",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My friend has lived in Leeds ___ he was born.",
+      "choices": [
+        "for",
+        "ago",
+        "since",
+        "when"
+      ],
+      "answer": "since",
+      "explain": "'Since' + a clause (he was born): a starting point."
+    },
+    {
+      "id": "en-perf-114",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "That's the best match I ___.",
+      "choices": [
+        "have ever saw",
+        "ever see",
+        "am ever seeing",
+        "have ever seen"
+      ],
+      "answer": "have ever seen",
+      "explain": "After a superlative we use the present perfect with ever."
+    },
+    {
+      "id": "en-perf-115",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "It is the first time she ___ a medal.",
+      "choices": [
+        "has won",
+        "have won",
+        "has win",
+        "is winning"
+      ],
+      "answer": "has won",
+      "explain": "'The first time' + present perfect."
+    },
+    {
+      "id": "en-perf-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (a question with 'when')",
+      "choices": [
+        "When have you arrived?",
+        "When did you arrive?",
+        "When you did arrive?",
+        "When did you arrived?"
+      ],
+      "answer": "When did you arrive?",
+      "explain": "'When' asks about a finished time: past simple."
+    },
+    {
+      "id": "en-perf-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (a question about music)",
+      "choices": [
+        "How long have you played the guitar?",
+        "How long do you play the guitar?",
+        "How long are you playing the guitar?",
+        "How long did you played the guitar?"
+      ],
+      "answer": "How long have you played the guitar?",
+      "explain": "'How long' about a situation up to now: have you + past participle."
+    },
+    {
+      "id": "en-perf-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (a year in the past)",
+      "choices": [
+        "I have lived in London in 2018.",
+        "I lived in London in 2018.",
+        "I have live in London in 2018.",
+        "I am living in London in 2018."
+      ],
+      "answer": "I lived in London in 2018.",
+      "explain": "'In 2018' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-119",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (a trip)",
+      "choices": [
+        "He has went to the shop.",
+        "He have gone to the shop.",
+        "He has gone to the shop.",
+        "He has go to the shop."
+      ],
+      "answer": "He has gone to the shop.",
+      "explain": "has + gone (go - went - gone)."
+    },
+    {
+      "id": "en-perf-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (friendship)",
+      "choices": [
+        "We have been friends since three years.",
+        "We are friends since three years.",
+        "We are friends for three years.",
+        "We have been friends for three years."
+      ],
+      "answer": "We have been friends for three years.",
+      "explain": "'For' + a length of time, with the present perfect."
+    },
+    {
+      "id": "en-perf-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (childhood)",
+      "choices": [
+        "She has read the poem when she was ten.",
+        "She read the poem when she was ten.",
+        "She has readed the poem when she was ten.",
+        "She reads the poem when she was ten."
+      ],
+      "answer": "She read the poem when she was ten.",
+      "explain": "'When she was ten' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is NOT correct? (a past time)",
+      "choices": [
+        "I have seen him twice.",
+        "I saw him yesterday.",
+        "I have seen him yesterday.",
+        "I haven't seen him since Friday."
+      ],
+      "answer": "I have seen him yesterday.",
+      "explain": "'Yesterday' needs the past simple: I saw him yesterday."
+    },
+    {
+      "id": "en-perf-123",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is NOT correct? (a length of time)",
+      "choices": [
+        "They have lived here for five years.",
+        "They have lived here since 2020.",
+        "They lived here five years ago.",
+        "They have lived here since five years."
+      ],
+      "answer": "They have lived here since five years.",
+      "explain": "With a length of time we use 'for', not 'since'."
+    },
+    {
+      "id": "en-perf-124",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ for an hour. Where is the bus?",
+      "choices": [
+        "have been waiting",
+        "wait",
+        "am waiting",
+        "waited"
+      ],
+      "answer": "have been waiting",
+      "explain": "An action that started in the past and continues now: have been + -ing."
+    },
+    {
+      "id": "en-perf-125",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'You look tired.' 'Yes, I ___ since six o'clock.'",
+      "choices": [
+        "train",
+        "have been training",
+        "trained",
+        "am training"
+      ],
+      "answer": "have been training",
+      "explain": "An action that continues up to now: have been training."
+    },
+    {
+      "id": "en-perf-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She ___ English since she was five.",
+      "choices": [
+        "learns",
+        "is learning",
+        "has been learning",
+        "learnt"
+      ],
+      "answer": "has been learning",
+      "explain": "Since + continuing action: has been learning."
+    },
+    {
+      "id": "en-perf-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How long ___ learning English?",
+      "choices": [
+        "are you",
+        "did you",
+        "do you",
+        "have you been"
+      ],
+      "answer": "have you been",
+      "explain": "How long + have you been + -ing."
+    },
+    {
+      "id": "en-perf-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The children are still outside! They ___ in the rain for two hours.",
+      "choices": [
+        "have been playing",
+        "play",
+        "played",
+        "are playing"
+      ],
+      "answer": "have been playing",
+      "explain": "An action that has lasted up to now: have been playing."
+    },
+    {
+      "id": "en-perf-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The pitch is wet. It ___ since breakfast.",
+      "choices": [
+        "rains",
+        "has been raining",
+        "rained",
+        "is raining"
+      ],
+      "answer": "has been raining",
+      "explain": "Since + continuing action: has been raining."
+    },
+    {
+      "id": "en-perf-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The monks of this abbey ___ manuscripts in this room for centuries, and they still do.",
+      "choices": [
+        "copy",
+        "copied",
+        "have been copying",
+        "are copying"
+      ],
+      "answer": "have been copying",
+      "explain": "For centuries, up to now: have been copying."
+    },
+    {
+      "id": "en-perf-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My eyes hurt. I ___ at the screen since lunch.",
+      "choices": [
+        "look",
+        "looked",
+        "am looking",
+        "have been looking"
+      ],
+      "answer": "have been looking",
+      "explain": "An action that continues up to now: have been looking."
+    },
+    {
+      "id": "en-perf-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Odysseus is not home yet. He ___ away from Ithaca for twenty years.",
+      "choices": [
+        "has been",
+        "was",
+        "is",
+        "have been"
+      ],
+      "answer": "has been",
+      "explain": "For + a length of time, up to now: has been."
+    },
+    {
+      "id": "en-perf-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We ___ three matches this week, and we are very tired.",
+      "choices": [
+        "play",
+        "have played",
+        "has played",
+        "did played"
+      ],
+      "answer": "have played",
+      "explain": "'This week' is not finished: present perfect."
+    },
+    {
+      "id": "en-perf-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Nobody knows who wrote Beowulf. The author ___ unknown for over a thousand years.",
+      "choices": [
+        "did remain",
+        "remains",
+        "has remained",
+        "have remained"
+      ],
+      "answer": "has remained",
+      "explain": "For + a length of time, up to now: has remained."
+    },
+    {
+      "id": "en-perf-135",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Our neighbours ___ here in 2012. (to arrive)",
+      "answer": [
+        "arrived"
+      ],
+      "explain": "'In 2012' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-136",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ a member of this club since last year. (to be)",
+      "answer": [
+        "have been",
+        "'ve been",
+        "I have been",
+        "I've been"
+      ],
+      "explain": "Since + a starting point: have been."
+    },
+    {
+      "id": "en-perf-137",
+      "level": 3,
+      "type": "input",
+      "prompt": "How long ___ this guitar? (you - to have)",
+      "answer": [
+        "have you had"
+      ],
+      "explain": "How long + have you + had."
+    },
+    {
+      "id": "en-perf-138",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ for the bus since eight o'clock. (to wait)",
+      "answer": [
+        "has been waiting",
+        "'s been waiting",
+        "She has been waiting",
+        "She's been waiting",
+        "has waited",
+        "'s waited",
+        "She has waited",
+        "She's waited"
+      ],
+      "explain": "Continuing action up to now: has been waiting."
+    },
+    {
+      "id": "en-perf-139",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: They ___ the poem for two hours. (to read)",
+      "answer": [
+        "have been reading",
+        "'ve been reading",
+        "They have been reading",
+        "They've been reading"
+      ],
+      "explain": "Continuing action up to now: have been reading."
+    },
+    {
+      "id": "en-perf-140",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: It ___ for three days now. (to rain)",
+      "answer": [
+        "has been raining",
+        "'s been raining",
+        "It has been raining",
+        "It's been raining",
+        "has rained",
+        "'s rained",
+        "It has rained",
+        "It's rained"
+      ],
+      "explain": "Up to now: has been raining (or has rained)."
+    },
+    {
+      "id": "en-perf-141",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ my homework for an hour. (to do)",
+      "answer": [
+        "have been doing",
+        "'ve been doing",
+        "I have been doing",
+        "I've been doing"
+      ],
+      "explain": "Continuing action up to now: have been doing."
+    },
+    {
+      "id": "en-perf-142",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: My grandad ___ the guitar when he was twelve. (to learn)",
+      "answer": [
+        "learned",
+        "learnt"
+      ],
+      "explain": "'When he was twelve' is a finished time: past simple."
+    },
+    {
+      "id": "en-perf-143",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We ___ to Lisbon two years ago. (to fly)",
+      "answer": [
+        "flew"
+      ],
+      "explain": "'Two years ago' needs the past simple of 'fly': flew."
+    },
+    {
+      "id": "en-perf-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ this book twice so far this year. (to read)",
+      "answer": [
+        "have read",
+        "'ve read",
+        "I have read",
+        "I've read"
+      ],
+      "explain": "'So far this year': have read."
+    },
+    {
+      "id": "en-perf-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Anna isn't at home. She ___ to the dentist. (to go)",
+      "answer": [
+        "has gone",
+        "'s gone",
+        "She has gone",
+        "She's gone"
+      ],
+      "explain": "'Has gone' = he is away now."
+    },
+    {
+      "id": "en-perf-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ a goal since September. (to score - negative)",
+      "answer": [
+        "hasn't scored",
+        "has not scored",
+        "'s not scored",
+        "She hasn't scored",
+        "She has not scored",
+        "She's not scored"
+      ],
+      "explain": "Up to now: hasn't scored."
+    },
+    {
+      "id": "en-perf-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The Geats ___ across the sea three days ago. (to sail)",
+      "answer": [
+        "sailed"
+      ],
+      "explain": "'Three days ago' needs the past simple: sailed."
+    },
+    {
+      "id": "en-perf-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Heorot ___ empty since the monster left. (to stay)",
+      "answer": [
+        "has stayed",
+        "'s stayed"
+      ],
+      "explain": "Since + a starting point: has stayed."
+    }
+  ]
+}

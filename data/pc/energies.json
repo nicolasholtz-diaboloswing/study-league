@@ -1,0 +1,1178 @@
+{
+  "topic": "pc-energies",
+  "questions": [
+    {
+      "id": "pc-en-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle l'énergie contenue dans la matière, comme la nourriture ou le carburant ?",
+      "choices": [
+        "L'énergie chimique",
+        "L'énergie thermique",
+        "L'énergie électrique",
+        "L'énergie lumineuse"
+      ],
+      "answer": "L'énergie chimique",
+      "explain": "L'énergie chimique est l'énergie contenue dans la matière (nourriture, carburant)."
+    },
+    {
+      "id": "pc-en-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle énergie est liée au mouvement ?",
+      "choices": [
+        "L'énergie de position",
+        "L'énergie cinétique",
+        "L'énergie thermique",
+        "L'énergie chimique"
+      ],
+      "answer": "L'énergie cinétique",
+      "explain": "L'énergie cinétique est liée au mouvement."
+    },
+    {
+      "id": "pc-en-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle énergie est liée à la hauteur ?",
+      "choices": [
+        "L'énergie cinétique",
+        "L'énergie électrique",
+        "L'énergie de position",
+        "L'énergie lumineuse"
+      ],
+      "answer": "L'énergie de position",
+      "explain": "L'énergie de position est liée à la hauteur."
+    },
+    {
+      "id": "pc-en-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle énergie est liée à la température ?",
+      "choices": [
+        "L'énergie chimique",
+        "L'énergie lumineuse",
+        "L'énergie cinétique",
+        "L'énergie thermique"
+      ],
+      "answer": "L'énergie thermique",
+      "explain": "L'énergie thermique est liée à la température."
+    },
+    {
+      "id": "pc-en-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle énergie est liée à la lumière ? (chimique / thermique / lumineuse / électrique)",
+      "answer": [
+        "lumineuse"
+      ],
+      "explain": "L'énergie lumineuse est la lumière."
+    },
+    {
+      "id": "pc-en-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de formes d'énergie différentes le cours présente-t-il ?",
+      "answer": [
+        "6",
+        "six"
+      ],
+      "explain": "Le cours cite six formes : chimique, cinétique, de position, électrique, thermique, lumineuse."
+    },
+    {
+      "id": "pc-en-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un ventilateur produit de l'énergie…",
+      "choices": [
+        "énergie thermique",
+        "énergie cinétique",
+        "énergie chimique",
+        "énergie lumineuse"
+      ],
+      "answer": "énergie cinétique",
+      "explain": "Un ventilateur produit de l'énergie cinétique."
+    },
+    {
+      "id": "pc-en-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un ventilateur utilise de l'énergie…",
+      "choices": [
+        "énergie chimique",
+        "énergie thermique",
+        "énergie électrique",
+        "énergie lumineuse"
+      ],
+      "answer": "énergie électrique",
+      "explain": "Un ventilateur utilise de l'énergie électrique."
+    },
+    {
+      "id": "pc-en-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un radiateur électrique produit de l'énergie…",
+      "choices": [
+        "énergie lumineuse",
+        "énergie cinétique",
+        "énergie chimique",
+        "énergie thermique"
+      ],
+      "answer": "énergie thermique",
+      "explain": "Un radiateur produit de l'énergie thermique."
+    },
+    {
+      "id": "pc-en-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une lampe produit de l'énergie…",
+      "choices": [
+        "énergie lumineuse",
+        "énergie cinétique",
+        "énergie chimique",
+        "énergie de position"
+      ],
+      "answer": "énergie lumineuse",
+      "explain": "Une lampe produit de l'énergie lumineuse."
+    },
+    {
+      "id": "pc-en-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une plongeuse est sur un plongeoir de 10 m de haut. Quelle énergie est liée à sa hauteur ?",
+      "choices": [
+        "L'énergie cinétique",
+        "L'énergie chimique",
+        "L'énergie de position",
+        "L'énergie thermique"
+      ],
+      "answer": "L'énergie de position",
+      "explain": "L'énergie de position est liée à la hauteur."
+    },
+    {
+      "id": "pc-en-012",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Selon le cours, lequel de ces objets produit de l'énergie thermique ?",
+      "choices": [
+        "Un radiateur",
+        "Un ventilateur",
+        "Une barre de céréales",
+        "Un ballon qui roule"
+      ],
+      "answer": "Un radiateur",
+      "explain": "Un radiateur produit de l'énergie thermique."
+    },
+    {
+      "id": "pc-en-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un grille-pain convertit l'énergie électrique en énergie…",
+      "choices": [
+        "énergie cinétique",
+        "énergie chimique",
+        "énergie thermique",
+        "énergie de position"
+      ],
+      "answer": "énergie thermique",
+      "explain": "Un grille-pain chauffe : l'énergie électrique est convertie en énergie thermique."
+    },
+    {
+      "id": "pc-en-014",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un ventilateur convertit l'énergie électrique en énergie…",
+      "choices": [
+        "énergie thermique",
+        "énergie lumineuse",
+        "énergie chimique",
+        "énergie cinétique"
+      ],
+      "answer": "énergie cinétique",
+      "explain": "Les pales tournent : l'énergie électrique est convertie en énergie cinétique."
+    },
+    {
+      "id": "pc-en-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une lampe convertit l'énergie électrique en énergie…",
+      "choices": [
+        "énergie lumineuse",
+        "énergie cinétique",
+        "énergie chimique",
+        "énergie de position"
+      ],
+      "answer": "énergie lumineuse",
+      "explain": "Dans une lampe, l'énergie électrique est convertie en énergie lumineuse."
+    },
+    {
+      "id": "pc-en-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une bouilloire électrique convertit l'énergie électrique en énergie…",
+      "choices": [
+        "énergie cinétique",
+        "énergie thermique",
+        "énergie lumineuse",
+        "énergie chimique"
+      ],
+      "answer": "énergie thermique",
+      "explain": "Une bouilloire chauffe l'eau : l'énergie électrique est convertie en énergie thermique."
+    },
+    {
+      "id": "pc-en-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un panneau solaire convertit l'énergie… du Soleil en énergie électrique.",
+      "choices": [
+        "cinétique",
+        "chimique",
+        "lumineuse",
+        "de position"
+      ],
+      "answer": "lumineuse",
+      "explain": "La source solaire fournit l'énergie lumineuse du Soleil."
+    },
+    {
+      "id": "pc-en-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une source d'énergie ?",
+      "choices": [
+        "Un appareil qui convertit une forme d'énergie en une autre",
+        "Un dispositif qui mesure la puissance d'un objet",
+        "Un objet qui perd de l'énergie en chauffant",
+        "Une matière première ou un phénomène naturel qui fournit de l'énergie"
+      ],
+      "answer": "Une matière première ou un phénomène naturel qui fournit de l'énergie",
+      "explain": "Une source d'énergie est une matière première ou un phénomène naturel qui fournit de l'énergie."
+    },
+    {
+      "id": "pc-en-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une source d'énergie renouvelable ?",
+      "choices": [
+        "Une source qui ne disparaîtra pas à cause de l'activité humaine, car la nature la renouvelle en permanence",
+        "Une source présente en quantité limitée sur Terre",
+        "Une source qui produit de l'énergie sans aucune perte",
+        "Une source qui fournit de l'énergie uniquement le jour"
+      ],
+      "answer": "Une source qui ne disparaîtra pas à cause de l'activité humaine, car la nature la renouvelle en permanence",
+      "explain": "Une source renouvelable ne disparaîtra pas à cause de l'activité humaine, car la nature la renouvelle en permanence."
+    },
+    {
+      "id": "pc-en-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une source d'énergie non-renouvelable ?",
+      "choices": [
+        "Une source que la nature renouvelle en permanence",
+        "Une source présente en quantité limitée sur Terre",
+        "Une source qui ne produit pas d'électricité",
+        "Une source qui fournit toujours de l'énergie thermique"
+      ],
+      "answer": "Une source présente en quantité limitée sur Terre",
+      "explain": "Une source non-renouvelable est présente en quantité limitée sur Terre."
+    },
+    {
+      "id": "pc-en-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une source d'énergie présente en quantité limitée sur Terre est… (renouvelable / non-renouvelable)",
+      "answer": [
+        "non-renouvelable"
+      ],
+      "explain": "Une source non-renouvelable est présente en quantité limitée sur Terre."
+    },
+    {
+      "id": "pc-en-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle source d'énergie utilise le charbon, le pétrole ou le gaz ?",
+      "choices": [
+        "La source nucléaire",
+        "La source éolienne",
+        "La source fossile",
+        "La source biomasse"
+      ],
+      "answer": "La source fossile",
+      "explain": "La source fossile utilise le charbon, le pétrole ou le gaz."
+    },
+    {
+      "id": "pc-en-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle source d'énergie utilise l'uranium ?",
+      "choices": [
+        "La source fossile",
+        "La source solaire",
+        "La source biomasse",
+        "La source nucléaire"
+      ],
+      "answer": "La source nucléaire",
+      "explain": "La source nucléaire utilise l'uranium."
+    },
+    {
+      "id": "pc-en-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle source d'énergie utilise l'énergie cinétique de l'air en mouvement ?",
+      "choices": [
+        "La source éolienne",
+        "La source solaire",
+        "La source fossile",
+        "La source biomasse"
+      ],
+      "answer": "La source éolienne",
+      "explain": "La source éolienne utilise l'énergie cinétique du vent."
+    },
+    {
+      "id": "pc-en-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle source d'énergie utilise l'énergie chimique des végétaux ?",
+      "choices": [
+        "La source fossile",
+        "La source biomasse",
+        "La source éolienne",
+        "La source solaire"
+      ],
+      "answer": "La source biomasse",
+      "explain": "La source biomasse utilise l'énergie chimique des végétaux."
+    },
+    {
+      "id": "pc-en-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle source d'énergie utilise l'énergie lumineuse du Soleil ?",
+      "choices": [
+        "La source éolienne",
+        "La source nucléaire",
+        "La source solaire",
+        "La source biomasse"
+      ],
+      "answer": "La source solaire",
+      "explain": "La source solaire utilise l'énergie lumineuse du Soleil."
+    },
+    {
+      "id": "pc-en-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La source éolienne utilise l'énergie…",
+      "choices": [
+        "chimique des végétaux",
+        "lumineuse du Soleil",
+        "chimique du pétrole",
+        "cinétique de l'air en mouvement"
+      ],
+      "answer": "cinétique de l'air en mouvement",
+      "explain": "Le vent est de l'air en mouvement : il possède de l'énergie cinétique."
+    },
+    {
+      "id": "pc-en-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La source solaire utilise l'énergie…",
+      "choices": [
+        "lumineuse du Soleil",
+        "cinétique de l'air en mouvement",
+        "chimique des végétaux",
+        "chimique du charbon"
+      ],
+      "answer": "lumineuse du Soleil",
+      "explain": "La source solaire utilise la lumière du Soleil."
+    },
+    {
+      "id": "pc-en-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La source biomasse utilise l'énergie…",
+      "choices": [
+        "lumineuse du Soleil",
+        "chimique des végétaux",
+        "cinétique de l'air en mouvement",
+        "thermique du pétrole"
+      ],
+      "answer": "chimique des végétaux",
+      "explain": "La biomasse est l'énergie chimique des végétaux."
+    },
+    {
+      "id": "pc-en-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La source fossile utilise l'énergie… du charbon, du pétrole ou du gaz.",
+      "choices": [
+        "cinétique",
+        "lumineuse",
+        "chimique",
+        "de position"
+      ],
+      "answer": "chimique",
+      "explain": "Charbon, pétrole et gaz contiennent de l'énergie chimique."
+    },
+    {
+      "id": "pc-en-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Laquelle de ces sources d'énergie est renouvelable ?",
+      "choices": [
+        "Le pétrole",
+        "Le charbon",
+        "L'uranium",
+        "Le vent"
+      ],
+      "answer": "Le vent",
+      "explain": "Le vent est renouvelé en permanence par la nature."
+    },
+    {
+      "id": "pc-en-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Laquelle de ces sources d'énergie est non-renouvelable ?",
+      "choices": [
+        "Le gaz",
+        "Le vent",
+        "Le Soleil",
+        "Les végétaux"
+      ],
+      "answer": "Le gaz",
+      "explain": "Le gaz est une source fossile, présente en quantité limitée sur Terre."
+    },
+    {
+      "id": "pc-en-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi le pétrole est-il une source d'énergie non-renouvelable ?",
+      "choices": [
+        "Il ne contient pas d'énergie chimique",
+        "Il est présent en quantité limitée sur Terre",
+        "Il ne peut pas être transporté",
+        "Il fournit de l'énergie cinétique"
+      ],
+      "answer": "Il est présent en quantité limitée sur Terre",
+      "explain": "Une source non-renouvelable est présente en quantité limitée sur Terre."
+    },
+    {
+      "id": "pc-en-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi le vent est-il une source d'énergie renouvelable ?",
+      "choices": [
+        "Il est présent en quantité limitée sur Terre",
+        "Il est fabriqué par l'activité humaine",
+        "La nature le renouvelle en permanence",
+        "Il fournit de l'énergie thermique"
+      ],
+      "answer": "La nature le renouvelle en permanence",
+      "explain": "La nature renouvelle le vent en permanence."
+    },
+    {
+      "id": "pc-en-035",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le pétrole et les végétaux contiennent tous deux de l'énergie chimique. Pourquoi seule la biomasse est-elle renouvelable ?",
+      "choices": [
+        "Les végétaux contiennent plus d'énergie que le pétrole",
+        "Le pétrole contient de l'énergie thermique",
+        "Les végétaux ne sont pas utilisés pour produire de l'électricité",
+        "La nature renouvelle les végétaux en permanence, pas le pétrole"
+      ],
+      "answer": "La nature renouvelle les végétaux en permanence, pas le pétrole",
+      "explain": "Le pétrole est en quantité limitée sur Terre, alors que la nature renouvelle les végétaux."
+    },
+    {
+      "id": "pc-en-036",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une ferme produit de l'électricité avec le vent, le Soleil et la biomasse. Ces sources sont…",
+      "choices": [
+        "toutes renouvelables",
+        "toutes non-renouvelables",
+        "renouvelables seulement le jour",
+        "non-renouvelables sauf le vent"
+      ],
+      "answer": "toutes renouvelables",
+      "explain": "Les sources éolienne, solaire et biomasse sont renouvelables."
+    },
+    {
+      "id": "pc-en-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une centrale brûle du gaz, une autre utilise de l'uranium. Ces deux sources sont…",
+      "choices": [
+        "toutes les deux renouvelables",
+        "toutes les deux non-renouvelables",
+        "l'une renouvelable, l'autre non",
+        "renouvelables si la centrale est neuve"
+      ],
+      "answer": "toutes les deux non-renouvelables",
+      "explain": "Les sources fossile et nucléaire sont non-renouvelables."
+    },
+    {
+      "id": "pc-en-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "La source nucléaire est-elle renouvelable ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La source nucléaire est non-renouvelable."
+    },
+    {
+      "id": "pc-en-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "La source hydraulique est-elle renouvelable ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "La source hydraulique est renouvelable."
+    },
+    {
+      "id": "pc-en-040",
+      "level": 1,
+      "type": "input",
+      "prompt": "La source solaire est-elle renouvelable ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "La source solaire est renouvelable."
+    },
+    {
+      "id": "pc-en-041",
+      "level": 3,
+      "type": "input",
+      "prompt": "Parmi la source fossile, nucléaire, éolienne, biomasse, hydraulique et solaire, combien sont renouvelables ?",
+      "answer": [
+        "4",
+        "quatre"
+      ],
+      "explain": "Éolienne, biomasse, hydraulique et solaire sont renouvelables ; fossile et nucléaire non."
+    },
+    {
+      "id": "pc-en-042",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand deux objets échangent la même forme d'énergie, l'un en gagne, l'autre en perd. Comment appelle-t-on cela ?",
+      "choices": [
+        "Une conversion d'énergie",
+        "Une dissipation d'énergie",
+        "Un transfert d'énergie",
+        "Une chaîne d'énergie"
+      ],
+      "answer": "Un transfert d'énergie",
+      "explain": "Il y a transfert d'énergie quand deux objets échangent la même forme d'énergie."
+    },
+    {
+      "id": "pc-en-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on le passage d'une forme d'énergie à une autre forme d'énergie ?",
+      "choices": [
+        "Un transfert d'énergie",
+        "Une dissipation d'énergie",
+        "Une source d'énergie",
+        "Une conversion d'énergie"
+      ],
+      "answer": "Une conversion d'énergie",
+      "explain": "Une forme d'énergie convertie en une autre : c'est une conversion d'énergie."
+    },
+    {
+      "id": "pc-en-044",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans un vélo, la chaîne envoie l'énergie cinétique du pédalier à la roue. Est-ce un transfert ou une conversion ? (transfert / conversion)",
+      "answer": [
+        "transfert"
+      ],
+      "explain": "La même forme d'énergie (cinétique) passe d'un objet à l'autre : c'est un transfert."
+    },
+    {
+      "id": "pc-en-045",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans une lampe, l'énergie électrique devient de l'énergie lumineuse. Est-ce un transfert ou une conversion ? (transfert / conversion)",
+      "answer": [
+        "conversion"
+      ],
+      "explain": "La forme d'énergie change : c'est une conversion."
+    },
+    {
+      "id": "pc-en-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un grille-pain chauffe le pain avec de l'énergie électrique. Est-ce un transfert ou une conversion ? (transfert / conversion)",
+      "answer": [
+        "conversion"
+      ],
+      "explain": "L'énergie électrique devient de l'énergie thermique : c'est une conversion."
+    },
+    {
+      "id": "pc-en-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un ventilateur tourne grâce à l'énergie électrique. Est-ce un transfert ou une conversion ? (transfert / conversion)",
+      "answer": [
+        "conversion"
+      ],
+      "explain": "L'énergie électrique devient de l'énergie cinétique : c'est une conversion."
+    },
+    {
+      "id": "pc-en-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un vélo, la chaîne envoie de l'énergie du pédalier à la roue. Quelle forme d'énergie est transférée ?",
+      "choices": [
+        "L'énergie cinétique",
+        "L'énergie chimique",
+        "L'énergie thermique",
+        "L'énergie lumineuse"
+      ],
+      "answer": "L'énergie cinétique",
+      "explain": "Dans un vélo, l'énergie cinétique du pédalier est transférée à la roue par la chaîne."
+    },
+    {
+      "id": "pc-en-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un radiateur reçoit de l'énergie électrique et chauffe la pièce. Que se passe-t-il ?",
+      "choices": [
+        "Un transfert de l'énergie électrique à la pièce",
+        "Une conversion de l'énergie électrique en énergie thermique",
+        "Une conversion de l'énergie thermique en énergie électrique",
+        "Un transfert de l'énergie thermique au radiateur"
+      ],
+      "answer": "Une conversion de l'énergie électrique en énergie thermique",
+      "explain": "La forme d'énergie change : c'est une conversion."
+    },
+    {
+      "id": "pc-en-050",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un vélo, la chaîne transmet le mouvement et chauffe légèrement. Quelle phrase est exacte ?",
+      "choices": [
+        "Il y a une conversion de toute l'énergie cinétique en énergie lumineuse",
+        "Il y a un transfert d'énergie thermique, sans aucune perte",
+        "Il y a un transfert d'énergie cinétique, et de l'énergie dissipée en énergie thermique",
+        "Il y a une conversion de l'énergie électrique en énergie cinétique"
+      ],
+      "answer": "Il y a un transfert d'énergie cinétique, et de l'énergie dissipée en énergie thermique",
+      "explain": "La chaîne transfère l'énergie cinétique ; les frottements en dissipent une partie en énergie thermique."
+    },
+    {
+      "id": "pc-en-051",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que représente une chaîne d'énergie ?",
+      "choices": [
+        "La liste des sources d'énergie renouvelables",
+        "Les pertes d'énergie d'un seul appareil",
+        "La puissance de chaque élément d'une installation",
+        "Les éléments d'une installation avec les énergies d'entrée et de sortie de chacun"
+      ],
+      "answer": "Les éléments d'une installation avec les énergies d'entrée et de sortie de chacun",
+      "explain": "La chaîne d'énergie représente les éléments d'une installation et leurs énergies d'entrée et de sortie."
+    },
+    {
+      "id": "pc-en-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sous chaque élément d'une chaîne d'énergie, on précise si l'énergie est…",
+      "choices": [
+        "transférée ou convertie en une autre forme",
+        "renouvelable ou non-renouvelable",
+        "dissipée ou stockée",
+        "lente ou rapide"
+      ],
+      "answer": "transférée ou convertie en une autre forme",
+      "explain": "On précise si l'énergie est transférée ou convertie en une autre forme d'énergie."
+    },
+    {
+      "id": "pc-en-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans la chaîne d'énergie d'une lampe, quelle est l'énergie d'entrée ? (électrique / lumineuse / thermique)",
+      "answer": [
+        "électrique"
+      ],
+      "explain": "La lampe reçoit de l'énergie électrique."
+    },
+    {
+      "id": "pc-en-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans la chaîne d'énergie d'une lampe, quelle énergie utile sort de l'ampoule ?",
+      "choices": [
+        "L'énergie thermique",
+        "L'énergie lumineuse",
+        "L'énergie cinétique",
+        "L'énergie chimique"
+      ],
+      "answer": "L'énergie lumineuse",
+      "explain": "La lampe sert à produire de la lumière."
+    },
+    {
+      "id": "pc-en-055",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lors d'un transfert ou d'une conversion, de l'énergie est souvent dissipée. Sous quelle forme ?",
+      "choices": [
+        "L'énergie lumineuse",
+        "L'énergie cinétique",
+        "L'énergie thermique",
+        "L'énergie chimique"
+      ],
+      "answer": "L'énergie thermique",
+      "explain": "L'énergie dissipée est perdue en énergie thermique."
+    },
+    {
+      "id": "pc-en-056",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que signifie « énergie dissipée » ?",
+      "choices": [
+        "Énergie stockée",
+        "Énergie doublée",
+        "Énergie produite",
+        "Énergie perdue"
+      ],
+      "answer": "Énergie perdue",
+      "explain": "Dissipée veut dire perdue."
+    },
+    {
+      "id": "pc-en-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la cause des pertes d'énergie dans les éléments mécaniques ?",
+      "choices": [
+        "Les frottements",
+        "L'effet Joule",
+        "La lumière",
+        "La hauteur"
+      ],
+      "answer": "Les frottements",
+      "explain": "Les frottements des éléments mécaniques dissipent de l'énergie en énergie thermique."
+    },
+    {
+      "id": "pc-en-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la cause des pertes d'énergie dans les appareils électriques ?",
+      "choices": [
+        "Le transfert d'énergie",
+        "L'effet Joule",
+        "La puissance du convertisseur",
+        "La chaîne d'énergie"
+      ],
+      "answer": "L'effet Joule",
+      "explain": "Dans les appareils électriques, l'effet Joule dissipe de l'énergie en énergie thermique."
+    },
+    {
+      "id": "pc-en-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'effet Joule ?",
+      "choices": [
+        "Un dégagement de lumière lors du mouvement d'un objet",
+        "Une perte d'énergie due aux frottements des pièces mécaniques",
+        "Un dégagement de chaleur lors du passage d'un courant électrique dans un matériau conducteur",
+        "Un mouvement provoqué par de l'énergie thermique"
+      ],
+      "answer": "Un dégagement de chaleur lors du passage d'un courant électrique dans un matériau conducteur",
+      "explain": "L'effet Joule est un dégagement de chaleur lors du passage d'un courant électrique dans un matériau conducteur."
+    },
+    {
+      "id": "pc-en-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une lampe qui fonctionne chauffe. Cette énergie thermique est…",
+      "choices": [
+        "utile et transférée",
+        "convertie en énergie lumineuse",
+        "stockée dans l'ampoule",
+        "inutile et dissipée"
+      ],
+      "answer": "inutile et dissipée",
+      "explain": "La chaleur d'une lampe n'est pas utile : elle est dissipée."
+    },
+    {
+      "id": "pc-en-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le moteur d'un ventilateur qui tourne chauffe. Quelle énergie est dissipée ?",
+      "choices": [
+        "L'énergie thermique",
+        "L'énergie cinétique",
+        "L'énergie électrique",
+        "L'énergie lumineuse"
+      ],
+      "answer": "L'énergie thermique",
+      "explain": "Le moteur chauffe : cette énergie thermique n'est pas utile, elle est dissipée."
+    },
+    {
+      "id": "pc-en-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "La chaîne d'un vélo chauffe à cause des frottements. Cette énergie thermique est-elle utile ou dissipée ? (utile / dissipée)",
+      "answer": [
+        "dissipée"
+      ],
+      "explain": "Cette énergie thermique n'est pas utile : elle est dissipée."
+    },
+    {
+      "id": "pc-en-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une lampe chauffe en fonctionnant. Quel phénomène est responsable de cette perte ?",
+      "choices": [
+        "Les frottements",
+        "L'effet Joule",
+        "Un transfert d'énergie",
+        "L'énergie chimique"
+      ],
+      "answer": "L'effet Joule",
+      "explain": "Pour un appareil électrique, l'effet Joule est responsable de la perte en énergie thermique."
+    },
+    {
+      "id": "pc-en-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "Les maillons d'une chaîne de vélo glissent les uns sur les autres et chauffent. Quel phénomène est responsable de cette perte ? (frottements / effet Joule)",
+      "answer": [
+        "frottements"
+      ],
+      "explain": "Dans les éléments mécaniques, ce sont les frottements qui dissipent l'énergie."
+    },
+    {
+      "id": "pc-en-065",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un convertisseur ?",
+      "choices": [
+        "Un dispositif qui fournit de l'énergie renouvelable",
+        "Un dispositif qui mesure la puissance",
+        "Un dispositif transformant une forme d'énergie en une autre",
+        "Un dispositif qui fabrique de la matière première"
+      ],
+      "answer": "Un dispositif transformant une forme d'énergie en une autre",
+      "explain": "Un convertisseur est un dispositif transformant une forme d'énergie en une autre."
+    },
+    {
+      "id": "pc-en-066",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que mesure la puissance d'un convertisseur ?",
+      "choices": [
+        "La quantité d'énergie qu'il dissipe",
+        "Sa capacité à stocker de l'énergie",
+        "Son aptitude à produire une énergie renouvelable",
+        "Son aptitude à convertir l'énergie rapidement"
+      ],
+      "answer": "Son aptitude à convertir l'énergie rapidement",
+      "explain": "La puissance est l'aptitude d'un convertisseur à convertir l'énergie rapidement."
+    },
+    {
+      "id": "pc-en-067",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans quelle unité mesure-t-on une puissance ?",
+      "choices": [
+        "Le watt",
+        "Le litre",
+        "Le degré Celsius",
+        "Le mètre par seconde"
+      ],
+      "answer": "Le watt",
+      "explain": "La puissance se mesure en watts (W) ou en kilowatts (kW)."
+    },
+    {
+      "id": "pc-en-068",
+      "level": 1,
+      "type": "input",
+      "prompt": "1 kW = … W",
+      "answer": [
+        "1000",
+        "1 000"
+      ],
+      "explain": "1 kW = 1000 W."
+    },
+    {
+      "id": "pc-en-069",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un radiateur de 3 kW chauffe la pièce… qu'un radiateur de 1,5 kW.",
+      "choices": [
+        "deux fois plus lentement",
+        "deux fois plus rapidement",
+        "trois fois plus rapidement",
+        "à la même vitesse"
+      ],
+      "answer": "deux fois plus rapidement",
+      "explain": "3 kW est le double de 1,5 kW : le radiateur chauffe deux fois plus rapidement."
+    },
+    {
+      "id": "pc-en-070",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un radiateur de 500 W est comparé à un radiateur de 2 kW. Le radiateur de 500 W chauffe la pièce…",
+      "choices": [
+        "quatre fois plus lentement",
+        "deux fois plus lentement",
+        "quatre fois plus rapidement",
+        "à la même vitesse"
+      ],
+      "answer": "quatre fois plus lentement",
+      "explain": "2 kW = 2000 W et 2000 / 500 = 4 : le radiateur de 500 W chauffe quatre fois plus lentement."
+    },
+    {
+      "id": "pc-en-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Parmi ces radiateurs, lequel chauffe la pièce le plus rapidement ?",
+      "choices": [
+        "Le radiateur de 2 500 W",
+        "Le radiateur de 2 kW",
+        "Le radiateur de 1 800 W",
+        "Le radiateur de 1,5 kW"
+      ],
+      "answer": "Le radiateur de 2 500 W",
+      "explain": "2 500 W = 2,5 kW : c'est la plus grande puissance."
+    },
+    {
+      "id": "pc-en-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un four a une puissance de 1,2 kW. Quelle est sa puissance en W ?",
+      "choices": [
+        "120 W",
+        "1 200 W",
+        "12 000 W",
+        "12 W"
+      ],
+      "answer": "1 200 W",
+      "explain": "1,2 kW = 1,2 × 1000 = 1200 W."
+    },
+    {
+      "id": "pc-en-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un radiateur a une puissance de 3 kW. Quelle est sa puissance en W ?",
+      "answer": [
+        "3000",
+        "3 000"
+      ],
+      "explain": "3 × 1000 = 3000 W."
+    },
+    {
+      "id": "pc-en-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un four a une puissance de 2 000 W. Quelle est sa puissance en kW ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "2000 / 1000 = 2 kW."
+    },
+    {
+      "id": "pc-en-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un sèche-cheveux a une puissance de 1 800 W. Quelle est sa puissance en kW ?",
+      "answer": [
+        "1,8",
+        "1.8"
+      ],
+      "explain": "1800 / 1000 = 1,8 kW."
+    },
+    {
+      "id": "pc-en-076",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un projecteur a une puissance de 500 W. Quelle est sa puissance en kW ?",
+      "answer": [
+        "0,5",
+        "0.5"
+      ],
+      "explain": "500 / 1000 = 0,5 kW."
+    },
+    {
+      "id": "pc-en-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un radiateur a une puissance de 1,5 kW. Quelle est sa puissance en W ?",
+      "choices": [
+        "150 W",
+        "15 000 W",
+        "1 500 W",
+        "15 W"
+      ],
+      "answer": "1 500 W",
+      "explain": "1,5 × 1000 = 1500 W."
+    },
+    {
+      "id": "pc-en-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une éolienne fournit 2 MW. Sachant que 1 MW = 1 000 kW, quelle est sa puissance en kW ?",
+      "answer": [
+        "2000",
+        "2 000"
+      ],
+      "explain": "2 × 1000 = 2000 kW."
+    },
+    {
+      "id": "pc-en-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un réacteur fournit 1 200 MW. Sachant que 1 MW = 1 000 kW, quelle est sa puissance en kW ?",
+      "answer": [
+        "1200000",
+        "1 200 000"
+      ],
+      "explain": "1200 × 1000 = 1 200 000 kW."
+    },
+    {
+      "id": "pc-en-080",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un radiateur de 4 kW chauffe une pièce combien de fois plus rapidement qu'un radiateur de 1 kW ?",
+      "answer": [
+        "4",
+        "quatre"
+      ],
+      "explain": "4 / 1 = 4 : quatre fois plus rapidement."
+    },
+    {
+      "id": "pc-en-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un radiateur de 1,5 kW chauffe une pièce combien de fois plus rapidement qu'un radiateur de 0,5 kW ?",
+      "answer": [
+        "3",
+        "trois"
+      ],
+      "explain": "1,5 / 0,5 = 3."
+    },
+    {
+      "id": "pc-en-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un radiateur de 3 kW chauffe une pièce combien de fois plus rapidement qu'un radiateur de 600 W ?",
+      "choices": [
+        "3 fois plus rapidement",
+        "50 fois plus rapidement",
+        "6 fois plus rapidement",
+        "5 fois plus rapidement"
+      ],
+      "answer": "5 fois plus rapidement",
+      "explain": "3 kW = 3000 W, et 3000 / 600 = 5."
+    },
+    {
+      "id": "pc-en-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un radiateur de 1,5 kW chauffe une pièce en 60 minutes. Un radiateur de 3 kW, deux fois plus rapide, la chauffera en…",
+      "choices": [
+        "30 minutes",
+        "120 minutes",
+        "15 minutes",
+        "45 minutes"
+      ],
+      "answer": "30 minutes",
+      "explain": "Deux fois plus rapide : la durée est divisée par 2, soit 30 minutes."
+    },
+    {
+      "id": "pc-en-084",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un réacteur fournit 1 200 MW et une éolienne 3 MW. Combien d'éoliennes faut-il pour produire autant d'électricité que le réacteur ?",
+      "answer": [
+        "400"
+      ],
+      "explain": "1200 / 3 = 400 éoliennes."
+    },
+    {
+      "id": "pc-en-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un réacteur fournit 1 200 MW et une éolienne 4 MW. Combien d'éoliennes faut-il pour produire autant d'électricité que le réacteur ?",
+      "answer": [
+        "300"
+      ],
+      "explain": "1200 / 4 = 300 éoliennes."
+    },
+    {
+      "id": "pc-en-086",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une centrale fournit 1 000 MW et une éolienne 2 MW. Combien d'éoliennes faut-il pour produire autant d'électricité que la centrale ?",
+      "answer": [
+        "500"
+      ],
+      "explain": "1000 / 2 = 500 éoliennes."
+    },
+    {
+      "id": "pc-en-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un réacteur fournit 1 200 MW et une éolienne 1,5 MW. Combien d'éoliennes faut-il pour produire autant d'électricité que le réacteur ?",
+      "choices": [
+        "600",
+        "800",
+        "80",
+        "1 800"
+      ],
+      "answer": "800",
+      "explain": "1200 / 1,5 = 800 éoliennes."
+    },
+    {
+      "id": "pc-en-088",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un parc compte 10 éoliennes de 2 MW chacune. Quelle est leur puissance totale en MW ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "10 × 2 = 20 MW."
+    },
+    {
+      "id": "pc-en-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien de radiateurs de 1,5 kW faut-il pour égaler la puissance d'un appareil de 6 kW ?",
+      "choices": [
+        "3",
+        "5",
+        "4",
+        "9"
+      ],
+      "answer": "4",
+      "explain": "6 / 1,5 = 4 radiateurs."
+    },
+    {
+      "id": "pc-en-090",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien d'ampoules de 50 W faut-il pour égaler la puissance de 1 kW ?",
+      "answer": [
+        "20",
+        "vingt"
+      ],
+      "explain": "1 kW = 1000 W, et 1000 / 50 = 20 ampoules."
+    },
+    {
+      "id": "pc-en-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Combien de radiateurs de 500 W faut-il pour égaler la puissance d'un radiateur de 3 kW ?",
+      "choices": [
+        "3",
+        "60",
+        "15",
+        "6"
+      ],
+      "answer": "6",
+      "explain": "3 kW = 3000 W, et 3000 / 500 = 6 radiateurs."
+    }
+  ]
+}

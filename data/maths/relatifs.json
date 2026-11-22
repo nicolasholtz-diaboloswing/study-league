@@ -1,0 +1,1932 @@
+{
+  "topic": "maths-relatifs",
+  "questions": [
+    {
+      "id": "ma-rel-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans les coordonnées A(−3 ; 5), comment s'appelle −3 ?",
+      "choices": [
+        "La distance de A à l'origine",
+        "L'ordonnée du point A",
+        "L'abscisse du point A",
+        "L'origine du repère"
+      ],
+      "answer": "L'abscisse du point A",
+      "explain": "Le premier nombre des coordonnées est l'abscisse."
+    },
+    {
+      "id": "ma-rel-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans les coordonnées A(−3 ; 5), comment s'appelle 5 ?",
+      "choices": [
+        "L'abscisse du point A",
+        "L'origine du repère",
+        "L'opposé de −3",
+        "L'ordonnée du point A"
+      ],
+      "answer": "L'ordonnée du point A",
+      "explain": "Le deuxième nombre des coordonnées est l'ordonnée."
+    },
+    {
+      "id": "ma-rel-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans B(2 ; −7), quel nom porte le nombre −7 ? (abscisse / ordonnée)",
+      "answer": [
+        "ordonnée"
+      ],
+      "explain": "Le deuxième nombre des coordonnées est l'ordonnée."
+    },
+    {
+      "id": "ma-rel-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un repère, les coordonnées s'écrivent toujours dans l'ordre :",
+      "choices": [
+        "ordonnée puis abscisse",
+        "abscisse puis ordonnée",
+        "le plus petit nombre puis le plus grand",
+        "origine puis abscisse"
+      ],
+      "answer": "abscisse puis ordonnée",
+      "explain": "On écrit toujours l'abscisse, puis l'ordonnée."
+    },
+    {
+      "id": "ma-rel-005",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel point a pour abscisse 5 et pour ordonnée −3 ?",
+      "choices": [
+        "(3 ; −5)",
+        "(−5 ; 3)",
+        "(5 ; −3)",
+        "(−3 ; 5)"
+      ],
+      "answer": "(5 ; −3)",
+      "explain": "L'abscisse est écrite en premier : (5 ; −3)."
+    },
+    {
+      "id": "ma-rel-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase définit correctement deux nombres opposés ?",
+      "choices": [
+        "Deux nombres de même signe et de même distance à zéro",
+        "Deux nombres de signes différents et situés à la même distance de zéro",
+        "Deux nombres de signes différents",
+        "Deux nombres dont la somme est positive"
+      ],
+      "answer": "Deux nombres de signes différents et situés à la même distance de zéro",
+      "explain": "Deux nombres opposés ont des signes différents ET la même distance à zéro."
+    },
+    {
+      "id": "ma-rel-007",
+      "level": 2,
+      "type": "input",
+      "prompt": "Deux nombres de signes différents sont toujours opposés. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "3 et −5 ont des signes différents mais pas la même distance à zéro."
+    },
+    {
+      "id": "ma-rel-008",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Parmi ces paires, laquelle est formée de deux nombres opposés ?",
+      "choices": [
+        "−4,5 et −4,5",
+        "4,5 et 0,45",
+        "−4,5 et 4,5",
+        "−4,5 et 5,4"
+      ],
+      "answer": "−4,5 et 4,5",
+      "explain": "Opposés : signes différents et même distance à zéro (4,5)."
+    },
+    {
+      "id": "ma-rel-009",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pourquoi 3 et −5 ne sont-ils pas deux nombres opposés ?",
+      "choices": [
+        "Ils ont le même signe",
+        "L'un des deux est décimal",
+        "Ils sont tous les deux entiers",
+        "Ils n'ont pas la même distance à zéro"
+      ],
+      "answer": "Ils n'ont pas la même distance à zéro",
+      "explain": "Leurs distances à zéro sont différentes (3 et 5) : il manque la condition de même distance à zéro."
+    },
+    {
+      "id": "ma-rel-010",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est l'opposé de 8,5 ?",
+      "answer": [
+        "-8,5",
+        "-8.5",
+        "−8,5",
+        "−8.5"
+      ],
+      "explain": "L'opposé de 8,5 est −8,5."
+    },
+    {
+      "id": "ma-rel-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est l'opposé de −7,81 ?",
+      "answer": [
+        "+7,81",
+        "+7.81",
+        "7,81",
+        "7.81"
+      ],
+      "explain": "On change le signe : l'opposé de −7,81 est 7,81."
+    },
+    {
+      "id": "ma-rel-012",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est l'opposé de 0 ?",
+      "answer": [
+        "0",
+        "+0",
+        "-0",
+        "−0"
+      ],
+      "explain": "0 est son propre opposé."
+    },
+    {
+      "id": "ma-rel-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle le point O de coordonnées (0 ; 0) ?",
+      "choices": [
+        "L'unité du repère",
+        "L'origine du repère",
+        "L'ordonnée du repère",
+        "L'abscisse du repère"
+      ],
+      "answer": "L'origine du repère",
+      "explain": "O(0 ; 0) est l'origine du repère."
+    },
+    {
+      "id": "ma-rel-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle l'axe horizontal d'un repère ?",
+      "choices": [
+        "L'axe des ordonnées",
+        "L'axe des origines",
+        "L'axe des abscisses",
+        "L'axe des opposés"
+      ],
+      "answer": "L'axe des abscisses",
+      "explain": "L'axe horizontal est l'axe des abscisses."
+    },
+    {
+      "id": "ma-rel-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle l'axe vertical d'un repère ?",
+      "choices": [
+        "L'axe des abscisses",
+        "L'axe des opposés",
+        "L'axe des origines",
+        "L'axe des ordonnées"
+      ],
+      "answer": "L'axe des ordonnées",
+      "explain": "L'axe vertical est l'axe des ordonnées."
+    },
+    {
+      "id": "ma-rel-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un nombre relatif est composé :",
+      "choices": [
+        "d'une abscisse et d'une ordonnée",
+        "d'un signe (+ ou −) et d'une distance à zéro",
+        "d'un entier et d'une fraction",
+        "de deux nombres entiers"
+      ],
+      "answer": "d'un signe (+ ou −) et d'une distance à zéro",
+      "explain": "Un nombre relatif a un signe et une distance à zéro."
+    },
+    {
+      "id": "ma-rel-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est négatif ?",
+      "choices": [
+        "12",
+        "0,25",
+        "+3",
+        "−0,25"
+      ],
+      "answer": "−0,25",
+      "explain": "Un nombre négatif est précédé du signe −."
+    },
+    {
+      "id": "ma-rel-018",
+      "level": 1,
+      "type": "input",
+      "prompt": "L'opposé d'un nombre négatif est un nombre (positif / négatif)",
+      "answer": [
+        "positif"
+      ],
+      "explain": "Deux nombres opposés ont des signes différents."
+    },
+    {
+      "id": "ma-rel-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel nombre est égal à son propre opposé ?",
+      "choices": [
+        "10",
+        "−1",
+        "0",
+        "1"
+      ],
+      "answer": "0",
+      "explain": "Seul 0 est son propre opposé."
+    },
+    {
+      "id": "ma-rel-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la distance à zéro de −7,81 ?",
+      "answer": [
+        "+7,81",
+        "+7.81",
+        "7,81",
+        "7.81"
+      ],
+      "explain": "La distance à zéro est le nombre sans son signe : 7,81."
+    },
+    {
+      "id": "ma-rel-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le plus petit de ces nombres : −4 ; −9 ; 3 ; 0 ?",
+      "choices": [
+        "−4",
+        "0",
+        "−9",
+        "3"
+      ],
+      "answer": "−9",
+      "explain": "Entre deux négatifs, le plus petit est celui qui est le plus loin de zéro."
+    },
+    {
+      "id": "ma-rel-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le plus petit de ces nombres : −0,15 ; −0,2 ; −0,1 ; −0,7 ?",
+      "choices": [
+        "−0,1",
+        "−0,2",
+        "−0,15",
+        "−0,7"
+      ],
+      "answer": "−0,7",
+      "explain": "Entre deux négatifs, le plus petit est celui qui est le plus loin de zéro."
+    },
+    {
+      "id": "ma-rel-023",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand de ces nombres : −0,25 ; −0,2 ; −0,7 ; −0,1 ?",
+      "choices": [
+        "−0,1",
+        "−0,7",
+        "−0,25",
+        "−0,2"
+      ],
+      "answer": "−0,1",
+      "explain": "Entre deux négatifs, le plus grand est celui qui est le plus proche de zéro."
+    },
+    {
+      "id": "ma-rel-024",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le plus petit de ces nombres : −7,81 ; −7,8 ; −8,3 ; −7,9 ?",
+      "choices": [
+        "−8,3",
+        "−7,9",
+        "−7,81",
+        "−7,8"
+      ],
+      "answer": "−8,3",
+      "explain": "−8,3 est le plus éloigné de zéro parmi ces négatifs."
+    },
+    {
+      "id": "ma-rel-025",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand de ces nombres : −7,81 ; −7,8 ; −8,3 ; −7,9 ?",
+      "choices": [
+        "−8,3",
+        "−7,8",
+        "−7,81",
+        "−7,9"
+      ],
+      "answer": "−7,8",
+      "explain": "−7,8 est le plus proche de zéro, donc le plus grand."
+    },
+    {
+      "id": "ma-rel-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand de ces nombres : −7,8 ; 1,71 ; 0,2 ; −0,2 ?",
+      "choices": [
+        "−7,8",
+        "1,71",
+        "−0,2",
+        "0,2"
+      ],
+      "answer": "1,71",
+      "explain": "Un nombre positif est plus grand que tout nombre négatif."
+    },
+    {
+      "id": "ma-rel-027",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le plus petit de ces nombres : −2,5 ; −2,05 ; −2,15 ; −2,55 ?",
+      "choices": [
+        "−2,15",
+        "−2,5",
+        "−2,05",
+        "−2,55"
+      ],
+      "answer": "−2,55",
+      "explain": "Parmi ces négatifs, −2,55 est le plus loin de zéro."
+    },
+    {
+      "id": "ma-rel-028",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand de ces nombres : −10,8 ; −10,08 ; −10 ; −10,88 ?",
+      "choices": [
+        "−10",
+        "−10,8",
+        "−10,08",
+        "−10,88"
+      ],
+      "answer": "−10",
+      "explain": "−10 est le plus proche de zéro."
+    },
+    {
+      "id": "ma-rel-029",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare : −7,81 ... −7,8 (< / >)",
+      "answer": [
+        "<"
+      ],
+      "explain": "Entre deux négatifs, le plus grand est le plus proche de zéro."
+    },
+    {
+      "id": "ma-rel-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "Compare : −3 ... 2 (< / >)",
+      "answer": [
+        "<"
+      ],
+      "explain": "Un nombre négatif est toujours plus petit qu'un nombre positif."
+    },
+    {
+      "id": "ma-rel-031",
+      "level": 3,
+      "type": "input",
+      "prompt": "Compare : −0,09 ... −0,1 (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "Entre deux négatifs, le plus grand est le plus proche de zéro."
+    },
+    {
+      "id": "ma-rel-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le rangement dans l'ordre décroissant de : −0,15 ; −0,2 ; −0,1 ; −0,7 ; −0,25 ?",
+      "choices": [
+        "−0,7 ; −0,25 ; −0,2 ; −0,15 ; −0,1",
+        "−0,1 ; −0,15 ; −0,2 ; −0,25 ; −0,7",
+        "−0,1 ; −0,2 ; −0,15 ; −0,25 ; −0,7",
+        "−0,1 ; −0,15 ; −0,2 ; −0,7 ; −0,25"
+      ],
+      "answer": "−0,1 ; −0,15 ; −0,2 ; −0,25 ; −0,7",
+      "explain": "Ordre décroissant : du plus grand au plus petit."
+    },
+    {
+      "id": "ma-rel-033",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le rangement dans l'ordre décroissant de : −7,81 ; 1,71 ; −7,8 ; −8,3 ; −7,9 ?",
+      "choices": [
+        "1,71 ; −7,81 ; −7,8 ; −7,9 ; −8,3",
+        "−8,3 ; −7,9 ; −7,81 ; −7,8 ; 1,71",
+        "1,71 ; −7,8 ; −7,81 ; −8,3 ; −7,9",
+        "1,71 ; −7,8 ; −7,81 ; −7,9 ; −8,3"
+      ],
+      "answer": "1,71 ; −7,8 ; −7,81 ; −7,9 ; −8,3",
+      "explain": "Ordre décroissant : du plus grand au plus petit."
+    },
+    {
+      "id": "ma-rel-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le rangement dans l'ordre croissant de : −3 ; 5 ; −8 ; 0 ; 2 ?",
+      "choices": [
+        "−8 ; −3 ; 0 ; 5 ; 2",
+        "−8 ; −3 ; 0 ; 2 ; 5",
+        "−8 ; 0 ; −3 ; 2 ; 5",
+        "5 ; 2 ; 0 ; −3 ; −8"
+      ],
+      "answer": "−8 ; −3 ; 0 ; 2 ; 5",
+      "explain": "Ordre croissant : du plus petit au plus grand."
+    },
+    {
+      "id": "ma-rel-035",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le rangement dans l'ordre croissant de : −0,5 ; −0,05 ; −0,55 ; 0,5 ; 0,05 ?",
+      "choices": [
+        "−0,55 ; −0,5 ; −0,05 ; 0,5 ; 0,05",
+        "−0,55 ; −0,5 ; −0,05 ; 0,05 ; 0,5",
+        "0,5 ; 0,05 ; −0,05 ; −0,5 ; −0,55",
+        "−0,55 ; −0,05 ; −0,5 ; 0,05 ; 0,5"
+      ],
+      "answer": "−0,55 ; −0,5 ; −0,05 ; 0,05 ; 0,5",
+      "explain": "Ordre croissant : du plus petit au plus grand."
+    },
+    {
+      "id": "ma-rel-036",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel encadrement de 5,78 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "5 < 5,78 < 7",
+        "6 < 5,78 < 7",
+        "4 < 5,78 < 5",
+        "5 < 5,78 < 6"
+      ],
+      "answer": "5 < 5,78 < 6",
+      "explain": "5,78 est compris entre 5 et 6."
+    },
+    {
+      "id": "ma-rel-037",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel encadrement de 3,08 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "3 < 3,08 < 4",
+        "4 < 3,08 < 5",
+        "3 < 3,08 < 5",
+        "2 < 3,08 < 3"
+      ],
+      "answer": "3 < 3,08 < 4",
+      "explain": "3,08 est compris entre 3 et 4."
+    },
+    {
+      "id": "ma-rel-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel encadrement de −7,4 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "−8 < −7,4 < −7",
+        "−7 < −7,4 < −6",
+        "−9 < −7,4 < −8",
+        "−8 < −7,4 < −6"
+      ],
+      "answer": "−8 < −7,4 < −7",
+      "explain": "−7,4 est compris entre −8 et −7."
+    },
+    {
+      "id": "ma-rel-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel encadrement de −10,8 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "−12 < −10,8 < −11",
+        "−10 < −10,8 < −9",
+        "−11 < −10,8 < −9",
+        "−11 < −10,8 < −10"
+      ],
+      "answer": "−11 < −10,8 < −10",
+      "explain": "−10,8 est compris entre −11 et −10."
+    },
+    {
+      "id": "ma-rel-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel encadrement de −15,5 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "−15 < −15,5 < −14",
+        "−16 < −15,5 < −15",
+        "−17 < −15,5 < −16",
+        "−16 < −15,5 < −14"
+      ],
+      "answer": "−16 < −15,5 < −15",
+      "explain": "−15,5 est compris entre −16 et −15."
+    },
+    {
+      "id": "ma-rel-041",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel encadrement de −3,11 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "−4 < −3,11 < −2",
+        "−3 < −3,11 < −2",
+        "−5 < −3,11 < −4",
+        "−4 < −3,11 < −3"
+      ],
+      "answer": "−4 < −3,11 < −3",
+      "explain": "−3,11 est compris entre −4 et −3."
+    },
+    {
+      "id": "ma-rel-042",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel encadrement de −0,7 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "−1 < −0,7 < 0",
+        "−2 < −0,7 < −1",
+        "0 < −0,7 < 1",
+        "−1 < −0,7 < 1"
+      ],
+      "answer": "−1 < −0,7 < 0",
+      "explain": "−0,7 est compris entre −1 et 0."
+    },
+    {
+      "id": "ma-rel-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel encadrement de −0,09 par deux entiers relatifs consécutifs est correct ?",
+      "choices": [
+        "−1 < −0,09 < 1",
+        "0 < −0,09 < 1",
+        "−1 < −0,09 < 0",
+        "−2 < −0,09 < −1"
+      ],
+      "answer": "−1 < −0,09 < 0",
+      "explain": "−0,09 est compris entre −1 et 0."
+    },
+    {
+      "id": "ma-rel-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le plus grand entier relatif inférieur à −7,4 ?",
+      "answer": [
+        "-8",
+        "−8"
+      ],
+      "explain": "−8 < −7,4 < −7 : l'entier juste en dessous est −8."
+    },
+    {
+      "id": "ma-rel-045",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus grand entier relatif inférieur à −0,7 ?",
+      "answer": [
+        "-1",
+        "−1"
+      ],
+      "explain": "−1 < −0,7 < 0 : l'entier juste en dessous est −1."
+    },
+    {
+      "id": "ma-rel-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un point A est placé entre les graduations −3,5 et −3,4. Quelle peut être son abscisse ?",
+      "choices": [
+        "3,42",
+        "−3,52",
+        "−3,42",
+        "−3,38"
+      ],
+      "answer": "−3,42",
+      "explain": "−3,42 est compris entre −3,5 et −3,4."
+    },
+    {
+      "id": "ma-rel-047",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un point A est placé entre les graduations −2,6 et −2,5. Quelle peut être son abscisse ?",
+      "choices": [
+        "2,57",
+        "−2,48",
+        "−2,57",
+        "−2,62"
+      ],
+      "answer": "−2,57",
+      "explain": "−2,57 est compris entre −2,6 et −2,5."
+    },
+    {
+      "id": "ma-rel-048",
+      "level": 1,
+      "type": "input",
+      "prompt": "La graduation avance de 0,2 en 0,2 vers la droite. Quel nombre vient juste à droite de −0,6 ?",
+      "answer": [
+        "-0,4",
+        "-0.4",
+        "−0,4",
+        "−0.4"
+      ],
+      "explain": "−0,6 + 0,2 = −0,4."
+    },
+    {
+      "id": "ma-rel-049",
+      "level": 3,
+      "type": "input",
+      "prompt": "La graduation avance de 0,05 en 0,05 vers la droite. Quel nombre vient juste à droite de −0,65 ?",
+      "answer": [
+        "-0,6",
+        "-0.6",
+        "−0,6",
+        "−0.6"
+      ],
+      "explain": "−0,65 + 0,05 = −0,6."
+    },
+    {
+      "id": "ma-rel-050",
+      "level": 3,
+      "type": "input",
+      "prompt": "La graduation avance de 0,25 en 0,25 vers la droite. Quel nombre vient juste à droite de −0,25 ?",
+      "answer": [
+        "0",
+        "+0",
+        "-0",
+        "−0"
+      ],
+      "explain": "−0,25 + 0,25 = 0."
+    },
+    {
+      "id": "ma-rel-051",
+      "level": 3,
+      "type": "input",
+      "prompt": "La graduation avance de 0,2 en 0,2. Quel nombre se trouve 3 graduations à gauche de 0,2 ?",
+      "answer": [
+        "-0,4",
+        "-0.4",
+        "−0,4",
+        "−0.4"
+      ],
+      "explain": "3 graduations de 0,2 font 0,6 : 0,2 − 0,6 = −0,4."
+    },
+    {
+      "id": "ma-rel-052",
+      "level": 1,
+      "type": "input",
+      "prompt": "Sur une droite graduée, le point A a pour abscisse −3,5. Son symétrique B par rapport à l'origine a pour abscisse :",
+      "answer": [
+        "+3,5",
+        "+3.5",
+        "3,5",
+        "3.5"
+      ],
+      "explain": "Deux points symétriques par rapport à O ont des abscisses opposées."
+    },
+    {
+      "id": "ma-rel-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Deux points non confondus avec O ont des abscisses opposées. Où est l'origine O ?",
+      "choices": [
+        "À gauche des deux points",
+        "Confondue avec l'un des deux points",
+        "Au milieu du segment qui les joint",
+        "À droite des deux points"
+      ],
+      "answer": "Au milieu du segment qui les joint",
+      "explain": "Des abscisses opposées sont à la même distance de O, de part et d'autre."
+    },
+    {
+      "id": "ma-rel-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Sur une droite graduée, A a pour abscisse −4 et B a pour abscisse 2. Quelle est l'abscisse du milieu de [AB] ?",
+      "answer": [
+        "-1",
+        "−1"
+      ],
+      "explain": "La distance AB est 6, sa moitié est 3 : en partant de −4 et en avançant de 3, on arrive à −1."
+    },
+    {
+      "id": "ma-rel-055",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur une droite graduée, A a pour abscisse −1,5 et B a pour abscisse 0,5. Quelle est l'abscisse du milieu de [AB] ?",
+      "answer": [
+        "-0,5",
+        "-0.5",
+        "−0,5",
+        "−0.5"
+      ],
+      "explain": "La distance AB est 2, sa moitié est 1 : en partant de −1,5 et en avançant de 1, on arrive à −0,5."
+    },
+    {
+      "id": "ma-rel-056",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la distance entre les points d'abscisses −3 et 5 sur une droite graduée ?",
+      "answer": [
+        "+8",
+        "8"
+      ],
+      "explain": "La distance est la plus grande abscisse moins la plus petite."
+    },
+    {
+      "id": "ma-rel-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "L'unité est partagée en 10 parts égales. Un point est placé 7 graduations à gauche de O. Quelle est son abscisse ?",
+      "choices": [
+        "−0,7",
+        "0,7",
+        "−7",
+        "−0,07"
+      ],
+      "answer": "−0,7",
+      "explain": "Chaque graduation vaut 0,1 : 7 graduations à gauche donnent −0,7."
+    },
+    {
+      "id": "ma-rel-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "L'unité est partagée en 4 parts égales. Un point est placé 3 graduations à droite du point d'abscisse 1. Quelle est son abscisse ?",
+      "choices": [
+        "1,25",
+        "1,3",
+        "3,25",
+        "1,75"
+      ],
+      "answer": "1,75",
+      "explain": "Chaque graduation vaut 0,25 : 3 graduations font 0,75, donc 1 + 0,75 = 1,75."
+    },
+    {
+      "id": "ma-rel-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "L'unité est partagée en 4 parts égales. Un point est placé 5 graduations à gauche de O. Quelle est son abscisse ?",
+      "choices": [
+        "−1,25",
+        "−1,5",
+        "−5",
+        "1,25"
+      ],
+      "answer": "−1,25",
+      "explain": "Chaque graduation vaut 0,25 : 5 graduations font 1,25, à gauche de O donc −1,25."
+    },
+    {
+      "id": "ma-rel-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une droite graduée, où se situe le point U d'abscisse 5/4 ?",
+      "choices": [
+        "Entre 1 et 2",
+        "Entre −2 et −1",
+        "Entre 2 et 3",
+        "Entre 0 et 1"
+      ],
+      "answer": "Entre 1 et 2",
+      "explain": "5/4 = 1,25 est compris entre 1 et 2."
+    },
+    {
+      "id": "ma-rel-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Sur une droite graduée, le point d'abscisse −7/4 est situé :",
+      "choices": [
+        "Entre −2 et −1",
+        "Entre 1 et 2",
+        "Entre −1 et 0",
+        "Entre −3 et −2"
+      ],
+      "answer": "Entre −2 et −1",
+      "explain": "−7/4 = −1,75 est compris entre −2 et −1."
+    },
+    {
+      "id": "ma-rel-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est l'opposé de −7/4 ?",
+      "choices": [
+        "7/3",
+        "5/4",
+        "7/4",
+        "−5/4"
+      ],
+      "answer": "7/4",
+      "explain": "L'opposé de −7/4 est 7/4."
+    },
+    {
+      "id": "ma-rel-063",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est l'écriture décimale de 5/4 ?",
+      "choices": [
+        "1,2",
+        "0,54",
+        "1,25",
+        "1,4"
+      ],
+      "answer": "1,25",
+      "explain": "5/4 = 1,25."
+    },
+    {
+      "id": "ma-rel-064",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est compris entre −1 et 0 ?",
+      "choices": [
+        "0,25",
+        "−2,5",
+        "−0,25",
+        "−1,25"
+      ],
+      "answer": "−0,25",
+      "explain": "−1 < −0,25 < 0."
+    },
+    {
+      "id": "ma-rel-065",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule : −5 + 3",
+      "choices": [
+        "−2",
+        "−8",
+        "8",
+        "2"
+      ],
+      "answer": "−2",
+      "explain": "Signes différents : on soustrait les distances à zéro et on garde le signe du plus éloigné de zéro, soit −2."
+    },
+    {
+      "id": "ma-rel-066",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule : (−7) + (−4)",
+      "choices": [
+        "−3",
+        "11",
+        "3",
+        "−11"
+      ],
+      "answer": "−11",
+      "explain": "Même signe : on additionne les distances à zéro et on garde le signe, soit −11."
+    },
+    {
+      "id": "ma-rel-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (+9) + (−12)",
+      "choices": [
+        "−3",
+        "3",
+        "−21",
+        "21"
+      ],
+      "answer": "−3",
+      "explain": "Signes différents : on soustrait les distances à zéro et on garde le signe du plus éloigné de zéro, soit −3."
+    },
+    {
+      "id": "ma-rel-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (−2,5) + (+4)",
+      "choices": [
+        "6,5",
+        "1,5",
+        "−6,5",
+        "−1,5"
+      ],
+      "answer": "1,5",
+      "explain": "Signes différents : on soustrait les distances à zéro et on garde le signe du plus éloigné de zéro, soit 1,5."
+    },
+    {
+      "id": "ma-rel-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (−0,8) + (−0,7)",
+      "choices": [
+        "−1,5",
+        "1,5",
+        "−0,1",
+        "0,1"
+      ],
+      "answer": "−1,5",
+      "explain": "Même signe : on additionne les distances à zéro et on garde le signe, soit −1,5."
+    },
+    {
+      "id": "ma-rel-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (+3,5) + (−8)",
+      "choices": [
+        "−4,5",
+        "11,5",
+        "4,5",
+        "−11,5"
+      ],
+      "answer": "−4,5",
+      "explain": "Signes différents : on soustrait les distances à zéro et on garde le signe du plus éloigné de zéro, soit −4,5."
+    },
+    {
+      "id": "ma-rel-071",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule : (+8) − (+13)",
+      "choices": [
+        "−21",
+        "5",
+        "21",
+        "−5"
+      ],
+      "answer": "−5",
+      "explain": "Soustraire revient à ajouter l'opposé : 8 + (−13) = −5."
+    },
+    {
+      "id": "ma-rel-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (−4) − (+6)",
+      "choices": [
+        "2",
+        "10",
+        "−2",
+        "−10"
+      ],
+      "answer": "−10",
+      "explain": "Soustraire revient à ajouter l'opposé : −4 + (−6) = −10."
+    },
+    {
+      "id": "ma-rel-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (+7) − (−2)",
+      "choices": [
+        "−9",
+        "9",
+        "−5",
+        "5"
+      ],
+      "answer": "9",
+      "explain": "Soustraire revient à ajouter l'opposé : 7 + 2 = 9."
+    },
+    {
+      "id": "ma-rel-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (−10) − (−10)",
+      "choices": [
+        "20",
+        "1",
+        "−20",
+        "0"
+      ],
+      "answer": "0",
+      "explain": "Soustraire revient à ajouter l'opposé : −10 + 10 = 0."
+    },
+    {
+      "id": "ma-rel-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule : (−2,4) − (−0,6)",
+      "choices": [
+        "−3",
+        "1,8",
+        "3",
+        "−1,8"
+      ],
+      "answer": "−1,8",
+      "explain": "Soustraire revient à ajouter l'opposé : −2,4 + 0,6 = −1,8."
+    },
+    {
+      "id": "ma-rel-076",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule : (+3,2) − (−1,8)",
+      "choices": [
+        "−5",
+        "−1,4",
+        "1,4",
+        "5"
+      ],
+      "answer": "5",
+      "explain": "Soustraire revient à ajouter l'opposé : 3,2 + 1,8 = 5."
+    },
+    {
+      "id": "ma-rel-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule : (−0,5) − (+0,7)",
+      "choices": [
+        "1,2",
+        "0,2",
+        "−0,2",
+        "−1,2"
+      ],
+      "answer": "−1,2",
+      "explain": "Soustraire revient à ajouter l'opposé : −0,5 + (−0,7) = −1,2."
+    },
+    {
+      "id": "ma-rel-078",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule : (−12) − (−12)",
+      "answer": [
+        "0",
+        "+0",
+        "-0",
+        "−0"
+      ],
+      "explain": "Soustraire revient à ajouter l'opposé : −12 + 12 = 0."
+    },
+    {
+      "id": "ma-rel-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule : (−5,7) − (−6,2)",
+      "answer": [
+        "+0,5",
+        "+0.5",
+        "0,5",
+        "0.5"
+      ],
+      "explain": "Soustraire revient à ajouter l'opposé : −5,7 + 6,2 = 0,5."
+    },
+    {
+      "id": "ma-rel-080",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule : (−12,4) − (−1,6)",
+      "answer": [
+        "-10,8",
+        "-10.8",
+        "−10,8",
+        "−10.8"
+      ],
+      "explain": "Soustraire revient à ajouter l'opposé : −12,4 + 1,6 = −10,8."
+    },
+    {
+      "id": "ma-rel-081",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule : (+7,5) − (−7,4)",
+      "answer": [
+        "+14,9",
+        "+14.9",
+        "14,9",
+        "14.9"
+      ],
+      "explain": "Soustraire revient à ajouter l'opposé : 7,5 + 7,4 = 14,9."
+    },
+    {
+      "id": "ma-rel-082",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule : (−9,9) − (−8,8)",
+      "answer": [
+        "-1,1",
+        "-1.1",
+        "−1,1",
+        "−1.1"
+      ],
+      "explain": "Soustraire revient à ajouter l'opposé : −9,9 + 8,8 = −1,1."
+    },
+    {
+      "id": "ma-rel-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture sans parenthèses est égale à (−5,7) − (−6,2) ?",
+      "choices": [
+        "−5,7 + 6,2",
+        "5,7 + 6,2",
+        "5,7 − 6,2",
+        "−5,7 − 6,2"
+      ],
+      "answer": "−5,7 + 6,2",
+      "explain": "Soustraire un nombre revient à ajouter son opposé, puis on supprime les parenthèses."
+    },
+    {
+      "id": "ma-rel-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture sans parenthèses est égale à (+3,4) − (+2,1) ?",
+      "choices": [
+        "3,4 − 2,1",
+        "3,4 + 2,1",
+        "−3,4 − 2,1",
+        "−3,4 + 2,1"
+      ],
+      "answer": "3,4 − 2,1",
+      "explain": "Soustraire un nombre revient à ajouter son opposé, puis on supprime les parenthèses."
+    },
+    {
+      "id": "ma-rel-085",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture sans parenthèses est égale à (+8) − (−5) ?",
+      "choices": [
+        "8 − 5",
+        "−8 + 5",
+        "8 + 5",
+        "−8 − 5"
+      ],
+      "answer": "8 + 5",
+      "explain": "Soustraire un nombre revient à ajouter son opposé, puis on supprime les parenthèses."
+    },
+    {
+      "id": "ma-rel-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle écriture sans parenthèses est égale à (−4,5) + (+1,5) ?",
+      "choices": [
+        "−4,5 + 1,5",
+        "4,5 − 1,5",
+        "−4,5 − 1,5",
+        "4,5 + 1,5"
+      ],
+      "answer": "−4,5 + 1,5",
+      "explain": "Ajouter (+y) revient à écrire +y."
+    },
+    {
+      "id": "ma-rel-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Soustraire un nombre relatif revient à :",
+      "choices": [
+        "effacer son signe",
+        "ajouter son opposé",
+        "ajouter ce nombre",
+        "changer le signe du résultat"
+      ],
+      "answer": "ajouter son opposé",
+      "explain": "Soustraire un nombre, c'est ajouter son opposé."
+    },
+    {
+      "id": "ma-rel-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que vaut 6 − (−6) ?",
+      "choices": [
+        "12",
+        "0",
+        "−12",
+        "6"
+      ],
+      "answer": "12",
+      "explain": "Soustraire −6 revient à ajouter 6 : 6 + 6 = 12."
+    },
+    {
+      "id": "ma-rel-089",
+      "level": 2,
+      "type": "input",
+      "prompt": "(−12) − (−15) donne un résultat (positif / négatif)",
+      "answer": [
+        "positif"
+      ],
+      "explain": "(−12) − (−15) = −12 + 15 = 3."
+    },
+    {
+      "id": "ma-rel-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "−5 + 3 = −8 (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Signes différents : −5 + 3 = −2."
+    },
+    {
+      "id": "ma-rel-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "La somme de deux nombres opposés est toujours égale à 0 (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Par exemple 6 + (−6) = 0."
+    },
+    {
+      "id": "ma-rel-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule A = (−1) + (−2) − (+3) + (−4) + (+5) − (−6)",
+      "answer": [
+        "+1",
+        "1"
+      ],
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient 1."
+    },
+    {
+      "id": "ma-rel-093",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule B = (−13) + (−57) − (−24) − (+38) − (−12) + (+13)",
+      "answer": [
+        "-59",
+        "−59"
+      ],
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient −59."
+    },
+    {
+      "id": "ma-rel-094",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule C = (−2,7) − (+6,4) + (−3,7) − (−2,7) + (+10,1)",
+      "answer": [
+        "0",
+        "+0",
+        "-0",
+        "−0"
+      ],
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient 0."
+    },
+    {
+      "id": "ma-rel-095",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule D = (−0,5) + (+0,7) − (−0,6) + (−1,2) − (−0,8)",
+      "answer": [
+        "+0,4",
+        "+0.4",
+        "0,4",
+        "0.4"
+      ],
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient 0,4."
+    },
+    {
+      "id": "ma-rel-096",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule E = −15 + 3 − 2 − 1 + 11",
+      "answer": [
+        "-4",
+        "−4"
+      ],
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient −4."
+    },
+    {
+      "id": "ma-rel-097",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule G = 8 − 5 − (−6) − 8 − (−14) − 3",
+      "answer": [
+        "+12",
+        "12"
+      ],
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient 12."
+    },
+    {
+      "id": "ma-rel-098",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule H = (−5 + 3 − 1) + (3 + 4 − 11) − (1 − 2)",
+      "answer": [
+        "-6",
+        "−6"
+      ],
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient −6."
+    },
+    {
+      "id": "ma-rel-099",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule : (−3) + (−4) + (+9)",
+      "choices": [
+        "−1",
+        "2",
+        "4",
+        "−2"
+      ],
+      "answer": "2",
+      "explain": "On supprime les parenthèses puis on calcule de gauche à droite : 2."
+    },
+    {
+      "id": "ma-rel-100",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : (−8) − (+2) + (−5)",
+      "choices": [
+        "15",
+        "−13",
+        "−18",
+        "−15"
+      ],
+      "answer": "−15",
+      "explain": "On supprime les parenthèses puis on calcule de gauche à droite : −15."
+    },
+    {
+      "id": "ma-rel-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule : −7 + 4 − 6 + 2",
+      "choices": [
+        "−10",
+        "−7",
+        "7",
+        "−5"
+      ],
+      "answer": "−7",
+      "explain": "On calcule de gauche à droite : −7 + 4 = −3, puis −3 − 6 = −9, puis −9 + 2 = −7."
+    },
+    {
+      "id": "ma-rel-102",
+      "level": 1,
+      "type": "input",
+      "prompt": "Il fait −3 °C le matin. La température monte de 8 °C. Quelle est la nouvelle température, en °C ?",
+      "answer": [
+        "+5",
+        "5"
+      ],
+      "explain": "−3 + 8 = 5."
+    },
+    {
+      "id": "ma-rel-103",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un sous-marin est à −12 m. Il remonte de 5 m. Quelle est sa nouvelle altitude, en m ?",
+      "answer": [
+        "-7",
+        "−7"
+      ],
+      "explain": "−12 + 5 = −7."
+    },
+    {
+      "id": "ma-rel-104",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une équipe a marqué 12 buts et en a encaissé 17. Quelle est sa différence de buts ?",
+      "answer": [
+        "-5",
+        "−5"
+      ],
+      "explain": "12 − 17 = −5."
+    },
+    {
+      "id": "ma-rel-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une équipe a une différence de buts de −4. Elle gagne 3 à 0. Quelle est sa nouvelle différence de buts ?",
+      "answer": [
+        "-1",
+        "−1"
+      ],
+      "explain": "−4 + (3 − 0) = −1."
+    },
+    {
+      "id": "ma-rel-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un plongeur est à −8,5 m. Il descend de 3,5 m puis remonte de 6 m. Quelle est sa position finale, en m ?",
+      "answer": [
+        "-6",
+        "−6"
+      ],
+      "explain": "−8,5 − 3,5 + 6 = −6."
+    },
+    {
+      "id": "ma-rel-107",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est l'abscisse du point D(−7 ; 2) ?",
+      "answer": [
+        "-7",
+        "−7"
+      ],
+      "explain": "L'abscisse est le premier nombre."
+    },
+    {
+      "id": "ma-rel-108",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est l'ordonnée du point M(−2,5 ; 3,5) ?",
+      "answer": [
+        "+3,5",
+        "+3.5",
+        "3,5",
+        "3.5"
+      ],
+      "explain": "L'ordonnée est le deuxième nombre."
+    },
+    {
+      "id": "ma-rel-109",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est l'abscisse du point R(4 ; −6) ?",
+      "choices": [
+        "−6",
+        "4",
+        "−4",
+        "6"
+      ],
+      "answer": "4",
+      "explain": "L'abscisse est le premier nombre : 4."
+    },
+    {
+      "id": "ma-rel-110",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est l'ordonnée du point S(−9,9 ; 8,8) ?",
+      "choices": [
+        "8,8",
+        "−9,9",
+        "−8,8",
+        "9,9"
+      ],
+      "answer": "8,8",
+      "explain": "L'ordonnée est le deuxième nombre : 8,8."
+    },
+    {
+      "id": "ma-rel-111",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour placer M(−2 ; 4) depuis l'origine, on se déplace de :",
+      "choices": [
+        "2 unités vers la gauche puis 4 vers le bas",
+        "2 unités vers la gauche puis 4 vers le haut",
+        "4 unités vers la gauche puis 2 vers le haut",
+        "2 unités vers la droite puis 4 vers le haut"
+      ],
+      "answer": "2 unités vers la gauche puis 4 vers le haut",
+      "explain": "Abscisse −2 : vers la gauche ; ordonnée 4 : vers le haut."
+    },
+    {
+      "id": "ma-rel-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour placer N(3 ; −5) depuis l'origine, on se déplace de :",
+      "choices": [
+        "3 unités vers la gauche puis 5 vers le bas",
+        "3 unités vers la droite puis 5 vers le bas",
+        "5 unités vers la droite puis 3 vers le bas",
+        "3 unités vers la droite puis 5 vers le haut"
+      ],
+      "answer": "3 unités vers la droite puis 5 vers le bas",
+      "explain": "Abscisse 3 : vers la droite ; ordonnée −5 : vers le bas."
+    },
+    {
+      "id": "ma-rel-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées du symétrique de M(−4 ; 3) par rapport à l'axe des abscisses ?",
+      "choices": [
+        "(4 ; −3)",
+        "(3 ; −4)",
+        "(−4 ; −3)",
+        "(4 ; 3)"
+      ],
+      "answer": "(−4 ; −3)",
+      "explain": "La symétrie par rapport à l'axe des abscisses change le signe de l'ordonnée."
+    },
+    {
+      "id": "ma-rel-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées du symétrique de M(5 ; −2) par rapport à l'axe des abscisses ?",
+      "choices": [
+        "(−5 ; 2)",
+        "(−2 ; 5)",
+        "(5 ; 2)",
+        "(−5 ; −2)"
+      ],
+      "answer": "(5 ; 2)",
+      "explain": "La symétrie par rapport à l'axe des abscisses change le signe de l'ordonnée."
+    },
+    {
+      "id": "ma-rel-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées du symétrique de M(−3 ; 5) par rapport à l'axe des ordonnées ?",
+      "choices": [
+        "(−3 ; −5)",
+        "(3 ; 5)",
+        "(5 ; −3)",
+        "(3 ; −5)"
+      ],
+      "answer": "(3 ; 5)",
+      "explain": "La symétrie par rapport à l'axe des ordonnées change le signe de l'abscisse."
+    },
+    {
+      "id": "ma-rel-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées du symétrique de M(2,5 ; −1) par rapport à l'axe des ordonnées ?",
+      "choices": [
+        "(−1 ; 2,5)",
+        "(−2,5 ; 1)",
+        "(2,5 ; 1)",
+        "(−2,5 ; −1)"
+      ],
+      "answer": "(−2,5 ; −1)",
+      "explain": "La symétrie par rapport à l'axe des ordonnées change le signe de l'abscisse."
+    },
+    {
+      "id": "ma-rel-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées du symétrique de M(6 ; −2) par rapport à l'origine O ?",
+      "choices": [
+        "(−2 ; 6)",
+        "(−6 ; −2)",
+        "(−6 ; 2)",
+        "(6 ; 2)"
+      ],
+      "answer": "(−6 ; 2)",
+      "explain": "La symétrie par rapport à l'origine change le signe des deux coordonnées."
+    },
+    {
+      "id": "ma-rel-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées du symétrique de M(−1,5 ; 4) par rapport à l'origine O ?",
+      "choices": [
+        "(1,5 ; −4)",
+        "(1,5 ; 4)",
+        "(−1,5 ; −4)",
+        "(4 ; −1,5)"
+      ],
+      "answer": "(1,5 ; −4)",
+      "explain": "La symétrie par rapport à l'origine change le signe des deux coordonnées."
+    },
+    {
+      "id": "ma-rel-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour un symétrique par rapport à l'axe des abscisses, quelle coordonnée change de signe ? (abscisse / ordonnée)",
+      "answer": [
+        "ordonnée"
+      ],
+      "explain": "Le point reste à la même abscisse, mais passe de l'autre côté de l'axe horizontal."
+    },
+    {
+      "id": "ma-rel-120",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est l'ordonnée du symétrique de M(−4 ; 3) par rapport à l'axe des abscisses ?",
+      "answer": [
+        "-3",
+        "−3"
+      ],
+      "explain": "L'ordonnée change de signe : −3."
+    },
+    {
+      "id": "ma-rel-121",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces points est situé sur l'axe des abscisses ?",
+      "choices": [
+        "(0 ; 4)",
+        "(−4 ; −4)",
+        "(4 ; 0)",
+        "(4 ; 4)"
+      ],
+      "answer": "(4 ; 0)",
+      "explain": "Sur l'axe des abscisses, l'ordonnée est égale à 0."
+    },
+    {
+      "id": "ma-rel-122",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces points est situé sur l'axe des ordonnées ?",
+      "choices": [
+        "(3 ; 3)",
+        "(−3 ; 0)",
+        "(−3 ; −3)",
+        "(0 ; −3)"
+      ],
+      "answer": "(0 ; −3)",
+      "explain": "Sur l'axe des ordonnées, l'abscisse est égale à 0."
+    },
+    {
+      "id": "ma-rel-123",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un point situé sur l'axe des abscisses a pour ordonnée :",
+      "answer": [
+        "0",
+        "+0",
+        "-0",
+        "−0"
+      ],
+      "explain": "Sur l'axe horizontal, l'ordonnée vaut 0."
+    },
+    {
+      "id": "ma-rel-124",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le point A(−3 ; 0) est situé :",
+      "choices": [
+        "sur l'origine",
+        "sur l'axe des abscisses",
+        "sur aucun des deux axes",
+        "sur l'axe des ordonnées"
+      ],
+      "answer": "sur l'axe des abscisses",
+      "explain": "Son ordonnée est 0, donc il est sur l'axe des abscisses."
+    },
+    {
+      "id": "ma-rel-125",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le point B(0 ; 2,5) est situé :",
+      "choices": [
+        "sur l'axe des abscisses",
+        "sur l'axe des ordonnées",
+        "sur l'origine",
+        "sur aucun des deux axes"
+      ],
+      "answer": "sur l'axe des ordonnées",
+      "explain": "Son abscisse est 0, donc il est sur l'axe des ordonnées."
+    },
+    {
+      "id": "ma-rel-126",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées de l'origine O ?",
+      "choices": [
+        "(0 ; 0)",
+        "(1 ; 0)",
+        "(0 ; 1)",
+        "(1 ; 1)"
+      ],
+      "answer": "(0 ; 0)",
+      "explain": "L'origine a pour coordonnées (0 ; 0)."
+    },
+    {
+      "id": "ma-rel-127",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le point A a pour coordonnées (−3 ; 2). Quel point a la même abscisse que A ?",
+      "choices": [
+        "(3 ; 2)",
+        "(6 ; −2)",
+        "(2 ; −3)",
+        "(−3 ; −6)"
+      ],
+      "answer": "(−3 ; −6)",
+      "explain": "Même abscisse : le premier nombre est −3."
+    },
+    {
+      "id": "ma-rel-128",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le point A a pour coordonnées (−3 ; 2). Quel point a la même ordonnée que A ?",
+      "choices": [
+        "(−3 ; 7)",
+        "(7 ; 2)",
+        "(2 ; −3)",
+        "(−7 ; −2)"
+      ],
+      "answer": "(7 ; 2)",
+      "explain": "Même ordonnée : le deuxième nombre est 2."
+    },
+    {
+      "id": "ma-rel-129",
+      "level": 1,
+      "type": "input",
+      "prompt": "Deux points ont la même ordonnée. Le segment qui les joint est (horizontal / vertical)",
+      "answer": [
+        "horizontal"
+      ],
+      "explain": "Même hauteur : le segment est horizontal."
+    },
+    {
+      "id": "ma-rel-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un point a une abscisse négative et une ordonnée positive. Lequel de ces points convient ?",
+      "choices": [
+        "(−2 ; −5)",
+        "(2 ; −5)",
+        "(−2 ; 5)",
+        "(2 ; 5)"
+      ],
+      "answer": "(−2 ; 5)",
+      "explain": "Abscisse négative : −2 ; ordonnée positive : 5."
+    },
+    {
+      "id": "ma-rel-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un point a une abscisse positive et une ordonnée négative. Lequel de ces points convient ?",
+      "choices": [
+        "(3 ; 4)",
+        "(−3 ; 4)",
+        "(3 ; −4)",
+        "(−3 ; −4)"
+      ],
+      "answer": "(3 ; −4)",
+      "explain": "Abscisse positive : 3 ; ordonnée négative : −4."
+    },
+    {
+      "id": "ma-rel-132",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A(−3 ; 2) et B(4 ; 2) sont deux points. Le segment [AB] est parallèle à :",
+      "choices": [
+        "aucun des deux axes",
+        "l'axe des abscisses",
+        "l'axe des ordonnées",
+        "les deux axes"
+      ],
+      "answer": "l'axe des abscisses",
+      "explain": "Même ordonnée : le segment est horizontal."
+    },
+    {
+      "id": "ma-rel-133",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "ABCD est un rectangle dont les côtés sont parallèles aux axes. A(−2 ; 1), B(3 ; 1), C(3 ; −4). Quelles sont les coordonnées de D ?",
+      "choices": [
+        "(−2 ; 4)",
+        "(−4 ; −2)",
+        "(−2 ; −4)",
+        "(2 ; −4)"
+      ],
+      "answer": "(−2 ; −4)",
+      "explain": "D a la même abscisse que A et la même ordonnée que C."
+    },
+    {
+      "id": "ma-rel-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un rectangle dont les côtés sont parallèles aux axes. A(−5 ; 3), B(2 ; 3), C(2 ; −1). Quelles sont les coordonnées de D ?",
+      "choices": [
+        "(−1 ; −5)",
+        "(5 ; −1)",
+        "(−5 ; 1)",
+        "(−5 ; −1)"
+      ],
+      "answer": "(−5 ; −1)",
+      "explain": "D a la même abscisse que A et la même ordonnée que C."
+    },
+    {
+      "id": "ma-rel-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un rectangle dont les côtés sont parallèles aux axes. A(1 ; −2), B(6 ; −2), C(6 ; 4). Quelles sont les coordonnées de D ?",
+      "choices": [
+        "(1 ; 4)",
+        "(1 ; −4)",
+        "(4 ; 1)",
+        "(−1 ; 4)"
+      ],
+      "answer": "(1 ; 4)",
+      "explain": "D a la même abscisse que A et la même ordonnée que C."
+    },
+    {
+      "id": "ma-rel-136",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un rectangle aux côtés parallèles aux axes. A(−3 ; 2), B(4 ; 2), C(4 ; −1). Quelle est l'ordonnée de D ?",
+      "answer": [
+        "-1",
+        "−1"
+      ],
+      "explain": "D a la même ordonnée que C."
+    },
+    {
+      "id": "ma-rel-137",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un repère d'unité 1 cm, A(−3 ; 2) et B(4 ; 2). Quelle est la longueur AB, en cm ?",
+      "answer": [
+        "+7",
+        "7"
+      ],
+      "explain": "Même ordonnée : 4 − (−3) = 7."
+    },
+    {
+      "id": "ma-rel-138",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans le rectangle AFBG aux côtés parallèles aux axes, A(1 ; −1,5) et B(−2 ; 3) sont deux sommets opposés. Quelles sont les coordonnées des deux autres sommets F et G (dans un ordre ou dans l'autre) ?",
+      "choices": [
+        "(−1 ; 1,5) et (2 ; −3)",
+        "(−2 ; 1) et (3 ; −1,5)",
+        "(1 ; 3) et (−2 ; −1,5)",
+        "(1 ; −2) et (−1,5 ; 3)"
+      ],
+      "answer": "(1 ; 3) et (−2 ; −1,5)",
+      "explain": "Les autres sommets mélangent les coordonnées de A et de B : (1 ; 3) et (−2 ; −1,5)."
+    },
+    {
+      "id": "ma-rel-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans le rectangle EFGH aux côtés parallèles aux axes, E(−3 ; 4) et G(2 ; −1) sont deux sommets opposés. Quelles sont les coordonnées des deux autres sommets ?",
+      "choices": [
+        "(3 ; −4) et (−2 ; 1)",
+        "(−3 ; 2) et (4 ; −1)",
+        "(−1 ; −3) et (4 ; 2)",
+        "(−3 ; −1) et (2 ; 4)"
+      ],
+      "answer": "(−3 ; −1) et (2 ; 4)",
+      "explain": "Les autres sommets mélangent les coordonnées de E et de G : (−3 ; −1) et (2 ; 4)."
+    },
+    {
+      "id": "ma-rel-140",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un repère, T est le milieu du segment [BF] avec B(−4 ; 3) et F(2 ; 3). Quelles sont les coordonnées de T ?",
+      "choices": [
+        "(−1 ; 3)",
+        "(−2 ; 3)",
+        "(1 ; 3)",
+        "(−1 ; 6)"
+      ],
+      "answer": "(−1 ; 3)",
+      "explain": "B et F ont la même ordonnée 3 ; de −4 à 2 il y a 6 unités, la moitié est 3, et −4 + 3 = −1."
+    },
+    {
+      "id": "ma-rel-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un repère, T est le milieu du segment [BF] avec B(−2 ; −3) et F(−2 ; 1). Quelles sont les coordonnées de T ?",
+      "choices": [
+        "(−2 ; −1)",
+        "(−2 ; −2)",
+        "(−2 ; 1)",
+        "(2 ; −1)"
+      ],
+      "answer": "(−2 ; −1)",
+      "explain": "B et F ont la même abscisse −2 ; de −3 à 1 il y a 4 unités, la moitié est 2, et −3 + 2 = −1."
+    },
+    {
+      "id": "ma-rel-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "A(1 ; −1,5). Le point E a pour abscisse −2,5 et pour ordonnée l'opposé de l'ordonnée de A. Quelles sont les coordonnées de E ?",
+      "choices": [
+        "(2,5 ; 1,5)",
+        "(−2,5 ; 1,5)",
+        "(1,5 ; −2,5)",
+        "(−2,5 ; −1,5)"
+      ],
+      "answer": "(−2,5 ; 1,5)",
+      "explain": "L'opposé de −1,5 est 1,5 : E(−2,5 ; 1,5)."
+    },
+    {
+      "id": "ma-rel-143",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est l'opposé de −12 ?",
+      "choices": [
+        "12",
+        "−12",
+        "−21",
+        "21"
+      ],
+      "answer": "12",
+      "explain": "L'opposé de −12 est 12."
+    },
+    {
+      "id": "ma-rel-144",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une droite graduée, A a pour abscisse −7 et B a pour abscisse −1. Quelle est l'abscisse du milieu de [AB] ?",
+      "choices": [
+        "3",
+        "−3",
+        "−4",
+        "−8"
+      ],
+      "answer": "−4",
+      "explain": "La distance AB est 6, sa moitié est 3 : en partant de −7 et en avançant de 3, on arrive à −4."
+    },
+    {
+      "id": "ma-rel-145",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la distance entre les points d'abscisses −7 et −2 sur une droite graduée ?",
+      "choices": [
+        "5",
+        "9",
+        "−5",
+        "14"
+      ],
+      "answer": "5",
+      "explain": "La distance est la plus grande abscisse moins la plus petite : −2 − (−7) = 5."
+    },
+    {
+      "id": "ma-rel-146",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule : (−6) + (+6)",
+      "choices": [
+        "6",
+        "0",
+        "12",
+        "−12"
+      ],
+      "answer": "0",
+      "explain": "Deux nombres opposés ont pour somme 0."
+    }
+  ]
+}

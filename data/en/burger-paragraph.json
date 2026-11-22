@@ -1,0 +1,1231 @@
+{
+  "topic": "en-burger-paragraph",
+  "questions": [
+    {
+      "id": "en-burg-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How many parts does the Hamburger paragraph have?",
+      "choices": [
+        "Three",
+        "Five",
+        "Four",
+        "Seven"
+      ],
+      "answer": "Five",
+      "explain": "It has a Topic Sentence, three Supporting Sentences and a Concluding Sentence."
+    },
+    {
+      "id": "en-burg-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence tells the reader the main idea, or what the paragraph will be about?",
+      "choices": [
+        "Supporting Sentence One",
+        "Concluding Sentence",
+        "Topic Sentence",
+        "Supporting Sentence Three"
+      ],
+      "answer": "Topic Sentence",
+      "explain": "The Topic Sentence tells the reader the main idea."
+    },
+    {
+      "id": "en-burg-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence refers to the topic sentence and sums up the main idea of the paragraph?",
+      "choices": [
+        "Topic Sentence",
+        "Supporting Sentence Two",
+        "Supporting Sentence One",
+        "Concluding Sentence"
+      ],
+      "answer": "Concluding Sentence",
+      "explain": "The Concluding Sentence refers to the topic sentence and sums up the main idea."
+    },
+    {
+      "id": "en-burg-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What does a Supporting Sentence give?",
+      "choices": [
+        "Specific details relating to the main idea",
+        "A summary of the whole paragraph",
+        "The title of the paragraph",
+        "A question for the reader"
+      ],
+      "answer": "Specific details relating to the main idea",
+      "explain": "Supporting Sentences give specific details relating to the main idea."
+    },
+    {
+      "id": "en-burg-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "In a Hamburger paragraph, which sentence comes first? (Topic Sentence / Concluding Sentence / Supporting Sentence)",
+      "answer": [
+        "Topic Sentence"
+      ],
+      "explain": "The Topic Sentence is the top bun, so it comes first."
+    },
+    {
+      "id": "en-burg-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "In a Hamburger paragraph, which sentence comes last? (Topic Sentence / Concluding Sentence / Supporting Sentence)",
+      "answer": [
+        "Concluding Sentence"
+      ],
+      "explain": "The Concluding Sentence is the bottom bun, so it comes last."
+    },
+    {
+      "id": "en-burg-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "How many Supporting Sentences are there in a Hamburger paragraph? Write a number.",
+      "answer": [
+        "3",
+        "three"
+      ],
+      "explain": "There are Supporting Sentences One, Two and Three."
+    },
+    {
+      "id": "en-burg-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In the Hamburger paragraph model, which part is the top bun?",
+      "choices": [
+        "Topic Sentence",
+        "Supporting Sentence One",
+        "Supporting Sentence Three",
+        "Concluding Sentence"
+      ],
+      "answer": "Topic Sentence",
+      "explain": "The top bun is the Topic Sentence."
+    },
+    {
+      "id": "en-burg-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In the Hamburger paragraph model, which part is the bottom bun?",
+      "choices": [
+        "Topic Sentence",
+        "Concluding Sentence",
+        "Supporting Sentence One",
+        "Supporting Sentence Two"
+      ],
+      "answer": "Concluding Sentence",
+      "explain": "The bottom bun is the Concluding Sentence."
+    },
+    {
+      "id": "en-burg-010",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Supporting Sentence Three give?",
+      "choices": [
+        "More specific details relating to the main idea",
+        "A summary of the whole paragraph",
+        "The main idea of the paragraph",
+        "The title of the paragraph"
+      ],
+      "answer": "More specific details relating to the main idea",
+      "explain": "Supporting Sentence Three gives more specific details relating to the main idea."
+    },
+    {
+      "id": "en-burg-011",
+      "level": 2,
+      "type": "input",
+      "prompt": "The Topic Sentence tells the reader the ___ idea of the paragraph. (one word)",
+      "answer": [
+        "main"
+      ],
+      "explain": "The Topic Sentence tells the reader the main idea."
+    },
+    {
+      "id": "en-burg-012",
+      "level": 2,
+      "type": "input",
+      "prompt": "The Concluding Sentence refers to the ___ sentence. (one word)",
+      "answer": [
+        "topic"
+      ],
+      "explain": "The Concluding Sentence refers to the topic sentence."
+    },
+    {
+      "id": "en-burg-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which list shows the parts of a Hamburger paragraph in the correct order, from top to bottom?",
+      "choices": [
+        "Supporting One, Topic, Supporting Two, Supporting Three, Concluding",
+        "Topic, Supporting One, Supporting Two, Supporting Three, Concluding",
+        "Topic, Supporting One, Concluding, Supporting Two, Supporting Three",
+        "Concluding, Supporting One, Supporting Two, Supporting Three, Topic"
+      ],
+      "answer": "Topic, Supporting One, Supporting Two, Supporting Three, Concluding",
+      "explain": "The order is Topic, three Supporting Sentences, then Concluding."
+    },
+    {
+      "id": "en-burg-014",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Counting from the top bun, what is the third part of the Hamburger paragraph?",
+      "choices": [
+        "Supporting Sentence Three",
+        "Supporting Sentence One",
+        "Supporting Sentence Two",
+        "Concluding Sentence"
+      ],
+      "answer": "Supporting Sentence Two",
+      "explain": "The order is Topic, Supporting One, Supporting Two, so the third part is Supporting Sentence Two."
+    },
+    {
+      "id": "en-burg-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which of these is NOT a part of the Hamburger paragraph?",
+      "choices": [
+        "A Topic Sentence",
+        "A Supporting Sentence Two",
+        "A Concluding Sentence",
+        "A title sentence"
+      ],
+      "answer": "A title sentence",
+      "explain": "The parts are the Topic, Supporting and Concluding Sentences."
+    },
+    {
+      "id": "en-burg-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence does the reader read right after the Topic Sentence?",
+      "choices": [
+        "Supporting Sentence One",
+        "Supporting Sentence Three",
+        "Concluding Sentence",
+        "Supporting Sentence Two"
+      ],
+      "answer": "Supporting Sentence One",
+      "explain": "Supporting Sentence One comes right after the Topic Sentence."
+    },
+    {
+      "id": "en-burg-017",
+      "level": 2,
+      "type": "input",
+      "prompt": "Read: (1) Cats make great pets for families. (2) They are quiet, so they do not disturb the neighbours. (3) They also clean themselves, which saves time. (4) For example, a cat can stay alone for a few hours while you are at school. (5) In conclusion, cats are easy and friendly pets. Which sentence number is the Topic Sentence?",
+      "answer": [
+        "1",
+        "sentence 1"
+      ],
+      "explain": "Sentence 1 tells the reader what the paragraph is about."
+    },
+    {
+      "id": "en-burg-018",
+      "level": 2,
+      "type": "input",
+      "prompt": "Read: (1) Cats make great pets for families. (2) They are quiet, so they do not disturb the neighbours. (3) They also clean themselves, which saves time. (4) For example, a cat can stay alone for a few hours while you are at school. (5) In conclusion, cats are easy and friendly pets. Which sentence number is the Concluding Sentence?",
+      "answer": [
+        "5",
+        "sentence 5"
+      ],
+      "explain": "Sentence 5 sums up the main idea."
+    },
+    {
+      "id": "en-burg-019",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Read: (1) Cats make great pets for families. (2) They are quiet, so they do not disturb the neighbours. (3) They also clean themselves, which saves time. (4) For example, a cat can stay alone for a few hours while you are at school. (5) In conclusion, cats are easy and friendly pets. What is sentence 4?",
+      "choices": [
+        "Supporting Sentence One",
+        "Topic Sentence",
+        "Concluding Sentence",
+        "Supporting Sentence Three"
+      ],
+      "answer": "Supporting Sentence Three",
+      "explain": "Sentences 2, 3 and 4 are Supporting Sentences One, Two and Three."
+    },
+    {
+      "id": "en-burg-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Read: (1) Football is a great sport for children. (2) It keeps players fit because they run a lot. (3) It teaches teamwork when players pass the ball. (4) It also helps children make new friends at the club. (5) That is why football is good for young people. Which sentence is the Concluding Sentence?",
+      "choices": [
+        "Sentence 5",
+        "Sentence 1",
+        "Sentence 2",
+        "Sentence 4"
+      ],
+      "answer": "Sentence 5",
+      "explain": "Sentence 5 sums up the main idea of the paragraph."
+    },
+    {
+      "id": "en-burg-021",
+      "level": 2,
+      "type": "input",
+      "prompt": "Read: (1) Football is a great sport for children. (2) It keeps players fit because they run a lot. (3) It teaches teamwork when players pass the ball. (4) It also helps children make new friends at the club. (5) That is why football is good for young people. Which sentence number is the Topic Sentence?",
+      "answer": [
+        "1",
+        "sentence 1"
+      ],
+      "explain": "Sentence 1 gives the main idea of the paragraph."
+    },
+    {
+      "id": "en-burg-022",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Read: (1) Football is a great sport for children. (2) It keeps players fit because they run a lot. (3) It teaches teamwork when players pass the ball. (4) It also helps children make new friends at the club. (5) That is why football is good for young people. How can you tell that sentence 5 is the Concluding Sentence?",
+      "choices": [
+        "It gives a specific detail",
+        "It says what the paragraph will be about",
+        "It sums up the main idea of the paragraph",
+        "It is the longest sentence"
+      ],
+      "answer": "It sums up the main idea of the paragraph",
+      "explain": "A Concluding Sentence sums up the main idea and refers to the topic sentence."
+    },
+    {
+      "id": "en-burg-023",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Read: (1) Our school library is a wonderful place. (2) It has thousands of books about animals, sport and history. (3) Students can use quiet tables to do their homework. (4) Moreover, the librarian helps us to find a good book. (5) So the library is a very useful place for every student. Which sentence is the Topic Sentence?",
+      "choices": [
+        "Sentence 2",
+        "Sentence 3",
+        "Sentence 5",
+        "Sentence 1"
+      ],
+      "answer": "Sentence 1",
+      "explain": "Sentence 1 gives the main idea: the library is a wonderful place."
+    },
+    {
+      "id": "en-burg-024",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Read: (1) Our school library is a wonderful place. (2) It has thousands of books about animals, sport and history. (3) Students can use quiet tables to do their homework. (4) Moreover, the librarian helps us to find a good book. (5) So the library is a very useful place for every student. Which sentence is the Concluding Sentence?",
+      "choices": [
+        "Sentence 5",
+        "Sentence 2",
+        "Sentence 3",
+        "Sentence 4"
+      ],
+      "answer": "Sentence 5",
+      "explain": "Sentence 5 sums up the main idea, so it is the Concluding Sentence."
+    },
+    {
+      "id": "en-burg-025",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the best Topic Sentence for this paragraph. (1) ... (2) Swimming makes our muscles stronger. (3) It also teaches us to stay safe in the water. (4) For example, many children learn to swim at the age of six. (5) In conclusion, swimming is a great sport for children.",
+      "choices": [
+        "Yesterday I went to the pool with my cousin.",
+        "Swimming is a very good sport for children.",
+        "My swimming bag is blue.",
+        "Pools can be big or small."
+      ],
+      "answer": "Swimming is a very good sport for children.",
+      "explain": "A good Topic Sentence states the main idea that the details support."
+    },
+    {
+      "id": "en-burg-026",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the best Topic Sentence for this paragraph. (1) ... (2) Fresh vegetables are served every day. (3) The meals are cheap, so every family can pay. (4) The cooks also make vegetarian dishes. (5) To sum up, our canteen offers good food for everyone.",
+      "choices": [
+        "The cooks buy fresh vegetables from a local farm.",
+        "I ate pasta on Monday.",
+        "Our school canteen serves healthy and cheap meals.",
+        "Our canteen is on the first floor."
+      ],
+      "answer": "Our school canteen serves healthy and cheap meals.",
+      "explain": "The Topic Sentence must give the main idea, not just one detail."
+    },
+    {
+      "id": "en-burg-027",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the best Concluding Sentence for this paragraph. (1) Reading comics is a fun way to practise English. (2) The pictures help you understand new words. (3) Short speech bubbles are easy to read. (4) For instance, many comics repeat useful phrases. (5) ...",
+      "choices": [
+        "My favourite comic is about a dog who lives on a farm.",
+        "Comics are sold in many shops around the town.",
+        "Some comics have colour pictures on every page.",
+        "Comics are an enjoyable way to improve your English."
+      ],
+      "answer": "Comics are an enjoyable way to improve your English.",
+      "explain": "A Concluding Sentence refers to the topic sentence and sums up the main idea."
+    },
+    {
+      "id": "en-burg-028",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the best Concluding Sentence for this paragraph. (1) Rabbits are easy pets for young children. (2) They eat simple food such as carrots and grass. (3) They do not need long walks. (4) For example, a small garden is enough space for a rabbit. (5) ...",
+      "choices": [
+        "Rabbits are simple and friendly pets for children.",
+        "Carrots are orange vegetables that grow in the ground.",
+        "Rabbits can jump very high when they are scared.",
+        "Dogs are also good pets for families with a garden."
+      ],
+      "answer": "Rabbits are simple and friendly pets for children.",
+      "explain": "The conclusion sums up the main idea and does not add a new detail or a new topic."
+    },
+    {
+      "id": "en-burg-029",
+      "level": 2,
+      "type": "input",
+      "prompt": "Read: 'Dogs are nice animals. They are cute. I like dogs. They can run. Some dogs are big, and some are small. Dogs are good.' Is this a strong or a weak Hamburger paragraph? (strong / weak)",
+      "answer": [
+        "weak"
+      ],
+      "explain": "It gives very little information, with no details or examples."
+    },
+    {
+      "id": "en-burg-030",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why is the topic sentence 'Dogs are nice animals' weak?",
+      "choices": [
+        "It is too long.",
+        "It has too many linking words.",
+        "It doesn't explain much.",
+        "It gives too many examples."
+      ],
+      "answer": "It doesn't explain much.",
+      "explain": "A weak topic sentence does not explain much."
+    },
+    {
+      "id": "en-burg-031",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What is wrong with the supporting details in the weak paragraph about dogs?",
+      "choices": [
+        "They are too long and too difficult.",
+        "They talk about a different topic.",
+        "They repeat the Topic Sentence word for word.",
+        "The ideas are too simple and lack examples."
+      ],
+      "answer": "The ideas are too simple and lack examples.",
+      "explain": "Weak supporting details are too simple and lack examples."
+    },
+    {
+      "id": "en-burg-032",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The weak paragraph about dogs ends with 'Dogs are good.' What is the problem with this sentence?",
+      "choices": [
+        "It doesn't summarize the main idea properly.",
+        "It is too long to read.",
+        "It introduces a new topic.",
+        "It starts with a linking word."
+      ],
+      "answer": "It doesn't summarize the main idea properly.",
+      "explain": "A weak conclusion does not summarize the main idea properly."
+    },
+    {
+      "id": "en-burg-033",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which list shows the three weaknesses of a weak Hamburger paragraph?",
+      "choices": [
+        "Weak title, weak spelling, weak handwriting",
+        "Weak topic sentence, weak supporting details, weak conclusion",
+        "Weak topic sentence, weak linking words, weak title",
+        "Weak supporting details, weak vocabulary, weak conclusion"
+      ],
+      "answer": "Weak topic sentence, weak supporting details, weak conclusion",
+      "explain": "A weak paragraph has a weak topic sentence, weak supporting details and a weak conclusion."
+    },
+    {
+      "id": "en-burg-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "A strong paragraph explains ideas with details and ___. (one word)",
+      "answer": [
+        "examples"
+      ],
+      "explain": "A strong paragraph explains ideas with details and examples."
+    },
+    {
+      "id": "en-burg-035",
+      "level": 1,
+      "type": "input",
+      "prompt": "A weak paragraph gives very little ___. (one word)",
+      "answer": [
+        "information"
+      ],
+      "explain": "A weak paragraph gives very little information."
+    },
+    {
+      "id": "en-burg-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which description fits a strong paragraph?",
+      "choices": [
+        "It explains ideas with details and examples.",
+        "It gives very little information.",
+        "It has only a Topic Sentence.",
+        "It has no Concluding Sentence."
+      ],
+      "answer": "It explains ideas with details and examples.",
+      "explain": "A strong paragraph explains ideas with details and examples."
+    },
+    {
+      "id": "en-burg-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which Topic Sentence is weak because it doesn't explain much?",
+      "choices": [
+        "Football is a great sport because it keeps children fit and teaches teamwork.",
+        "Football is good.",
+        "Football helps children stay healthy, make friends and work as a team.",
+        "Playing football every week improves fitness and builds friendships."
+      ],
+      "answer": "Football is good.",
+      "explain": "A weak topic sentence is too simple and explains little."
+    },
+    {
+      "id": "en-burg-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which Supporting Sentence is the strongest?",
+      "choices": [
+        "Sport is good.",
+        "I like it.",
+        "For example, running and swimming strengthen our muscles.",
+        "It is fun."
+      ],
+      "answer": "For example, running and swimming strengthen our muscles.",
+      "explain": "A strong supporting sentence gives specific details and examples."
+    },
+    {
+      "id": "en-burg-039",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In the strong paragraph 'Why Exercise Is Important', which sentence is the Topic Sentence?",
+      "choices": [
+        "It improves our fitness, gives us more energy, and helps us feel happier.",
+        "Exercise can also reduce stress and help us sleep better at night.",
+        "Overall, exercising regularly is an important habit that helps us live healthier and happier lives.",
+        "Exercise is one of the best ways to keep our bodies healthy and strong."
+      ],
+      "answer": "Exercise is one of the best ways to keep our bodies healthy and strong.",
+      "explain": "The first sentence gives the main idea of the paragraph."
+    },
+    {
+      "id": "en-burg-040",
+      "level": 2,
+      "type": "input",
+      "prompt": "In the strong paragraph 'Why Reading Is Important', what kind of sentence is: 'Reading is an excellent habit that helps people become smarter and more creative.'? (Topic Sentence / Supporting Sentence / Concluding Sentence)",
+      "answer": [
+        "Topic Sentence"
+      ],
+      "explain": "It opens the paragraph and gives the main idea."
+    },
+    {
+      "id": "en-burg-041",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What do linking words do?",
+      "choices": [
+        "They replace the Topic Sentence.",
+        "They connect sentences and ideas.",
+        "They make every sentence shorter.",
+        "They give the title of a paragraph."
+      ],
+      "answer": "They connect sentences and ideas.",
+      "explain": "Linking words connect sentences and ideas."
+    },
+    {
+      "id": "en-burg-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What do linking words help your writing to do?",
+      "choices": [
+        "Become shorter and use fewer words",
+        "Avoid examples and details",
+        "Skip the concluding sentence",
+        "Flow smoothly and be easier to understand"
+      ],
+      "answer": "Flow smoothly and be easier to understand",
+      "explain": "They help your writing flow smoothly and make paragraphs easier to understand."
+    },
+    {
+      "id": "en-burg-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'Furthermore' do?",
+      "choices": [
+        "Adding ideas",
+        "Giving examples",
+        "Showing contrast",
+        "Showing results"
+      ],
+      "answer": "Adding ideas",
+      "explain": "'Furthermore' is used for adding ideas."
+    },
+    {
+      "id": "en-burg-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'For instance' do?",
+      "choices": [
+        "Adding ideas",
+        "Giving examples",
+        "Ordering ideas",
+        "Concluding"
+      ],
+      "answer": "Giving examples",
+      "explain": "'For instance' is used for giving examples."
+    },
+    {
+      "id": "en-burg-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'However' do?",
+      "choices": [
+        "Adding ideas",
+        "Showing results",
+        "Showing contrast",
+        "Ordering ideas"
+      ],
+      "answer": "Showing contrast",
+      "explain": "'However' is used for showing contrast."
+    },
+    {
+      "id": "en-burg-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'Therefore' do?",
+      "choices": [
+        "Showing reasons",
+        "Giving examples",
+        "Showing contrast",
+        "Showing results"
+      ],
+      "answer": "Showing results",
+      "explain": "'Therefore' is used for showing results."
+    },
+    {
+      "id": "en-burg-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'Firstly' do?",
+      "choices": [
+        "Ordering ideas",
+        "Concluding",
+        "Adding ideas",
+        "Showing contrast"
+      ],
+      "answer": "Ordering ideas",
+      "explain": "'Firstly' is used for ordering ideas."
+    },
+    {
+      "id": "en-burg-048",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'In conclusion' do?",
+      "choices": [
+        "Ordering ideas",
+        "Concluding",
+        "Adding ideas",
+        "Giving examples"
+      ],
+      "answer": "Concluding",
+      "explain": "'In conclusion' is used for concluding."
+    },
+    {
+      "id": "en-burg-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'Because' do?",
+      "choices": [
+        "Showing results",
+        "Showing contrast",
+        "Showing reasons",
+        "Giving examples"
+      ],
+      "answer": "Showing reasons",
+      "explain": "'Because' is used for showing reasons."
+    },
+    {
+      "id": "en-burg-050",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'On the other hand' do?",
+      "choices": [
+        "Adding ideas",
+        "Ordering ideas",
+        "Showing reasons",
+        "Showing contrast"
+      ],
+      "answer": "Showing contrast",
+      "explain": "'On the other hand' is used for showing contrast."
+    },
+    {
+      "id": "en-burg-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'Consequently' do?",
+      "choices": [
+        "Showing results",
+        "Showing reasons",
+        "Adding ideas",
+        "Concluding"
+      ],
+      "answer": "Showing results",
+      "explain": "'Consequently' is used for showing results."
+    },
+    {
+      "id": "en-burg-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which job does the linking word 'Finally' do?",
+      "choices": [
+        "Showing results",
+        "Ordering ideas",
+        "Giving examples",
+        "Adding ideas"
+      ],
+      "answer": "Ordering ideas",
+      "explain": "'Finally' is used for ordering ideas."
+    },
+    {
+      "id": "en-burg-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "The linking word 'moreover' is used for ... (adding ideas / showing contrast / giving examples)",
+      "answer": [
+        "adding ideas"
+      ],
+      "explain": "'Moreover' is used for adding ideas."
+    },
+    {
+      "id": "en-burg-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "The linking word 'additionally' is used for ... (adding ideas / showing results / concluding)",
+      "answer": [
+        "adding ideas"
+      ],
+      "explain": "'Additionally' is used for adding ideas."
+    },
+    {
+      "id": "en-burg-055",
+      "level": 2,
+      "type": "input",
+      "prompt": "The linking word 'as a result' is used for ... (showing results / showing contrast / ordering ideas)",
+      "answer": [
+        "showing results"
+      ],
+      "explain": "'As a result' is used for showing results."
+    },
+    {
+      "id": "en-burg-056",
+      "level": 2,
+      "type": "input",
+      "prompt": "The linking word 'secondly' is used for ... (ordering ideas / showing reasons / giving examples)",
+      "answer": [
+        "ordering ideas"
+      ],
+      "explain": "'Secondly' is used for ordering ideas."
+    },
+    {
+      "id": "en-burg-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "The linking word 'next' is used for ... (ordering ideas / showing contrast / concluding)",
+      "answer": [
+        "ordering ideas"
+      ],
+      "explain": "'Next' is used for ordering ideas."
+    },
+    {
+      "id": "en-burg-058",
+      "level": 1,
+      "type": "input",
+      "prompt": "The linking word 'to sum up' is used for ... (concluding / adding ideas / showing contrast)",
+      "answer": [
+        "concluding"
+      ],
+      "explain": "'To sum up' is used for concluding."
+    },
+    {
+      "id": "en-burg-059",
+      "level": 1,
+      "type": "input",
+      "prompt": "The linking word 'for example' is used for ... (giving examples / showing results / ordering ideas)",
+      "answer": [
+        "giving examples"
+      ],
+      "explain": "'For example' is used for giving examples."
+    },
+    {
+      "id": "en-burg-060",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which linking word is used for adding ideas?",
+      "choices": [
+        "However",
+        "Moreover",
+        "For example",
+        "In conclusion"
+      ],
+      "answer": "Moreover",
+      "explain": "'Moreover' adds an idea."
+    },
+    {
+      "id": "en-burg-061",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which linking word is used for giving examples?",
+      "choices": [
+        "Therefore",
+        "Finally",
+        "For instance",
+        "However"
+      ],
+      "answer": "For instance",
+      "explain": "'For instance' introduces an example."
+    },
+    {
+      "id": "en-burg-062",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which linking word is used for showing contrast?",
+      "choices": [
+        "Moreover",
+        "For example",
+        "To sum up",
+        "However"
+      ],
+      "answer": "However",
+      "explain": "'However' shows contrast."
+    },
+    {
+      "id": "en-burg-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which linking word is used for showing reasons?",
+      "choices": [
+        "Because",
+        "Therefore",
+        "Consequently",
+        "As a result"
+      ],
+      "answer": "Because",
+      "explain": "'Because' gives a reason; the other three show results."
+    },
+    {
+      "id": "en-burg-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which linking word is used for showing results?",
+      "choices": [
+        "Because",
+        "Consequently",
+        "Furthermore",
+        "For instance"
+      ],
+      "answer": "Consequently",
+      "explain": "'Consequently' shows a result."
+    },
+    {
+      "id": "en-burg-065",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which linking word is used for ordering ideas?",
+      "choices": [
+        "Moreover",
+        "However",
+        "Secondly",
+        "Therefore"
+      ],
+      "answer": "Secondly",
+      "explain": "'Secondly' orders ideas."
+    },
+    {
+      "id": "en-burg-066",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which linking word is used for concluding?",
+      "choices": [
+        "Furthermore",
+        "For example",
+        "Next",
+        "To sum up"
+      ],
+      "answer": "To sum up",
+      "explain": "'To sum up' concludes a paragraph."
+    },
+    {
+      "id": "en-burg-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which linking word does NOT belong in the group 'Showing results'?",
+      "choices": [
+        "For instance",
+        "Therefore",
+        "Consequently",
+        "As a result"
+      ],
+      "answer": "For instance",
+      "explain": "'For instance' gives an example; the others show results."
+    },
+    {
+      "id": "en-burg-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which linking word does NOT belong in the group 'Adding ideas'?",
+      "choices": [
+        "Furthermore",
+        "However",
+        "Moreover",
+        "Additionally"
+      ],
+      "answer": "However",
+      "explain": "'However' shows contrast; the others add ideas."
+    },
+    {
+      "id": "en-burg-069",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which linking word does NOT belong in the group 'Ordering ideas'?",
+      "choices": [
+        "Firstly",
+        "Secondly",
+        "Therefore",
+        "Next"
+      ],
+      "answer": "Therefore",
+      "explain": "'Therefore' shows a result; the others order ideas."
+    },
+    {
+      "id": "en-burg-070",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair of linking words both show results?",
+      "choices": [
+        "However and moreover",
+        "For example and finally",
+        "Firstly and in conclusion",
+        "Therefore and consequently"
+      ],
+      "answer": "Therefore and consequently",
+      "explain": "'Therefore' and 'consequently' both show results."
+    },
+    {
+      "id": "en-burg-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair of linking words both give examples?",
+      "choices": [
+        "For example and for instance",
+        "Therefore and however",
+        "Firstly and moreover",
+        "Because and finally"
+      ],
+      "answer": "For example and for instance",
+      "explain": "'For example' and 'for instance' both give examples."
+    },
+    {
+      "id": "en-burg-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Our team lost the match. ___, we trained harder. (As a result / For example / In conclusion)",
+      "answer": [
+        "as a result"
+      ],
+      "explain": "The training is a result of losing the match."
+    },
+    {
+      "id": "en-burg-073",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I love basketball. ___, my brother prefers tennis.",
+      "choices": [
+        "In conclusion",
+        "Firstly",
+        "On the other hand",
+        "Consequently"
+      ],
+      "answer": "On the other hand",
+      "explain": "'On the other hand' shows contrast between two people."
+    },
+    {
+      "id": "en-burg-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Cycling is good for health. ___, it is cheap. (Moreover / For example / In conclusion)",
+      "answer": [
+        "moreover"
+      ],
+      "explain": "'Moreover' adds a second advantage."
+    },
+    {
+      "id": "en-burg-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Many sports are popular at school. ___, football, tennis and swimming.",
+      "choices": [
+        "For example",
+        "However",
+        "Therefore",
+        "In conclusion"
+      ],
+      "answer": "For example",
+      "explain": "'For example' introduces examples."
+    },
+    {
+      "id": "en-burg-076",
+      "level": 1,
+      "type": "input",
+      "prompt": "I was late for training ___ the bus was slow. (because / therefore / however)",
+      "answer": [
+        "because"
+      ],
+      "explain": "'Because' gives the reason."
+    },
+    {
+      "id": "en-burg-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The match was cancelled. ___, the players went home.",
+      "choices": [
+        "For instance",
+        "In conclusion",
+        "Consequently",
+        "Firstly"
+      ],
+      "answer": "Consequently",
+      "explain": "'Consequently' shows a result."
+    },
+    {
+      "id": "en-burg-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "___, wash your hands. Secondly, take a clean plate. (Firstly / Finally / In conclusion)",
+      "answer": [
+        "firstly"
+      ],
+      "explain": "'Firstly' starts an ordered list and 'secondly' follows."
+    },
+    {
+      "id": "en-burg-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "First we warmed up. Next, we ran. ___, we stretched. (Finally / Firstly / However)",
+      "answer": [
+        "finally"
+      ],
+      "explain": "'Finally' ends a sequence."
+    },
+    {
+      "id": "en-burg-080",
+      "level": 1,
+      "type": "input",
+      "prompt": "At the end of a paragraph: '___, a good diet helps athletes play well.' (In conclusion / Firstly / However)",
+      "answer": [
+        "in conclusion"
+      ],
+      "explain": "'In conclusion' opens a Concluding Sentence."
+    },
+    {
+      "id": "en-burg-081",
+      "level": 3,
+      "type": "input",
+      "prompt": "Swimming is fun. ___, the water can be cold. (However / For example / In conclusion)",
+      "answer": [
+        "however"
+      ],
+      "explain": "'However' shows contrast."
+    },
+    {
+      "id": "en-burg-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dogs come in many sizes. ___, a chihuahua is tiny and a great dane is huge.",
+      "choices": [
+        "However",
+        "Consequently",
+        "In conclusion",
+        "For instance"
+      ],
+      "answer": "For instance",
+      "explain": "'For instance' introduces an example."
+    },
+    {
+      "id": "en-burg-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Tom did not study. ___, he failed the test.",
+      "choices": [
+        "Therefore",
+        "However",
+        "For example",
+        "In conclusion"
+      ],
+      "answer": "Therefore",
+      "explain": "'Therefore' shows the result of not studying."
+    },
+    {
+      "id": "en-burg-084",
+      "level": 3,
+      "type": "input",
+      "prompt": "Reading improves vocabulary. ___, it develops imagination. (Additionally / However / In conclusion)",
+      "answer": [
+        "additionally"
+      ],
+      "explain": "'Additionally' adds a second idea."
+    },
+    {
+      "id": "en-burg-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Cats sleep a lot during the day. ___, they are very active at night.",
+      "choices": [
+        "Therefore",
+        "For instance",
+        "However",
+        "In conclusion"
+      ],
+      "answer": "However",
+      "explain": "The two ideas are opposite, so 'however' shows contrast."
+    },
+    {
+      "id": "en-burg-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The tickets were sold out. ___, we watched the match at home.",
+      "choices": [
+        "For example",
+        "Firstly",
+        "In conclusion",
+        "Consequently"
+      ],
+      "answer": "Consequently",
+      "explain": "Watching at home is a result of the sold-out tickets."
+    },
+    {
+      "id": "en-burg-087",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She studied hard. ___, she passed the exam.",
+      "choices": [
+        "As a result",
+        "For example",
+        "Firstly",
+        "To sum up"
+      ],
+      "answer": "As a result",
+      "explain": "Passing is the result of studying hard."
+    },
+    {
+      "id": "en-burg-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair of sentences correctly uses a linking word to show a result?",
+      "choices": [
+        "It rained. In conclusion, we stayed inside.",
+        "It rained. As a result, we stayed inside.",
+        "It rained. For example, we stayed inside.",
+        "It rained. Firstly, we stayed inside."
+      ],
+      "answer": "It rained. As a result, we stayed inside.",
+      "explain": "Staying inside is a result of the rain."
+    },
+    {
+      "id": "en-burg-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair of sentences correctly uses a linking word to show contrast?",
+      "choices": [
+        "Maths is difficult. Therefore, I enjoy it.",
+        "Maths is difficult. For instance, I enjoy it.",
+        "Maths is difficult. However, I enjoy it.",
+        "Maths is difficult. To sum up, I enjoy it."
+      ],
+      "answer": "Maths is difficult. However, I enjoy it.",
+      "explain": "'However' shows the contrast between difficult and enjoyable."
+    },
+    {
+      "id": "en-burg-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Read: 'Basketball is a great sport for students. Firstly, it keeps players fit. Furthermore, it teaches teamwork. However, players can get hurt. In conclusion, basketball is a good choice.' Which linking word shows contrast?",
+      "choices": [
+        "Firstly",
+        "Furthermore",
+        "In conclusion",
+        "However"
+      ],
+      "answer": "However",
+      "explain": "'However' shows contrast with the earlier ideas."
+    },
+    {
+      "id": "en-burg-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Read: 'Basketball is a great sport for students. Firstly, it keeps players fit. Furthermore, it teaches teamwork. However, players can get hurt. In conclusion, basketball is a good choice.' Which linking word adds a second idea?",
+      "choices": [
+        "Furthermore",
+        "However",
+        "Firstly",
+        "In conclusion"
+      ],
+      "answer": "Furthermore",
+      "explain": "'Furthermore' adds a second advantage."
+    },
+    {
+      "id": "en-burg-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Read: 'Basketball is a great sport for students. Firstly, it keeps players fit. Furthermore, it teaches teamwork. However, players can get hurt. In conclusion, basketball is a good choice.' Which linking word starts the Concluding Sentence?",
+      "choices": [
+        "Firstly",
+        "In conclusion",
+        "Furthermore",
+        "However"
+      ],
+      "answer": "In conclusion",
+      "explain": "'In conclusion' opens the Concluding Sentence."
+    },
+    {
+      "id": "en-burg-093",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Read: 'Basketball is a great sport for students. Firstly, it keeps players fit. Furthermore, it teaches teamwork. However, players can get hurt. In conclusion, basketball is a good choice.' Which linking word introduces the first detail?",
+      "choices": [
+        "However",
+        "Furthermore",
+        "Firstly",
+        "In conclusion"
+      ],
+      "answer": "Firstly",
+      "explain": "'Firstly' introduces the first detail."
+    },
+    {
+      "id": "en-burg-094",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Read: 'Cats are easy pets. Firstly, they are quiet. Moreover, they clean themselves. For example, a cat can wash its fur alone. To sum up, cats suit busy families.' Which linking word introduces an example?",
+      "choices": [
+        "Moreover",
+        "Firstly",
+        "To sum up",
+        "For example"
+      ],
+      "answer": "For example",
+      "explain": "'For example' introduces the example about washing fur."
+    },
+    {
+      "id": "en-burg-095",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Read: 'Cats are easy pets. Firstly, they are quiet. Moreover, they clean themselves. For example, a cat can wash its fur alone. To sum up, cats suit busy families.' Which linking word adds another advantage?",
+      "choices": [
+        "Moreover",
+        "For example",
+        "Firstly",
+        "To sum up"
+      ],
+      "answer": "Moreover",
+      "explain": "'Moreover' adds a second advantage."
+    }
+  ]
+}

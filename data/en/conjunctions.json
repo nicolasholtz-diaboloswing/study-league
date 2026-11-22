@@ -1,0 +1,1308 @@
+{
+  "topic": "en-conjunctions",
+  "questions": [
+    {
+      "id": "en-conj-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What are conjunctions?",
+      "choices": [
+        "Naming words",
+        "Joining words",
+        "Action words",
+        "Describing words"
+      ],
+      "answer": "Joining words",
+      "explain": "Conjunctions are joining words that connect words, phrases, or sentences."
+    },
+    {
+      "id": "en-conj-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Conjunctions connect words, phrases, or ___.",
+      "choices": [
+        "sentences",
+        "syllables",
+        "capital letters",
+        "full stops"
+      ],
+      "answer": "sentences",
+      "explain": "Conjunctions connect words, phrases, or sentences."
+    },
+    {
+      "id": "en-conj-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "In FANBOYS, the letter F stands for ___.",
+      "answer": [
+        "for"
+      ],
+      "explain": "F stands for For."
+    },
+    {
+      "id": "en-conj-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "In FANBOYS, the letter A stands for ___.",
+      "answer": [
+        "and"
+      ],
+      "explain": "A stands for And."
+    },
+    {
+      "id": "en-conj-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "In FANBOYS, the letter N stands for ___.",
+      "answer": [
+        "nor"
+      ],
+      "explain": "N stands for Nor."
+    },
+    {
+      "id": "en-conj-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In FANBOYS, what does the letter B stand for?",
+      "choices": [
+        "because",
+        "both",
+        "before",
+        "but"
+      ],
+      "answer": "but",
+      "explain": "B stands for But."
+    },
+    {
+      "id": "en-conj-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "In FANBOYS, the letter O stands for ___.",
+      "answer": [
+        "or"
+      ],
+      "explain": "O stands for Or."
+    },
+    {
+      "id": "en-conj-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "In FANBOYS, the letter Y stands for ___.",
+      "answer": [
+        "yet"
+      ],
+      "explain": "Y stands for Yet."
+    },
+    {
+      "id": "en-conj-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In FANBOYS, what does the letter S stand for?",
+      "choices": [
+        "since",
+        "such",
+        "so",
+        "still"
+      ],
+      "answer": "so",
+      "explain": "S stands for So."
+    },
+    {
+      "id": "en-conj-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word is NOT one of the FANBOYS conjunctions?",
+      "choices": [
+        "nor",
+        "although",
+        "yet",
+        "for"
+      ],
+      "answer": "although",
+      "explain": "Although is a subordinating conjunction, so it is not in FANBOYS."
+    },
+    {
+      "id": "en-conj-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "How many conjunctions are there in FANBOYS?",
+      "answer": [
+        "7",
+        "seven"
+      ],
+      "explain": "FANBOYS has seven letters: For, And, Nor, But, Or, Yet, So."
+    },
+    {
+      "id": "en-conj-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Is 'nor' one of the FANBOYS conjunctions? (yes / no)",
+      "answer": [
+        "yes"
+      ],
+      "explain": "N in FANBOYS stands for Nor."
+    },
+    {
+      "id": "en-conj-013",
+      "level": 1,
+      "type": "input",
+      "prompt": "Is 'because' one of the FANBOYS conjunctions? (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "FANBOYS is For, And, Nor, But, Or, Yet, So, and because is not on the list."
+    },
+    {
+      "id": "en-conj-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Coordinating conjunctions join two ideas that ___.",
+      "choices": [
+        "can stand on their own",
+        "depend on a main idea",
+        "work in pairs",
+        "are always questions"
+      ],
+      "answer": "can stand on their own",
+      "explain": "Coordinating conjunctions join two ideas that can stand on their own."
+    },
+    {
+      "id": "en-conj-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Subordinating conjunctions connect a main idea to an idea that ___.",
+      "choices": [
+        "can stand on its own",
+        "works in pairs",
+        "is always a question",
+        "depends on it"
+      ],
+      "answer": "depends on it",
+      "explain": "A subordinating conjunction connects a main idea to an idea that depends on it."
+    },
+    {
+      "id": "en-conj-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Correlative conjunctions ___.",
+      "choices": [
+        "join two full sentences only",
+        "always start a paragraph",
+        "work in pairs",
+        "are the same as FANBOYS"
+      ],
+      "answer": "work in pairs",
+      "explain": "Correlative conjunctions work in pairs, like either ... or."
+    },
+    {
+      "id": "en-conj-017",
+      "level": 1,
+      "type": "input",
+      "prompt": "In 'Beowulf and Wiglaf fought the dragon', the word 'and' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "coordinating"
+      ],
+      "explain": "And is one of the FANBOYS, so it is coordinating."
+    },
+    {
+      "id": "en-conj-018",
+      "level": 1,
+      "type": "input",
+      "prompt": "In 'The sword was heavy, but Beowulf lifted it', the word 'but' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "coordinating"
+      ],
+      "explain": "But is one of the FANBOYS, so it is coordinating."
+    },
+    {
+      "id": "en-conj-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "In 'Do you want to attack or wait?', the word 'or' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "coordinating"
+      ],
+      "explain": "Or is one of the FANBOYS, so it is coordinating."
+    },
+    {
+      "id": "en-conj-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "In 'Although he was old, the king fought', the word 'although' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "subordinating"
+      ],
+      "explain": "Although introduces an idea that depends on the main idea, so it is subordinating."
+    },
+    {
+      "id": "en-conj-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "In 'I will play if it stops raining', the word 'if' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "subordinating"
+      ],
+      "explain": "If introduces a dependent idea, so it is subordinating."
+    },
+    {
+      "id": "en-conj-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "In 'Call me when you arrive', the word 'when' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "subordinating"
+      ],
+      "explain": "When introduces a dependent idea, so it is subordinating."
+    },
+    {
+      "id": "en-conj-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "In 'You can have either tea or coffee', the pair 'either ... or' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "correlative"
+      ],
+      "explain": "Either ... or works in a pair, so it is correlative."
+    },
+    {
+      "id": "en-conj-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete the pair: Both the hero ___ his friend were brave.",
+      "answer": [
+        "and"
+      ],
+      "explain": "Both is always paired with and."
+    },
+    {
+      "id": "en-conj-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete the pair: Neither the king ___ the queen will speak.",
+      "answer": [
+        "nor"
+      ],
+      "explain": "Neither is always paired with nor."
+    },
+    {
+      "id": "en-conj-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which conjunction shows a reason?",
+      "choices": [
+        "or",
+        "because",
+        "although",
+        "unless"
+      ],
+      "answer": "because",
+      "explain": "Because introduces the reason for something."
+    },
+    {
+      "id": "en-conj-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which conjunction shows a result?",
+      "choices": [
+        "so",
+        "because",
+        "although",
+        "if"
+      ],
+      "answer": "so",
+      "explain": "So introduces the result of something."
+    },
+    {
+      "id": "en-conj-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which conjunction shows a contrast?",
+      "choices": [
+        "because",
+        "so",
+        "when",
+        "although"
+      ],
+      "answer": "although",
+      "explain": "Although introduces an idea that contrasts with the main idea."
+    },
+    {
+      "id": "en-conj-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which conjunction shows a choice?",
+      "choices": [
+        "and",
+        "so",
+        "or",
+        "when"
+      ],
+      "answer": "or",
+      "explain": "Or links two possible choices."
+    },
+    {
+      "id": "en-conj-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf fought Grendel ___ he wanted to protect the Danes.",
+      "choices": [
+        "but",
+        "because",
+        "or",
+        "unless"
+      ],
+      "answer": "because",
+      "explain": "Because introduces the reason he fought."
+    },
+    {
+      "id": "en-conj-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The sword was heavy, ___ Beowulf lifted it easily.",
+      "choices": [
+        "but",
+        "because",
+        "so",
+        "or"
+      ],
+      "answer": "but",
+      "explain": "But links two ideas that contrast."
+    },
+    {
+      "id": "en-conj-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Grendel attacked every night, ___ the Danes could not sleep.",
+      "choices": [
+        "but",
+        "or",
+        "unless",
+        "so"
+      ],
+      "answer": "so",
+      "explain": "So introduces the result of the attacks."
+    },
+    {
+      "id": "en-conj-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You can wear the red kit ___ the blue kit, but not both.",
+      "choices": [
+        "and",
+        "so",
+        "or",
+        "because"
+      ],
+      "answer": "or",
+      "explain": "Or links two choices."
+    },
+    {
+      "id": "en-conj-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The match will be cancelled ___ it rains.",
+      "choices": [
+        "but",
+        "if",
+        "or",
+        "nor"
+      ],
+      "answer": "if",
+      "explain": "If introduces a condition."
+    },
+    {
+      "id": "en-conj-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Please call me ___ you arrive at the stadium.",
+      "choices": [
+        "when",
+        "but",
+        "or",
+        "nor"
+      ],
+      "answer": "when",
+      "explain": "When introduces the time of the action."
+    },
+    {
+      "id": "en-conj-036",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We played well, ___ we lost the match.",
+      "choices": [
+        "so",
+        "because",
+        "if",
+        "but"
+      ],
+      "answer": "but",
+      "explain": "But links two ideas that contrast."
+    },
+    {
+      "id": "en-conj-037",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The pitch was wet, ___ the players kept slipping.",
+      "choices": [
+        "but",
+        "or",
+        "so",
+        "unless"
+      ],
+      "answer": "so",
+      "explain": "So introduces the result of the wet pitch."
+    },
+    {
+      "id": "en-conj-038",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The referee stopped the game ___ a player was hurt.",
+      "choices": [
+        "but",
+        "because",
+        "or",
+        "so"
+      ],
+      "answer": "because",
+      "explain": "Because gives the reason the game stopped."
+    },
+    {
+      "id": "en-conj-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You can choose ___ the sword ___ the shield, but not both.",
+      "choices": [
+        "either / or",
+        "both / but",
+        "neither / and",
+        "not only / and"
+      ],
+      "answer": "either / or",
+      "explain": "Either ... or links two choices."
+    },
+    {
+      "id": "en-conj-040",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'The man did not fight, nor did he run', the word 'nor' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "coordinating"
+      ],
+      "explain": "Nor is one of the FANBOYS, so it is coordinating."
+    },
+    {
+      "id": "en-conj-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'The sword was old, yet it was sharp', the word 'yet' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "coordinating"
+      ],
+      "explain": "Yet is one of the FANBOYS, so it is coordinating."
+    },
+    {
+      "id": "en-conj-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'We will lose unless we defend better', the word 'unless' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "subordinating"
+      ],
+      "explain": "Unless introduces a dependent idea, so it is subordinating."
+    },
+    {
+      "id": "en-conj-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'Wiglaf watched while Beowulf fought', the word 'while' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "subordinating"
+      ],
+      "explain": "While introduces a dependent idea, so it is subordinating."
+    },
+    {
+      "id": "en-conj-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'Both the knight and the squire are ready', the pair 'both ... and' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "correlative"
+      ],
+      "explain": "Both ... and works in a pair, so it is correlative."
+    },
+    {
+      "id": "en-conj-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'She is not only fast but also strong', the pair 'not only ... but also' is a ___ conjunction. (coordinating / subordinating / correlative)",
+      "answer": [
+        "correlative"
+      ],
+      "explain": "Not only ... but also works in a pair, so it is correlative."
+    },
+    {
+      "id": "en-conj-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Is 'yet' one of the FANBOYS conjunctions? (yes / no)",
+      "answer": [
+        "yes"
+      ],
+      "explain": "Y in FANBOYS stands for Yet."
+    },
+    {
+      "id": "en-conj-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Is 'while' one of the FANBOYS conjunctions? (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "While is a subordinating conjunction, so it is not in FANBOYS."
+    },
+    {
+      "id": "en-conj-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Which conjunction means 'if not'?",
+      "answer": [
+        "unless"
+      ],
+      "explain": "Unless means if not."
+    },
+    {
+      "id": "en-conj-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Unless it stops raining, we will stay home. = If it does ___ stop raining, we will stay home.",
+      "answer": [
+        "not"
+      ],
+      "explain": "Unless means if not."
+    },
+    {
+      "id": "en-conj-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'I stayed in because it rained', the word 'because' introduces the ___. (reason / result)",
+      "answer": [
+        "reason"
+      ],
+      "explain": "It rained is the reason; I stayed in is the result."
+    },
+    {
+      "id": "en-conj-051",
+      "level": 2,
+      "type": "input",
+      "prompt": "In 'It rained, so I stayed in', the word 'so' introduces the ___. (reason / result)",
+      "answer": [
+        "result"
+      ],
+      "explain": "Staying in is the result of the rain."
+    },
+    {
+      "id": "en-conj-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf did not run away, ___ did he ask for help.",
+      "choices": [
+        "nor",
+        "and",
+        "but",
+        "or"
+      ],
+      "answer": "nor",
+      "explain": "Nor joins two negative ideas, and the helping verb comes before the subject after it."
+    },
+    {
+      "id": "en-conj-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete the pair: Either the king ___ the queen will speak first.",
+      "answer": [
+        "or"
+      ],
+      "explain": "Either is always paired with or."
+    },
+    {
+      "id": "en-conj-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete the pair: She is not only fast but ___ strong.",
+      "answer": [
+        "also"
+      ],
+      "explain": "The pair is not only ... but also."
+    },
+    {
+      "id": "en-conj-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ the sea was rough, the Geats sailed on.",
+      "choices": [
+        "Because",
+        "So",
+        "Unless",
+        "Although"
+      ],
+      "answer": "Although",
+      "explain": "Although shows that the Geats sailed in spite of the rough sea."
+    },
+    {
+      "id": "en-conj-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We will lose the final ___ we defend better.",
+      "choices": [
+        "because",
+        "or",
+        "unless",
+        "nor"
+      ],
+      "answer": "unless",
+      "explain": "Unless means if not: we lose if we do not defend better."
+    },
+    {
+      "id": "en-conj-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She has played football ___ she was six.",
+      "choices": [
+        "while",
+        "since",
+        "unless",
+        "although"
+      ],
+      "answer": "since",
+      "explain": "Since gives the starting point in time."
+    },
+    {
+      "id": "en-conj-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ it was getting dark, the team went home.",
+      "choices": [
+        "Since",
+        "Although",
+        "Unless",
+        "Or"
+      ],
+      "answer": "Since",
+      "explain": "Since gives the reason here: it was getting dark."
+    },
+    {
+      "id": "en-conj-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Wiglaf watched ___ Beowulf fought the dragon.",
+      "choices": [
+        "unless",
+        "although",
+        "so",
+        "while"
+      ],
+      "answer": "while",
+      "explain": "While shows two things happening at the same time."
+    },
+    {
+      "id": "en-conj-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf loved adventure, ___ Hrothgar preferred a quiet life.",
+      "choices": [
+        "because",
+        "unless",
+        "while",
+        "so"
+      ],
+      "answer": "while",
+      "explain": "While can show a contrast between two people."
+    },
+    {
+      "id": "en-conj-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The hall was empty ___ everyone had left.",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "or"
+      ],
+      "answer": "because",
+      "explain": "Because introduces the reason the hall was empty."
+    },
+    {
+      "id": "en-conj-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Everyone had left, ___ the hall was empty.",
+      "choices": [
+        "so",
+        "or",
+        "although",
+        "unless"
+      ],
+      "answer": "so",
+      "explain": "So introduces the result of everyone leaving."
+    },
+    {
+      "id": "en-conj-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The dragon woke up ___ the thief took a golden cup.",
+      "choices": [
+        "unless",
+        "or",
+        "so",
+        "when"
+      ],
+      "answer": "when",
+      "explain": "When shows the moment the dragon woke up."
+    },
+    {
+      "id": "en-conj-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The goalkeeper was injured, ___ the coach chose a new one.",
+      "choices": [
+        "but",
+        "unless",
+        "so",
+        "although"
+      ],
+      "answer": "so",
+      "explain": "So introduces the result of the injury."
+    },
+    {
+      "id": "en-conj-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "You cannot join the team ___ you come to training.",
+      "choices": [
+        "or",
+        "unless",
+        "so",
+        "and"
+      ],
+      "answer": "unless",
+      "explain": "Unless means if you do not come to training."
+    },
+    {
+      "id": "en-conj-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Hrothgar was old, ___ he could not fight Grendel himself.",
+      "choices": [
+        "so",
+        "but",
+        "unless",
+        "or"
+      ],
+      "answer": "so",
+      "explain": "So introduces the result of being old."
+    },
+    {
+      "id": "en-conj-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The warriors sang ___ the feast was going on.",
+      "choices": [
+        "unless",
+        "although",
+        "so",
+        "while"
+      ],
+      "answer": "while",
+      "explain": "While shows two things happening at the same time."
+    },
+    {
+      "id": "en-conj-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The king will reward you ___ you defeat the monster.",
+      "choices": [
+        "unless",
+        "although",
+        "if",
+        "or"
+      ],
+      "answer": "if",
+      "explain": "If introduces the condition for the reward."
+    },
+    {
+      "id": "en-conj-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The goalkeeper saved the penalty, ___ the team still lost.",
+      "choices": [
+        "so",
+        "but",
+        "because",
+        "if"
+      ],
+      "answer": "but",
+      "explain": "But links two ideas that contrast."
+    },
+    {
+      "id": "en-conj-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ Beowulf was exhausted, he refused to rest.",
+      "choices": [
+        "Although",
+        "Because",
+        "So",
+        "Unless"
+      ],
+      "answer": "Although",
+      "explain": "Although shows he refused to rest in spite of being exhausted."
+    },
+    {
+      "id": "en-conj-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The match ended 0-0: ___ the home team ___ the visitors scored a goal.",
+      "choices": [
+        "either / or",
+        "both / and",
+        "not only / but also",
+        "neither / nor"
+      ],
+      "answer": "neither / nor",
+      "explain": "Neither ... nor links two negative ideas."
+    },
+    {
+      "id": "en-conj-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He is good at ___ running ___ swimming, so he enjoys both sports.",
+      "choices": [
+        "either / or",
+        "neither / nor",
+        "both / and",
+        "not only / or"
+      ],
+      "answer": "both / and",
+      "explain": "Both ... and links two things that are both true."
+    },
+    {
+      "id": "en-conj-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The captain was ___ brave ___ very kind.",
+      "choices": [
+        "either / and",
+        "not only / but also",
+        "neither / or",
+        "both / but"
+      ],
+      "answer": "not only / but also",
+      "explain": "Not only ... but also adds a second quality."
+    },
+    {
+      "id": "en-conj-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence uses although correctly?",
+      "choices": [
+        "Although it was late, the team kept training.",
+        "Although it was late, but the team kept training.",
+        "Although it was late, so the team kept training.",
+        "Although it was late, and the team kept training."
+      ],
+      "answer": "Although it was late, the team kept training.",
+      "explain": "Although is never used with but, so, or and in the same sentence."
+    },
+    {
+      "id": "en-conj-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence uses because correctly?",
+      "choices": [
+        "Because it rained, so we stayed inside.",
+        "Because it rained, but we stayed inside.",
+        "Because it rained, although we stayed inside.",
+        "Because it rained, we stayed inside."
+      ],
+      "answer": "Because it rained, we stayed inside.",
+      "explain": "Because is never used with so in the same sentence."
+    },
+    {
+      "id": "en-conj-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same as 'You will not win unless you train'?",
+      "choices": [
+        "If you train, you will not win.",
+        "You will win if you do not train.",
+        "If you do not train, you will not win.",
+        "You will not win because you train."
+      ],
+      "answer": "If you do not train, you will not win.",
+      "explain": "Unless means if not."
+    },
+    {
+      "id": "en-conj-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I will tell you the news when I ___ home.",
+      "choices": [
+        "will get",
+        "get",
+        "would get",
+        "got"
+      ],
+      "answer": "get",
+      "explain": "After when, we use the present simple to talk about the future."
+    },
+    {
+      "id": "en-conj-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If it ___ tomorrow, the match will be cancelled.",
+      "choices": [
+        "rains",
+        "will rain",
+        "would rain",
+        "rained"
+      ],
+      "answer": "rains",
+      "explain": "After if, we use the present simple to talk about the future."
+    },
+    {
+      "id": "en-conj-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We will go to the beach tomorrow if the weather ___ nice.",
+      "choices": [
+        "will be",
+        "is",
+        "would be",
+        "was"
+      ],
+      "answer": "is",
+      "explain": "After if, we use the present simple to talk about the future."
+    },
+    {
+      "id": "en-conj-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence uses when correctly to talk about the future?",
+      "choices": [
+        "I will call you when I arrive.",
+        "I will call you when I will arrive.",
+        "I will call you when I would arrive.",
+        "I will call you when I arrived."
+      ],
+      "answer": "I will call you when I arrive.",
+      "explain": "After when, we use the present simple, not will, to talk about the future."
+    },
+    {
+      "id": "en-conj-081",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf trusted his sword ___ it failed him against Grendel's mother.",
+      "choices": [
+        "because",
+        "so",
+        "unless",
+        "although"
+      ],
+      "answer": "although",
+      "explain": "Although shows a contrast: he trusted it, but it failed him."
+    },
+    {
+      "id": "en-conj-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The Danes were frightened ___ Grendel was only one monster.",
+      "choices": [
+        "because",
+        "so",
+        "although",
+        "unless"
+      ],
+      "answer": "although",
+      "explain": "Although shows a contrast between their fear and the fact that he was only one monster."
+    },
+    {
+      "id": "en-conj-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ the dragon sleeps, the village is safe.",
+      "choices": [
+        "Unless",
+        "While",
+        "Although",
+        "So"
+      ],
+      "answer": "While",
+      "explain": "While shows two things happening at the same time."
+    },
+    {
+      "id": "en-conj-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ the knights were sleeping, the thief crept into the cave.",
+      "choices": [
+        "While",
+        "Unless",
+        "Although",
+        "So"
+      ],
+      "answer": "While",
+      "explain": "While shows that the two actions happened at the same time."
+    },
+    {
+      "id": "en-conj-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "You cannot enter the hall ___ you leave your sword outside.",
+      "choices": [
+        "although",
+        "while",
+        "since",
+        "unless"
+      ],
+      "answer": "unless",
+      "explain": "Unless means if you do not leave your sword outside."
+    },
+    {
+      "id": "en-conj-086",
+      "level": 3,
+      "type": "input",
+      "prompt": "In 'Since she was injured, she could not play', the word 'since' shows ___. (time / reason)",
+      "answer": [
+        "reason"
+      ],
+      "explain": "Here since means because."
+    },
+    {
+      "id": "en-conj-087",
+      "level": 3,
+      "type": "input",
+      "prompt": "In 'I have known him since 2020', the word 'since' shows ___. (time / reason)",
+      "answer": [
+        "time"
+      ],
+      "explain": "Here since gives a starting point in time."
+    },
+    {
+      "id": "en-conj-088",
+      "level": 3,
+      "type": "input",
+      "prompt": "In 'While I was training, it started to rain', the word 'while' shows ___. (time / contrast)",
+      "answer": [
+        "time"
+      ],
+      "explain": "Here while means at the same time as."
+    },
+    {
+      "id": "en-conj-089",
+      "level": 3,
+      "type": "input",
+      "prompt": "In 'Beowulf is a warrior, while Hrothgar is a king', the word 'while' shows ___. (time / contrast)",
+      "answer": [
+        "contrast"
+      ],
+      "explain": "Here while compares two different people."
+    },
+    {
+      "id": "en-conj-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence uses neither ... nor correctly?",
+      "choices": [
+        "Neither the king nor the queen wasn't afraid.",
+        "Neither the king nor the queen was afraid.",
+        "Neither the king or the queen was afraid.",
+        "Neither the king and the queen was afraid."
+      ],
+      "answer": "Neither the king nor the queen was afraid.",
+      "explain": "Neither is paired with nor, and the pair already has a negative meaning."
+    },
+    {
+      "id": "en-conj-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence uses both ... and correctly?",
+      "choices": [
+        "Both the hero and his friend were brave.",
+        "Both the hero or his friend were brave.",
+        "Both the hero and his friend was brave.",
+        "Both the hero but his friend were brave."
+      ],
+      "answer": "Both the hero and his friend were brave.",
+      "explain": "Both ... and takes a plural verb."
+    },
+    {
+      "id": "en-conj-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence uses either ... or correctly?",
+      "choices": [
+        "Either you leave now nor you will miss the bus.",
+        "Either you leave now but you will miss the bus.",
+        "Either you leave now so you will miss the bus.",
+        "Either you leave now or you will miss the bus."
+      ],
+      "answer": "Either you leave now or you will miss the bus.",
+      "explain": "Either is paired with or."
+    },
+    {
+      "id": "en-conj-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence puts the cause and the effect the right way round?",
+      "choices": [
+        "It had rained because the ground was wet.",
+        "The ground was wet so it had rained.",
+        "The ground was wet because it had rained.",
+        "It had rained, so because the ground was wet."
+      ],
+      "answer": "The ground was wet because it had rained.",
+      "explain": "Because introduces the reason, and the rain is the reason for the wet ground."
+    },
+    {
+      "id": "en-conj-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence has the right word order after nor?",
+      "choices": [
+        "Hrothgar did not sleep, nor he did rest.",
+        "Hrothgar did not sleep, nor did he rest.",
+        "Hrothgar did not sleep, nor did not he rest.",
+        "Hrothgar did not sleep, nor rested he not."
+      ],
+      "answer": "Hrothgar did not sleep, nor did he rest.",
+      "explain": "After nor, the helping verb comes before the subject."
+    },
+    {
+      "id": "en-conj-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Both Beowulf and his men ___ ready to fight.",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": "are",
+      "explain": "Both ... and takes a plural verb."
+    },
+    {
+      "id": "en-conj-096",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Either the king or the queen ___ going to speak.",
+      "choices": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer": "is",
+      "explain": "Both subjects are singular, so the verb is singular."
+    },
+    {
+      "id": "en-conj-097",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Neither the dragon nor the wolf ___ afraid of fire.",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": "is",
+      "explain": "Both subjects are singular, so the verb is singular."
+    },
+    {
+      "id": "en-conj-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Neither the knights nor the soldiers ___ afraid of the monster.",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": "are",
+      "explain": "Both subjects are plural, so the verb is plural."
+    },
+    {
+      "id": "en-conj-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Either the players or the coaches ___ going to answer the questions.",
+      "choices": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer": "are",
+      "explain": "Both subjects are plural, so the verb is plural."
+    },
+    {
+      "id": "en-conj-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair completes the sentence? ___ Grendel ___ his mother could be beaten by ordinary men, so Beowulf was needed.",
+      "choices": [
+        "Either / or",
+        "Both / and",
+        "Neither / nor",
+        "Not only / but also"
+      ],
+      "answer": "Neither / nor",
+      "explain": "Neither ... nor links two negative ideas."
+    },
+    {
+      "id": "en-conj-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair completes the sentence? Beowulf ___ fought Grendel ___ also his mother.",
+      "choices": [
+        "neither / nor",
+        "not only / but",
+        "either / or",
+        "both / but"
+      ],
+      "answer": "not only / but",
+      "explain": "The pair is not only ... but also, and also is already in the sentence."
+    },
+    {
+      "id": "en-conj-102",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair completes the sentence? The hero was ___ strong ___ clever, so he won easily.",
+      "choices": [
+        "both / and",
+        "either / and",
+        "neither / nor",
+        "not only / or"
+      ],
+      "answer": "both / and",
+      "explain": "Both ... and links two qualities that are both true."
+    },
+    {
+      "id": "en-conj-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which pair completes the sentence? You must ___ train hard ___ accept losing, so choose now.",
+      "choices": [
+        "both / and",
+        "neither / nor",
+        "not only / but also",
+        "either / or"
+      ],
+      "answer": "either / or",
+      "explain": "Either ... or links two options that exclude each other."
+    }
+  ]
+}

@@ -1,0 +1,1947 @@
+{
+  "topic": "en-present-tenses",
+  "questions": [
+    {
+      "id": "en-pres-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Every morning my brother ___ to school by bike.",
+      "choices": [
+        "goes",
+        "go",
+        "gos",
+        "is going"
+      ],
+      "answer": "goes",
+      "explain": "Habit with 'every morning': he/she/it + verb + -es (goes)."
+    },
+    {
+      "id": "en-pres-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Water ___ at 100 degrees Celsius.",
+      "choices": [
+        "boil",
+        "is boiling",
+        "boiling",
+        "boils"
+      ],
+      "answer": "boils",
+      "explain": "A general truth takes the present simple: boils."
+    },
+    {
+      "id": "en-pres-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The school bus ___ at 8:15 every day.",
+      "choices": [
+        "arrive",
+        "is arriving",
+        "arrives",
+        "arrivies"
+      ],
+      "answer": "arrives",
+      "explain": "A timetable or routine takes the present simple."
+    },
+    {
+      "id": "en-pres-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My cat ___ on the sofa every afternoon.",
+      "choices": [
+        "sleep",
+        "sleeps",
+        "sleepes",
+        "is sleeping"
+      ],
+      "answer": "sleeps",
+      "explain": "Habit: he/she/it + verb + -s."
+    },
+    {
+      "id": "en-pres-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf ___ monsters. It is his job.",
+      "choices": [
+        "fights",
+        "fight",
+        "fightes",
+        "is fighting"
+      ],
+      "answer": "fights",
+      "explain": "A permanent job or habit takes the present simple: fights."
+    },
+    {
+      "id": "en-pres-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The match ___ at 3 p.m. on Saturdays.",
+      "choices": [
+        "start",
+        "startes",
+        "is starting",
+        "starts"
+      ],
+      "answer": "starts",
+      "explain": "Regular schedules use the present simple."
+    },
+    {
+      "id": "en-pres-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? Use the third person.",
+      "choices": [
+        "He watchs TV after dinner.",
+        "He watch TV after dinner.",
+        "He watches TV after dinner.",
+        "He watchies TV after dinner."
+      ],
+      "answer": "He watches TV after dinner.",
+      "explain": "Verbs ending in -ch take -es: watches."
+    },
+    {
+      "id": "en-pres-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My sister ___ English at school every Monday.",
+      "choices": [
+        "studys",
+        "studies",
+        "study",
+        "studyes"
+      ],
+      "answer": "studies",
+      "explain": "Consonant + y becomes -ies: studies."
+    },
+    {
+      "id": "en-pres-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tom ___ two sisters and a brother.",
+      "choices": [
+        "has",
+        "have",
+        "haves",
+        "is having"
+      ],
+      "answer": "has",
+      "explain": "Have is irregular: he/she/it has."
+    },
+    {
+      "id": "en-pres-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ play tennis on Mondays. I play it on Tuesdays.",
+      "choices": [
+        "doesn't",
+        "am not",
+        "not",
+        "don't"
+      ],
+      "answer": "don't",
+      "explain": "Negative with I/you/we/they: don't + base verb."
+    },
+    {
+      "id": "en-pres-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ like cold milk. She never drinks it.",
+      "choices": [
+        "don't",
+        "isn't",
+        "doesn't",
+        "not"
+      ],
+      "answer": "doesn't",
+      "explain": "Negative with he/she/it: doesn't + base verb."
+    },
+    {
+      "id": "en-pres-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you play football at school every week?",
+      "choices": [
+        "Does",
+        "Do",
+        "Are",
+        "Is"
+      ],
+      "answer": "Do",
+      "explain": "Questions with you/I/we/they start with Do."
+    },
+    {
+      "id": "en-pres-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ your dad work on Saturdays?",
+      "choices": [
+        "Does",
+        "Do",
+        "Is",
+        "Has"
+      ],
+      "answer": "Does",
+      "explain": "Questions with he/she/it start with Does."
+    },
+    {
+      "id": "en-pres-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "There ___ a library near my school.",
+      "choices": [
+        "are",
+        "have",
+        "be",
+        "is"
+      ],
+      "answer": "is",
+      "explain": "Use 'there is' with one singular thing."
+    },
+    {
+      "id": "en-pres-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Our train ___ from platform 4 every morning.",
+      "choices": [
+        "leave",
+        "leavs",
+        "leaves",
+        "is leaving"
+      ],
+      "answer": "leaves",
+      "explain": "A routine timetable takes the present simple: leaves."
+    },
+    {
+      "id": "en-pres-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question is correct?",
+      "choices": [
+        "Does he plays the guitar?",
+        "Does he play the guitar?",
+        "Do he play the guitar?",
+        "Is he play the guitar?"
+      ],
+      "answer": "Does he play the guitar?",
+      "explain": "After does, the verb has no -s: Does he play."
+    },
+    {
+      "id": "en-pres-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which negative sentence is correct?",
+      "choices": [
+        "He doesn't like spiders.",
+        "He don't like spiders.",
+        "He doesn't likes spiders.",
+        "He not like spiders."
+      ],
+      "answer": "He doesn't like spiders.",
+      "explain": "After doesn't, use the base verb: doesn't like."
+    },
+    {
+      "id": "en-pres-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'Does Grendel live in the mead hall Heorot?' 'No, ___.'",
+      "choices": [
+        "he don't",
+        "he isn't",
+        "he not",
+        "he doesn't"
+      ],
+      "answer": "he doesn't",
+      "explain": "Short answer with does: No, he doesn't."
+    },
+    {
+      "id": "en-pres-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "'Do you like pizza?' 'Yes, ___.'",
+      "choices": [
+        "I does",
+        "I like",
+        "I do",
+        "I am"
+      ],
+      "answer": "I do",
+      "explain": "A short answer repeats the auxiliary: Yes, I do."
+    },
+    {
+      "id": "en-pres-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My brother ___ late for training.",
+      "choices": [
+        "never is",
+        "is never",
+        "does never be",
+        "never are"
+      ],
+      "answer": "is never",
+      "explain": "Frequency adverbs go after the verb 'be': is never."
+    },
+    {
+      "id": "en-pres-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ___ her homework after dinner.",
+      "choices": [
+        "always does",
+        "does always",
+        "always do",
+        "is always does"
+      ],
+      "answer": "always does",
+      "explain": "Frequency adverbs go before a normal verb: always does."
+    },
+    {
+      "id": "en-pres-022",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence has the adverb in the right place?",
+      "choices": [
+        "They go to often the beach.",
+        "They often goes to the beach.",
+        "They are often go to the beach.",
+        "They often go to the beach."
+      ],
+      "answer": "They often go to the beach.",
+      "explain": "Put the adverb of frequency before the main verb."
+    },
+    {
+      "id": "en-pres-023",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What time ___ the film start?",
+      "choices": [
+        "do",
+        "is",
+        "does",
+        "starts"
+      ],
+      "answer": "does",
+      "explain": "Question with 'it' subject: What time does the film start?"
+    },
+    {
+      "id": "en-pres-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "There ___ twenty students in my class.",
+      "choices": [
+        "is",
+        "are",
+        "be",
+        "has"
+      ],
+      "answer": "are",
+      "explain": "Use 'there are' with plural nouns."
+    },
+    {
+      "id": "en-pres-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ there a swimming pool in your town?",
+      "choices": [
+        "Is",
+        "Are",
+        "Does",
+        "Do"
+      ],
+      "answer": "Is",
+      "explain": "Questions with there: Is there / Are there."
+    },
+    {
+      "id": "en-pres-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He ___ his teeth twice a day.",
+      "choices": [
+        "brushs",
+        "brush",
+        "brushies",
+        "brushes"
+      ],
+      "answer": "brushes",
+      "explain": "Verbs ending in -sh take -es: brushes."
+    },
+    {
+      "id": "en-pres-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The mechanic ___ cars all day.",
+      "choices": [
+        "fixs",
+        "fix",
+        "fixes",
+        "fixies"
+      ],
+      "answer": "fixes",
+      "explain": "Verbs ending in -x take -es: fixes."
+    },
+    {
+      "id": "en-pres-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A giraffe ___ leaves from tall trees.",
+      "choices": [
+        "eat",
+        "eats",
+        "eating",
+        "is eating"
+      ],
+      "answer": "eats",
+      "explain": "A fact about animals takes the present simple: eats."
+    },
+    {
+      "id": "en-pres-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The museum ___ at 10 a.m. and closes at 6 p.m. every day.",
+      "choices": [
+        "opens",
+        "open",
+        "is opening",
+        "openes"
+      ],
+      "answer": "opens",
+      "explain": "Opening times are timetable facts: present simple."
+    },
+    {
+      "id": "en-pres-030",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question about Grendel is correct?",
+      "choices": [
+        "Does Grendel hates humans?",
+        "Do Grendel hate humans?",
+        "Grendel does hates humans?",
+        "Does Grendel hate humans?"
+      ],
+      "answer": "Does Grendel hate humans?",
+      "explain": "After does, the main verb stays in the base form: hate."
+    },
+    {
+      "id": "en-pres-031",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? She owns no bike.",
+      "choices": [
+        "She doesn't has a bike.",
+        "She don't have a bike.",
+        "She doesn't have a bike.",
+        "She not has a bike."
+      ],
+      "answer": "She doesn't have a bike.",
+      "explain": "After doesn't, use have, not has."
+    },
+    {
+      "id": "en-pres-032",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "There ___ any milk in the fridge.",
+      "choices": [
+        "aren't",
+        "isn't",
+        "doesn't",
+        "don't"
+      ],
+      "answer": "isn't",
+      "explain": "Milk is uncountable, so we use 'there isn't'."
+    },
+    {
+      "id": "en-pres-033",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "There ___ some beautiful swords in the hall of Heorot.",
+      "choices": [
+        "are",
+        "is",
+        "have",
+        "does"
+      ],
+      "answer": "are",
+      "explain": "Use 'there are' before a plural noun."
+    },
+    {
+      "id": "en-pres-034",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The goalkeeper ___ the ball with both hands.",
+      "choices": [
+        "catchs",
+        "catch",
+        "catchies",
+        "catches"
+      ],
+      "answer": "catches",
+      "explain": "Verbs ending in -ch take -es: catches."
+    },
+    {
+      "id": "en-pres-035",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "It ___ a lot in Scotland in winter.",
+      "choices": [
+        "rain",
+        "is raining",
+        "rains",
+        "rainies"
+      ],
+      "answer": "rains",
+      "explain": "General facts about a place take the present simple."
+    },
+    {
+      "id": "en-pres-036",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why ___ Beowulf wear his armour in every battle?",
+      "choices": [
+        "do",
+        "does",
+        "is",
+        "has"
+      ],
+      "answer": "does",
+      "explain": "Wh-question with a singular subject: Why does Beowulf wear..."
+    },
+    {
+      "id": "en-pres-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Who ___ the team to the games every Saturday?",
+      "choices": [
+        "drives",
+        "drive",
+        "does drives",
+        "is driving"
+      ],
+      "answer": "drives",
+      "explain": "When 'who' is the subject, there is no do/does: Who drives."
+    },
+    {
+      "id": "en-pres-038",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence puts 'never' in the right place?",
+      "choices": [
+        "My dog barks never at night.",
+        "My dog never bark at night.",
+        "My dog is never barks at night.",
+        "My dog never barks at night."
+      ],
+      "answer": "My dog never barks at night.",
+      "explain": "Never goes before the main verb, which takes -s."
+    },
+    {
+      "id": "en-pres-039",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question about a coach is correct?",
+      "choices": [
+        "How often do your coach give you a rest?",
+        "How often does your coach gives you a rest?",
+        "How often does your coach give you a rest?",
+        "How often your coach does give you a rest?"
+      ],
+      "answer": "How often does your coach give you a rest?",
+      "explain": "Question: wh-word + does + subject + base verb."
+    },
+    {
+      "id": "en-pres-040",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: My brother ___ (to play) rugby every Saturday.",
+      "answer": [
+        "plays"
+      ],
+      "explain": "Habit: he/she/it + verb + -s."
+    },
+    {
+      "id": "en-pres-041",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The sun ___ (to rise) in the east.",
+      "answer": [
+        "rises"
+      ],
+      "explain": "A general truth takes the present simple: rises."
+    },
+    {
+      "id": "en-pres-042",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Our teacher ___ (to have) a red car.",
+      "answer": [
+        "has"
+      ],
+      "explain": "Have is irregular: he/she/it has."
+    },
+    {
+      "id": "en-pres-043",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Tom ___ (to go) to the pool on Mondays.",
+      "answer": [
+        "goes"
+      ],
+      "explain": "Go takes -es: goes."
+    },
+    {
+      "id": "en-pres-044",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Penguins ___ (to live) in cold places.",
+      "answer": [
+        "live"
+      ],
+      "explain": "A fact with a plural subject: base verb, no -s."
+    },
+    {
+      "id": "en-pres-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ (to study) French on Tuesdays.",
+      "answer": [
+        "studies"
+      ],
+      "explain": "Consonant + y becomes -ies: studies."
+    },
+    {
+      "id": "en-pres-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Mum ___ (to watch) the news every evening.",
+      "answer": [
+        "watches"
+      ],
+      "explain": "Verbs ending in -ch take -es: watches."
+    },
+    {
+      "id": "en-pres-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: My cousin ___ (not / to like) vegetables.",
+      "answer": [
+        "doesn't like",
+        "does not like"
+      ],
+      "explain": "Negative with he/she/it: doesn't + base verb."
+    },
+    {
+      "id": "en-pres-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We ___ (not / to play) football on Sundays.",
+      "answer": [
+        "don't play",
+        "do not play"
+      ],
+      "explain": "Negative with we: don't + base verb."
+    },
+    {
+      "id": "en-pres-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: He ___ (always / to wear) his lucky socks for matches.",
+      "answer": [
+        "always wears"
+      ],
+      "explain": "Always goes before the main verb, which takes -s."
+    },
+    {
+      "id": "en-pres-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ (never / to eat) meat.",
+      "answer": [
+        "never eats"
+      ],
+      "explain": "Never goes before the main verb, which takes -s."
+    },
+    {
+      "id": "en-pres-051",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete the short answer: 'Do you like pasta?' 'No, I ___.'",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "explain": "Short negative answer with I: No, I don't."
+    },
+    {
+      "id": "en-pres-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete the short answer: 'Does Hrothgar rule the Danes?' 'Yes, he ___.'",
+      "answer": [
+        "does"
+      ],
+      "explain": "Short positive answer with he: Yes, he does."
+    },
+    {
+      "id": "en-pres-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: How often ___ you train? (to do)",
+      "answer": [
+        "do"
+      ],
+      "explain": "Question with you: How often do you train?"
+    },
+    {
+      "id": "en-pres-054",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Where ___ your cousin live? (to do)",
+      "answer": [
+        "does"
+      ],
+      "explain": "Question with a singular subject: Where does your cousin live?"
+    },
+    {
+      "id": "en-pres-055",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The monster ___ (not / to have) any friends.",
+      "answer": [
+        "doesn't have",
+        "does not have"
+      ],
+      "explain": "After doesn't, use have (not has)."
+    },
+    {
+      "id": "en-pres-056",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: My uncle ___ (to fix) bikes in his garage every weekend.",
+      "answer": [
+        "fixes"
+      ],
+      "explain": "Verbs ending in -x take -es: fixes."
+    },
+    {
+      "id": "en-pres-057",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: There ___ (to be) three goalkeepers in our club.",
+      "answer": [
+        "are"
+      ],
+      "explain": "Use 'there are' before a plural noun."
+    },
+    {
+      "id": "en-pres-058",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Look! The dog ___ in the garden.",
+      "choices": [
+        "runs",
+        "run",
+        "is run",
+        "is running"
+      ],
+      "answer": "is running",
+      "explain": "Look! = now: is + verb-ing."
+    },
+    {
+      "id": "en-pres-059",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Listen! Our teacher ___ the story.",
+      "choices": [
+        "reads",
+        "are reading",
+        "is reading",
+        "reading"
+      ],
+      "answer": "is reading",
+      "explain": "Listen! = now: is + verb-ing."
+    },
+    {
+      "id": "en-pres-060",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ my homework right now.",
+      "choices": [
+        "do",
+        "am doing",
+        "doing",
+        "is doing"
+      ],
+      "answer": "am doing",
+      "explain": "Right now: am + verb-ing with I."
+    },
+    {
+      "id": "en-pres-061",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The fans ___ loudly at the moment.",
+      "choices": [
+        "are shouting",
+        "is shouting",
+        "shout",
+        "shouts"
+      ],
+      "answer": "are shouting",
+      "explain": "At the moment: are + verb-ing with a plural subject."
+    },
+    {
+      "id": "en-pres-062",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ to school at the moment.",
+      "choices": [
+        "is walking",
+        "walk",
+        "walking",
+        "am walking"
+      ],
+      "answer": "am walking",
+      "explain": "At the moment: am + verb-ing with I."
+    },
+    {
+      "id": "en-pres-063",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He is ___ in the park now.",
+      "choices": [
+        "runing",
+        "runnning",
+        "running",
+        "runming"
+      ],
+      "answer": "running",
+      "explain": "One short vowel + one consonant: double the consonant (running)."
+    },
+    {
+      "id": "en-pres-064",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She is ___ a cake now.",
+      "choices": [
+        "makeing",
+        "making",
+        "makking",
+        "maiking"
+      ],
+      "answer": "making",
+      "explain": "Drop the final -e before -ing: making."
+    },
+    {
+      "id": "en-pres-065",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We are ___ in the sea now.",
+      "choices": [
+        "swimming",
+        "swiming",
+        "swimmming",
+        "swimeing"
+      ],
+      "answer": "swimming",
+      "explain": "Double the m: swimming."
+    },
+    {
+      "id": "en-pres-066",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Mum is ___ dinner now.",
+      "choices": [
+        "cookking",
+        "coking",
+        "cookeing",
+        "cooking"
+      ],
+      "answer": "cooking",
+      "explain": "Two vowels before the final consonant: no doubling (cooking)."
+    },
+    {
+      "id": "en-pres-067",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Hrothgar ___ on his throne now.",
+      "choices": [
+        "sits",
+        "sit",
+        "is sitting",
+        "sitting"
+      ],
+      "answer": "is sitting",
+      "explain": "Now: is + verb-ing."
+    },
+    {
+      "id": "en-pres-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The cat is ___ on the bed right now.",
+      "choices": [
+        "lieing",
+        "lying",
+        "liying",
+        "lyeing"
+      ],
+      "answer": "lying",
+      "explain": "For -ie verbs, change ie to y before -ing: lying."
+    },
+    {
+      "id": "en-pres-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Look! He is ___ a very big sandwich.",
+      "choices": [
+        "eating",
+        "eatting",
+        "eateing",
+        "eats"
+      ],
+      "answer": "eating",
+      "explain": "Eat + -ing = eating, no doubling."
+    },
+    {
+      "id": "en-pres-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The children ___ in the yard at the moment.",
+      "choices": [
+        "is playing",
+        "plays",
+        "are play",
+        "are playing"
+      ],
+      "answer": "are playing",
+      "explain": "At the moment: are + verb-ing."
+    },
+    {
+      "id": "en-pres-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ___ TV right now.",
+      "choices": [
+        "doesn't watch",
+        "not watching",
+        "isn't watching",
+        "isn't watch"
+      ],
+      "answer": "isn't watching",
+      "explain": "Negative present continuous: isn't + verb-ing."
+    },
+    {
+      "id": "en-pres-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ in the classroom now. We are outside.",
+      "choices": [
+        "don't sit",
+        "aren't sitting",
+        "aren't sit",
+        "not sitting"
+      ],
+      "answer": "aren't sitting",
+      "explain": "Negative present continuous: aren't + verb-ing."
+    },
+    {
+      "id": "en-pres-073",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ your brother playing video games now?",
+      "choices": [
+        "Is",
+        "Does",
+        "Are",
+        "Do"
+      ],
+      "answer": "Is",
+      "explain": "Present continuous questions: Is + he/she/it + verb-ing."
+    },
+    {
+      "id": "en-pres-074",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What ___ you doing right now?",
+      "choices": [
+        "do",
+        "is",
+        "does",
+        "are"
+      ],
+      "answer": "are",
+      "explain": "Question: What + are + you + verb-ing?"
+    },
+    {
+      "id": "en-pres-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question is correct for an action happening now?",
+      "choices": [
+        "Does she wearing a blue shirt right now?",
+        "Is she wear a blue shirt right now?",
+        "Is she wearing a blue shirt right now?",
+        "Are she wearing a blue shirt right now?"
+      ],
+      "answer": "Is she wearing a blue shirt right now?",
+      "explain": "Question: Is + she + verb-ing."
+    },
+    {
+      "id": "en-pres-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'Are you listening?' 'Yes, ___.'",
+      "choices": [
+        "I do",
+        "I am",
+        "I are",
+        "I listen"
+      ],
+      "answer": "I am",
+      "explain": "Short answer: Yes, I am."
+    },
+    {
+      "id": "en-pres-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'Is the dragon sleeping now?' 'No, it ___.'",
+      "choices": [
+        "isn't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "isn't",
+      "explain": "Short negative answer: No, it isn't."
+    },
+    {
+      "id": "en-pres-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I usually walk to school, but at this very moment I ___ the bus.",
+      "choices": [
+        "take",
+        "takes",
+        "taking",
+        "am taking"
+      ],
+      "answer": "am taking",
+      "explain": "'At this very moment' = right now: present continuous."
+    },
+    {
+      "id": "en-pres-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf ___ with Grendel right now.",
+      "choices": [
+        "fights",
+        "fight",
+        "is fighting",
+        "are fighting"
+      ],
+      "answer": "is fighting",
+      "explain": "Right now: is + verb-ing."
+    },
+    {
+      "id": "en-pres-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Grendel ___ towards the mead hall at the moment.",
+      "choices": [
+        "creeps",
+        "is creeping",
+        "creep",
+        "are creeping"
+      ],
+      "answer": "is creeping",
+      "explain": "At the moment: is + verb-ing."
+    },
+    {
+      "id": "en-pres-081",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She usually plays in defence, but look! Today she ___ in goal.",
+      "choices": [
+        "is playing",
+        "plays",
+        "play",
+        "playing"
+      ],
+      "answer": "is playing",
+      "explain": "'Look!' = now: present continuous."
+    },
+    {
+      "id": "en-pres-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ tennis with Sam tomorrow. We have a court for 5 o'clock.",
+      "choices": [
+        "play",
+        "plays",
+        "am playing",
+        "is playing"
+      ],
+      "answer": "am playing",
+      "explain": "A personal plan for the near future: am + verb-ing."
+    },
+    {
+      "id": "en-pres-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ my cousins next Saturday. We have a plan.",
+      "choices": [
+        "meet",
+        "meets",
+        "am meeting",
+        "am meet"
+      ],
+      "answer": "am meeting",
+      "explain": "A fixed plan for the near future: am + verb-ing."
+    },
+    {
+      "id": "en-pres-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Sam and I ___ to the cinema tonight. We have the tickets.",
+      "choices": [
+        "go",
+        "goes",
+        "are going",
+        "is going"
+      ],
+      "answer": "are going",
+      "explain": "A personal plan for the near future: are + verb-ing."
+    },
+    {
+      "id": "en-pres-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Wiglaf is ___ his sword to his belt now.",
+      "choices": [
+        "tying",
+        "tieing",
+        "tiing",
+        "typing"
+      ],
+      "answer": "tying",
+      "explain": "For -ie verbs, change ie to y before -ing: tying."
+    },
+    {
+      "id": "en-pres-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why ___ the knights running? Look at that smoke!",
+      "choices": [
+        "do",
+        "is",
+        "does",
+        "are"
+      ],
+      "answer": "are",
+      "explain": "Wh-question in the present continuous: Why + are + subject + verb-ing?"
+    },
+    {
+      "id": "en-pres-087",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Look! The baby ___ (to smile).",
+      "answer": [
+        "is smiling",
+        "'s smiling"
+      ],
+      "explain": "Look! = now: is + verb-ing."
+    },
+    {
+      "id": "en-pres-088",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ (to read) a book right now.",
+      "answer": [
+        "am reading",
+        "'m reading"
+      ],
+      "explain": "Right now: am + verb-ing."
+    },
+    {
+      "id": "en-pres-089",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: They ___ (to run) around the pitch at the moment.",
+      "answer": [
+        "are running",
+        "'re running"
+      ],
+      "explain": "Double the n: running."
+    },
+    {
+      "id": "en-pres-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ (to write) an email now.",
+      "answer": [
+        "is writing",
+        "'s writing"
+      ],
+      "explain": "Drop the final -e: writing."
+    },
+    {
+      "id": "en-pres-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: My dad ___ (to swim) in the lake right now.",
+      "answer": [
+        "is swimming",
+        "'s swimming"
+      ],
+      "explain": "Double the m: swimming."
+    },
+    {
+      "id": "en-pres-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We ___ (not / to watch) TV now.",
+      "answer": [
+        "aren't watching",
+        "are not watching",
+        "'re not watching"
+      ],
+      "explain": "Negative: are not + verb-ing."
+    },
+    {
+      "id": "en-pres-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: He ___ (not / to listen) to the teacher at the moment.",
+      "answer": [
+        "isn't listening",
+        "is not listening",
+        "'s not listening"
+      ],
+      "explain": "Negative: is not + verb-ing."
+    },
+    {
+      "id": "en-pres-094",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete the short answer: 'Is it raining?' 'No, it ___.'",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "explain": "Short negative answer: No, it isn't."
+    },
+    {
+      "id": "en-pres-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: What ___ you doing right now? (to be)",
+      "answer": [
+        "are"
+      ],
+      "explain": "Question: What + are + you + verb-ing?"
+    },
+    {
+      "id": "en-pres-096",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The dog ___ (to lie) under the table now.",
+      "answer": [
+        "is lying",
+        "'s lying"
+      ],
+      "explain": "For -ie verbs, change ie to y: lying."
+    },
+    {
+      "id": "en-pres-097",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Beowulf ___ (to take) his sword right now.",
+      "answer": [
+        "is taking",
+        "'s taking"
+      ],
+      "explain": "Drop the final -e: taking."
+    },
+    {
+      "id": "en-pres-098",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I have a plan: next Saturday I ___ (to visit) my grandparents.",
+      "answer": [
+        "am visiting",
+        "'m visiting"
+      ],
+      "explain": "A personal plan for the near future: am + verb-ing."
+    },
+    {
+      "id": "en-pres-099",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The knight ___ (to stop) his horse at the gate right now.",
+      "answer": [
+        "is stopping",
+        "'s stopping"
+      ],
+      "explain": "Short vowel + consonant: double the p."
+    },
+    {
+      "id": "en-pres-100",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Usually Anna plays the guitar, but at this very moment she ___ (to play) the drums.",
+      "answer": [
+        "is playing",
+        "'s playing"
+      ],
+      "explain": "'At this very moment' = right now: present continuous."
+    },
+    {
+      "id": "en-pres-101",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He usually ___ tea, but today he is drinking juice.",
+      "choices": [
+        "drinks",
+        "is drinking",
+        "drink",
+        "drinking"
+      ],
+      "answer": "drinks",
+      "explain": "'Usually' shows a habit: present simple."
+    },
+    {
+      "id": "en-pres-102",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My dad ___ to work by car every morning.",
+      "choices": [
+        "is going",
+        "go",
+        "going",
+        "goes"
+      ],
+      "answer": "goes",
+      "explain": "'Every morning' shows a habit: present simple."
+    },
+    {
+      "id": "en-pres-103",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Be quiet! The baby ___ at the moment.",
+      "choices": [
+        "sleeps",
+        "sleep",
+        "is sleeping",
+        "sleepes"
+      ],
+      "answer": "is sleeping",
+      "explain": "'Be quiet!' describes what happens now: present continuous."
+    },
+    {
+      "id": "en-pres-104",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ the answer. It is 42.",
+      "choices": [
+        "am knowing",
+        "know",
+        "knows",
+        "knowing"
+      ],
+      "answer": "know",
+      "explain": "Know is a state verb: no continuous form."
+    },
+    {
+      "id": "en-pres-105",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ pizza. It is her favourite food.",
+      "choices": [
+        "loves",
+        "is loving",
+        "love",
+        "loving"
+      ],
+      "answer": "loves",
+      "explain": "Love is a state verb: present simple only."
+    },
+    {
+      "id": "en-pres-106",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ a new bike. Can you help us choose one?",
+      "choices": [
+        "are needing",
+        "needs",
+        "needing",
+        "need"
+      ],
+      "answer": "need",
+      "explain": "Need is a state verb: present simple only."
+    },
+    {
+      "id": "en-pres-107",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ English very well.",
+      "choices": [
+        "am understanding",
+        "understands",
+        "understand",
+        "understanding"
+      ],
+      "answer": "understand",
+      "explain": "Understand is a state verb: present simple only."
+    },
+    {
+      "id": "en-pres-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct with 'know'?",
+      "choices": [
+        "I am knowing your sister.",
+        "I know your sister.",
+        "I knowing your sister.",
+        "I does know your sister."
+      ],
+      "answer": "I know your sister.",
+      "explain": "Know is a state verb: never 'am knowing'."
+    },
+    {
+      "id": "en-pres-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct with 'want'?",
+      "choices": [
+        "She wants a new football for her birthday.",
+        "She is wanting a new football for her birthday.",
+        "She want a new football for her birthday.",
+        "She does wants a new football for her birthday."
+      ],
+      "answer": "She wants a new football for her birthday.",
+      "explain": "Want is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My sister is in the kitchen. She ___ pasta now.",
+      "choices": [
+        "cooks",
+        "cook",
+        "are cooking",
+        "is cooking"
+      ],
+      "answer": "is cooking",
+      "explain": "'Now' shows an action in progress: present continuous."
+    },
+    {
+      "id": "en-pres-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My sister ___ pasta every Sunday.",
+      "choices": [
+        "is cooking",
+        "cook",
+        "cooks",
+        "cooking"
+      ],
+      "answer": "cooks",
+      "explain": "'Every Sunday' shows a habit: present simple."
+    },
+    {
+      "id": "en-pres-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "This sword ___ to Beowulf.",
+      "choices": [
+        "is belonging",
+        "belongs",
+        "belong",
+        "belonging"
+      ],
+      "answer": "belongs",
+      "explain": "Belong is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-113",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "That monster ___ very dangerous.",
+      "choices": [
+        "seems",
+        "is seeming",
+        "seem",
+        "seeming"
+      ],
+      "answer": "seems",
+      "explain": "Seem is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I ___ in dragons.",
+      "choices": [
+        "am believing",
+        "believes",
+        "believing",
+        "believe"
+      ],
+      "answer": "believe",
+      "explain": "Believe is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-115",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Our team ___ on Saturdays.",
+      "choices": [
+        "is playing",
+        "play",
+        "plays",
+        "playing"
+      ],
+      "answer": "plays",
+      "explain": "'On Saturdays' shows a habit: present simple."
+    },
+    {
+      "id": "en-pres-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Our team ___ in the final right now. Listen to the crowd!",
+      "choices": [
+        "plays",
+        "is playing",
+        "play",
+        "playing"
+      ],
+      "answer": "is playing",
+      "explain": "'Right now' shows an action in progress: present continuous."
+    },
+    {
+      "id": "en-pres-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ you understand this rule?",
+      "choices": [
+        "Do",
+        "Are",
+        "Does",
+        "Have"
+      ],
+      "answer": "Do",
+      "explain": "Understand is a state verb: questions use do/does."
+    },
+    {
+      "id": "en-pres-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct with 'believe'?",
+      "choices": [
+        "I am not believe you.",
+        "I doesn't believe you.",
+        "I not believe you.",
+        "I don't believe you."
+      ],
+      "answer": "I don't believe you.",
+      "explain": "Believe is a state verb: negative with don't."
+    },
+    {
+      "id": "en-pres-119",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In winter it ___ a lot here, but today it is sunny.",
+      "choices": [
+        "is raining",
+        "rain",
+        "rains",
+        "raining"
+      ],
+      "answer": "rains",
+      "explain": "'In winter' shows a general fact: present simple."
+    },
+    {
+      "id": "en-pres-120",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Every night the warriors ___ in Heorot.",
+      "choices": [
+        "are sleeping",
+        "sleep",
+        "sleeps",
+        "sleeping"
+      ],
+      "answer": "sleep",
+      "explain": "'Every night' shows a habit: present simple."
+    },
+    {
+      "id": "en-pres-121",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "At the moment the heroes ___ a dragon, and everyone is afraid.",
+      "choices": [
+        "are fighting",
+        "fight",
+        "fights",
+        "is fighting"
+      ],
+      "answer": "are fighting",
+      "explain": "'At the moment' shows an action in progress: are + verb-ing."
+    },
+    {
+      "id": "en-pres-122",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Anna ___ her bike to school on Fridays.",
+      "choices": [
+        "is riding",
+        "ride",
+        "riding",
+        "rides"
+      ],
+      "answer": "rides",
+      "explain": "'On Fridays' shows a habit: present simple."
+    },
+    {
+      "id": "en-pres-123",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Look at Anna! She ___ her bike to school right now.",
+      "choices": [
+        "rides",
+        "ride",
+        "is riding",
+        "riding"
+      ],
+      "answer": "is riding",
+      "explain": "'Right now' shows an action in progress: present continuous."
+    },
+    {
+      "id": "en-pres-124",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Tom ___ his homework right now, but he usually ___ it in the evening.",
+      "choices": [
+        "does / is doing",
+        "is doing / does",
+        "is doing / is doing",
+        "does / does"
+      ],
+      "answer": "is doing / does",
+      "explain": "'Right now' = continuous; 'usually' = present simple."
+    },
+    {
+      "id": "en-pres-125",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Anna never ___ coffee. Look! Today she ___ a cup.",
+      "choices": [
+        "drinks / is drinking",
+        "is drinking / drinks",
+        "drinks / drinks",
+        "is drinking / is drinking"
+      ],
+      "answer": "drinks / is drinking",
+      "explain": "'Never' = present simple; 'Look!' = present continuous."
+    },
+    {
+      "id": "en-pres-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Be quiet, please! I ___ about the answer.",
+      "choices": [
+        "think",
+        "thinks",
+        "thinkes",
+        "am thinking"
+      ],
+      "answer": "am thinking",
+      "explain": "Think meaning 'use your mind now' can be continuous."
+    },
+    {
+      "id": "en-pres-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ that Beowulf is the strongest hero.",
+      "choices": [
+        "am thinking",
+        "thinks",
+        "think",
+        "thinking"
+      ],
+      "answer": "think",
+      "explain": "Think meaning 'have an opinion' is a state: present simple."
+    },
+    {
+      "id": "en-pres-128",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We ___ lunch at the moment. Please call back later.",
+      "choices": [
+        "have",
+        "are having",
+        "has",
+        "having"
+      ],
+      "answer": "are having",
+      "explain": "Have meaning 'eat' can be continuous."
+    },
+    {
+      "id": "en-pres-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Tom ___ a pet snake. Look at the photo!",
+      "choices": [
+        "has",
+        "is having",
+        "have",
+        "having"
+      ],
+      "answer": "has",
+      "explain": "Have meaning 'possess' is a state: present simple."
+    },
+    {
+      "id": "en-pres-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Look! I ___ a dragon in the sky!",
+      "choices": [
+        "am seeing",
+        "sees",
+        "seeing",
+        "see"
+      ],
+      "answer": "see",
+      "explain": "See meaning 'notice with your eyes' is a state: present simple."
+    },
+    {
+      "id": "en-pres-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Tomorrow at 4 p.m. I ___ the dentist. I have an appointment.",
+      "choices": [
+        "see",
+        "am seeing",
+        "seeing",
+        "am see"
+      ],
+      "answer": "am seeing",
+      "explain": "'See' meaning 'visit a professional' is dynamic: a personal appointment takes the present continuous."
+    },
+    {
+      "id": "en-pres-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence shows annoyance through its grammar?",
+      "choices": [
+        "He always loses his keys.",
+        "He is always losing his keys!",
+        "He always lose his keys.",
+        "He always losing his keys."
+      ],
+      "answer": "He is always losing his keys!",
+      "explain": "Always + present continuous shows an annoying habit."
+    },
+    {
+      "id": "en-pres-133",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question puts 'always' in the right place?",
+      "choices": [
+        "Do you always eat breakfast?",
+        "Do always you eat breakfast?",
+        "Always do you eat breakfast?",
+        "Do you eat always breakfast?"
+      ],
+      "answer": "Do you always eat breakfast?",
+      "explain": "In a question, the frequency adverb goes after the subject and before the main verb."
+    },
+    {
+      "id": "en-pres-134",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I ___ this song. It is my favourite.",
+      "choices": [
+        "am liking",
+        "likes",
+        "liking",
+        "like"
+      ],
+      "answer": "like",
+      "explain": "Like is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What ___ you think about Beowulf? Is he a good hero?",
+      "choices": [
+        "are",
+        "does",
+        "do",
+        "is"
+      ],
+      "answer": "do",
+      "explain": "Think (opinion) is a state verb: do + you + think."
+    },
+    {
+      "id": "en-pres-136",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct with 'need'?",
+      "choices": [
+        "The old king is needing help.",
+        "The old king needs help.",
+        "The old king need help.",
+        "The old king does needs help."
+      ],
+      "answer": "The old king needs help.",
+      "explain": "Need is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-137",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ (to know) the answer.",
+      "answer": [
+        "know"
+      ],
+      "explain": "Know is a state verb: present simple only."
+    },
+    {
+      "id": "en-pres-138",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She ___ (to love) cats.",
+      "answer": [
+        "loves"
+      ],
+      "explain": "Love is a state verb: he/she/it + -s."
+    },
+    {
+      "id": "en-pres-139",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Be quiet! The baby ___ (to sleep) at the moment.",
+      "answer": [
+        "is sleeping",
+        "'s sleeping"
+      ],
+      "explain": "'Be quiet!' = now: present continuous."
+    },
+    {
+      "id": "en-pres-140",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: He ___ (to want) a new bike.",
+      "answer": [
+        "wants"
+      ],
+      "explain": "Want is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-141",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: They ___ (to need) some help.",
+      "answer": [
+        "need"
+      ],
+      "explain": "Need is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-142",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: This house ___ (to belong) to the king.",
+      "answer": [
+        "belongs"
+      ],
+      "explain": "Belong is a state verb: present simple."
+    },
+    {
+      "id": "en-pres-143",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Every Sunday we ___ (to visit) our grandparents.",
+      "answer": [
+        "visit"
+      ],
+      "explain": "'Every Sunday' shows a habit: present simple."
+    },
+    {
+      "id": "en-pres-144",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Listen! The band ___ (to play) my favourite song.",
+      "answer": [
+        "is playing",
+        "'s playing"
+      ],
+      "explain": "'Listen!' = now: present continuous."
+    },
+    {
+      "id": "en-pres-145",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Anna ___ (not / to understand) this rule.",
+      "answer": [
+        "doesn't understand",
+        "does not understand"
+      ],
+      "explain": "Understand is a state verb: doesn't + base verb."
+    },
+    {
+      "id": "en-pres-146",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: My sister ___ (never / to be) late for school.",
+      "answer": [
+        "is never",
+        "'s never"
+      ],
+      "explain": "Frequency adverbs go after the verb 'be': is never."
+    },
+    {
+      "id": "en-pres-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ (to think) about the exam right now.",
+      "answer": [
+        "am thinking",
+        "'m thinking"
+      ],
+      "explain": "Think meaning 'use your mind now' can be continuous."
+    },
+    {
+      "id": "en-pres-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Don't open the door! Dad ___ (to have) a shower right now.",
+      "answer": [
+        "is having",
+        "'s having"
+      ],
+      "explain": "'Have a shower' is an action, so it can be continuous: is having."
+    },
+    {
+      "id": "en-pres-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: He ___ (not / to believe) in ghosts.",
+      "answer": [
+        "doesn't believe",
+        "does not believe"
+      ],
+      "explain": "Believe is a state verb: doesn't + base verb."
+    },
+    {
+      "id": "en-pres-150",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: That story ___ (to seem) very strange.",
+      "answer": [
+        "seems"
+      ],
+      "explain": "Seem is a state verb: present simple."
+    }
+  ]
+}

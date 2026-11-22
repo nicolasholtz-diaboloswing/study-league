@@ -1,0 +1,646 @@
+{
+  "topic": "hg-china-population",
+  "questions": [
+    {
+      "id": "hg-cn-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "According to the document, who supplies the workforce for factories on China's coast?",
+      "choices": [
+        "Young people from the coastal cities",
+        "Young people from inland rural areas",
+        "Workers who come from India",
+        "University graduates from Shanghai"
+      ],
+      "answer": "Young people from inland rural areas",
+      "explain": "Most job-seekers in Shenzhen come from inland rural areas."
+    },
+    {
+      "id": "hg-cn-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "According to the document, where are the factories that need these workers?",
+      "choices": [
+        "In India",
+        "In inland rural areas",
+        "On China's coast",
+        "In the mountains of the West"
+      ],
+      "answer": "On China's coast",
+      "explain": "The document says the migrants supply the workforce for factories on China's coast."
+    },
+    {
+      "id": "hg-cn-003",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is the economic advantage of an abundant workforce?",
+      "choices": [
+        "The air becomes cleaner",
+        "Everybody earns the same wage",
+        "There is more water in the North",
+        "Factories can easily find many workers"
+      ],
+      "answer": "Factories can easily find many workers",
+      "explain": "With many workers available, factories can produce more."
+    },
+    {
+      "id": "hg-cn-004",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, why do many young job-seekers work in factories?",
+      "choices": [
+        "They do not have advanced qualifications",
+        "They have university degrees",
+        "They come from rich coastal provinces",
+        "They are too old to work on farms"
+      ],
+      "answer": "They do not have advanced qualifications",
+      "explain": "Without advanced qualifications, they supply the workforce for factories."
+    },
+    {
+      "id": "hg-cn-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "According to the document, what was China's population in 2024, in billions?",
+      "answer": [
+        "1.42",
+        "1,42"
+      ],
+      "explain": "According to the UN data in the document, China had 1.42 billion people in 2024."
+    },
+    {
+      "id": "hg-cn-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "According to the document, how does India's population compare with China's in 2024?",
+      "choices": [
+        "India's is smaller than China's",
+        "They are exactly equal",
+        "India's is bigger than China's",
+        "India's is half of China's"
+      ],
+      "answer": "India's is bigger than China's",
+      "explain": "India has 1.45 billion people and China has 1.42 billion."
+    },
+    {
+      "id": "hg-cn-007",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to the document, in which year did China's population reach its peak?",
+      "answer": [
+        "2021"
+      ],
+      "explain": "The document says China's population was already past its peak, reached in 2021."
+    },
+    {
+      "id": "hg-cn-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "According to the document, the average marriage age in China rose to what age in 2024?",
+      "answer": [
+        "34"
+      ],
+      "explain": "According to the document, the average marriage age rose to 34 in 2024."
+    },
+    {
+      "id": "hg-cn-009",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to the document, India has 1.45 billion people and China has 1.42 billion people (2024). How many billion more people live in India?",
+      "answer": [
+        "0.03",
+        "0,03"
+      ],
+      "explain": "1.45 - 1.42 = 0.03 billion."
+    },
+    {
+      "id": "hg-cn-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "According to the document, which energy source is a main culprit of air pollution in Chinese cities?",
+      "choices": [
+        "Wind power",
+        "Solar power",
+        "Coal",
+        "Hydroelectric dams"
+      ],
+      "answer": "Coal",
+      "explain": "Energy production largely based on coal is one of the main culprits."
+    },
+    {
+      "id": "hg-cn-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "The air in Chinese metropolises is often unbreathable. Which environmental challenge is this? (air pollution / water shortage / inequality)",
+      "answer": [
+        "air pollution"
+      ],
+      "explain": "Unbreathable air is air pollution."
+    },
+    {
+      "id": "hg-cn-012",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to the document, how many trillion yuan did the government spend on the pension system in 2025?",
+      "answer": [
+        "2.9",
+        "2,9"
+      ],
+      "explain": "According to the document, pension spending was 2.9 trillion yuan in 2025."
+    },
+    {
+      "id": "hg-cn-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, what makes agriculture use so much water?",
+      "choices": [
+        "Too much rain in the North",
+        "Inefficient irrigation",
+        "The use of coal",
+        "The number of cars"
+      ],
+      "answer": "Inefficient irrigation",
+      "explain": "The text says agriculture consumes a lot of water because of inefficient irrigation."
+    },
+    {
+      "id": "hg-cn-014",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, which part of China especially lacks water?",
+      "choices": [
+        "The Shanghai coast",
+        "The Guangdong coast",
+        "The arid and populated North",
+        "The rainy South"
+      ],
+      "answer": "The arid and populated North",
+      "explain": "Water is lacking especially in the arid and populated North, where many industries are concentrated."
+    },
+    {
+      "id": "hg-cn-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, air pollution is \"the price\" of what?",
+      "choices": [
+        "A very cold winter",
+        "The one-child policy",
+        "An ageing population",
+        "A very rapid economic and urban growth"
+      ],
+      "answer": "A very rapid economic and urban growth",
+      "explain": "The text calls air pollution the price of very rapid economic and urban growth."
+    },
+    {
+      "id": "hg-cn-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which of these is NOT given as a main culprit of air pollution in the document?",
+      "choices": [
+        "Inefficient irrigation",
+        "Energy production based on coal",
+        "Industry",
+        "A fast-growing number of cars"
+      ],
+      "answer": "Inefficient irrigation",
+      "explain": "Inefficient irrigation affects water use, not air quality."
+    },
+    {
+      "id": "hg-cn-017",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to the document, what is one result of poor air quality?",
+      "choices": [
+        "Less water in the South",
+        "Several hundreds of thousands of premature deaths",
+        "More babies being born",
+        "Lower income on the coast"
+      ],
+      "answer": "Several hundreds of thousands of premature deaths",
+      "explain": "The text says poor air quality causes several hundreds of thousands of premature deaths."
+    },
+    {
+      "id": "hg-cn-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the main contrast in the text about inequality in China?",
+      "choices": [
+        "The gap between men and women",
+        "The gap between the old and the young",
+        "The gap between cities and countryside",
+        "The gap between China and India"
+      ],
+      "answer": "The gap between cities and countryside",
+      "explain": "The text compares urban households and rural households."
+    },
+    {
+      "id": "hg-cn-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, what is the gap between the level of urban households and rural households?",
+      "choices": [
+        "1 to 10",
+        "1 to 30",
+        "1 to 2",
+        "1 to 3"
+      ],
+      "answer": "1 to 3",
+      "explain": "The document speaks of a 1-to-3 gap between urban and rural households."
+    },
+    {
+      "id": "hg-cn-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which reason is given for the income gap between urban and rural households?",
+      "choices": [
+        "Differences in educational levels",
+        "Cities are closer to the mountains",
+        "Rural people pay higher taxes",
+        "Cities have less pollution"
+      ],
+      "answer": "Differences in educational levels",
+      "explain": "The document names education, the age of inhabitants and the size of households."
+    },
+    {
+      "id": "hg-cn-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, what do urban dwellers benefit from more often?",
+      "choices": [
+        "Bigger farms",
+        "Social housing and wider social coverage",
+        "Free cars",
+        "Lower coal prices"
+      ],
+      "answer": "Social housing and wider social coverage",
+      "explain": "Urban dwellers get more social housing and more extensive social coverage, for example for retirement."
+    },
+    {
+      "id": "hg-cn-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "The countryside is the opposite of the city. Is it urban or rural? (urban / rural)",
+      "answer": [
+        "rural"
+      ],
+      "explain": "Rural means the countryside."
+    },
+    {
+      "id": "hg-cn-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "According to the document, where is income higher in China? (coastal provinces / inland provinces)",
+      "answer": [
+        "coastal provinces"
+      ],
+      "explain": "The document says coastal provinces like Shanghai and Guangdong have higher income."
+    },
+    {
+      "id": "hg-cn-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "A big gap between rich and poor people is called ... (inequality / workforce / birth rate)",
+      "answer": [
+        "inequality"
+      ],
+      "explain": "Inequality means a gap between rich and poor."
+    },
+    {
+      "id": "hg-cn-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "According to the document, what was the average income per person in 1997, in dollars?",
+      "answer": [
+        "750",
+        "$750"
+      ],
+      "explain": "According to the document, average income was $750 in 1997."
+    },
+    {
+      "id": "hg-cn-026",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to the document, average income per person was $750 in 1997 and $7,400 in 2015. By how many dollars did it rise?",
+      "answer": [
+        "6650",
+        "6 650",
+        "6,650",
+        "6.650"
+      ],
+      "explain": "7,400 - 750 = 6,650."
+    },
+    {
+      "id": "hg-cn-027",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to the document, average income per person rose to $13,300 in 2024. Why can we still say wealth is not fairly shared?",
+      "choices": [
+        "Incomes fell in all provinces",
+        "The countryside is richer than the cities",
+        "Everyone earns exactly $13,300",
+        "Incomes are much higher on the coast than inland"
+      ],
+      "answer": "Incomes are much higher on the coast than inland",
+      "explain": "An average hides the gap between rich coastal provinces and poorer inland ones."
+    },
+    {
+      "id": "hg-cn-028",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The text says social inequalities are \"a source of dissatisfaction among the population\". What type of challenge is this?",
+      "choices": [
+        "A social challenge",
+        "An environmental challenge",
+        "A challenge about coal",
+        "A challenge about irrigation"
+      ],
+      "answer": "A social challenge",
+      "explain": "Dissatisfaction between groups of people is a social challenge."
+    },
+    {
+      "id": "hg-cn-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The document sorts China's challenges into three categories. Which ones?",
+      "choices": [
+        "Economic, political and military",
+        "Economic, social and environmental",
+        "Social, cultural and religious",
+        "Environmental, political and historical"
+      ],
+      "answer": "Economic, social and environmental",
+      "explain": "The three categories are economic, social and environmental challenges."
+    },
+    {
+      "id": "hg-cn-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "According to the document, in which year did the one-child policy start?",
+      "answer": [
+        "1979"
+      ],
+      "explain": "The one-child policy lasted from 1979 to 2015."
+    },
+    {
+      "id": "hg-cn-031",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to the document, the one-child policy ran from 1979 to 2015. For how many years did it last?",
+      "answer": [
+        "36",
+        "36 years"
+      ],
+      "explain": "2015 - 1979 = 36 years."
+    },
+    {
+      "id": "hg-cn-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which list shows the right order of China's family rules?",
+      "choices": [
+        "One child (1979-2015), two children (2016), three children (2021)",
+        "Two children (1979), one child (2016), three children (2021)",
+        "Three children (1979), two children (2016), one child (2021)",
+        "One child (2016), two children (2021), three children (2025)"
+      ],
+      "answer": "One child (1979-2015), two children (2016), three children (2021)",
+      "explain": "The one-child policy came first, then two children, then three."
+    },
+    {
+      "id": "hg-cn-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "According to the document, how many million babies were born in China in 2025?",
+      "answer": [
+        "7.92",
+        "7,92"
+      ],
+      "explain": "According to the document, only 7.92 million babies were born in 2025."
+    },
+    {
+      "id": "hg-cn-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, births in 2025 were the lowest since 1939. In 1939, the total population was about ... of what it is today.",
+      "choices": [
+        "half",
+        "three quarters",
+        "a quarter",
+        "double"
+      ],
+      "answer": "a quarter",
+      "explain": "The document says it was only about a quarter of today's population."
+    },
+    {
+      "id": "hg-cn-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What was happening in China between 1962 and the early 1970s?",
+      "choices": [
+        "A fall to 7.92 million births a year",
+        "The one-child policy",
+        "A boom in immigration",
+        "A baby boom of over 20 million births a year"
+      ],
+      "answer": "A baby boom of over 20 million births a year",
+      "explain": "China had a baby boom with over 20 million births a year."
+    },
+    {
+      "id": "hg-cn-036",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why is China's elderly population growing so fast now?",
+      "choices": [
+        "The baby boom generation is retiring",
+        "Many old people move to China",
+        "The three-child policy ended",
+        "People marry younger"
+      ],
+      "answer": "The baby boom generation is retiring",
+      "explain": "Those born in the baby boom are now retiring all at once."
+    },
+    {
+      "id": "hg-cn-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "A researcher compares China's fall in births to a \"grey rhino\". What does this mean?",
+      "choices": [
+        "A danger that nobody sees coming",
+        "A danger everyone sees but cannot easily stop",
+        "A danger that disappears by itself",
+        "A danger that is easy to stop"
+      ],
+      "answer": "A danger everyone sees but cannot easily stop",
+      "explain": "The grey rhino is a visible danger that is very hard to stop once it starts charging."
+    },
+    {
+      "id": "hg-cn-038",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to the document, why do births stay low after the one-child policy ended?",
+      "choices": [
+        "The policy is still in force",
+        "Families must now have three children",
+        "Young people choose fewer children or later marriage",
+        "Most couples cannot have children"
+      ],
+      "answer": "Young people choose fewer children or later marriage",
+      "explain": "Even after the policy ended, young Chinese people are choosing to have fewer children."
+    },
+    {
+      "id": "hg-cn-039",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to the document, by how many percent have marriages fallen since 2018?",
+      "answer": [
+        "40",
+        "40%",
+        "40 %"
+      ],
+      "explain": "According to the document, the number of marriages has fallen by 40% since 2018."
+    },
+    {
+      "id": "hg-cn-040",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to the document, in 2024 there were about how many working-age people for every dependent person?",
+      "answer": [
+        "4.4",
+        "4,4"
+      ],
+      "explain": "According to the document, the ratio was about 4.4 in 2024."
+    },
+    {
+      "id": "hg-cn-041",
+      "level": 3,
+      "type": "input",
+      "prompt": "According to the document, the ratio of workers to dependent people was 4.4 in 2024 and is expected to be 2.8 in 2035. By how much does it fall?",
+      "answer": [
+        "1.6",
+        "1,6"
+      ],
+      "explain": "4.4 - 2.8 = 1.6."
+    },
+    {
+      "id": "hg-cn-042",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The ratio of workers to dependent people falls from 4.4 to 2.8. What does it mean?",
+      "choices": [
+        "More workers support each dependent person",
+        "There will be more children than adults",
+        "Fewer workers must support each dependent person",
+        "Retirees will work more"
+      ],
+      "answer": "Fewer workers must support each dependent person",
+      "explain": "A lower ratio means a heavier burden on each worker."
+    },
+    {
+      "id": "hg-cn-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In the document, who counts as a \"dependent person\"?",
+      "choices": [
+        "Only children",
+        "Only retirees",
+        "Only unemployed workers",
+        "Children and retirees together"
+      ],
+      "answer": "Children and retirees together",
+      "explain": "Dependent persons are children and retirees combined."
+    },
+    {
+      "id": "hg-cn-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, what has been the result of tax breaks and cash subsidies for families?",
+      "choices": [
+        "No significant difference to the birth rate",
+        "A big rise in the birth rate",
+        "A fall in pension costs",
+        "A return to the one-child policy"
+      ],
+      "answer": "No significant difference to the birth rate",
+      "explain": "The document says none of these policies has made a significant difference so far."
+    },
+    {
+      "id": "hg-cn-045",
+      "level": 1,
+      "type": "input",
+      "prompt": "A population with more and more old people is an ... population. (ageing / growing / rural)",
+      "answer": [
+        "ageing"
+      ],
+      "explain": "An ageing population has a growing share of old people."
+    },
+    {
+      "id": "hg-cn-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the document, what helped Europe offset its low birth rate in 2024?",
+      "choices": [
+        "A baby boom",
+        "A one-child policy",
+        "Immigration",
+        "Cash subsidies only"
+      ],
+      "answer": "Immigration",
+      "explain": "More people moved into the EU than left it."
+    },
+    {
+      "id": "hg-cn-047",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which statement about 2024 is right, according to the document?",
+      "choices": [
+        "More people moved into China than left it, but the EU had more leaving than arriving",
+        "Both China and the EU had more people arriving than leaving",
+        "Both China and the EU had more people leaving than arriving",
+        "More people moved into the EU than left it, but China had more people leaving than arriving"
+      ],
+      "answer": "More people moved into the EU than left it, but China had more people leaving than arriving",
+      "explain": "Europe gains from immigration; China loses people, including skilled workers."
+    },
+    {
+      "id": "hg-cn-048",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "One expert says: \"People have wrongly predicted population disasters before.\" Which view is this?",
+      "choices": [
+        "This is a transition, not a disaster",
+        "The peak is closer than people think",
+        "China is still rising",
+        "Everyone agrees it is a crisis"
+      ],
+      "answer": "This is a transition, not a disaster",
+      "explain": "This view says the consequences are unlikely to be catastrophic."
+    },
+    {
+      "id": "hg-cn-049",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "One expert says China's leaders have avoided important reforms, which starts to hurt the economy. Which view is this?",
+      "choices": [
+        "This is a transition, not a disaster",
+        "The peak is closer than people think",
+        "China is still rising",
+        "Everyone agrees it is a crisis"
+      ],
+      "answer": "The peak is closer than people think",
+      "explain": "This view says good government leads to a strong economy."
+    },
+    {
+      "id": "hg-cn-050",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In the view \"China is still rising\", what do China's leaders think of the demographic problem?",
+      "choices": [
+        "They think it will end China's power",
+        "They think it is a disaster",
+        "They think it does not change China's rise",
+        "They think it is not real"
+      ],
+      "answer": "They think it does not change China's rise",
+      "explain": "This view says the leaders still believe the country is rising."
+    }
+  ]
+}

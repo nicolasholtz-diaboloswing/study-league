@@ -1,0 +1,1297 @@
+{
+  "topic": "fr-verbe-present",
+  "questions": [
+    {
+      "id": "fr-vp-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un verbe se compose de deux parties. Lesquelles ?",
+      "choices": [
+        "Un radical et un préfixe",
+        "Une terminaison et un auxiliaire",
+        "Un préfixe et un suffixe",
+        "Un radical et une terminaison"
+      ],
+      "answer": "Un radical et une terminaison",
+      "explain": "Un verbe se compose d'un radical et d'une terminaison."
+    },
+    {
+      "id": "fr-vp-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'exprime le radical d'un verbe ?",
+      "choices": [
+        "Son mode, son temps, sa personne et son nombre",
+        "Le groupe auquel il appartient",
+        "Le sujet de la phrase",
+        "L'idée commune à toutes ses formes"
+      ],
+      "answer": "L'idée commune à toutes ses formes",
+      "explain": "Le radical exprime l'idée commune à toutes les formes du verbe."
+    },
+    {
+      "id": "fr-vp-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'exprime la terminaison d'un verbe ?",
+      "choices": [
+        "L'idée commune à toutes ses formes",
+        "Son groupe et son sens",
+        "Son temps seulement",
+        "Son mode, son temps, sa personne et son nombre"
+      ],
+      "answer": "Son mode, son temps, sa personne et son nombre",
+      "explain": "La terminaison exprime le mode, le temps, la personne et le nombre."
+    },
+    {
+      "id": "fr-vp-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment sépare-t-on le radical et la terminaison de « entendons » ?",
+      "choices": [
+        "entendo/ns",
+        "ent/endons",
+        "enten/dons",
+        "entend/ons"
+      ],
+      "answer": "entend/ons",
+      "explain": "Radical entend-, terminaison -ons."
+    },
+    {
+      "id": "fr-vp-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans « vendent », quelle est la terminaison ?",
+      "answer": [
+        "ent",
+        "-ent"
+      ],
+      "explain": "vend/ent : le radical est vend-, la terminaison est -ent."
+    },
+    {
+      "id": "fr-vp-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "« dorment » est à quelle personne ?",
+      "choices": [
+        "3e personne du singulier",
+        "1re personne du pluriel",
+        "3e personne du pluriel",
+        "2e personne du pluriel"
+      ],
+      "answer": "3e personne du pluriel",
+      "explain": "La terminaison -ent marque ici la 3e personne du pluriel."
+    },
+    {
+      "id": "fr-vp-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "« j'ai » : la terminaison « ai » marque quelle personne ?",
+      "choices": [
+        "2e personne du singulier",
+        "3e personne du singulier",
+        "1re personne du singulier",
+        "1re personne du pluriel"
+      ],
+      "answer": "1re personne du singulier",
+      "explain": "« ai » est la forme de la 1re personne du singulier (j'ai)."
+    },
+    {
+      "id": "fr-vp-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "« écoutez » est à quelle personne ?",
+      "choices": [
+        "2e personne du singulier",
+        "3e personne du pluriel",
+        "2e personne du pluriel",
+        "1re personne du pluriel"
+      ],
+      "answer": "2e personne du pluriel",
+      "explain": "La terminaison -ez marque la 2e personne du pluriel (vous)."
+    },
+    {
+      "id": "fr-vp-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "« punissons » est à quelle personne ?",
+      "choices": [
+        "1re personne du singulier",
+        "2e personne du pluriel",
+        "1re personne du pluriel",
+        "3e personne du pluriel"
+      ],
+      "answer": "1re personne du pluriel",
+      "explain": "La terminaison -ons marque la 1re personne du pluriel (nous)."
+    },
+    {
+      "id": "fr-vp-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "« penches » est à quelle personne ?",
+      "choices": [
+        "3e personne du singulier",
+        "1re personne du singulier",
+        "2e personne du singulier",
+        "2e personne du pluriel"
+      ],
+      "answer": "2e personne du singulier",
+      "explain": "La terminaison -es marque la 2e personne du singulier (tu)."
+    },
+    {
+      "id": "fr-vp-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent, quelle terminaison « finir » a-t-il à la 1re et à la 2e personne du singulier ?",
+      "choices": [
+        "-t",
+        "-e",
+        "-s",
+        "-x"
+      ],
+      "answer": "-s",
+      "explain": "Je finis, tu finis : terminaison -s."
+    },
+    {
+      "id": "fr-vp-012",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : je vau_ (valoir). Quelle lettre manque à la fin ? (s / x / t / e)",
+      "answer": [
+        "x"
+      ],
+      "explain": "Valoir : je vaux, tu vaux, il vaut."
+    },
+    {
+      "id": "fr-vp-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel verbe est du 1er groupe ?",
+      "choices": [
+        "rougir",
+        "aimer",
+        "recevoir",
+        "aller"
+      ],
+      "answer": "aimer",
+      "explain": "Les verbes en -er sont du 1er groupe, sauf aller."
+    },
+    {
+      "id": "fr-vp-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel verbe est du 2e groupe ?",
+      "choices": [
+        "partir",
+        "applaudir",
+        "venir",
+        "cueillir"
+      ],
+      "answer": "applaudir",
+      "explain": "Applaudir fait « nous applaudissons » : 2e groupe."
+    },
+    {
+      "id": "fr-vp-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel verbe prend -iss- au pluriel du présent ?",
+      "choices": [
+        "partir",
+        "choisir",
+        "venir",
+        "cueillir"
+      ],
+      "answer": "choisir",
+      "explain": "Nous choisissons : choisir est du 2e groupe."
+    },
+    {
+      "id": "fr-vp-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi « partir » est-il du 3e groupe ?",
+      "choices": [
+        "Il se termine par -er",
+        "Il se termine par -ir mais ne fait pas -iss- au pluriel",
+        "Il fait -iss- au pluriel",
+        "Il se termine par -re"
+      ],
+      "answer": "Il se termine par -ir mais ne fait pas -iss- au pluriel",
+      "explain": "On dit « nous partons », pas « nous partissons »."
+    },
+    {
+      "id": "fr-vp-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi « aller » est-il du 3e groupe ?",
+      "choices": [
+        "Il fait -iss- au pluriel du présent",
+        "C'est l'exception : il se termine par -er mais n'est pas du 1er groupe",
+        "Il se termine par -oir",
+        "Il se termine par -re"
+      ],
+      "answer": "C'est l'exception : il se termine par -er mais n'est pas du 1er groupe",
+      "explain": "Aller se termine par -er mais n'est pas du 1er groupe."
+    },
+    {
+      "id": "fr-vp-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel verbe en -ir est du 3e groupe ?",
+      "choices": [
+        "rougir",
+        "cueillir",
+        "applaudir",
+        "choisir"
+      ],
+      "answer": "cueillir",
+      "explain": "Nous cueillons : pas de -iss-, donc 3e groupe."
+    },
+    {
+      "id": "fr-vp-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que regroupe le 1er groupe ?",
+      "choices": [
+        "Les verbes en -er, aller compris",
+        "Les verbes en -er, sauf aller",
+        "Les verbes en -ir qui font -iss- au pluriel",
+        "Les verbes en -ir et en -oir"
+      ],
+      "answer": "Les verbes en -er, sauf aller",
+      "explain": "Premier groupe : les verbes en -er (aller n'en fait pas partie)."
+    },
+    {
+      "id": "fr-vp-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que regroupe le 2e groupe ?",
+      "choices": [
+        "Tous les verbes en -ir",
+        "Les verbes en -ir qui font -iss- au pluriel du présent",
+        "Les verbes en -er, sauf aller",
+        "Les verbes en -oir et en -re"
+      ],
+      "answer": "Les verbes en -ir qui font -iss- au pluriel du présent",
+      "explain": "Deuxième groupe : -ir avec -iss- au pluriel du présent."
+    },
+    {
+      "id": "fr-vp-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que regroupe le 3e groupe ?",
+      "choices": [
+        "Les verbes en -er, sauf aller",
+        "Tous les autres verbes en -ir, ceux en -oir et en -re, et aller",
+        "Seulement les verbes en -oir et en -re",
+        "Les verbes en -ir qui font -iss- au pluriel"
+      ],
+      "answer": "Tous les autres verbes en -ir, ceux en -oir et en -re, et aller",
+      "explain": "Troisième groupe : tous les autres verbes en -ir, ceux en -oir et -re, et aller."
+    },
+    {
+      "id": "fr-vp-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "À quel groupe appartient « danser » ? (1er / 2e / 3e)",
+      "answer": [
+        "1er"
+      ],
+      "explain": "Danser se termine par -er : 1er groupe."
+    },
+    {
+      "id": "fr-vp-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "À quel groupe appartient « rougir » ? (1er / 2e / 3e)",
+      "answer": [
+        "2e"
+      ],
+      "explain": "Nous rougissons : 2e groupe."
+    },
+    {
+      "id": "fr-vp-024",
+      "level": 3,
+      "type": "input",
+      "prompt": "À quel groupe appartient « aller » ? (1er / 2e / 3e)",
+      "answer": [
+        "3e"
+      ],
+      "explain": "Aller est l'exception : il est du 3e groupe."
+    },
+    {
+      "id": "fr-vp-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que prennent les verbes en -uire avant la terminaison au pluriel ?",
+      "choices": [
+        "un t",
+        "un accent circonflexe",
+        "un s",
+        "un y"
+      ],
+      "answer": "un s",
+      "explain": "Nous conduisons, vous détruisez, ils instruisent."
+    },
+    {
+      "id": "fr-vp-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (conduire) la caravane vers l'oasis.",
+      "choices": [
+        "conduons",
+        "conduissons",
+        "conduisons",
+        "conduirons"
+      ],
+      "answer": "conduisons",
+      "explain": "Les verbes en -uire prennent un s au pluriel : nous conduisons."
+    },
+    {
+      "id": "fr-vp-027",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Lequel de ces verbes prend un s au pluriel, comme conduire ?",
+      "choices": [
+        "fuir",
+        "courir",
+        "luire",
+        "venir"
+      ],
+      "answer": "luire",
+      "explain": "Luire est en -uire : ils luisent ; fuir fait « nous fuyons »."
+    },
+    {
+      "id": "fr-vp-028",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Les prunelles ___ (luire) à la lueur du flambeau.",
+      "choices": [
+        "luient",
+        "luissent",
+        "luisent",
+        "luisont"
+      ],
+      "answer": "luisent",
+      "explain": "Luire : ils luisent."
+    },
+    {
+      "id": "fr-vp-029",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Nous ___ (traduire) ce conte en anglais.",
+      "answer": [
+        "traduisons"
+      ],
+      "explain": "Traduire : nous traduisons."
+    },
+    {
+      "id": "fr-vp-030",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Il ___ (connaître) la route de l'oasis.",
+      "choices": [
+        "connaist",
+        "connaît",
+        "connoît",
+        "connaîs"
+      ],
+      "answer": "connaît",
+      "explain": "Les verbes en -aître gardent l'accent circonflexe devant le t."
+    },
+    {
+      "id": "fr-vp-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (paraître) très surpris.",
+      "choices": [
+        "paraîtons",
+        "paraissons",
+        "paraisons",
+        "paraissont"
+      ],
+      "answer": "paraissons",
+      "explain": "Au pluriel, le radical devient paraiss- : nous paraissons."
+    },
+    {
+      "id": "fr-vp-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (naître) sous une bonne étoile.",
+      "choices": [
+        "naîs",
+        "nais",
+        "naît",
+        "naisses"
+      ],
+      "answer": "nais",
+      "explain": "Naître : je nais, tu nais, il naît."
+    },
+    {
+      "id": "fr-vp-033",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Il ___ (croître) à vue d'œil.",
+      "choices": [
+        "croit",
+        "croît",
+        "croite",
+        "croisse"
+      ],
+      "answer": "croît",
+      "explain": "Croître garde l'accent circonflexe : il croît (il croit vient de croire)."
+    },
+    {
+      "id": "fr-vp-034",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase le verbe est-il croire, et non croître ?",
+      "choices": [
+        "Le blé croît dans la plaine.",
+        "Il croit son frère.",
+        "Tu croîs plus vite que lui.",
+        "Les ombres croissent le soir."
+      ],
+      "answer": "Il croit son frère.",
+      "explain": "Croire s'écrit sans accent circonflexe : il croit."
+    },
+    {
+      "id": "fr-vp-035",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle série est correcte pour le verbe croître ?",
+      "choices": [
+        "je crois, tu crois, il croit",
+        "je croîs, tu croîs, il croît",
+        "je croîs, tu croîs, il croit",
+        "je croîs, tu croît, il croît"
+      ],
+      "answer": "je croîs, tu croîs, il croît",
+      "explain": "Croître garde l'accent circonflexe sur le i, sauf devant -ss-."
+    },
+    {
+      "id": "fr-vp-036",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle série est correcte pour le verbe naître ?",
+      "choices": [
+        "je naîs, tu naîs, il naît",
+        "je nais, tu nais, il naît",
+        "je nais, tu naît, il naît",
+        "je naît, tu naît, il naît"
+      ],
+      "answer": "je nais, tu nais, il naît",
+      "explain": "Seul « il naît » garde l'accent circonflexe devant le t."
+    },
+    {
+      "id": "fr-vp-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pourquoi écrit-on « je connais » sans accent circonflexe ?",
+      "choices": [
+        "Parce que connaître est du 2e groupe",
+        "L'accent ne reste que devant le t (il connaît)",
+        "Parce que le s remplace l'accent",
+        "Parce que le radical change au singulier"
+      ],
+      "answer": "L'accent ne reste que devant le t (il connaît)",
+      "explain": "Les verbes en -aître gardent l'accent circonflexe sur le i devant le t seulement."
+    },
+    {
+      "id": "fr-vp-038",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le radical de « connaître » au pluriel du présent ?",
+      "choices": [
+        "connais-",
+        "connaiss-",
+        "connaît-",
+        "connait-"
+      ],
+      "answer": "connaiss-",
+      "explain": "Nous connaissons, ils connaissent : radical connaiss-."
+    },
+    {
+      "id": "fr-vp-039",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au présent : Elle ___ (paraître) fatiguée.",
+      "answer": [
+        "paraît",
+        "parait"
+      ],
+      "explain": "Devant le t, l'accent circonflexe reste : elle paraît."
+    },
+    {
+      "id": "fr-vp-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (craindre) les tempêtes de sable.",
+      "choices": [
+        "crains",
+        "craints",
+        "craignes",
+        "crainds"
+      ],
+      "answer": "crains",
+      "explain": "Craindre : je crains, tu crains, il craint."
+    },
+    {
+      "id": "fr-vp-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (craindre) la colère du calife.",
+      "choices": [
+        "craignons",
+        "craindons",
+        "crainons",
+        "craignont"
+      ],
+      "answer": "craignons",
+      "explain": "Au pluriel, le radical devient craign- : nous craignons."
+    },
+    {
+      "id": "fr-vp-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Je ___ (peindre) les murs du palais.",
+      "choices": [
+        "peins",
+        "peinds",
+        "peint",
+        "peigne"
+      ],
+      "answer": "peins",
+      "explain": "Peindre : je peins, tu peins, il peint."
+    },
+    {
+      "id": "fr-vp-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Ils ___ (peindre) des fresques.",
+      "choices": [
+        "peignent",
+        "peindent",
+        "peinent",
+        "peignant"
+      ],
+      "answer": "peignent",
+      "explain": "Au pluriel, le radical devient peign- : ils peignent."
+    },
+    {
+      "id": "fr-vp-044",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (éteindre) la bougie.",
+      "choices": [
+        "éteins",
+        "éteint",
+        "éteinds",
+        "étends"
+      ],
+      "answer": "éteins",
+      "explain": "Éteindre : j'éteins, tu éteins, il éteint."
+    },
+    {
+      "id": "fr-vp-045",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que se passe-t-il pour « craindre » entre « je crains » et « nous craignons » ?",
+      "choices": [
+        "Au singulier le radical perd sa dernière consonne ; au pluriel il change",
+        "Le radical reste craind- à toutes les personnes",
+        "Le radical prend un s au pluriel",
+        "Seule la terminaison change"
+      ],
+      "answer": "Au singulier le radical perd sa dernière consonne ; au pluriel il change",
+      "explain": "Les verbes en -indre perdent la dernière consonne au singulier et changent de radical au pluriel."
+    },
+    {
+      "id": "fr-vp-046",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Vous ___ (résoudre) un problème difficile.",
+      "choices": [
+        "résolvez",
+        "résoudez",
+        "résolevez",
+        "résousez"
+      ],
+      "answer": "résolvez",
+      "explain": "Au pluriel, le radical devient résolv- : vous résolvez."
+    },
+    {
+      "id": "fr-vp-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Le vizir ___ (résoudre) l'énigme.",
+      "answer": [
+        "résout"
+      ],
+      "explain": "Résoudre : il résout."
+    },
+    {
+      "id": "fr-vp-048",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Tu ___ (coudre) une tunique précieuse.",
+      "choices": [
+        "cous",
+        "coud",
+        "coudes",
+        "couds"
+      ],
+      "answer": "couds",
+      "explain": "Coudre : je couds, tu couds, il coud."
+    },
+    {
+      "id": "fr-vp-049",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Il ___ (vaincre) toujours ses adversaires.",
+      "choices": [
+        "vaint",
+        "vainct",
+        "vainque",
+        "vainc"
+      ],
+      "answer": "vainc",
+      "explain": "Vaincre : il vainc, sans t."
+    },
+    {
+      "id": "fr-vp-050",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au présent : J'___ (acquérir) de l'expérience.",
+      "answer": [
+        "acquiers",
+        "j'acquiers"
+      ],
+      "explain": "Acquérir : j'acquiers, nous acquérons."
+    },
+    {
+      "id": "fr-vp-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (acquérir) de nouvelles terres.",
+      "choices": [
+        "acquiérons",
+        "acquérissons",
+        "acquérons",
+        "acquerons"
+      ],
+      "answer": "acquérons",
+      "explain": "Au pluriel, le radical devient acquér- : nous acquérons."
+    },
+    {
+      "id": "fr-vp-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (être) prêts pour la course.",
+      "choices": [
+        "étons",
+        "soyons",
+        "sommes",
+        "sont"
+      ],
+      "answer": "sommes",
+      "explain": "Être : nous sommes."
+    },
+    {
+      "id": "fr-vp-053",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Je ___ (être) le capitaine de l'équipe.",
+      "answer": [
+        "suis"
+      ],
+      "explain": "Être : je suis."
+    },
+    {
+      "id": "fr-vp-054",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Vous ___ (avoir) une belle équipe.",
+      "choices": [
+        "avons",
+        "avez",
+        "ayez",
+        "avaient"
+      ],
+      "answer": "avez",
+      "explain": "Avoir : vous avez."
+    },
+    {
+      "id": "fr-vp-055",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Il ___ (avoir) un tapis volant.",
+      "answer": [
+        "a"
+      ],
+      "explain": "Avoir : il a."
+    },
+    {
+      "id": "fr-vp-056",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Ils ___ (voir) les murs du palais.",
+      "choices": [
+        "voient",
+        "voyent",
+        "voyont",
+        "voirent"
+      ],
+      "answer": "voient",
+      "explain": "Voir : ils voient."
+    },
+    {
+      "id": "fr-vp-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Vous ___ (voir) une oasis.",
+      "answer": [
+        "voyez"
+      ],
+      "explain": "Voir : vous voyez."
+    },
+    {
+      "id": "fr-vp-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (traire) les chèvres.",
+      "choices": [
+        "traisons",
+        "traions",
+        "trairons",
+        "trayons"
+      ],
+      "answer": "trayons",
+      "explain": "Traire : nous trayons."
+    },
+    {
+      "id": "fr-vp-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Les bergers ___ (traire) les chèvres à l'aube.",
+      "choices": [
+        "trayent",
+        "traisent",
+        "trairent",
+        "traient"
+      ],
+      "answer": "traient",
+      "explain": "Traire : ils traient."
+    },
+    {
+      "id": "fr-vp-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Il ___ (traire) la vache.",
+      "answer": [
+        "trait"
+      ],
+      "explain": "Traire : je trais, il trait."
+    },
+    {
+      "id": "fr-vp-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (fuir) la tempête.",
+      "choices": [
+        "fuions",
+        "fuissons",
+        "fuyons",
+        "fuiyons"
+      ],
+      "answer": "fuyons",
+      "explain": "Fuir : nous fuyons."
+    },
+    {
+      "id": "fr-vp-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Le voleur ___ (fuir) vers la forêt.",
+      "choices": [
+        "fuyt",
+        "fuit",
+        "fuis",
+        "fuie"
+      ],
+      "answer": "fuit",
+      "explain": "Fuir : il fuit."
+    },
+    {
+      "id": "fr-vp-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Vous ___ (fuir) le danger.",
+      "answer": [
+        "fuyez"
+      ],
+      "explain": "Fuir : vous fuyez."
+    },
+    {
+      "id": "fr-vp-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Le tapissier ___ (battre) le tapis.",
+      "choices": [
+        "bats",
+        "bat",
+        "batt",
+        "bate"
+      ],
+      "answer": "bat",
+      "explain": "Battre : il bat."
+    },
+    {
+      "id": "fr-vp-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Nous ___ (battre) nos rivaux.",
+      "answer": [
+        "battons"
+      ],
+      "explain": "Battre : nous battons."
+    },
+    {
+      "id": "fr-vp-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Vous ___ (mettre) le couvert.",
+      "choices": [
+        "mettez",
+        "mettes",
+        "mettiez",
+        "metez"
+      ],
+      "answer": "mettez",
+      "explain": "Mettre : vous mettez."
+    },
+    {
+      "id": "fr-vp-067",
+      "level": 1,
+      "type": "input",
+      "prompt": "Au présent : Nous ___ (mettre) nos maillots.",
+      "answer": [
+        "mettons"
+      ],
+      "explain": "Mettre : nous mettons."
+    },
+    {
+      "id": "fr-vp-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Je ___ (bouillir) d'impatience.",
+      "choices": [
+        "bouille",
+        "bouts",
+        "bouis",
+        "bous"
+      ],
+      "answer": "bous",
+      "explain": "Bouillir : je bous, tu bous, il bout."
+    },
+    {
+      "id": "fr-vp-069",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (bouillir) de colère.",
+      "choices": [
+        "bouons",
+        "bousons",
+        "bouillissons",
+        "bouillons"
+      ],
+      "answer": "bouillons",
+      "explain": "Bouillir : nous bouillons."
+    },
+    {
+      "id": "fr-vp-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : L'eau ___ (bouillir) dans la marmite.",
+      "answer": [
+        "bout"
+      ],
+      "explain": "Bouillir : il bout."
+    },
+    {
+      "id": "fr-vp-071",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Ces bijoux ___ (valoir) une fortune.",
+      "choices": [
+        "vaut",
+        "valent",
+        "vaux",
+        "valont"
+      ],
+      "answer": "valent",
+      "explain": "Valoir : ils valent."
+    },
+    {
+      "id": "fr-vp-072",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle série est correcte pour valoir ?",
+      "choices": [
+        "je vaux, tu vaux, il vaux",
+        "je vaus, tu vaus, il vaut",
+        "je vaux, tu vaux, il vaut",
+        "je val, tu vals, il val"
+      ],
+      "answer": "je vaux, tu vaux, il vaut",
+      "explain": "Valoir : la terminaison est -x aux deux premières personnes, -t à la troisième."
+    },
+    {
+      "id": "fr-vp-073",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (savoir) le chemin.",
+      "choices": [
+        "sachons",
+        "savont",
+        "savons",
+        "savens"
+      ],
+      "answer": "savons",
+      "explain": "Savoir : nous savons."
+    },
+    {
+      "id": "fr-vp-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Les marchands ___ (savoir) tout.",
+      "answer": [
+        "savent"
+      ],
+      "explain": "Savoir : ils savent."
+    },
+    {
+      "id": "fr-vp-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle série est correcte pour bouillir ?",
+      "choices": [
+        "je bouille, tu bouilles, il bouille",
+        "je bous, tu bous, il bout",
+        "je bous, tu bous, il bous",
+        "je bouts, tu bouts, il bout"
+      ],
+      "answer": "je bous, tu bous, il bout",
+      "explain": "Bouillir : je bous, tu bous, il bout."
+    },
+    {
+      "id": "fr-vp-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment se conjugue « contenir » ?",
+      "choices": [
+        "Comme finir",
+        "Comme tenir",
+        "Comme aimer",
+        "Comme voir"
+      ],
+      "answer": "Comme tenir",
+      "explain": "Les verbes ayant un préfixe suivent les mêmes règles : contenir comme tenir."
+    },
+    {
+      "id": "fr-vp-077",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Au présent : Ce coffre ___ (contenir) des bijoux.",
+      "choices": [
+        "contiens",
+        "contient",
+        "contien",
+        "contienne"
+      ],
+      "answer": "contient",
+      "explain": "Contenir comme tenir : il contient."
+    },
+    {
+      "id": "fr-vp-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Les coffres ___ (contenir) de l'or.",
+      "choices": [
+        "contienent",
+        "contiennent",
+        "contenent",
+        "contiendent"
+      ],
+      "answer": "contiennent",
+      "explain": "Contenir comme tenir : ils contiennent."
+    },
+    {
+      "id": "fr-vp-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (retenir) notre souffle.",
+      "choices": [
+        "retiennons",
+        "retenons",
+        "retiens",
+        "retenont"
+      ],
+      "answer": "retenons",
+      "explain": "Retenir comme tenir : nous retenons."
+    },
+    {
+      "id": "fr-vp-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Il ___ (combattre) pour le calife.",
+      "choices": [
+        "combatt",
+        "combat",
+        "combats",
+        "combate"
+      ],
+      "answer": "combat",
+      "explain": "Combattre se conjugue comme battre : il combat."
+    },
+    {
+      "id": "fr-vp-081",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (revoir) nos amis.",
+      "choices": [
+        "revoions",
+        "revoyons",
+        "revoyont",
+        "revoirons"
+      ],
+      "answer": "revoyons",
+      "explain": "Revoir se conjugue comme voir : nous revoyons."
+    },
+    {
+      "id": "fr-vp-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Ils ___ (soutenir) leur équipe.",
+      "choices": [
+        "soutienent",
+        "soutiennent",
+        "soutenent",
+        "soutiendent"
+      ],
+      "answer": "soutiennent",
+      "explain": "Soutenir se conjugue comme tenir : ils soutiennent."
+    },
+    {
+      "id": "fr-vp-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au présent : Elle ___ (promettre) la victoire.",
+      "answer": [
+        "promet"
+      ],
+      "explain": "Promettre se conjugue comme mettre : elle promet."
+    },
+    {
+      "id": "fr-vp-084",
+      "level": 1,
+      "type": "input",
+      "prompt": "Je ___ du caravansérail avec mes compagnons. (pare / pars)",
+      "answer": [
+        "pars"
+      ],
+      "explain": "Partir : je pars ; « pare » vient de parer."
+    },
+    {
+      "id": "fr-vp-085",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le marchand ___ des épices au souk. (vent / vend)",
+      "answer": [
+        "vend"
+      ],
+      "explain": "Il vend : verbe vendre ; « vent » est un nom."
+    },
+    {
+      "id": "fr-vp-086",
+      "level": 2,
+      "type": "input",
+      "prompt": "Je ___ sous la tente comme un loir. (dors / dore)",
+      "answer": [
+        "dors"
+      ],
+      "explain": "Dormir : je dors."
+    },
+    {
+      "id": "fr-vp-087",
+      "level": 3,
+      "type": "input",
+      "prompt": "Il ___ le blé pour le pain. (moud / mout)",
+      "answer": [
+        "moud"
+      ],
+      "explain": "Moudre : il moud."
+    },
+    {
+      "id": "fr-vp-088",
+      "level": 3,
+      "type": "input",
+      "prompt": "Tu ___ l'énigme du calife. (résous / résouds)",
+      "answer": [
+        "résous"
+      ],
+      "explain": "Résoudre : tu résous."
+    },
+    {
+      "id": "fr-vp-089",
+      "level": 3,
+      "type": "input",
+      "prompt": "Effrayés, ils ___ vers l'oasis. (fuient / fuyent)",
+      "answer": [
+        "fuient"
+      ],
+      "explain": "Fuir : ils fuient."
+    },
+    {
+      "id": "fr-vp-090",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « nous fuyons » ?",
+      "choices": [
+        "fuyer",
+        "fuire",
+        "fuir",
+        "fuiyer"
+      ],
+      "answer": "fuir",
+      "explain": "« nous fuyons » vient du verbe fuir."
+    },
+    {
+      "id": "fr-vp-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « ils voient » ?",
+      "choices": [
+        "voier",
+        "voyer",
+        "voir",
+        "voyir"
+      ],
+      "answer": "voir",
+      "explain": "« ils voient » vient du verbe voir."
+    },
+    {
+      "id": "fr-vp-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « il bout » ?",
+      "choices": [
+        "bouter",
+        "bouir",
+        "bouillir",
+        "boudre"
+      ],
+      "answer": "bouillir",
+      "explain": "« il bout » vient du verbe bouillir."
+    },
+    {
+      "id": "fr-vp-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « il moud » ?",
+      "choices": [
+        "mouder",
+        "mourir",
+        "moudre",
+        "mouvoir"
+      ],
+      "answer": "moudre",
+      "explain": "« il moud » vient du verbe moudre."
+    },
+    {
+      "id": "fr-vp-094",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « je crains » ?",
+      "choices": [
+        "crainre",
+        "craigner",
+        "craindre",
+        "crainter"
+      ],
+      "answer": "craindre",
+      "explain": "« je crains » vient du verbe craindre."
+    },
+    {
+      "id": "fr-vp-095",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est l'infinitif de « nous connaissons » ?",
+      "choices": [
+        "connaisser",
+        "connaissir",
+        "connaître",
+        "connaîre"
+      ],
+      "answer": "connaître",
+      "explain": "« nous connaissons » vient du verbe connaître."
+    },
+    {
+      "id": "fr-vp-096",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est l'infinitif de « tu couds » ?",
+      "answer": [
+        "coudre"
+      ],
+      "explain": "« tu couds » vient du verbe coudre."
+    },
+    {
+      "id": "fr-vp-097",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est l'infinitif de « elle croît » ?",
+      "answer": [
+        "croître",
+        "croitre"
+      ],
+      "explain": "« elle croît » vient du verbe croître."
+    },
+    {
+      "id": "fr-vp-098",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est l'infinitif de « nous trayons » ?",
+      "answer": [
+        "traire"
+      ],
+      "explain": "« nous trayons » vient du verbe traire."
+    },
+    {
+      "id": "fr-vp-099",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (moudre) le café.",
+      "choices": [
+        "moudons",
+        "mousons",
+        "moulrons",
+        "moulons"
+      ],
+      "answer": "moulons",
+      "explain": "Au pluriel, le radical devient moul- : nous moulons."
+    },
+    {
+      "id": "fr-vp-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au présent : Nous ___ (coudre) des voiles pour le bateau.",
+      "choices": [
+        "coudons",
+        "couons",
+        "couseons",
+        "cousons"
+      ],
+      "answer": "cousons",
+      "explain": "Au pluriel, le radical devient cous- : nous cousons."
+    }
+  ]
+}

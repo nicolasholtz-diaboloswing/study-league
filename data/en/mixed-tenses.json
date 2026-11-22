@@ -1,0 +1,1928 @@
+{
+  "topic": "en-mixed-tenses",
+  "questions": [
+    {
+      "id": "en-mix-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is used for general truths?",
+      "choices": [
+        "Present simple",
+        "Present continuous",
+        "Past simple",
+        "Present perfect"
+      ],
+      "answer": "Present simple",
+      "explain": "Present simple is for general truths and habits."
+    },
+    {
+      "id": "en-mix-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is used for what is happening right now?",
+      "choices": [
+        "Present simple",
+        "Past simple",
+        "Past continuous",
+        "Present continuous"
+      ],
+      "answer": "Present continuous",
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is used for a finished action – completed?",
+      "choices": [
+        "Present simple",
+        "Past continuous",
+        "Past simple",
+        "Present continuous"
+      ],
+      "answer": "Past simple",
+      "explain": "Past simple is for a finished action – completed."
+    },
+    {
+      "id": "en-mix-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is used for an action that is interrupted?",
+      "choices": [
+        "Present simple",
+        "Past continuous",
+        "Present continuous",
+        "Present perfect"
+      ],
+      "answer": "Past continuous",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is used for an action that started in the past and continues in the present?",
+      "choices": [
+        "Present simple",
+        "Present perfect",
+        "Past simple",
+        "Past continuous"
+      ],
+      "answer": "Present perfect",
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is used for habits?",
+      "choices": [
+        "Present simple",
+        "Present continuous",
+        "Past continuous",
+        "Present perfect"
+      ],
+      "answer": "Present simple",
+      "explain": "Present simple is for general truths and habits."
+    },
+    {
+      "id": "en-mix-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the present continuous used for?",
+      "choices": [
+        "A finished action – completed",
+        "A general truth or a habit",
+        "An action that is interrupted",
+        "Something happening right now"
+      ],
+      "answer": "Something happening right now",
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the past simple used for?",
+      "choices": [
+        "Something happening right now",
+        "An action that is interrupted",
+        "A finished action – completed",
+        "An action that started in the past and continues in the present"
+      ],
+      "answer": "A finished action – completed",
+      "explain": "Past simple is for a finished action – completed."
+    },
+    {
+      "id": "en-mix-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the present perfect used for?",
+      "choices": [
+        "An action that is interrupted",
+        "Something happening right now",
+        "An action that started in the past and continues in the present",
+        "A general truth or a habit"
+      ],
+      "answer": "An action that started in the past and continues in the present",
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the past continuous used for?",
+      "choices": [
+        "A finished action – completed",
+        "An action that is interrupted",
+        "A general truth or a habit",
+        "Something happening right now"
+      ],
+      "answer": "An action that is interrupted",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the present simple used for?",
+      "choices": [
+        "General truths and habits",
+        "Something happening right now",
+        "An action that is interrupted",
+        "A finished action – completed"
+      ],
+      "answer": "General truths and habits",
+      "explain": "Present simple is for general truths and habits."
+    },
+    {
+      "id": "en-mix-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is 'go' in this sentence? I always go to the pool on Mondays.",
+      "choices": [
+        "Present perfect",
+        "Present continuous",
+        "Past simple",
+        "Present simple"
+      ],
+      "answer": "Present simple",
+      "explain": "Present simple is for general truths and habits."
+    },
+    {
+      "id": "en-mix-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is 'likes' in this sentence? He likes chocolate.",
+      "choices": [
+        "Present continuous",
+        "Past simple",
+        "Past continuous",
+        "Present simple"
+      ],
+      "answer": "Present simple",
+      "explain": "Present simple is for general truths and habits."
+    },
+    {
+      "id": "en-mix-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is 'am talking' in this sentence? I am talking in class now.",
+      "choices": [
+        "Past simple",
+        "Past continuous",
+        "Present continuous",
+        "Present perfect"
+      ],
+      "answer": "Present continuous",
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is 'biked' in this sentence? I biked yesterday.",
+      "choices": [
+        "Past continuous",
+        "Past simple",
+        "Present perfect",
+        "Present simple"
+      ],
+      "answer": "Past simple",
+      "explain": "Past simple is for a finished action – completed."
+    },
+    {
+      "id": "en-mix-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is 'was walking' in this sentence? I was walking when my phone rang.",
+      "choices": [
+        "Past continuous",
+        "Present perfect",
+        "Present simple",
+        "Present continuous"
+      ],
+      "answer": "Past continuous",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which tense is 'have been' in this sentence? We have been friends for 3 years.",
+      "choices": [
+        "Present perfect",
+        "Present simple",
+        "Present continuous",
+        "Past simple"
+      ],
+      "answer": "Present perfect",
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which key word goes with the present simple?",
+      "choices": [
+        "right now",
+        "yesterday",
+        "since",
+        "often"
+      ],
+      "answer": "often",
+      "explain": "'Often' shows a habit, so we use the present simple."
+    },
+    {
+      "id": "en-mix-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which key word shows the present continuous?",
+      "choices": [
+        "usually",
+        "yesterday",
+        "right now",
+        "ago"
+      ],
+      "answer": "right now",
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which key word shows the past simple?",
+      "choices": [
+        "always",
+        "yesterday",
+        "right now",
+        "since"
+      ],
+      "answer": "yesterday",
+      "explain": "'Yesterday' shows a finished action, so we use the past simple."
+    },
+    {
+      "id": "en-mix-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which key word goes with the present perfect?",
+      "choices": [
+        "usually",
+        "since",
+        "ago",
+        "right now"
+      ],
+      "answer": "since",
+      "explain": "'Since' shows an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word often goes with habits in the present simple?",
+      "choices": [
+        "usually",
+        "yesterday",
+        "last week",
+        "at the moment"
+      ],
+      "answer": "usually",
+      "explain": "'Usually' shows a habit, so we use the present simple."
+    },
+    {
+      "id": "en-mix-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Long ago, Hrothgar ___ the king of the Danes.",
+      "choices": [
+        "is",
+        "is being",
+        "has being",
+        "was"
+      ],
+      "answer": "was",
+      "explain": "'Long ago' shows a finished time, so we use the past simple: was."
+    },
+    {
+      "id": "en-mix-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last week, Beowulf ___ to Denmark to help Hrothgar.",
+      "choices": [
+        "travels",
+        "is traveling",
+        "traveled",
+        "has travel"
+      ],
+      "answer": "traveled",
+      "explain": "'Last week' shows a finished action, so we use the past simple: traveled."
+    },
+    {
+      "id": "en-mix-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Grendel ___ the warriors last night.",
+      "choices": [
+        "attacks",
+        "is attacking",
+        "attacked",
+        "has attack"
+      ],
+      "answer": "attacked",
+      "explain": "'Last night' shows a finished action, so we use the past simple."
+    },
+    {
+      "id": "en-mix-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Right now, the men ___ in Heorot.",
+      "choices": [
+        "celebrate",
+        "are celebrating",
+        "celebrated",
+        "were celebrating"
+      ],
+      "answer": "are celebrating",
+      "explain": "'Right now' needs the present continuous: are celebrating."
+    },
+    {
+      "id": "en-mix-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf ___ famous since the Middle Ages.",
+      "choices": [
+        "has been",
+        "has being",
+        "was",
+        "is being"
+      ],
+      "answer": "has been",
+      "explain": "'Since' needs the present perfect: has been."
+    },
+    {
+      "id": "en-mix-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My sister ___ to school by bus every day.",
+      "choices": [
+        "go",
+        "going",
+        "has go",
+        "goes"
+      ],
+      "answer": "goes",
+      "explain": "'Every day' shows a habit, so we use the present simple: goes."
+    },
+    {
+      "id": "en-mix-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "It ___ right now, so take your umbrella.",
+      "choices": [
+        "rains",
+        "rained",
+        "was raining",
+        "is raining"
+      ],
+      "answer": "is raining",
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My brother ___ football yesterday.",
+      "choices": [
+        "plays",
+        "is playing",
+        "played",
+        "has play"
+      ],
+      "answer": "played",
+      "explain": "'Yesterday' shows a finished action, so we use the past simple."
+    },
+    {
+      "id": "en-mix-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ friends since 2023.",
+      "choices": [
+        "has been",
+        "have been",
+        "are",
+        "were"
+      ],
+      "answer": "have been",
+      "explain": "'Since' needs the present perfect: have been."
+    },
+    {
+      "id": "en-mix-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My dad ___ the bus to work every morning.",
+      "choices": [
+        "takes",
+        "take",
+        "is taking",
+        "has take"
+      ],
+      "answer": "takes",
+      "explain": "'Every morning' shows a habit, so we use the present simple: takes."
+    },
+    {
+      "id": "en-mix-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Mia ___ her homework at the moment.",
+      "choices": [
+        "is doing",
+        "does",
+        "did",
+        "has do"
+      ],
+      "answer": "is doing",
+      "explain": "'At the moment' needs the present continuous: is doing."
+    },
+    {
+      "id": "en-mix-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Two years ago, my family ___ to Spain.",
+      "choices": [
+        "go",
+        "is going",
+        "has gone",
+        "went"
+      ],
+      "answer": "went",
+      "explain": "'Ago' shows a finished action, so we use the past simple: went."
+    },
+    {
+      "id": "en-mix-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My cousin ___ at the football club every Saturday.",
+      "choices": [
+        "is training",
+        "train",
+        "trains",
+        "has train"
+      ],
+      "answer": "trains",
+      "explain": "'Every Saturday' shows a habit, so we use the present simple: trains."
+    },
+    {
+      "id": "en-mix-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "Which tense is 'attacked' in this sentence? Grendel attacked Heorot twelve years ago. (past simple / past continuous / present perfect)",
+      "answer": [
+        "past simple"
+      ],
+      "explain": "Past simple is for a finished action – completed."
+    },
+    {
+      "id": "en-mix-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "Which tense is 'are celebrating' in this sentence? The men are celebrating in Heorot right now. (present simple / present continuous / past simple)",
+      "answer": [
+        "present continuous"
+      ],
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "Long ago, Heorot ___ (be) the finest hall in Denmark.",
+      "answer": [
+        "was"
+      ],
+      "explain": "'Long ago' shows a finished time, so we use the past simple: was."
+    },
+    {
+      "id": "en-mix-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "Grendel ___ (live) near Heorot many years ago.",
+      "answer": [
+        "lived"
+      ],
+      "explain": "'Many years ago' shows a finished time, so we use the past simple: lived."
+    },
+    {
+      "id": "en-mix-040",
+      "level": 1,
+      "type": "input",
+      "prompt": "Last night, Hrothgar ___ (welcome) Beowulf to Heorot and then gave him a feast.",
+      "answer": [
+        "welcomed"
+      ],
+      "explain": "'Last night' shows a finished action, so we use the past simple: welcomed."
+    },
+    {
+      "id": "en-mix-041",
+      "level": 1,
+      "type": "input",
+      "prompt": "Right now, Hrothgar ___ (talk) to Beowulf in the hall.",
+      "answer": [
+        "is talking"
+      ],
+      "explain": "'Right now' needs the present continuous: is talking."
+    },
+    {
+      "id": "en-mix-042",
+      "level": 1,
+      "type": "input",
+      "prompt": "My mum usually ___ (drive) us to school, but today my dad is taking us.",
+      "answer": [
+        "drives"
+      ],
+      "explain": "'Usually' shows a habit, so we use the present simple: drives."
+    },
+    {
+      "id": "en-mix-043",
+      "level": 1,
+      "type": "input",
+      "prompt": "Last Tuesday, I ___ (eat) lunch with my cousins.",
+      "answer": [
+        "ate"
+      ],
+      "explain": "'Last Tuesday' shows a finished action, and 'eat' is irregular: ate."
+    },
+    {
+      "id": "en-mix-044",
+      "level": 1,
+      "type": "input",
+      "prompt": "My friends ___ (play) football right now.",
+      "answer": [
+        "are playing"
+      ],
+      "explain": "'Right now' needs the present continuous: are playing."
+    },
+    {
+      "id": "en-mix-045",
+      "level": 1,
+      "type": "input",
+      "prompt": "They ___ (be) classmates since September.",
+      "answer": [
+        "have been",
+        "'ve been"
+      ],
+      "explain": "'Since' needs the present perfect: have been."
+    },
+    {
+      "id": "en-mix-046",
+      "level": 1,
+      "type": "input",
+      "prompt": "My little brother ___ (eat) chocolate after dinner every day, but today he feels ill.",
+      "answer": [
+        "eats"
+      ],
+      "explain": "'Every day' shows a habit, so we use the present simple: eats."
+    },
+    {
+      "id": "en-mix-047",
+      "level": 1,
+      "type": "input",
+      "prompt": "I ___ (walk) to school when my phone rang.",
+      "answer": [
+        "was walking"
+      ],
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-048",
+      "level": 1,
+      "type": "input",
+      "prompt": "My cousin ___ (live) in Paris since 2022.",
+      "answer": [
+        "has lived"
+      ],
+      "explain": "'Since' needs the present perfect: has lived."
+    },
+    {
+      "id": "en-mix-049",
+      "level": 1,
+      "type": "input",
+      "prompt": "Last summer, he ___ (travel) to Scotland.",
+      "answer": [
+        "travelled",
+        "traveled"
+      ],
+      "explain": "'Last summer' shows a finished action, so we use the past simple: travelled."
+    },
+    {
+      "id": "en-mix-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "While Beowulf ___ the dragon, most of his warriors abandoned him.",
+      "choices": [
+        "was fight",
+        "has fighting",
+        "was fighting",
+        "fights"
+      ],
+      "answer": "was fighting",
+      "explain": "'While' shows an action in progress that is interrupted: was fighting."
+    },
+    {
+      "id": "en-mix-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Everyone knows that the poem ___ to the tradition of Old English literature.",
+      "choices": [
+        "is belonging",
+        "belongs",
+        "was belonging",
+        "has belong"
+      ],
+      "answer": "belongs",
+      "explain": "'Belong' is a state verb with no continuous form, and a general truth takes the present simple."
+    },
+    {
+      "id": "en-mix-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Long ago, Beowulf ___ to fight Grendel without a sword.",
+      "choices": [
+        "promises",
+        "promised",
+        "is promising",
+        "has promise"
+      ],
+      "answer": "promised",
+      "explain": "'Long ago' shows a finished action, so we use the past simple: promised."
+    },
+    {
+      "id": "en-mix-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Nowadays, students ___ what the dragon represents every year.",
+      "choices": [
+        "discuss",
+        "discussed",
+        "discussing",
+        "has discuss"
+      ],
+      "answer": "discuss",
+      "explain": "'Every year' shows a habit, so we use the present simple: discuss."
+    },
+    {
+      "id": "en-mix-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In Anglo-Saxon times, society ___ great importance on a warrior's reputation.",
+      "choices": [
+        "places",
+        "is placing",
+        "has place",
+        "placed"
+      ],
+      "answer": "placed",
+      "explain": "'In Anglo-Saxon times' shows a finished time, so we use the past simple: placed."
+    },
+    {
+      "id": "en-mix-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Long ago, Beowulf ___ to his homeland after defeating Grendel's mother.",
+      "choices": [
+        "returns",
+        "is returning",
+        "returned",
+        "has return"
+      ],
+      "answer": "returned",
+      "explain": "'Long ago' shows a finished action, so we use the past simple: returned."
+    },
+    {
+      "id": "en-mix-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Scholars ___ the poem for clues about early Germanic culture since the 1800s.",
+      "choices": [
+        "examined",
+        "are examining",
+        "have examined",
+        "has examine"
+      ],
+      "answer": "have examined",
+      "explain": "'Since' needs the present perfect: have examined."
+    },
+    {
+      "id": "en-mix-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The warriors in Heorot ___ when Beowulf arrived.",
+      "choices": [
+        "celebrate",
+        "were celebrating",
+        "were celebrate",
+        "have celebrating"
+      ],
+      "answer": "were celebrating",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The poem ___ for over a thousand years, and people still read it.",
+      "choices": [
+        "has survived",
+        "survives",
+        "is surviving",
+        "has survive"
+      ],
+      "answer": "has survived",
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "While Beowulf ___ Grendel's mother, he discovered an ancient sword.",
+      "choices": [
+        "battles",
+        "has battling",
+        "is battling",
+        "was battling"
+      ],
+      "answer": "was battling",
+      "explain": "'While' shows an action in progress that is interrupted: was battling."
+    },
+    {
+      "id": "en-mix-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In 1066, the Normans ___ England.",
+      "choices": [
+        "invade",
+        "are invading",
+        "have invade",
+        "invaded"
+      ],
+      "answer": "invaded",
+      "explain": "'In 1066' shows a finished time, so we use the past simple: invaded."
+    },
+    {
+      "id": "en-mix-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "At the moment, my sister ___ for a maths test.",
+      "choices": [
+        "studies",
+        "studied",
+        "is studying",
+        "has studying"
+      ],
+      "answer": "is studying",
+      "explain": "'At the moment' needs the present continuous: is studying."
+    },
+    {
+      "id": "en-mix-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Our coach ___ at this club since 2020.",
+      "choices": [
+        "worked",
+        "has worked",
+        "is working",
+        "has work"
+      ],
+      "answer": "has worked",
+      "explain": "'Since' needs the present perfect: has worked."
+    },
+    {
+      "id": "en-mix-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When the bell rang, we ___ football.",
+      "choices": [
+        "were playing",
+        "was playing",
+        "play",
+        "were play"
+      ],
+      "answer": "were playing",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ you watch the match on TV last night?",
+      "choices": [
+        "Did",
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "answer": "Did",
+      "explain": "'Last night' needs the past simple, so the question begins with 'Did'."
+    },
+    {
+      "id": "en-mix-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ your parents often visit your grandmother?",
+      "choices": [
+        "Does",
+        "Are",
+        "Have",
+        "Do"
+      ],
+      "answer": "Do",
+      "explain": "'Often' needs the present simple, and 'your parents' is plural: Do."
+    },
+    {
+      "id": "en-mix-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ___ like spinach, so she never eats it.",
+      "choices": [
+        "don't",
+        "isn't",
+        "doesn't",
+        "hasn't"
+      ],
+      "answer": "doesn't",
+      "explain": "The present simple negative with 'she' is 'doesn't'."
+    },
+    {
+      "id": "en-mix-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I ___ go to school yesterday because I was ill.",
+      "choices": [
+        "don't",
+        "didn't",
+        "wasn't",
+        "haven't"
+      ],
+      "answer": "didn't",
+      "explain": "'Yesterday' needs the past simple, so the negative is 'didn't'."
+    },
+    {
+      "id": "en-mix-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ you playing video games right now?",
+      "choices": [
+        "Do",
+        "Are",
+        "Did",
+        "Have"
+      ],
+      "answer": "Are",
+      "explain": "'Right now' needs the present continuous, so the question begins with 'Are'."
+    },
+    {
+      "id": "en-mix-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Listen! The children ___ in the garden.",
+      "choices": [
+        "are singing",
+        "sing",
+        "sang",
+        "have sing"
+      ],
+      "answer": "are singing",
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? Think about since 2019.",
+      "choices": [
+        "He lives here since 2019.",
+        "He is living here since 2019.",
+        "He has live here since 2019.",
+        "He has lived here since 2019."
+      ],
+      "answer": "He has lived here since 2019.",
+      "explain": "'Since' needs the present perfect: has lived."
+    },
+    {
+      "id": "en-mix-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? Think about last night.",
+      "choices": [
+        "I have seen a film last night.",
+        "I seen a film last night.",
+        "I saw a film last night.",
+        "I see a film last night."
+      ],
+      "answer": "I saw a film last night.",
+      "explain": "'Last night' shows a finished action, so we use the past simple: saw."
+    },
+    {
+      "id": "en-mix-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence uses the past continuous?",
+      "choices": [
+        "I read a book yesterday.",
+        "I am reading a book now.",
+        "I was reading when the lights went out.",
+        "I have read two books this month."
+      ],
+      "answer": "I was reading when the lights went out.",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence uses the present perfect?",
+      "choices": [
+        "He lived in Paris two years ago.",
+        "He has lived in Paris for two years.",
+        "He is living in Paris now.",
+        "He lives in Paris."
+      ],
+      "answer": "He has lived in Paris for two years.",
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence uses the present continuous?",
+      "choices": [
+        "We are waiting for the bus right now.",
+        "We waited for the bus yesterday.",
+        "We wait for the bus every day.",
+        "We have waited for the bus since 8 o'clock."
+      ],
+      "answer": "We are waiting for the bus right now.",
+      "explain": "Present continuous is for what is happening right now."
+    },
+    {
+      "id": "en-mix-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word is a key word for the past continuous?",
+      "choices": [
+        "since",
+        "yesterday",
+        "often",
+        "while"
+      ],
+      "answer": "while",
+      "explain": "'While' shows an action in progress, so we use the past continuous."
+    },
+    {
+      "id": "en-mix-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word completes the sentence? I have ___ finished my homework.",
+      "choices": [
+        "yesterday",
+        "ago",
+        "last",
+        "already"
+      ],
+      "answer": "already",
+      "explain": "'Already' goes with the present perfect."
+    },
+    {
+      "id": "en-mix-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word completes the sentence? She has ___ been to Japan.",
+      "choices": [
+        "last",
+        "yesterday",
+        "never",
+        "ago"
+      ],
+      "answer": "never",
+      "explain": "'Never' goes with the present perfect."
+    },
+    {
+      "id": "en-mix-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word completes the sentence? Have you ___ eaten sushi?",
+      "choices": [
+        "ago",
+        "ever",
+        "yesterday",
+        "last"
+      ],
+      "answer": "ever",
+      "explain": "'Ever' goes with the present perfect in questions."
+    },
+    {
+      "id": "en-mix-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word completes the sentence? We moved here three years ___.",
+      "choices": [
+        "ago",
+        "since",
+        "already",
+        "yet"
+      ],
+      "answer": "ago",
+      "explain": "'Ago' shows a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-mix-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word completes the sentence? I have lived here ___ ten years.",
+      "choices": [
+        "for",
+        "since",
+        "ago",
+        "last"
+      ],
+      "answer": "for",
+      "explain": "'For' is followed by a length of time: for ten years."
+    },
+    {
+      "id": "en-mix-081",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word completes the sentence? I have lived here ___ 2020.",
+      "choices": [
+        "for",
+        "ago",
+        "while",
+        "since"
+      ],
+      "answer": "since",
+      "explain": "'Since' is followed by a starting point: since 2020."
+    },
+    {
+      "id": "en-mix-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which tense is 'has just finished' in this sentence? She has just finished her homework.",
+      "choices": [
+        "Past simple",
+        "Past continuous",
+        "Present perfect",
+        "Present simple"
+      ],
+      "answer": "Present perfect",
+      "explain": "'Has' + past participle is the present perfect, and 'just' goes with it."
+    },
+    {
+      "id": "en-mix-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ the answer right now!",
+      "choices": [
+        "am knowing",
+        "know",
+        "knowed",
+        "has known"
+      ],
+      "answer": "know",
+      "explain": "'Know' is a state verb: we do not use the continuous form."
+    },
+    {
+      "id": "en-mix-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "At the moment, I ___ a new bike.",
+      "choices": [
+        "am wanting",
+        "want",
+        "wanted",
+        "has want"
+      ],
+      "answer": "want",
+      "explain": "'Want' is a state verb: we do not use the continuous form."
+    },
+    {
+      "id": "en-mix-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Long ago, Beowulf ___ (travel) from Geatland to Denmark to help King Hrothgar.",
+      "answer": [
+        "travelled",
+        "traveled"
+      ],
+      "explain": "'Long ago' shows a finished action, so we use the past simple: travelled."
+    },
+    {
+      "id": "en-mix-086",
+      "level": 2,
+      "type": "input",
+      "prompt": "Wiglaf ___ (remain) loyal to Beowulf when the other warriors ran away.",
+      "answer": [
+        "remained"
+      ],
+      "explain": "'Remain' is a state verb, and the action is finished: remained."
+    },
+    {
+      "id": "en-mix-087",
+      "level": 2,
+      "type": "input",
+      "prompt": "While the warriors ___ (sleep), Grendel entered the hall. Use the past continuous.",
+      "answer": [
+        "were sleeping"
+      ],
+      "explain": "'While' shows an action in progress that is interrupted: were sleeping."
+    },
+    {
+      "id": "en-mix-088",
+      "level": 2,
+      "type": "input",
+      "prompt": "While the warriors ___ (fight) Grendel, Beowulf arrived. Use the past continuous.",
+      "answer": [
+        "were fighting"
+      ],
+      "explain": "'While' shows an action in progress that is interrupted: were fighting."
+    },
+    {
+      "id": "en-mix-089",
+      "level": 2,
+      "type": "input",
+      "prompt": "Last night, Grendel ___ (come) to Heorot. Write the negative past simple.",
+      "answer": [
+        "did not come",
+        "didn't come"
+      ],
+      "explain": "The past simple negative is 'did not' + the base verb."
+    },
+    {
+      "id": "en-mix-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "Yesterday, my mum ___ (drive) us to the stadium.",
+      "answer": [
+        "drove"
+      ],
+      "explain": "'Yesterday' shows a finished action, and 'drive' is irregular: drove."
+    },
+    {
+      "id": "en-mix-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "At the moment, my brother ___ (do) his homework.",
+      "answer": [
+        "is doing"
+      ],
+      "explain": "'At the moment' needs the present continuous: is doing."
+    },
+    {
+      "id": "en-mix-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Our team ___ (win) the match two weeks ago.",
+      "answer": [
+        "won"
+      ],
+      "explain": "'Ago' shows a finished time, and 'win' is irregular: won."
+    },
+    {
+      "id": "en-mix-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "He ___ (read) two books so far this month.",
+      "answer": [
+        "has read",
+        "'s read"
+      ],
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-094",
+      "level": 2,
+      "type": "input",
+      "prompt": "I ___ (see) that film twice since Monday.",
+      "answer": [
+        "have seen",
+        "'ve seen"
+      ],
+      "explain": "'Since' needs the present perfect: have seen."
+    },
+    {
+      "id": "en-mix-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "They ___ (be) married for ten years now.",
+      "answer": [
+        "have been",
+        "'ve been"
+      ],
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-096",
+      "level": 3,
+      "type": "input",
+      "prompt": "Right now, I ___ (know) the answer.",
+      "answer": [
+        "know"
+      ],
+      "explain": "'Know' is a state verb: we use the present simple, not the continuous."
+    },
+    {
+      "id": "en-mix-097",
+      "level": 2,
+      "type": "input",
+      "prompt": "Last night, Hrothgar ___ (sleep) well. Write the negative past simple.",
+      "answer": [
+        "did not sleep",
+        "didn't sleep"
+      ],
+      "explain": "The past simple negative is 'did not' + the base verb."
+    },
+    {
+      "id": "en-mix-098",
+      "level": 2,
+      "type": "input",
+      "prompt": "___ you finished your homework yet? (Have / Has / Did / Are)",
+      "answer": [
+        "have"
+      ],
+      "explain": "'Yet' goes with the present perfect, and 'you' needs 'Have'."
+    },
+    {
+      "id": "en-mix-099",
+      "level": 2,
+      "type": "input",
+      "prompt": "English ___ (change) a lot since the time of Beowulf.",
+      "answer": [
+        "has changed"
+      ],
+      "explain": "'Since' needs the present perfect: has changed."
+    },
+    {
+      "id": "en-mix-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The warriors ___ in Heorot when Grendel burst through the door.",
+      "choices": [
+        "were feast",
+        "were feasting",
+        "feast",
+        "have feasting"
+      ],
+      "answer": "were feasting",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf ___ Grendel's arm off, and Grendel ran away.",
+      "choices": [
+        "tore",
+        "tears",
+        "was tearing",
+        "has tear"
+      ],
+      "answer": "tore",
+      "explain": "Two finished actions one after the other take the past simple: tore."
+    },
+    {
+      "id": "en-mix-102",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ TV when my brother came in.",
+      "choices": [
+        "watch",
+        "am watching",
+        "were watching",
+        "was watching"
+      ],
+      "answer": "was watching",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My sister broke her arm while she ___ football.",
+      "choices": [
+        "plays",
+        "has played",
+        "was playing",
+        "is playing"
+      ],
+      "answer": "was playing",
+      "explain": "'While' shows an action in progress that is interrupted: was playing."
+    },
+    {
+      "id": "en-mix-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Scholars ___ Beowulf for over 200 years, and they are still studying it.",
+      "choices": [
+        "study",
+        "are studying",
+        "have studied",
+        "has studied"
+      ],
+      "answer": "have studied",
+      "explain": "The action started in the past and continues now: present perfect."
+    },
+    {
+      "id": "en-mix-105",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My grandfather ___ in Paris in 1990, but now he lives in Nice.",
+      "choices": [
+        "has lived",
+        "lived",
+        "is living",
+        "lives"
+      ],
+      "answer": "lived",
+      "explain": "'In 1990' shows a finished time, so we use the past simple: lived."
+    },
+    {
+      "id": "en-mix-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Have you ever ___ a dragon?",
+      "choices": [
+        "seen",
+        "saw",
+        "see",
+        "seeing"
+      ],
+      "answer": "seen",
+      "explain": "'Have' + 'ever' needs the past participle: seen."
+    },
+    {
+      "id": "en-mix-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She has never ___ to Italy.",
+      "choices": [
+        "was",
+        "being",
+        "be",
+        "been"
+      ],
+      "answer": "been",
+      "explain": "'Has never' needs the past participle: been."
+    },
+    {
+      "id": "en-mix-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Many years ago, Beowulf ___ the Danes from Grendel.",
+      "choices": [
+        "protects",
+        "has protected",
+        "is protecting",
+        "protected"
+      ],
+      "answer": "protected",
+      "explain": "'Many years ago' shows a finished time, so we use the past simple: protected."
+    },
+    {
+      "id": "en-mix-109",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? Think about the state verb want.",
+      "choices": [
+        "She is wanting a new bike.",
+        "She want a new bike.",
+        "She wants a new bike.",
+        "She has want a new bike."
+      ],
+      "answer": "She wants a new bike.",
+      "explain": "'Want' is a state verb: we use the present simple."
+    },
+    {
+      "id": "en-mix-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? Think about the state verb belong.",
+      "choices": [
+        "Those pupils are belonging to the football club.",
+        "Those pupils belong to the football club.",
+        "Those pupils belongs to the football club.",
+        "Those pupils has belong to the football club."
+      ],
+      "answer": "Those pupils belong to the football club.",
+      "explain": "'Belong' is a state verb: we use the present simple."
+    },
+    {
+      "id": "en-mix-111",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question is correct? Think about the state verb believe.",
+      "choices": [
+        "Do you believe in dragons?",
+        "Are you believing in dragons?",
+        "Does you believe in dragons?",
+        "Did you believing in dragons?"
+      ],
+      "answer": "Do you believe in dragons?",
+      "explain": "'Believe' is a state verb: we use the present simple, and 'you' needs 'Do'."
+    },
+    {
+      "id": "en-mix-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My best friend ___ at this school since September.",
+      "choices": [
+        "has been",
+        "was",
+        "is being",
+        "has being"
+      ],
+      "answer": "has been",
+      "explain": "'Since' needs the present perfect: has been."
+    },
+    {
+      "id": "en-mix-113",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We ___ English since 2023.",
+      "choices": [
+        "studied",
+        "are studying",
+        "study",
+        "have studied"
+      ],
+      "answer": "have studied",
+      "explain": "'Since' needs the present perfect: have studied."
+    },
+    {
+      "id": "en-mix-114",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I ___ this film yet.",
+      "choices": [
+        "hasn't seen",
+        "haven't saw",
+        "haven't seen",
+        "don't seen"
+      ],
+      "answer": "haven't seen",
+      "explain": "'Yet' goes with the present perfect: the negative is 'haven't' + past participle."
+    },
+    {
+      "id": "en-mix-115",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "At eight o'clock last night, I ___ watching TV. I was doing my homework.",
+      "choices": [
+        "didn't",
+        "wasn't",
+        "weren't",
+        "haven't"
+      ],
+      "answer": "wasn't",
+      "explain": "The past continuous negative with 'I' is 'wasn't'."
+    },
+    {
+      "id": "en-mix-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What ___ you doing at the moment?",
+      "choices": [
+        "do",
+        "are",
+        "did",
+        "have"
+      ],
+      "answer": "are",
+      "explain": "'At the moment' needs the present continuous, so the question uses 'are'."
+    },
+    {
+      "id": "en-mix-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Where ___ Beowulf meet Grendel's mother?",
+      "choices": [
+        "did",
+        "is",
+        "was",
+        "has"
+      ],
+      "answer": "did",
+      "explain": "The story is in the past, so the past simple question uses 'did'."
+    },
+    {
+      "id": "en-mix-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How long ___ you lived in this town?",
+      "choices": [
+        "did",
+        "are",
+        "do",
+        "have"
+      ],
+      "answer": "have",
+      "explain": "'How long' for an action that continues now needs the present perfect: have."
+    },
+    {
+      "id": "en-mix-119",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ the warriors sleeping when Grendel attacked?",
+      "choices": [
+        "Did",
+        "Was",
+        "Were",
+        "Have"
+      ],
+      "answer": "Were",
+      "explain": "The past continuous question with 'the warriors' begins with 'Were'."
+    },
+    {
+      "id": "en-mix-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which tense is 'was battling' in this sentence? While Beowulf was battling Grendel's mother, he discovered an ancient sword.",
+      "choices": [
+        "Present simple",
+        "Present continuous",
+        "Past continuous",
+        "Past simple"
+      ],
+      "answer": "Past continuous",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which tense is 'has survived' in this sentence? The poem has survived for centuries despite being written in a very different form of English.",
+      "choices": [
+        "Present continuous",
+        "Present perfect",
+        "Past simple",
+        "Past continuous"
+      ],
+      "answer": "Present perfect",
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which tense is 'deals' in this sentence? Beowulf deals with universal themes such as courage, loyalty, violence, and death.",
+      "choices": [
+        "Present simple",
+        "Past continuous",
+        "Present perfect",
+        "Present continuous"
+      ],
+      "answer": "Present simple",
+      "explain": "Present simple is for general truths: the poem always deals with these themes."
+    },
+    {
+      "id": "en-mix-123",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence has a mistake? Think about state verbs.",
+      "choices": [
+        "We were playing when it began to rain.",
+        "She has lived here since 2019.",
+        "They watched the match yesterday.",
+        "He is knowing the answer."
+      ],
+      "answer": "He is knowing the answer.",
+      "explain": "'Know' is a state verb, so it has no continuous form: he knows."
+    },
+    {
+      "id": "en-mix-124",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence has a mistake? Think about finished time words.",
+      "choices": [
+        "I saw him yesterday.",
+        "I have seen him this week.",
+        "I was watching TV when he phoned.",
+        "I have seen him yesterday."
+      ],
+      "answer": "I have seen him yesterday.",
+      "explain": "'Yesterday' shows a finished action, so we use the past simple: I saw him yesterday."
+    },
+    {
+      "id": "en-mix-125",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? Think about has been.",
+      "choices": [
+        "My uncle has being a teacher for ten years.",
+        "My uncle have been a teacher for ten years.",
+        "My uncle has been a teacher for ten years.",
+        "My uncle is been a teacher for ten years."
+      ],
+      "answer": "My uncle has been a teacher for ten years.",
+      "explain": "The present perfect is 'has' + 'been' (not 'being')."
+    },
+    {
+      "id": "en-mix-126",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? Think about two years ago.",
+      "choices": [
+        "I have visited Rome two years ago.",
+        "I visited Rome two years ago.",
+        "I am visiting Rome two years ago.",
+        "I visit Rome two years ago."
+      ],
+      "answer": "I visited Rome two years ago.",
+      "explain": "'Ago' shows a finished time, so we use the past simple: visited."
+    },
+    {
+      "id": "en-mix-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "My dad usually drinks coffee, but at the moment he ___ tea.",
+      "choices": [
+        "is drinking",
+        "drinks",
+        "drank",
+        "has drink"
+      ],
+      "answer": "is drinking",
+      "explain": "'At the moment' needs the present continuous: is drinking."
+    },
+    {
+      "id": "en-mix-128",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is a general truth?",
+      "choices": [
+        "The sun rises in the east.",
+        "The sun rose in the east yesterday.",
+        "The sun is rising in the east at the moment.",
+        "The sun has risen in the east since 8 o'clock."
+      ],
+      "answer": "The sun rises in the east.",
+      "explain": "Present simple is for general truths and habits."
+    },
+    {
+      "id": "en-mix-129",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which tense is 'rang' in this sentence? I was walking when my phone rang.",
+      "choices": [
+        "Present continuous",
+        "Past continuous",
+        "Present perfect",
+        "Past simple"
+      ],
+      "answer": "Past simple",
+      "explain": "'Rang' is the short action that interrupts the past continuous, so it is in the past simple."
+    },
+    {
+      "id": "en-mix-130",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is for a finished action?",
+      "choices": [
+        "We have visited Rome last summer.",
+        "We visit Rome last summer.",
+        "We visited Rome last summer.",
+        "We are visiting Rome last summer."
+      ],
+      "answer": "We visited Rome last summer.",
+      "explain": "Past simple is for a finished action – completed."
+    },
+    {
+      "id": "en-mix-131",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why is 'were celebrating' used in this sentence? The men were celebrating when Beowulf arrived.",
+      "choices": [
+        "The celebration is happening right now.",
+        "The celebration was in progress when another action interrupted it.",
+        "The celebration started in the past and continues now.",
+        "The celebration is a general truth."
+      ],
+      "answer": "The celebration was in progress when another action interrupted it.",
+      "explain": "Past continuous is for an action that is interrupted (I was walking when my phone rang)."
+    },
+    {
+      "id": "en-mix-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why is the present perfect used in this sentence? We have been friends for 3 years.",
+      "choices": [
+        "The friendship is a finished action – completed.",
+        "The friendship started in the past and continues now.",
+        "The friendship is happening right now.",
+        "The friendship is a habit."
+      ],
+      "answer": "The friendship started in the past and continues now.",
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence uses 'since' correctly?",
+      "choices": [
+        "He has played tennis since 2022.",
+        "He plays tennis since 2022.",
+        "He played tennis since 2022.",
+        "He is playing tennis since 2022."
+      ],
+      "answer": "He has played tennis since 2022.",
+      "explain": "'Since' needs the present perfect: has played."
+    },
+    {
+      "id": "en-mix-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which time expression needs the past simple, not the present perfect?",
+      "choices": [
+        "since 1066",
+        "just",
+        "never",
+        "in 1066"
+      ],
+      "answer": "in 1066",
+      "explain": "'In 1066' shows a finished time, so we use the past simple."
+    },
+    {
+      "id": "en-mix-135",
+      "level": 3,
+      "type": "input",
+      "prompt": "While Beowulf ___ (swim) to the bottom of the lake, monsters attacked him. Use the past continuous.",
+      "answer": [
+        "was swimming"
+      ],
+      "explain": "'While' shows an action in progress that is interrupted: was swimming."
+    },
+    {
+      "id": "en-mix-136",
+      "level": 3,
+      "type": "input",
+      "prompt": "While Hrothgar ___ (rest) in his room, Grendel attacked the hall. Use the past continuous.",
+      "answer": [
+        "was resting"
+      ],
+      "explain": "'While' shows an action in progress that is interrupted: was resting."
+    },
+    {
+      "id": "en-mix-137",
+      "level": 3,
+      "type": "input",
+      "prompt": "Long ago, Beowulf ___ (use) a sword against Grendel. Write the negative past simple.",
+      "answer": [
+        "did not use",
+        "didn't use"
+      ],
+      "explain": "The past simple negative is 'did not' + the base verb."
+    },
+    {
+      "id": "en-mix-138",
+      "level": 3,
+      "type": "input",
+      "prompt": "Scholars ___ (finish) their study of the poem yet. Write the negative present perfect.",
+      "answer": [
+        "have not finished",
+        "haven't finished"
+      ],
+      "explain": "'Yet' goes with the present perfect: the negative is 'have not' + past participle."
+    },
+    {
+      "id": "en-mix-139",
+      "level": 3,
+      "type": "input",
+      "prompt": "___ Beowulf fight Grendel when he was young? (Did / Was / Has)",
+      "answer": [
+        "did"
+      ],
+      "explain": "A past simple question with 'fight' begins with 'Did'."
+    },
+    {
+      "id": "en-mix-140",
+      "level": 3,
+      "type": "input",
+      "prompt": "___ the men celebrating at the moment? (Is / Are / Do / Have)",
+      "answer": [
+        "are"
+      ],
+      "explain": "'At the moment' needs the present continuous, so the question begins with 'Are'."
+    },
+    {
+      "id": "en-mix-141",
+      "level": 3,
+      "type": "input",
+      "prompt": "My sister ___ (live) in Spain for two years now.",
+      "answer": [
+        "has lived"
+      ],
+      "explain": "Present perfect is for an action that started in the past and continues in the present."
+    },
+    {
+      "id": "en-mix-142",
+      "level": 3,
+      "type": "input",
+      "prompt": "I ___ (have) any homework last night. Write the negative past simple.",
+      "answer": [
+        "did not have",
+        "didn't have"
+      ],
+      "explain": "The past simple negative is 'did not' + the base verb."
+    },
+    {
+      "id": "en-mix-143",
+      "level": 3,
+      "type": "input",
+      "prompt": "While he ___ (ski) in the Alps, he broke his leg. Use the past continuous.",
+      "answer": [
+        "was skiing"
+      ],
+      "explain": "'While' shows an action in progress that is interrupted: was skiing."
+    },
+    {
+      "id": "en-mix-144",
+      "level": 3,
+      "type": "input",
+      "prompt": "Right now, Mia ___ (want) a drink.",
+      "answer": [
+        "wants"
+      ],
+      "explain": "'Want' is a state verb: we use the present simple, not the continuous."
+    },
+    {
+      "id": "en-mix-145",
+      "level": 3,
+      "type": "input",
+      "prompt": "These books ___ (belong) to my cousin, so please give them back.",
+      "answer": [
+        "belong"
+      ],
+      "explain": "'Belong' is a state verb: we use the present simple."
+    },
+    {
+      "id": "en-mix-146",
+      "level": 3,
+      "type": "input",
+      "prompt": "The warriors ___ (leave) Heorot two hours ago.",
+      "answer": [
+        "left"
+      ],
+      "explain": "'Ago' shows a finished time, and 'leave' is irregular: left."
+    },
+    {
+      "id": "en-mix-147",
+      "level": 3,
+      "type": "input",
+      "prompt": "Readers ___ (love) the poem since the 1800s.",
+      "answer": [
+        "have loved"
+      ],
+      "explain": "'Since' needs the present perfect: have loved."
+    },
+    {
+      "id": "en-mix-148",
+      "level": 3,
+      "type": "input",
+      "prompt": "My parents ___ (meet) in 2005.",
+      "answer": [
+        "met"
+      ],
+      "explain": "'In 2005' shows a finished time, and 'meet' is irregular: met."
+    },
+    {
+      "id": "en-mix-149",
+      "level": 3,
+      "type": "input",
+      "prompt": "I ___ (see) my cousins since last summer. Write the negative present perfect.",
+      "answer": [
+        "have not seen",
+        "haven't seen",
+        "'ve not seen"
+      ],
+      "explain": "'Since' needs the present perfect: the negative is 'have not' + past participle."
+    }
+  ]
+}

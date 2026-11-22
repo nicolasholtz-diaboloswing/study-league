@@ -1,0 +1,1351 @@
+{
+  "topic": "maths-quotients-puissances",
+  "questions": [
+    {
+      "id": "ma-qp-001",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture en ligne correspond au quotient de 13 + 5 par 13 − 2 × 4 ?",
+      "choices": [
+        "(13 + 5) ÷ (13 − 2 × 4)",
+        "13 + 5 ÷ 13 − 2 × 4",
+        "(13 + 5) ÷ 13 − 2 × 4",
+        "13 + 5 ÷ (13 − 2 × 4)"
+      ],
+      "answer": "(13 + 5) ÷ (13 − 2 × 4)",
+      "explain": "Le numérateur et le dénominateur sont chacun entre parenthèses : (13 + 5) ÷ (13 − 2 × 4)."
+    },
+    {
+      "id": "ma-qp-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle écriture en ligne correspond au quotient de 17 − 5 par 3 ?",
+      "choices": [
+        "17 − 5 ÷ 3",
+        "(17 − 5) ÷ 3",
+        "17 − 5 − 3",
+        "(17 − 5) × 3"
+      ],
+      "answer": "(17 − 5) ÷ 3",
+      "explain": "Le numérateur 17 − 5 est une différence : il faut des parenthèses."
+    },
+    {
+      "id": "ma-qp-003",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture en ligne correspond au quotient de 45 par 2 × 3 − 1 ?",
+      "choices": [
+        "45 ÷ 2 × 3 − 1",
+        "45 ÷ 2 × (3 − 1)",
+        "45 ÷ (2 × 3 − 1)",
+        "45 ÷ (2 × 3) − 1"
+      ],
+      "answer": "45 ÷ (2 × 3 − 1)",
+      "explain": "Tout le dénominateur 2 × 3 − 1 se met entre parenthèses."
+    },
+    {
+      "id": "ma-qp-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle écriture en ligne correspond à 13 plus le quotient de 5 par 2 ?",
+      "choices": [
+        "(13 + 5) ÷ 2",
+        "13 + 5 × 2",
+        "13 ÷ 5 + 2",
+        "13 + 5 ÷ 2"
+      ],
+      "answer": "13 + 5 ÷ 2",
+      "explain": "Ici seul 5 ÷ 2 est un quotient : pas de parenthèses, la division passe avant l'addition."
+    },
+    {
+      "id": "ma-qp-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle écriture en ligne correspond à 8 sur 5 + 4 (numérateur 8, dénominateur 5 + 4) ?",
+      "choices": [
+        "8 ÷ (5 + 4)",
+        "8 ÷ 5 + 4",
+        "(8 + 5) ÷ 4",
+        "8 × (5 + 4)"
+      ],
+      "answer": "8 ÷ (5 + 4)",
+      "explain": "Le dénominateur 5 + 4 est une somme : on le met entre parenthèses."
+    },
+    {
+      "id": "ma-qp-006",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle écriture en ligne correspond à : on calcule le quotient de 27 par le produit de 2 et 3, puis on retire 1 au résultat ?",
+      "choices": [
+        "27 ÷ (2 × 3 − 1)",
+        "27 ÷ (2 × 3) − 1",
+        "27 ÷ 2 × 3 − 1",
+        "(27 ÷ 2) × (3 − 1)"
+      ],
+      "answer": "27 ÷ (2 × 3) − 1",
+      "explain": "Le quotient est 27 ÷ (2 × 3), puis on retire 1."
+    },
+    {
+      "id": "ma-qp-007",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture en ligne correspond à 17 moins le quotient de 15 par 3, plus 2 ?",
+      "choices": [
+        "(17 − 15) ÷ 3 + 2",
+        "17 − 15 ÷ 3 − 2",
+        "17 − 15 ÷ 3 + 2",
+        "(17 − 15 ÷ 3) × 2"
+      ],
+      "answer": "17 − 15 ÷ 3 + 2",
+      "explain": "Le quotient 15 ÷ 3 se calcule seul : 17 − 15 ÷ 3 + 2."
+    },
+    {
+      "id": "ma-qp-008",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture traduit la phrase « Le quotient de la différence de 20 et de 5 par 8 » ?",
+      "choices": [
+        "20 − 5 ÷ 8",
+        "(20 + 5) ÷ 8",
+        "20 ÷ (5 + 8)",
+        "(20 − 5) ÷ 8"
+      ],
+      "answer": "(20 − 5) ÷ 8",
+      "explain": "La différence 20 − 5 est divisée par 8 : (20 − 5) ÷ 8."
+    },
+    {
+      "id": "ma-qp-009",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture traduit la phrase « La somme du quotient de 27 par 3 et de 13 » ?",
+      "choices": [
+        "27 ÷ 3 + 13",
+        "27 ÷ (3 + 13)",
+        "(27 + 13) ÷ 3",
+        "27 + 3 ÷ 13"
+      ],
+      "answer": "27 ÷ 3 + 13",
+      "explain": "On additionne le quotient 27 ÷ 3 et 13 : 27 ÷ 3 + 13."
+    },
+    {
+      "id": "ma-qp-010",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle écriture traduit « La différence entre le quotient de 100 par 2 et le produit de 4 par 8 » ?",
+      "choices": [
+        "(100 ÷ 2 − 4) × 8",
+        "100 ÷ 2 − 4 × 8",
+        "(100 − 4) ÷ 2 × 8",
+        "100 ÷ 2 × 4 − 8"
+      ],
+      "answer": "100 ÷ 2 − 4 × 8",
+      "explain": "On soustrait le produit 4 × 8 au quotient 100 ÷ 2."
+    },
+    {
+      "id": "ma-qp-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule (17 − 5) ÷ 3 + 2.",
+      "answer": [
+        "6"
+      ],
+      "explain": "(17 − 5) ÷ 3 + 2 = 12 ÷ 3 + 2 = 4 + 2 = 6."
+    },
+    {
+      "id": "ma-qp-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 45 ÷ (2 × 3 − 1).",
+      "answer": [
+        "9"
+      ],
+      "explain": "On calcule le dénominateur : 2 × 3 − 1 = 5, puis 45 ÷ 5 = 9."
+    },
+    {
+      "id": "ma-qp-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 81 ÷ 9 × 5 − 1.",
+      "choices": [
+        "0,8",
+        "36",
+        "46",
+        "44"
+      ],
+      "answer": "44",
+      "explain": "81 ÷ 9 × 5 − 1 = 9 × 5 − 1 = 45 − 1 = 44."
+    },
+    {
+      "id": "ma-qp-014",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule (13 + 5) ÷ (13 − 2 × 4).",
+      "answer": [
+        "3,6",
+        "3.6"
+      ],
+      "explain": "Numérateur 18, dénominateur 13 − 8 = 5, et 18 ÷ 5 = 3,6."
+    },
+    {
+      "id": "ma-qp-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 35 ÷ 7 + 9.",
+      "choices": [
+        "14",
+        "5",
+        "45",
+        "37"
+      ],
+      "answer": "14",
+      "explain": "35 ÷ 7 + 9 = 5 + 9 = 14."
+    },
+    {
+      "id": "ma-qp-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Les résultats de 24 ÷ 2 + 4 et de 24 ÷ (2 + 4) sont, dans cet ordre :",
+      "choices": [
+        "4 puis 16",
+        "16 puis 4",
+        "16 puis 16",
+        "4 puis 4"
+      ],
+      "answer": "16 puis 4",
+      "explain": "24 ÷ 2 + 4 = 12 + 4 = 16 alors que 24 ÷ (2 + 4) = 24 ÷ 6 = 4."
+    },
+    {
+      "id": "ma-qp-017",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 7,2 ÷ 0,3.",
+      "answer": [
+        "24"
+      ],
+      "explain": "7,2 ÷ 0,3 = 72 ÷ 3 = 24."
+    },
+    {
+      "id": "ma-qp-018",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 10 ÷ 1,25.",
+      "answer": [
+        "8"
+      ],
+      "explain": "10 ÷ 1,25 = 1000 ÷ 125 = 8."
+    },
+    {
+      "id": "ma-qp-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 1,2 ÷ 0,2.",
+      "choices": [
+        "0,6",
+        "0,24",
+        "1",
+        "6"
+      ],
+      "answer": "6",
+      "explain": "1,2 ÷ 0,2 = 12 ÷ 2 = 6."
+    },
+    {
+      "id": "ma-qp-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 2 ÷ 0,4.",
+      "choices": [
+        "5",
+        "0,8",
+        "0,5",
+        "8"
+      ],
+      "answer": "5",
+      "explain": "2 ÷ 0,4 = 20 ÷ 4 = 5."
+    },
+    {
+      "id": "ma-qp-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 3,6 ÷ 0,9.",
+      "choices": [
+        "0,4",
+        "4",
+        "40",
+        "3,24"
+      ],
+      "answer": "4",
+      "explain": "3,6 ÷ 0,9 = 36 ÷ 9 = 4."
+    },
+    {
+      "id": "ma-qp-022",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 12 ÷ 1,5.",
+      "choices": [
+        "18",
+        "0,8",
+        "80",
+        "8"
+      ],
+      "answer": "8",
+      "explain": "12 ÷ 1,5 = 120 ÷ 15 = 8."
+    },
+    {
+      "id": "ma-qp-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 5 ÷ 2,5.",
+      "choices": [
+        "2",
+        "12,5",
+        "0,5",
+        "20"
+      ],
+      "answer": "2",
+      "explain": "5 ÷ 2,5 = 50 ÷ 25 = 2."
+    },
+    {
+      "id": "ma-qp-024",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 6 ÷ 0,25.",
+      "choices": [
+        "1,5",
+        "24",
+        "2,4",
+        "15"
+      ],
+      "answer": "24",
+      "explain": "6 ÷ 0,25 = 600 ÷ 25 = 24."
+    },
+    {
+      "id": "ma-qp-025",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Diviser un nombre par 0,5 revient à le :",
+      "choices": [
+        "diviser par 2",
+        "multiplier par 5",
+        "multiplier par 2",
+        "diviser par 5"
+      ],
+      "answer": "multiplier par 2",
+      "explain": "0,5 est la moitié de 1, donc il y a deux fois plus de 0,5 que d'unités."
+    },
+    {
+      "id": "ma-qp-026",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 368,55 ÷ 0,03.",
+      "choices": [
+        "12285",
+        "1228,5",
+        "12,285",
+        "122850"
+      ],
+      "answer": "12285",
+      "explain": "36855 ÷ 3 = 12285."
+    },
+    {
+      "id": "ma-qp-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Programme : Choisir un nombre. Ajouter 4. Diviser par 3. Soustraire 2. Quel est le résultat pour le nombre 8 ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "(8 + 4) ÷ 3 − 2 = 12 ÷ 3 − 2 = 2."
+    },
+    {
+      "id": "ma-qp-028",
+      "level": 2,
+      "type": "input",
+      "prompt": "Programme : Choisir un nombre. Ajouter 4. Diviser par 3. Soustraire 2. Quel est le résultat pour le nombre 14 ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "(14 + 4) ÷ 3 − 2 = 18 ÷ 3 − 2 = 4."
+    },
+    {
+      "id": "ma-qp-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Programme : Choisir un nombre. Ajouter 4. Diviser par 3. Soustraire 2. Quelle expression donne le résultat pour le nombre 8 ?",
+      "choices": [
+        "8 + 4 ÷ 3 − 2",
+        "(8 + 4) ÷ 3 − 2",
+        "(8 + 4) ÷ (3 − 2)",
+        "(8 + 4) ÷ 3 + 2"
+      ],
+      "answer": "(8 + 4) ÷ 3 − 2",
+      "explain": "L'addition vient en premier : elle se met entre parenthèses avant la division."
+    },
+    {
+      "id": "ma-qp-030",
+      "level": 3,
+      "type": "input",
+      "prompt": "Programme : Choisir un nombre. Ajouter 4. Diviser par 3. Soustraire 2. Quel nombre faut-il choisir pour obtenir 0 ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "On remonte le programme : 0 + 2 = 2, puis 2 × 3 = 6, puis 6 − 4 = 2."
+    },
+    {
+      "id": "ma-qp-031",
+      "level": 2,
+      "type": "input",
+      "prompt": "Programme : Choisir un nombre. Multiplier par 3. Ajouter 6. Diviser par 2. Soustraire 4. Quel est le résultat pour le nombre 6 ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "(6 × 3 + 6) ÷ 2 − 4 = 24 ÷ 2 − 4 = 8."
+    },
+    {
+      "id": "ma-qp-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Programme : Choisir un nombre. Multiplier par 3. Ajouter 6. Diviser par 2. Soustraire 4. Quelle expression donne le résultat pour le nombre 6 ?",
+      "choices": [
+        "6 × 3 + 6 ÷ 2 − 4",
+        "6 × (3 + 6) ÷ 2 − 4",
+        "(6 × 3 + 6) ÷ 2 − 4",
+        "(6 × 3 + 6) ÷ 2 + 4"
+      ],
+      "answer": "(6 × 3 + 6) ÷ 2 − 4",
+      "explain": "La multiplication et l'addition se font avant la division, donc entre parenthèses."
+    },
+    {
+      "id": "ma-qp-033",
+      "level": 2,
+      "type": "input",
+      "prompt": "Programme : Choisir un nombre. Soustraire 3. Diviser par 5. Ajouter 7. Quel est le résultat pour le nombre 28 ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "(28 − 3) ÷ 5 + 7 = 25 ÷ 5 + 7 = 12."
+    },
+    {
+      "id": "ma-qp-034",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Programme : Choisir un nombre. Soustraire 3. Diviser par 5. Ajouter 7. Quel nombre faut-il choisir pour obtenir 8 ?",
+      "choices": [
+        "5",
+        "13",
+        "3",
+        "8"
+      ],
+      "answer": "8",
+      "explain": "Avec 8 : (8 − 3) ÷ 5 + 7 = 1 + 7 = 8."
+    },
+    {
+      "id": "ma-qp-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un joueur court sur une piste de 400 m : 3, 5, 4, 8 puis 6 tours en cinq jours. Combien de mètres a-t-il parcourus en tout ?",
+      "answer": [
+        "10400",
+        "10 400"
+      ],
+      "explain": "(3 + 5 + 4 + 8 + 6) × 400 = 26 × 400 = 10400 m."
+    },
+    {
+      "id": "ma-qp-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un joueur court 3, 5, 4, 8 puis 6 tours d'une piste de 400 m. Quelle expression donne la distance totale ?",
+      "choices": [
+        "3 + 5 + 4 + 8 + 6 × 400",
+        "(3 + 5 + 4 + 8 + 6) × 400",
+        "3 × 5 × 4 × 8 × 6 × 400",
+        "(3 + 5 + 4 + 8 + 6) + 400"
+      ],
+      "answer": "(3 + 5 + 4 + 8 + 6) × 400",
+      "explain": "On additionne les tours puis on multiplie par la longueur d'un tour."
+    },
+    {
+      "id": "ma-qp-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On achète 3 maillots à 24 € et 2 ballons à 15 €. Quel est le prix total, en euros ?",
+      "choices": [
+        "39",
+        "72",
+        "102",
+        "92"
+      ],
+      "answer": "102",
+      "explain": "3 × 24 + 2 × 15 = 72 + 30 = 102."
+    },
+    {
+      "id": "ma-qp-038",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quatre amis paient 3 billets à 18 € et 2 sandwichs à 6 €, puis partagent la somme en 4. Quelle est la part de chacun, en euros ?",
+      "answer": [
+        "16,5",
+        "16.5"
+      ],
+      "explain": "(3 × 18 + 2 × 6) ÷ 4 = (54 + 12) ÷ 4 = 66 ÷ 4 = 16,5."
+    },
+    {
+      "id": "ma-qp-039",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quatre amis paient 3 billets à 18 € et 2 sandwichs à 6 €, puis partagent la somme en 4. Quelle expression donne la part de chacun ?",
+      "choices": [
+        "3 × 18 + 2 × 6 ÷ 4",
+        "(3 × 18 + 2) × 6 ÷ 4",
+        "3 × (18 + 2) × 6 ÷ 4",
+        "(3 × 18 + 2 × 6) ÷ 4"
+      ],
+      "answer": "(3 × 18 + 2 × 6) ÷ 4",
+      "explain": "Il faut diviser toute la somme dépensée : elle se met entre parenthèses."
+    },
+    {
+      "id": "ma-qp-040",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une équipe a marqué 14 buts en 7 matchs, puis 22 buts en 11 matchs. Combien de buts par match sur l'ensemble des 18 matchs ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "(14 + 22) ÷ (7 + 11) = 36 ÷ 18 = 2."
+    },
+    {
+      "id": "ma-qp-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On coupe un ruban de 4,8 m en morceaux de 0,6 m. Combien de morceaux obtient-on ?",
+      "choices": [
+        "8",
+        "0,8",
+        "2,88",
+        "80"
+      ],
+      "answer": "8",
+      "explain": "4,8 ÷ 0,6 = 48 ÷ 6 = 8."
+    },
+    {
+      "id": "ma-qp-042",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On a les nombres 12,5 ; 8 ; 6,5 et 2, chacun utilisé une fois, avec +, − et × une fois chacun. Les parenthèses sont permises. Quel calcul donne le plus grand résultat ?",
+      "choices": [
+        "(12,5 + 8) × 6,5 − 2",
+        "12,5 × (8 + 6,5 − 2)",
+        "12,5 × (8 + 6,5) − 2",
+        "(12,5 + 6,5) × 8 − 2"
+      ],
+      "answer": "12,5 × (8 + 6,5) − 2",
+      "explain": "12,5 × (8 + 6,5) − 2 = 12,5 × 14,5 − 2 = 179,25, le plus grand résultat possible."
+    },
+    {
+      "id": "ma-qp-043",
+      "level": 3,
+      "type": "input",
+      "prompt": "Avec les nombres 3, 4, 5 et 6, chacun utilisé une fois, avec +, − et × une fois chacun et des parenthèses possibles, quel est le plus grand résultat ?",
+      "answer": [
+        "51"
+      ],
+      "explain": "6 × (5 + 4) − 3 = 51 : aucun autre calcul ne donne plus."
+    },
+    {
+      "id": "ma-qp-044",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un jeu, on doit obtenir 384 avec 50, 1, 8, 75, 7 et 9, chacun utilisé au plus une fois. Quelle expression unique donne 384 ?",
+      "choices": [
+        "9 × 50 + 1 − 75",
+        "9 × (50 + 1) + 75",
+        "(9 + 50) × 8 − 75",
+        "9 × (50 + 1) − 75"
+      ],
+      "answer": "9 × (50 + 1) − 75",
+      "explain": "50 + 1 = 51, 9 × 51 = 459 et 459 − 75 = 384."
+    },
+    {
+      "id": "ma-qp-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que signifie 7² ?",
+      "choices": [
+        "7 × 7",
+        "7 × 2",
+        "7 + 2",
+        "7 × 7 × 7"
+      ],
+      "answer": "7 × 7",
+      "explain": "Le carré de 7 est 7 multiplié par lui-même : 7 × 7."
+    },
+    {
+      "id": "ma-qp-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans l'écriture 6³, comment s'appelle le petit nombre 3 ?",
+      "choices": [
+        "La base",
+        "Le carré",
+        "L'exposant",
+        "Le produit"
+      ],
+      "answer": "L'exposant",
+      "explain": "Le petit nombre placé en haut s'appelle l'exposant."
+    },
+    {
+      "id": "ma-qp-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment écrit-on « le carré de 9 » ?",
+      "choices": [
+        "9³",
+        "2 × 9",
+        "9 + 2",
+        "9²"
+      ],
+      "answer": "9²",
+      "explain": "Le carré de 9 s'écrit 9²."
+    },
+    {
+      "id": "ma-qp-048",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment écrit-on « le cube de 4 » ?",
+      "choices": [
+        "4³",
+        "4²",
+        "3 × 4",
+        "4 + 3"
+      ],
+      "answer": "4³",
+      "explain": "Le cube de 4 s'écrit 4³."
+    },
+    {
+      "id": "ma-qp-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans 8², quel est le nom du nombre 8 ?",
+      "choices": [
+        "L'exposant",
+        "La base",
+        "Le cube",
+        "Le quotient"
+      ],
+      "answer": "La base",
+      "explain": "Le grand nombre qui est multiplié par lui-même est la base."
+    },
+    {
+      "id": "ma-qp-050",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule le cube de 2.",
+      "choices": [
+        "6",
+        "4",
+        "8",
+        "9"
+      ],
+      "answer": "8",
+      "explain": "2³ = 2 × 2 × 2 = 8."
+    },
+    {
+      "id": "ma-qp-051",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 4².",
+      "answer": [
+        "16"
+      ],
+      "explain": "4² = 4 × 4 = 16."
+    },
+    {
+      "id": "ma-qp-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 10³.",
+      "choices": [
+        "30",
+        "100",
+        "10000",
+        "1000"
+      ],
+      "answer": "1000",
+      "explain": "10³ = 10 × 10 × 10 = 1000."
+    },
+    {
+      "id": "ma-qp-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 8².",
+      "choices": [
+        "64",
+        "16",
+        "88",
+        "82"
+      ],
+      "answer": "64",
+      "explain": "8² = 8 × 8 = 64."
+    },
+    {
+      "id": "ma-qp-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 11².",
+      "answer": [
+        "121"
+      ],
+      "explain": "11² = 11 × 11 = 121."
+    },
+    {
+      "id": "ma-qp-055",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 7².",
+      "choices": [
+        "14",
+        "343",
+        "77",
+        "49"
+      ],
+      "answer": "49",
+      "explain": "7² = 7 × 7 = 49."
+    },
+    {
+      "id": "ma-qp-056",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 9².",
+      "choices": [
+        "81",
+        "18",
+        "729",
+        "99"
+      ],
+      "answer": "81",
+      "explain": "9² = 9 × 9 = 81."
+    },
+    {
+      "id": "ma-qp-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 12².",
+      "choices": [
+        "24",
+        "144",
+        "124",
+        "148"
+      ],
+      "answer": "144",
+      "explain": "12² = 12 × 12 = 144."
+    },
+    {
+      "id": "ma-qp-058",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 3³.",
+      "choices": [
+        "9",
+        "6",
+        "33",
+        "27"
+      ],
+      "answer": "27",
+      "explain": "3³ = 3 × 3 × 3 = 27."
+    },
+    {
+      "id": "ma-qp-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 5³.",
+      "choices": [
+        "125",
+        "15",
+        "25",
+        "55"
+      ],
+      "answer": "125",
+      "explain": "5³ = 5 × 5 × 5 = 125."
+    },
+    {
+      "id": "ma-qp-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 14².",
+      "choices": [
+        "28",
+        "196",
+        "156",
+        "186"
+      ],
+      "answer": "196",
+      "explain": "14² = 14 × 14 = 196."
+    },
+    {
+      "id": "ma-qp-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 16².",
+      "choices": [
+        "32",
+        "196",
+        "246",
+        "256"
+      ],
+      "answer": "256",
+      "explain": "16² = 16 × 16 = 256."
+    },
+    {
+      "id": "ma-qp-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Parmi ces nombres, lequel est le carré d'un nombre entier ?",
+      "choices": [
+        "49",
+        "48",
+        "50",
+        "45"
+      ],
+      "answer": "49",
+      "explain": "49 = 7 × 7 ; les autres ne sont le carré d'aucun nombre entier."
+    },
+    {
+      "id": "ma-qp-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 0,1².",
+      "choices": [
+        "0,2",
+        "0,01",
+        "0,1",
+        "0,001"
+      ],
+      "answer": "0,01",
+      "explain": "0,1² = 0,1 × 0,1 = 0,01."
+    },
+    {
+      "id": "ma-qp-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 1,5².",
+      "choices": [
+        "3",
+        "2,5",
+        "2,25",
+        "3,25"
+      ],
+      "answer": "2,25",
+      "explain": "1,5² = 1,5 × 1,5 = 2,25."
+    },
+    {
+      "id": "ma-qp-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 0,3².",
+      "choices": [
+        "0,6",
+        "0,9",
+        "0,06",
+        "0,09"
+      ],
+      "answer": "0,09",
+      "explain": "0,3² = 0,3 × 0,3 = 0,09."
+    },
+    {
+      "id": "ma-qp-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 0,2³.",
+      "choices": [
+        "0,6",
+        "0,008",
+        "0,06",
+        "0,08"
+      ],
+      "answer": "0,008",
+      "explain": "0,2³ = 0,2 × 0,2 × 0,2 = 0,008."
+    },
+    {
+      "id": "ma-qp-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare : 5³ … 11² (< / > / =)",
+      "answer": [
+        ">"
+      ],
+      "explain": "5³ = 125 et 11² = 121."
+    },
+    {
+      "id": "ma-qp-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare : 30² … 10³ (< / > / =)",
+      "answer": [
+        "<"
+      ],
+      "explain": "30² = 900 et 10³ = 1000."
+    },
+    {
+      "id": "ma-qp-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare : 8² … 4³ (< / > / =)",
+      "answer": [
+        "="
+      ],
+      "explain": "8² = 64 et 4³ = 64."
+    },
+    {
+      "id": "ma-qp-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare : 6² … 3³ (< / > / =)",
+      "answer": [
+        ">"
+      ],
+      "explain": "6² = 36 et 3³ = 27."
+    },
+    {
+      "id": "ma-qp-071",
+      "level": 3,
+      "type": "input",
+      "prompt": "Compare : 9² … 3⁴ (< / > / =)",
+      "answer": [
+        "="
+      ],
+      "explain": "9² = 81 et 3⁴ = 81."
+    },
+    {
+      "id": "ma-qp-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel nombre est le plus grand ?",
+      "choices": [
+        "7²",
+        "5²",
+        "4³",
+        "3³"
+      ],
+      "answer": "4³",
+      "explain": "4³ = 64, 7² = 49, 5² = 25 et 3³ = 27."
+    },
+    {
+      "id": "ma-qp-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "2³ et 3² sont égaux. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "2³ = 8 alors que 3² = 9."
+    },
+    {
+      "id": "ma-qp-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "4² est le double de 4. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "4² = 16 alors que le double de 4 est 8 : 4² = 4 × 4, pas 4 × 2."
+    },
+    {
+      "id": "ma-qp-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "9² est le quadruple de 3. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "9² = 81 alors que le quadruple de 3 est 12."
+    },
+    {
+      "id": "ma-qp-076",
+      "level": 3,
+      "type": "input",
+      "prompt": "Le carré d'un nombre est toujours plus grand que ce nombre. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Pour 0,5 : 0,5² = 0,25, qui est plus petit que 0,5."
+    },
+    {
+      "id": "ma-qp-077",
+      "level": 3,
+      "type": "input",
+      "prompt": "9² est le triple de 3³. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "9² = 81 et 3³ × 3 = 27 × 3 = 81."
+    },
+    {
+      "id": "ma-qp-078",
+      "level": 3,
+      "type": "input",
+      "prompt": "Le carré de 2 est égal au double de 2. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "2² = 4 et 2 × 2 = 4 : c'est un cas particulier, car 3² = 9 alors que 2 × 3 = 6."
+    },
+    {
+      "id": "ma-qp-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le nombre positif dont le carré vaut 169 ?",
+      "answer": [
+        "13"
+      ],
+      "explain": "13 × 13 = 169, donc 13² = 169."
+    },
+    {
+      "id": "ma-qp-080",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le nombre positif dont le carré vaut 225 ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "15 × 15 = 225, donc 15² = 225."
+    },
+    {
+      "id": "ma-qp-081",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nombre positif dont le carré vaut 144 ?",
+      "choices": [
+        "12",
+        "14",
+        "72",
+        "11"
+      ],
+      "answer": "12",
+      "explain": "12 × 12 = 144, donc 12² = 144."
+    },
+    {
+      "id": "ma-qp-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nombre dont le cube vaut 27 ?",
+      "choices": [
+        "9",
+        "3",
+        "7",
+        "13"
+      ],
+      "answer": "3",
+      "explain": "3 × 3 × 3 = 27, donc 3³ = 27."
+    },
+    {
+      "id": "ma-qp-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nombre dont le cube vaut 125 ?",
+      "choices": [
+        "25",
+        "15",
+        "5",
+        "12"
+      ],
+      "answer": "5",
+      "explain": "5 × 5 × 5 = 125, donc 5³ = 125."
+    },
+    {
+      "id": "ma-qp-084",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le nombre positif dont le carré vaut 0,25 ?",
+      "answer": [
+        "0,5",
+        "0.5"
+      ],
+      "explain": "0,5 × 0,5 = 0,25, donc 0,5² = 0,25."
+    },
+    {
+      "id": "ma-qp-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nombre positif dont le carré vaut 0,09 ?",
+      "choices": [
+        "0,9",
+        "0,03",
+        "0,33",
+        "0,3"
+      ],
+      "answer": "0,3",
+      "explain": "0,3 × 0,3 = 0,09."
+    },
+    {
+      "id": "ma-qp-086",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule 2⁵.",
+      "answer": [
+        "32"
+      ],
+      "explain": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32."
+    },
+    {
+      "id": "ma-qp-087",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule 3⁴.",
+      "answer": [
+        "81"
+      ],
+      "explain": "3⁴ = 3 × 3 × 3 × 3 = 81."
+    },
+    {
+      "id": "ma-qp-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle puissance de 3 vaut 3 × 3 × 3 × 3 ?",
+      "choices": [
+        "3³",
+        "4³",
+        "3 × 4",
+        "3⁴"
+      ],
+      "answer": "3⁴",
+      "explain": "Quatre facteurs 3 s'écrivent 3⁴."
+    },
+    {
+      "id": "ma-qp-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un cube a 3 cm d'arête. Quel est son volume, en cm³ ?",
+      "choices": [
+        "27",
+        "9",
+        "6",
+        "33"
+      ],
+      "answer": "27",
+      "explain": "Volume = 3³ = 27 cm³."
+    },
+    {
+      "id": "ma-qp-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un carré a 1,5 m de côté. Quelle est son aire, en m² ?",
+      "choices": [
+        "3",
+        "2,25",
+        "2,5",
+        "0,225"
+      ],
+      "answer": "2,25",
+      "explain": "Aire = 1,5² = 2,25 m²."
+    },
+    {
+      "id": "ma-qp-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 2 + 3².",
+      "choices": [
+        "25",
+        "13",
+        "11",
+        "36"
+      ],
+      "answer": "11",
+      "explain": "La puissance se calcule avant l'addition : 2 + 9 = 11."
+    },
+    {
+      "id": "ma-qp-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 2 × 3².",
+      "choices": [
+        "36",
+        "15",
+        "12",
+        "18"
+      ],
+      "answer": "18",
+      "explain": "La puissance passe avant la multiplication : 2 × 9 = 18."
+    },
+    {
+      "id": "ma-qp-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 10³ ÷ 5².",
+      "choices": [
+        "40",
+        "8",
+        "20",
+        "200"
+      ],
+      "answer": "40",
+      "explain": "10³ ÷ 5² = 1000 ÷ 25 = 40."
+    },
+    {
+      "id": "ma-qp-094",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 18 ÷ (1 + 2).",
+      "choices": [
+        "19",
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": "6",
+      "explain": "1 + 2 = 3 puis 18 ÷ 3 = 6."
+    },
+    {
+      "id": "ma-qp-095",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule (20 − 8) ÷ 4.",
+      "choices": [
+        "15",
+        "18",
+        "2",
+        "3"
+      ],
+      "answer": "3",
+      "explain": "20 − 8 = 12 puis 12 ÷ 4 = 3."
+    },
+    {
+      "id": "ma-qp-096",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 36 ÷ 9 + 5.",
+      "choices": [
+        "9",
+        "3",
+        "2,4",
+        "40"
+      ],
+      "answer": "9",
+      "explain": "36 ÷ 9 = 4 puis 4 + 5 = 9."
+    },
+    {
+      "id": "ma-qp-097",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 6².",
+      "choices": [
+        "12",
+        "36",
+        "216",
+        "66"
+      ],
+      "answer": "36",
+      "explain": "6² = 6 × 6 = 36."
+    },
+    {
+      "id": "ma-qp-098",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 5².",
+      "choices": [
+        "10",
+        "125",
+        "25",
+        "55"
+      ],
+      "answer": "25",
+      "explain": "5² = 5 × 5 = 25."
+    },
+    {
+      "id": "ma-qp-099",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le carré de 10 ?",
+      "choices": [
+        "20",
+        "1000",
+        "110",
+        "100"
+      ],
+      "answer": "100",
+      "explain": "10² = 10 × 10 = 100."
+    },
+    {
+      "id": "ma-qp-100",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nombre positif dont le carré vaut 64 ?",
+      "choices": [
+        "8",
+        "32",
+        "6",
+        "16"
+      ],
+      "answer": "8",
+      "explain": "8 × 8 = 64, donc 8² = 64."
+    },
+    {
+      "id": "ma-qp-101",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nombre positif dont le carré vaut 121 ?",
+      "choices": [
+        "21",
+        "11",
+        "12",
+        "60,5"
+      ],
+      "answer": "11",
+      "explain": "11 × 11 = 121, donc 11² = 121."
+    },
+    {
+      "id": "ma-qp-102",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 3².",
+      "choices": [
+        "6",
+        "27",
+        "9",
+        "33"
+      ],
+      "answer": "9",
+      "explain": "3² = 3 × 3 = 9."
+    },
+    {
+      "id": "ma-qp-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 0².",
+      "choices": [
+        "1",
+        "2",
+        "20",
+        "0"
+      ],
+      "answer": "0",
+      "explain": "0² = 0 × 0 = 0."
+    },
+    {
+      "id": "ma-qp-104",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 1³.",
+      "choices": [
+        "1",
+        "3",
+        "0",
+        "13"
+      ],
+      "answer": "1",
+      "explain": "1³ = 1 × 1 × 1 = 1."
+    },
+    {
+      "id": "ma-qp-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 4³.",
+      "choices": [
+        "12",
+        "64",
+        "16",
+        "44"
+      ],
+      "answer": "64",
+      "explain": "4³ = 4 × 4 × 4 = 64."
+    }
+  ]
+}

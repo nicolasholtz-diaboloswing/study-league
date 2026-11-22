@@ -1,0 +1,964 @@
+{
+  "topic": "maths-symetries-angles",
+  "questions": [
+    {
+      "id": "ma-sa-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand dit-on que deux figures sont symétriques par rapport à une droite ?",
+      "choices": [
+        "Quand elles ont la même aire",
+        "Quand elles se superposent par pliage le long de cette droite",
+        "Quand elles ont la même forme",
+        "Quand elles sont parallèles à cette droite"
+      ],
+      "answer": "Quand elles se superposent par pliage le long de cette droite",
+      "explain": "Deux figures sont symétriques par rapport à une droite si elles se superposent par pliage le long de cette droite."
+    },
+    {
+      "id": "ma-sa-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Les points A et A' sont symétriques par rapport à la droite (d). Que représente (d) pour le segment [AA'] ?",
+      "choices": [
+        "La parallèle à [AA']",
+        "Un côté du segment [AA']",
+        "La médiatrice de [AA']",
+        "La droite (AA') elle-même"
+      ],
+      "answer": "La médiatrice de [AA']",
+      "explain": "Dire que A et A' sont symétriques par rapport à (d) signifie que (d) est la médiatrice de [AA']."
+    },
+    {
+      "id": "ma-sa-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le point B appartient à la droite (d). Quel est son symétrique par rapport à (d) ?",
+      "choices": [
+        "Un point B' différent de B situé sur (d)",
+        "Un point B' situé de l'autre côté de (d)",
+        "Il n'a pas de symétrique",
+        "Le point B lui-même"
+      ],
+      "answer": "Le point B lui-même",
+      "explain": "Le symétrique d'un point B appartenant à la droite (d) est le point B lui-même."
+    },
+    {
+      "id": "ma-sa-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans une symétrie axiale, le symétrique d'une droite est une droite. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Dans une symétrie axiale, le symétrique d'une droite est une droite."
+    },
+    {
+      "id": "ma-sa-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que signifie « la symétrie axiale conserve l'alignement » ?",
+      "choices": [
+        "Un point de l'axe reste aligné avec son symétrique",
+        "Des points alignés ont des symétriques alignés",
+        "Une droite est toujours parallèle à son symétrique",
+        "Les symétriques de trois points sont toujours alignés avec l'axe"
+      ],
+      "answer": "Des points alignés ont des symétriques alignés",
+      "explain": "Si A, B et C sont alignés, leurs symétriques A', B' et C' sont aussi alignés."
+    },
+    {
+      "id": "ma-sa-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans une symétrie axiale, le symétrique d'un segment est...",
+      "choices": [
+        "un segment deux fois plus long",
+        "une droite",
+        "un segment de même longueur",
+        "un segment dont la longueur dépend de la position de l'axe"
+      ],
+      "answer": "un segment de même longueur",
+      "explain": "Le symétrique d'un segment est un segment de même longueur : la symétrie axiale conserve les distances."
+    },
+    {
+      "id": "ma-sa-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans une symétrie axiale, le symétrique d'un angle est...",
+      "choices": [
+        "un angle de mesure double",
+        "un angle de mesure moitié",
+        "un angle dont la mesure dépend de la position de l'axe",
+        "un angle de même mesure"
+      ],
+      "answer": "un angle de même mesure",
+      "explain": "Le symétrique d'un angle est un angle de même mesure : la symétrie axiale conserve les angles."
+    },
+    {
+      "id": "ma-sa-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Deux figures symétriques par rapport à une droite ont...",
+      "choices": [
+        "la même aire",
+        "des aires différentes si l'axe est incliné",
+        "une aire deux fois plus grande l'une que l'autre",
+        "la même aire seulement si l'axe est vertical"
+      ],
+      "answer": "la même aire",
+      "explain": "Deux figures symétriques sont superposables et ont donc la même aire : la symétrie axiale conserve les aires."
+    },
+    {
+      "id": "ma-sa-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le segment [ED] mesure 1,5 cm. Son symétrique [E'D'] par rapport à une droite mesure combien, en cm ?",
+      "answer": [
+        "1,5",
+        "1.5"
+      ],
+      "explain": "ED = E'D' car la symétrie axiale conserve les distances."
+    },
+    {
+      "id": "ma-sa-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "L'angle BAI mesure 45°. Son symétrique B'A'I' mesure combien, en degrés ?",
+      "choices": [
+        "90",
+        "22,5",
+        "45",
+        "135"
+      ],
+      "answer": "45",
+      "explain": "BAI = B'A'I' car la symétrie axiale conserve les angles."
+    },
+    {
+      "id": "ma-sa-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une figure a une aire de 4 cm². Sa symétrique par rapport à une droite a une aire de combien, en cm² ?",
+      "choices": [
+        "2",
+        "8",
+        "16",
+        "4"
+      ],
+      "answer": "4",
+      "explain": "Les aires sont conservées : la figure symétrique a la même aire."
+    },
+    {
+      "id": "ma-sa-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un demi-cercle a un rayon de 1 cm. Son symétrique par rapport à une droite a un rayon de combien, en cm ?",
+      "answer": [
+        "1"
+      ],
+      "explain": "La symétrie axiale conserve les distances, donc le rayon reste 1 cm."
+    },
+    {
+      "id": "ma-sa-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Les points A et A' sont symétriques par rapport à (d). Que peut-on dire des droites (d) et (AA') ?",
+      "choices": [
+        "Elles sont parallèles",
+        "Elles sont perpendiculaires",
+        "Elles sont confondues",
+        "Elles sont sécantes mais pas perpendiculaires"
+      ],
+      "answer": "Elles sont perpendiculaires",
+      "explain": "(d) est la médiatrice de [AA'], donc (d) est perpendiculaire à (AA') en son milieu."
+    },
+    {
+      "id": "ma-sa-014",
+      "level": 2,
+      "type": "input",
+      "prompt": "La droite (d) est la médiatrice de [AA'] et coupe [AA'] en M. On a AM = 3 cm. Combien mesure AA', en cm ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "M est le milieu de [AA'], donc AA' = 2 × AM = 6 cm."
+    },
+    {
+      "id": "ma-sa-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le point A est à 4 cm de la droite (d). A' est son symétrique par rapport à (d). Combien mesure AA', en cm ?",
+      "choices": [
+        "4",
+        "2",
+        "16",
+        "8"
+      ],
+      "answer": "8",
+      "explain": "(d) est la médiatrice de [AA'] : AA' = 4 + 4 = 8 cm."
+    },
+    {
+      "id": "ma-sa-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On sait que ED = 1,5 cm, donc E'D' = 1,5 cm. Quelle propriété justifie cette égalité ?",
+      "choices": [
+        "La symétrie axiale conserve les distances",
+        "La symétrie axiale conserve l'alignement",
+        "La symétrie axiale conserve les angles",
+        "La symétrie axiale conserve les aires"
+      ],
+      "answer": "La symétrie axiale conserve les distances",
+      "explain": "Un segment et son symétrique ont la même longueur : la symétrie axiale conserve les distances."
+    },
+    {
+      "id": "ma-sa-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On sait que BAI = 45°, donc B'A'I' = 45°. Quelle propriété justifie cette égalité ?",
+      "choices": [
+        "La symétrie axiale conserve les distances",
+        "La symétrie axiale conserve les angles",
+        "La symétrie axiale conserve l'alignement",
+        "La symétrie axiale conserve les aires"
+      ],
+      "answer": "La symétrie axiale conserve les angles",
+      "explain": "Un angle et son symétrique ont la même mesure : la symétrie axiale conserve les angles."
+    },
+    {
+      "id": "ma-sa-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On sait que l'aire de RSTU est 4 cm², donc l'aire de R'S'T'U' est 4 cm². Quelle propriété justifie cette égalité ?",
+      "choices": [
+        "La symétrie axiale conserve les distances",
+        "La symétrie axiale conserve les angles",
+        "La symétrie axiale conserve les aires",
+        "La symétrie axiale conserve l'alignement"
+      ],
+      "answer": "La symétrie axiale conserve les aires",
+      "explain": "Deux figures symétriques sont superposables : la symétrie axiale conserve les aires."
+    },
+    {
+      "id": "ma-sa-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Les points A, B et C sont alignés, donc leurs symétriques A', B' et C' sont alignés. Quelle propriété justifie cette phrase ?",
+      "choices": [
+        "La symétrie axiale conserve les distances",
+        "La symétrie axiale conserve les angles",
+        "La symétrie axiale conserve les aires",
+        "La symétrie axiale conserve l'alignement"
+      ],
+      "answer": "La symétrie axiale conserve l'alignement",
+      "explain": "Le symétrique d'une droite est une droite : la symétrie axiale conserve l'alignement."
+    },
+    {
+      "id": "ma-sa-020",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le segment [MN] mesure 6,5 cm. Son symétrique [M'N'] par rapport à une droite (d) mesure combien, en cm ?",
+      "answer": [
+        "6,5",
+        "6.5"
+      ],
+      "explain": "MN = M'N' car la symétrie axiale conserve les distances."
+    },
+    {
+      "id": "ma-sa-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un quadrilatère, l'angle en R mesure 83°. Combien mesure l'angle en R' du quadrilatère symétrique, en degrés ?",
+      "choices": [
+        "97",
+        "83",
+        "41,5",
+        "166"
+      ],
+      "answer": "83",
+      "explain": "La symétrie axiale conserve les angles : l'angle en R' mesure aussi 83°."
+    },
+    {
+      "id": "ma-sa-022",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un triangle a une aire de 12 cm². Son symétrique par rapport à une droite a une aire de combien, en cm² ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "La symétrie axiale conserve les aires."
+    },
+    {
+      "id": "ma-sa-023",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un cercle de centre O a un diamètre de 10 cm. Son symétrique par rapport à une droite a un rayon de combien, en cm ?",
+      "choices": [
+        "10",
+        "20",
+        "2,5",
+        "5"
+      ],
+      "answer": "5",
+      "explain": "Le diamètre est conservé (10 cm), donc le rayon vaut 10 / 2 = 5 cm."
+    },
+    {
+      "id": "ma-sa-024",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un rectangle a un périmètre de 24 cm. Quel est le périmètre de son symétrique par rapport à une droite ?",
+      "choices": [
+        "24 cm",
+        "12 cm",
+        "48 cm",
+        "On ne peut pas le savoir"
+      ],
+      "answer": "24 cm",
+      "explain": "Les longueurs sont conservées, donc le périmètre aussi."
+    },
+    {
+      "id": "ma-sa-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le triangle ABC a AB = 5 cm, BC = 6 cm et AC = 7 cm. Son symétrique est A'B'C'. Combien mesure B'C', en cm ?",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "18"
+      ],
+      "answer": "6",
+      "explain": "B'C' = BC = 6 cm car la symétrie axiale conserve les distances."
+    },
+    {
+      "id": "ma-sa-026",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève dit : « Plus l'axe est loin d'un segment, plus son symétrique est court. » Qu'en penser ?",
+      "choices": [
+        "Il a raison : l'axe réduit la longueur selon son éloignement",
+        "Il a tort : la symétrie axiale ne conserve que les angles",
+        "Il a tort : la symétrie axiale conserve les distances",
+        "Il a raison : les points symétriques se rapprochent de l'axe"
+      ],
+      "answer": "Il a tort : la symétrie axiale conserve les distances",
+      "explain": "La longueur du symétrique d'un segment est toujours la même, quelle que soit la position de l'axe."
+    },
+    {
+      "id": "ma-sa-027",
+      "level": 3,
+      "type": "input",
+      "prompt": "Deux figures qui ont la même aire sont toujours symétriques par rapport à une droite. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Avoir la même aire ne suffit pas : il faut que les figures se superposent par pliage."
+    },
+    {
+      "id": "ma-sa-028",
+      "level": 3,
+      "type": "input",
+      "prompt": "Le point P appartient à l'axe (d). Son symétrique est P'. Quelle est la distance PP', en cm ?",
+      "answer": [
+        "0"
+      ],
+      "explain": "P' est le point P lui-même, donc PP' = 0."
+    },
+    {
+      "id": "ma-sa-029",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le quadrilatère RAMI a RA = 3 cm, RI = 4,2 cm, ARI = 83° et RIM = 52°. Il est symétrique du quadrilatère BELO par rapport à (d), avec B pour R, E pour A, L pour M et O pour I. Quelle affirmation est vraie ?",
+      "choices": [
+        "BE = 4,2 cm et BOL = 52°",
+        "BE = 3 cm et BOL = 83°",
+        "BE = 3 cm et BOL = 52°",
+        "BE = 4,2 cm et BOL = 83°"
+      ],
+      "answer": "BE = 3 cm et BOL = 52°",
+      "explain": "[BE] est le symétrique de [RA] donc BE = 3 cm ; BOL est le symétrique de RIM donc BOL = 52°."
+    },
+    {
+      "id": "ma-sa-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Les points A et A' sont symétriques par rapport au point O. Que représente O pour le segment [AA'] ?",
+      "choices": [
+        "Une de ses extrémités",
+        "Un point de la droite (AA') extérieur au segment",
+        "Un point hors de la droite (AA')",
+        "Son milieu"
+      ],
+      "answer": "Son milieu",
+      "explain": "Si A' est le symétrique de A par rapport à O, alors O est le milieu de [AA']."
+    },
+    {
+      "id": "ma-sa-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "O est le milieu de [AA'] et OA = 4 cm. Combien mesure OA', en cm ?",
+      "choices": [
+        "4",
+        "2",
+        "8",
+        "0"
+      ],
+      "answer": "4",
+      "explain": "O est le milieu de [AA'], donc OA' = OA = 4 cm."
+    },
+    {
+      "id": "ma-sa-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "O est le milieu de [AA'] et OA = 4 cm. Combien mesure AA', en cm ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "AA' = 2 × OA = 8 cm."
+    },
+    {
+      "id": "ma-sa-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le segment [AB] mesure 3 cm. Son symétrique [A'B'] par rapport à un point O mesure combien, en cm ?",
+      "choices": [
+        "1,5",
+        "6",
+        "0",
+        "3"
+      ],
+      "answer": "3",
+      "explain": "Un segment et son symétrique ont la même longueur : A'B' = AB = 3 cm."
+    },
+    {
+      "id": "ma-sa-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le segment [CD] mesure 4 cm. Son symétrique [C'D'] par rapport à un point O mesure combien, en cm ?",
+      "choices": [
+        "4",
+        "2",
+        "8",
+        "16"
+      ],
+      "answer": "4",
+      "explain": "C'D' = CD = 4 cm : la longueur est conservée."
+    },
+    {
+      "id": "ma-sa-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un rectangle de 5 cm sur 3 cm est partagé en deux zones, violette et verte, symétriques par rapport au point O. Quelle est l'aire de la zone violette, en cm² ?",
+      "answer": [
+        "7,5",
+        "7.5"
+      ],
+      "explain": "Les deux zones ont la même aire, chacune vaut la moitié de 5 × 3 = 15 cm²."
+    },
+    {
+      "id": "ma-sa-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un rectangle de 8 cm sur 3 cm est partagé en deux zones, bleue et jaune, symétriques par rapport au point O. Quelle est l'aire de la zone bleue, en cm² ?",
+      "choices": [
+        "24",
+        "11",
+        "12",
+        "6"
+      ],
+      "answer": "12",
+      "explain": "Les deux zones ont la même aire, chacune vaut la moitié de 8 × 3 = 24 cm²."
+    },
+    {
+      "id": "ma-sa-037",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un carré de 6 cm de côté est partagé en deux zones symétriques par rapport au point O. Quelle est l'aire d'une zone, en cm² ?",
+      "answer": [
+        "18"
+      ],
+      "explain": "Les deux zones ont la même aire, chacune vaut la moitié de 6 × 6 = 36 cm²."
+    },
+    {
+      "id": "ma-sa-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une figure a une aire de 9 cm². Quelle est l'aire de sa symétrique par rapport à un point O, en cm² ?",
+      "choices": [
+        "9",
+        "4,5",
+        "18",
+        "0"
+      ],
+      "answer": "9",
+      "explain": "Deux figures symétriques par rapport à un point ont la même aire."
+    },
+    {
+      "id": "ma-sa-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le segment [MN] mesure 5,5 cm. Son symétrique [M'N'] par rapport à un point O mesure combien, en cm ?",
+      "choices": [
+        "2,75",
+        "5,5",
+        "11",
+        "0"
+      ],
+      "answer": "5,5",
+      "explain": "M'N' = MN = 5,5 cm : la longueur est conservée."
+    },
+    {
+      "id": "ma-sa-040",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un rectangle de 5 cm sur 3 cm est partagé en deux zones, violette et verte, symétriques par rapport à O. Un élève dit : « Il manque des mesures pour trouver l'aire de la zone violette. » Qu'en penser ?",
+      "choices": [
+        "Il a raison : il faut connaître la forme exacte de la zone",
+        "Il a raison : il faut connaître la position de O",
+        "Il a tort : les deux zones ont la même aire, chacune vaut la moitié du rectangle",
+        "Il a tort : la zone violette a la même aire que le rectangle"
+      ],
+      "answer": "Il a tort : les deux zones ont la même aire, chacune vaut la moitié du rectangle",
+      "explain": "Les deux zones ont la même aire et à elles deux remplissent le rectangle."
+    },
+    {
+      "id": "ma-sa-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A' est le symétrique de A par rapport à O et OA' = 2,5 cm. Combien mesure AA', en cm ?",
+      "choices": [
+        "2,5",
+        "1,25",
+        "7,5",
+        "5"
+      ],
+      "answer": "5",
+      "explain": "O est le milieu de [AA'] : AA' = 2 × 2,5 = 5 cm."
+    },
+    {
+      "id": "ma-sa-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "A' est le symétrique de A par rapport à O. Les points A, O et A' sont alignés. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "O est le milieu du segment [AA'], donc A, O et A' sont alignés."
+    },
+    {
+      "id": "ma-sa-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A' est le symétrique de A par rapport à O et AA' = 12 cm. Combien mesure OA, en cm ?",
+      "choices": [
+        "12",
+        "6",
+        "24",
+        "3"
+      ],
+      "answer": "6",
+      "explain": "O est le milieu de [AA'] : OA = 12 / 2 = 6 cm."
+    },
+    {
+      "id": "ma-sa-044",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle ABC a un périmètre de 15 cm. Quel est le périmètre de son symétrique par rapport à un point O, en cm ?",
+      "choices": [
+        "7,5",
+        "30",
+        "On ne peut pas le savoir",
+        "15"
+      ],
+      "answer": "15",
+      "explain": "Les trois côtés gardent leur longueur, donc le périmètre aussi."
+    },
+    {
+      "id": "ma-sa-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Si deux droites (d) et (d') sont parallèles, alors toute troisième droite sécante (D) formera des angles alternes-internes (ou correspondants)...",
+      "choices": [
+        "de même mesure",
+        "de mesures différentes",
+        "égaux à 90°",
+        "dont la somme vaut 90°"
+      ],
+      "answer": "de même mesure",
+      "explain": "Si deux droites sont parallèles, alors toute sécante forme des angles alternes-internes (ou correspondants) de même mesure."
+    },
+    {
+      "id": "ma-sa-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Réciproquement, si deux angles alternes-internes (ou correspondants) ont la même mesure, alors...",
+      "choices": [
+        "les droites sur lesquelles ils reposent sont perpendiculaires",
+        "les droites sur lesquelles ils reposent sont parallèles",
+        "les droites sur lesquelles ils reposent sont confondues",
+        "la sécante est perpendiculaire aux deux droites"
+      ],
+      "answer": "les droites sur lesquelles ils reposent sont parallèles",
+      "explain": "Si deux angles alternes-internes (ou correspondants) ont la même mesure, alors les droites sont parallèles."
+    },
+    {
+      "id": "ma-sa-047",
+      "level": 1,
+      "type": "input",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles alternes-internes ont-ils la même mesure ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Si deux droites sont parallèles, les angles alternes-internes ont la même mesure."
+    },
+    {
+      "id": "ma-sa-048",
+      "level": 1,
+      "type": "input",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles alternes-internes : l'un mesure 55°. Combien mesure l'autre, en degrés ?",
+      "answer": [
+        "55"
+      ],
+      "explain": "Droites parallèles : les angles alternes-internes ont la même mesure."
+    },
+    {
+      "id": "ma-sa-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles correspondants : l'un mesure 70°. Combien mesure l'autre, en degrés ?",
+      "choices": [
+        "70",
+        "110",
+        "20",
+        "140"
+      ],
+      "answer": "70",
+      "explain": "Droites parallèles : les angles correspondants ont la même mesure."
+    },
+    {
+      "id": "ma-sa-050",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans la méthode de rédaction, quel est l'ordre des trois étapes ?",
+      "choices": [
+        "Propriété – Données – Conclusion",
+        "Données – Propriété – Conclusion",
+        "Conclusion – Données – Propriété",
+        "Données – Conclusion – Propriété"
+      ],
+      "answer": "Données – Propriété – Conclusion",
+      "explain": "On écrit d'abord les Données (D), puis la Propriété (P), puis la Conclusion (C)."
+    },
+    {
+      "id": "ma-sa-051",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans quelle étape écrit-on : « Si deux droites sont parallèles, alors toute troisième droite sécante formera des angles correspondants de même mesure » ?",
+      "choices": [
+        "Les Données",
+        "La Conclusion",
+        "La Propriété",
+        "Aucune : on ne l'écrit pas"
+      ],
+      "answer": "La Propriété",
+      "explain": "Le texte du cours cité est la Propriété (P)."
+    },
+    {
+      "id": "ma-sa-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On veut prouver que deux droites sont parallèles à partir de deux angles de même mesure. Quelle propriété utilise-t-on ?",
+      "choices": [
+        "La propriété directe : deux droites parallèles donnent des angles de même mesure",
+        "La conservation des distances",
+        "La conservation des aires",
+        "La réciproque : deux angles de même mesure donnent des droites parallèles"
+      ],
+      "answer": "La réciproque : deux angles de même mesure donnent des droites parallèles",
+      "explain": "Pour prouver un parallélisme, on utilise la réciproque de la propriété."
+    },
+    {
+      "id": "ma-sa-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On sait que deux droites sont parallèles et on veut calculer un angle. Quelle propriété utilise-t-on ?",
+      "choices": [
+        "La propriété directe : deux droites parallèles donnent des angles de même mesure",
+        "La réciproque : deux angles de même mesure donnent des droites parallèles",
+        "La conservation de l'alignement",
+        "La conservation des angles par symétrie"
+      ],
+      "answer": "La propriété directe : deux droites parallèles donnent des angles de même mesure",
+      "explain": "Quand les droites sont parallèles, on en déduit que les angles alternes-internes (ou correspondants) ont la même mesure."
+    },
+    {
+      "id": "ma-sa-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles alternes-internes : l'un mesure 120°. Combien mesure l'autre, en degrés ?",
+      "choices": [
+        "60",
+        "120",
+        "90",
+        "240"
+      ],
+      "answer": "120",
+      "explain": "Droites parallèles : les angles alternes-internes ont la même mesure."
+    },
+    {
+      "id": "ma-sa-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles alternes-internes : l'un mesure 38°. Combien mesure l'autre, en degrés ?",
+      "choices": [
+        "52",
+        "142",
+        "38",
+        "19"
+      ],
+      "answer": "38",
+      "explain": "Droites parallèles : les angles alternes-internes ont la même mesure."
+    },
+    {
+      "id": "ma-sa-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles correspondants : l'un mesure 108°. Combien mesure l'autre, en degrés ?",
+      "choices": [
+        "72",
+        "18",
+        "54",
+        "108"
+      ],
+      "answer": "108",
+      "explain": "Droites parallèles : les angles correspondants ont la même mesure."
+    },
+    {
+      "id": "ma-sa-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Deux lignes de terrain parallèles sont coupées par une ligne de passe. Deux angles correspondants : l'un mesure 64°. Combien mesure l'autre, en degrés ?",
+      "answer": [
+        "64"
+      ],
+      "explain": "Droites parallèles : les angles correspondants ont la même mesure."
+    },
+    {
+      "id": "ma-sa-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles alternes-internes : l'un mesure 142°. Combien mesure l'autre, en degrés ?",
+      "choices": [
+        "38",
+        "142",
+        "71",
+        "218"
+      ],
+      "answer": "142",
+      "explain": "Droites parallèles : les angles alternes-internes ont la même mesure."
+    },
+    {
+      "id": "ma-sa-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux droites parallèles sont coupées par une sécante. Deux angles alternes-internes : l'un mesure 90°. Combien mesure l'autre, en degrés ?",
+      "choices": [
+        "45",
+        "180",
+        "90",
+        "0"
+      ],
+      "answer": "90",
+      "explain": "Droites parallèles : les angles alternes-internes ont la même mesure."
+    },
+    {
+      "id": "ma-sa-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux droites (AB) et (CD) sont coupées par une sécante. Deux angles alternes-internes mesurent 40° et 40°. Que peut-on conclure ?",
+      "choices": [
+        "Les droites (AB) et (CD) sont perpendiculaires",
+        "Les droites (AB) et (CD) ne sont pas parallèles",
+        "On ne peut pas conclure",
+        "Les droites (AB) et (CD) sont parallèles"
+      ],
+      "answer": "Les droites (AB) et (CD) sont parallèles",
+      "explain": "Deux angles alternes-internes de même mesure : les droites sont parallèles."
+    },
+    {
+      "id": "ma-sa-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux droites (AB) et (CD) sont coupées par une sécante. Deux angles correspondants mesurent 65° et 65°. Que peut-on conclure ?",
+      "choices": [
+        "Les droites (AB) et (CD) sont parallèles",
+        "Les droites (AB) et (CD) sont perpendiculaires",
+        "Les droites (AB) et (CD) ne sont pas parallèles",
+        "On ne peut pas conclure"
+      ],
+      "answer": "Les droites (AB) et (CD) sont parallèles",
+      "explain": "Deux angles correspondants de même mesure : les droites sont parallèles."
+    },
+    {
+      "id": "ma-sa-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Deux droites (AB) et (CD) sont coupées par une sécante. Deux angles alternes-internes mesurent 50° et 52°. Que peut-on conclure ?",
+      "choices": [
+        "Les droites (AB) et (CD) sont parallèles",
+        "Les droites (AB) et (CD) ne sont pas parallèles",
+        "Les droites (AB) et (CD) sont perpendiculaires",
+        "On ne peut pas conclure"
+      ],
+      "answer": "Les droites (AB) et (CD) ne sont pas parallèles",
+      "explain": "Si elles étaient parallèles, ces angles auraient la même mesure ; ce n'est pas le cas."
+    },
+    {
+      "id": "ma-sa-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Deux droites (AB) et (CD) sont coupées par une sécante. Deux angles correspondants mesurent 110° et 70°. Que peut-on conclure ?",
+      "choices": [
+        "Les droites (AB) et (CD) sont parallèles",
+        "Les droites (AB) et (CD) sont confondues",
+        "Les droites (AB) et (CD) ne sont pas parallèles",
+        "On ne peut pas conclure"
+      ],
+      "answer": "Les droites (AB) et (CD) ne sont pas parallèles",
+      "explain": "Si elles étaient parallèles, ces angles auraient la même mesure ; ce n'est pas le cas."
+    },
+    {
+      "id": "ma-sa-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour prouver un parallélisme, quelle phrase doit-on citer comme Propriété ?",
+      "choices": [
+        "Si deux droites coupées par une troisième droite forment deux angles alternes-internes, alors elles sont parallèles",
+        "Si deux droites coupées par une troisième droite forment deux angles alternes-internes de même mesure, alors elles sont perpendiculaires",
+        "Si deux droites sont parallèles, alors toute troisième droite sécante forme des angles de même mesure",
+        "Si deux droites coupées par une troisième droite forment deux angles alternes-internes de même mesure, alors elles sont parallèles"
+      ],
+      "answer": "Si deux droites coupées par une troisième droite forment deux angles alternes-internes de même mesure, alors elles sont parallèles",
+      "explain": "La Propriété citée est la réciproque : deux angles alternes-internes de même mesure donnent des droites parallèles."
+    },
+    {
+      "id": "ma-sa-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans la méthode « calculer un angle », que contient la Conclusion ?",
+      "choices": [
+        "La mesure de l'angle cherché",
+        "La phrase « Si deux droites sont parallèles, alors... »",
+        "Le fait que les droites sont parallèles",
+        "Le nom de la sécante"
+      ],
+      "answer": "La mesure de l'angle cherché",
+      "explain": "La Conclusion donne le résultat : la mesure de l'angle cherché, par exemple DGE = 35°."
+    },
+    {
+      "id": "ma-sa-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "Deux angles alternes-internes mesurent 72° et 72°. Les droites sont-elles parallèles ? (parallèles / pas parallèles / on ne peut pas conclure)",
+      "answer": [
+        "parallèles"
+      ],
+      "explain": "Deux angles alternes-internes de même mesure : les droites sont parallèles."
+    },
+    {
+      "id": "ma-sa-067",
+      "level": 3,
+      "type": "input",
+      "prompt": "Deux angles correspondants mesurent 100° et 95°. Les droites sont-elles parallèles ? (parallèles / pas parallèles / on ne peut pas conclure)",
+      "answer": [
+        "pas parallèles"
+      ],
+      "explain": "Si elles étaient parallèles, les angles correspondants auraient la même mesure."
+    },
+    {
+      "id": "ma-sa-068",
+      "level": 3,
+      "type": "input",
+      "prompt": "Deux droites sont coupées par une sécante. On sait seulement qu'un angle mesure 60°. Sont-elles parallèles ? (parallèles / pas parallèles / on ne peut pas conclure)",
+      "answer": [
+        "on ne peut pas conclure"
+      ],
+      "explain": "Il faut les mesures de deux angles alternes-internes (ou correspondants) pour comparer."
+    },
+    {
+      "id": "ma-sa-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "Deux droites coupées par une sécante forment deux angles alternes-internes de mesures différentes. Elles sont parallèles. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Si elles étaient parallèles, ces angles auraient la même mesure."
+    },
+    {
+      "id": "ma-sa-070",
+      "level": 3,
+      "type": "input",
+      "prompt": "Les droites (AB) et (CD) sont parallèles. Une sécante les coupe en H sur (AB) et en G sur (CD). Les angles DGE et BHG sont correspondants et BHG = 35°. Combien mesure DGE, en degrés ?",
+      "answer": [
+        "35"
+      ],
+      "explain": "Droites parallèles : les angles correspondants ont la même mesure, donc DGE = BHG = 35°."
+    },
+    {
+      "id": "ma-sa-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pourquoi ne peut-on pas utiliser la propriété directe pour prouver que deux droites sont parallèles ?",
+      "choices": [
+        "Parce qu'elle ne concerne que les angles correspondants",
+        "Parce qu'elle ne marche que si les angles mesurent 90°",
+        "Parce qu'elle ne concerne que les droites perpendiculaires",
+        "Parce qu'elle part du fait que les droites sont déjà parallèles"
+      ],
+      "answer": "Parce qu'elle part du fait que les droites sont déjà parallèles",
+      "explain": "La propriété directe a pour hypothèse le parallélisme ; pour le prouver, on utilise la réciproque."
+    },
+    {
+      "id": "ma-sa-072",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour prouver un parallélisme, que doit-on écrire dans les Données ?",
+      "choices": [
+        "Les deux angles sont alternes-internes et ont la même mesure",
+        "Les droites sont parallèles",
+        "La mesure d'un seul angle",
+        "La phrase « Si deux droites sont parallèles, alors... »"
+      ],
+      "answer": "Les deux angles sont alternes-internes et ont la même mesure",
+      "explain": "Les Données sont les faits de l'énoncé : le type des angles et leurs mesures égales."
+    },
+    {
+      "id": "ma-sa-073",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour calculer un angle, que doit-on écrire dans les Données ?",
+      "choices": [
+        "Les deux angles ont la même mesure",
+        "Les deux angles sont correspondants (ou alternes-internes) et les droites sont parallèles",
+        "La phrase « Si deux angles ont la même mesure, alors... »",
+        "La mesure de l'angle cherché"
+      ],
+      "answer": "Les deux angles sont correspondants (ou alternes-internes) et les droites sont parallèles",
+      "explain": "Les Données rappellent le type des angles et le fait que les droites sont parallèles."
+    },
+    {
+      "id": "ma-sa-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans la méthode « prouver le parallélisme », que contient la Conclusion ?",
+      "choices": [
+        "La mesure de l'angle cherché",
+        "Les droites (AB) et (CD) sont parallèles",
+        "Les deux angles sont alternes-internes",
+        "La phrase « Si deux droites coupées par une troisième... »"
+      ],
+      "answer": "Les droites (AB) et (CD) sont parallèles",
+      "explain": "La Conclusion donne le résultat : les droites (AB) et (CD) sont parallèles."
+    }
+  ]
+}

@@ -1,0 +1,1059 @@
+{
+  "topic": "pc-mouvements",
+  "questions": [
+    {
+      "id": "pc-mv-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un mouvement est défini par trois éléments. Lesquels ?",
+      "choices": [
+        "Sa masse, sa forme et sa couleur",
+        "Sa trajectoire, sa masse et sa température",
+        "Sa vitesse, son énergie et son poids",
+        "Sa trajectoire, sa variation de vitesse et son référentiel"
+      ],
+      "answer": "Sa trajectoire, sa variation de vitesse et son référentiel",
+      "explain": "Le mouvement d'un objet est défini par sa trajectoire, sa variation de vitesse et son référentiel."
+    },
+    {
+      "id": "pc-mv-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que désigne la trajectoire d'un objet en mouvement ?",
+      "choices": [
+        "La distance qu'il parcourt en une seconde",
+        "La durée totale de son déplacement",
+        "L'ensemble des positions qu'il occupe au cours du temps",
+        "L'objet par rapport auquel on le repère"
+      ],
+      "answer": "L'ensemble des positions qu'il occupe au cours du temps",
+      "explain": "La trajectoire est l'ensemble des positions occupées par l'objet au cours du temps."
+    },
+    {
+      "id": "pc-mv-003",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cycliste parcourt 100 m en 20 s. Quelle est sa vitesse moyenne en m/s ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "v = d / t = 100 / 20 = 5 m/s."
+    },
+    {
+      "id": "pc-mv-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Si l'ensemble des positions d'un objet en mouvement forme une droite, la trajectoire est :",
+      "choices": [
+        "rectiligne",
+        "circulaire",
+        "curviligne",
+        "quelconque"
+      ],
+      "answer": "rectiligne",
+      "explain": "Une droite donne une trajectoire rectiligne."
+    },
+    {
+      "id": "pc-mv-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que forme l'ensemble des positions d'un objet dont la trajectoire est circulaire ?",
+      "choices": [
+        "Une droite",
+        "Une forme sans particularité",
+        "Un point fixe",
+        "Un cercle"
+      ],
+      "answer": "Un cercle",
+      "explain": "Un cercle donne une trajectoire circulaire."
+    },
+    {
+      "id": "pc-mv-006",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une nageuse parcourt 50 m en 25 s. Quelle est sa vitesse moyenne en m/s ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "v = d / t = 50 / 25 = 2 m/s."
+    },
+    {
+      "id": "pc-mv-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Si l'ensemble des positions d'un objet forme une courbe qui n'est pas un cercle, la trajectoire est :",
+      "choices": [
+        "rectiligne",
+        "curviligne",
+        "circulaire",
+        "uniforme"
+      ],
+      "answer": "curviligne",
+      "explain": "Une courbe donne une trajectoire curviligne."
+    },
+    {
+      "id": "pc-mv-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Si l'ensemble des positions d'un objet ne forme aucune forme particulière, la trajectoire est :",
+      "choices": [
+        "quelconque",
+        "rectiligne",
+        "circulaire",
+        "accélérée"
+      ],
+      "answer": "quelconque",
+      "explain": "Sans forme particulière, la trajectoire est quelconque."
+    },
+    {
+      "id": "pc-mv-009",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un coureur parcourt 60 m en 12 s. Quelle est sa vitesse moyenne en m/s ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "v = d / t = 60 / 12 = 5 m/s."
+    },
+    {
+      "id": "pc-mv-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand la vitesse d'un objet est constante, on dit que le mouvement est :",
+      "choices": [
+        "accéléré",
+        "ralenti",
+        "uniforme",
+        "rectiligne"
+      ],
+      "answer": "uniforme",
+      "explain": "Vitesse constante : mouvement uniforme."
+    },
+    {
+      "id": "pc-mv-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand la vitesse d'un objet augmente, on dit que le mouvement est :",
+      "choices": [
+        "uniforme",
+        "accéléré",
+        "ralenti",
+        "circulaire"
+      ],
+      "answer": "accéléré",
+      "explain": "Vitesse qui augmente : mouvement accéléré."
+    },
+    {
+      "id": "pc-mv-012",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un patineur parcourt 400 m en 50 s. Quelle est sa vitesse moyenne en m/s ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "v = d / t = 400 / 50 = 8 m/s."
+    },
+    {
+      "id": "pc-mv-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand la vitesse d'un objet diminue, on dit que le mouvement est :",
+      "choices": [
+        "uniforme",
+        "accéléré",
+        "curviligne",
+        "ralenti"
+      ],
+      "answer": "ralenti",
+      "explain": "Vitesse qui diminue : mouvement ralenti."
+    },
+    {
+      "id": "pc-mv-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un référentiel ?",
+      "choices": [
+        "Une trajectoire qui sert de modèle",
+        "Un instrument qui mesure la vitesse",
+        "Un objet par rapport auquel on repère une position ou un mouvement",
+        "Une durée choisie pour comparer deux mouvements"
+      ],
+      "answer": "Un objet par rapport auquel on repère une position ou un mouvement",
+      "explain": "Un référentiel est un objet par rapport auquel on repère une position ou un mouvement."
+    },
+    {
+      "id": "pc-mv-015",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un joueur de football parcourt 90 m en 9 s. Quelle est sa vitesse moyenne en m/s ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "v = d / t = 90 / 9 = 10 m/s."
+    },
+    {
+      "id": "pc-mv-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le référentiel est souvent associé à :",
+      "choices": [
+        "la position de l'observateur",
+        "la masse de l'objet étudié",
+        "la vitesse de l'objet étudié",
+        "la durée du mouvement"
+      ],
+      "answer": "la position de l'observateur",
+      "explain": "Le référentiel est souvent associé à la position de l'observateur."
+    },
+    {
+      "id": "pc-mv-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour décrire un mouvement, que faut-il toujours préciser ?",
+      "choices": [
+        "La masse de l'objet",
+        "La couleur de l'objet",
+        "La température de l'air",
+        "Le référentiel"
+      ],
+      "answer": "Le référentiel",
+      "explain": "Pour décrire un mouvement, il faut toujours préciser le référentiel."
+    },
+    {
+      "id": "pc-mv-018",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un nageur parcourt 100 m en 40 s. Quelle est sa vitesse moyenne en m/s ?",
+      "answer": [
+        "2,5",
+        "2.5"
+      ],
+      "explain": "v = d / t = 100 / 40 = 2,5 m/s."
+    },
+    {
+      "id": "pc-mv-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour étudier des mouvements à la surface de la Terre, on utilise le référentiel :",
+      "choices": [
+        "géocentrique",
+        "terrestre",
+        "héliocentrique",
+        "lunaire"
+      ],
+      "answer": "terrestre",
+      "explain": "Les mouvements à la surface de la Terre s'étudient dans le référentiel terrestre."
+    },
+    {
+      "id": "pc-mv-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le référentiel terrestre correspond à :",
+      "choices": [
+        "n'importe quel point à la surface de la Terre",
+        "le centre de la Terre",
+        "le centre du Soleil",
+        "le centre de la Lune"
+      ],
+      "answer": "n'importe quel point à la surface de la Terre",
+      "explain": "Le référentiel terrestre est n'importe quel point à la surface de la Terre."
+    },
+    {
+      "id": "pc-mv-021",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une voiture parcourt 150 km en 3 h. Quelle est sa vitesse moyenne en km/h ?",
+      "answer": [
+        "50"
+      ],
+      "explain": "v = d / t = 150 / 3 = 50 km/h."
+    },
+    {
+      "id": "pc-mv-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le référentiel géocentrique correspond à :",
+      "choices": [
+        "le centre du Soleil",
+        "un point à la surface de la Terre",
+        "le centre de la Terre",
+        "le centre de la Lune"
+      ],
+      "answer": "le centre de la Terre",
+      "explain": "Le référentiel géocentrique est le centre de la Terre."
+    },
+    {
+      "id": "pc-mv-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le référentiel héliocentrique correspond à :",
+      "choices": [
+        "le centre de la Terre",
+        "le centre du Soleil",
+        "un point à la surface de la Terre",
+        "le centre de Mars"
+      ],
+      "answer": "le centre du Soleil",
+      "explain": "Le référentiel héliocentrique est le centre du Soleil."
+    },
+    {
+      "id": "pc-mv-024",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un train parcourt 180 km en 2 h. Quelle est sa vitesse moyenne en km/h ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "v = d / t = 180 / 2 = 90 km/h."
+    },
+    {
+      "id": "pc-mv-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est l'unité officielle de la vitesse ?",
+      "choices": [
+        "Le kilomètre par heure (km/h)",
+        "Le mètre par heure (m/h)",
+        "Le kilomètre par seconde (km/s)",
+        "Le mètre par seconde (m/s)"
+      ],
+      "answer": "Le mètre par seconde (m/s)",
+      "explain": "L'unité officielle de la vitesse est le mètre par seconde (m/s)."
+    },
+    {
+      "id": "pc-mv-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est l'unité usuelle de la vitesse ?",
+      "choices": [
+        "Le mètre par seconde (m/s)",
+        "Le mètre par minute (m/min)",
+        "Le kilomètre par heure (km/h)",
+        "Le kilomètre par seconde (km/s)"
+      ],
+      "answer": "Le kilomètre par heure (km/h)",
+      "explain": "L'unité usuelle de la vitesse est le kilomètre par heure (km/h)."
+    },
+    {
+      "id": "pc-mv-027",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un car parcourt 300 km en 4 h. Quelle est sa vitesse moyenne en km/h ?",
+      "answer": [
+        "75"
+      ],
+      "explain": "v = d / t = 300 / 4 = 75 km/h."
+    },
+    {
+      "id": "pc-mv-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment définit-on la vitesse d'un objet ?",
+      "choices": [
+        "Le rapport entre la distance parcourue et la durée du parcours",
+        "Le produit de la distance parcourue par la durée du parcours",
+        "Le rapport entre la durée du parcours et la distance parcourue",
+        "La différence entre la distance et la durée du parcours"
+      ],
+      "answer": "Le rapport entre la distance parcourue et la durée du parcours",
+      "explain": "La vitesse est le rapport entre la distance parcourue et la durée du parcours."
+    },
+    {
+      "id": "pc-mv-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle formule donne la vitesse moyenne ?",
+      "choices": [
+        "v = d x t",
+        "v = t / d",
+        "v = d + t",
+        "v = d / t"
+      ],
+      "answer": "v = d / t",
+      "explain": "La vitesse moyenne se calcule avec v = d / t."
+    },
+    {
+      "id": "pc-mv-030",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un randonneur parcourt 12 km en 2 h. Quelle est sa vitesse moyenne en km/h ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "v = d / t = 12 / 2 = 6 km/h."
+    },
+    {
+      "id": "pc-mv-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans la formule v = d / t, que représente la lettre t ?",
+      "choices": [
+        "La distance parcourue",
+        "La durée du parcours",
+        "La vitesse de l'objet",
+        "La trajectoire de l'objet"
+      ],
+      "answer": "La durée du parcours",
+      "explain": "Dans v = d / t, t est la durée du parcours."
+    },
+    {
+      "id": "pc-mv-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Parmi ces éléments, lequel ne sert pas à définir un mouvement ?",
+      "choices": [
+        "La masse de l'objet",
+        "La trajectoire de l'objet",
+        "La variation de vitesse de l'objet",
+        "Le référentiel choisi"
+      ],
+      "answer": "La masse de l'objet",
+      "explain": "Un mouvement est défini par sa trajectoire, sa variation de vitesse et son référentiel, pas par sa masse."
+    },
+    {
+      "id": "pc-mv-033",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cycliste roule à 8 m/s pendant 25 s. Quelle distance parcourt-il, en m ?",
+      "answer": [
+        "200"
+      ],
+      "explain": "d = v x t = 8 x 25 = 200 m."
+    },
+    {
+      "id": "pc-mv-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour passer des mètres par seconde aux kilomètres par heure, il faut :",
+      "choices": [
+        "multiplier la vitesse par 6,3",
+        "multiplier la vitesse par 60",
+        "multiplier la vitesse par 3,6",
+        "ajouter 3,6 à la vitesse"
+      ],
+      "answer": "multiplier la vitesse par 3,6",
+      "explain": "Pour passer de m/s à km/h, on multiplie la vitesse par 3,6."
+    },
+    {
+      "id": "pc-mv-035",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un coureur avance à 6 m/s. Quelle est sa vitesse en km/h ?",
+      "choices": [
+        "2,16 km/h",
+        "21,6 km/h",
+        "216 km/h",
+        "36 km/h"
+      ],
+      "answer": "21,6 km/h",
+      "explain": "6 x 3,6 = 21,6 km/h."
+    },
+    {
+      "id": "pc-mv-036",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un coureur avance à 5 m/s pendant 30 s. Quelle distance parcourt-il, en m ?",
+      "answer": [
+        "150"
+      ],
+      "explain": "d = v x t = 5 x 30 = 150 m."
+    },
+    {
+      "id": "pc-mv-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une voiture freine en ligne droite. Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne accéléré",
+        "Rectiligne uniforme",
+        "Circulaire ralenti",
+        "Rectiligne ralenti"
+      ],
+      "answer": "Rectiligne ralenti",
+      "explain": "La trajectoire est une droite et la vitesse diminue : mouvement rectiligne ralenti."
+    },
+    {
+      "id": "pc-mv-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une balle descend un plan incliné en allant de plus en plus vite. Quel est son mouvement dans le référentiel terrestre ?",
+      "choices": [
+        "Rectiligne ralenti",
+        "Rectiligne uniforme",
+        "Rectiligne accéléré",
+        "Circulaire accéléré"
+      ],
+      "answer": "Rectiligne accéléré",
+      "explain": "Trajectoire droite et vitesse qui augmente : mouvement rectiligne accéléré."
+    },
+    {
+      "id": "pc-mv-039",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un skieur descend une piste à 15 m/s pendant 20 s. Quelle distance parcourt-il, en m ?",
+      "answer": [
+        "300"
+      ],
+      "explain": "d = v x t = 15 x 20 = 300 m."
+    },
+    {
+      "id": "pc-mv-040",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un sprinteur court un 200 m sur une piste qui comporte un virage, et sa vitesse augmente. Quel est son mouvement dans le référentiel terrestre ?",
+      "choices": [
+        "Curviligne accéléré",
+        "Rectiligne accéléré",
+        "Curviligne ralenti",
+        "Rectiligne uniforme"
+      ],
+      "answer": "Curviligne accéléré",
+      "explain": "La trajectoire est une courbe et la vitesse augmente : mouvement curviligne accéléré."
+    },
+    {
+      "id": "pc-mv-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un cycliste roule sur une route droite à vitesse constante. Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne accéléré",
+        "Rectiligne ralenti",
+        "Circulaire uniforme",
+        "Rectiligne uniforme"
+      ],
+      "answer": "Rectiligne uniforme",
+      "explain": "Trajectoire droite et vitesse constante : mouvement rectiligne uniforme."
+    },
+    {
+      "id": "pc-mv-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une voiture roule à 60 km/h pendant 2 h. Quelle distance parcourt-elle, en km ?",
+      "answer": [
+        "120"
+      ],
+      "explain": "d = v x t = 60 x 2 = 120 km."
+    },
+    {
+      "id": "pc-mv-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la trajectoire de la valve d'une roue de vélo, vue par le cycliste ?",
+      "choices": [
+        "Rectiligne",
+        "Circulaire",
+        "Quelconque",
+        "Elle ne bouge pas"
+      ],
+      "answer": "Circulaire",
+      "explain": "Vue par le cycliste, la valve décrit un cercle autour de l'axe de la roue."
+    },
+    {
+      "id": "pc-mv-044",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une horloge est fixée à un mur. La pointe de son aiguille des secondes tourne régulièrement. Quel est son mouvement dans le référentiel terrestre ?",
+      "choices": [
+        "Circulaire uniforme",
+        "Rectiligne uniforme",
+        "Circulaire accéléré",
+        "Circulaire ralenti"
+      ],
+      "answer": "Circulaire uniforme",
+      "explain": "La pointe décrit un cercle à vitesse constante : mouvement circulaire uniforme."
+    },
+    {
+      "id": "pc-mv-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un coureur avance à 6 m/s. Combien de temps met-il pour parcourir 300 m, en s ?",
+      "answer": [
+        "50"
+      ],
+      "explain": "t = d / v = 300 / 6 = 50 s."
+    },
+    {
+      "id": "pc-mv-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une voiture démarre à un feu rouge et accélère sur une route droite. Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne uniforme",
+        "Rectiligne ralenti",
+        "Rectiligne accéléré",
+        "Curviligne accéléré"
+      ],
+      "answer": "Rectiligne accéléré",
+      "explain": "Trajectoire droite et vitesse qui augmente : mouvement rectiligne accéléré."
+    },
+    {
+      "id": "pc-mv-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un ascenseur monte tout droit à vitesse constante. Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne accéléré",
+        "Rectiligne uniforme",
+        "Rectiligne ralenti",
+        "Circulaire uniforme"
+      ],
+      "answer": "Rectiligne uniforme",
+      "explain": "Trajectoire droite et vitesse constante : mouvement rectiligne uniforme."
+    },
+    {
+      "id": "pc-mv-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cycliste roule à 4 m/s. Combien de temps met-il pour parcourir 1000 m, en s ?",
+      "answer": [
+        "250"
+      ],
+      "explain": "t = d / v = 1000 / 4 = 250 s."
+    },
+    {
+      "id": "pc-mv-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un enfant est assis sur un plateau de manège qui tourne à vitesse constante. Dans le référentiel terrestre, quel est son mouvement ?",
+      "choices": [
+        "Rectiligne uniforme",
+        "Circulaire accéléré",
+        "Curviligne accéléré",
+        "Circulaire uniforme"
+      ],
+      "answer": "Circulaire uniforme",
+      "explain": "Il décrit un cercle à vitesse constante : mouvement circulaire uniforme."
+    },
+    {
+      "id": "pc-mv-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un joueur de basket lance le ballon vers le panier. La trajectoire du ballon forme une courbe qui n'est pas un cercle. Elle est :",
+      "choices": [
+        "rectiligne",
+        "circulaire",
+        "curviligne",
+        "quelconque"
+      ],
+      "answer": "curviligne",
+      "explain": "Une courbe qui n'est pas un cercle donne une trajectoire curviligne."
+    },
+    {
+      "id": "pc-mv-051",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un patineur avance à 12 m/s. Combien de temps met-il pour parcourir 360 m, en s ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "t = d / v = 360 / 12 = 30 s."
+    },
+    {
+      "id": "pc-mv-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une mouche vole dans une pièce, avec des détours dans tous les sens et sans aucune forme particulière. Sa trajectoire est :",
+      "choices": [
+        "quelconque",
+        "rectiligne",
+        "circulaire",
+        "uniforme"
+      ],
+      "answer": "quelconque",
+      "explain": "Sans forme particulière, la trajectoire est quelconque."
+    },
+    {
+      "id": "pc-mv-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une voiture roule à vitesse constante sur une route qui forme une courbe (pas un cercle). Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne uniforme",
+        "Curviligne accéléré",
+        "Circulaire uniforme",
+        "Curviligne uniforme"
+      ],
+      "answer": "Curviligne uniforme",
+      "explain": "Trajectoire courbe et vitesse constante : mouvement curviligne uniforme."
+    },
+    {
+      "id": "pc-mv-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une voiture roule à 80 km/h. Combien de temps met-elle pour parcourir 240 km, en h ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "t = d / v = 240 / 80 = 3 h."
+    },
+    {
+      "id": "pc-mv-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un cycliste arrête de pédaler sur une route droite et sa vitesse diminue. Comment appelle-t-on ce mouvement du point de vue de la variation de vitesse ?",
+      "choices": [
+        "Uniforme",
+        "Ralenti",
+        "Accéléré",
+        "Quelconque"
+      ],
+      "answer": "Ralenti",
+      "explain": "La vitesse diminue : le mouvement est ralenti."
+    },
+    {
+      "id": "pc-mv-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un ballon de football roule en ligne droite sur la pelouse et ralentit peu à peu. Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne ralenti",
+        "Rectiligne accéléré",
+        "Rectiligne uniforme",
+        "Curviligne ralenti"
+      ],
+      "answer": "Rectiligne ralenti",
+      "explain": "Trajectoire droite et vitesse qui diminue : mouvement rectiligne ralenti."
+    },
+    {
+      "id": "pc-mv-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 10 m/s en km/h.",
+      "answer": [
+        "36"
+      ],
+      "explain": "10 x 3,6 = 36 km/h."
+    },
+    {
+      "id": "pc-mv-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un coureur de 100 m court en ligne droite et sa vitesse augmente. Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne ralenti",
+        "Rectiligne uniforme",
+        "Rectiligne accéléré",
+        "Circulaire accéléré"
+      ],
+      "answer": "Rectiligne accéléré",
+      "explain": "Trajectoire droite et vitesse qui augmente : mouvement rectiligne accéléré."
+    },
+    {
+      "id": "pc-mv-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un nageur traverse un bassin en ligne droite à vitesse constante. Quel est son mouvement ?",
+      "choices": [
+        "Rectiligne accéléré",
+        "Rectiligne uniforme",
+        "Rectiligne ralenti",
+        "Curviligne uniforme"
+      ],
+      "answer": "Rectiligne uniforme",
+      "explain": "Trajectoire droite et vitesse constante : mouvement rectiligne uniforme."
+    },
+    {
+      "id": "pc-mv-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 5 m/s en km/h.",
+      "answer": [
+        "18"
+      ],
+      "explain": "5 x 3,6 = 18 km/h."
+    },
+    {
+      "id": "pc-mv-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une grande roue tourne à vitesse constante. Dans le référentiel terrestre, quel est le mouvement du centre d'une cabine ?",
+      "choices": [
+        "Rectiligne uniforme",
+        "Circulaire ralenti",
+        "Curviligne uniforme",
+        "Circulaire uniforme"
+      ],
+      "answer": "Circulaire uniforme",
+      "explain": "La cabine décrit un cercle à vitesse constante : mouvement circulaire uniforme."
+    },
+    {
+      "id": "pc-mv-062",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel référentiel utilise-t-on pour étudier le mouvement de la Lune ?",
+      "choices": [
+        "Le référentiel terrestre",
+        "Le référentiel héliocentrique",
+        "Le référentiel géocentrique",
+        "Le référentiel lunaire"
+      ],
+      "answer": "Le référentiel géocentrique",
+      "explain": "Les mouvements de la Lune s'étudient dans le référentiel géocentrique."
+    },
+    {
+      "id": "pc-mv-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 20 m/s en km/h.",
+      "answer": [
+        "72"
+      ],
+      "explain": "20 x 3,6 = 72 km/h."
+    },
+    {
+      "id": "pc-mv-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel référentiel utilise-t-on pour étudier le mouvement d'un satellite météo autour de la Terre ?",
+      "choices": [
+        "Le référentiel géocentrique",
+        "Le référentiel terrestre",
+        "Le référentiel héliocentrique",
+        "Le référentiel solaire"
+      ],
+      "answer": "Le référentiel géocentrique",
+      "explain": "Les mouvements des satellites s'étudient dans le référentiel géocentrique."
+    },
+    {
+      "id": "pc-mv-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel référentiel utilise-t-on pour étudier le mouvement de la planète Mars ?",
+      "choices": [
+        "Le référentiel terrestre",
+        "Le référentiel géocentrique",
+        "Le référentiel martien",
+        "Le référentiel héliocentrique"
+      ],
+      "answer": "Le référentiel héliocentrique",
+      "explain": "Les mouvements des planètes s'étudient dans le référentiel héliocentrique."
+    },
+    {
+      "id": "pc-mv-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 2,5 m/s en km/h.",
+      "answer": [
+        "9"
+      ],
+      "explain": "2,5 x 3,6 = 9 km/h."
+    },
+    {
+      "id": "pc-mv-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel référentiel utilise-t-on pour étudier une voiture qui roule sur une route ?",
+      "choices": [
+        "Le référentiel géocentrique",
+        "Le référentiel terrestre",
+        "Le référentiel héliocentrique",
+        "Le référentiel spatial"
+      ],
+      "answer": "Le référentiel terrestre",
+      "explain": "Un mouvement à la surface de la Terre s'étudie dans le référentiel terrestre."
+    },
+    {
+      "id": "pc-mv-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel référentiel utilise-t-on pour étudier un footballeur qui court sur le terrain ?",
+      "choices": [
+        "Le référentiel terrestre",
+        "Le référentiel géocentrique",
+        "Le référentiel héliocentrique",
+        "Le référentiel lunaire"
+      ],
+      "answer": "Le référentiel terrestre",
+      "explain": "Un mouvement à la surface de la Terre s'étudie dans le référentiel terrestre."
+    },
+    {
+      "id": "pc-mv-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 15 m/s en km/h.",
+      "answer": [
+        "54"
+      ],
+      "explain": "15 x 3,6 = 54 km/h."
+    },
+    {
+      "id": "pc-mv-070",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel référentiel utilise-t-on pour étudier le mouvement de la Terre autour du Soleil ?",
+      "choices": [
+        "Le référentiel terrestre",
+        "Le référentiel géocentrique",
+        "Le référentiel héliocentrique",
+        "Le référentiel lunaire"
+      ],
+      "answer": "Le référentiel héliocentrique",
+      "explain": "La Terre est une planète : son mouvement s'étudie dans le référentiel héliocentrique."
+    },
+    {
+      "id": "pc-mv-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le centre du Soleil sert de référentiel pour étudier :",
+      "choices": [
+        "la Lune",
+        "les planètes",
+        "les satellites",
+        "un cycliste sur une route"
+      ],
+      "answer": "les planètes",
+      "explain": "Le référentiel héliocentrique (centre du Soleil) sert à étudier les mouvements des planètes."
+    },
+    {
+      "id": "pc-mv-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 25 m/s en km/h.",
+      "answer": [
+        "90"
+      ],
+      "explain": "25 x 3,6 = 90 km/h."
+    },
+    {
+      "id": "pc-mv-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le centre de la Terre sert de référentiel pour étudier :",
+      "choices": [
+        "les planètes",
+        "un coureur sur une piste",
+        "une voiture sur une route",
+        "la Lune et les satellites"
+      ],
+      "answer": "la Lune et les satellites",
+      "explain": "Le référentiel géocentrique (centre de la Terre) sert à étudier la Lune et les satellites."
+    },
+    {
+      "id": "pc-mv-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un spectateur au bord d'une route observe passer un cycliste. Quel référentiel utilise-t-il ?",
+      "choices": [
+        "Le référentiel géocentrique",
+        "Le référentiel héliocentrique",
+        "Le référentiel terrestre",
+        "Le référentiel du Soleil"
+      ],
+      "answer": "Le référentiel terrestre",
+      "explain": "Le spectateur est à la surface de la Terre : il utilise le référentiel terrestre."
+    },
+    {
+      "id": "pc-mv-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 1 m/s en km/h.",
+      "answer": [
+        "3,6",
+        "3.6"
+      ],
+      "explain": "1 x 3,6 = 3,6 km/h."
+    },
+    {
+      "id": "pc-mv-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel référentiel utilise-t-on pour étudier le mouvement de la planète Jupiter ?",
+      "choices": [
+        "Le référentiel héliocentrique",
+        "Le référentiel terrestre",
+        "Le référentiel géocentrique",
+        "Le référentiel lunaire"
+      ],
+      "answer": "Le référentiel héliocentrique",
+      "explain": "Jupiter est une planète : son mouvement s'étudie dans le référentiel héliocentrique."
+    },
+    {
+      "id": "pc-mv-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Laquelle de ces vitesses est la plus grande ?",
+      "choices": [
+        "30 km/h",
+        "25 km/h",
+        "20 km/h",
+        "10 m/s"
+      ],
+      "answer": "10 m/s",
+      "explain": "10 m/s x 3,6 = 36 km/h, ce qui dépasse 30 km/h."
+    },
+    {
+      "id": "pc-mv-078",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un cycliste parcourt 90 m en 10 s. Quelle est sa vitesse moyenne en km/h ?",
+      "answer": [
+        "32,4",
+        "32.4"
+      ],
+      "explain": "v = 90 / 10 = 9 m/s, et 9 x 3,6 = 32,4 km/h."
+    },
+    {
+      "id": "pc-mv-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un cycliste parcourt la même distance en deux fois moins de temps. Sa vitesse moyenne :",
+      "choices": [
+        "est divisée par 2",
+        "est multipliée par 2",
+        "reste la même",
+        "est multipliée par 4"
+      ],
+      "answer": "est multipliée par 2",
+      "explain": "Avec v = d / t, une durée divisée par 2 double la vitesse."
+    },
+    {
+      "id": "pc-mv-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un coureur parcourt deux fois plus de distance pendant la même durée. Sa vitesse moyenne :",
+      "choices": [
+        "est multipliée par 2",
+        "est divisée par 2",
+        "reste la même",
+        "est augmentée de 2 m/s"
+      ],
+      "answer": "est multipliée par 2",
+      "explain": "Avec v = d / t, une distance doublée double la vitesse."
+    },
+    {
+      "id": "pc-mv-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 8 m/s en km/h.",
+      "answer": [
+        "28,8",
+        "28.8"
+      ],
+      "explain": "8 x 3,6 = 28,8 km/h."
+    },
+    {
+      "id": "pc-mv-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le coureur A parcourt 100 m en 10 s. Le coureur B parcourt 100 m en 12 s. Quel coureur a la plus grande vitesse moyenne ?",
+      "choices": [
+        "Le coureur B",
+        "Les deux ont la même vitesse",
+        "Le coureur A",
+        "On ne peut pas savoir"
+      ],
+      "answer": "Le coureur A",
+      "explain": "À distance égale, la durée la plus courte donne la plus grande vitesse."
+    },
+    {
+      "id": "pc-mv-083",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un sprinteur parcourt 100 m en 10 s. Quelle est sa vitesse moyenne en km/h ?",
+      "answer": [
+        "36"
+      ],
+      "explain": "v = 100 / 10 = 10 m/s, et 10 x 3,6 = 36 km/h."
+    }
+  ]
+}

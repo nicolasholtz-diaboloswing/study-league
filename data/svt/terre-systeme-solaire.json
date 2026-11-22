@@ -1,0 +1,1301 @@
+{
+  "topic": "svt-terre-systeme-solaire",
+  "questions": [
+    {
+      "id": "svt-tss-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la première étape de la démarche d'investigation scientifique ?",
+      "choices": [
+        "L'observation",
+        "L'hypothèse",
+        "Le problème",
+        "La conclusion"
+      ],
+      "answer": "L'observation",
+      "explain": "La démarche commence par l'observation d'un phénomène qu'on ne comprend pas."
+    },
+    {
+      "id": "svt-tss-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle étape vient juste après l'observation ?",
+      "choices": [
+        "L'hypothèse",
+        "Le problème",
+        "Le protocole",
+        "La conclusion"
+      ],
+      "answer": "Le problème",
+      "explain": "Face à l'observation, on pose une question : c'est le problème."
+    },
+    {
+      "id": "svt-tss-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle étape vient juste après le problème ? (observation / hypothèse / protocole / conclusion)",
+      "answer": [
+        "hypothèse"
+      ],
+      "explain": "Après le problème, on propose une réponse possible : l'hypothèse."
+    },
+    {
+      "id": "svt-tss-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la dernière étape de la démarche d'investigation scientifique ?",
+      "choices": [
+        "L'interprétation",
+        "La description des résultats",
+        "L'hypothèse",
+        "La conclusion"
+      ],
+      "answer": "La conclusion",
+      "explain": "On termine par la conclusion, qui répond au problème."
+    },
+    {
+      "id": "svt-tss-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle étape commence par « Je constate que… » ?",
+      "choices": [
+        "L'observation",
+        "Le problème",
+        "L'hypothèse",
+        "La conclusion"
+      ],
+      "answer": "L'observation",
+      "explain": "« Je constate que… » sert à décrire l'observation de départ."
+    },
+    {
+      "id": "svt-tss-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle étape correspond à la formule « Je me demande… ? » ?",
+      "choices": [
+        "L'observation",
+        "Le problème",
+        "L'hypothèse",
+        "L'interprétation"
+      ],
+      "answer": "Le problème",
+      "explain": "Le problème est une question qui se termine par un point d'interrogation."
+    },
+    {
+      "id": "svt-tss-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle étape correspond à la formule « Je suppose que… » ?",
+      "choices": [
+        "L'observation",
+        "Le problème",
+        "L'hypothèse",
+        "La conclusion"
+      ],
+      "answer": "L'hypothèse",
+      "explain": "« Je suppose que… » introduit l'hypothèse."
+    },
+    {
+      "id": "svt-tss-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle étape correspond à la formule « Je réalise… » ?",
+      "choices": [
+        "L'observation",
+        "La conclusion",
+        "L'interprétation des résultats",
+        "Le protocole (les expériences)"
+      ],
+      "answer": "Le protocole (les expériences)",
+      "explain": "« Je réalise… » décrit les expériences ou les recherches faites pour tester l'hypothèse."
+    },
+    {
+      "id": "svt-tss-009",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle étape correspond à la formule « Je vois que… » seule, sans « Or je sais que… » ?",
+      "choices": [
+        "La description des résultats",
+        "L'observation",
+        "Le problème",
+        "La conclusion"
+      ],
+      "answer": "La description des résultats",
+      "explain": "« Je vois que… » décrit les résultats obtenus lors de l'expérience."
+    },
+    {
+      "id": "svt-tss-010",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle étape s'écrit avec « Je vois que… Or je sais que… J'en déduis que… » ?",
+      "choices": [
+        "La description des résultats",
+        "L'interprétation des résultats",
+        "L'hypothèse",
+        "La conclusion"
+      ],
+      "answer": "L'interprétation des résultats",
+      "explain": "L'interprétation explique les résultats à l'aide de ses connaissances."
+    },
+    {
+      "id": "svt-tss-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle étape commence par « J'en conclus que… » ?",
+      "choices": [
+        "L'interprétation des résultats",
+        "L'hypothèse",
+        "La conclusion",
+        "L'observation"
+      ],
+      "answer": "La conclusion",
+      "explain": "« J'en conclus que… » donne la réponse claire au problème."
+    },
+    {
+      "id": "svt-tss-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans la démarche d'investigation scientifique, qu'est-ce qu'une hypothèse ?",
+      "choices": [
+        "Une question que l'on se pose",
+        "Un résultat d'expérience",
+        "Une réponse définitive",
+        "Une réponse provisoire à vérifier"
+      ],
+      "answer": "Une réponse provisoire à vérifier",
+      "explain": "Une hypothèse est une réponse provisoire à vérifier."
+    },
+    {
+      "id": "svt-tss-013",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète : une hypothèse est une réponse ... à vérifier.",
+      "answer": [
+        "provisoire",
+        "une réponse provisoire",
+        "possible",
+        "une réponse possible"
+      ],
+      "explain": "Une hypothèse est une réponse provisoire à vérifier."
+    },
+    {
+      "id": "svt-tss-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Par quel signe se termine la phrase du problème ?",
+      "choices": [
+        "Un point",
+        "Un point d'interrogation",
+        "Des points de suspension",
+        "Un point d'exclamation"
+      ],
+      "answer": "Un point d'interrogation",
+      "explain": "Le problème est une question : il se termine par un point d'interrogation."
+    },
+    {
+      "id": "svt-tss-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À quoi sert l'expérience témoin ?",
+      "choices": [
+        "À remplacer la conclusion",
+        "À poser le problème",
+        "À comparer avec l'expérience test",
+        "À écrire l'hypothèse"
+      ],
+      "answer": "À comparer avec l'expérience test",
+      "explain": "Pour décrire les résultats, on compare le test au témoin."
+    },
+    {
+      "id": "svt-tss-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que compare-t-on dans la description des résultats ?",
+      "choices": [
+        "L'hypothèse et le problème",
+        "L'observation et la conclusion",
+        "Deux hypothèses",
+        "Le test et le témoin"
+      ],
+      "answer": "Le test et le témoin",
+      "explain": "La description des résultats compare le test au témoin."
+    },
+    {
+      "id": "svt-tss-017",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle étape permet de tester l'hypothèse avec des expériences ? (observation / problème / protocole / conclusion)",
+      "answer": [
+        "protocole"
+      ],
+      "explain": "Le protocole regroupe les expériences ou recherches qui testent l'hypothèse."
+    },
+    {
+      "id": "svt-tss-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que doit contenir la conclusion ?",
+      "choices": [
+        "Une nouvelle observation sans lien avec le problème",
+        "Une réponse claire au problème, qui valide ou non l'hypothèse",
+        "Une liste du matériel utilisé",
+        "Une deuxième question à résoudre"
+      ],
+      "answer": "Une réponse claire au problème, qui valide ou non l'hypothèse",
+      "explain": "La conclusion répond au problème et valide ou non l'hypothèse."
+    },
+    {
+      "id": "svt-tss-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un élève écrit : « Je constate que les feuilles mortes tombées au sol disparaissent peu à peu. » Quelle étape est-ce ?",
+      "choices": [
+        "Le problème",
+        "L'hypothèse",
+        "L'observation",
+        "La conclusion"
+      ],
+      "answer": "L'observation",
+      "explain": "« Je constate que… » décrit un phénomène observé."
+    },
+    {
+      "id": "svt-tss-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un élève écrit : « Je me demande pourquoi les feuilles mortes sont dégradées au sol ? » Quelle étape est-ce ?",
+      "choices": [
+        "L'observation",
+        "L'hypothèse",
+        "L'interprétation",
+        "Le problème"
+      ],
+      "answer": "Le problème",
+      "explain": "C'est une question qui commence par « Je me demande » : c'est le problème."
+    },
+    {
+      "id": "svt-tss-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un élève écrit : « Je suppose que des êtres vivants du sol dégradent les feuilles. » Quelle étape est-ce ?",
+      "choices": [
+        "L'hypothèse",
+        "Le problème",
+        "La conclusion",
+        "La description des résultats"
+      ],
+      "answer": "L'hypothèse",
+      "explain": "« Je suppose que… » introduit une réponse possible : l'hypothèse."
+    },
+    {
+      "id": "svt-tss-022",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève écrit : « Je vois que les feuilles du bocal sans terre sont intactes. Or je sais que la terre contient des êtres vivants. J'en déduis que… » Quelle étape est-ce ?",
+      "choices": [
+        "La description des résultats",
+        "L'interprétation des résultats",
+        "L'hypothèse",
+        "La conclusion"
+      ],
+      "answer": "L'interprétation des résultats",
+      "explain": "La suite « Or je sais que… J'en déduis que… » signale l'interprétation."
+    },
+    {
+      "id": "svt-tss-023",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève écrit : « Je vois que les feuilles du bocal A sont dégradées et que celles du bocal B ne le sont pas. » Quelle étape est-ce ?",
+      "choices": [
+        "L'interprétation des résultats",
+        "L'observation",
+        "La description des résultats",
+        "La conclusion"
+      ],
+      "answer": "La description des résultats",
+      "explain": "Il décrit seulement ce qu'il voit, sans l'expliquer : ce sont les résultats."
+    },
+    {
+      "id": "svt-tss-024",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un élève écrit : « J'en conclus que mon hypothèse est validée. » Quelle étape est-ce ? (observation / hypothèse / interprétation / conclusion)",
+      "answer": [
+        "conclusion"
+      ],
+      "explain": "« J'en conclus que… » est la formule de la conclusion."
+    },
+    {
+      "id": "svt-tss-025",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle étape vient juste avant l'interprétation des résultats ?",
+      "choices": [
+        "La description des résultats",
+        "Le protocole",
+        "L'hypothèse",
+        "La conclusion"
+      ],
+      "answer": "La description des résultats",
+      "explain": "On décrit d'abord les résultats, puis on les interprète."
+    },
+    {
+      "id": "svt-tss-026",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est l'ordre correct des étapes ?",
+      "choices": [
+        "Observation, hypothèse, problème, protocole, résultats, interprétation, conclusion",
+        "Observation, problème, hypothèse, protocole, résultats, interprétation, conclusion",
+        "Problème, observation, hypothèse, protocole, résultats, interprétation, conclusion",
+        "Observation, problème, hypothèse, protocole, interprétation, résultats, conclusion"
+      ],
+      "answer": "Observation, problème, hypothèse, protocole, résultats, interprétation, conclusion",
+      "explain": "Le problème précède l'hypothèse, et les résultats précèdent leur interprétation."
+    },
+    {
+      "id": "svt-tss-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle formule peut aussi introduire une hypothèse, comme « Je suppose que… » ?",
+      "choices": [
+        "« Je constate que… »",
+        "« Je me demande… ? »",
+        "« Je pense que… »",
+        "« J'en conclus que… »"
+      ],
+      "answer": "« Je pense que… »",
+      "explain": "Pour formuler une hypothèse : « Je suppose que… » ou « Je pense que… »."
+    },
+    {
+      "id": "svt-tss-028",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de planètes tournent autour du Soleil dans le système solaire ?",
+      "answer": [
+        "8",
+        "huit"
+      ],
+      "explain": "Le système solaire compte huit planètes autour du Soleil."
+    },
+    {
+      "id": "svt-tss-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le Soleil ?",
+      "choices": [
+        "Une étoile",
+        "Une planète rocheuse",
+        "Une planète gazeuse",
+        "Un satellite"
+      ],
+      "answer": "Une étoile",
+      "explain": "Le système solaire est constitué d'une étoile, le Soleil, autour de laquelle tournent huit planètes."
+    },
+    {
+      "id": "svt-tss-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "En partant du Soleil, quelle place occupe la Terre parmi les planètes ? (deuxième / troisième / quatrième / cinquième)",
+      "answer": [
+        "troisième"
+      ],
+      "explain": "La Terre est la troisième planète du système solaire."
+    },
+    {
+      "id": "svt-tss-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel lien existe entre la distance au Soleil et l'énergie reçue par une planète ?",
+      "choices": [
+        "Plus une planète est proche du Soleil, moins elle reçoit d'énergie",
+        "La distance n'a aucun effet sur l'énergie reçue",
+        "Plus une planète est proche du Soleil, plus elle reçoit d'énergie",
+        "Toutes les planètes reçoivent la même énergie"
+      ],
+      "answer": "Plus une planète est proche du Soleil, plus elle reçoit d'énergie",
+      "explain": "Plus une planète est proche du Soleil, plus elle reçoit d'énergie solaire."
+    },
+    {
+      "id": "svt-tss-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sous quelles formes la Terre reçoit-elle l'énergie du Soleil ?",
+      "choices": [
+        "Vent et pluie",
+        "Son et vibrations",
+        "Gaz et poussières",
+        "Lumière et chaleur"
+      ],
+      "answer": "Lumière et chaleur",
+      "explain": "L'énergie solaire arrive sous forme de lumière et de chaleur."
+    },
+    {
+      "id": "svt-tss-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que signifie « planète tellurique » ?",
+      "choices": [
+        "Une planète rocheuse",
+        "Une planète gazeuse",
+        "Une planète sans étoile",
+        "Une planète très froide"
+      ],
+      "answer": "Une planète rocheuse",
+      "explain": "Les planètes telluriques sont les planètes rocheuses."
+    },
+    {
+      "id": "svt-tss-034",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelles planètes sont plus proches du Soleil et reçoivent plus d'énergie ? (telluriques / gazeuses)",
+      "answer": [
+        "telluriques"
+      ],
+      "explain": "Les planètes telluriques sont proches du Soleil, les gazeuses en sont éloignées."
+    },
+    {
+      "id": "svt-tss-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Comment sont les planètes très éloignées du Soleil ?",
+      "choices": [
+        "Principalement rocheuses et plus chaudes",
+        "Rocheuses et plus chaudes que la Terre",
+        "Principalement gazeuses et plus froides",
+        "Gazeuses et plus chaudes"
+      ],
+      "answer": "Principalement gazeuses et plus froides",
+      "explain": "Les planètes éloignées du Soleil sont principalement gazeuses et plus froides."
+    },
+    {
+      "id": "svt-tss-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Comment sont généralement les planètes proches du Soleil ?",
+      "choices": [
+        "Gazeuses",
+        "Toutes couvertes d'eau",
+        "Toutes dépourvues de sol",
+        "Rocheuses"
+      ],
+      "answer": "Rocheuses",
+      "explain": "Les planètes proches du Soleil sont généralement rocheuses."
+    },
+    {
+      "id": "svt-tss-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi Vénus est-elle beaucoup plus chaude que la Terre ?",
+      "choices": [
+        "Elle est plus proche du Soleil",
+        "Elle est plus éloignée du Soleil",
+        "Elle est plus petite que la Terre",
+        "Elle n'a pas d'atmosphère"
+      ],
+      "answer": "Elle est plus proche du Soleil",
+      "explain": "Vénus est plus proche du Soleil, donc elle reçoit plus d'énergie."
+    },
+    {
+      "id": "svt-tss-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi Jupiter est-elle beaucoup plus froide que la Terre ?",
+      "choices": [
+        "Elle est plus proche du Soleil",
+        "Elle est beaucoup plus éloignée du Soleil",
+        "Elle est rocheuse",
+        "Elle reçoit plus d'énergie que la Terre"
+      ],
+      "answer": "Elle est beaucoup plus éloignée du Soleil",
+      "explain": "Jupiter est très éloignée du Soleil : elle reçoit peu d'énergie."
+    },
+    {
+      "id": "svt-tss-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "De quoi le système solaire est-il constitué ?",
+      "choices": [
+        "Huit étoiles et une planète",
+        "Une étoile et trois planètes",
+        "Une étoile et huit planètes qui tournent autour",
+        "Deux étoiles et huit planètes"
+      ],
+      "answer": "Une étoile et huit planètes qui tournent autour",
+      "explain": "Une étoile (le Soleil) et huit planètes qui tournent autour d'elle."
+    },
+    {
+      "id": "svt-tss-040",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une planète A est très proche du Soleil et une planète B en est très éloignée. Laquelle est probablement rocheuse et chaude ?",
+      "choices": [
+        "La planète B",
+        "Les deux",
+        "Aucune des deux",
+        "La planète A"
+      ],
+      "answer": "La planète A",
+      "explain": "Les planètes proches du Soleil sont généralement rocheuses et plus chaudes."
+    },
+    {
+      "id": "svt-tss-041",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une planète reçoit très peu d'énergie du Soleil. Que peut-on en déduire sur sa position ?",
+      "choices": [
+        "Elle est très éloignée du Soleil",
+        "Elle est très proche du Soleil",
+        "Elle est à la même distance que la Terre",
+        "On ne peut rien en déduire"
+      ],
+      "answer": "Elle est très éloignée du Soleil",
+      "explain": "Moins une planète reçoit d'énergie, plus elle est éloignée du Soleil."
+    },
+    {
+      "id": "svt-tss-042",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel pourcentage de l'atmosphère terrestre est du dioxygène ? (nombre en %)",
+      "answer": [
+        "21",
+        "21%",
+        "21 %"
+      ],
+      "explain": "L'atmosphère contient 21 % de dioxygène."
+    },
+    {
+      "id": "svt-tss-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel pourcentage de l'atmosphère terrestre est du dioxyde de carbone ? (nombre en %)",
+      "answer": [
+        "0,05",
+        "0.05",
+        "0,05%",
+        "0,05 %",
+        "0.05%",
+        "0.05 %"
+      ],
+      "explain": "L'atmosphère contient 0,05 % de dioxyde de carbone."
+    },
+    {
+      "id": "svt-tss-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel gaz de l'atmosphère terrestre représente 21 % ?",
+      "choices": [
+        "Le dioxyde de carbone",
+        "L'ozone",
+        "L'hélium",
+        "Le dioxygène"
+      ],
+      "answer": "Le dioxygène",
+      "explain": "L'atmosphère contient du dioxygène (21 %)."
+    },
+    {
+      "id": "svt-tss-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel gaz de l'atmosphère terrestre représente 0,05 % ?",
+      "choices": [
+        "Le dioxyde de carbone",
+        "Le dioxygène",
+        "L'ozone",
+        "L'azote"
+      ],
+      "answer": "Le dioxyde de carbone",
+      "explain": "L'atmosphère contient du dioxyde de carbone (0,05 %)."
+    },
+    {
+      "id": "svt-tss-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sous quels états l'eau est-elle présente sur Terre ?",
+      "choices": [
+        "Liquide seulement",
+        "Liquide, solide et gazeux",
+        "Liquide et solide seulement",
+        "Solide et gazeux seulement"
+      ],
+      "answer": "Liquide, solide et gazeux",
+      "explain": "Sur Terre, l'eau existe sous ses trois états : liquide, solide, gazeux."
+    },
+    {
+      "id": "svt-tss-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'effet de serre ?",
+      "choices": [
+        "Un refroidissement dû aux nuages",
+        "La fabrication de dioxygène par les plantes",
+        "Un réchauffement naturel dû à l'atmosphère gazeuse",
+        "Un rayonnement dangereux du Soleil"
+      ],
+      "answer": "Un réchauffement naturel dû à l'atmosphère gazeuse",
+      "explain": "La présence d'une atmosphère gazeuse provoque un réchauffement appelé effet de serre, phénomène naturel."
+    },
+    {
+      "id": "svt-tss-048",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la température moyenne de la Terre grâce à l'effet de serre, en °C ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "Grâce à l'effet de serre, la température moyenne est de 15 °C."
+    },
+    {
+      "id": "svt-tss-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle serait la température moyenne de la Terre sans effet de serre, en °C ?",
+      "answer": [
+        "-18",
+        "−18"
+      ],
+      "explain": "Sans effet de serre, la température moyenne serait de -18 °C au lieu de 15 °C."
+    },
+    {
+      "id": "svt-tss-050",
+      "level": 3,
+      "type": "input",
+      "prompt": "De combien de degrés l'effet de serre réchauffe-t-il la Terre, entre -18 °C et 15 °C ?",
+      "answer": [
+        "33"
+      ],
+      "explain": "15 - (-18) = 33 degrés."
+    },
+    {
+      "id": "svt-tss-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que se passerait-il sans l'effet de serre naturel ?",
+      "choices": [
+        "La Terre serait plus chaude",
+        "L'eau serait uniquement gazeuse",
+        "Pas d'eau sous trois états, donc pas de vie sur Terre",
+        "La vie serait plus facile"
+      ],
+      "answer": "Pas d'eau sous trois états, donc pas de vie sur Terre",
+      "explain": "Sans effet de serre, pas d'eau sous trois états, donc pas de vie sur Terre."
+    },
+    {
+      "id": "svt-tss-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la couche d'ozone ?",
+      "choices": [
+        "Produire du dioxygène",
+        "Réchauffer la Terre",
+        "Fabriquer l'eau liquide",
+        "Protéger les êtres vivants de certains UV nocifs"
+      ],
+      "answer": "Protéger les êtres vivants de certains UV nocifs",
+      "explain": "La couche d'ozone protège les êtres vivants de certains rayons ultraviolets nocifs."
+    },
+    {
+      "id": "svt-tss-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "D'où proviennent les rayons ultraviolets (UV) nocifs dont la couche d'ozone nous protège ?",
+      "choices": [
+        "Du Soleil",
+        "Du sol",
+        "Des océans",
+        "De la Lune"
+      ],
+      "answer": "Du Soleil",
+      "explain": "Les UV nocifs proviennent du Soleil."
+    },
+    {
+      "id": "svt-tss-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Où se trouve la couche d'ozone ?",
+      "choices": [
+        "Dans l'océan",
+        "Dans l'atmosphère",
+        "Dans le sol",
+        "Sur la Lune"
+      ],
+      "answer": "Dans l'atmosphère",
+      "explain": "La couche d'ozone est un gaz situé dans l'atmosphère."
+    },
+    {
+      "id": "svt-tss-055",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la température à la surface de la Lune, en °C ?",
+      "answer": [
+        "-20",
+        "−20"
+      ],
+      "explain": "La température de la Lune est de -20 °C."
+    },
+    {
+      "id": "svt-tss-056",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la température à la surface de Vénus, en °C ?",
+      "answer": [
+        "461",
+        "+461",
+        "461°C",
+        "461 °C"
+      ],
+      "explain": "La température à la surface de Vénus est de +461 °C."
+    },
+    {
+      "id": "svt-tss-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la température à la surface de Mars, en °C ?",
+      "answer": [
+        "-63",
+        "−63"
+      ],
+      "explain": "La température à la surface de Mars est de -63 °C."
+    },
+    {
+      "id": "svt-tss-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi la Terre (15 °C) est-elle plus chaude que la Lune (-20 °C) ?",
+      "choices": [
+        "Elle est beaucoup plus proche du Soleil que la Lune",
+        "Elle a une atmosphère à gaz à effet de serre qui garde la chaleur",
+        "Elle n'a pas d'atmosphère",
+        "Elle a plus de glace que la Lune"
+      ],
+      "answer": "Elle a une atmosphère à gaz à effet de serre qui garde la chaleur",
+      "explain": "Sur la Lune, la chaleur est renvoyée directement vers l'espace, faute d'atmosphère."
+    },
+    {
+      "id": "svt-tss-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que devient la chaleur à la surface de la Lune ?",
+      "choices": [
+        "Elle est gardée par les gaz à effet de serre",
+        "Elle est absorbée par la couche d'ozone",
+        "Elle est directement renvoyée vers l'espace",
+        "Elle est transformée en eau"
+      ],
+      "answer": "Elle est directement renvoyée vers l'espace",
+      "explain": "La Lune n'a pas d'atmosphère à gaz à effet de serre : la chaleur repart dans l'espace."
+    },
+    {
+      "id": "svt-tss-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quels sont les deux facteurs qui contrôlent la température d'une planète ?",
+      "choices": [
+        "La taille de la planète et sa couleur",
+        "Le nombre de planètes voisines et la gravité",
+        "La vitesse de rotation et le volume d'eau",
+        "La distance au Soleil et l'atmosphère avec ses gaz à effet de serre"
+      ],
+      "answer": "La distance au Soleil et l'atmosphère avec ses gaz à effet de serre",
+      "explain": "La température dépend de la distance au Soleil et de la présence d'une atmosphère à gaz à effet de serre."
+    },
+    {
+      "id": "svt-tss-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pourquoi l'eau liquide est-elle indispensable aux êtres vivants ?",
+      "choices": [
+        "Elle permet aux constituants carbonés de se rassembler et de réagir entre eux",
+        "Elle les protège des rayons UV",
+        "Elle fabrique le dioxygène de l'atmosphère",
+        "Elle les garde à 15 °C"
+      ],
+      "answer": "Elle permet aux constituants carbonés de se rassembler et de réagir entre eux",
+      "explain": "L'eau permet aux constituants carbonés de réagir entre eux, ce qui a permis de constituer les êtres vivants."
+    },
+    {
+      "id": "svt-tss-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi n'y a-t-il pas d'eau liquide sur Vénus ?",
+      "choices": [
+        "Elle est trop éloignée du Soleil",
+        "Elle est trop proche du Soleil : la température est trop élevée",
+        "Elle n'a pas de sol",
+        "Sa température est trop basse"
+      ],
+      "answer": "Elle est trop proche du Soleil : la température est trop élevée",
+      "explain": "Sur Vénus, la température de +461 °C est trop élevée pour l'eau liquide."
+    },
+    {
+      "id": "svt-tss-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi n'y a-t-il pas d'eau liquide sur Mars ?",
+      "choices": [
+        "Elle est trop proche du Soleil",
+        "Sa température de surface est de +461 °C",
+        "Elle est trop éloignée du Soleil : l'eau n'est présente que sous forme de glace",
+        "Elle possède une couche d'ozone épaisse"
+      ],
+      "answer": "Elle est trop éloignée du Soleil : l'eau n'est présente que sous forme de glace",
+      "explain": "Mars est trop éloignée : sa température de surface est faible (-63 °C) et l'eau y est en glace."
+    },
+    {
+      "id": "svt-tss-064",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pourquoi la Terre peut-elle abriter la vie ?",
+      "choices": [
+        "Elle est la planète la plus proche du Soleil",
+        "Elle n'a pas d'atmosphère",
+        "Elle est la plus froide du système solaire",
+        "Elle est à bonne distance du Soleil, avec une atmosphère et de l'eau liquide"
+      ],
+      "answer": "Elle est à bonne distance du Soleil, avec une atmosphère et de l'eau liquide",
+      "explain": "Bonne distance du Soleil, atmosphère et eau liquide rendent la vie possible."
+    },
+    {
+      "id": "svt-tss-065",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur Vénus (+461 °C) et sur Mars (-63 °C), laquelle est trop chaude pour l'eau liquide ? (Vénus / Mars)",
+      "answer": [
+        "Vénus"
+      ],
+      "explain": "Vénus est trop proche du Soleil : +461 °C."
+    },
+    {
+      "id": "svt-tss-066",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la différence de température entre la Terre (15 °C) et la Lune (-20 °C), en degrés ?",
+      "answer": [
+        "35"
+      ],
+      "explain": "15 - (-20) = 35 degrés."
+    },
+    {
+      "id": "svt-tss-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève affirme : « La Terre est favorable à la vie parce que c'est la planète la plus chaude. » Que lui répondre ?",
+      "choices": [
+        "Exact : la vie a besoin du maximum de chaleur",
+        "Faux : la Terre est la planète la plus froide",
+        "Faux : Vénus est plus chaude, et la Terre a une température favorable grâce à sa distance et à son atmosphère",
+        "Exact : la Terre est la plus proche du Soleil"
+      ],
+      "answer": "Faux : Vénus est plus chaude, et la Terre a une température favorable grâce à sa distance et à son atmosphère",
+      "explain": "La Terre est à bonne distance du Soleil et son atmosphère garde la chaleur ; Vénus, à +461 °C, est bien plus chaude."
+    },
+    {
+      "id": "svt-tss-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que contient l'atmosphère terrestre ?",
+      "choices": [
+        "Uniquement du dioxygène",
+        "Uniquement du dioxyde de carbone",
+        "Uniquement de l'eau liquide",
+        "Du dioxygène, du dioxyde de carbone et d'autres gaz"
+      ],
+      "answer": "Du dioxygène, du dioxyde de carbone et d'autres gaz",
+      "explain": "L'atmosphère contient du dioxygène (21 %), du dioxyde de carbone (0,05 %) et d'autres gaz."
+    },
+    {
+      "id": "svt-tss-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'effet de serre est-il un phénomène naturel ou fabriqué par l'être humain ? (naturel / fabriqué)",
+      "answer": [
+        "naturel"
+      ],
+      "explain": "L'effet de serre est un phénomène naturel."
+    },
+    {
+      "id": "svt-tss-070",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Mars a une température de -63 °C. Quel est l'état de l'eau à sa surface ?",
+      "choices": [
+        "Liquide",
+        "Solide, sous forme de glace",
+        "Gazeux",
+        "Aucun état : il n'y a jamais eu d'eau"
+      ],
+      "answer": "Solide, sous forme de glace",
+      "explain": "Mars contient de l'eau uniquement sous forme de glace."
+    },
+    {
+      "id": "svt-tss-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève affirme : « Plus on est proche du Soleil, plus il y a de vie. » Pourquoi est-ce faux ?",
+      "choices": [
+        "Les planètes proches n'ont jamais reçu de lumière",
+        "Les planètes proches sont toutes gazeuses",
+        "Trop proche, la température est trop élevée pour l'eau liquide, comme sur Vénus",
+        "La couche d'ozone n'existe qu'au loin"
+      ],
+      "answer": "Trop proche, la température est trop élevée pour l'eau liquide, comme sur Vénus",
+      "explain": "À +461 °C, Vénus est trop chaude pour l'eau liquide."
+    },
+    {
+      "id": "svt-tss-072",
+      "level": 1,
+      "type": "input",
+      "prompt": "Il y a combien de milliards d'années la Terre s'est-elle formée ?",
+      "answer": [
+        "4,6",
+        "4.6"
+      ],
+      "explain": "La Terre s'est formée il y a 4,6 milliards d'années."
+    },
+    {
+      "id": "svt-tss-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "Il y a combien de milliards d'années la vie est-elle apparue ?",
+      "answer": [
+        "3,7",
+        "3.7"
+      ],
+      "explain": "La vie est apparue il y a 3,7 milliards d'années."
+    },
+    {
+      "id": "svt-tss-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Il y a combien de milliards d'années le dioxygène est-il apparu dans l'atmosphère ?",
+      "answer": [
+        "2",
+        "deux"
+      ],
+      "explain": "Le dioxygène est apparu dans l'atmosphère il y a 2 milliards d'années."
+    },
+    {
+      "id": "svt-tss-075",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Où la vie est-elle apparue ?",
+      "choices": [
+        "Sur les continents",
+        "Dans l'atmosphère",
+        "Dans l'océan",
+        "Dans les volcans"
+      ],
+      "answer": "Dans l'océan",
+      "explain": "La vie est apparue dans l'océan."
+    },
+    {
+      "id": "svt-tss-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sous quelle forme la vie est-elle apparue ?",
+      "choices": [
+        "Des poissons",
+        "Des plantes à fleurs",
+        "Des dinosaures",
+        "Des bactéries"
+      ],
+      "answer": "Des bactéries",
+      "explain": "La vie est apparue sous forme de bactéries."
+    },
+    {
+      "id": "svt-tss-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "À sa formation, l'atmosphère de la Terre contenait-elle du dioxygène ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "À l'origine, l'atmosphère ne comportait pas de dioxygène."
+    },
+    {
+      "id": "svt-tss-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Qu'a permis l'apparition du dioxygène dans l'atmosphère ?",
+      "choices": [
+        "L'apparition de l'océan",
+        "Le développement de la vie sur le continent",
+        "La formation de la Terre",
+        "L'apparition de la Lune"
+      ],
+      "answer": "Le développement de la vie sur le continent",
+      "explain": "Le dioxygène a permis le développement de la vie sur le continent."
+    },
+    {
+      "id": "svt-tss-079",
+      "level": 1,
+      "type": "input",
+      "prompt": "En combien d'ères géologiques l'histoire de la Terre est-elle découpée ?",
+      "answer": [
+        "4",
+        "quatre"
+      ],
+      "explain": "L'histoire de la Terre est découpée en 4 ères géologiques."
+    },
+    {
+      "id": "svt-tss-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Par quoi les ères géologiques sont-elles délimitées ?",
+      "choices": [
+        "Par des séismes",
+        "Par des changements de saisons",
+        "Par des éclipses",
+        "Par des événements biologiques majeurs"
+      ],
+      "answer": "Par des événements biologiques majeurs",
+      "explain": "Les ères sont délimitées par des événements biologiques majeurs."
+    },
+    {
+      "id": "svt-tss-081",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Qu'appelle-t-on « événement biologique majeur » ?",
+      "choices": [
+        "Une apparition ou une disparition importante de groupes d'êtres vivants",
+        "Un tremblement du sol",
+        "Une éclipse du Soleil",
+        "L'arrivée d'une nouvelle planète"
+      ],
+      "answer": "Une apparition ou une disparition importante de groupes d'êtres vivants",
+      "explain": "Ce sont des apparitions ou disparitions importantes de nouveaux groupes d'êtres vivants."
+    },
+    {
+      "id": "svt-tss-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est l'ordre chronologique correct ?",
+      "choices": [
+        "Dioxygène dans l'atmosphère, formation de la Terre, vie dans l'océan",
+        "Formation de la Terre, vie dans l'océan, dioxygène dans l'atmosphère",
+        "Vie dans l'océan, dioxygène dans l'atmosphère, formation de la Terre",
+        "Formation de la Terre, dioxygène dans l'atmosphère, vie dans l'océan"
+      ],
+      "answer": "Formation de la Terre, vie dans l'océan, dioxygène dans l'atmosphère",
+      "explain": "Terre : 4,6 ; vie : 3,7 ; dioxygène : 2 milliards d'années."
+    },
+    {
+      "id": "svt-tss-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel événement est le plus ancien ? (formation de la Terre / apparition de la vie / apparition du dioxygène)",
+      "answer": [
+        "formation de la Terre"
+      ],
+      "explain": "4,6 milliards d'années pour la Terre, contre 3,7 pour la vie."
+    },
+    {
+      "id": "svt-tss-084",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien de milliards d'années séparent la formation de la Terre (4,6) de l'apparition de la vie (3,7) ?",
+      "answer": [
+        "0,9",
+        "0.9"
+      ],
+      "explain": "4,6 - 3,7 = 0,9 milliard d'années."
+    },
+    {
+      "id": "svt-tss-085",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien de milliards d'années séparent l'apparition de la vie (3,7) de celle du dioxygène (2) ?",
+      "answer": [
+        "1,7",
+        "1.7"
+      ],
+      "explain": "3,7 - 2 = 1,7 milliard d'années."
+    },
+    {
+      "id": "svt-tss-086",
+      "level": 2,
+      "type": "input",
+      "prompt": "La vie est-elle apparue avant ou après le dioxygène dans l'atmosphère ? (avant / après)",
+      "answer": [
+        "avant"
+      ],
+      "explain": "La vie (3,7) est apparue avant le dioxygène (2 milliards d'années)."
+    },
+    {
+      "id": "svt-tss-087",
+      "level": 2,
+      "type": "input",
+      "prompt": "Vrai ou faux : la vie est d'abord apparue sur les continents. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "La vie est d'abord apparue dans l'océan."
+    },
+    {
+      "id": "svt-tss-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève dit : « Il y a toujours eu du dioxygène dans l'atmosphère. » Que lui répondre ?",
+      "choices": [
+        "Exact : il date de la formation de la Terre",
+        "Faux : il est apparu il y a 4,6 milliards d'années",
+        "Exact : il est apparu avec les bactéries",
+        "Faux : l'atmosphère n'en comportait pas à l'origine, il est apparu il y a 2 milliards d'années"
+      ],
+      "answer": "Faux : l'atmosphère n'en comportait pas à l'origine, il est apparu il y a 2 milliards d'années",
+      "explain": "Le dioxygène est apparu il y a 2 milliards d'années seulement."
+    },
+    {
+      "id": "svt-tss-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "La vie est apparue sous forme de bactéries il y a 3,7 milliards d'années. Quel âge avait la Terre à ce moment-là ?",
+      "choices": [
+        "Environ 0,9 milliard d'années",
+        "Environ 3,7 milliards d'années",
+        "Environ 4,6 milliards d'années",
+        "Environ 2 milliards d'années"
+      ],
+      "answer": "Environ 0,9 milliard d'années",
+      "explain": "4,6 - 3,7 = 0,9 milliard d'années après sa formation."
+    },
+    {
+      "id": "svt-tss-090",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle affirmation est vraie ?",
+      "choices": [
+        "La vie est apparue sur les continents il y a 3,7 milliards d'années",
+        "La vie est apparue dans l'océan il y a 3,7 milliards d'années",
+        "La vie est apparue il y a 2 milliards d'années",
+        "La vie est apparue en même temps que la Terre"
+      ],
+      "answer": "La vie est apparue dans l'océan il y a 3,7 milliards d'années",
+      "explain": "La vie est apparue dans l'océan il y a 3,7 milliards d'années."
+    },
+    {
+      "id": "svt-tss-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel âge a la Terre ?",
+      "choices": [
+        "3,7 milliards d'années",
+        "2 milliards d'années",
+        "4,6 milliards d'années",
+        "46 millions d'années"
+      ],
+      "answer": "4,6 milliards d'années",
+      "explain": "La Terre s'est formée il y a 4,6 milliards d'années."
+    },
+    {
+      "id": "svt-tss-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est un problème bien formulé ?",
+      "choices": [
+        "Je constate que Vénus est plus chaude que la Terre.",
+        "Je suppose que Vénus est plus chaude car elle est plus proche du Soleil.",
+        "J'en conclus que Vénus est plus chaude que la Terre.",
+        "Je me demande pourquoi Vénus est plus chaude que la Terre ?"
+      ],
+      "answer": "Je me demande pourquoi Vénus est plus chaude que la Terre ?",
+      "explain": "Le problème est une question qui commence par « Je me demande » et se termine par un point d'interrogation."
+    },
+    {
+      "id": "svt-tss-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est une hypothèse ?",
+      "choices": [
+        "Je suppose que Mars est froide car elle est très éloignée du Soleil.",
+        "Je constate que Mars est froide.",
+        "Je me demande pourquoi Mars est froide ?",
+        "Je vois que la température de Mars est de -63 °C."
+      ],
+      "answer": "Je suppose que Mars est froide car elle est très éloignée du Soleil.",
+      "explain": "Une hypothèse est une réponse possible, introduite par « Je suppose que… »."
+    },
+    {
+      "id": "svt-tss-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève écrit : « Je vois que la température de Mars est de -63 °C. Or je sais que Mars est très éloignée du Soleil. J'en déduis que… » Quelle étape est-ce ?",
+      "choices": [
+        "La description des résultats",
+        "L'interprétation des résultats",
+        "Le problème",
+        "L'observation"
+      ],
+      "answer": "L'interprétation des résultats",
+      "explain": "« Je vois que… Or je sais que… J'en déduis que… » est la formule de l'interprétation."
+    },
+    {
+      "id": "svt-tss-095",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un élève écrit : « Je réalise une expérience test et une expérience témoin. » Quelle étape est-ce ? (observation / hypothèse / protocole / conclusion)",
+      "answer": [
+        "protocole"
+      ],
+      "explain": "« Je réalise… » correspond au protocole, avec expérience test et expérience témoin."
+    },
+    {
+      "id": "svt-tss-096",
+      "level": 3,
+      "type": "input",
+      "prompt": "La Lune est à -20 °C et Mars à -63 °C. Laquelle est la plus froide ? (Lune / Mars)",
+      "answer": [
+        "Mars"
+      ],
+      "explain": "-63 est plus petit que -20 : Mars est plus froide."
+    },
+    {
+      "id": "svt-tss-097",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la différence de température entre Vénus (461 °C) et la Terre (15 °C), en degrés ?",
+      "answer": [
+        "446"
+      ],
+      "explain": "461 - 15 = 446 degrés."
+    },
+    {
+      "id": "svt-tss-098",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien de milliards d'années séparent la formation de la Terre (4,6) de l'apparition du dioxygène (2) ?",
+      "answer": [
+        "2,6",
+        "2.6"
+      ],
+      "explain": "4,6 - 2 = 2,6 milliards d'années."
+    },
+    {
+      "id": "svt-tss-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase distingue correctement l'effet de serre et la couche d'ozone ?",
+      "choices": [
+        "L'effet de serre arrête les UV ; la couche d'ozone réchauffe la Terre",
+        "L'effet de serre et la couche d'ozone arrêtent tous deux les UV",
+        "L'effet de serre réchauffe la Terre ; la couche d'ozone arrête certains UV nocifs",
+        "L'effet de serre fabrique le dioxygène ; la couche d'ozone fabrique l'eau"
+      ],
+      "answer": "L'effet de serre réchauffe la Terre ; la couche d'ozone arrête certains UV nocifs",
+      "explain": "L'effet de serre réchauffe l'atmosphère ; la couche d'ozone protège des UV nocifs."
+    },
+    {
+      "id": "svt-tss-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que peut-on dire de l'eau liquide sur Vénus et sur Mars ?",
+      "choices": [
+        "Elle est présente sur les deux",
+        "Elle est absente sur les deux, car les deux sont trop chaudes",
+        "Elle est présente sur Vénus seulement",
+        "Elle est absente sur les deux, mais Vénus est trop chaude et Mars trop froide"
+      ],
+      "answer": "Elle est absente sur les deux, mais Vénus est trop chaude et Mars trop froide",
+      "explain": "Vénus (+461 °C) est trop chaude et Mars (-63 °C) trop froide pour l'eau liquide."
+    }
+  ]
+}

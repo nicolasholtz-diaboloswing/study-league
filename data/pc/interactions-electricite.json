@@ -1,0 +1,599 @@
+{
+  "topic": "pc-interactions-electricite",
+  "questions": [
+    {
+      "id": "pc-ie-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que faut-il au minimum pour qu'il y ait une action mécanique ?",
+      "choices": [
+        "Un seul objet qui agit sur lui-même",
+        "Un objet qui exerce l'action et un autre qui la reçoit",
+        "Deux objets obligatoirement en contact",
+        "Un objet qui se déforme"
+      ],
+      "answer": "Un objet qui exerce l'action et un autre qui la reçoit",
+      "explain": "Une action mécanique est toujours exercée par un objet sur un autre."
+    },
+    {
+      "id": "pc-ie-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Parmi ces effets, lequel est celui d'une action mécanique ?",
+      "choices": [
+        "Changer la couleur d'un objet",
+        "Faire fondre un objet",
+        "Déformer un objet",
+        "Rendre un objet lumineux"
+      ],
+      "answer": "Déformer un objet",
+      "explain": "Une action mécanique peut déformer un objet, le mettre en mouvement ou modifier son mouvement."
+    },
+    {
+      "id": "pc-ie-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une action mécanique désigne toutes les causes susceptibles de déformer un objet, de mettre un objet en mouvement ou de quoi ?",
+      "choices": [
+        "Modifier le mouvement d'un objet",
+        "Changer la masse d'un objet",
+        "Changer la couleur d'un objet",
+        "Chauffer un objet"
+      ],
+      "answer": "Modifier le mouvement d'un objet",
+      "explain": "Les trois effets sont : déformer, mettre en mouvement, modifier le mouvement."
+    },
+    {
+      "id": "pc-ie-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans une action mécanique à distance, les deux objets :",
+      "choices": [
+        "sont en contact",
+        "ne sont pas en contact",
+        "sont tous les deux immobiles",
+        "ont la même masse"
+      ],
+      "answer": "ne sont pas en contact",
+      "explain": "Action de contact : objets en contact ; action à distance : objets pas en contact."
+    },
+    {
+      "id": "pc-ie-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une action mécanique localisée s'exerce :",
+      "choices": [
+        "sur une surface",
+        "entre deux objets en contact",
+        "en un point",
+        "sur un objet en mouvement"
+      ],
+      "answer": "en un point",
+      "explain": "Une action localisée s'exerce en un point."
+    },
+    {
+      "id": "pc-ie-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une action mécanique répartie s'exerce :",
+      "choices": [
+        "en un point",
+        "sur une surface",
+        "entre deux objets éloignés",
+        "sur un objet immobile"
+      ],
+      "answer": "sur une surface",
+      "explain": "Une action répartie s'exerce sur une surface."
+    },
+    {
+      "id": "pc-ie-007",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un aimant attire un clou sans le toucher. Cette action est-elle de contact ou à distance ? (contact / à distance)",
+      "answer": [
+        "à distance"
+      ],
+      "explain": "Les deux objets ne sont pas en contact : l'action est à distance."
+    },
+    {
+      "id": "pc-ie-008",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le vent pousse la voile d'un bateau. Cette action est-elle localisée ou répartie ? (localisée / répartie)",
+      "answer": [
+        "répartie"
+      ],
+      "explain": "Le vent agit sur toute la surface de la voile : l'action est répartie."
+    },
+    {
+      "id": "pc-ie-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un joueur de football shoote dans le ballon. Quelle action son pied exerce-t-il sur le ballon ?",
+      "choices": [
+        "Une action de contact répartie",
+        "Une action à distance répartie",
+        "Une action à distance localisée",
+        "Une action de contact localisée"
+      ],
+      "answer": "Une action de contact répartie",
+      "explain": "Le pied exerce sur le ballon une action de contact répartie."
+    },
+    {
+      "id": "pc-ie-010",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand un objet A agit sur un objet B et que B agit aussi sur A, on dit que A et B sont en :",
+      "choices": [
+        "contact",
+        "gravitation",
+        "interaction",
+        "mouvement"
+      ],
+      "answer": "interaction",
+      "explain": "Le pied et le ballon sont en interaction."
+    },
+    {
+      "id": "pc-ie-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Si un objet A exerce une action sur un objet B, alors B exerce sur A une action de même intensité mais de sens ... ?",
+      "answer": [
+        "opposé",
+        "opposés",
+        "le sens opposé",
+        "contraire"
+      ],
+      "explain": "Les deux actions ont la même intensité mais des sens opposés."
+    },
+    {
+      "id": "pc-ie-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Deux objets qui ont une masse s'attirent mutuellement. Comment s'appelle cette interaction ?",
+      "choices": [
+        "L'interaction de contact",
+        "L'interaction gravitationnelle",
+        "L'interaction localisée",
+        "L'interaction répartie"
+      ],
+      "answer": "L'interaction gravitationnelle",
+      "explain": "Deux objets qui ont une masse s'attirent : c'est l'interaction gravitationnelle."
+    },
+    {
+      "id": "pc-ie-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le poids d'un objet ?",
+      "choices": [
+        "La quantité de matière contenue dans l'objet",
+        "L'action exercée par un objet sur le sol",
+        "L'action exercée par la Lune sur l'objet",
+        "L'action exercée par la Terre sur l'objet, au voisinage de sa surface"
+      ],
+      "answer": "L'action exercée par la Terre sur l'objet, au voisinage de sa surface",
+      "explain": "Le poids est l'action exercée par la Terre sur un objet au voisinage de sa surface."
+    },
+    {
+      "id": "pc-ie-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le poids d'un objet est :",
+      "choices": [
+        "égal à sa masse",
+        "indépendant de sa masse",
+        "proportionnel à sa masse",
+        "proportionnel à son volume"
+      ],
+      "answer": "proportionnel à sa masse",
+      "explain": "Le poids est proportionnel à la masse de l'objet."
+    },
+    {
+      "id": "pc-ie-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un circuit, la pile convertit :",
+      "choices": [
+        "l'énergie électrique en énergie chimique",
+        "l'énergie chimique en énergie électrique",
+        "l'énergie lumineuse en énergie électrique",
+        "l'énergie électrique en énergie lumineuse"
+      ],
+      "answer": "l'énergie chimique en énergie électrique",
+      "explain": "La pile contient de l'énergie chimique qu'elle convertit en énergie électrique."
+    },
+    {
+      "id": "pc-ie-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un circuit avec une pile, la lampe convertit l'énergie électrique en énergie :",
+      "choices": [
+        "chimique",
+        "cinétique",
+        "lumineuse",
+        "de position"
+      ],
+      "answer": "lumineuse",
+      "explain": "La lampe convertit l'énergie électrique en énergie lumineuse."
+    },
+    {
+      "id": "pc-ie-017",
+      "level": 1,
+      "type": "input",
+      "prompt": "La pile est-elle un générateur ou un récepteur ? (générateur / récepteur)",
+      "answer": [
+        "générateur"
+      ],
+      "explain": "La pile fournit l'énergie électrique : c'est le générateur."
+    },
+    {
+      "id": "pc-ie-018",
+      "level": 2,
+      "type": "input",
+      "prompt": "La lampe est-elle un générateur ou un récepteur ? (générateur / récepteur)",
+      "answer": [
+        "récepteur"
+      ],
+      "explain": "La lampe reçoit et utilise l'énergie électrique : c'est un récepteur."
+    },
+    {
+      "id": "pc-ie-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de bornes possède un dipôle ?",
+      "answer": [
+        "2",
+        "deux"
+      ],
+      "explain": "Les éléments du circuit possèdent 2 bornes : ce sont des dipôles."
+    },
+    {
+      "id": "pc-ie-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Comment appelle-t-on un élément de circuit qui possède 2 bornes ? (un seul mot)",
+      "answer": [
+        "dipôle",
+        "un dipôle",
+        "le dipôle",
+        "dipole",
+        "un dipole",
+        "le dipole"
+      ],
+      "explain": "Un élément à 2 bornes est un dipôle."
+    },
+    {
+      "id": "pc-ie-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "On débranche un fil de connexion : la lampe s'éteint. Le circuit est alors (ouvert / fermé)",
+      "answer": [
+        "ouvert"
+      ],
+      "explain": "Si l'on débranche un fil, la lampe s'éteint et le circuit est ouvert."
+    },
+    {
+      "id": "pc-ie-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qui est responsable de la chute d'un objet sur Terre ?",
+      "choices": [
+        "Le frottement de l'air",
+        "Le contact avec le sol",
+        "L'action du vent",
+        "L'interaction gravitationnelle"
+      ],
+      "answer": "L'interaction gravitationnelle",
+      "explain": "La chute d'un objet sur Terre est due à l'interaction gravitationnelle."
+    },
+    {
+      "id": "pc-ie-023",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une lampe est allumée dans un circuit avec une pile. On débranche un fil de connexion. Que se passe-t-il ?",
+      "choices": [
+        "La lampe s'éteint",
+        "La lampe brille plus fort",
+        "La lampe reste allumée",
+        "La pile se recharge"
+      ],
+      "answer": "La lampe s'éteint",
+      "explain": "Le circuit devient ouvert : la lampe s'éteint."
+    },
+    {
+      "id": "pc-ie-024",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une lampe et des fils sont reliés en boucle fermée, mais le circuit ne comporte pas de pile. La lampe :",
+      "choices": [
+        "s'allume, car le circuit est fermé",
+        "s'allume faiblement",
+        "reste éteinte, car il n'y a pas de générateur",
+        "s'allume puis s'éteint"
+      ],
+      "answer": "reste éteinte, car il n'y a pas de générateur",
+      "explain": "Pour qu'un récepteur fonctionne, le circuit doit être fermé et comporter un générateur."
+    },
+    {
+      "id": "pc-ie-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour qu'un récepteur électrique fonctionne, le circuit doit être :",
+      "choices": [
+        "ouvert et comporter un générateur",
+        "fermé et ne comporter aucun générateur",
+        "ouvert et ne comporter aucun générateur",
+        "fermé et comporter un générateur"
+      ],
+      "answer": "fermé et comporter un générateur",
+      "explain": "Le circuit doit être fermé et comporter un générateur."
+    },
+    {
+      "id": "pc-ie-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un circuit électrique permet le transfert de l'énergie électrique :",
+      "choices": [
+        "d'un générateur vers un récepteur",
+        "d'un récepteur vers un générateur",
+        "d'un fil de connexion vers une pile",
+        "d'une lampe vers un fil de connexion"
+      ],
+      "answer": "d'un générateur vers un récepteur",
+      "explain": "L'énergie électrique est transférée d'un générateur vers un récepteur."
+    },
+    {
+      "id": "pc-ie-027",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un ventilateur est branché sur une pile et tourne. Le ventilateur est-il un générateur ou un récepteur ? (générateur / récepteur)",
+      "answer": [
+        "récepteur"
+      ],
+      "explain": "Le ventilateur reçoit et utilise l'énergie électrique : c'est un récepteur."
+    },
+    {
+      "id": "pc-ie-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On appuie sur une éponge : elle s'aplatit. Quel effet de l'action est décrit ?",
+      "choices": [
+        "Mettre un objet en mouvement",
+        "Modifier le mouvement d'un objet",
+        "Déformer un objet",
+        "Changer la masse d'un objet"
+      ],
+      "answer": "Déformer un objet",
+      "explain": "L'éponge change de forme : l'action la déforme."
+    },
+    {
+      "id": "pc-ie-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un ballon immobile est poussé : il se met à rouler. Quel effet de l'action est décrit ?",
+      "choices": [
+        "Déformer un objet",
+        "Changer la masse d'un objet",
+        "Modifier le mouvement d'un objet",
+        "Mettre un objet en mouvement"
+      ],
+      "answer": "Mettre un objet en mouvement",
+      "explain": "Le ballon passe de l'immobilité au mouvement."
+    },
+    {
+      "id": "pc-ie-030",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un ballon roule en ligne droite. Un joueur le touche et le ballon part dans une autre direction. Quel effet de l'action est décrit ?",
+      "choices": [
+        "Modifier le mouvement d'un objet",
+        "Mettre un objet en mouvement",
+        "Déformer un objet",
+        "Changer la masse d'un objet"
+      ],
+      "answer": "Modifier le mouvement d'un objet",
+      "explain": "Le ballon était déjà en mouvement : l'action modifie son mouvement."
+    },
+    {
+      "id": "pc-ie-031",
+      "level": 3,
+      "type": "input",
+      "prompt": "La Terre attire une pomme qui tombe d'un arbre. L'action de la Terre sur la pomme est-elle de contact ou à distance ? (contact / à distance)",
+      "answer": [
+        "à distance"
+      ],
+      "explain": "La pomme en train de tomber ne touche pas la Terre : l'action est à distance."
+    },
+    {
+      "id": "pc-ie-032",
+      "level": 3,
+      "type": "input",
+      "prompt": "On appuie sur une feuille avec la pointe d'une aiguille. Cette action est-elle localisée ou répartie ? (localisée / répartie)",
+      "answer": [
+        "localisée"
+      ],
+      "explain": "La pointe agit en un point : l'action est localisée."
+    },
+    {
+      "id": "pc-ie-033",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le pied d'un joueur exerce une action sur un ballon. Que dit le principe des interactions ?",
+      "choices": [
+        "Le ballon exerce sur le pied une action de même intensité et de même sens",
+        "Le ballon exerce sur le pied une action d'intensité plus faible et de sens opposé",
+        "Le ballon n'exerce aucune action sur le pied, car il est plus léger",
+        "Le ballon exerce sur le pied une action de même intensité et de sens opposé"
+      ],
+      "answer": "Le ballon exerce sur le pied une action de même intensité et de sens opposé",
+      "explain": "Si A agit sur B, alors B agit sur A avec la même intensité et un sens opposé."
+    },
+    {
+      "id": "pc-ie-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un objet A a une masse deux fois plus grande que celle d'un objet B. Le poids de A est :",
+      "choices": [
+        "deux fois plus petit que celui de B",
+        "identique à celui de B",
+        "quatre fois plus grand que celui de B",
+        "deux fois plus grand que celui de B"
+      ],
+      "answer": "deux fois plus grand que celui de B",
+      "explain": "Le poids est proportionnel à la masse."
+    },
+    {
+      "id": "pc-ie-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un objet A a une masse 3 fois plus grande que celle d'un objet B. Le poids de A est égal à combien de fois le poids de B ?",
+      "answer": [
+        "3",
+        "trois"
+      ],
+      "explain": "Le poids est proportionnel à la masse : masse 3 fois plus grande, poids 3 fois plus grand."
+    },
+    {
+      "id": "pc-ie-036",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "L'interaction gravitationnelle est responsable du mouvement :",
+      "choices": [
+        "des moteurs et des roues",
+        "des planètes et des galaxies",
+        "des voitures et des trains",
+        "des piles et des lampes"
+      ],
+      "answer": "des planètes et des galaxies",
+      "explain": "L'interaction gravitationnelle est responsable du mouvement des planètes et des galaxies."
+    },
+    {
+      "id": "pc-ie-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle suite décrit les conversions d'énergie dans le circuit pile + fils de connexion + lampe ?",
+      "choices": [
+        "chimique, puis électrique, puis lumineuse",
+        "électrique, puis chimique, puis lumineuse",
+        "chimique, puis lumineuse, puis électrique",
+        "lumineuse, puis électrique, puis chimique"
+      ],
+      "answer": "chimique, puis électrique, puis lumineuse",
+      "explain": "La pile convertit l'énergie chimique en électrique, la lampe l'électrique en lumineuse."
+    },
+    {
+      "id": "pc-ie-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un circuit pile + lampe, on a débranché un fil et la lampe est éteinte. On rebranche le fil. Que devient le circuit ?",
+      "choices": [
+        "Il reste ouvert et la lampe reste éteinte",
+        "Il devient fermé et la lampe s'allume",
+        "Il devient ouvert et la lampe s'allume",
+        "Il devient fermé et la lampe reste éteinte"
+      ],
+      "answer": "Il devient fermé et la lampe s'allume",
+      "explain": "Boucle refermée avec un générateur : le circuit est fermé et la lampe s'allume."
+    },
+    {
+      "id": "pc-ie-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le poids et la masse sont-ils une seule et même grandeur ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le poids et la masse sont deux grandeurs physiques différentes."
+    },
+    {
+      "id": "pc-ie-040",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un camion heurte une voiture. L'action du camion sur la voiture est-elle plus forte, égale ou plus faible que celle de la voiture sur le camion ? (plus forte / égale / plus faible)",
+      "answer": [
+        "égale"
+      ],
+      "explain": "Les deux actions ont la même intensité, quelle que soit la taille des objets."
+    },
+    {
+      "id": "pc-ie-041",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un aimant attire un clou. Le clou exerce-t-il une action sur l'aimant ?",
+      "choices": [
+        "Oui, de même intensité et de sens opposé",
+        "Oui, mais de même sens",
+        "Oui, mais beaucoup plus faible",
+        "Non, un clou ne peut rien exercer sur un aimant"
+      ],
+      "answer": "Oui, de même intensité et de sens opposé",
+      "explain": "Si A agit sur B, alors B agit sur A avec la même intensité et un sens opposé."
+    },
+    {
+      "id": "pc-ie-042",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Deux billes qui ont une masse sont posées loin l'une de l'autre. S'attirent-elles ?",
+      "choices": [
+        "Non, seuls les astres s'attirent",
+        "Oui, car deux objets qui ont une masse s'attirent mutuellement",
+        "Non, il faut qu'elles soient en contact",
+        "Oui, mais seulement si l'une est une planète"
+      ],
+      "answer": "Oui, car deux objets qui ont une masse s'attirent mutuellement",
+      "explain": "Tous les objets qui ont une masse s'attirent mutuellement."
+    },
+    {
+      "id": "pc-ie-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le poids d'un objet est l'action exercée par la Terre sur cet objet. Que dit le principe des interactions ?",
+      "choices": [
+        "L'objet n'exerce aucune action sur la Terre",
+        "L'objet exerce sur la Terre une action de même intensité et de sens opposé",
+        "L'objet exerce sur la Terre une action plus faible, de même sens",
+        "L'objet exerce sur la Terre une action de même intensité et de même sens"
+      ],
+      "answer": "L'objet exerce sur la Terre une action de même intensité et de sens opposé",
+      "explain": "Si la Terre agit sur l'objet, l'objet agit sur la Terre avec la même intensité et un sens opposé."
+    },
+    {
+      "id": "pc-ie-044",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une pile et une lampe ne sont reliées que par un seul fil, branché d'un seul côté de la lampe. La lampe s'allume-t-elle ?",
+      "choices": [
+        "Oui, car il y a une pile",
+        "Non, car il manque un récepteur",
+        "Non, car le circuit est ouvert : il n'y a pas de boucle",
+        "Oui, car un fil suffit à transférer l'énergie"
+      ],
+      "answer": "Non, car le circuit est ouvert : il n'y a pas de boucle",
+      "explain": "Les dipôles doivent former une boucle pour que le circuit soit fermé."
+    },
+    {
+      "id": "pc-ie-045",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle affirmation sur un circuit pile + lampe est correcte ?",
+      "choices": [
+        "La lampe fournit l'énergie électrique à la pile",
+        "La pile reçoit de l'énergie lumineuse",
+        "La lampe contient de l'énergie chimique",
+        "La pile fournit l'énergie électrique, la lampe la reçoit et l'utilise"
+      ],
+      "answer": "La pile fournit l'énergie électrique, la lampe la reçoit et l'utilise",
+      "explain": "La pile est le générateur et la lampe est le récepteur."
+    },
+    {
+      "id": "pc-ie-046",
+      "level": 3,
+      "type": "input",
+      "prompt": "La Terre attire une pomme. La pomme attire-t-elle aussi la Terre ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Deux objets qui ont une masse s'attirent mutuellement."
+    }
+  ]
+}

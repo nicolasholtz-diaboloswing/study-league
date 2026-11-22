@@ -1,0 +1,1171 @@
+{
+  "topic": "hg-byzantium-carolingians",
+  "questions": [
+    {
+      "id": "hg-bc-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In which years did Justinian rule the Byzantine Empire?",
+      "choices": [
+        "527 to 565",
+        "768 to 814",
+        "533 to 534",
+        "1054 to 1453"
+      ],
+      "answer": "527 to 565",
+      "explain": "Justinian ruled the Byzantine Empire from 527 to 565."
+    },
+    {
+      "id": "hg-bc-002",
+      "level": 1,
+      "type": "input",
+      "prompt": "What was the capital of the Byzantine Empire?",
+      "answer": [
+        "Constantinople"
+      ],
+      "explain": "The capital of the Byzantine Empire was Constantinople."
+    },
+    {
+      "id": "hg-bc-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The Byzantine Empire was one part of the former Roman Empire. Which part?",
+      "choices": [
+        "The western part",
+        "The eastern part",
+        "The northern part",
+        "The southern part"
+      ],
+      "answer": "The eastern part",
+      "explain": "The Byzantine Empire was the eastern part of the former Roman Empire."
+    },
+    {
+      "id": "hg-bc-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What did Justinian want to do?",
+      "choices": [
+        "Build a new empire far from Rome",
+        "Split the Roman Empire in two",
+        "Restore the greatness of the Roman Empire",
+        "Make the Pope the head of the empire"
+      ],
+      "answer": "Restore the greatness of the Roman Empire",
+      "explain": "Justinian wanted to restore the greatness of the Roman Empire."
+    },
+    {
+      "id": "hg-bc-005",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How did Justinian expand the empire?",
+      "choices": [
+        "Through marriage alliances",
+        "Through trade agreements",
+        "By buying land from other rulers",
+        "Through military conquests"
+      ],
+      "answer": "Through military conquests",
+      "explain": "He expanded the empire through military conquests."
+    },
+    {
+      "id": "hg-bc-006",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which territories did Justinian's armies take parts of?",
+      "choices": [
+        "Italy, North Africa and southern Spain",
+        "Gaul, Britain and Germany",
+        "Egypt, Syria and Persia",
+        "Saxony, Bavaria and Lombardy"
+      ],
+      "answer": "Italy, North Africa and southern Spain",
+      "explain": "His armies took parts of Italy, North Africa and southern Spain, around the Mediterranean Sea."
+    },
+    {
+      "id": "hg-bc-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What was the Code of Justinian?",
+      "choices": [
+        "A list of Church rules written by the Pope",
+        "Roman laws gathered into a single code",
+        "A list of Justinian's military conquests",
+        "A collection of laws of the Franks"
+      ],
+      "answer": "Roman laws gathered into a single code",
+      "explain": "Justinian gathered Roman laws into a single code, the Code of Justinian."
+    },
+    {
+      "id": "hg-bc-008",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What was the Digest?",
+      "choices": [
+        "A list of the emperor's conquests",
+        "A collection of laws of the Franks",
+        "A collection of decisions made by Roman jurists",
+        "A record of taxes paid by the counts"
+      ],
+      "answer": "A collection of decisions made by Roman jurists",
+      "explain": "Justinian ordered the compilation of the Digest, a collection of decisions made by Roman jurists."
+    },
+    {
+      "id": "hg-bc-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "What is the name of the law code created by Justinian?",
+      "answer": [
+        "Code of Justinian",
+        "the Code of Justinian",
+        "Justinian Code",
+        "the Justinian Code",
+        "Justinian's Code"
+      ],
+      "explain": "He created the Code of Justinian."
+    },
+    {
+      "id": "hg-bc-010",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Justinian's legal reforms were based on the traditions of which empire?",
+      "choices": [
+        "The Persian Empire",
+        "The Carolingian Empire",
+        "The Frankish kingdom",
+        "The Roman Empire"
+      ],
+      "answer": "The Roman Empire",
+      "explain": "His legal reforms were based on the traditions of the Roman Empire."
+    },
+    {
+      "id": "hg-bc-011",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In his law text, what does Justinian say must be used to administer justice?",
+      "choices": [
+        "The Justinian Code and the Digest",
+        "The laws of the Franks",
+        "The decisions of the Pope",
+        "The capitularies of the counts"
+      ],
+      "answer": "The Justinian Code and the Digest",
+      "explain": "He wrote that it is compulsory to use the Justinian Code and the Digest to administer justice."
+    },
+    {
+      "id": "hg-bc-012",
+      "level": 2,
+      "type": "input",
+      "prompt": "Which language replaced Latin as the official language of the Byzantine Empire?",
+      "answer": [
+        "Greek",
+        "the greek language",
+        "Greek language"
+      ],
+      "explain": "Greek replaced Latin as the empire's official language."
+    },
+    {
+      "id": "hg-bc-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which years are the important date for Justinian's law reforms (the Code and the Digest)?",
+      "choices": [
+        "330–413 AD",
+        "533–534 AD",
+        "768–814 AD",
+        "843–1054 AD"
+      ],
+      "answer": "533–534 AD",
+      "explain": "Important date: 533–534 AD."
+    },
+    {
+      "id": "hg-bc-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What does the word basileus mean?",
+      "choices": [
+        "Holy father",
+        "Chief bishop",
+        "Sacred ruler",
+        "Royal judge"
+      ],
+      "answer": "Sacred ruler",
+      "explain": "Basileus is the Byzantine emperor's title, meaning \"sacred ruler\"."
+    },
+    {
+      "id": "hg-bc-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How was the basileus seen?",
+      "choices": [
+        "As a servant of the Pope",
+        "As a ruler chosen by the counts",
+        "As the second leader after the Patriarch",
+        "As a sacred, all-powerful ruler"
+      ],
+      "answer": "As a sacred, all-powerful ruler",
+      "explain": "The basileus was seen as a sacred, all-powerful ruler."
+    },
+    {
+      "id": "hg-bc-016",
+      "level": 2,
+      "type": "input",
+      "prompt": "In which year did Justinian marry Theodora?",
+      "answer": [
+        "525",
+        "525 AD"
+      ],
+      "explain": "Theodora married Justinian in 525."
+    },
+    {
+      "id": "hg-bc-017",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why did Justinian have a law changed?",
+      "choices": [
+        "So he could marry Theodora",
+        "So he could be crowned by the Pope",
+        "So Greek could become the official language",
+        "So he could rule from Rome"
+      ],
+      "answer": "So he could marry Theodora",
+      "explain": "Her background technically barred her from marrying a nobleman, so he had the law changed."
+    },
+    {
+      "id": "hg-bc-018",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What was Theodora known for as empress?",
+      "choices": [
+        "Leading Justinian's armies in the conquest of Italy",
+        "Advising Justinian on law and policy, and championing rights for women",
+        "Writing the Digest for the emperor",
+        "Ruling the empire alone after Justinian died"
+      ],
+      "answer": "Advising Justinian on law and policy, and championing rights for women",
+      "explain": "Theodora had real political influence: she advised Justinian and championed rights for women."
+    },
+    {
+      "id": "hg-bc-019",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which one is a Roman influence on the Byzantine Empire?",
+      "choices": [
+        "Greek became the main language",
+        "Greek culture was very important",
+        "Imperial government",
+        "Many churches were built"
+      ],
+      "answer": "Imperial government",
+      "explain": "Roman influence: Roman laws, imperial government, Roman titles and traditions."
+    },
+    {
+      "id": "hg-bc-020",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which one is a Greek influence on the Byzantine Empire?",
+      "choices": [
+        "Roman laws",
+        "Roman titles and traditions",
+        "Religious symbols in art",
+        "Greek became the main language of the empire"
+      ],
+      "answer": "Greek became the main language of the empire",
+      "explain": "Greek influence: Greek became the main language and Greek culture was very important."
+    },
+    {
+      "id": "hg-bc-021",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which one is a Christian influence on the Byzantine Empire?",
+      "choices": [
+        "Religious symbols appeared in Byzantine art",
+        "Imperial government",
+        "Roman titles and traditions",
+        "Greek culture was very important"
+      ],
+      "answer": "Religious symbols appeared in Byzantine art",
+      "explain": "Christian influence: the emperor was closely connected to Christianity, many churches were built, and religious symbols appeared in art."
+    },
+    {
+      "id": "hg-bc-022",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What happened to the Byzantine Empire after Justinian's reign?",
+      "choices": [
+        "It conquered Gaul and Britain",
+        "It came under attack from all sides and gradually lost territory",
+        "It was split in three in 843",
+        "It moved its capital to Rome"
+      ],
+      "answer": "It came under attack from all sides and gradually lost territory",
+      "explain": "After Justinian's reign, the empire came under attack from all sides and gradually lost territory."
+    },
+    {
+      "id": "hg-bc-023",
+      "level": 2,
+      "type": "input",
+      "prompt": "From the 11th century, which people did the Byzantines no longer manage to stop in Asia Minor?",
+      "answer": [
+        "Turks",
+        "the Turks",
+        "Turk",
+        "the Turk"
+      ],
+      "explain": "From the 11th century, the Byzantines could no longer stop the Turks advancing into Asia Minor."
+    },
+    {
+      "id": "hg-bc-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year did Constantinople fall?",
+      "answer": [
+        "1453",
+        "1453 AD"
+      ],
+      "explain": "The Byzantine Empire lasted until Constantinople fell in 1453."
+    },
+    {
+      "id": "hg-bc-025",
+      "level": 3,
+      "type": "input",
+      "prompt": "The Carolingian Empire collapsed quickly. For how many more years did the Byzantine Empire survive as a unified empire?",
+      "answer": [
+        "600"
+      ],
+      "explain": "The Byzantine Empire survived as a unified empire for 600 more years, until 1453."
+    },
+    {
+      "id": "hg-bc-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Between which two continents was Constantinople located?",
+      "choices": [
+        "Africa and Europe",
+        "Asia and Africa",
+        "Europe and Asia",
+        "Europe and America"
+      ],
+      "answer": "Europe and Asia",
+      "explain": "Constantinople was located between Europe and Asia."
+    },
+    {
+      "id": "hg-bc-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which famous building was one of the main Christian buildings of Constantinople?",
+      "choices": [
+        "The Aachen chapel",
+        "Saint Peter's Basilica",
+        "The Hippodrome",
+        "Hagia Sophia"
+      ],
+      "answer": "Hagia Sophia",
+      "explain": "The famous Hagia Sophia was one of the main Christian buildings of the city."
+    },
+    {
+      "id": "hg-bc-028",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which year goes with the Theodosian Walls of Constantinople?",
+      "choices": [
+        "413",
+        "330",
+        "395",
+        "527"
+      ],
+      "answer": "413",
+      "explain": "The Theodosian Walls are dated 413; the Wall of Constantine is dated 330."
+    },
+    {
+      "id": "hg-bc-029",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year did Charlemagne become ruler of the kingdom of the Franks?",
+      "answer": [
+        "768",
+        "768 AD"
+      ],
+      "explain": "In 768, Charlemagne became ruler of the kingdom of the Franks."
+    },
+    {
+      "id": "hg-bc-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year was Charlemagne crowned emperor?",
+      "answer": [
+        "800",
+        "800 AD"
+      ],
+      "explain": "Charlemagne was crowned emperor in the year 800."
+    },
+    {
+      "id": "hg-bc-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In which city was Charlemagne crowned emperor?",
+      "choices": [
+        "Aachen",
+        "Rome",
+        "Constantinople",
+        "Ravenna"
+      ],
+      "answer": "Rome",
+      "explain": "In the year 800, in Rome, Charlemagne was crowned emperor of the West."
+    },
+    {
+      "id": "hg-bc-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who crowned Charlemagne emperor?",
+      "choices": [
+        "The Patriarch of Constantinople",
+        "Justinian",
+        "Pope Leo",
+        "A count of Aachen"
+      ],
+      "answer": "Pope Leo",
+      "explain": "Pope Leo crowned Charlemagne in Saint Peter's Basilica in Rome."
+    },
+    {
+      "id": "hg-bc-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "What was the capital of Charlemagne's empire?",
+      "answer": [
+        "Aachen",
+        "Aix",
+        "Aix-la-Chapelle"
+      ],
+      "explain": "Charlemagne governed his empire from his capital, Aachen."
+    },
+    {
+      "id": "hg-bc-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What are the \"Carolingians\"?",
+      "choices": [
+        "Collection of laws",
+        "Envoys of the master",
+        "Important persons appointed to administer a county",
+        "Dynasty of rulers (from Karolus: Charles)"
+      ],
+      "answer": "Dynasty of rulers (from Karolus: Charles)",
+      "explain": "Carolingians: dynasty of rulers (from Karolus: Charles)."
+    },
+    {
+      "id": "hg-bc-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a \"capitulary\"?",
+      "choices": [
+        "Collection of laws",
+        "Dynasty of rulers",
+        "Place where monks live",
+        "Title of the emperor"
+      ],
+      "answer": "Collection of laws",
+      "explain": "Capitulary: collection of laws."
+    },
+    {
+      "id": "hg-bc-036",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a \"count\" in Charlemagne's empire?",
+      "choices": [
+        "Person of the Church who sets out to evangelize pagans",
+        "Important person appointed by the emperor to administer a territory, the county",
+        "Envoy sent to check the bishops",
+        "Leader of the Church in Constantinople"
+      ],
+      "answer": "Important person appointed by the emperor to administer a territory, the county",
+      "explain": "Count: important person appointed by the emperor to administer a territory, the county."
+    },
+    {
+      "id": "hg-bc-037",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What does \"to consecrate\" mean?",
+      "choices": [
+        "To collect laws into a single code",
+        "To convert people to the Christian religion",
+        "To give a person a sacred character by applying 'holy' oil",
+        "To appoint a person to administer a county"
+      ],
+      "answer": "To give a person a sacred character by applying 'holy' oil",
+      "explain": "To consecrate: to give a person a sacred character by applying 'holy' oil."
+    },
+    {
+      "id": "hg-bc-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does \"Missi Dominici\" mean?",
+      "choices": [
+        "Sacred rulers",
+        "Counts of the county",
+        "Judges of the Pope",
+        "Envoys of the master"
+      ],
+      "answer": "Envoys of the master",
+      "explain": "Missi Dominici means \"envoys of the master\"."
+    },
+    {
+      "id": "hg-bc-039",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What did the Missi Dominici do?",
+      "choices": [
+        "They travelled the empire to check that counts and bishops did their jobs and stayed loyal",
+        "They crowned each new emperor in the city of Rome",
+        "They copied manuscripts in monasteries across the empire",
+        "They collected taxes and raised soldiers in each county"
+      ],
+      "answer": "They travelled the empire to check that counts and bishops did their jobs and stayed loyal",
+      "explain": "The Missi Dominici travelled the empire to check on the counts and the bishops."
+    },
+    {
+      "id": "hg-bc-040",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which list shows the jobs of the counts?",
+      "choices": [
+        "Spreading Christianity and advising the emperor",
+        "Justice, taxes, army and enforcement of laws",
+        "Checking the bishops and the counts",
+        "Copying manuscripts and building churches"
+      ],
+      "answer": "Justice, taxes, army and enforcement of laws",
+      "explain": "Counts governed a county: justice, taxes, army and enforcement of laws."
+    },
+    {
+      "id": "hg-bc-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What was the job of the bishops in Charlemagne's empire?",
+      "choices": [
+        "Collecting taxes and raising soldiers",
+        "Checking the counts on the emperor's behalf",
+        "Spreading Christianity and advising the emperor",
+        "Writing the capitularies alone"
+      ],
+      "answer": "Spreading Christianity and advising the emperor",
+      "explain": "Bishops spread Christianity and advised the emperor."
+    },
+    {
+      "id": "hg-bc-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Who appointed the counts and the bishops?",
+      "choices": [
+        "The Pope",
+        "The Missi Dominici",
+        "The Patriarch of Constantinople",
+        "Charlemagne"
+      ],
+      "answer": "Charlemagne",
+      "explain": "Charlemagne appointed counts and bishops to govern locally."
+    },
+    {
+      "id": "hg-bc-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What did the counts and the bishops do in return for their positions?",
+      "choices": [
+        "They swore loyalty to Charlemagne",
+        "They paid the Pope",
+        "They learned Greek",
+        "They fought the Saxons"
+      ],
+      "answer": "They swore loyalty to Charlemagne",
+      "explain": "Both swore loyalty to him in return for their positions."
+    },
+    {
+      "id": "hg-bc-044",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why did Charlemagne rely on his counts?",
+      "choices": [
+        "They crowned him in Rome",
+        "They governed the provinces locally for him",
+        "They travelled the empire to check the bishops",
+        "They copied manuscripts for him"
+      ],
+      "answer": "They governed the provinces locally for him",
+      "explain": "The counts enforced the laws, administered justice, collected taxes and raised soldiers in the provinces."
+    },
+    {
+      "id": "hg-bc-045",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which list shows lands that Charlemagne conquered?",
+      "choices": [
+        "Italy, North Africa and Egypt",
+        "Gaul, Britain, Ireland and Norway",
+        "Saxony, Bavaria, Lombardy and Spain",
+        "Greece, Asia Minor and Syria"
+      ],
+      "answer": "Saxony, Bavaria, Lombardy and Spain",
+      "explain": "Charlemagne expanded into Saxony, Bavaria, Lombardy and Spain."
+    },
+    {
+      "id": "hg-bc-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which three things made up Charlemagne's power?",
+      "choices": [
+        "Conquest, trade and a large navy",
+        "Greek, Roman laws and the title basileus",
+        "Wealth, monasteries and the Code of Justinian",
+        "Conquest, religious legitimacy and administration"
+      ],
+      "answer": "Conquest, religious legitimacy and administration",
+      "explain": "His power rested on conquest, religious legitimacy and administration."
+    },
+    {
+      "id": "hg-bc-047",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which example shows Charlemagne's religious legitimacy?",
+      "choices": [
+        "He was crowned and anointed by the Pope in 800",
+        "He expanded into Saxony",
+        "Counts governed locally for him",
+        "The Missi Dominici checked his officials"
+      ],
+      "answer": "He was crowned and anointed by the Pope in 800",
+      "explain": "Religious legitimacy: crowned and anointed by the Pope in 800."
+    },
+    {
+      "id": "hg-bc-048",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which example shows the administration of Charlemagne's empire?",
+      "choices": [
+        "He was crowned and anointed by the Pope",
+        "Counts and bishops governed locally, checked by the Missi Dominici",
+        "He expanded into Bavaria and Lombardy",
+        "He built a chapel at Aachen"
+      ],
+      "answer": "Counts and bishops governed locally, checked by the Missi Dominici",
+      "explain": "Administration: counts and bishops governing locally, checked by the Missi Dominici."
+    },
+    {
+      "id": "hg-bc-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "In which year did Charlemagne die?",
+      "answer": [
+        "814"
+      ],
+      "explain": "Charlemagne died in 814."
+    },
+    {
+      "id": "hg-bc-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "In which year was the Carolingian Empire split three ways?",
+      "answer": [
+        "843"
+      ],
+      "explain": "The Carolingian Empire was split three ways in 843."
+    },
+    {
+      "id": "hg-bc-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "By when was central power gone in the Carolingian Empire?",
+      "choices": [
+        "By 814",
+        "By 1054",
+        "By the 900s",
+        "By 1453"
+      ],
+      "answer": "By the 900s",
+      "explain": "The empire split in 843 and central power was gone by the 900s."
+    },
+    {
+      "id": "hg-bc-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "When was the kingdom of the Franks founded?",
+      "choices": [
+        "At the end of the 8th century",
+        "In the year 800",
+        "In the 11th century",
+        "At the end of the 5th century"
+      ],
+      "answer": "At the end of the 5th century",
+      "explain": "Charlemagne became ruler in 768 of the kingdom of the Franks, founded at the end of the 5th century."
+    },
+    {
+      "id": "hg-bc-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "After Charlemagne's conquests, the Pope saw him as the worthy successor of whom?",
+      "choices": [
+        "The Roman emperors",
+        "The Byzantine patriarchs",
+        "The Saxon kings",
+        "Cyril and Methodius"
+      ],
+      "answer": "The Roman emperors",
+      "explain": "The conquests led the Pope to regard him as the worthy successor of the Roman emperors."
+    },
+    {
+      "id": "hg-bc-054",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is Christendom?",
+      "choices": [
+        "The Western Christian Church, led by the Pope in Rome.",
+        "The community of all Christian peoples and countries.",
+        "The division of the Christian Church into two Churches.",
+        "A place where a community of monks or nuns lives."
+      ],
+      "answer": "The community of all Christian peoples and countries.",
+      "explain": "Christendom is the community of all Christian peoples and countries."
+    },
+    {
+      "id": "hg-bc-055",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the Catholic Church?",
+      "choices": [
+        "The Eastern Christian Church, led by the Patriarch of Constantinople (\"orthodox\" means \"authentic\").",
+        "The community of all Christian peoples and countries.",
+        "The Western Christian Church, led by the Pope in Rome (\"catholic\" means \"universal\").",
+        "A person of the Church who sets out to evangelize pagans."
+      ],
+      "answer": "The Western Christian Church, led by the Pope in Rome (\"catholic\" means \"universal\").",
+      "explain": "The Catholic Church is the Western Christian Church, led by the Pope in Rome."
+    },
+    {
+      "id": "hg-bc-056",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the Orthodox Church?",
+      "choices": [
+        "The Western Christian Church, led by the Pope in Rome (\"catholic\" means \"universal\").",
+        "The division of the Christian Church into two distinct Churches.",
+        "The community of all Christian peoples and countries.",
+        "The Eastern Christian Church, led by the Patriarch of Constantinople (\"orthodox\" means \"authentic\")."
+      ],
+      "answer": "The Eastern Christian Church, led by the Patriarch of Constantinople (\"orthodox\" means \"authentic\").",
+      "explain": "The Orthodox Church is the Eastern Christian Church, led by the Patriarch of Constantinople."
+    },
+    {
+      "id": "hg-bc-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "What does the word \"orthodox\" mean?",
+      "answer": [
+        "authentic"
+      ],
+      "explain": "\"Orthodox\" means \"authentic\"."
+    },
+    {
+      "id": "hg-bc-058",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What does it mean to evangelize?",
+      "choices": [
+        "To convert people to the Christian religion.",
+        "To collect laws into a single code.",
+        "To live in a community of monks.",
+        "To give a person a sacred character."
+      ],
+      "answer": "To convert people to the Christian religion.",
+      "explain": "To evangelize: to convert people to the Christian religion."
+    },
+    {
+      "id": "hg-bc-059",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "For Christians, what is a pagan?",
+      "choices": [
+        "Someone who leads the Church in Rome.",
+        "Someone who believes in several gods.",
+        "A person who copies manuscripts.",
+        "Someone who lives in a monastery."
+      ],
+      "answer": "Someone who believes in several gods.",
+      "explain": "Pagan: for Christians, someone who believes in several gods."
+    },
+    {
+      "id": "hg-bc-060",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a missionary?",
+      "choices": [
+        "A person who is sent to check the counts.",
+        "A person who lives in a monastery.",
+        "A person of the Church who sets out to evangelize pagans.",
+        "Someone who believes in several gods."
+      ],
+      "answer": "A person of the Church who sets out to evangelize pagans.",
+      "explain": "Missionary: a person of the Church who sets out to evangelize pagans."
+    },
+    {
+      "id": "hg-bc-061",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a monastery?",
+      "choices": [
+        "A place where the emperor is crowned.",
+        "A place where laws are collected.",
+        "A place where the Pope lives alone.",
+        "A place where a community of monks or nuns lives."
+      ],
+      "answer": "A place where a community of monks or nuns lives.",
+      "explain": "Monastery: a place where a community of monks or nuns lives."
+    },
+    {
+      "id": "hg-bc-062",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a schism?",
+      "choices": [
+        "The division of the Christian Church into two distinct Churches: Catholic and Orthodox.",
+        "The community of all Christian peoples and countries.",
+        "The union of the Catholic and Orthodox Churches.",
+        "A war to convert pagans to Christianity."
+      ],
+      "answer": "The division of the Christian Church into two distinct Churches: Catholic and Orthodox.",
+      "explain": "Schism: the division of the Christian Church into two distinct Churches."
+    },
+    {
+      "id": "hg-bc-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "In Greek, what does the word \"schism\" mean?",
+      "answer": [
+        "separation",
+        "a separation",
+        "the separation"
+      ],
+      "explain": "Schism means \"separation\" in Greek."
+    },
+    {
+      "id": "hg-bc-064",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year did the Schism split the Orthodox Church from the Catholic Church?",
+      "answer": [
+        "1054"
+      ],
+      "explain": "In 1054, the Schism split the Orthodox Church from the Catholic Church."
+    },
+    {
+      "id": "hg-bc-065",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who is the head of the Catholic Church?",
+      "choices": [
+        "The Patriarch of Constantinople",
+        "The Pope in Rome",
+        "The Byzantine emperor",
+        "The count of Aachen"
+      ],
+      "answer": "The Pope in Rome",
+      "explain": "The head of the Catholic Church is the Pope, in Rome."
+    },
+    {
+      "id": "hg-bc-066",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who is the head of the Orthodox Church?",
+      "choices": [
+        "The Pope in Rome",
+        "Charlemagne",
+        "The Patriarch of Constantinople",
+        "The bishop of Aachen"
+      ],
+      "answer": "The Patriarch of Constantinople",
+      "explain": "The head of the Orthodox Church is the Patriarch, in Constantinople."
+    },
+    {
+      "id": "hg-bc-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Who named the Patriarch of Constantinople?",
+      "choices": [
+        "The Pope",
+        "Charlemagne",
+        "The Missi Dominici",
+        "The Byzantine emperor"
+      ],
+      "answer": "The Byzantine emperor",
+      "explain": "The Orthodox Church came under the Byzantine emperor's control: he named its head."
+    },
+    {
+      "id": "hg-bc-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Besides the Pope, who else acted as a religious authority in the West?",
+      "choices": [
+        "Charlemagne, who appointed bishops across the West",
+        "The Patriarch of Constantinople",
+        "The Byzantine emperor",
+        "The Missi Dominici"
+      ],
+      "answer": "Charlemagne, who appointed bishops across the West",
+      "explain": "Charlemagne also saw himself as a religious authority and appointed bishops across the West."
+    },
+    {
+      "id": "hg-bc-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Which language of worship did the Orthodox Church of the Byzantine Empire use?",
+      "answer": [
+        "Greek",
+        "Greek language",
+        "the Greek language"
+      ],
+      "explain": "In the Byzantine Empire, the language of worship was Greek."
+    },
+    {
+      "id": "hg-bc-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "Priests can marry in which Church? (Catholic / Orthodox)",
+      "answer": [
+        "Orthodox"
+      ],
+      "explain": "Orthodox priests can marry; Catholic priests cannot."
+    },
+    {
+      "id": "hg-bc-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Baptism by immersion is done in which Church? (Catholic / Orthodox)",
+      "answer": [
+        "Orthodox"
+      ],
+      "explain": "Orthodox baptism is by immersion; Catholic baptism is by aspersion."
+    },
+    {
+      "id": "hg-bc-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Which Church uses the Greek cross as its symbol? (Catholic / Orthodox)",
+      "answer": [
+        "Orthodox"
+      ],
+      "explain": "The Greek cross is the symbol of the Orthodox Church; the Latin cross is the Catholic symbol."
+    },
+    {
+      "id": "hg-bc-073",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is true about the Carolingian and Byzantine Empires?",
+      "choices": [
+        "Only the Byzantine Empire was Christian",
+        "Both held Christianity as their official religion and shared the same core beliefs",
+        "They had different core beliefs from the start",
+        "Both were led by the same head of the Church"
+      ],
+      "answer": "Both held Christianity as their official religion and shared the same core beliefs",
+      "explain": "Both empires held Christianity as their official religion and shared the same core beliefs."
+    },
+    {
+      "id": "hg-bc-074",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What caused growing tension between Rome and Constantinople?",
+      "choices": [
+        "Constantinople wanted Latin to be its language of worship",
+        "The Pope refused to crown the Byzantine emperor Justinian",
+        "The Pope wanted to be head of all Christianity, but Constantinople increasingly rejected his authority",
+        "Charlemagne attacked Constantinople and took its churches"
+      ],
+      "answer": "The Pope wanted to be head of all Christianity, but Constantinople increasingly rejected his authority",
+      "explain": "The Pope's authority in Rome was increasingly rejected in Constantinople."
+    },
+    {
+      "id": "hg-bc-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "Which two monks did the Byzantine emperor send to evangelize the Slavs?",
+      "answer": [
+        "Cyril and Methodius",
+        "Methodius and Cyril",
+        "Cyril & Methodius",
+        "Methodius & Cyril"
+      ],
+      "explain": "In the 9th century, the Byzantine emperor sent two monks, Cyril and Methodius, to evangelize the Slavs."
+    },
+    {
+      "id": "hg-bc-076",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which peoples converted to Orthodox Christianity after Cyril and Methodius?",
+      "choices": [
+        "Saxons, Bavarians and Lombards",
+        "Franks, Anglo-Saxons and Irish",
+        "Poles, Czechs and Danes",
+        "Serbs, Bulgarians and Russians"
+      ],
+      "answer": "Serbs, Bulgarians and Russians",
+      "explain": "Serbs, Bulgarians and Russians converted to Orthodox Christianity."
+    },
+    {
+      "id": "hg-bc-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "How many years did the war between the Franks and the Saxons last?",
+      "answer": [
+        "33"
+      ],
+      "explain": "Einhard called it a 33-year war."
+    },
+    {
+      "id": "hg-bc-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to Einhard, when did the war against the Saxons end?",
+      "choices": [
+        "When the Saxons accepted abandoning their idols and adopting Christianity",
+        "When Charlemagne was crowned in Rome",
+        "When the Pope applied holy oil to the Saxons",
+        "When Cyril and Methodius arrived"
+      ],
+      "answer": "When the Saxons accepted abandoning their idols and adopting Christianity",
+      "explain": "Einhard wrote that the war ended only when the Saxons accepted abandoning their idols and adopting Christianity."
+    },
+    {
+      "id": "hg-bc-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why did Justinian build Hagia Sophia?",
+      "choices": [
+        "To crown Charlemagne",
+        "To make Constantinople a \"new Rome\"",
+        "To copy Christian manuscripts",
+        "To hold the Missi Dominici"
+      ],
+      "answer": "To make Constantinople a \"new Rome\"",
+      "explain": "Justinian built Hagia Sophia to make Constantinople a \"new Rome\"."
+    },
+    {
+      "id": "hg-bc-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How did Charlemagne rival Justinian?",
+      "choices": [
+        "By moving his capital to Constantinople and ruling from there",
+        "By writing his own Digest of Roman laws",
+        "By building the Aachen chapel and encouraging monasteries where monks copied Christian manuscripts",
+        "By naming the Patriarch of Constantinople himself"
+      ],
+      "answer": "By building the Aachen chapel and encouraging monasteries where monks copied Christian manuscripts",
+      "explain": "Charlemagne rivaled him by building the Aachen chapel and encouraging monasteries."
+    },
+    {
+      "id": "hg-bc-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "How high is the dome of Hagia Sophia, in metres?",
+      "answer": [
+        "55"
+      ],
+      "explain": "The dome rises 55 metres high."
+    },
+    {
+      "id": "hg-bc-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Who wrote that Hagia Sophia's dome seemed to hang from the sky by a golden chain?",
+      "choices": [
+        "Einhard",
+        "Pope Leo",
+        "Cyril",
+        "Procopius of Caesarea"
+      ],
+      "answer": "Procopius of Caesarea",
+      "explain": "Procopius of Caesarea wrote Buildings in the mid-6th century."
+    },
+    {
+      "id": "hg-bc-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Procopius say Justinian did to build the church?",
+      "choices": [
+        "He brought in the finest workers and spared no expense",
+        "He moved columns from Rome and Ravenna",
+        "He asked the counts to pay for it",
+        "He built it in only one year"
+      ],
+      "answer": "He brought in the finest workers and spared no expense",
+      "explain": "The emperor brought in the finest workers from across the empire and spared no expense."
+    },
+    {
+      "id": "hg-bc-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Where did Charlemagne have the columns and marble for his chapel brought from?",
+      "choices": [
+        "Constantinople and Athens",
+        "Rome and Ravenna",
+        "Saxony and Bavaria",
+        "Carthage and Alexandria"
+      ],
+      "answer": "Rome and Ravenna",
+      "explain": "He could not obtain them elsewhere, so he had them transported from Rome and Ravenna."
+    },
+    {
+      "id": "hg-bc-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In the Aachen chapel, where did Charlemagne sit to follow Mass?",
+      "choices": [
+        "On the lower floor with ordinary worshippers",
+        "Under the dome with the bishops",
+        "On the imperial throne",
+        "Next to the Pope"
+      ],
+      "answer": "On the imperial throne",
+      "explain": "The imperial throne was where Charlemagne sat; the lower floor was for ordinary worshippers."
+    },
+    {
+      "id": "hg-bc-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Where was it agreed that Charlemagne's tomb should be?",
+      "choices": [
+        "In Rome",
+        "In Saint Peter's Basilica",
+        "In Constantinople",
+        "In the chapel he had built himself"
+      ],
+      "answer": "In the chapel he had built himself",
+      "explain": "No place was more fitting for his tomb than the chapel he had built himself."
+    },
+    {
+      "id": "hg-bc-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why did Justinian and Charlemagne build such magnificent churches?",
+      "choices": [
+        "To display power blessed by God and to rival each other's prestige",
+        "To hide their wealth from the Pope and the bishops",
+        "To replace the Pope as the head of the whole Church",
+        "To train missionaries to convert the Saxons and the Slavs"
+      ],
+      "answer": "To display power blessed by God and to rival each other's prestige",
+      "explain": "Both emperors used their churches to display power blessed by God and to rival each other's prestige."
+    },
+    {
+      "id": "hg-bc-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does it mean to identify the point of view of a text?",
+      "choices": [
+        "To find the date of the text",
+        "To determine the opinion defended by its author",
+        "To copy the text word for word",
+        "To translate the text into Latin"
+      ],
+      "answer": "To determine the opinion defended by its author",
+      "explain": "Identifying the point of view of a text means determining the opinion defended by its author."
+    }
+  ]
+}

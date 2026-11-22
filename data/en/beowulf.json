@@ -1,0 +1,932 @@
+{
+  "topic": "en-beowulf",
+  "questions": [
+    {
+      "id": "en-beo-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who is the hero of the Geats?",
+      "choices": [
+        "Hrothgar",
+        "Beowulf",
+        "Wiglaf",
+        "Grendel"
+      ],
+      "answer": "Beowulf",
+      "explain": "Beowulf is the hero of the Geats, known for his strength and bravery."
+    },
+    {
+      "id": "en-beo-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who is the King of the Danes?",
+      "choices": [
+        "Hygelac",
+        "Ecgtheow",
+        "Hrothgar",
+        "Wiglaf"
+      ],
+      "answer": "Hrothgar",
+      "explain": "King Hrothgar rules the Danes and builds the hall Heorot."
+    },
+    {
+      "id": "en-beo-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "What is the name of the monster that attacks Heorot?",
+      "answer": [
+        "Grendel"
+      ],
+      "explain": "Grendel terrorizes Heorot for twelve years."
+    },
+    {
+      "id": "en-beo-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who seeks revenge after Grendel is killed?",
+      "choices": [
+        "Grendel's mother",
+        "The dragon",
+        "Unferth",
+        "Sigemund"
+      ],
+      "answer": "Grendel's mother",
+      "explain": "Grendel's mother attacks in revenge for her son."
+    },
+    {
+      "id": "en-beo-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "What is the name of Beowulf's father?",
+      "answer": [
+        "Ecgtheow"
+      ],
+      "explain": "Beowulf's father is Ecgtheow."
+    },
+    {
+      "id": "en-beo-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "What is the name of the hall that King Hrothgar builds?",
+      "answer": [
+        "Heorot",
+        "Heorot Hall"
+      ],
+      "explain": "Hrothgar builds the mead-hall Heorot."
+    },
+    {
+      "id": "en-beo-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "Which loyal warrior fights beside Beowulf against the dragon?",
+      "answer": [
+        "Wiglaf"
+      ],
+      "explain": "Wiglaf stays loyal to Beowulf in the final battle."
+    },
+    {
+      "id": "en-beo-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "What is the name of Beowulf's own king?",
+      "answer": [
+        "Hygelac",
+        "King Hygelac"
+      ],
+      "explain": "Beowulf presents Hrothgar's treasures to his own king, Hygelac."
+    },
+    {
+      "id": "en-beo-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Hrothgar is the king of the Danes. Beowulf is a hero of which people? (Geats / Danes)",
+      "answer": [
+        "Geats"
+      ],
+      "explain": "Beowulf is the hero of the Geats."
+    },
+    {
+      "id": "en-beo-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How does Beowulf fight Grendel?",
+      "choices": [
+        "With a giant sword",
+        "With a magic spell",
+        "With his bare hands",
+        "With a bow and arrows"
+      ],
+      "answer": "With his bare hands",
+      "explain": "Beowulf defeats Grendel with his bare hands."
+    },
+    {
+      "id": "en-beo-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Which part of Grendel's body does Beowulf rip off?",
+      "answer": [
+        "arm",
+        "his arm",
+        "the arm",
+        "an arm"
+      ],
+      "explain": "Beowulf rips off Grendel's arm."
+    },
+    {
+      "id": "en-beo-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "For how many years does Grendel terrorize Heorot? (Write the number in words.)",
+      "answer": [
+        "twelve",
+        "12"
+      ],
+      "explain": "Grendel's terror continues for twelve years."
+    },
+    {
+      "id": "en-beo-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which creature guards a treasure hoard and attacks Beowulf's kingdom?",
+      "choices": [
+        "Grendel",
+        "The dragon",
+        "Grendel's mother",
+        "Unferth"
+      ],
+      "answer": "The dragon",
+      "explain": "The dragon guards a treasure hoard and is Beowulf's final enemy."
+    },
+    {
+      "id": "en-beo-014",
+      "level": 1,
+      "type": "input",
+      "prompt": "For how many years does Beowulf rule Geatland in peace? (Write the number in words.)",
+      "answer": [
+        "fifty",
+        "50"
+      ],
+      "explain": "Beowulf rules Geatland for fifty years."
+    },
+    {
+      "id": "en-beo-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Where does Grendel's mother live?",
+      "choices": [
+        "In Heorot",
+        "In Geatland",
+        "In a mead-hall",
+        "In an underwater lair"
+      ],
+      "answer": "In an underwater lair",
+      "explain": "Grendel's mother lives in an underwater lair."
+    },
+    {
+      "id": "en-beo-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is Heorot?",
+      "choices": [
+        "A mead-hall",
+        "A lake",
+        "A dragon's cave",
+        "A boat"
+      ],
+      "answer": "A mead-hall",
+      "explain": "Heorot is a magnificent mead-hall where Hrothgar's warriors gather to celebrate."
+    },
+    {
+      "id": "en-beo-017",
+      "level": 1,
+      "type": "input",
+      "prompt": "In the bard's song, which hero was famous for killing a dragon?",
+      "answer": [
+        "Sigemund"
+      ],
+      "explain": "The bard sings that Sigemund killed a dragon."
+    },
+    {
+      "id": "en-beo-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What does Grendel represent?",
+      "choices": [
+        "Loyalty and courage",
+        "Wisdom and peace",
+        "Evil and chaos",
+        "Glory and fame"
+      ],
+      "answer": "Evil and chaos",
+      "explain": "Grendel represents evil and chaos."
+    },
+    {
+      "id": "en-beo-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which language was Beowulf originally composed?",
+      "answer": [
+        "Old English"
+      ],
+      "explain": "Beowulf was composed in Old English, the language of the Anglo-Saxons."
+    },
+    {
+      "id": "en-beo-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the name of Beowulf's homeland?",
+      "choices": [
+        "Geatland",
+        "Heorot",
+        "Denmark",
+        "Britain"
+      ],
+      "answer": "Geatland",
+      "explain": "Beowulf is a hero of the Geats and travels from Geatland to help Hrothgar."
+    },
+    {
+      "id": "en-beo-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "People said Beowulf had the strength of how many men in each hand? (Write the number in words.)",
+      "answer": [
+        "thirty",
+        "30"
+      ],
+      "explain": "People said Beowulf had the strength of thirty men in each hand."
+    },
+    {
+      "id": "en-beo-022",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which event comes first in the story?",
+      "choices": [
+        "Beowulf kills Grendel's mother",
+        "Beowulf becomes king of the Geats",
+        "Grendel attacks Heorot",
+        "A thief awakens the dragon"
+      ],
+      "answer": "Grendel attacks Heorot",
+      "explain": "The story begins with Grendel's attacks on Heorot."
+    },
+    {
+      "id": "en-beo-023",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which of these events comes next after Beowulf defeats Grendel?",
+      "choices": [
+        "Beowulf becomes king of the Geats",
+        "A thief awakens the dragon",
+        "Wiglaf fights the dragon",
+        "Grendel's mother attacks in revenge"
+      ],
+      "answer": "Grendel's mother attacks in revenge",
+      "explain": "Grendel's mother seeks revenge after her son is killed."
+    },
+    {
+      "id": "en-beo-024",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When does Beowulf become king of the Geats?",
+      "choices": [
+        "After the deaths of Hygelac and his son",
+        "Before he sails to Heorot",
+        "Right after he kills Grendel",
+        "After the dragon is awakened"
+      ],
+      "answer": "After the deaths of Hygelac and his son",
+      "explain": "Beowulf becomes king after Hygelac and his son die."
+    },
+    {
+      "id": "en-beo-025",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What awakens the dragon?",
+      "choices": [
+        "The noise of a celebration",
+        "A thief stealing from its hoard",
+        "Beowulf's sword",
+        "Grendel's mother"
+      ],
+      "answer": "A thief stealing from its hoard",
+      "explain": "A thief steals from the treasure hoard and wakes the dragon."
+    },
+    {
+      "id": "en-beo-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Why does Grendel attack Heorot?",
+      "choices": [
+        "He wants Hrothgar's treasure",
+        "He is looking for Beowulf",
+        "He is angered by the noise of the celebrations",
+        "A thief woke him up"
+      ],
+      "answer": "He is angered by the noise of the celebrations",
+      "explain": "Grendel is angered by the noise from the hall and attacks at night."
+    },
+    {
+      "id": "en-beo-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Why does Grendel's mother attack Heorot?",
+      "choices": [
+        "To steal the treasure",
+        "To protect the dragon",
+        "To welcome the Geats",
+        "To get revenge"
+      ],
+      "answer": "To get revenge",
+      "explain": "Grendel's mother seeks revenge after Grendel is killed."
+    },
+    {
+      "id": "en-beo-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How did King Hrothgar help Beowulf's father, Ecgtheow, resolve his feud?",
+      "choices": [
+        "He sent treasure to the dead man's family",
+        "He offered him a place to live",
+        "He sent soldiers to fight",
+        "He gave him a new sword"
+      ],
+      "answer": "He sent treasure to the dead man's family",
+      "explain": "Hrothgar sent treasure to the dead man's family."
+    },
+    {
+      "id": "en-beo-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Why couldn't the Geat warriors' swords hurt Grendel?",
+      "choices": [
+        "Their swords were rusty and dull",
+        "Grendel had made a magic spell against any kind of weapon",
+        "The swords were not made of metal",
+        "They were afraid to hit Beowulf"
+      ],
+      "answer": "Grendel had made a magic spell against any kind of weapon",
+      "explain": "Grendel's magic spell protected him from every weapon."
+    },
+    {
+      "id": "en-beo-030",
+      "level": 2,
+      "type": "input",
+      "prompt": "How many men did it take to move Grendel's arm and shoulder after it was torn off? (Write the number in words.)",
+      "answer": [
+        "four",
+        "4"
+      ],
+      "explain": "It took four men to move Grendel's arm and shoulder."
+    },
+    {
+      "id": "en-beo-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Beowulf order his men to do with Grendel's arm?",
+      "choices": [
+        "Burn it",
+        "Throw it in the lake",
+        "Bury it in the sand",
+        "Nail it to the roof"
+      ],
+      "answer": "Nail it to the roof",
+      "explain": "Beowulf orders his men to nail Grendel's arm to the roof."
+    },
+    {
+      "id": "en-beo-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Beowulf do with Grendel's corpse in the lair?",
+      "choices": [
+        "He cuts off the head to present to Hrothgar",
+        "He buries it in the lake",
+        "He gives it to Hygelac",
+        "He nails it to the wall of the cave"
+      ],
+      "answer": "He cuts off the head to present to Hrothgar",
+      "explain": "Beowulf severs Grendel's head and presents it to Hrothgar."
+    },
+    {
+      "id": "en-beo-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Beowulf find on the wall of Grendel's mother's cave?",
+      "choices": [
+        "A treasure hoard",
+        "A giant, magical blade",
+        "A golden tapestry",
+        "A dragon's egg"
+      ],
+      "answer": "A giant, magical blade",
+      "explain": "His own sword is useless, so he uses the giant, magical blade he finds."
+    },
+    {
+      "id": "en-beo-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How was the surface of the bleak lake described after Grendel's blood led the warriors there?",
+      "choices": [
+        "Frozen solid",
+        "Filled with quicksand",
+        "Boiling with deep red blood",
+        "Surrounded by fire"
+      ],
+      "answer": "Boiling with deep red blood",
+      "explain": "The lake was boiling with deep red blood."
+    },
+    {
+      "id": "en-beo-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What was Unferth's reaction to seeing Grendel's arm and shoulder?",
+      "choices": [
+        "He laughed and cheered",
+        "He immediately ran away",
+        "He was the first to sing Beowulf's praises",
+        "His face was white and he said nothing"
+      ],
+      "answer": "His face was white and he said nothing",
+      "explain": "Unferth's face was white, and he said nothing."
+    },
+    {
+      "id": "en-beo-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "When the Geats arrived, what specifically worried the Danish warriors about them?",
+      "choices": [
+        "Their weapons and armour",
+        "Their strange language",
+        "Their large boat",
+        "Beowulf's size"
+      ],
+      "answer": "Their weapons and armour",
+      "explain": "The Danish warriors were worried by the Geats' weapons and armour."
+    },
+    {
+      "id": "en-beo-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How is the atmosphere in the hall after Grendel's defeat?",
+      "choices": [
+        "Quiet and somber",
+        "Full of light, happiness and friendship",
+        "Empty and locked up",
+        "Broken and smashed"
+      ],
+      "answer": "Full of light, happiness and friendship",
+      "explain": "After the victory the hall is full of light, happiness and friendship."
+    },
+    {
+      "id": "en-beo-038",
+      "level": 2,
+      "type": "input",
+      "prompt": "After Heorot Hall was cleaned, what material in the tapestries shone in the sunshine?",
+      "answer": [
+        "gold"
+      ],
+      "explain": "The tapestries shone with gold in the sunshine."
+    },
+    {
+      "id": "en-beo-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Beowulf do with the treasures given by Hrothgar?",
+      "choices": [
+        "He buries them in the lake",
+        "He gives them to Wiglaf",
+        "He keeps them in Heorot",
+        "He presents them to his king, Hygelac"
+      ],
+      "answer": "He presents them to his king, Hygelac",
+      "explain": "Beowulf presents Hrothgar's treasures to Hygelac."
+    },
+    {
+      "id": "en-beo-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Beowulf promise Hrothgar about the fight with Grendel?",
+      "choices": [
+        "To fight without weapons",
+        "To bring a giant sword",
+        "To leave Heorot",
+        "To fight with the help of a dragon"
+      ],
+      "answer": "To fight without weapons",
+      "explain": "Beowulf promises to fight Grendel without weapons, relying on his strength."
+    },
+    {
+      "id": "en-beo-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does the dragon do after it is awakened?",
+      "choices": [
+        "It sails to Heorot",
+        "It ravages the countryside",
+        "It helps Beowulf",
+        "It returns the treasure"
+      ],
+      "answer": "It ravages the countryside",
+      "explain": "The awakened dragon begins ravaging the countryside."
+    },
+    {
+      "id": "en-beo-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What happens just before the dragon is awakened?",
+      "choices": [
+        "Beowulf dives into the lake",
+        "Grendel attacks Heorot",
+        "Beowulf rules Geatland for fifty years in peace",
+        "Beowulf sails to Denmark"
+      ],
+      "answer": "Beowulf rules Geatland for fifty years in peace",
+      "explain": "Beowulf rules for fifty years before the dragon episode begins."
+    },
+    {
+      "id": "en-beo-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How many of Beowulf's warriors remain loyal and fight by his side against the dragon?",
+      "choices": [
+        "None",
+        "Two",
+        "All of them",
+        "One"
+      ],
+      "answer": "One",
+      "explain": "Only one warrior, Wiglaf, stays loyal."
+    },
+    {
+      "id": "en-beo-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What does Grendel do when he arrives in Heorot on the night Beowulf stays there?",
+      "choices": [
+        "He kills one warrior",
+        "He kills no one",
+        "He kills Hrothgar",
+        "He burns the hall"
+      ],
+      "answer": "He kills one warrior",
+      "explain": "Grendel kills one warrior before Beowulf grapples with him."
+    },
+    {
+      "id": "en-beo-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "After the fight, where does the mortally wounded Grendel flee?",
+      "choices": [
+        "To Geatland",
+        "Back to his lair",
+        "To the dragon's hoard",
+        "To Hygelac's hall"
+      ],
+      "answer": "Back to his lair",
+      "explain": "Mortally wounded, Grendel flees back to his lair."
+    },
+    {
+      "id": "en-beo-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Whose sword is useless against Grendel's mother? (Beowulf / Wiglaf / Hrothgar)",
+      "answer": [
+        "Beowulf"
+      ],
+      "explain": "Beowulf's own sword is useless against her."
+    },
+    {
+      "id": "en-beo-047",
+      "level": 3,
+      "type": "input",
+      "prompt": "In what year did Pope Gregory send Augustine to Britain to convert the Anglo-Saxons to Christianity?",
+      "answer": [
+        "597"
+      ],
+      "explain": "Augustine was sent to Britain in 597."
+    },
+    {
+      "id": "en-beo-048",
+      "level": 3,
+      "type": "input",
+      "prompt": "In what year did the Anglo-Saxon period end with the Battle of Hastings?",
+      "answer": [
+        "1066"
+      ],
+      "explain": "The Anglo-Saxon period ended in 1066."
+    },
+    {
+      "id": "en-beo-049",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Between which centuries was Beowulf likely written?",
+      "choices": [
+        "Between the 1st and 4th centuries",
+        "Between the 8th and 11th centuries",
+        "Between the 5th and 7th centuries",
+        "Between the 12th and 15th centuries"
+      ],
+      "answer": "Between the 8th and 11th centuries",
+      "explain": "Beowulf was likely written between the 8th and 11th centuries."
+    },
+    {
+      "id": "en-beo-050",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Who likely wrote Beowulf?",
+      "choices": [
+        "King Hrothgar",
+        "Pope Gregory",
+        "An anonymous Anglo-Saxon poet",
+        "A famous Danish warrior"
+      ],
+      "answer": "An anonymous Anglo-Saxon poet",
+      "explain": "The poem was likely written by an anonymous Anglo-Saxon poet."
+    },
+    {
+      "id": "en-beo-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What do many scholars believe the poet may have been?",
+      "choices": [
+        "A Danish king",
+        "A Geat warrior",
+        "A pagan priest",
+        "A Christian monk or scribe"
+      ],
+      "answer": "A Christian monk or scribe",
+      "explain": "Many scholars think the poet may have been a Christian monk or scribe."
+    },
+    {
+      "id": "en-beo-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The poet was familiar with which traditions?",
+      "choices": [
+        "Both pagan oral traditions and Christian teachings",
+        "Only pagan oral traditions",
+        "Only Christian teachings",
+        "Roman and Greek epics"
+      ],
+      "answer": "Both pagan oral traditions and Christian teachings",
+      "explain": "The poet knew both pagan oral traditions and Christian teachings."
+    },
+    {
+      "id": "en-beo-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf is considered the earliest surviving epic in which literary tradition?",
+      "choices": [
+        "French",
+        "English",
+        "Roman",
+        "Greek"
+      ],
+      "answer": "English",
+      "explain": "Beowulf is the earliest surviving epic of the English tradition."
+    },
+    {
+      "id": "en-beo-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Why did Pope Gregory send Augustine to Britain?",
+      "choices": [
+        "To fight Grendel",
+        "To translate Beowulf",
+        "To convert the Anglo-Saxons to Christianity",
+        "To end the Battle of Hastings"
+      ],
+      "answer": "To convert the Anglo-Saxons to Christianity",
+      "explain": "Augustine was sent to convert the Anglo-Saxons to Christianity."
+    },
+    {
+      "id": "en-beo-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which event ended the Anglo-Saxon period?",
+      "choices": [
+        "The arrival of Augustine",
+        "The death of Hygelac",
+        "The building of Heorot",
+        "The Battle of Hastings"
+      ],
+      "answer": "The Battle of Hastings",
+      "explain": "The Battle of Hastings in 1066 ended the Anglo-Saxon period."
+    },
+    {
+      "id": "en-beo-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which theme does Wiglaf illustrate when he stays by Beowulf's side?",
+      "choices": [
+        "Loyalty",
+        "Fate and legacy",
+        "Good versus evil",
+        "Glory through deeds"
+      ],
+      "answer": "Loyalty",
+      "explain": "Wiglaf stays by Beowulf's side, showing the value of true loyalty."
+    },
+    {
+      "id": "en-beo-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf battles Grendel, his mother and the dragon. Which theme does this show?",
+      "choices": [
+        "Loyalty",
+        "Good versus evil",
+        "Fate and legacy",
+        "Humility before God"
+      ],
+      "answer": "Good versus evil",
+      "explain": "Beowulf (good) battles Grendel, his mother and the dragon (evil)."
+    },
+    {
+      "id": "en-beo-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf faces danger without fear and seeks glory through deeds. Which theme is this?",
+      "choices": [
+        "Loyalty",
+        "Good versus evil",
+        "Heroism and bravery",
+        "Fate and legacy"
+      ],
+      "answer": "Heroism and bravery",
+      "explain": "Facing danger without fear and seeking glory show heroism and bravery."
+    },
+    {
+      "id": "en-beo-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Characters often refer to fate. Which theme is this?",
+      "choices": [
+        "Heroism and bravery",
+        "Loyalty",
+        "Good versus evil",
+        "Fate and legacy"
+      ],
+      "answer": "Fate and legacy",
+      "explain": "Frequent references to fate belong to the theme of fate and legacy."
+    },
+    {
+      "id": "en-beo-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What is a kenning?",
+      "choices": [
+        "A poetic phrase",
+        "A kind of sword",
+        "A mead-hall",
+        "A treasure hoard"
+      ],
+      "answer": "A poetic phrase",
+      "explain": "A kenning is a poetic phrase."
+    },
+    {
+      "id": "en-beo-061",
+      "level": 3,
+      "type": "input",
+      "prompt": "What two-word kenning for King Hrothgar means 'king' and refers to his generosity?",
+      "answer": [
+        "ring-giver",
+        "ring giver",
+        "ringgiver",
+        "the ring-giver",
+        "a ring-giver"
+      ],
+      "explain": "'Ring-giver' refers to the king's generosity in rewarding his followers."
+    },
+    {
+      "id": "en-beo-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What is a mead-hall in the poem?",
+      "choices": [
+        "A lake where monsters live",
+        "A cave that guards treasure",
+        "A hall where warriors gather to celebrate",
+        "A boat used to cross the sea"
+      ],
+      "answer": "A hall where warriors gather to celebrate",
+      "explain": "Heorot is a mead-hall where Hrothgar's warriors gather to celebrate."
+    },
+    {
+      "id": "en-beo-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "The dragon guards a treasure ___. (hoard / lair / feud)",
+      "answer": [
+        "hoard"
+      ],
+      "explain": "The dragon guards a treasure hoard."
+    },
+    {
+      "id": "en-beo-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "Grendel's mother lives in an underwater ___. (hoard / lair / feud)",
+      "answer": [
+        "lair"
+      ],
+      "explain": "Grendel's mother lives in an underwater lair."
+    },
+    {
+      "id": "en-beo-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word describes Ecgtheow's quarrel, which Hrothgar helped to resolve?",
+      "choices": [
+        "A kenning",
+        "A feud",
+        "A hoard",
+        "A lair"
+      ],
+      "answer": "A feud",
+      "explain": "Hrothgar helped Ecgtheow resolve his feud."
+    },
+    {
+      "id": "en-beo-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What may have been one motivation for writing Beowulf?",
+      "choices": [
+        "Winning the Battle of Hastings",
+        "Teaching Old English to the Danes",
+        "Preserving heroic tales from the fading oral tradition",
+        "Recording the life of Augustine"
+      ],
+      "answer": "Preserving heroic tales from the fading oral tradition",
+      "explain": "The poet may have wanted to preserve heroic tales from the fading oral tradition."
+    },
+    {
+      "id": "en-beo-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which cultural values does the poem celebrate?",
+      "choices": [
+        "Wealth, speed and trade",
+        "Fear, silence and revenge",
+        "Magic, secrecy and luck",
+        "Bravery, loyalty and honor"
+      ],
+      "answer": "Bravery, loyalty and honor",
+      "explain": "The poem celebrates cultural values like bravery, loyalty and honor."
+    },
+    {
+      "id": "en-beo-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Besides heroic deeds, which themes does the Christian side of the poem emphasize?",
+      "choices": [
+        "Divine justice and humility before God",
+        "Revenge and chaos",
+        "Treasure and conquest",
+        "Speed and strength"
+      ],
+      "answer": "Divine justice and humility before God",
+      "explain": "The poem also emphasizes divine justice and humility before God."
+    },
+    {
+      "id": "en-beo-069",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In Anglo-Saxon society, what was of great importance to a warrior?",
+      "choices": [
+        "His language",
+        "His reputation",
+        "His boat",
+        "His age"
+      ],
+      "answer": "His reputation",
+      "explain": "Anglo-Saxon society placed great importance on a warrior's reputation."
+    },
+    {
+      "id": "en-beo-070",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What did Anglo-Saxon warriors depend on their lord for?",
+      "choices": [
+        "Sailing lessons",
+        "Poetry and songs",
+        "Protection, rewards and social status",
+        "Weapons made of magic"
+      ],
+      "answer": "Protection, rewards and social status",
+      "explain": "Warriors depended on their lord for protection, rewards and social status."
+    },
+    {
+      "id": "en-beo-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How does the poem mix two traditions?",
+      "choices": [
+        "It mixes Old English with French",
+        "It combines Danish and Geat laws",
+        "It blends monsters with real history",
+        "It blends pagan heroic ideals with Christian morality"
+      ],
+      "answer": "It blends pagan heroic ideals with Christian morality",
+      "explain": "The poem blends pagan heroic ideals with Christian morality."
+    }
+  ]
+}

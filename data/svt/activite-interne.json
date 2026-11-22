@@ -1,0 +1,1432 @@
+{
+  "topic": "svt-activite-interne",
+  "questions": [
+    {
+      "id": "svt-ai-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment se manifeste un séisme ?",
+      "choices": [
+        "Par de fortes vibrations du sol de courte durée",
+        "Par une lente montée du niveau de la mer",
+        "Par une émission de lave et de gaz",
+        "Par un vent violent pendant plusieurs jours"
+      ],
+      "answer": "Par de fortes vibrations du sol de courte durée",
+      "explain": "Un séisme se manifeste par de fortes vibrations du sol de courte durée."
+    },
+    {
+      "id": "svt-ai-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est un autre nom du séisme ?",
+      "choices": [
+        "L'éruption volcanique",
+        "Le tremblement de terre",
+        "Le glissement de terrain",
+        "La nuée ardente"
+      ],
+      "answer": "Le tremblement de terre",
+      "explain": "Séisme et tremblement de terre désignent le même phénomène."
+    },
+    {
+      "id": "svt-ai-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les vibrations du sol d'un séisme sont-elles de courte durée ou de longue durée ? (courte durée / longue durée)",
+      "answer": [
+        "courte durée"
+      ],
+      "explain": "Les vibrations d'un séisme sont de courte durée."
+    },
+    {
+      "id": "svt-ai-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Laquelle de ces déformations peut être provoquée par un séisme ?",
+      "choices": [
+        "Une coulée de lave",
+        "Une nuée ardente",
+        "Un éboulement",
+        "Un réservoir magmatique"
+      ],
+      "answer": "Un éboulement",
+      "explain": "Les séismes provoquent des éboulements et des glissements de terrain."
+    },
+    {
+      "id": "svt-ai-005",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que sont des dégâts humains après un séisme ?",
+      "choices": [
+        "La destruction de bâtiments",
+        "La destruction de routes",
+        "Des éboulements",
+        "De nombreux morts et blessés"
+      ],
+      "answer": "De nombreux morts et blessés",
+      "explain": "Les dégâts humains sont de nombreux morts et blessés."
+    },
+    {
+      "id": "svt-ai-006",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quels sont des dégâts matériels après un séisme ?",
+      "choices": [
+        "La destruction de bâtiments et de routes",
+        "De nombreux morts et blessés",
+        "De fortes vibrations du sol",
+        "Une montée de magma"
+      ],
+      "answer": "La destruction de bâtiments et de routes",
+      "explain": "Les dégâts matériels sont la destruction de bâtiments, de routes..."
+    },
+    {
+      "id": "svt-ai-007",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Éboulements et glissements de terrain sont des...",
+      "choices": [
+        "ondes sismiques",
+        "déformations à la surface de la Terre",
+        "failles en profondeur",
+        "foyers de séisme"
+      ],
+      "answer": "déformations à la surface de la Terre",
+      "explain": "Les vibrations provoquent des déformations à la surface : éboulements, glissements de terrain."
+    },
+    {
+      "id": "svt-ai-008",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Après un séisme, un stade est fissuré et une route est coupée. De quels dégâts s'agit-il ?",
+      "choices": [
+        "Uniquement des dégâts humains",
+        "Des dégâts volcaniques",
+        "Des dégâts matériels",
+        "Aucun dégât"
+      ],
+      "answer": "Des dégâts matériels",
+      "explain": "Bâtiments et routes abîmés sont des dégâts matériels."
+    },
+    {
+      "id": "svt-ai-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qui provoque un séisme ?",
+      "choices": [
+        "Une remontée de magma",
+        "L'éruption d'un volcan",
+        "Un glissement de terrain en surface",
+        "Une rupture brutale de roches en profondeur"
+      ],
+      "answer": "Une rupture brutale de roches en profondeur",
+      "explain": "Un séisme est provoqué par une rupture brutale de roches en profondeur."
+    },
+    {
+      "id": "svt-ai-010",
+      "level": 1,
+      "type": "input",
+      "prompt": "Comment s'appellent les forces qui s'exercent sur les roches avant un séisme ?",
+      "answer": [
+        "contraintes",
+        "les contraintes",
+        "des contraintes",
+        "contrainte",
+        "la contrainte",
+        "une contrainte"
+      ],
+      "explain": "Les forces qui agissent sur les roches sont les contraintes."
+    },
+    {
+      "id": "svt-ai-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Lors d'un séisme, deux blocs de roches glissent l'un contre l'autre le long d'une... ?",
+      "answer": [
+        "faille",
+        "une faille",
+        "la faille"
+      ],
+      "explain": "Les deux blocs glissent brutalement le long d'une faille."
+    },
+    {
+      "id": "svt-ai-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le foyer d'un séisme ?",
+      "choices": [
+        "Le lieu où se produit la rupture des roches",
+        "Le point de la surface à la verticale de la rupture",
+        "L'appareil qui enregistre les ondes",
+        "Le lieu où le magma est stocké"
+      ],
+      "answer": "Le lieu où se produit la rupture des roches",
+      "explain": "Le foyer est le lieu où se produit la rupture."
+    },
+    {
+      "id": "svt-ai-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qui se propage dans toutes les directions à partir du foyer ?",
+      "choices": [
+        "De la lave fluide",
+        "Des vibrations sous forme d'ondes sismiques",
+        "Des nuées ardentes",
+        "Des contraintes"
+      ],
+      "answer": "Des vibrations sous forme d'ondes sismiques",
+      "explain": "Du foyer partent des vibrations, les ondes sismiques."
+    },
+    {
+      "id": "svt-ai-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Où se produit la rupture des roches lors d'un séisme ?",
+      "choices": [
+        "À la surface de la Terre",
+        "Dans l'atmosphère",
+        "En profondeur",
+        "Dans un réservoir magmatique"
+      ],
+      "answer": "En profondeur",
+      "explain": "La rupture a lieu en profondeur, au foyer."
+    },
+    {
+      "id": "svt-ai-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que se passe-t-il dans les roches avant un séisme ?",
+      "choices": [
+        "De l'énergie est libérée doucement sans rupture",
+        "Les roches fondent et forment du magma",
+        "Les roches s'éboulent en surface",
+        "De l'énergie s'accumule pendant un certain temps jusqu'à la rupture"
+      ],
+      "answer": "De l'énergie s'accumule pendant un certain temps jusqu'à la rupture",
+      "explain": "L'énergie s'accumule dans les roches qui finissent par se rompre."
+    },
+    {
+      "id": "svt-ai-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans quelles directions se propagent les ondes sismiques à partir du foyer ?",
+      "choices": [
+        "Dans toutes les directions",
+        "Seulement vers le haut",
+        "Seulement à l'horizontale",
+        "Seulement vers le bas"
+      ],
+      "answer": "Dans toutes les directions",
+      "explain": "Les vibrations se propagent dans toutes les directions."
+    },
+    {
+      "id": "svt-ai-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand un séisme se produit-il en surface ?",
+      "choices": [
+        "Quand les roches commencent à s'user",
+        "Quand les ondes sismiques atteignent la surface de la Terre",
+        "Quand le magma sort du volcan",
+        "Quand le sismographe démarre"
+      ],
+      "answer": "Quand les ondes sismiques atteignent la surface de la Terre",
+      "explain": "Les ondes qui atteignent la surface provoquent le séisme et ses dégâts."
+    },
+    {
+      "id": "svt-ai-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que signifie le mot « contraintes » dans le cours sur les séismes ?",
+      "choices": [
+        "Les dégâts causés en surface",
+        "Les ondes enregistrées par l'appareil",
+        "Les forces qui s'exercent sur les roches",
+        "Les deux blocs de roches"
+      ],
+      "answer": "Les forces qui s'exercent sur les roches",
+      "explain": "Les contraintes sont les forces qui s'exercent sur les roches."
+    },
+    {
+      "id": "svt-ai-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que font les deux blocs de roches lors d'un séisme ?",
+      "choices": [
+        "Ils fondent lentement en profondeur",
+        "Ils se séparent et laissent sortir de la lave",
+        "Ils s'éloignent sans bruit",
+        "Ils glissent brutalement l'un contre l'autre le long d'une faille"
+      ],
+      "answer": "Ils glissent brutalement l'un contre l'autre le long d'une faille",
+      "explain": "Après la rupture, les deux blocs glissent brutalement le long d'une faille."
+    },
+    {
+      "id": "svt-ai-020",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pourquoi les roches finissent-elles par se rompre brutalement ?",
+      "choices": [
+        "Parce que de l'énergie s'est accumulée dans les roches pendant un certain temps",
+        "Parce que du magma les chauffe de l'intérieur",
+        "Parce que les ondes sismiques les frappent",
+        "Parce que la lave les refroidit d'un coup"
+      ],
+      "answer": "Parce que de l'énergie s'est accumulée dans les roches pendant un certain temps",
+      "explain": "L'énergie s'accumule sous l'action des contraintes, puis les roches se rompent."
+    },
+    {
+      "id": "svt-ai-021",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le bon ordre des étapes d'un séisme ?",
+      "choices": [
+        "Ondes sismiques, rupture, contraintes, accumulation d'énergie",
+        "Contraintes, accumulation d'énergie, rupture, ondes sismiques",
+        "Rupture, contraintes, ondes sismiques, accumulation d'énergie",
+        "Accumulation d'énergie, ondes sismiques, contraintes, rupture"
+      ],
+      "answer": "Contraintes, accumulation d'énergie, rupture, ondes sismiques",
+      "explain": "Les contraintes font accumuler l'énergie, les roches se rompent, puis les ondes partent du foyer."
+    },
+    {
+      "id": "svt-ai-022",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase sur le foyer et l'épicentre est correcte ?",
+      "choices": [
+        "Le foyer est à la surface, l'épicentre est en profondeur",
+        "Le foyer et l'épicentre sont tous deux en profondeur",
+        "Le foyer est en profondeur, l'épicentre est à la surface",
+        "Le foyer et l'épicentre sont tous deux à la surface"
+      ],
+      "answer": "Le foyer est en profondeur, l'épicentre est à la surface",
+      "explain": "L'épicentre est à la verticale du foyer, en surface."
+    },
+    {
+      "id": "svt-ai-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que fait un modèle ?",
+      "choices": [
+        "Il enregistre les ondes sismiques",
+        "Il mesure l'énergie libérée au foyer",
+        "Il prévoit la date d'un séisme",
+        "Il reproduit à petite échelle un phénomène que l'on veut étudier"
+      ],
+      "answer": "Il reproduit à petite échelle un phénomène que l'on veut étudier",
+      "explain": "Un modèle reproduit à petite échelle un phénomène à étudier (maquette)."
+    },
+    {
+      "id": "svt-ai-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une simulation ?",
+      "choices": [
+        "Une reproduction artificielle du fonctionnement d'un phénomène à l'aide d'un modèle",
+        "Un séisme qui se produit en vrai",
+        "Un dessin obtenu avec un sismographe",
+        "Une petite maquette sans mouvement"
+      ],
+      "answer": "Une reproduction artificielle du fonctionnement d'un phénomène à l'aide d'un modèle",
+      "explain": "Une simulation utilise un modèle pour reproduire le fonctionnement d'un phénomène."
+    },
+    {
+      "id": "svt-ai-025",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une maquette qui reproduit un séisme à petite échelle est un... ? (modèle / simulation)",
+      "answer": [
+        "modèle"
+      ],
+      "explain": "Un modèle est une reproduction à petite échelle (maquette)."
+    },
+    {
+      "id": "svt-ai-026",
+      "level": 2,
+      "type": "input",
+      "prompt": "Reproduire artificiellement le fonctionnement d'un séisme avec un modèle, c'est faire une... ? (modèle / simulation)",
+      "answer": [
+        "simulation"
+      ],
+      "explain": "La simulation reproduit le fonctionnement du phénomène à l'aide d'un modèle."
+    },
+    {
+      "id": "svt-ai-027",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève utilise un logiciel qui reproduit un séisme à partir d'un modèle. Comment appelle-t-on cette reproduction ?",
+      "choices": [
+        "Un séisme réel",
+        "Une simulation",
+        "Un sismogramme",
+        "Une faille"
+      ],
+      "answer": "Une simulation",
+      "explain": "Reproduire le fonctionnement d'un phénomène avec un modèle est une simulation."
+    },
+    {
+      "id": "svt-ai-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'épicentre d'un séisme ?",
+      "choices": [
+        "Le lieu en profondeur où les roches se rompent",
+        "L'appareil qui enregistre les ondes",
+        "Le point de la surface situé à la verticale du foyer",
+        "La quantité d'énergie libérée"
+      ],
+      "answer": "Le point de la surface situé à la verticale du foyer",
+      "explain": "L'épicentre est situé à la verticale du foyer."
+    },
+    {
+      "id": "svt-ai-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le premier point de la surface atteint par les ondes sismiques ?",
+      "choices": [
+        "Le foyer",
+        "Le sismogramme",
+        "La faille",
+        "L'épicentre"
+      ],
+      "answer": "L'épicentre",
+      "explain": "L'épicentre est le premier point de la surface atteint par les ondes."
+    },
+    {
+      "id": "svt-ai-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'intensité sismique ?",
+      "choices": [
+        "Les effets du séisme à un endroit donné",
+        "La quantité d'énergie libérée au foyer",
+        "La durée de l'enregistrement",
+        "La profondeur du foyer"
+      ],
+      "answer": "Les effets du séisme à un endroit donné",
+      "explain": "L'intensité sismique correspond aux effets du séisme."
+    },
+    {
+      "id": "svt-ai-031",
+      "level": 2,
+      "type": "input",
+      "prompt": "Plus on s'éloigne de l'épicentre, l'intensité sismique augmente ou diminue ? (augmente / diminue)",
+      "answer": [
+        "diminue"
+      ],
+      "explain": "Plus on s'éloigne de l'épicentre, moins l'intensité est élevée."
+    },
+    {
+      "id": "svt-ai-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Où l'intensité d'un séisme est-elle la plus élevée ?",
+      "choices": [
+        "Loin de l'épicentre",
+        "Près de l'épicentre",
+        "Seulement au foyer",
+        "Partout de la même façon"
+      ],
+      "answer": "Près de l'épicentre",
+      "explain": "L'intensité diminue quand on s'éloigne de l'épicentre."
+    },
+    {
+      "id": "svt-ai-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est l'intensité sismique à Bam ?",
+      "choices": [
+        "V",
+        "III",
+        "IX",
+        "XII"
+      ],
+      "answer": "IX",
+      "explain": "À Bam, l'intensité sismique est de IX."
+    },
+    {
+      "id": "svt-ai-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est l'intensité sismique à Abaragh ?",
+      "choices": [
+        "IX",
+        "II",
+        "VII",
+        "V"
+      ],
+      "answer": "V",
+      "explain": "À Abaragh, l'intensité sismique est de V."
+    },
+    {
+      "id": "svt-ai-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À Bam, avec une intensité de IX, que constate-t-on ?",
+      "choices": [
+        "Des dégâts destructeurs, avec des effondrements de bâtiments",
+        "Seulement des secousses ressenties",
+        "Aucun dégât",
+        "Une éruption de lave"
+      ],
+      "answer": "Des dégâts destructeurs, avec des effondrements de bâtiments",
+      "explain": "À Bam les dégâts sont destructeurs (effondrements des bâtiments)."
+    },
+    {
+      "id": "svt-ai-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À Abaragh, avec une intensité de V, que constate-t-on ?",
+      "choices": [
+        "Des effondrements de bâtiments",
+        "Des dégâts forts, des secousses ressenties",
+        "Aucun effet du séisme",
+        "Des nuées ardentes"
+      ],
+      "answer": "Des dégâts forts, des secousses ressenties",
+      "explain": "À Abaragh les dégâts sont forts (secousses ressenties)."
+    },
+    {
+      "id": "svt-ai-037",
+      "level": 3,
+      "type": "input",
+      "prompt": "Rappel du cours : plus on s'éloigne de l'épicentre, plus l'intensité sismique est faible. Après un séisme, l'intensité est de IX à Bam et de V à Abaragh. Quelle ville est la plus proche de l'épicentre ? (Bam / Abaragh)",
+      "answer": [
+        "Bam"
+      ],
+      "explain": "L'intensité est plus élevée près de l'épicentre, donc Bam est plus proche."
+    },
+    {
+      "id": "svt-ai-038",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Rappel du cours : plus on s'éloigne de l'épicentre, plus l'intensité sismique est faible. Dans une ville les bâtiments s'effondrent (intensité IX), dans une autre on sent seulement des secousses (intensité V). Que peut-on en déduire ?",
+      "choices": [
+        "La seconde ville est plus proche de l'épicentre",
+        "Les deux villes sont à la même distance de l'épicentre",
+        "La première ville est plus proche de l'épicentre",
+        "Le foyer est à la surface de la première ville"
+      ],
+      "answer": "La première ville est plus proche de l'épicentre",
+      "explain": "L'intensité diminue avec l'éloignement de l'épicentre."
+    },
+    {
+      "id": "svt-ai-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel appareil enregistre les ondes sismiques ?",
+      "choices": [
+        "Un thermomètre",
+        "Un baromètre",
+        "Un anémomètre",
+        "Un sismographe"
+      ],
+      "answer": "Un sismographe",
+      "explain": "Le sismographe est l'appareil qui enregistre les ondes sismiques."
+    },
+    {
+      "id": "svt-ai-040",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel autre nom porte le sismographe ?",
+      "answer": [
+        "sismomètre",
+        "le sismomètre",
+        "un sismomètre"
+      ],
+      "explain": "Sismographe et sismomètre désignent le même appareil."
+    },
+    {
+      "id": "svt-ai-041",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle le dessin obtenu avec un sismographe ?",
+      "choices": [
+        "Un sismogramme",
+        "Un sismomètre",
+        "Une magnitude",
+        "Un épicentre"
+      ],
+      "answer": "Un sismogramme",
+      "explain": "Le sismogramme est le dessin de l'enregistrement ; le sismographe est l'appareil."
+    },
+    {
+      "id": "svt-ai-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte ?",
+      "choices": [
+        "Le sismographe est un dessin, le sismogramme est un appareil",
+        "Le sismographe est un appareil, le sismogramme est un dessin",
+        "Le sismographe et le sismogramme sont deux appareils",
+        "Le sismographe et le sismogramme sont deux dessins"
+      ],
+      "answer": "Le sismographe est un appareil, le sismogramme est un dessin",
+      "explain": "Appareil : sismographe ; dessin : sismogramme."
+    },
+    {
+      "id": "svt-ai-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la magnitude d'un séisme ?",
+      "choices": [
+        "Les effets du séisme en surface",
+        "La distance entre l'épicentre et la ville",
+        "La quantité d'énergie libérée au foyer",
+        "La durée des vibrations"
+      ],
+      "answer": "La quantité d'énergie libérée au foyer",
+      "explain": "La magnitude est la quantité d'énergie libérée au foyer."
+    },
+    {
+      "id": "svt-ai-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sur quelle échelle mesure-t-on la magnitude ?",
+      "choices": [
+        "L'échelle de Celsius",
+        "L'échelle de Beaufort",
+        "L'échelle des intensités de Bam",
+        "L'échelle de Richter"
+      ],
+      "answer": "L'échelle de Richter",
+      "explain": "La magnitude se lit sur l'échelle de Richter."
+    },
+    {
+      "id": "svt-ai-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la graduation de l'échelle de Richter ?",
+      "choices": [
+        "De 1 à 9",
+        "De 1 à 5",
+        "De 1 à 12",
+        "De 1 à 100"
+      ],
+      "answer": "De 1 à 9",
+      "explain": "L'échelle de Richter va de 1 à 9."
+    },
+    {
+      "id": "svt-ai-046",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la plus grande valeur de l'échelle de Richter ?",
+      "answer": [
+        "9"
+      ],
+      "explain": "L'échelle de Richter va de 1 à 9."
+    },
+    {
+      "id": "svt-ai-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que permettent de déduire les enregistrements des ondes sismiques ?",
+      "choices": [
+        "La date du prochain séisme",
+        "La magnitude du séisme",
+        "Le nom de la faille",
+        "La température du foyer"
+      ],
+      "answer": "La magnitude du séisme",
+      "explain": "Les enregistrements permettent de déduire la magnitude."
+    },
+    {
+      "id": "svt-ai-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel lien y a-t-il entre la magnitude et les dégâts ?",
+      "choices": [
+        "Plus la magnitude est élevée, moins les dégâts sont importants",
+        "La magnitude n'a aucun lien avec les dégâts",
+        "Plus la magnitude est élevée, plus les dégâts sont importants",
+        "Les dégâts sont les mêmes pour toutes les magnitudes"
+      ],
+      "answer": "Plus la magnitude est élevée, plus les dégâts sont importants",
+      "explain": "Plus la magnitude est élevée, plus les dégâts sont importants."
+    },
+    {
+      "id": "svt-ai-049",
+      "level": 3,
+      "type": "input",
+      "prompt": "Le séisme A a une magnitude de 3 et le séisme B une magnitude de 7. Lequel libère le plus d'énergie ? (A / B)",
+      "answer": [
+        "B"
+      ],
+      "explain": "Plus la magnitude est élevée, plus l'énergie libérée est grande."
+    },
+    {
+      "id": "svt-ai-050",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle grandeur mesure l'énergie libérée au foyer ? (magnitude / intensité)",
+      "answer": [
+        "magnitude"
+      ],
+      "explain": "La magnitude est l'énergie libérée au foyer ; l'intensité décrit les effets."
+    },
+    {
+      "id": "svt-ai-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle grandeur décrit les effets d'un séisme à un endroit précis ?",
+      "choices": [
+        "La magnitude",
+        "La vitesse des ondes",
+        "La durée du sismogramme",
+        "L'intensité sismique"
+      ],
+      "answer": "L'intensité sismique",
+      "explain": "L'intensité représente les effets du séisme, la magnitude l'énergie au foyer."
+    },
+    {
+      "id": "svt-ai-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle formule donne la vitesse des ondes sismiques ?",
+      "choices": [
+        "Vitesse = distance / temps",
+        "Vitesse = temps / distance",
+        "Vitesse = distance × temps",
+        "Vitesse = distance + temps"
+      ],
+      "answer": "Vitesse = distance / temps",
+      "explain": "La vitesse est égale à la distance divisée par le temps."
+    },
+    {
+      "id": "svt-ai-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Comment calcule-t-on la distance parcourue par une onde, connaissant sa vitesse et sa durée ?",
+      "choices": [
+        "Distance = vitesse / temps",
+        "Distance = vitesse × temps",
+        "Distance = temps / vitesse",
+        "Distance = vitesse - temps"
+      ],
+      "answer": "Distance = vitesse × temps",
+      "explain": "Si v = d / t, alors d = v × t."
+    },
+    {
+      "id": "svt-ai-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Comment calcule-t-on la durée du trajet d'une onde, connaissant la distance et la vitesse ?",
+      "choices": [
+        "Temps = distance × vitesse",
+        "Temps = vitesse / distance",
+        "Temps = distance / vitesse",
+        "Temps = distance - vitesse"
+      ],
+      "answer": "Temps = distance / vitesse",
+      "explain": "Si v = d / t, alors t = d / v."
+    },
+    {
+      "id": "svt-ai-055",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sous quelles formes l'activité interne de la Terre se manifeste-t-elle ?",
+      "choices": [
+        "Marées et vagues",
+        "Saisons et climat",
+        "Éclipses et comètes",
+        "Séismes et volcanisme"
+      ],
+      "answer": "Séismes et volcanisme",
+      "explain": "L'activité interne de la Terre se manifeste par des séismes et du volcanisme."
+    },
+    {
+      "id": "svt-ai-056",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que désigne le volcanisme ?",
+      "choices": [
+        "L'émission de lave et de gaz à la surface de la Terre",
+        "Une rupture brutale de roches en profondeur",
+        "Des vibrations du sol de courte durée",
+        "L'enregistrement d'ondes par un appareil"
+      ],
+      "answer": "L'émission de lave et de gaz à la surface de la Terre",
+      "explain": "Le volcanisme est l'émission de lave et de gaz à la surface de la Terre."
+    },
+    {
+      "id": "svt-ai-057",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de types de volcanisme a-t-on observés en classe ?",
+      "choices": [
+        "Un",
+        "Deux",
+        "Trois",
+        "Quatre"
+      ],
+      "answer": "Deux",
+      "explain": "On a observé le volcanisme explosif et le volcanisme effusif."
+    },
+    {
+      "id": "svt-ai-058",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la caractéristique du volcanisme explosif ?",
+      "choices": [
+        "Une émission de lave fluide et des projections de faible hauteur",
+        "Une rupture brutale de roches en profondeur",
+        "Une émission de lave visqueuse et l'abondance des gaz",
+        "Une absence totale de gaz"
+      ],
+      "answer": "Une émission de lave visqueuse et l'abondance des gaz",
+      "explain": "Le volcanisme explosif : lave visqueuse et abondance des gaz."
+    },
+    {
+      "id": "svt-ai-059",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la caractéristique du volcanisme effusif ?",
+      "choices": [
+        "Une émission de lave visqueuse et l'abondance des gaz",
+        "La formation de nuées ardentes",
+        "Des vibrations du sol de courte durée",
+        "Une émission de lave fluide et des projections de hauteur relativement faible"
+      ],
+      "answer": "Une émission de lave fluide et des projections de hauteur relativement faible",
+      "explain": "Le volcanisme effusif : lave fluide et projections de faible hauteur."
+    },
+    {
+      "id": "svt-ai-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une éruption émet une lave fluide et des projections de hauteur relativement faible. De quel type de volcanisme s'agit-il ?",
+      "choices": [
+        "Effusif",
+        "Explosif",
+        "Sismique",
+        "Magmatique"
+      ],
+      "answer": "Effusif",
+      "explain": "Lave fluide et projections faibles : volcanisme effusif."
+    },
+    {
+      "id": "svt-ai-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une éruption émet une lave visqueuse et beaucoup de gaz. De quel type de volcanisme s'agit-il ?",
+      "choices": [
+        "Effusif",
+        "Explosif",
+        "Sismique",
+        "Sismographique"
+      ],
+      "answer": "Explosif",
+      "explain": "Lave visqueuse et abondance des gaz : volcanisme explosif."
+    },
+    {
+      "id": "svt-ai-062",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le volcan Calbuco est un exemple de volcanisme... ? (effusif / explosif)",
+      "answer": [
+        "explosif"
+      ],
+      "explain": "Calbuco est l'exemple de volcanisme explosif vu en cours."
+    },
+    {
+      "id": "svt-ai-063",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le Piton de la Fournaise est un exemple de volcanisme... ? (effusif / explosif)",
+      "answer": [
+        "effusif"
+      ],
+      "explain": "Le Piton de la Fournaise est l'exemple de volcanisme effusif vu en cours."
+    },
+    {
+      "id": "svt-ai-064",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que se forme-t-il sous la pression des gaz lors d'un volcanisme explosif ?",
+      "choices": [
+        "Des failles",
+        "Des coulées de lave fluide",
+        "Des nuées ardentes",
+        "Des ondes sismiques"
+      ],
+      "answer": "Des nuées ardentes",
+      "explain": "Sous la pression des gaz, il se forme des nuées ardentes."
+    },
+    {
+      "id": "svt-ai-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel type de volcanisme forme des nuées ardentes ? (effusif / explosif)",
+      "answer": [
+        "explosif"
+      ],
+      "explain": "Les nuées ardentes se forment lors du volcanisme explosif."
+    },
+    {
+      "id": "svt-ai-066",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un volcan émet une lave très fluide, projetée à faible hauteur. Peut-il former des nuées ardentes ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Les nuées ardentes appartiennent au volcanisme explosif, pas à l'effusif."
+    },
+    {
+      "id": "svt-ai-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel type d'éruption est le plus dangereux ?",
+      "choices": [
+        "Les éruptions effusives",
+        "Les deux sont aussi calmes",
+        "Aucune éruption n'est dangereuse",
+        "Les éruptions explosives"
+      ],
+      "answer": "Les éruptions explosives",
+      "explain": "Les éruptions explosives sont soudaines et plus violentes (nuées ardentes)."
+    },
+    {
+      "id": "svt-ai-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi les éruptions explosives sont-elles les plus dangereuses ?",
+      "choices": [
+        "Elles sont soudaines et leurs manifestations sont plus violentes",
+        "Elles durent toujours plus longtemps",
+        "Elles ne produisent jamais de gaz",
+        "Elles émettent de la lave plus fluide"
+      ],
+      "answer": "Elles sont soudaines et leurs manifestations sont plus violentes",
+      "explain": "Elles sont soudaines et violentes, avec des nuées ardentes."
+    },
+    {
+      "id": "svt-ai-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est l'origine des éruptions volcaniques ?",
+      "choices": [
+        "Une rupture brutale de roches",
+        "Une remontée de magma",
+        "L'arrivée d'ondes sismiques",
+        "Un glissement le long d'une faille"
+      ],
+      "answer": "Une remontée de magma",
+      "explain": "Les éruptions volcaniques ont pour origine une remontée de magma."
+    },
+    {
+      "id": "svt-ai-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "D'où provient le magma ?",
+      "choices": [
+        "Du refroidissement de la lave en surface",
+        "Des vibrations du sol",
+        "De la fusion des roches en profondeur",
+        "De l'accumulation d'énergie dans une faille"
+      ],
+      "answer": "De la fusion des roches en profondeur",
+      "explain": "Le magma provient de la fusion des roches en profondeur."
+    },
+    {
+      "id": "svt-ai-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Comment s'appelle l'endroit où le magma est stocké ? (2 mots)",
+      "answer": [
+        "réservoir magmatique",
+        "un réservoir magmatique",
+        "le réservoir magmatique"
+      ],
+      "explain": "Le magma est stocké dans un réservoir magmatique."
+    },
+    {
+      "id": "svt-ai-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que dit-on du magma qui monte lors d'une éruption ?",
+      "choices": [
+        "Il est dépourvu de gaz",
+        "Il est déjà refroidi",
+        "Il est solide",
+        "Il est riche en gaz"
+      ],
+      "answer": "Il est riche en gaz",
+      "explain": "Lors d'une éruption, on observe une montée de magma riche en gaz."
+    },
+    {
+      "id": "svt-ai-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que devient la lave en se refroidissant ?",
+      "choices": [
+        "De nouvelles roches qui constituent l'édifice volcanique",
+        "Du magma stocké dans un réservoir",
+        "Des ondes sismiques",
+        "Des nuées ardentes"
+      ],
+      "answer": "De nouvelles roches qui constituent l'édifice volcanique",
+      "explain": "La lave refroidie forme de nouvelles roches qui construisent l'édifice volcanique."
+    },
+    {
+      "id": "svt-ai-074",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qui constitue l'édifice volcanique ?",
+      "choices": [
+        "Les blocs de roches de part et d'autre d'une faille",
+        "Les roches formées par le refroidissement de la lave",
+        "Le réservoir magmatique",
+        "Les ondes sismiques"
+      ],
+      "answer": "Les roches formées par le refroidissement de la lave",
+      "explain": "L'édifice volcanique est fait des roches formées par la lave refroidie."
+    },
+    {
+      "id": "svt-ai-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase distingue correctement magma et lave ?",
+      "choices": [
+        "La lave est stockée en profondeur, le magma s'écoule lors de l'éruption",
+        "Magma et lave sont stockés dans le réservoir magmatique",
+        "Le magma est stocké en profondeur, la lave s'écoule lors de l'éruption",
+        "Magma et lave désignent des roches déjà refroidies"
+      ],
+      "answer": "Le magma est stocké en profondeur, la lave s'écoule lors de l'éruption",
+      "explain": "Le magma est dans le réservoir magmatique ; la lave s'écoule lors de l'éruption."
+    },
+    {
+      "id": "svt-ai-076",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le bon ordre pour la formation d'un volcan ?",
+      "choices": [
+        "Éruption, fusion des roches, stockage du magma, refroidissement de la lave, remontée",
+        "Refroidissement de la lave, fusion des roches, remontée, stockage du magma, éruption",
+        "Stockage du magma, éruption, fusion des roches, remontée, refroidissement de la lave",
+        "Fusion des roches, stockage du magma, remontée, éruption, refroidissement de la lave"
+      ],
+      "answer": "Fusion des roches, stockage du magma, remontée, éruption, refroidissement de la lave",
+      "explain": "Le magma naît de la fusion, est stocké, monte, puis la lave refroidie forme l'édifice."
+    },
+    {
+      "id": "svt-ai-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase compare correctement l'origine d'un séisme et celle d'une éruption ?",
+      "choices": [
+        "Séisme : rupture de roches ; éruption : remontée de magma",
+        "Séisme : remontée de magma ; éruption : rupture de roches",
+        "Séisme et éruption : fusion des roches en surface",
+        "Séisme et éruption : refroidissement de la lave"
+      ],
+      "answer": "Séisme : rupture de roches ; éruption : remontée de magma",
+      "explain": "Séisme : rupture brutale de roches ; éruption : remontée de magma."
+    },
+    {
+      "id": "svt-ai-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "La lave du volcanisme effusif est-elle fluide ou visqueuse ? (fluide / visqueuse)",
+      "answer": [
+        "fluide"
+      ],
+      "explain": "Le volcanisme effusif émet une lave fluide."
+    },
+    {
+      "id": "svt-ai-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "La lave du volcanisme explosif est-elle fluide ou visqueuse ? (fluide / visqueuse)",
+      "answer": [
+        "visqueuse"
+      ],
+      "explain": "Le volcanisme explosif émet une lave visqueuse."
+    },
+    {
+      "id": "svt-ai-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un volcan, qu'est-ce qui accompagne la lave visqueuse lors d'une éruption explosive ?",
+      "choices": [
+        "Un manque de gaz",
+        "Une abondance de gaz",
+        "Une faille",
+        "Un sismogramme"
+      ],
+      "answer": "Une abondance de gaz",
+      "explain": "Le volcanisme explosif est lié à une lave visqueuse et à l'abondance des gaz."
+    },
+    {
+      "id": "svt-ai-081",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un séisme est dû à une remontée de magma. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Un séisme vient d'une rupture de roches, une éruption d'une remontée de magma."
+    },
+    {
+      "id": "svt-ai-082",
+      "level": 1,
+      "type": "input",
+      "prompt": "L'épicentre est situé à la verticale du foyer. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "L'épicentre est à la verticale du foyer."
+    },
+    {
+      "id": "svt-ai-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un séisme a une très forte magnitude. Que peut-on en dire ?",
+      "choices": [
+        "Il libère peu d'énergie au foyer et cause peu de dégâts",
+        "Il ne provoque jamais de dégâts",
+        "Il libère beaucoup d'énergie au foyer et peut causer de gros dégâts",
+        "Il est forcément dû à une remontée de magma"
+      ],
+      "answer": "Il libère beaucoup d'énergie au foyer et peut causer de gros dégâts",
+      "explain": "Plus la magnitude est élevée, plus l'énergie libérée est grande et plus les dégâts sont importants."
+    },
+    {
+      "id": "svt-ai-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelles données faut-il pour calculer la vitesse d'une onde sismique ?",
+      "choices": [
+        "La magnitude et l'intensité",
+        "La profondeur du foyer et la faille",
+        "Le nombre de morts et la durée des vibrations",
+        "La distance parcourue et la durée du trajet"
+      ],
+      "answer": "La distance parcourue et la durée du trajet",
+      "explain": "v = d / t : il faut la distance et le temps."
+    },
+    {
+      "id": "svt-ai-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Deux ondes sismiques parcourent la même distance. La première met 20 s, la seconde 40 s. Laquelle est la plus rapide ?",
+      "choices": [
+        "La première",
+        "La seconde",
+        "Elles vont à la même vitesse",
+        "On ne peut pas savoir"
+      ],
+      "answer": "La première",
+      "explain": "À distance égale, la durée la plus courte correspond à la vitesse la plus grande."
+    },
+    {
+      "id": "svt-ai-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pourquoi utilise-t-on un modèle pour étudier un séisme ?",
+      "choices": [
+        "Pour provoquer un vrai séisme en classe",
+        "Pour reproduire le phénomène à petite échelle, l'étudier et le comprendre",
+        "Pour remplacer le sismographe",
+        "Pour mesurer la magnitude à la place de l'échelle de Richter"
+      ],
+      "answer": "Pour reproduire le phénomène à petite échelle, l'étudier et le comprendre",
+      "explain": "Un modèle reproduit à petite échelle un phénomène que l'on souhaite étudier et comprendre."
+    },
+    {
+      "id": "svt-ai-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un volcan projette sa lave fluide à faible hauteur. Un autre émet une lave visqueuse avec beaucoup de gaz. Lequel est le plus dangereux ?",
+      "choices": [
+        "Le premier, car sa lave est plus fluide",
+        "Les deux le sont autant",
+        "Le second, car son éruption est explosive",
+        "Aucun des deux"
+      ],
+      "answer": "Le second, car son éruption est explosive",
+      "explain": "Les éruptions explosives sont les plus dangereuses : soudaines et plus violentes."
+    },
+    {
+      "id": "svt-ai-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Séismes et volcanisme sont deux manifestations de quoi ?",
+      "choices": [
+        "Du système solaire",
+        "Du climat",
+        "De la rotation de la Terre",
+        "De l'activité interne de la Terre"
+      ],
+      "answer": "De l'activité interne de la Terre",
+      "explain": "L'activité interne de la Terre se manifeste sous forme de séismes et de volcanisme."
+    },
+    {
+      "id": "svt-ai-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi des nuées ardentes se forment-elles lors d'une éruption explosive ?",
+      "choices": [
+        "À cause de la pression des gaz",
+        "À cause de la fluidité de la lave",
+        "À cause d'une rupture de roches",
+        "À cause des ondes sismiques"
+      ],
+      "answer": "À cause de la pression des gaz",
+      "explain": "Sous la pression des gaz, il se forme des nuées ardentes."
+    },
+    {
+      "id": "svt-ai-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel séisme provoque en général les dégâts les plus importants ?",
+      "choices": [
+        "Celui de magnitude 2",
+        "Celui de magnitude 8",
+        "Celui de magnitude 4, car il est plus proche",
+        "Les dégâts ne dépendent pas de la magnitude"
+      ],
+      "answer": "Celui de magnitude 8",
+      "explain": "Plus la magnitude est élevée, plus les dégâts sont importants."
+    },
+    {
+      "id": "svt-ai-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle paire est correcte ?",
+      "choices": [
+        "Séisme : réservoir magmatique ; volcan : foyer",
+        "Séisme : édifice volcanique ; volcan : faille",
+        "Séisme : foyer ; volcan : réservoir magmatique",
+        "Séisme : sismogramme ; volcan : épicentre"
+      ],
+      "answer": "Séisme : foyer ; volcan : réservoir magmatique",
+      "explain": "Un séisme a un foyer ; le magma d'un volcan est stocké dans un réservoir magmatique."
+    },
+    {
+      "id": "svt-ai-092",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que mesure l'échelle de Richter ?",
+      "choices": [
+        "L'intensité à Bam",
+        "La vitesse des ondes",
+        "La profondeur du foyer",
+        "La magnitude d'un séisme"
+      ],
+      "answer": "La magnitude d'un séisme",
+      "explain": "L'échelle de Richter sert à exprimer la magnitude."
+    },
+    {
+      "id": "svt-ai-093",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que se passe-t-il en profondeur avant une éruption ?",
+      "choices": [
+        "Des roches fondent et forment du magma",
+        "Deux blocs de roches glissent le long d'une faille",
+        "La lave forme l'édifice volcanique",
+        "Des nuées ardentes se déposent"
+      ],
+      "answer": "Des roches fondent et forment du magma",
+      "explain": "Le magma provient de la fusion des roches en profondeur."
+    },
+    {
+      "id": "svt-ai-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "D'où partent les ondes sismiques, et qu'atteignent-elles en premier à la surface ?",
+      "choices": [
+        "Elles partent de l'épicentre et atteignent d'abord le foyer",
+        "Elles partent du foyer et atteignent d'abord l'épicentre",
+        "Elles partent de la faille et atteignent d'abord le sismographe",
+        "Elles partent du réservoir magmatique et atteignent l'épicentre"
+      ],
+      "answer": "Elles partent du foyer et atteignent d'abord l'épicentre",
+      "explain": "Les ondes partent du foyer ; l'épicentre est le premier point de la surface atteint."
+    },
+    {
+      "id": "svt-ai-095",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une onde sismique parcourt 120 km en 20 s. Quelle est sa vitesse en km/s ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "v = d / t = 120 / 20 = 6 km/s."
+    },
+    {
+      "id": "svt-ai-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une onde sismique traverse 90 km en 30 s. Quelle est sa vitesse en km/s ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "v = d / t = 90 / 30 = 3 km/s."
+    },
+    {
+      "id": "svt-ai-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "Sur un sismogramme, on lit qu'une onde a parcouru 160 km en 40 s. Quelle est sa vitesse en km/s ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "v = d / t = 160 / 40 = 4 km/s."
+    },
+    {
+      "id": "svt-ai-098",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une onde sismique parcourt 240 km en 60 s. Quelle est sa vitesse en km/s ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "v = d / t = 240 / 60 = 4 km/s."
+    },
+    {
+      "id": "svt-ai-099",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une onde sismique parcourt 350 km en 50 s. Quelle est sa vitesse en km/s ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "v = d / t = 350 / 50 = 7 km/s."
+    },
+    {
+      "id": "svt-ai-100",
+      "level": 2,
+      "type": "input",
+      "prompt": "Lors d'un séisme, une onde sismique parcourt 450 km en 90 s. Quelle est sa vitesse en km/s ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "v = d / t = 450 / 90 = 5 km/s."
+    },
+    {
+      "id": "svt-ai-101",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une onde sismique se propage à 5 km/s pendant 20 s. Quelle distance parcourt-elle, en km ?",
+      "answer": [
+        "100"
+      ],
+      "explain": "d = v × t = 5 × 20 = 100 km."
+    },
+    {
+      "id": "svt-ai-102",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une onde sismique se propage à 6 km/s pendant 30 s. Quelle distance parcourt-elle, en km ?",
+      "answer": [
+        "180"
+      ],
+      "explain": "d = v × t = 6 × 30 = 180 km."
+    },
+    {
+      "id": "svt-ai-103",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une onde sismique se propage à 4 km/s pendant 45 s. Quelle distance parcourt-elle, en km ?",
+      "answer": [
+        "180"
+      ],
+      "explain": "d = v × t = 4 × 45 = 180 km."
+    },
+    {
+      "id": "svt-ai-104",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une onde sismique se propage à 3 km/s pendant 70 s. Quelle distance parcourt-elle, en km ?",
+      "answer": [
+        "210"
+      ],
+      "explain": "d = v × t = 3 × 70 = 210 km."
+    },
+    {
+      "id": "svt-ai-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une onde sismique se propage à 7 km/s pendant 15 s. Quelle distance parcourt-elle, en km ?",
+      "answer": [
+        "105"
+      ],
+      "explain": "d = v × t = 7 × 15 = 105 km."
+    },
+    {
+      "id": "svt-ai-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une onde sismique se propage à 8 km/s pendant 25 s. Quelle distance parcourt-elle, en km ?",
+      "answer": [
+        "200"
+      ],
+      "explain": "d = v × t = 8 × 25 = 200 km."
+    },
+    {
+      "id": "svt-ai-107",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une onde sismique à 5 km/s doit parcourir 150 km. Combien de temps met-elle, en s ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "t = d / v = 150 / 5 = 30 s."
+    },
+    {
+      "id": "svt-ai-108",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une onde sismique à 6 km/s doit parcourir 240 km. Combien de temps met-elle, en s ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "t = d / v = 240 / 6 = 40 s."
+    },
+    {
+      "id": "svt-ai-109",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une onde sismique à 4 km/s doit parcourir 180 km. Combien de temps met-elle, en s ?",
+      "answer": [
+        "45"
+      ],
+      "explain": "t = d / v = 180 / 4 = 45 s."
+    },
+    {
+      "id": "svt-ai-110",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une onde sismique à 7 km/s doit parcourir 420 km. Combien de temps met-elle, en s ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "t = d / v = 420 / 7 = 60 s."
+    },
+    {
+      "id": "svt-ai-111",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une onde sismique à 3 km/s doit parcourir 90 km. Combien de temps met-elle, en s ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "t = d / v = 90 / 3 = 30 s."
+    },
+    {
+      "id": "svt-ai-112",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une onde sismique à 8 km/s doit parcourir 360 km. Combien de temps met-elle, en s ?",
+      "answer": [
+        "45"
+      ],
+      "explain": "t = d / v = 360 / 8 = 45 s."
+    }
+  ]
+}

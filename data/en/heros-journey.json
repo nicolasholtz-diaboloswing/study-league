@@ -1,0 +1,476 @@
+{
+  "topic": "en-heros-journey",
+  "questions": [
+    {
+      "id": "en-hero-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In the Hero's Quest, which stage comes first?",
+      "choices": [
+        "The Call to Adventure",
+        "Trials",
+        "The Ordeal",
+        "The Ordinary World"
+      ],
+      "answer": "The Ordinary World",
+      "explain": "The Hero's Quest starts with The Ordinary World."
+    },
+    {
+      "id": "en-hero-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In the Hero's Quest, which stage comes last?",
+      "choices": [
+        "The Road Back",
+        "The Ordeal",
+        "Return to the Ordinary World: Reward",
+        "Trials"
+      ],
+      "answer": "Return to the Ordinary World: Reward",
+      "explain": "The quest ends with the Return to the Ordinary World: Reward."
+    },
+    {
+      "id": "en-hero-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which stage comes right after The Ordinary World?",
+      "choices": [
+        "Trials",
+        "The Call to Adventure",
+        "The Ordeal",
+        "The Road Back"
+      ],
+      "answer": "The Call to Adventure",
+      "explain": "The Call to Adventure follows The Ordinary World."
+    },
+    {
+      "id": "en-hero-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which stage is at the highest point of the line in the Hero's Quest diagram?",
+      "choices": [
+        "The Ordeal",
+        "The Call to Adventure",
+        "The Road Back",
+        "The Ordinary World"
+      ],
+      "answer": "The Ordeal",
+      "explain": "The Ordeal is the peak of the quest."
+    },
+    {
+      "id": "en-hero-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which stage comes right after The Ordeal?",
+      "choices": [
+        "The Call to Adventure",
+        "Trials",
+        "The Ordinary World",
+        "The Road Back"
+      ],
+      "answer": "The Road Back",
+      "explain": "The Road Back comes after The Ordeal."
+    },
+    {
+      "id": "en-hero-006",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which stage comes right before The Ordeal?",
+      "choices": [
+        "The Ordinary World",
+        "The Road Back",
+        "Trials",
+        "Return to the Ordinary World: Reward"
+      ],
+      "answer": "Trials",
+      "explain": "The Trials come just before The Ordeal."
+    },
+    {
+      "id": "en-hero-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete the stage name: The Call to ___",
+      "answer": [
+        "adventure"
+      ],
+      "explain": "The second stage is The Call to Adventure."
+    },
+    {
+      "id": "en-hero-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete the stage name: The Road ___",
+      "answer": [
+        "back"
+      ],
+      "explain": "The stage after The Ordeal is The Road Back."
+    },
+    {
+      "id": "en-hero-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete the stage name: Return to the Ordinary World: ___",
+      "answer": [
+        "reward",
+        "the reward",
+        "a reward"
+      ],
+      "explain": "The last stage is the Return to the Ordinary World: Reward."
+    },
+    {
+      "id": "en-hero-010",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which three things are part of the Trials?",
+      "choices": [
+        "The call, the ordeal, the reward",
+        "Refusal, the road back, the reward",
+        "Refusal, meeting the mentor, crossing the threshold",
+        "Meeting the mentor, the ordeal, the return"
+      ],
+      "answer": "Refusal, meeting the mentor, crossing the threshold",
+      "explain": "The Trials are refusal, meeting the mentor and crossing the threshold."
+    },
+    {
+      "id": "en-hero-011",
+      "level": 3,
+      "type": "input",
+      "prompt": "The Trials include refusal, meeting the ___ and crossing the threshold.",
+      "answer": [
+        "mentor",
+        "the mentor"
+      ],
+      "explain": "Meeting the mentor is one part of the Trials."
+    },
+    {
+      "id": "en-hero-012",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In which stage does the hero's refusal happen?",
+      "choices": [
+        "The Ordeal",
+        "The Road Back",
+        "Return to the Ordinary World: Reward",
+        "Trials"
+      ],
+      "answer": "Trials",
+      "explain": "Refusal is one part of the Trials."
+    },
+    {
+      "id": "en-hero-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In which stage does the hero meet the mentor?",
+      "choices": [
+        "The Road Back",
+        "The Ordeal",
+        "Trials",
+        "Return to the Ordinary World: Reward"
+      ],
+      "answer": "Trials",
+      "explain": "Meeting the mentor is one part of the Trials."
+    },
+    {
+      "id": "en-hero-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "In which stage does the hero get the reward?",
+      "choices": [
+        "The Ordinary World",
+        "Return to the Ordinary World: Reward",
+        "The Call to Adventure",
+        "Trials"
+      ],
+      "answer": "Return to the Ordinary World: Reward",
+      "explain": "The reward comes with the return to the Ordinary World."
+    },
+    {
+      "id": "en-hero-015",
+      "level": 2,
+      "type": "input",
+      "prompt": "Which comes later in the Hero's Quest? (The Call to Adventure / Trials)",
+      "answer": [
+        "Trials"
+      ],
+      "explain": "The Trials come after The Call to Adventure."
+    },
+    {
+      "id": "en-hero-016",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which list shows the first four stages in the correct order?",
+      "choices": [
+        "The Ordinary World, Trials, The Call to Adventure, The Ordeal",
+        "The Ordinary World, The Call to Adventure, Trials, The Ordeal",
+        "The Call to Adventure, The Ordinary World, Trials, The Ordeal",
+        "The Ordinary World, The Call to Adventure, The Ordeal, Trials"
+      ],
+      "answer": "The Ordinary World, The Call to Adventure, Trials, The Ordeal",
+      "explain": "The order is Ordinary World, Call to Adventure, Trials, Ordeal."
+    },
+    {
+      "id": "en-hero-017",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which list shows the last four stages in the correct order?",
+      "choices": [
+        "Trials, The Ordeal, The Road Back, Return to the Ordinary World: Reward",
+        "Trials, The Road Back, The Ordeal, Return to the Ordinary World: Reward",
+        "The Ordeal, Trials, The Road Back, Return to the Ordinary World: Reward",
+        "Trials, The Ordeal, Return to the Ordinary World: Reward, The Road Back"
+      ],
+      "answer": "Trials, The Ordeal, The Road Back, Return to the Ordinary World: Reward",
+      "explain": "The order is Trials, Ordeal, Road Back, Return to the Ordinary World: Reward."
+    },
+    {
+      "id": "en-hero-018",
+      "level": 2,
+      "type": "input",
+      "prompt": "In the diagram, is the line going up or down during The Road Back? (up / down)",
+      "answer": [
+        "down"
+      ],
+      "explain": "After the peak at The Ordeal, the line goes down."
+    },
+    {
+      "id": "en-hero-019",
+      "level": 2,
+      "type": "input",
+      "prompt": "In the diagram, is the line going up or down during the Trials? (up / down)",
+      "answer": [
+        "up"
+      ],
+      "explain": "The line rises towards The Ordeal."
+    },
+    {
+      "id": "en-hero-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Mira feeds the chickens and helps at the market every day. Nothing unusual has happened yet. Which stage is this?",
+      "choices": [
+        "The Ordeal",
+        "The Road Back",
+        "Trials",
+        "The Ordinary World"
+      ],
+      "answer": "The Ordinary World",
+      "explain": "Everyday life before the adventure is The Ordinary World."
+    },
+    {
+      "id": "en-hero-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "One morning, a messenger arrives at Tomas's farm and asks him to save the kingdom from a storm-witch. Which stage is this?",
+      "choices": [
+        "The Ordeal",
+        "The Road Back",
+        "The Call to Adventure",
+        "Return to the Ordinary World: Reward"
+      ],
+      "answer": "The Call to Adventure",
+      "explain": "Being asked to start an adventure is The Call to Adventure."
+    },
+    {
+      "id": "en-hero-022",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Aino is afraid and says no to the quest at first. Which stage is this?",
+      "choices": [
+        "The Ordeal",
+        "Trials",
+        "The Road Back",
+        "Return to the Ordinary World: Reward"
+      ],
+      "answer": "Trials",
+      "explain": "Refusal is part of the Trials."
+    },
+    {
+      "id": "en-hero-023",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "An old sailor teaches the young hero how to fight and gives her wise advice. Which part of the Trials is this?",
+      "choices": [
+        "Meeting the mentor",
+        "Refusal",
+        "Crossing the threshold",
+        "The Ordeal"
+      ],
+      "answer": "Meeting the mentor",
+      "explain": "A wise teacher who guides the hero is the mentor."
+    },
+    {
+      "id": "en-hero-024",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Ravi leaves his village and walks through the gate into a dark forest he has never seen. Which part of the Trials is this?",
+      "choices": [
+        "Refusal",
+        "Meeting the mentor",
+        "The Ordeal",
+        "Crossing the threshold"
+      ],
+      "answer": "Crossing the threshold",
+      "explain": "Leaving the known world for a new one is crossing the threshold."
+    },
+    {
+      "id": "en-hero-025",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "After many days, the hero faces the terrible beast in its cave. It is the most dangerous moment of the story. Which stage is this?",
+      "choices": [
+        "The Ordinary World",
+        "The Call to Adventure",
+        "The Ordeal",
+        "Return to the Ordinary World: Reward"
+      ],
+      "answer": "The Ordeal",
+      "explain": "The most dangerous test is The Ordeal."
+    },
+    {
+      "id": "en-hero-026",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The hero has the magic stone and starts the journey back to her village. The beast is far behind. Which stage is this?",
+      "choices": [
+        "The Call to Adventure",
+        "The Road Back",
+        "Trials",
+        "The Ordeal"
+      ],
+      "answer": "The Road Back",
+      "explain": "Heading back home after the danger is The Road Back."
+    },
+    {
+      "id": "en-hero-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The hero is home again. The villagers cheer and give him a medal. Which stage is this?",
+      "choices": [
+        "Return to the Ordinary World: Reward",
+        "The Call to Adventure",
+        "Trials",
+        "The Ordeal"
+      ],
+      "answer": "Return to the Ordinary World: Reward",
+      "explain": "Coming home and getting a prize is the Return to the Ordinary World: Reward."
+    },
+    {
+      "id": "en-hero-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a mentor?",
+      "choices": [
+        "A monster that guards a treasure",
+        "A king who gives orders",
+        "An experienced person who guides and teaches the hero",
+        "A young person who is learning to fight"
+      ],
+      "answer": "An experienced person who guides and teaches the hero",
+      "explain": "A mentor guides and teaches the hero."
+    },
+    {
+      "id": "en-hero-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is an ordeal?",
+      "choices": [
+        "A happy party after a victory",
+        "A very difficult and painful experience or test",
+        "A long journey home",
+        "A message asking someone to go"
+      ],
+      "answer": "A very difficult and painful experience or test",
+      "explain": "An ordeal is a very hard test."
+    },
+    {
+      "id": "en-hero-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a reward?",
+      "choices": [
+        "Something given for a good or brave action",
+        "A punishment for a mistake",
+        "A secret weapon",
+        "A place where heroes live"
+      ],
+      "answer": "Something given for a good or brave action",
+      "explain": "A reward is a prize for what you did."
+    },
+    {
+      "id": "en-hero-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is a threshold?",
+      "choices": [
+        "The highest point of a mountain",
+        "A weapon made of wood",
+        "The end of a long journey",
+        "The line or doorway you cross to enter a new place"
+      ],
+      "answer": "The line or doorway you cross to enter a new place",
+      "explain": "The threshold is the entrance; crossing it means starting something new."
+    },
+    {
+      "id": "en-hero-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What does refusal mean?",
+      "choices": [
+        "Saying yes at once",
+        "Asking for help",
+        "Saying no to something",
+        "Winning a fight"
+      ],
+      "answer": "Saying no to something",
+      "explain": "A refusal is a no."
+    },
+    {
+      "id": "en-hero-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "A long and difficult search or journey to reach an important goal is called a ___. (quest / ordeal / threshold / mentor)",
+      "answer": [
+        "quest"
+      ],
+      "explain": "A quest is a long search or journey to reach an important goal."
+    },
+    {
+      "id": "en-hero-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "A person who guides and teaches the hero is called a ___. (mentor / reward / quest / ordeal)",
+      "answer": [
+        "mentor"
+      ],
+      "explain": "That guide is the mentor."
+    },
+    {
+      "id": "en-hero-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf hears in Geatland that King Hrothgar is in trouble and needs help. Which stage of the Hero's Quest is this?",
+      "choices": [
+        "The Ordeal",
+        "The Road Back",
+        "Return to the Ordinary World: Reward",
+        "The Call to Adventure"
+      ],
+      "answer": "The Call to Adventure",
+      "explain": "Hearing about a problem and being asked to help is The Call to Adventure."
+    },
+    {
+      "id": "en-hero-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf returns to Geatland, where he is welcomed as a hero. Which stage of the Hero's Quest is this?",
+      "choices": [
+        "The Call to Adventure",
+        "The Ordeal",
+        "Return to the Ordinary World: Reward",
+        "Trials"
+      ],
+      "answer": "Return to the Ordinary World: Reward",
+      "explain": "Coming home and being welcomed as a hero is the Return to the Ordinary World: Reward."
+    }
+  ]
+}

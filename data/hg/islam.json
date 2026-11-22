@@ -1,0 +1,1032 @@
+{
+  "topic": "hg-islam",
+  "questions": [
+    {
+      "id": "hg-is-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What does the Arabic word \"Allah\" mean?",
+      "choices": [
+        "Prophet",
+        "Caliph",
+        "Mosque",
+        "God"
+      ],
+      "answer": "God",
+      "explain": "Allah is the Arabic word meaning God."
+    },
+    {
+      "id": "hg-is-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a Muslim?",
+      "choices": [
+        "A political and religious leader of the Muslims",
+        "A person who says they are sent by God",
+        "A believer in Islam",
+        "A believer in many gods"
+      ],
+      "answer": "A believer in Islam",
+      "explain": "A Muslim is a believer in Islam."
+    },
+    {
+      "id": "hg-is-003",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence defines the word \"Islam\"?",
+      "choices": [
+        "A believer in Islam",
+        "The beliefs and practices of the Muslim religion",
+        "An Arabic word meaning God",
+        "A tax paid by non-Muslims"
+      ],
+      "answer": "The beliefs and practices of the Muslim religion",
+      "explain": "Islam means the beliefs and practices of the Muslim religion."
+    },
+    {
+      "id": "hg-is-004",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In Arabic, what does the word \"Islam\" mean?",
+      "choices": [
+        "The believer's faithfulness to God",
+        "The believer's journey to Mecca",
+        "The believer's army",
+        "The believer's holy book"
+      ],
+      "answer": "The believer's faithfulness to God",
+      "explain": "In Arabic, Islam means the believer's faithfulness to God."
+    },
+    {
+      "id": "hg-is-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a prophet?",
+      "choices": [
+        "A person who rules the Muslims after Mohammed",
+        "A person who believes in many gods",
+        "A person who writes the story of a life",
+        "A person who says they are sent by God to pass on his words"
+      ],
+      "answer": "A person who says they are sent by God to pass on his words",
+      "explain": "A prophet is a person who says they are sent by God to pass on his words."
+    },
+    {
+      "id": "hg-is-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is a caliph?",
+      "choices": [
+        "A believer in Islam",
+        "A person who says they are sent by God",
+        "The political and religious leader of the Muslims, successor of Mohammed",
+        "A tax paid by non-Muslims"
+      ],
+      "answer": "The political and religious leader of the Muslims, successor of Mohammed",
+      "explain": "A caliph is the political and religious leader of the Muslims, successor of Mohammed."
+    },
+    {
+      "id": "hg-is-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "What is the name of a tax paid by non-Muslims?",
+      "answer": [
+        "poll tax",
+        "the poll tax",
+        "a poll tax",
+        "poll-tax",
+        "jizya"
+      ],
+      "explain": "A poll tax is a tax paid by non-Muslims."
+    },
+    {
+      "id": "hg-is-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is monotheism?",
+      "choices": [
+        "Belief in one God only",
+        "Belief in many gods",
+        "Belief in no gods",
+        "Belief in one prophet only"
+      ],
+      "answer": "Belief in one God only",
+      "explain": "Monotheism is belief in one God only."
+    },
+    {
+      "id": "hg-is-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Belief in many gods is called ... (monotheism / polytheism)",
+      "answer": [
+        "polytheism"
+      ],
+      "explain": "Polytheism is belief in many gods."
+    },
+    {
+      "id": "hg-is-010",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which three religions does the course give as examples of monotheism?",
+      "choices": [
+        "Islam, Judaism and polytheism",
+        "Christianity, Islam and polytheism",
+        "Judaism, Christianity and Islam",
+        "Judaism, Christianity and the Sunna"
+      ],
+      "answer": "Judaism, Christianity and Islam",
+      "explain": "Judaism, Christianity and Islam all believe in one God only."
+    },
+    {
+      "id": "hg-is-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year did the Hegira take place? (year)",
+      "answer": [
+        "622"
+      ],
+      "explain": "The Hegira took place in 622."
+    },
+    {
+      "id": "hg-is-012",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Hegira is the start of what?",
+      "choices": [
+        "The Muslim calendar",
+        "The Muslim empire",
+        "The Quran",
+        "The first battle against the Meccans"
+      ],
+      "answer": "The Muslim calendar",
+      "explain": "The Hegira is the start of the Muslim calendar."
+    },
+    {
+      "id": "hg-is-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What was the Hegira?",
+      "choices": [
+        "Mohammed's return from Medina to Mecca",
+        "A battle won by Mohammed against the Meccans",
+        "A collection of hadiths",
+        "Mohammed's departure from Mecca for Yathrib (Medina) in 622"
+      ],
+      "answer": "Mohammed's departure from Mecca for Yathrib (Medina) in 622",
+      "explain": "The Hegira was Mohammed's departure from Mecca for Yathrib (Medina) in 622."
+    },
+    {
+      "id": "hg-is-014",
+      "level": 1,
+      "type": "input",
+      "prompt": "Mohammed left Mecca in 622 for Yathrib. What is the other name of Yathrib?",
+      "answer": [
+        "Medina",
+        "Al-Madinah",
+        "Madinah",
+        "Al Madinah"
+      ],
+      "explain": "Yathrib is also called Medina."
+    },
+    {
+      "id": "hg-is-015",
+      "level": 1,
+      "type": "input",
+      "prompt": "From which city did Mohammed depart in 622?",
+      "answer": [
+        "Mecca",
+        "Makkah"
+      ],
+      "explain": "In 622 Mohammed left Mecca for Yathrib (Medina)."
+    },
+    {
+      "id": "hg-is-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which are the two holy cities in Arabia?",
+      "choices": [
+        "Mecca and Medina",
+        "Mecca and Jerusalem",
+        "Medina and Damascus",
+        "Jerusalem and Medina"
+      ],
+      "answer": "Mecca and Medina",
+      "explain": "The two holy cities in Arabia are Mecca and Medina."
+    },
+    {
+      "id": "hg-is-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is the Quba Mosque near Medina?",
+      "choices": [
+        "The mosque where Mohammed destroyed the idols in 630",
+        "The first mosque built in Mecca",
+        "The mosque built by Omar in Jerusalem",
+        "The first mosque built by Mohammed when he settled in Medina in 622"
+      ],
+      "answer": "The first mosque built by Mohammed when he settled in Medina in 622",
+      "explain": "Quba is considered the first mosque built by Mohammed when he settled in Medina in 622."
+    },
+    {
+      "id": "hg-is-018",
+      "level": 2,
+      "type": "input",
+      "prompt": "The Quba Mosque is near Medina. In which present-day country is it?",
+      "answer": [
+        "Saudi Arabia",
+        "Saudi",
+        "Kingdom of Saudi Arabia",
+        "KSA"
+      ],
+      "explain": "Quba Mosque is near Medina in present-day Saudi Arabia."
+    },
+    {
+      "id": "hg-is-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In which year was Mohammed back in Mecca, which he had left in 622?",
+      "choices": [
+        "624",
+        "630",
+        "632",
+        "638"
+      ],
+      "answer": "630",
+      "explain": "Mohammed was back in Mecca in 630."
+    },
+    {
+      "id": "hg-is-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What did Mohammed do when he came back to Mecca in 630?",
+      "choices": [
+        "He destroyed the symbols of polytheism",
+        "He built the Quba Mosque",
+        "He wrote the Sira",
+        "He fought the Byzantines at Yarmouk"
+      ],
+      "answer": "He destroyed the symbols of polytheism",
+      "explain": "Back in Mecca (630), Mohammed destroyed the symbols of polytheism."
+    },
+    {
+      "id": "hg-is-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Kaaba held objects that Mohammed destroyed. What were they?",
+      "choices": [
+        "Christian crosses",
+        "Persian flags",
+        "Copies of the Sira",
+        "Polytheist idols"
+      ],
+      "answer": "Polytheist idols",
+      "explain": "The Kaaba held polytheist idols before Mohammed destroyed them."
+    },
+    {
+      "id": "hg-is-022",
+      "level": 3,
+      "type": "input",
+      "prompt": "A miniature shows Mohammed and the angel Gabriel. It was made in the 16th century. Is it a source from Mohammed's own time? (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "A 16th-century miniature is much later than Mohammed's own time."
+    },
+    {
+      "id": "hg-is-023",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to Muslim accounts (the Quran and the Sira), who appeared to Mohammed to announce that Allah had chosen him as a prophet?",
+      "choices": [
+        "Abraham",
+        "The angel Gabriel",
+        "Khalid",
+        "Omar"
+      ],
+      "answer": "The angel Gabriel",
+      "explain": "According to Muslim accounts, the angel Gabriel appeared to Mohammed."
+    },
+    {
+      "id": "hg-is-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which founding text contains the words that God is said to have passed to Mohammed?",
+      "choices": [
+        "The Quran",
+        "The hadiths",
+        "The Sira",
+        "The Sunna"
+      ],
+      "answer": "The Quran",
+      "explain": "The Quran contains words that God is said to have passed to Mohammed."
+    },
+    {
+      "id": "hg-is-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which are the three founding texts of Islam?",
+      "choices": [
+        "The Quran, the hadiths and Al-Tabari's History",
+        "The Quran, the Sira and Al-Baladhuri's History",
+        "The hadiths, the Sira and the Hegira",
+        "The Quran, the hadiths and the Sira"
+      ],
+      "answer": "The Quran, the hadiths and the Sira",
+      "explain": "The three founding texts are the Quran, the hadiths and the Sira."
+    },
+    {
+      "id": "hg-is-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What do the hadiths contain?",
+      "choices": [
+        "Biographies of Mohammed",
+        "Words that God is said to have passed to Mohammed",
+        "Accounts of words and actions attributed to Mohammed",
+        "A list of Muslim victories"
+      ],
+      "answer": "Accounts of words and actions attributed to Mohammed",
+      "explain": "The hadiths are accounts of words and actions attributed to Mohammed."
+    },
+    {
+      "id": "hg-is-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which founding text is made of biographies of Mohammed?",
+      "choices": [
+        "The Quran",
+        "The Sira",
+        "The hadiths",
+        "The Sunna"
+      ],
+      "answer": "The Sira",
+      "explain": "The Sira is a collection of biographies of Mohammed."
+    },
+    {
+      "id": "hg-is-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Who wrote the oldest Sira, in Arabic in the 9th century?",
+      "choices": [
+        "Ibn Hicham",
+        "Al-Bukhari",
+        "Al-Tabari",
+        "Al-Baladhuri"
+      ],
+      "answer": "Ibn Hicham",
+      "explain": "The oldest Sira was written in Arabic in the 9th century by Ibn Hicham."
+    },
+    {
+      "id": "hg-is-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How was the Quran first kept?",
+      "choices": [
+        "Written in one book in Mecca in 630",
+        "Copied by Christian monks",
+        "Carved on the walls of the Kaaba",
+        "Remembered orally by witnesses or written on supports such as skin and bone"
+      ],
+      "answer": "Remembered orally by witnesses or written on supports such as skin and bone",
+      "explain": "The Quran was first remembered orally by witnesses, or written on various supports."
+    },
+    {
+      "id": "hg-is-030",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "When was the Quran gathered in one book?",
+      "choices": [
+        "Before the Hegira",
+        "In the 12th century",
+        "Between the mid-7th and the 9th century",
+        "In the 16th century"
+      ],
+      "answer": "Between the mid-7th and the 9th century",
+      "explain": "The Quran was gathered in one book between the mid-7th and the 9th century."
+    },
+    {
+      "id": "hg-is-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Who passed on the hadiths orally in the 7th century?",
+      "choices": [
+        "The soldiers of the caliphs",
+        "Mohammed's companions",
+        "The inhabitants of Homs",
+        "Ibn Hicham"
+      ],
+      "answer": "Mohammed's companions",
+      "explain": "Mohammed's companions passed on the hadiths orally in the 7th century."
+    },
+    {
+      "id": "hg-is-032",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What is the Sunna?",
+      "choices": [
+        "The Tradition: hadiths gathered in collections (8th-9th c.)",
+        "Words that God is said to have passed to Mohammed",
+        "Biographies of Mohammed",
+        "The start of the Muslim calendar"
+      ],
+      "answer": "The Tradition: hadiths gathered in collections (8th-9th c.)",
+      "explain": "The Sunna is the Tradition: hadiths gathered in collections in the 8th and 9th centuries."
+    },
+    {
+      "id": "hg-is-033",
+      "level": 2,
+      "type": "input",
+      "prompt": "What English word does the course use for the Sunna?",
+      "answer": [
+        "Tradition",
+        "the Tradition"
+      ],
+      "explain": "The Sunna is the Tradition."
+    },
+    {
+      "id": "hg-is-034",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The Quran calls Mohammed \"the seal of the prophets\". What does the course say this means?",
+      "choices": [
+        "He is the first of the prophets",
+        "He is the only prophet in Arabia",
+        "He is the last of the prophets",
+        "He is the leader of the caliphs"
+      ],
+      "answer": "He is the last of the prophets",
+      "explain": "The seal of the prophets is the last of the prophets after those of the Hebrew and Christian Bibles."
+    },
+    {
+      "id": "hg-is-035",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to the hadith by Al-Bukhari, which city did Mohammed first face to pray, after arriving in Yathrib?",
+      "choices": [
+        "Mecca",
+        "Jerusalem",
+        "Medina",
+        "Constantinople"
+      ],
+      "answer": "Jerusalem",
+      "explain": "For sixteen or seventeen months he prayed facing the temple of Jerusalem."
+    },
+    {
+      "id": "hg-is-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the hadith by Al-Bukhari, which city would Mohammed have preferred to face to pray?",
+      "choices": [
+        "Mecca",
+        "Jerusalem",
+        "Medina",
+        "Damascus"
+      ],
+      "answer": "Mecca",
+      "explain": "He would have preferred to turn towards Mecca."
+    },
+    {
+      "id": "hg-is-037",
+      "level": 2,
+      "type": "input",
+      "prompt": "In the hadith, Mohammed prayed facing Jerusalem for sixteen or ... months. How many? (number)",
+      "answer": [
+        "17",
+        "seventeen"
+      ],
+      "explain": "The hadith says sixteen or seventeen months."
+    },
+    {
+      "id": "hg-is-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In the hadith, what do the faithful do when they hear that the Prophet prayed towards Mecca?",
+      "choices": [
+        "They leave the oratory",
+        "They keep facing Jerusalem",
+        "They turn towards the Kaaba, keeping the same posture",
+        "They stop praying"
+      ],
+      "answer": "They turn towards the Kaaba, keeping the same posture",
+      "explain": "At once these people turned towards the Kaaba."
+    },
+    {
+      "id": "hg-is-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which years does the course give for the Rightly guided Caliphs?",
+      "choices": [
+        "570-632",
+        "632-661",
+        "661-750",
+        "622-632"
+      ],
+      "answer": "632-661",
+      "explain": "The Rightly guided Caliphs ruled from 632 to 661."
+    },
+    {
+      "id": "hg-is-040",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which period lasted from 661 to 750 in the course timeline?",
+      "choices": [
+        "The Umayyad Caliphate",
+        "The Rightly guided Caliphs",
+        "The life of Mohammed",
+        "The Abbasid dynasty"
+      ],
+      "answer": "The Umayyad Caliphate",
+      "explain": "The Umayyad Caliphate lasted from 661 to 750."
+    },
+    {
+      "id": "hg-is-041",
+      "level": 1,
+      "type": "input",
+      "prompt": "The course timeline gives the life of Mohammed as 570 to ... (year)",
+      "answer": [
+        "632"
+      ],
+      "explain": "The life of Mohammed is given as 570-632."
+    },
+    {
+      "id": "hg-is-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which years does the course give for the consolidation and spread of Islam?",
+      "choices": [
+        "570-632",
+        "622-630",
+        "632-750",
+        "661-847"
+      ],
+      "answer": "632-750",
+      "explain": "The consolidation and spread of Islam lasted from 632 to 750."
+    },
+    {
+      "id": "hg-is-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Jafar al-Mutawakkil was the tenth caliph of which dynasty?",
+      "choices": [
+        "The Umayyad dynasty",
+        "The Abbasid dynasty",
+        "The Rightly guided Caliphs",
+        "The Frankish kings"
+      ],
+      "answer": "The Abbasid dynasty",
+      "explain": "Al-Mutawakkil, tenth caliph of the Abbasid dynasty, ruled from 847 to 861."
+    },
+    {
+      "id": "hg-is-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "The Abbasid caliph al-Mutawakkil ruled from 847 to ... (year)",
+      "answer": [
+        "861"
+      ],
+      "explain": "He ruled the Muslim empire from 847 to 861."
+    },
+    {
+      "id": "hg-is-045",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which list puts these events in the right order?",
+      "choices": [
+        "The battle of Badr, the Hegira, the return to Mecca, the battle of Yarmouk",
+        "The Hegira, the return to Mecca, the battle of Badr, the battle of Yarmouk",
+        "The Hegira, the battle of Badr, the battle of Yarmouk, the return to Mecca",
+        "The Hegira, the battle of Badr, the return to Mecca, the battle of Yarmouk"
+      ],
+      "answer": "The Hegira, the battle of Badr, the return to Mecca, the battle of Yarmouk",
+      "explain": "Hegira 622, Badr 624, return to Mecca 630, Yarmouk 636."
+    },
+    {
+      "id": "hg-is-046",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which list puts these three conquest events in the right order?",
+      "choices": [
+        "The battle of Al-Qadisiyya, the battle of Yarmouk, the taking of Jerusalem",
+        "The taking of Jerusalem, the battle of Yarmouk, the battle of Al-Qadisiyya",
+        "The battle of Yarmouk, the battle of Al-Qadisiyya, the taking of Jerusalem",
+        "The battle of Yarmouk, the taking of Jerusalem, the battle of Al-Qadisiyya"
+      ],
+      "answer": "The battle of Yarmouk, the battle of Al-Qadisiyya, the taking of Jerusalem",
+      "explain": "Yarmouk 636, Al-Qadisiyya 637, Jerusalem 638."
+    },
+    {
+      "id": "hg-is-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "In which year did Mohammed and the Muslims win the battle of Badr? (year)",
+      "answer": [
+        "624"
+      ],
+      "explain": "Badr in 624 was the first battle won by Mohammed and the Muslims against the Meccans."
+    },
+    {
+      "id": "hg-is-048",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What was the battle of Badr?",
+      "choices": [
+        "The first battle won by Mohammed and the Muslims against the Meccans",
+        "The first battle won against the Byzantines",
+        "The battle won against the Persians in 637",
+        "The battle where the idols of the Kaaba were destroyed"
+      ],
+      "answer": "The first battle won by Mohammed and the Muslims against the Meccans",
+      "explain": "Badr (624) was the first battle won by Mohammed and the Muslims against the Meccans."
+    },
+    {
+      "id": "hg-is-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Who had forced Mohammed into exile in Medina?",
+      "choices": [
+        "The Byzantines",
+        "The Persians",
+        "The inhabitants of Syria",
+        "The Meccans"
+      ],
+      "answer": "The Meccans",
+      "explain": "The Meccans had forced Mohammed into exile in Medina."
+    },
+    {
+      "id": "hg-is-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "By the 8th century, between which two regions did the Muslim world stretch?",
+      "choices": [
+        "From Egypt in the west to Arabia in the east",
+        "From Spain in the west to Constantinople in the east",
+        "From Spain in the west to Persia in the east",
+        "From Arabia in the west to Persia in the east"
+      ],
+      "answer": "From Spain in the west to Persia in the east",
+      "explain": "By the 8th century the Muslim world stretched from Spain in the west to Persia in the east."
+    },
+    {
+      "id": "hg-is-051",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The Arab-Muslims who began the conquests came from which region?",
+      "choices": [
+        "Arabia",
+        "Persia",
+        "Egypt",
+        "Syria"
+      ],
+      "answer": "Arabia",
+      "explain": "The Arab-Muslims came from Arabia."
+    },
+    {
+      "id": "hg-is-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "At the battle of Yarmouk, the Arabs defeated the army of which empire?",
+      "choices": [
+        "The Persian Empire",
+        "The Carolingian Empire",
+        "The Frankish Kingdom",
+        "The Byzantine Empire"
+      ],
+      "answer": "The Byzantine Empire",
+      "explain": "At Yarmouk (636) the Muslims defeated the Byzantines."
+    },
+    {
+      "id": "hg-is-053",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year was the battle of Yarmouk? (year)",
+      "answer": [
+        "636"
+      ],
+      "explain": "The battle of Yarmouk took place in 636."
+    },
+    {
+      "id": "hg-is-054",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year was the battle of Al-Qadisiyya? (year)",
+      "answer": [
+        "637"
+      ],
+      "explain": "The battle of Al-Qadisiyya took place in 637."
+    },
+    {
+      "id": "hg-is-055",
+      "level": 1,
+      "type": "input",
+      "prompt": "In which year did the Arabs take Jerusalem? (year)",
+      "answer": [
+        "638"
+      ],
+      "explain": "Jerusalem was taken by the Arabs in 638."
+    },
+    {
+      "id": "hg-is-056",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "At the battle of Al-Qadisiyya, the Arabs fought which empire?",
+      "choices": [
+        "The Byzantine Empire",
+        "The Carolingian Empire",
+        "The Frankish Kingdom",
+        "The Persian Empire"
+      ],
+      "answer": "The Persian Empire",
+      "explain": "At Al-Qadisiyya (637) the caliph Omar and the emperor of Persia clashed."
+    },
+    {
+      "id": "hg-is-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "For the Arabs, the battle of Al-Qadisiyya was the \"...\"",
+      "choices": [
+        "Battle of battles",
+        "Day of days",
+        "Victory of victories",
+        "Conquest of conquests"
+      ],
+      "answer": "Victory of victories",
+      "explain": "After this \"Victory of victories\", the Arabs extended their rule over Persia."
+    },
+    {
+      "id": "hg-is-058",
+      "level": 1,
+      "type": "input",
+      "prompt": "Omar was the ... caliph after Mohammed. (first / second / third)",
+      "answer": [
+        "second"
+      ],
+      "explain": "Omar was the second caliph after Mohammed."
+    },
+    {
+      "id": "hg-is-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "The caliph Omar ruled from 634 to ... (year)",
+      "answer": [
+        "644"
+      ],
+      "explain": "Omar ruled from 634 to 644."
+    },
+    {
+      "id": "hg-is-060",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who was Khalid in the text about the battle of Yarmouk?",
+      "choices": [
+        "The Byzantine emperor",
+        "The Persian emperor",
+        "The second caliph",
+        "A Muslim general"
+      ],
+      "answer": "A Muslim general",
+      "explain": "Khalid was the general who spoke to the Muslims at Yarmouk."
+    },
+    {
+      "id": "hg-is-061",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who was Heraclius?",
+      "choices": [
+        "The Persian emperor",
+        "A Muslim general",
+        "The Byzantine emperor",
+        "The second caliph"
+      ],
+      "answer": "The Byzantine emperor",
+      "explain": "Heraclius was the Byzantine emperor."
+    },
+    {
+      "id": "hg-is-062",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to the text by Al-Tabari, how many men were in the army of the emperor of Byzantium?",
+      "choices": [
+        "25,000",
+        "250,000",
+        "2,500",
+        "2,500,000"
+      ],
+      "answer": "250,000",
+      "explain": "Al-Tabari writes of an army of two hundred and fifty thousand men."
+    },
+    {
+      "id": "hg-is-063",
+      "level": 3,
+      "type": "input",
+      "prompt": "The number of soldiers at Yarmouk comes from Al-Tabari, who wrote in the 9th century. Is his number certain? (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "He wrote about 200 years after the events, so his number is not certain."
+    },
+    {
+      "id": "hg-is-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to Al-Tabari, what did Khalid ask Mohammed's companions to do?",
+      "choices": [
+        "To go back to Medina",
+        "To destroy the idols",
+        "To pay the tax",
+        "To stand in the front line"
+      ],
+      "answer": "To stand in the front line",
+      "explain": "Khalid asked the companions of Mohammed to stand in the front line."
+    },
+    {
+      "id": "hg-is-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to Al-Tabari, what did Khalid tell the men who had taken part in the battle of Badr?",
+      "choices": [
+        "To go home before the battle",
+        "To read the Sira aloud",
+        "To kneel and pray so that Allah may come to their aid",
+        "To march towards Jerusalem"
+      ],
+      "answer": "To kneel and pray so that Allah may come to their aid",
+      "explain": "He told them to kneel and pray so that Allah may come to their aid."
+    },
+    {
+      "id": "hg-is-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to the text by Al-Tabari, what does Khalid's speech show about the role of religion in the army?",
+      "choices": [
+        "Religion is kept apart from the army",
+        "Religion has an important role in the army",
+        "Soldiers must not pray before a battle",
+        "Only the general believes in Allah"
+      ],
+      "answer": "Religion has an important role in the army",
+      "explain": "Khalid speaks of Allah and the religion and asks his men to pray, so religion has an important role in the army."
+    },
+    {
+      "id": "hg-is-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to Al-Baladhuri, why did the inhabitants of Homs prefer the Muslims?",
+      "choices": [
+        "They preferred Muslim rule and justice to Byzantine oppression and tyranny",
+        "They were forced to welcome the Muslims by soldiers",
+        "They wanted to become Muslims at once",
+        "They wanted Heraclius's army to come back"
+      ],
+      "answer": "They preferred Muslim rule and justice to Byzantine oppression and tyranny",
+      "explain": "The inhabitants said they preferred the Muslims' rule and justice to the oppression and tyranny under Byzantine authority."
+    },
+    {
+      "id": "hg-is-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to Al-Baladhuri, what did the inhabitants of Homs say they would do if Heraclius's army came?",
+      "choices": [
+        "Open the gates to it",
+        "Join it",
+        "Pay it the poll tax",
+        "Drive it out of the city"
+      ],
+      "answer": "Drive it out of the city",
+      "explain": "They said: if Heraclius's army comes, we will drive it out of the city."
+    },
+    {
+      "id": "hg-is-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "According to Al-Baladhuri, what did the inhabitants of Syrian cities pay after the battle of Yarmouk?",
+      "answer": [
+        "poll tax",
+        "the poll tax",
+        "a poll tax",
+        "poll-tax",
+        "jizya",
+        "tax",
+        "the tax"
+      ],
+      "explain": "After Yarmouk, the inhabitants opened their gates and paid the poll tax."
+    },
+    {
+      "id": "hg-is-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to Al-Baladhuri, who lived in the other cities of Syria that surrendered to the Muslims?",
+      "choices": [
+        "Persians and Arabs",
+        "Jews and Christians",
+        "Muslims and Persians",
+        "Meccans and Jews"
+      ],
+      "answer": "Jews and Christians",
+      "explain": "The inhabitants of the other cities of Syria were Jews and Christians."
+    },
+    {
+      "id": "hg-is-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "According to the text by Al-Tabari, what does Omar guarantee to the inhabitants of Jerusalem?",
+      "choices": [
+        "Safety for themselves, their possessions and their worship",
+        "That all the churches will become mosques",
+        "That they will not have to pay any tax",
+        "That they will have to leave the city"
+      ],
+      "answer": "Safety for themselves, their possessions and their worship",
+      "explain": "Omar guarantees safety for themselves, their possessions and everything concerning their worship."
+    },
+    {
+      "id": "hg-is-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "In the text by Al-Tabari, Omar says the inhabitants of Jerusalem will not be forced in matters of ... (one word)",
+      "answer": [
+        "religion"
+      ],
+      "explain": "Omar promises they will not be forced in matters of religion."
+    },
+    {
+      "id": "hg-is-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "According to the text by Al-Tabari, what does Omar ask in return from the inhabitants of Jerusalem?",
+      "choices": [
+        "That they join the army",
+        "That they give their churches to the Muslims",
+        "That they pay the tax",
+        "That they become Muslims"
+      ],
+      "answer": "That they pay the tax",
+      "explain": "No harm will be done to them, on condition that they pay the tax."
+    },
+    {
+      "id": "hg-is-074",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How does Omar describe himself in the guarantee to Jerusalem, according to Al-Tabari?",
+      "choices": [
+        "The emperor of Jerusalem",
+        "The servant of God",
+        "The seal of the prophets",
+        "The general of the army"
+      ],
+      "answer": "The servant of God",
+      "explain": "The text begins: the servant of God, Omar, grants to the inhabitants of Jerusalem."
+    },
+    {
+      "id": "hg-is-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "A miniature painted in 1595 shows the battle of 637. Can we be sure the soldiers looked like this in 637? (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "The miniature was painted about 950 years after the battle."
+    },
+    {
+      "id": "hg-is-076",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The texts by Al-Baladhuri and Al-Tabari were written about 200 years after the events by Muslim authors. What should a historian remember?",
+      "choices": [
+        "The authors saw the battles themselves",
+        "All the accounts agree exactly",
+        "The texts were written in the 7th century",
+        "The authors were not there, so their accounts may not be exact"
+      ],
+      "answer": "The authors were not there, so their accounts may not be exact",
+      "explain": "A source written about 200 years after the events must be used with care."
+    },
+    {
+      "id": "hg-is-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which author wrote the History of the Muslim Conquests, in the 9th century?",
+      "choices": [
+        "Al-Tabari",
+        "Al-Bukhari",
+        "Al-Baladhuri",
+        "Ibn Hicham"
+      ],
+      "answer": "Al-Baladhuri",
+      "explain": "Al-Baladhuri wrote the History of the Muslim Conquests."
+    },
+    {
+      "id": "hg-is-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which author wrote the History of Prophets and Kings, used for Yarmouk and for Omar's guarantee?",
+      "choices": [
+        "Al-Baladhuri",
+        "Al-Tabari",
+        "Al-Bukhari",
+        "Ferdowsi"
+      ],
+      "answer": "Al-Tabari",
+      "explain": "Al-Tabari wrote the History of Prophets and Kings in the 9th century."
+    }
+  ]
+}

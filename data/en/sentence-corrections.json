@@ -1,0 +1,1200 @@
+{
+  "topic": "en-sentence-corrections",
+  "questions": [
+    {
+      "id": "en-dol-001",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"He should OF trained harder.\"",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "having"
+      ],
+      "answer": "have",
+      "explain": "After should we use have, not of."
+    },
+    {
+      "id": "en-dol-002",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (affect / effect)",
+      "choices": [
+        "The weather had a big affect on the result.",
+        "The weather had a big effect on the result.",
+        "The weather had an big effect on the result.",
+        "The weather have a big effect on the result."
+      ],
+      "answer": "The weather had a big effect on the result.",
+      "explain": "Effect is the noun; affect is the verb."
+    },
+    {
+      "id": "en-dol-003",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How many mistakes are there in this sentence? \"There were less players and they was tired.\"",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2",
+      "explain": "Less should be fewer, and they was should be they were."
+    },
+    {
+      "id": "en-dol-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"Last week, he SAYED he was sick.\"",
+      "answer": [
+        "said"
+      ],
+      "explain": "The simple past of say is said."
+    },
+    {
+      "id": "en-dol-005",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The new rule had a big AFFECT on us.\"",
+      "answer": [
+        "effect"
+      ],
+      "explain": "Effect is the noun and affect is the verb."
+    },
+    {
+      "id": "en-dol-006",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The GIRLS bag is on the bench. Only one girl owns it.\"",
+      "answer": [
+        "girl's",
+        "the girl's"
+      ],
+      "explain": "One owner takes 's: the girl's bag."
+    },
+    {
+      "id": "en-dol-007",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (comparatives)",
+      "choices": [
+        "This exercise is more easier than the last one.",
+        "This exercise is easier than the last one.",
+        "This exercise is more easy than the last one.",
+        "This exercise is easyer than the last one."
+      ],
+      "answer": "This exercise is easier than the last one.",
+      "explain": "Short adjectives take -er (easier) and never more plus -er."
+    },
+    {
+      "id": "en-dol-008",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"My brother and ME love chess.\"",
+      "answer": [
+        "i"
+      ],
+      "explain": "A subject needs the subject pronoun I."
+    },
+    {
+      "id": "en-dol-009",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How many mistakes are there in this sentence? \"Their going to play there game on monday.\"",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "explain": "They're, their and Monday are needed."
+    },
+    {
+      "id": "en-dol-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (doesn't)",
+      "choices": [
+        "My brother don't like cold weather.",
+        "My brother doesn't like cold weather.",
+        "My brother doesn't likes cold weather.",
+        "My brother not like cold weather."
+      ],
+      "answer": "My brother doesn't like cold weather.",
+      "explain": "With he, she, it or a singular noun we use doesn't, and the main verb stays in its base form."
+    },
+    {
+      "id": "en-dol-011",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (adverbs)",
+      "choices": [
+        "The goalkeeper watched the ball careful.",
+        "The goalkeeper watched the ball carefully.",
+        "The goalkeeper watch the ball carefully.",
+        "The goalkeeper watched the ball carefuly."
+      ],
+      "answer": "The goalkeeper watched the ball carefully.",
+      "explain": "An adverb that describes a verb ends in -ly (carefully)."
+    },
+    {
+      "id": "en-dol-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (was / were)",
+      "choices": [
+        "The players were tired after the final match.",
+        "The players was tired after the final match.",
+        "The players is tired after the final match.",
+        "The players be tired after the final match."
+      ],
+      "answer": "The players were tired after the final match.",
+      "explain": "A plural subject (players) takes were."
+    },
+    {
+      "id": "en-dol-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The team had already EATED lunch.\"",
+      "choices": [
+        "eaten",
+        "ate",
+        "eat",
+        "eating"
+      ],
+      "answer": "eaten",
+      "explain": "After had we use the past participle eaten."
+    },
+    {
+      "id": "en-dol-014",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"We need more DATAS to answer this question.\"",
+      "answer": [
+        "data"
+      ],
+      "explain": "Data is used without an s in this sentence."
+    },
+    {
+      "id": "en-dol-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (discuss)",
+      "choices": [
+        "We discussed the plan with our coach yesterday.",
+        "We discussed about the plan with our coach yesterday.",
+        "We discuss the plan with our coach yesterday.",
+        "We discussed the plan with us coach yesterday."
+      ],
+      "answer": "We discussed the plan with our coach yesterday.",
+      "explain": "Discuss is followed directly by its object, without about."
+    },
+    {
+      "id": "en-dol-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"He answered the teacher POLITE.\"",
+      "choices": [
+        "politely",
+        "polite",
+        "politer",
+        "politeness"
+      ],
+      "answer": "politely",
+      "explain": "An adverb describing a verb ends in -ly."
+    },
+    {
+      "id": "en-dol-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (spelling: receive)",
+      "choices": [
+        "We recieved your message this morning.",
+        "We received you message this morning.",
+        "We received your message this morning.",
+        "We receive your message this morning."
+      ],
+      "answer": "We received your message this morning.",
+      "explain": "Receive follows the rule i before e except after c."
+    },
+    {
+      "id": "en-dol-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"She is taller THEN her brother.\"",
+      "choices": [
+        "that",
+        "as",
+        "from",
+        "than"
+      ],
+      "answer": "than",
+      "explain": "We use than to compare."
+    },
+    {
+      "id": "en-dol-019",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"She sang BEAUTIFUL at the concert.\"",
+      "answer": [
+        "beautifully"
+      ],
+      "explain": "An adverb describing a verb ends in -ly."
+    },
+    {
+      "id": "en-dol-020",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"I RECIEVED your email this morning.\"",
+      "answer": [
+        "received"
+      ],
+      "explain": "Receive follows the rule i before e except after c."
+    },
+    {
+      "id": "en-dol-021",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"There were LESS players on the pitch than last week.\"",
+      "choices": [
+        "fewest",
+        "few",
+        "fewer",
+        "littler"
+      ],
+      "answer": "fewer",
+      "explain": "We use fewer with countable nouns."
+    },
+    {
+      "id": "en-dol-022",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (has / have)",
+      "choices": [
+        "My cousins has already seen the stadium.",
+        "My cousins have already saw the stadium.",
+        "My cousins have already seen the stadium.",
+        "My cousin have already seen the stadium."
+      ],
+      "answer": "My cousins have already seen the stadium.",
+      "explain": "A plural subject takes have, and the present perfect needs the past participle seen."
+    },
+    {
+      "id": "en-dol-023",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"Smoking can EFFECT your health.\"",
+      "choices": [
+        "affects",
+        "affected",
+        "affect",
+        "affecting"
+      ],
+      "answer": "affect",
+      "explain": "After can we use the verb affect."
+    },
+    {
+      "id": "en-dol-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"My cousin and ME went to the match.\"",
+      "choices": [
+        "My",
+        "I",
+        "Mine",
+        "Myself"
+      ],
+      "answer": "I",
+      "explain": "A subject needs the subject pronoun I."
+    },
+    {
+      "id": "en-dol-025",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (their / there / they're)",
+      "choices": [
+        "Their sure that their team will win.",
+        "They're sure that there team will win.",
+        "They're sure that their team will win.",
+        "They're sure that they're team will win."
+      ],
+      "answer": "They're sure that their team will win.",
+      "explain": "They're means they are, and their shows that something belongs to them."
+    },
+    {
+      "id": "en-dol-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The kids waited PATIENT outside the hall.\"",
+      "choices": [
+        "patient",
+        "more patient",
+        "patience",
+        "patiently"
+      ],
+      "answer": "patiently",
+      "explain": "An adverb describing a verb ends in -ly."
+    },
+    {
+      "id": "en-dol-027",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (double negative)",
+      "choices": [
+        "She doesn't have no money.",
+        "She don't have any money.",
+        "She doesn't have any money.",
+        "She doesn't has any money."
+      ],
+      "answer": "She doesn't have any money.",
+      "explain": "English does not use two negatives together: doesn't ... any, not doesn't ... no."
+    },
+    {
+      "id": "en-dol-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"Yesterday we SEEN a rainbow over the stadium.\"",
+      "choices": [
+        "see",
+        "seeing",
+        "sees",
+        "saw"
+      ],
+      "answer": "saw",
+      "explain": "The simple past of see is saw."
+    },
+    {
+      "id": "en-dol-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (then / than)",
+      "choices": [
+        "This match was more exciting than the last one.",
+        "This match was more exciting then the last one.",
+        "This match was excitinger than the last one.",
+        "This match was more exciting than the last on."
+      ],
+      "answer": "This match was more exciting than the last one.",
+      "explain": "We use than to compare, and long adjectives take more, not -er."
+    },
+    {
+      "id": "en-dol-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "How many mistakes are there in this sentence? \"He seen the match yesterday.\"",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "1",
+      "explain": "Only seen is wrong: the simple past is saw."
+    },
+    {
+      "id": "en-dol-031",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"You should OF checked the score first.\"",
+      "answer": [
+        "have"
+      ],
+      "explain": "After should we use have, not of."
+    },
+    {
+      "id": "en-dol-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The bird built IT'S nest in a tree.\"",
+      "answer": [
+        "its"
+      ],
+      "explain": "Its shows possession; it's means it is."
+    },
+    {
+      "id": "en-dol-033",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"THERE going to win the cup.\"",
+      "choices": [
+        "Their",
+        "They're",
+        "There's",
+        "They"
+      ],
+      "answer": "They're",
+      "explain": "They're means they are."
+    },
+    {
+      "id": "en-dol-034",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The students didn't UNDERSTOOD the rule.\"",
+      "choices": [
+        "understands",
+        "understanding",
+        "understand",
+        "understanded"
+      ],
+      "answer": "understand",
+      "explain": "After didn't we use the base form understand."
+    },
+    {
+      "id": "en-dol-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"Each of the players HAVE a ball.\"",
+      "answer": [
+        "has"
+      ],
+      "explain": "Each is singular, so it takes has."
+    },
+    {
+      "id": "en-dol-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How many mistakes are there in this sentence? \"The movie was more exciting then the book, and we was happy.\"",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2",
+      "explain": "Then should be than, and we takes were."
+    },
+    {
+      "id": "en-dol-037",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"They have already WROTE their answers.\"",
+      "answer": [
+        "written"
+      ],
+      "explain": "After have we use the past participle written."
+    },
+    {
+      "id": "en-dol-038",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct subject pronoun to replace the word in CAPITALS. \"US kids love football.\"",
+      "answer": [
+        "we"
+      ],
+      "explain": "A subject needs the subject pronoun we."
+    },
+    {
+      "id": "en-dol-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word needs a capital letter? Our next match is on saturday at the stadium.",
+      "choices": [
+        "match",
+        "saturday",
+        "stadium",
+        "next"
+      ],
+      "answer": "saturday",
+      "explain": "Days of the week always start with a capital letter."
+    },
+    {
+      "id": "en-dol-040",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (fewer / less)",
+      "choices": [
+        "There are fewer fans in the stadium today than yesterday.",
+        "There are less fans in the stadium today than yesterday.",
+        "There is fewer fans in the stadium today than yesterday.",
+        "There are fewer fan in the stadium today than yesterday."
+      ],
+      "answer": "There are fewer fans in the stadium today than yesterday.",
+      "explain": "We use fewer with countable nouns such as fans."
+    },
+    {
+      "id": "en-dol-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"I have never SAW a whale.\"",
+      "answer": [
+        "seen"
+      ],
+      "explain": "After have we use the past participle seen."
+    },
+    {
+      "id": "en-dol-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"She has WROTE a long message.\"",
+      "choices": [
+        "write",
+        "written",
+        "writes",
+        "writed"
+      ],
+      "answer": "written",
+      "explain": "After has we use the past participle written."
+    },
+    {
+      "id": "en-dol-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"She had FORGET her boots at home.\"",
+      "choices": [
+        "forgetting",
+        "forgets",
+        "forgetted",
+        "forgotten"
+      ],
+      "answer": "forgotten",
+      "explain": "After had we use the past participle forgotten."
+    },
+    {
+      "id": "en-dol-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"My sister DON'T like football.\"",
+      "choices": [
+        "do",
+        "are",
+        "doesn't",
+        "be"
+      ],
+      "answer": "doesn't",
+      "explain": "A singular subject takes doesn't."
+    },
+    {
+      "id": "en-dol-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (him and his friends)",
+      "choices": [
+        "Him and his friends don't have any plans.",
+        "He and his friends don't have any plans.",
+        "He and his friends doesn't have any plans.",
+        "He and his friends don't has any plans."
+      ],
+      "answer": "He and his friends don't have any plans.",
+      "explain": "A subject needs the subject pronoun he, and a plural subject takes don't plus the base form have."
+    },
+    {
+      "id": "en-dol-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"He DON'T like cold water. He never drinks it.\"",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "explain": "With he we use doesn't."
+    },
+    {
+      "id": "en-dol-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (there is / are)",
+      "choices": [
+        "There is three goalkeepers in our team.",
+        "There are tree goalkeepers in our team.",
+        "There are three goalkeeper in our team.",
+        "There are three goalkeepers in our team."
+      ],
+      "answer": "There are three goalkeepers in our team.",
+      "explain": "There are goes with a plural noun, and three needs a plural noun (goalkeepers)."
+    },
+    {
+      "id": "en-dol-048",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"Neither player WERE ready to start.\"",
+      "choices": [
+        "are",
+        "be",
+        "being",
+        "was"
+      ],
+      "answer": "was",
+      "explain": "Neither is singular, so it takes was."
+    },
+    {
+      "id": "en-dol-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"He has WENT home.\"",
+      "answer": [
+        "gone"
+      ],
+      "explain": "After has we use the past participle gone."
+    },
+    {
+      "id": "en-dol-050",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The teacher gave us some INFORMATIONS.\"",
+      "choices": [
+        "information",
+        "informative",
+        "informing",
+        "informs"
+      ],
+      "answer": "information",
+      "explain": "Information is uncountable and has no plural."
+    },
+    {
+      "id": "en-dol-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The teacher has SPOKE to us about it.\"",
+      "choices": [
+        "speak",
+        "spoken",
+        "speaking",
+        "speaked"
+      ],
+      "answer": "spoken",
+      "explain": "After has we use the past participle spoken."
+    },
+    {
+      "id": "en-dol-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"There IS twelve players in the squad today.\"",
+      "choices": [
+        "be",
+        "are",
+        "am",
+        "been"
+      ],
+      "answer": "are",
+      "explain": "There are goes with a plural noun."
+    },
+    {
+      "id": "en-dol-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (despite)",
+      "choices": [
+        "Despite of the rain, we played the match.",
+        "Despite the rain, we plaied the match.",
+        "Despite the rain, we was playing the match.",
+        "Despite the rain, we played the match."
+      ],
+      "answer": "Despite the rain, we played the match.",
+      "explain": "Despite is never followed by of, and the past of play is played."
+    },
+    {
+      "id": "en-dol-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"His sister and HIM are twins.\"",
+      "answer": [
+        "he"
+      ],
+      "explain": "A subject needs the subject pronoun he."
+    },
+    {
+      "id": "en-dol-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"His brother and HIM play tennis.\"",
+      "choices": [
+        "His",
+        "Himself",
+        "Them",
+        "He"
+      ],
+      "answer": "He",
+      "explain": "A subject needs the subject pronoun he."
+    },
+    {
+      "id": "en-dol-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"Mum BRUNG us some water.\"",
+      "choices": [
+        "bring",
+        "bringing",
+        "brings",
+        "brought"
+      ],
+      "answer": "brought",
+      "explain": "The simple past of bring is brought."
+    },
+    {
+      "id": "en-dol-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"Dad BRUNG the ball to the match yesterday.\"",
+      "answer": [
+        "brought"
+      ],
+      "explain": "The simple past of bring is brought."
+    },
+    {
+      "id": "en-dol-058",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"I bought A umbrella because of the rain.\"",
+      "answer": [
+        "an"
+      ],
+      "explain": "An goes before a vowel sound."
+    },
+    {
+      "id": "en-dol-059",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"We have ALOT of homework tonight.\"",
+      "answer": [
+        "a lot"
+      ],
+      "explain": "A lot is written as two words."
+    },
+    {
+      "id": "en-dol-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The club is proud of IT'S new stadium.\"",
+      "choices": [
+        "it",
+        "it is",
+        "its",
+        "their"
+      ],
+      "answer": "its",
+      "explain": "Its shows possession; it's means it is."
+    },
+    {
+      "id": "en-dol-061",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"Last summer he TAKED his boots to Spain.\"",
+      "choices": [
+        "take",
+        "taken",
+        "took",
+        "takes"
+      ],
+      "answer": "took",
+      "explain": "The simple past of take is took."
+    },
+    {
+      "id": "en-dol-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"US players were proud of the win.\"",
+      "choices": [
+        "Ours",
+        "We",
+        "Them",
+        "Mine"
+      ],
+      "answer": "We",
+      "explain": "A subject needs the subject pronoun we."
+    },
+    {
+      "id": "en-dol-063",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The children played HAPPY in the garden.\"",
+      "answer": [
+        "happily"
+      ],
+      "explain": "An adverb describing a verb ends in -ly."
+    },
+    {
+      "id": "en-dol-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (information)",
+      "choices": [
+        "The coach gave us some useful informations about the match.",
+        "The coach gave us some usefull information about the match.",
+        "The coach gave us some useful information about the match.",
+        "The coach gived us some useful information about the match."
+      ],
+      "answer": "The coach gave us some useful information about the match.",
+      "explain": "Information is uncountable, so it has no plural s."
+    },
+    {
+      "id": "en-dol-065",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The fans left THERE bags at home.\"",
+      "answer": [
+        "their"
+      ],
+      "explain": "Their shows that the bags belong to the fans."
+    },
+    {
+      "id": "en-dol-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"I don't have NO time today.\"",
+      "choices": [
+        "any",
+        "none",
+        "not",
+        "nothing"
+      ],
+      "answer": "any",
+      "explain": "With don't we use any, not no (no double negative)."
+    },
+    {
+      "id": "en-dol-067",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (a / an)",
+      "choices": [
+        "She ate a apple and a banana after training.",
+        "She ate an apple and a banana after training.",
+        "She ate an apple and an banana after training.",
+        "She eated an apple and a banana after training."
+      ],
+      "answer": "She ate an apple and a banana after training.",
+      "explain": "An goes before a vowel sound and a before a consonant sound; the past of eat is ate."
+    },
+    {
+      "id": "en-dol-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (neither)",
+      "choices": [
+        "Neither of the boys was ready.",
+        "Neither of the boys be ready.",
+        "Nether of the boys was ready.",
+        "Neither of boys was ready."
+      ],
+      "answer": "Neither of the boys was ready.",
+      "explain": "Neither is singular so it takes was, and it is followed by 'of the'."
+    },
+    {
+      "id": "en-dol-069",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"There are LESS students in the class today.\"",
+      "answer": [
+        "fewer"
+      ],
+      "explain": "We use fewer with countable nouns."
+    },
+    {
+      "id": "en-dol-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How many mistakes are there in this sentence? \"Me and my brother was late for school.\"",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2",
+      "explain": "Me should be I, and the plural subject needs were."
+    },
+    {
+      "id": "en-dol-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "How many mistakes are there in this sentence? \"We should of took more informations.\"",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "explain": "Should have, taken and information are needed."
+    },
+    {
+      "id": "en-dol-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The loud music will EFFECT my sleep.\"",
+      "answer": [
+        "affect"
+      ],
+      "explain": "Affect is the verb and effect is the noun."
+    },
+    {
+      "id": "en-dol-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"Neither brother WERE at home.\"",
+      "answer": [
+        "was"
+      ],
+      "explain": "Neither is singular, so it takes was."
+    },
+    {
+      "id": "en-dol-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (possessive apostrophe)",
+      "choices": [
+        "The girl's bag is on the bench.",
+        "The girls bag is on the bench.",
+        "The girl bag is on the bench.",
+        "The girl's bag are on the bench."
+      ],
+      "answer": "The girl's bag is on the bench.",
+      "explain": "A singular owner takes 's, and a singular subject takes is."
+    },
+    {
+      "id": "en-dol-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (its / it's)",
+      "choices": [
+        "The cat is licking it's paw because it's dirty.",
+        "The cat is licking its paw because its dirty.",
+        "The cat are licking its paw because it's dirty.",
+        "The cat is licking its paw because it's dirty."
+      ],
+      "answer": "The cat is licking its paw because it's dirty.",
+      "explain": "Its shows possession and it's means it is."
+    },
+    {
+      "id": "en-dol-076",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The police found new EVIDENCES.\"",
+      "answer": [
+        "evidence"
+      ],
+      "explain": "Evidence is uncountable and has no plural."
+    },
+    {
+      "id": "en-dol-077",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"Look! There ARE a bird on the roof.\"",
+      "answer": [
+        "is"
+      ],
+      "explain": "There is goes with a singular noun."
+    },
+    {
+      "id": "en-dol-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The DOGS bowl is empty. We have only one dog.\"",
+      "choices": [
+        "dogs'",
+        "dog's",
+        "dogs",
+        "dog"
+      ],
+      "answer": "dog's",
+      "explain": "One owner takes 's: the dog's bowl."
+    },
+    {
+      "id": "en-dol-079",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"This film is better THEN the book.\"",
+      "answer": [
+        "than"
+      ],
+      "explain": "We use than to compare."
+    },
+    {
+      "id": "en-dol-080",
+      "level": 1,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The dog FALLED off the sofa.\"",
+      "answer": [
+        "fell"
+      ],
+      "explain": "The simple past of fall is fell."
+    },
+    {
+      "id": "en-dol-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"The goalkeepers WAS ready for the penalty.\"",
+      "choices": [
+        "is",
+        "were",
+        "be",
+        "been"
+      ],
+      "answer": "were",
+      "explain": "A plural subject takes were."
+    },
+    {
+      "id": "en-dol-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (present perfect)",
+      "choices": [
+        "He has written three letters this week.",
+        "He has wrote three letters this week.",
+        "He have written three letters this week.",
+        "He has writed three letters this week."
+      ],
+      "answer": "He has written three letters this week.",
+      "explain": "The present perfect is has plus the past participle written."
+    },
+    {
+      "id": "en-dol-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which word should replace the word in CAPITALS? \"She GO to training every Tuesday and always arrives early.\"",
+      "choices": [
+        "going",
+        "gone",
+        "goes",
+        "gos"
+      ],
+      "answer": "goes",
+      "explain": "With she we add -es: goes."
+    },
+    {
+      "id": "en-dol-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (subject pronouns)",
+      "choices": [
+        "Me and my brother were playing video games.",
+        "My brother and me were playing video games.",
+        "My brother and I was playing video games.",
+        "My brother and I were playing video games."
+      ],
+      "answer": "My brother and I were playing video games.",
+      "explain": "We use the subject pronoun I, and a compound subject takes were."
+    },
+    {
+      "id": "en-dol-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (each)",
+      "choices": [
+        "Each of the players has a water bottle.",
+        "Each of the players have a water bottle.",
+        "Each of the player has a water bottle.",
+        "Each of the players has an water bottle."
+      ],
+      "answer": "Each of the players has a water bottle.",
+      "explain": "Each is singular so it takes has, 'of the' is followed by a plural noun, and an is only used before a vowel sound."
+    },
+    {
+      "id": "en-dol-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (a lot)",
+      "choices": [
+        "We saw alot of fans at the stadium.",
+        "We saw a lots of fans at the stadium.",
+        "We saw a lot off fans at the stadium.",
+        "We saw a lot of fans at the stadium."
+      ],
+      "answer": "We saw a lot of fans at the stadium.",
+      "explain": "A lot is written as two words and is followed by of."
+    },
+    {
+      "id": "en-dol-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (should have)",
+      "choices": [
+        "She should of told her coach earlier.",
+        "She should has told her coach earlier.",
+        "She should have tell her coach earlier.",
+        "She should have told her coach earlier."
+      ],
+      "answer": "She should have told her coach earlier.",
+      "explain": "After should we use have plus a past participle, never of."
+    },
+    {
+      "id": "en-dol-088",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"The storm did a lot of DAMAGES to the roof.\"",
+      "answer": [
+        "damage"
+      ],
+      "explain": "Damage is uncountable and has no plural."
+    },
+    {
+      "id": "en-dol-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (us kids)",
+      "choices": [
+        "We kids were waiting for the bus.",
+        "Us kids were waiting for the bus.",
+        "We kids was waiting for the bus.",
+        "We kid were waiting for the bus."
+      ],
+      "answer": "We kids were waiting for the bus.",
+      "explain": "A subject needs the subject pronoun we, and a plural subject takes were."
+    },
+    {
+      "id": "en-dol-090",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"She doesn't want NO help.\"",
+      "answer": [
+        "any"
+      ],
+      "explain": "With doesn't we use any, not no."
+    },
+    {
+      "id": "en-dol-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (irregular verbs)",
+      "choices": [
+        "He taked the wrong bus and it brought him to another town.",
+        "He took the wrong bus and it brought him to another town.",
+        "He took the wrong bus and it brung him to another town.",
+        "He took the wrong bus and it bringed him to another town."
+      ],
+      "answer": "He took the wrong bus and it brought him to another town.",
+      "explain": "The past simple of take is took and of bring is brought."
+    },
+    {
+      "id": "en-dol-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (seen / saw)",
+      "choices": [
+        "Yesterday I seen a great goal on TV.",
+        "Yesterday I have saw a great goal on TV.",
+        "Yesterday I saw a great goal on TV.",
+        "Yesterday I sawed a great goal on TV."
+      ],
+      "answer": "Yesterday I saw a great goal on TV.",
+      "explain": "The simple past of see is saw; seen is only used after have or has."
+    },
+    {
+      "id": "en-dol-093",
+      "level": 3,
+      "type": "input",
+      "prompt": "Type the correct form of the word in CAPITALS. \"THEIR going to arrive soon.\"",
+      "answer": [
+        "they're",
+        "they are"
+      ],
+      "explain": "They're means they are."
+    },
+    {
+      "id": "en-dol-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (damage)",
+      "choices": [
+        "The storm caused a lot of damages to the pitch last night.",
+        "The storm caused a lot damage to the pitch last night.",
+        "The storm cause a lot of damage to the pitch last night.",
+        "The storm caused a lot of damage to the pitch last night."
+      ],
+      "answer": "The storm caused a lot of damage to the pitch last night.",
+      "explain": "Damage is uncountable so it has no s, and the verb needs the past tense caused."
+    }
+  ]
+}

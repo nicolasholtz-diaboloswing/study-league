@@ -1,0 +1,1899 @@
+{
+  "topic": "en-prepositions",
+  "questions": [
+    {
+      "id": "en-prep-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Our maths lesson starts ___ 9 o'clock.",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "answer": "at",
+      "explain": "We use 'at' with clock times."
+    },
+    {
+      "id": "en-prep-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My football match is ___ Sunday.",
+      "choices": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "answer": "on",
+      "explain": "We use 'on' with days."
+    },
+    {
+      "id": "en-prep-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The school year ends ___ June.",
+      "choices": [
+        "on",
+        "at",
+        "for",
+        "in"
+      ],
+      "answer": "in",
+      "explain": "We use 'in' with months."
+    },
+    {
+      "id": "en-prep-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Grendel came to Heorot ___ night.",
+      "choices": [
+        "at",
+        "in",
+        "on",
+        "to"
+      ],
+      "answer": "at",
+      "explain": "'At night' is a fixed expression."
+    },
+    {
+      "id": "en-prep-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I do my homework ___ the evening.",
+      "choices": [
+        "at",
+        "in",
+        "on",
+        "to"
+      ],
+      "answer": "in",
+      "explain": "We say 'in the morning, in the afternoon, in the evening'."
+    },
+    {
+      "id": "en-prep-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She has been a goalkeeper ___ 2020.",
+      "choices": [
+        "for",
+        "during",
+        "since",
+        "from"
+      ],
+      "answer": "since",
+      "explain": "'Since' is used with a point in time such as a year."
+    },
+    {
+      "id": "en-prep-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He has played tennis ___ three years.",
+      "choices": [
+        "since",
+        "during",
+        "from",
+        "for"
+      ],
+      "answer": "for",
+      "explain": "'For' is used with a length of time."
+    },
+    {
+      "id": "en-prep-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "The shop is open ___ 9 am and 6 pm.",
+      "answer": [
+        "between"
+      ],
+      "explain": "We say 'between ... and ...' for the start and the end of a period."
+    },
+    {
+      "id": "en-prep-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The shop is open from 9 am ___ 6 pm.",
+      "choices": [
+        "at",
+        "to",
+        "in",
+        "by"
+      ],
+      "answer": "to",
+      "explain": "We say 'from ... to ...' ('until' is also possible)."
+    },
+    {
+      "id": "en-prep-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We always warm up ___ a match.",
+      "choices": [
+        "after",
+        "since",
+        "before",
+        "until"
+      ],
+      "answer": "before",
+      "explain": "We warm up before the game starts."
+    },
+    {
+      "id": "en-prep-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The medals are given out ___ the final, when we know who won.",
+      "choices": [
+        "before",
+        "since",
+        "for",
+        "after"
+      ],
+      "answer": "after",
+      "explain": "Medals are given once the final is over."
+    },
+    {
+      "id": "en-prep-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf ruled Geatland ___ fifty years.",
+      "choices": [
+        "for",
+        "since",
+        "at",
+        "on"
+      ],
+      "answer": "for",
+      "explain": "'For' is used with a length of time."
+    },
+    {
+      "id": "en-prep-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The Geats' ship left the coast ___ dawn.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": "at",
+      "explain": "We say 'at dawn', 'at noon', 'at midnight'."
+    },
+    {
+      "id": "en-prep-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The story of Beowulf is set ___ the sixth century.",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "for"
+      ],
+      "answer": "in",
+      "explain": "We use 'in' with centuries and years."
+    },
+    {
+      "id": "en-prep-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "No phones are allowed ___ lessons.",
+      "choices": [
+        "since",
+        "by",
+        "among",
+        "during"
+      ],
+      "answer": "during",
+      "explain": "'During' is followed by an event or a period of time."
+    },
+    {
+      "id": "en-prep-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My birthday is ___ the fifth of May.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": "on",
+      "explain": "We use 'on' with dates."
+    },
+    {
+      "id": "en-prep-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Wait for me ___ the bus stop.",
+      "choices": [
+        "on",
+        "at",
+        "to",
+        "under"
+      ],
+      "answer": "at",
+      "explain": "We use 'at' for a point such as a bus stop."
+    },
+    {
+      "id": "en-prep-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The ball rolled ___ the car and I couldn't reach it.",
+      "choices": [
+        "above",
+        "among",
+        "under",
+        "opposite"
+      ],
+      "answer": "under",
+      "explain": "'Under' means below something and covered by it."
+    },
+    {
+      "id": "en-prep-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The eagle flew high ___ the castle.",
+      "choices": [
+        "below",
+        "behind",
+        "between",
+        "above"
+      ],
+      "answer": "above",
+      "explain": "'Above' means higher than something."
+    },
+    {
+      "id": "en-prep-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The referee stood ___ the two angry players.",
+      "choices": [
+        "between",
+        "among",
+        "behind",
+        "above"
+      ],
+      "answer": "between",
+      "explain": "'Between' is used for two people or things."
+    },
+    {
+      "id": "en-prep-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf was the bravest ___ all the Geats.",
+      "choices": [
+        "between",
+        "among",
+        "behind",
+        "near"
+      ],
+      "answer": "among",
+      "explain": "'Among' is used for three or more people or things."
+    },
+    {
+      "id": "en-prep-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My locker is ___ yours, side by side.",
+      "choices": [
+        "opposite",
+        "behind",
+        "next to",
+        "among"
+      ],
+      "answer": "next to",
+      "explain": "'Next to' means right beside."
+    },
+    {
+      "id": "en-prep-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The school is ___ the park: they face each other across the street.",
+      "choices": [
+        "next to",
+        "behind",
+        "under",
+        "opposite"
+      ],
+      "answer": "opposite",
+      "explain": "'Opposite' means facing something."
+    },
+    {
+      "id": "en-prep-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The sun went ___ the hill and it got dark.",
+      "choices": [
+        "behind",
+        "in front of",
+        "above",
+        "among"
+      ],
+      "answer": "behind",
+      "explain": "'Behind' means at the back of something."
+    },
+    {
+      "id": "en-prep-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The teacher stands ___ the whole class, facing the pupils, when she speaks.",
+      "choices": [
+        "behind",
+        "in front of",
+        "under",
+        "among"
+      ],
+      "answer": "in front of",
+      "explain": "'In front of' means facing a group from the front."
+    },
+    {
+      "id": "en-prep-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "King Hrothgar sat ___ his throne.",
+      "choices": [
+        "at",
+        "on",
+        "to",
+        "under"
+      ],
+      "answer": "on",
+      "explain": "We sit 'on' a throne or a chair."
+    },
+    {
+      "id": "en-prep-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Heorot was a great hall ___ Denmark.",
+      "choices": [
+        "on",
+        "at",
+        "to",
+        "in"
+      ],
+      "answer": "in",
+      "explain": "We use 'in' with countries and cities."
+    },
+    {
+      "id": "en-prep-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The ball went ___ the window, and now there is a hole in the glass.",
+      "choices": [
+        "through",
+        "along",
+        "past",
+        "over"
+      ],
+      "answer": "through",
+      "explain": "'Through' means passing from one side to the other, inside something."
+    },
+    {
+      "id": "en-prep-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The striker ran ___ the goal.",
+      "choices": [
+        "under",
+        "towards",
+        "among",
+        "out of"
+      ],
+      "answer": "towards",
+      "explain": "'Towards' shows the direction of the movement."
+    },
+    {
+      "id": "en-prep-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf pulled his sword ___ its sheath.",
+      "choices": [
+        "into",
+        "along",
+        "out of",
+        "past"
+      ],
+      "answer": "out of",
+      "explain": "'Out of' is the opposite of 'into'."
+    },
+    {
+      "id": "en-prep-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Grendel burst ___ the hall and seized the sleeping warriors.",
+      "choices": [
+        "out of",
+        "over",
+        "along",
+        "into"
+      ],
+      "answer": "into",
+      "explain": "'Into' means from outside to inside."
+    },
+    {
+      "id": "en-prep-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The team travelled ___ Madrid by plane.",
+      "choices": [
+        "to",
+        "at",
+        "in",
+        "on"
+      ],
+      "answer": "to",
+      "explain": "We use 'to' for movement towards a place."
+    },
+    {
+      "id": "en-prep-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We go to school ___ bus.",
+      "choices": [
+        "with",
+        "by",
+        "in",
+        "at"
+      ],
+      "answer": "by",
+      "explain": "We say 'by bus', 'by car', 'by train'."
+    },
+    {
+      "id": "en-prep-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "I live near the school, so I go there ___ foot.",
+      "answer": [
+        "on"
+      ],
+      "explain": "'On foot' is a fixed expression."
+    },
+    {
+      "id": "en-prep-035",
+      "level": 1,
+      "type": "input",
+      "prompt": "Please listen ___ the coach.",
+      "answer": [
+        "to"
+      ],
+      "explain": "We say 'listen to'."
+    },
+    {
+      "id": "en-prep-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "We are waiting ___ the bus.",
+      "answer": [
+        "for"
+      ],
+      "explain": "We say 'wait for'."
+    },
+    {
+      "id": "en-prep-037",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Look ___ the board, please. I'm writing the homework on it.",
+      "choices": [
+        "to",
+        "at",
+        "after",
+        "of"
+      ],
+      "answer": "at",
+      "explain": "We say 'look at' something we can see."
+    },
+    {
+      "id": "en-prep-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "This sword belongs ___ Beowulf.",
+      "answer": [
+        "to"
+      ],
+      "explain": "We say 'belong to'."
+    },
+    {
+      "id": "en-prep-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "Many warriors were afraid ___ Grendel.",
+      "answer": [
+        "of"
+      ],
+      "explain": "We say 'afraid of'."
+    },
+    {
+      "id": "en-prep-040",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My sister is very good ___ maths.",
+      "answer": "at",
+      "explain": "We say 'good at'.",
+      "choices": [
+        "at",
+        "of",
+        "to",
+        "with"
+      ]
+    },
+    {
+      "id": "en-prep-041",
+      "level": 1,
+      "type": "input",
+      "prompt": "I am interested ___ history.",
+      "answer": [
+        "in"
+      ],
+      "explain": "We say 'interested in'."
+    },
+    {
+      "id": "en-prep-042",
+      "level": 1,
+      "type": "input",
+      "prompt": "Beowulf is famous ___ his victory over Grendel.",
+      "answer": [
+        "for"
+      ],
+      "explain": "We say 'famous for'."
+    },
+    {
+      "id": "en-prep-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The knight is looking ___ his lost helmet. He can't find it.",
+      "choices": [
+        "at",
+        "after",
+        "to",
+        "for"
+      ],
+      "answer": "for",
+      "explain": "'Look for' means to search for something."
+    },
+    {
+      "id": "en-prep-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Our team arrived ___ the stadium at noon.",
+      "choices": [
+        "at",
+        "to",
+        "on",
+        "for"
+      ],
+      "answer": "at",
+      "explain": "We say 'arrive at' for a building or a point."
+    },
+    {
+      "id": "en-prep-045",
+      "level": 1,
+      "type": "input",
+      "prompt": "The poem has themes such ___ courage and loyalty.",
+      "answer": [
+        "as"
+      ],
+      "explain": "We say 'such as' to give examples."
+    },
+    {
+      "id": "en-prep-046",
+      "level": 1,
+      "type": "input",
+      "prompt": "The festival runs ___ 1 June to 5 June.",
+      "answer": [
+        "from"
+      ],
+      "explain": "We say 'from ... to ...' for the start and the end of a period."
+    },
+    {
+      "id": "en-prep-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The fourth floor is just ___ the fifth floor.",
+      "choices": [
+        "among",
+        "opposite",
+        "below",
+        "beside"
+      ],
+      "answer": "below",
+      "explain": "'Below' means lower than something."
+    },
+    {
+      "id": "en-prep-048",
+      "level": 1,
+      "type": "input",
+      "prompt": "He is a member ___ the school team.",
+      "answer": [
+        "of"
+      ],
+      "explain": "We say 'a member of'."
+    },
+    {
+      "id": "en-prep-049",
+      "level": 1,
+      "type": "input",
+      "prompt": "The hall was full ___ warriors.",
+      "answer": [
+        "of"
+      ],
+      "explain": "We say 'full of'."
+    },
+    {
+      "id": "en-prep-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Your essay must be finished ___ Friday at the latest.",
+      "choices": [
+        "until",
+        "since",
+        "during",
+        "by"
+      ],
+      "answer": "by",
+      "explain": "'By' means not later than a deadline."
+    },
+    {
+      "id": "en-prep-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We kept playing ___ 6 pm, and then we went home.",
+      "choices": [
+        "until",
+        "by",
+        "since",
+        "during"
+      ],
+      "answer": "until",
+      "explain": "'Until' shows how long an action continues."
+    },
+    {
+      "id": "en-prep-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I haven't played tennis ___ last summer.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "at"
+      ],
+      "answer": "since",
+      "explain": "'Since' is used with the starting point of a period."
+    },
+    {
+      "id": "en-prep-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I'll see you ___ Monday morning.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": "on",
+      "explain": "We use 'on' with a day, even when we add 'morning'."
+    },
+    {
+      "id": "en-prep-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Olympic Games were held in Paris ___ 2024.",
+      "choices": [
+        "on",
+        "at",
+        "by",
+        "in"
+      ],
+      "answer": "in",
+      "explain": "We use 'in' with years."
+    },
+    {
+      "id": "en-prep-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My family gives presents ___ Christmas Day.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": "on",
+      "explain": "We use 'on' with a particular day."
+    },
+    {
+      "id": "en-prep-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We lost the first half, but ___ the end we won the match.",
+      "choices": [
+        "in",
+        "on",
+        "to",
+        "for"
+      ],
+      "answer": "in",
+      "explain": "'In the end' means 'finally'."
+    },
+    {
+      "id": "en-prep-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The film is boring, but ___ the end of it there is a great surprise.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": "at",
+      "explain": "'At the end of' means at the last moment of something."
+    },
+    {
+      "id": "en-prep-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The bus always leaves ___ time.",
+      "choices": [
+        "in",
+        "at",
+        "by",
+        "on"
+      ],
+      "answer": "on",
+      "explain": "'On time' means punctual."
+    },
+    {
+      "id": "en-prep-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "The ambulance arrived just ___ time to save the player.",
+      "answer": [
+        "in"
+      ],
+      "explain": "'In time' means early enough."
+    },
+    {
+      "id": "en-prep-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Danes had suffered ___ twelve years before Beowulf came.",
+      "choices": [
+        "since",
+        "for",
+        "at",
+        "by"
+      ],
+      "answer": "for",
+      "explain": "'For' is used with a length of time."
+    },
+    {
+      "id": "en-prep-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She lives ___ 12 Oak Street.",
+      "choices": [
+        "in",
+        "on",
+        "by",
+        "at"
+      ],
+      "answer": "at",
+      "explain": "We use 'at' with a full address that has a number."
+    },
+    {
+      "id": "en-prep-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We went ___ holiday in Spain last summer.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": "on",
+      "explain": "We say 'on holiday'."
+    },
+    {
+      "id": "en-prep-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Grendel's mother lived ___ the water of the lake.",
+      "choices": [
+        "above",
+        "under",
+        "behind",
+        "opposite"
+      ],
+      "answer": "under",
+      "explain": "'Under' means below the surface of something."
+    },
+    {
+      "id": "en-prep-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "The monster's lair lay ___ the cliffs and the sea.",
+      "answer": [
+        "between"
+      ],
+      "explain": "'Between' is used for something placed in the space separating two things."
+    },
+    {
+      "id": "en-prep-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The captain stood ___ his players, in the middle of the group.",
+      "choices": [
+        "towards",
+        "opposite",
+        "past",
+        "among"
+      ],
+      "answer": "among",
+      "explain": "'Among' is used for a person in a group of three or more."
+    },
+    {
+      "id": "en-prep-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The dragon slept ___ top of a pile of gold.",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "to"
+      ],
+      "answer": "on",
+      "explain": "We say 'on top of'."
+    },
+    {
+      "id": "en-prep-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Geats sailed ___ the sea to Denmark.",
+      "choices": [
+        "along",
+        "across",
+        "into",
+        "past"
+      ],
+      "answer": "across",
+      "explain": "'Across' means from one side to the other of a large area."
+    },
+    {
+      "id": "en-prep-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We walked ___ the river for an hour, always staying on the bank.",
+      "choices": [
+        "across",
+        "into",
+        "along",
+        "through"
+      ],
+      "answer": "along",
+      "explain": "'Along' means following the line of something long."
+    },
+    {
+      "id": "en-prep-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The bus drove ___ our school without stopping.",
+      "choices": [
+        "across",
+        "through",
+        "into",
+        "past"
+      ],
+      "answer": "past",
+      "explain": "'Past' means going by without stopping."
+    },
+    {
+      "id": "en-prep-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The horse jumped ___ the fence.",
+      "choices": [
+        "over",
+        "into",
+        "along",
+        "among"
+      ],
+      "answer": "over",
+      "explain": "'Over' means going above something and to the other side."
+    },
+    {
+      "id": "en-prep-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf's men marched ___ the hall and sat at the long tables.",
+      "choices": [
+        "out of",
+        "into",
+        "past",
+        "over"
+      ],
+      "answer": "into",
+      "explain": "'Into' means from outside to inside."
+    },
+    {
+      "id": "en-prep-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Christianity spread slowly ___ Europe.",
+      "answer": "across",
+      "explain": "'Across' means from one side to the other of a large area.",
+      "choices": [
+        "across",
+        "behind",
+        "opposite",
+        "under"
+      ]
+    },
+    {
+      "id": "en-prep-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The ball rolled ___ the hill and into the river.",
+      "answer": "down",
+      "explain": "'Down' shows a movement from a higher place to a lower one.",
+      "choices": [
+        "down",
+        "among",
+        "opposite",
+        "at"
+      ]
+    },
+    {
+      "id": "en-prep-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "He is proud ___ his son's goal.",
+      "answer": [
+        "of"
+      ],
+      "explain": "We say 'proud of'."
+    },
+    {
+      "id": "en-prep-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "I'm worried ___ the exam.",
+      "answer": [
+        "about",
+        "over"
+      ],
+      "explain": "We say 'worried about'."
+    },
+    {
+      "id": "en-prep-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf was ready ___ the long voyage to Denmark.",
+      "choices": [
+        "to",
+        "of",
+        "for",
+        "at"
+      ],
+      "answer": "for",
+      "explain": "We say 'ready for' something."
+    },
+    {
+      "id": "en-prep-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "Our result depends ___ how well we train.",
+      "answer": [
+        "on",
+        "upon"
+      ],
+      "explain": "We say 'depend on'."
+    },
+    {
+      "id": "en-prep-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "The poet was familiar ___ both pagan and Christian traditions.",
+      "answer": [
+        "with"
+      ],
+      "explain": "We say 'familiar with'."
+    },
+    {
+      "id": "en-prep-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Our teacher is fond ___ football.",
+      "answer": [
+        "of"
+      ],
+      "explain": "We say 'fond of'."
+    },
+    {
+      "id": "en-prep-080",
+      "level": 2,
+      "type": "input",
+      "prompt": "She is keen ___ swimming.",
+      "answer": [
+        "on"
+      ],
+      "explain": "We say 'keen on'."
+    },
+    {
+      "id": "en-prep-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "He is responsible ___ the team's equipment.",
+      "answer": [
+        "for"
+      ],
+      "explain": "We say 'responsible for'."
+    },
+    {
+      "id": "en-prep-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "You must believe ___ yourself.",
+      "answer": [
+        "in"
+      ],
+      "explain": "We say 'believe in'."
+    },
+    {
+      "id": "en-prep-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Please look ___ my dog while I am away.",
+      "choices": [
+        "for",
+        "after",
+        "at",
+        "to"
+      ],
+      "answer": "after",
+      "explain": "'Look after' means take care of."
+    },
+    {
+      "id": "en-prep-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We are looking forward ___ the final.",
+      "choices": [
+        "at",
+        "to",
+        "for",
+        "of"
+      ],
+      "answer": "to",
+      "explain": "We say 'look forward to' something."
+    },
+    {
+      "id": "en-prep-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "What is the reason ___ the delay?",
+      "answer": [
+        "for",
+        "behind"
+      ],
+      "explain": "We say 'the reason for'."
+    },
+    {
+      "id": "en-prep-086",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Geats arrived ___ Denmark after a long voyage.",
+      "choices": [
+        "in",
+        "at",
+        "to",
+        "on"
+      ],
+      "answer": "in",
+      "explain": "We say 'arrive in' with a country or a city."
+    },
+    {
+      "id": "en-prep-087",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "There was a long answer ___ the question.",
+      "choices": [
+        "of",
+        "to",
+        "for",
+        "at"
+      ],
+      "answer": "to",
+      "explain": "We say 'the answer to'."
+    },
+    {
+      "id": "en-prep-088",
+      "level": 2,
+      "type": "input",
+      "prompt": "Here is a photo ___ the whole team.",
+      "answer": [
+        "of",
+        "with"
+      ],
+      "explain": "'A photo of' shows who or what is in it; 'a photo with' is also correct."
+    },
+    {
+      "id": "en-prep-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The role ___ the scop was to remember old stories.",
+      "choices": [
+        "of",
+        "from",
+        "to",
+        "at"
+      ],
+      "answer": "of",
+      "explain": "We say 'the role of'."
+    },
+    {
+      "id": "en-prep-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "He thanked the king ___ his gift.",
+      "answer": [
+        "for"
+      ],
+      "explain": "We say 'thank someone for something'."
+    },
+    {
+      "id": "en-prep-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "The king asked Beowulf ___ help.",
+      "answer": [
+        "for"
+      ],
+      "explain": "We say 'ask for' something."
+    },
+    {
+      "id": "en-prep-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Monks copied manuscripts ___ hand.",
+      "answer": [
+        "by"
+      ],
+      "explain": "'By hand' is a fixed expression."
+    },
+    {
+      "id": "en-prep-093",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Heorot was attacked ___ Grendel every night.",
+      "choices": [
+        "with",
+        "from",
+        "of",
+        "by"
+      ],
+      "answer": "by",
+      "explain": "'By' introduces the agent in a passive sentence."
+    },
+    {
+      "id": "en-prep-094",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He opened the chest ___ a golden key.",
+      "choices": [
+        "with",
+        "by",
+        "from",
+        "of"
+      ],
+      "answer": "with",
+      "explain": "We use 'with' for the tool we use."
+    },
+    {
+      "id": "en-prep-095",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My penpal sent me a letter ___ Scotland.",
+      "choices": [
+        "of",
+        "from",
+        "by",
+        "at"
+      ],
+      "answer": "from",
+      "explain": "'From' shows where something comes from."
+    },
+    {
+      "id": "en-prep-096",
+      "level": 2,
+      "type": "input",
+      "prompt": "Hrothgar was grateful ___ Beowulf for his help.",
+      "answer": [
+        "to"
+      ],
+      "explain": "We say 'grateful to' someone and 'grateful for' something."
+    },
+    {
+      "id": "en-prep-097",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the correct option (— means no preposition): The coach discussed ___ the tactics with the team.",
+      "choices": [
+        "about",
+        "—",
+        "on",
+        "of"
+      ],
+      "answer": "—",
+      "explain": "'Discuss' is followed directly by its object, with no preposition."
+    },
+    {
+      "id": "en-prep-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The warriors learned the poem ___ heart.",
+      "choices": [
+        "with",
+        "in",
+        "by",
+        "on"
+      ],
+      "answer": "by",
+      "explain": "'By heart' is a fixed expression."
+    },
+    {
+      "id": "en-prep-099",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The dragon set the villages ___ fire.",
+      "choices": [
+        "in",
+        "at",
+        "by",
+        "on"
+      ],
+      "answer": "on",
+      "explain": "We say 'set something on fire'."
+    },
+    {
+      "id": "en-prep-100",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ first, some Danes did not trust Beowulf.",
+      "choices": [
+        "At",
+        "In",
+        "On",
+        "By"
+      ],
+      "answer": "At",
+      "explain": "'At first' means in the beginning."
+    },
+    {
+      "id": "en-prep-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The team has been training ___ 7 am.",
+      "choices": [
+        "for",
+        "by",
+        "during",
+        "since"
+      ],
+      "answer": "since",
+      "explain": "'Since' is used with the starting point of a period."
+    },
+    {
+      "id": "en-prep-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Never give ___, even when you are losing 3-0!",
+      "choices": [
+        "at",
+        "to",
+        "by",
+        "up"
+      ],
+      "answer": "up",
+      "explain": "'Give up' means stop trying."
+    },
+    {
+      "id": "en-prep-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The warriors tried to find ___ where Grendel lived.",
+      "choices": [
+        "out",
+        "at",
+        "to",
+        "by"
+      ],
+      "answer": "out",
+      "explain": "'Find out' means discover."
+    },
+    {
+      "id": "en-prep-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The footballer is married ___ a famous singer.",
+      "choices": [
+        "with",
+        "to",
+        "by",
+        "for"
+      ],
+      "answer": "to",
+      "explain": "We say 'be married to' someone."
+    },
+    {
+      "id": "en-prep-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Danes were ___ danger every night.",
+      "choices": [
+        "at",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": "in",
+      "explain": "We say 'in danger'."
+    },
+    {
+      "id": "en-prep-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Who is ___ charge of the team?",
+      "choices": [
+        "on",
+        "at",
+        "by",
+        "in"
+      ],
+      "answer": "in",
+      "explain": "We say 'in charge of'."
+    },
+    {
+      "id": "en-prep-107",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The two heroes have a lot ___ common.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": "in",
+      "explain": "We say 'have something in common'."
+    },
+    {
+      "id": "en-prep-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Our striker scored ___ his own, without any help from the team.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "with"
+      ],
+      "answer": "on",
+      "explain": "We say 'on his own' for 'alone'."
+    },
+    {
+      "id": "en-prep-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ran to school ___ a hurry.",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "answer": "in",
+      "explain": "We say 'in a hurry'."
+    },
+    {
+      "id": "en-prep-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The wall was painted ___ the students with a big brush.",
+      "choices": [
+        "by",
+        "with",
+        "from",
+        "of"
+      ],
+      "answer": "by",
+      "explain": "'By' is for the person who does the action; 'with' is for the tool."
+    },
+    {
+      "id": "en-prep-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The sword was made ___ iron by the best smiths.",
+      "choices": [
+        "by",
+        "of",
+        "to",
+        "at"
+      ],
+      "answer": "of",
+      "explain": "We say 'made of' a material that stays visible."
+    },
+    {
+      "id": "en-prep-112",
+      "level": 2,
+      "type": "input",
+      "prompt": "The stadium is far ___ the city centre.",
+      "answer": [
+        "from"
+      ],
+      "explain": "We say 'far from'."
+    },
+    {
+      "id": "en-prep-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We stayed at home ___ the storm, which was very strong.",
+      "choices": [
+        "because of",
+        "instead of",
+        "according to",
+        "next to"
+      ],
+      "answer": "because of",
+      "explain": "'Because of' gives the reason."
+    },
+    {
+      "id": "en-prep-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He was born ___ the 1990s.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": "in",
+      "explain": "We use 'in' with decades."
+    },
+    {
+      "id": "en-prep-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Grendel's mother lived ___ the bottom of a lake.",
+      "choices": [
+        "to",
+        "at",
+        "for",
+        "with"
+      ],
+      "answer": "at",
+      "explain": "We say 'at the bottom of'."
+    },
+    {
+      "id": "en-prep-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The hero sailed ___ Geatland to Denmark.",
+      "choices": [
+        "of",
+        "at",
+        "from",
+        "by"
+      ],
+      "answer": "from",
+      "explain": "'From' shows the starting point of a journey."
+    },
+    {
+      "id": "en-prep-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I'll have finished the essay ___ Friday.",
+      "choices": [
+        "until",
+        "by",
+        "since",
+        "during"
+      ],
+      "answer": "by",
+      "explain": "With a deadline and a finished action, we use 'by'."
+    },
+    {
+      "id": "en-prep-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The warriors will feast all night ___ dawn, then they will sleep.",
+      "choices": [
+        "by",
+        "since",
+        "until",
+        "at"
+      ],
+      "answer": "until",
+      "explain": "'Until' shows how long an action continues."
+    },
+    {
+      "id": "en-prep-119",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I'll see you again ___ two days.",
+      "choices": [
+        "in",
+        "for",
+        "at",
+        "since"
+      ],
+      "answer": "in",
+      "explain": "'In two days' means after two days from now."
+    },
+    {
+      "id": "en-prep-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He became king ___ the age of fifty.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": "at",
+      "explain": "We say 'at the age of'."
+    },
+    {
+      "id": "en-prep-121",
+      "level": 3,
+      "type": "input",
+      "prompt": "I haven't seen him ___ ages.",
+      "answer": [
+        "for",
+        "in"
+      ],
+      "explain": "'For ages' is British; 'in ages' is also correct, especially in American English."
+    },
+    {
+      "id": "en-prep-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The bad tackle resulted ___ a red card for the defender.",
+      "choices": [
+        "from",
+        "in",
+        "to",
+        "of"
+      ],
+      "answer": "in",
+      "explain": "'Result in' means cause something."
+    },
+    {
+      "id": "en-prep-123",
+      "level": 3,
+      "type": "input",
+      "prompt": "Many warriors suffered ___ terrible wounds.",
+      "answer": [
+        "from"
+      ],
+      "explain": "We say 'suffer from'."
+    },
+    {
+      "id": "en-prep-124",
+      "level": 3,
+      "type": "input",
+      "prompt": "Beowulf succeeded ___ killing Grendel.",
+      "answer": [
+        "in",
+        "at"
+      ],
+      "explain": "We say 'succeed in doing' something."
+    },
+    {
+      "id": "en-prep-125",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The captain insisted ___ playing in spite of his injury.",
+      "choices": [
+        "on",
+        "in",
+        "to",
+        "for"
+      ],
+      "answer": "on",
+      "explain": "We say 'insist on'."
+    },
+    {
+      "id": "en-prep-126",
+      "level": 3,
+      "type": "input",
+      "prompt": "You can rely ___ me.",
+      "answer": [
+        "on",
+        "upon"
+      ],
+      "explain": "We say 'rely on'."
+    },
+    {
+      "id": "en-prep-127",
+      "level": 3,
+      "type": "input",
+      "prompt": "Please concentrate ___ your work.",
+      "answer": [
+        "on"
+      ],
+      "explain": "We say 'concentrate on'."
+    },
+    {
+      "id": "en-prep-128",
+      "level": 3,
+      "type": "input",
+      "prompt": "I agree ___ you about the match.",
+      "answer": [
+        "with"
+      ],
+      "explain": "We say 'agree with' someone."
+    },
+    {
+      "id": "en-prep-129",
+      "level": 3,
+      "type": "input",
+      "prompt": "The Danes blamed Grendel ___ the attacks.",
+      "answer": [
+        "for"
+      ],
+      "explain": "We say 'blame someone for' something."
+    },
+    {
+      "id": "en-prep-130",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Nothing could prevent Beowulf ___ fighting Grendel.",
+      "choices": [
+        "of",
+        "from",
+        "to",
+        "in"
+      ],
+      "answer": "from",
+      "explain": "We say 'prevent someone from' doing something."
+    },
+    {
+      "id": "en-prep-131",
+      "level": 3,
+      "type": "input",
+      "prompt": "He was accused ___ stealing the treasure.",
+      "answer": [
+        "of"
+      ],
+      "explain": "We say 'accused of'."
+    },
+    {
+      "id": "en-prep-132",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf is known ___ a great hero.",
+      "choices": [
+        "for",
+        "to",
+        "by",
+        "as"
+      ],
+      "answer": "as",
+      "explain": "'Known as' gives a name or a role."
+    },
+    {
+      "id": "en-prep-133",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "She explained the rules ___ the new players.",
+      "choices": [
+        "to",
+        "at",
+        "of",
+        "from"
+      ],
+      "answer": "to",
+      "explain": "We say 'explain something to' someone."
+    },
+    {
+      "id": "en-prep-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Writing was mostly confined ___ religious texts.",
+      "choices": [
+        "for",
+        "to",
+        "at",
+        "by"
+      ],
+      "answer": "to",
+      "explain": "We say 'confined to'."
+    },
+    {
+      "id": "en-prep-135",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "There was a big shift ___ the way stories were told.",
+      "answer": "in",
+      "explain": "We say 'a shift in' something.",
+      "choices": [
+        "in",
+        "at",
+        "by",
+        "with"
+      ]
+    },
+    {
+      "id": "en-prep-136",
+      "level": 3,
+      "type": "input",
+      "prompt": "Oral storytelling was the means ___ which legends were passed down.",
+      "answer": [
+        "by",
+        "through"
+      ],
+      "explain": "'The means by which' and 'the means through which' are both correct."
+    },
+    {
+      "id": "en-prep-137",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We played outside ___ the rain.",
+      "choices": [
+        "despite",
+        "despite of",
+        "in spite",
+        "in spite from"
+      ],
+      "answer": "despite",
+      "explain": "'Despite' is never followed by 'of'; we can also say 'in spite of'."
+    },
+    {
+      "id": "en-prep-138",
+      "level": 3,
+      "type": "input",
+      "prompt": "Hrothgar ruled wisely ___ his old age.",
+      "answer": [
+        "despite",
+        "in spite of",
+        "notwithstanding"
+      ],
+      "explain": "'Despite' and 'in spite of' are both correct; 'notwithstanding' is more formal."
+    },
+    {
+      "id": "en-prep-139",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the correct option (— means no preposition): The Geat warrior entered ___ the hall quietly.",
+      "choices": [
+        "into",
+        "at",
+        "—",
+        "to"
+      ],
+      "answer": "—",
+      "explain": "'Enter' is followed directly by its object, with no preposition."
+    },
+    {
+      "id": "en-prep-140",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the correct option (— means no preposition): The hero approached ___ Grendel's lair slowly.",
+      "choices": [
+        "to",
+        "at",
+        "towards",
+        "—"
+      ],
+      "answer": "—",
+      "explain": "'Approach' is followed directly by its object, with no preposition."
+    },
+    {
+      "id": "en-prep-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the correct option (— means no preposition): The young prince wanted to marry ___ the king's daughter.",
+      "choices": [
+        "—",
+        "with",
+        "to",
+        "by"
+      ],
+      "answer": "—",
+      "explain": "'Marry' is followed directly by its object; with 'be', we say 'married to'."
+    },
+    {
+      "id": "en-prep-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "He walked ___ the cave but turned back before reaching it.",
+      "choices": [
+        "to",
+        "into",
+        "at",
+        "towards"
+      ],
+      "answer": "towards",
+      "explain": "'Towards' shows direction only; 'to' means arriving."
+    },
+    {
+      "id": "en-prep-143",
+      "level": 3,
+      "type": "input",
+      "prompt": "Grendel was a descendant ___ Cain.",
+      "answer": [
+        "of"
+      ],
+      "explain": "We say 'a descendant of'."
+    },
+    {
+      "id": "en-prep-144",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The coach is tired ___ the same excuses every week.",
+      "choices": [
+        "for",
+        "of",
+        "at",
+        "to"
+      ],
+      "answer": "of",
+      "explain": "We say 'tired of' for 'bored with' something."
+    },
+    {
+      "id": "en-prep-145",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The hall stood ___ the sea and the dark moor.",
+      "choices": [
+        "among",
+        "along",
+        "between",
+        "past"
+      ],
+      "answer": "between",
+      "explain": "'Between' is used for something placed between two things."
+    },
+    {
+      "id": "en-prep-146",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The treasure was hidden ___ the rocks, with stones all around it.",
+      "choices": [
+        "towards",
+        "past",
+        "across",
+        "among"
+      ],
+      "answer": "among",
+      "explain": "'Among' is used for something surrounded by many things."
+    }
+  ]
+}
