@@ -3,6 +3,7 @@ import * as C from '../components.js';
 import * as A from '../art.js';
 import { mode, findLocalProgress, importLocalProgress } from '../../store/index.js';
 import { validateUsername, validatePassword } from '../../store/common.js';
+import { APP_VERSION } from '../../config.js';
 import { newPlayerState, ensureSeason } from '../../core/state.js';
 
 const KIT_MAIN = ['#1e40af', '#b91c1c', '#15803d', '#6d28d9', '#c2410c', '#0e7490', '#111827', '#be185d'];
@@ -35,6 +36,7 @@ export default {
       ${C.tabs([{ id: 'in', label: 'Se connecter' }, { id: 'up', label: 'Créer mon compte' }], tab)}
       ${tab === 'up' && !coachMode && step === 1 ? C.button({ label: 'Je suis un parent', variant: 'secondary', block: true, icon: '👪', cls: 'login__parent', attrs: { 'data-action': 'coach' } }) : ''}
       <div class="panel login__panel">${inner}</div>
+      <p class="login__version" title="Version du site" aria-label="Version du site">v${APP_VERSION}</p>
     </div>`;
     };
 

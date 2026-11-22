@@ -4,6 +4,8 @@ Un jeu de révision en forme de championnat de football. On répond à des quest
 
 **Jouer** : https://nicolasholtz-diaboloswing.github.io/study-league/
 
+**Version** : le numéro (par exemple `v1.1.0`) s'affiche dans l'en-tête du site et en bas de l'écran de connexion. Il est défini une seule fois, dans `js/config.js` (`APP_VERSION`) : on l'augmente à chaque mise en ligne.
+
 ## Comment ça marche
 
 - Un match = 10 questions, environ 3 minutes. Deux bonnes réponses marquent un but ; une erreur donne une occasion à l'adversaire. Les u13 peuvent choisir le « Mode expert » : chaque erreur donne alors un but à l'adversaire.

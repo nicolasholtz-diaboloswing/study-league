@@ -1,7 +1,7 @@
 import { test, eq } from './runner.js';
 import { streakInfo, rivalryLine, overtaken, nextPackLevel, groupTopics } from '../js/ui/shell-utils.js';
 import { dayKey } from '../js/core/stats.js';
-import { FREE_PACK_EVERY_N_LEVELS } from '../js/config.js';
+import { FREE_PACK_EVERY_N_LEVELS, APP_VERSION } from '../js/config.js';
 
 const DAY = 86400000;
 const NOW = new Date(2025, 5, 10, 12, 0).getTime();
@@ -52,4 +52,12 @@ test('groupTopics: sections by first appearance, topics without a section last, 
   eq(groupTopics([t('a'), t('b')]).map((s) => [s.group, s.topics.map((x) => x.id)]), [[null, ['a', 'b']]]);
   eq(groupTopics([t('a', 'X')]).map((s) => s.group), ['X']);
   eq(groupTopics([]), []);
+});
+
+test('APP_VERSION: n.n.n string, shown in the top bar (index.html, main.js) and the login screen', async () => {
+  if (!/^\d+\.\d+\.\d+$/.test(APP_VERSION)) throw new Error(`bad version ${APP_VERSION}`);
+  for (const f of ['../index.html', '../js/main.js', '../js/ui/views/login.js']) {
+    const src = await (await fetch(new URL(f, import.meta.url))).text();
+    if (!/top-version|APP_VERSION/.test(src)) throw new Error(`${f} does not show the version`);
+  }
 });

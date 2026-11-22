@@ -19,6 +19,7 @@ const forceCloud = !!loc && new URLSearchParams(loc.search).has('cloud');
 export const FIREBASE_CONFIG = isDevHost && !forceCloud ? null : CLOUD_CONFIG;
 
 export const APP_NAME = 'Study League';
+export const APP_VERSION = '1.1.0'; // shown in the top bar and on the login screen; bump it at every release (go-live)
 
 // Match
 export const MATCH_QUESTIONS = 10;   // questions per match (league and training), about 3 minutes

@@ -25,6 +25,7 @@ document.getElementById('view').innerHTML = `<div class="page">${C.pageHead('Acc
 |---|---|
 | `#top-crest` | put `A.crest(club, 38)` |
 | `#top-club` | club name text |
+| `#top-version` | `v` + `APP_VERSION` (`js/config.js`), set by `main.js`; the login screen shows the same text in `.login__version` |
 | `#top-level` | put `C.xpBar({level, xp, next, compact:true})` |
 | `#top-coins-n` | coin count text |
 | `#nav` links `a.nav__link[data-route]` | set `aria-current="page"` on the active one |

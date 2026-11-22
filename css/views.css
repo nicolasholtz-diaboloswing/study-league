@@ -22,6 +22,7 @@ body.in-match .topbar { display: none; }
 .login__ball svg { filter: drop-shadow(0 8px 16px rgba(0,0,0,.5)); }
 .login__title { font-size: var(--fs-3xl); line-height: 1; }
 .login__tag { color: var(--ink-dim); max-width: 24ch; margin: 0; }
+.login__version { margin: 0; text-align: center; font-size: .6875rem; color: var(--ink-faint); }
 .login__h { font-size: var(--fs-xl); margin: 0; }
 .login__nav .btn { min-width: 120px; }
 .kitpreview { display: flex; align-items: center; justify-content: center; gap: var(--sp-5); padding: var(--sp-3); border-radius: var(--radius); background: radial-gradient(circle at 50% 0, rgba(255,246,214,.12), transparent 70%), var(--pitch-deep); border: 1px solid rgba(61,220,132,.35); }
