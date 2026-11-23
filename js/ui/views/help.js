@@ -4,7 +4,7 @@ import * as A from '../art.js';
 import { RULE } from '../rules.js';
 import { minuteOf } from '../../core/match.js';
 import { DIVISIONS } from '../../core/league.js';
-import { PACK_COST, PACK_SIZE, MATCH_QUESTIONS, GOAL_EVERY_N_CORRECT } from '../../config.js';
+import { PACKS, PACK_COST, PACK_SIZE, MATCH_QUESTIONS, GOAL_EVERY_N_CORRECT } from '../../config.js';
 
 export default {
   title: 'Comment jouer',
@@ -25,7 +25,7 @@ export default {
         art: `<div class="how__xp"><span class="pill pill--info">Niveau 4</span><div class="cprog__track" style="width:100%"><span style="width:60%"></span></div><span class="pill pill--gold">+ 150 XP</span></div>` },
       { t: 'Monte de division', p: 'Finis dans les deux premiers pour monter, de District jusqu\'à la Ligue 1.',
         art: `<div class="how__divs">${DIVISIONS.map((d, i) => `<span class="how__div" style="--h:${28 + i * 14}px"><i>${i + 1}</i><b>${d.name}</b></span>`).join('')}</div>` },
-      { t: 'Gagne des pièces, ouvre des paquets, bats ton frère', p: `Les matchs rapportent des pièces. ${PACK_COST} pièces = un paquet de ${PACK_SIZE} cartes. Complète ton album, sélection après sélection !`,
+      { t: 'Gagne des pièces, ouvre des paquets, bats ton frère', p: `Les matchs rapportent des pièces. ${PACKS.small.cost} pièces = 1 carte, ${PACK_COST} pièces = ${PACK_SIZE} cartes. Seul le paquet de ${PACK_SIZE} cartes peut contenir une légende, et ses cartes sont plus fortes. Complète ton album, sélection après sélection !`,
         art: `<div class="how__packs">${A.cardBack({ size: 'sm' })}${A.card(rare, { size: 'sm' })}${A.card(legend, { size: 'sm' })}</div>` },
     ];
     el.innerHTML = `<div class="page page--narrow">${C.pageHead('Comment jouer', { kicker: 'Aide', sub: `${steps.length > 6 ? 'Sept' : 'Six'} étapes, et tu sais tout.` })}

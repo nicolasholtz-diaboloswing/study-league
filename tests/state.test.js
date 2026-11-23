@@ -6,7 +6,7 @@ import {
 import { createMatch, answerQuestion, currentQuestion, summarizeMatch } from '../js/core/match.js';
 import { nextFixture, seasonLength } from '../js/core/league.js';
 import {
-  MATCH_QUESTIONS as NQ, GOAL_EVERY_N_CORRECT as N, SEASON_MATCHDAYS as SL, PACK_COST, PACK_SIZE, FREE_PACK_EVERY_N_LEVELS as EVERY,
+  MATCH_QUESTIONS as NQ, GOAL_EVERY_N_CORRECT as N, SEASON_MATCHDAYS as SL, PACKS, PACK_COST, PACK_SIZE, FREE_PACK_EVERY_N_LEVELS as EVERY,
 } from '../js/config.js';
 import { xpToReach, levelForXp } from '../js/core/rewards.js';
 import {
@@ -226,6 +226,23 @@ test('buyPack: needs PACK_COST coins, adds cards and counts legends; openFreePac
   const legends = Object.entries(s.cards).filter(([id]) => CARDS.find((c) => c.id === id).rarity === 'legend').reduce((a, [, n]) => a + n, 0);
   eq(s.totals.legends, legends);
   assert(legends > 0 && s.badges['first-legend'] && s.badges['cards-10']);
+});
+
+test('buyPack small: 75 coins, 1 card, never a legend; unknown kind throws', () => {
+  const rng = createRng(8);
+  const s0 = { ...fresh(1), coins: 74 };
+  let threw = false;
+  try { buyPack(s0, ctx(rng, T0), 'small'); } catch { threw = true; }
+  assert(threw, 'not enough coins');
+  const out = buyPack({ ...s0, coins: 80 }, ctx(rng, T0), 'small');
+  eq([out.state.coins, out.cards.length, PACKS.small.cost], [5, 1, 75]);
+  threw = false;
+  try { buyPack({ ...s0, coins: 1000 }, ctx(rng, T0), 'huge'); } catch { threw = true; }
+  assert(threw, 'unknown pack');
+  let s = { ...s0, coins: 100000 };
+  for (let i = 0; i < 400; i++) s = buyPack(s, ctx(rng, T0), 'small').state;
+  eq(s.totals.legends, 0);
+  assert(!s.badges['first-legend']);
 });
 
 // ---- firestore.rules contract: what the client writes must pass validState / validSummary / validProfile ----

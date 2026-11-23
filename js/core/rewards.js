@@ -61,22 +61,27 @@ export function matchCoins(result) {
 
 // ---------- cards ----------
 
-export const RARITY_ODDS = { common: 0.6, rare: 0.28, epic: 0.1, legend: 0.02 };
+/** Odds per pack: the small pack has no legend; the big pack (and the free pack) is stronger. */
+export const PACK_ODDS = {
+  small: { common: 0.7, rare: 0.24, epic: 0.06, legend: 0 },
+  big: { common: 0.55, rare: 0.28, epic: 0.13, legend: 0.04 },
+};
+export const RARITY_ODDS = PACK_ODDS.big;
 export const RARITIES = ['common', 'rare', 'epic', 'legend'];
 
 /**
  * Open a pack. cards: array from data/cards.json. collection: state.cards (id -> count), used for isNew.
- * Rarity is drawn per card from RARITY_ODDS (rarities with no cards are skipped), then a random card of it.
+ * Rarity is drawn per card from `odds` (default: the big pack; rarities with no cards or 0 odds are skipped), then a random card of it.
  * Returns [{ card, isNew }] (isNew false for a second copy inside the same pack).
  */
-export function openPack(cards, rng, collection = {}, size = PACK_SIZE) {
+export function openPack(cards, rng, collection = {}, size = PACK_SIZE, odds = RARITY_ODDS) {
   const byRarity = {};
   for (const c of cards) (byRarity[c.rarity] ||= []).push(c);
-  const rarities = RARITIES.filter((r) => byRarity[r]?.length);
+  const rarities = RARITIES.filter((r) => byRarity[r]?.length && odds[r] > 0);
   const have = new Set(Object.keys(collection).filter((id) => collection[id] > 0));
   const out = [];
   for (let i = 0; i < size; i++) {
-    const rarity = rng.weighted(rarities, (r) => RARITY_ODDS[r]);
+    const rarity = rng.weighted(rarities, (r) => odds[r]);
     const card = rng.pick(byRarity[rarity]);
     out.push({ card: { ...card }, isNew: !have.has(card.id) });
     have.add(card.id);

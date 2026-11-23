@@ -29,7 +29,8 @@ MATCH_QUESTIONS = 10
 TIMER_MCQ_SECONDS = 30
 TIMER_INPUT_SECONDS = 45
 GOAL_EVERY_N_CORRECT = 2
-PACK_COST = 150
+PACKS = { small: { cost: 75, size: 1 }, big: { cost: 150, size: 3 } }
+PACK_COST = 150   // = PACKS.big.cost (also the free pack)
 PACK_SIZE = 3
 FREE_PACK_EVERY_N_LEVELS = 10
 TRAINING_XP_FACTOR = 0.5
@@ -182,9 +183,10 @@ levelForXp(xp) -> level (>= 1)
 levelInfo(xp) -> { level, xp, levelStart, nextLevelAt, progress: 0..1 }
 matchXp(result) -> { base, speed, outcome, total }          // 10/correct, speed sum, 50/20/10; training halves total
 matchCoins(result) -> { base, perfect, coachPick, total }   // 30/15/5, +10 perfect, x1.5 coach pick; training: 0; a league defeat with fewer than a third of the questions right (minCorrectForLossCoins(total)): 0
-RARITY_ODDS = { common: 0.6, rare: 0.28, epic: 0.1, legend: 0.02 }
+PACK_ODDS = { small: { common: 0.7, rare: 0.24, epic: 0.06, legend: 0 }, big: { common: 0.55, rare: 0.28, epic: 0.13, legend: 0.04 } }
+RARITY_ODDS = PACK_ODDS.big
 RARITIES = ['common','rare','epic','legend']
-openPack(cards, rng, collection = {}, size = PACK_SIZE) -> [{ card, isNew }]
+openPack(cards, rng, collection = {}, size = PACK_SIZE, odds = RARITY_ODDS) -> [{ card, isNew }]
 BADGES -> [{ id, name, desc, icon, check(state, env) }]      // 24, names and descriptions in French
 badgeById(id) -> badge | null
 badgeInfo(badge) -> { id, name, desc, icon }
@@ -232,7 +234,7 @@ newPlayerState({ username, displayName, role = 'player', squad = 'u13', club = '
 ensureSeason(state, clubs, rng) -> state        // creates season 1 if league.season is null
 migrateState(raw) -> state | null               // fills defaults, upgrades old schema; the stores call it on load
 applyResult(state, result, ctx) -> { state, events }
-buyPack(state, ctx) -> { state, cards: [{card, isNew}], events }       // costs PACK_COST; throws Error if short
+buyPack(state, ctx, kind = 'big') -> { state, cards: [{card, isNew}], events }  // 'big' = 150 coins, 3 cards; 'small' = 75 coins, 1 card, no legend; throws Error if short or unknown kind
 openFreePack(state, ctx) -> { state, cards: [{card, isNew}], events }  // uses state.freePacks; throws if none
 ```
 - None of these mutates its input; use the returned `state`, then `await store.saveState(state)`.

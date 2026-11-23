@@ -1,7 +1,7 @@
 // Home: the club, one big "Jouer le match" button, the next fixture, progress, level, streak, coins, coach's pick, rivalry, table snippet.
 import * as C from '../components.js';
 import * as A from '../art.js';
-import { PACK_COST, MATCH_QUESTIONS, MATCH_MINUTES } from '../../config.js';
+import { PACKS, MATCH_QUESTIONS, MATCH_MINUTES } from '../../config.js';
 import { nextFixture, divisionName, seasonLength } from '../../core/league.js';
 import { RULE } from '../rules.js';
 import { listTopics } from '../../core/questions.js';
@@ -60,7 +60,7 @@ export default {
     const lvl = levelBar(st.xp);
     const toGo = Math.max(0, lvl.next - lvl.xp);
     const pct = lvl.next > 0 ? Math.min(100, Math.round((lvl.xp / lvl.next) * 100)) : 0;
-    const canBuy = st.coins >= PACK_COST;
+    const canBuy = st.coins >= PACKS.small.cost;
 
     const fixture = fx ? `<div class="fixture-card">
         <div class="fixture-card__team">${A.crest(me, 72)}<b>${C.esc(me.name)}</b></div>
@@ -95,7 +95,7 @@ export default {
           <div class="home__levelpanel">${C.section('Ton niveau', `<div class="panel">${C.xpBar(lvl)}</div>`)}</div>
           <div class="grid grid--2">
             <div class="${streak.urgent ? 'streak-urgent' : ''}">${C.statTile({ label: streak.days > 1 ? 'jours de suite' : 'jour de suite', value: streak.days, icon: '🔥', tone: streak.days > 0 ? 'gold' : 'default', sub: streak.text })}</div>
-            ${C.statTile({ label: 'pièces', value: st.coins, icon: '🪙', tone: 'gold', sub: canBuy ? 'Assez pour un paquet !' : `Encore ${PACK_COST - st.coins} pour un paquet` })}
+            ${C.statTile({ label: 'pièces', value: st.coins, icon: '🪙', tone: 'gold', sub: canBuy ? 'Assez pour acheter des cartes !' : `Encore ${PACKS.small.cost - st.coins} pour une carte` })}
           </div>
           ${canBuy ? C.button({ label: 'Ouvrir un paquet de cartes', variant: 'secondary', block: true, icon: '🃏', href: '#/cards' }) : ''}
         </div>

@@ -10,7 +10,7 @@ Un jeu de révision en forme de championnat de football. On répond à des quest
 
 - Un match = 10 questions, environ 3 minutes. Deux bonnes réponses marquent un but ; une erreur donne une occasion à l'adversaire. Les u13 peuvent choisir le « Mode expert » : chaque erreur donne alors un but à l'adversaire.
 - Une saison = 7 journées, une rencontre contre chacun des 7 autres clubs (matchs aller simples). Les 2 premiers montent : District, Régional, National, Ligue 2, Ligue 1.
-- Chaque match rapporte de l'XP et des pièces. 150 pièces = un paquet de 3 cartes (191 joueurs de 11 sélections nationales à collectionner : France, Argentine, Angleterre, Espagne, Portugal, Brésil, Allemagne, Italie, Pays-Bas, Belgique, Maroc).
+- Chaque match rapporte de l'XP et des pièces. 75 pièces = 1 carte (sans légende), 150 pièces = un paquet de 3 cartes (légende possible, cartes plus fortes) (191 joueurs de 11 sélections nationales à collectionner : France, Argentine, Angleterre, Espagne, Portugal, Brésil, Allemagne, Italie, Pays-Bas, Belgique, Maroc).
 - 25 médailles à gagner, un classement entre joueurs et un face-à-face.
 - Un compte parent voit le temps de jeu, les résultats et les thèmes à travailler de chaque enfant.
 

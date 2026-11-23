@@ -1,10 +1,10 @@
 // Player state: creation, migration, and the orchestrator that applies a match result.
 // Nothing here mutates its inputs: functions return new state objects.
 import {
-  HISTORY_LIMIT, MASTERY_WINDOW, ACTIVITY_DAYS_KEPT, PACK_COST, FREE_PACK_EVERY_N_LEVELS, MATCH_QUESTIONS,
+  HISTORY_LIMIT, MASTERY_WINDOW, ACTIVITY_DAYS_KEPT, PACKS, FREE_PACK_EVERY_N_LEVELS, MATCH_QUESTIONS,
 } from '../config.js';
 import { newSeason, playMatchday, isSeasonOver, seasonEnd, startNextSeason, computeTable } from './league.js';
-import { matchXp, matchCoins, levelForXp, openPack, evaluateBadges } from './rewards.js';
+import { matchXp, matchCoins, levelForXp, openPack, evaluateBadges, PACK_ODDS } from './rewards.js';
 import { dayKey, updateStreak, topicStars } from './stats.js';
 import { resolveDifficulty } from './match.js';
 
@@ -335,15 +335,17 @@ function addCards(s, drawn) {
 }
 
 /**
- * Pay PACK_COST coins and open a pack.
+ * Pay the pack's cost and open it. kind: 'big' (default, 150 coins, 3 cards) or 'small' (75 coins, 1 card, no legend).
  *  ctx: { now, rng, cards (array from cards.json), catalog (optional) }
- * Returns { state, cards: [{card, isNew}], events: [{type:'badge',...}] }. Throws if not enough coins.
+ * Returns { state, cards: [{card, isNew}], events: [{type:'badge',...}] }. Throws if not enough coins or unknown kind.
  */
-export function buyPack(state, ctx) {
-  if (state.coins < PACK_COST) throw new Error('Not enough coins');
+export function buyPack(state, ctx, kind = 'big') {
+  const pack = PACKS[kind];
+  if (!pack) throw new Error('Unknown pack');
+  if (state.coins < pack.cost) throw new Error('Not enough coins');
   const s = clone(state);
-  s.coins -= PACK_COST;
-  const drawn = openPack(ctx.cards, ctx.rng, s.cards);
+  s.coins -= pack.cost;
+  const drawn = openPack(ctx.cards, ctx.rng, s.cards, pack.size, PACK_ODDS[kind]);
   addCards(s, drawn);
   const events = [];
   s.lastActive = ctx.now;
