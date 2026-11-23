@@ -1,0 +1,1583 @@
+{
+  "topic": "en-future",
+  "questions": [
+    {
+      "id": "en-fut-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence correctly says what she will do tomorrow?",
+      "choices": [
+        "She will plays tennis tomorrow.",
+        "She will play tennis tomorrow.",
+        "She wills play tennis tomorrow.",
+        "She will to play tennis tomorrow."
+      ],
+      "answer": "She will play tennis tomorrow.",
+      "explain": "Will is followed by the base verb, with no -s and no 'to'."
+    },
+    {
+      "id": "en-fut-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I think it ___ sunny this weekend.",
+      "choices": [
+        "will is",
+        "wills be",
+        "will be",
+        "will being"
+      ],
+      "answer": "will be",
+      "explain": "After 'will' we use the base verb: will be."
+    },
+    {
+      "id": "en-fut-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which is the short form of 'I will'?",
+      "choices": [
+        "I'd",
+        "I'm",
+        "I've",
+        "I'll"
+      ],
+      "answer": "I'll",
+      "explain": "I will becomes I'll."
+    },
+    {
+      "id": "en-fut-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "They ___ come to the party tomorrow. They are ill.",
+      "choices": [
+        "won't",
+        "willn't",
+        "don't will",
+        "aren't"
+      ],
+      "answer": "won't",
+      "explain": "The negative of will is will not, short form won't."
+    },
+    {
+      "id": "en-fut-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you help me with my homework tonight?",
+      "choices": [
+        "Does",
+        "Will",
+        "Is",
+        "Are"
+      ],
+      "answer": "Will",
+      "explain": "A question with will starts with Will: Will you + base verb?"
+    },
+    {
+      "id": "en-fut-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Will Tom win the match? Yes, he ___.",
+      "choices": [
+        "does",
+        "is",
+        "will",
+        "wills"
+      ],
+      "answer": "will",
+      "explain": "Short answers repeat the auxiliary: Yes, he will."
+    },
+    {
+      "id": "en-fut-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Will it rain tomorrow? No, it ___.",
+      "choices": [
+        "doesn't",
+        "isn't",
+        "willn't",
+        "won't"
+      ],
+      "answer": "won't",
+      "explain": "Short negative answer: No, it won't."
+    },
+    {
+      "id": "en-fut-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ going to visit Spain in August.",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "will"
+      ],
+      "answer": "are",
+      "explain": "Be going to: we + are + going to + base verb."
+    },
+    {
+      "id": "en-fut-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My sister ___ going to be a doctor.",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": "is",
+      "explain": "Be going to: she + is + going to + base verb."
+    },
+    {
+      "id": "en-fut-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ going to buy a new bike next week.",
+      "choices": [
+        "is",
+        "are",
+        "am",
+        "will"
+      ],
+      "answer": "am",
+      "explain": "Be going to: I + am + going to + base verb."
+    },
+    {
+      "id": "en-fut-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence correctly describes a travel plan?",
+      "choices": [
+        "He is going to travels by train.",
+        "He going to travel by train.",
+        "He is go to travel by train.",
+        "He is going to travel by train."
+      ],
+      "answer": "He is going to travel by train.",
+      "explain": "Be going to needs 'is', then 'going to' and the base verb."
+    },
+    {
+      "id": "en-fut-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "They ___ going to play today. The pitch is closed.",
+      "choices": [
+        "aren't",
+        "isn't",
+        "don't",
+        "amn't"
+      ],
+      "answer": "aren't",
+      "explain": "Negative: they + aren't (are not) + going to + base verb."
+    },
+    {
+      "id": "en-fut-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you going to watch the final tonight?",
+      "choices": [
+        "Is",
+        "Are",
+        "Do",
+        "Will"
+      ],
+      "answer": "Are",
+      "explain": "Question with be going to: Are you going to + base verb?"
+    },
+    {
+      "id": "en-fut-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence correctly describes a plan for Sunday?",
+      "choices": [
+        "We are going play football on Sunday.",
+        "We going to plays football on Sunday.",
+        "We are going to play football on Sunday.",
+        "We are go to play football on Sunday."
+      ],
+      "answer": "We are going to play football on Sunday.",
+      "explain": "The pattern is are going to + base verb."
+    },
+    {
+      "id": "en-fut-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf will fight the monster ___.",
+      "choices": [
+        "yesterday",
+        "last week",
+        "two days ago",
+        "tomorrow"
+      ],
+      "answer": "tomorrow",
+      "explain": "Tomorrow points to the future; the others point to the past."
+    },
+    {
+      "id": "en-fut-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The match will start ___ two days.",
+      "choices": [
+        "in",
+        "ago",
+        "since",
+        "for"
+      ],
+      "answer": "in",
+      "explain": "'In two days' means two days from now."
+    },
+    {
+      "id": "en-fut-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which expression is about the future?",
+      "choices": [
+        "last week",
+        "next week",
+        "yesterday",
+        "a week ago"
+      ],
+      "answer": "next week",
+      "explain": "Next week is in the future."
+    },
+    {
+      "id": "en-fut-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I think Brazil ___ the World Cup.",
+      "choices": [
+        "wins",
+        "won",
+        "will win",
+        "is win"
+      ],
+      "answer": "will win",
+      "explain": "A prediction based on an opinion ('I think') usually takes will + base verb."
+    },
+    {
+      "id": "en-fut-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The phone is ringing. You decide right now to answer it. You say: 'I ___ it!'",
+      "choices": [
+        "'m going to get",
+        "got",
+        "getting",
+        "'ll get"
+      ],
+      "answer": "'ll get",
+      "explain": "A decision made at the moment of speaking takes will: I'll get it."
+    },
+    {
+      "id": "en-fut-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "'I've already decided: I ___ a doctor.'",
+      "choices": [
+        "am going to be",
+        "going to be",
+        "be",
+        "am be"
+      ],
+      "answer": "am going to be",
+      "explain": "A decision already made takes be going to ('I've already decided'); don't forget 'am'."
+    },
+    {
+      "id": "en-fut-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Look at those black clouds! It ___ rain.",
+      "choices": [
+        "going to",
+        "is going to",
+        "is going",
+        "will to"
+      ],
+      "answer": "is going to",
+      "explain": "With visible evidence, be going to is the most natural form: It is going to rain."
+    },
+    {
+      "id": "en-fut-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I promise I ___ late again.",
+      "choices": [
+        "don't be",
+        "not will be",
+        "won't be",
+        "won't being"
+      ],
+      "answer": "won't be",
+      "explain": "A promise uses will: I won't be late."
+    },
+    {
+      "id": "en-fut-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ thirteen in May.",
+      "choices": [
+        "will is",
+        "wills be",
+        "will being",
+        "will be"
+      ],
+      "answer": "will be",
+      "explain": "A certain future fact takes will + base verb: will be."
+    },
+    {
+      "id": "en-fut-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I'm sure it ___ hot in 2050.",
+      "choices": [
+        "will be",
+        "was",
+        "has been",
+        "did be"
+      ],
+      "answer": "will be",
+      "explain": "'In 2050' is the future, so: will be."
+    },
+    {
+      "id": "en-fut-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "That bag looks heavy. I ___ carry it for you.",
+      "choices": [
+        "am",
+        "'ll",
+        "do",
+        "'m going"
+      ],
+      "answer": "'ll",
+      "explain": "An offer uses will: I'll carry it for you."
+    },
+    {
+      "id": "en-fut-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf says: 'I ___ the monster without a sword.'",
+      "choices": [
+        "fights",
+        "will fights",
+        "will fight",
+        "will to fight"
+      ],
+      "answer": "will fight",
+      "explain": "Will + base verb: I will fight."
+    },
+    {
+      "id": "en-fut-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Hrothgar will ___ happy when Grendel is gone.",
+      "choices": [
+        "is",
+        "are",
+        "being",
+        "be"
+      ],
+      "answer": "be",
+      "explain": "After will we use the base verb: be."
+    },
+    {
+      "id": "en-fut-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf has decided to help King Hrothgar. He says: 'I ___ to Denmark tomorrow.'",
+      "choices": [
+        "am going to sail",
+        "will to sail",
+        "am going sail",
+        "are going to sail"
+      ],
+      "answer": "am going to sail",
+      "explain": "I + am going to + base verb."
+    },
+    {
+      "id": "en-fut-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf sees Grendel's shadow at the door. 'Look! Grendel ___ the hall!'",
+      "choices": [
+        "will to attack",
+        "is going to attack",
+        "is going attack",
+        "going to attack"
+      ],
+      "answer": "is going to attack",
+      "explain": "Is going to + base verb, because we see the evidence."
+    },
+    {
+      "id": "en-fut-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence correctly says what Beowulf will not use?",
+      "choices": [
+        "Beowulf will not uses a sword.",
+        "Beowulf not will use a sword.",
+        "Beowulf will not use a sword.",
+        "Beowulf won't to use a sword."
+      ],
+      "answer": "Beowulf will not use a sword.",
+      "explain": "Negative: will not (won't) + base verb."
+    },
+    {
+      "id": "en-fut-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The warriors ___ sleep in the hall tonight. They are too afraid.",
+      "choices": [
+        "willn't",
+        "won't to",
+        "not will",
+        "won't"
+      ],
+      "answer": "won't",
+      "explain": "Won't is followed directly by the base verb."
+    },
+    {
+      "id": "en-fut-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence correctly says he is not coming to school tomorrow?",
+      "choices": [
+        "He won't come to school tomorrow.",
+        "He won't comes to school tomorrow.",
+        "He doesn't will come to school tomorrow.",
+        "He will not to come to school tomorrow."
+      ],
+      "answer": "He won't come to school tomorrow.",
+      "explain": "Won't + base verb, with no -s and no 'to'."
+    },
+    {
+      "id": "en-fut-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Look at the score! Our team ___ (to win).",
+      "answer": [
+        "is going to win",
+        "'s going to win",
+        "will win",
+        "'ll win"
+      ],
+      "explain": "With visible evidence, be going to is the most natural, but will is possible too."
+    },
+    {
+      "id": "en-fut-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Oh, we have no milk! I ___ (to buy) some.",
+      "answer": [
+        "will buy",
+        "'ll buy",
+        "am going to buy",
+        "'m going to buy"
+      ],
+      "explain": "Both will and be going to are possible; will is typical for a decision made while speaking."
+    },
+    {
+      "id": "en-fut-035",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete the short answer: Will she come? No, she ___.",
+      "answer": [
+        "won't",
+        "will not"
+      ],
+      "explain": "The short negative answer is won't."
+    },
+    {
+      "id": "en-fut-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with one word: ___ you help me tomorrow? Yes, I will.",
+      "answer": [
+        "will"
+      ],
+      "explain": "Questions with will start with Will."
+    },
+    {
+      "id": "en-fut-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "I ___ going to clean my room tonight. (am / is / are)",
+      "answer": [
+        "am"
+      ],
+      "explain": "With I we use am: I am going to clean."
+    },
+    {
+      "id": "en-fut-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "He ___ going to be a great footballer. Look how fast he runs! (am / is / are)",
+      "answer": [
+        "is"
+      ],
+      "explain": "With he we use is: he is going to be."
+    },
+    {
+      "id": "en-fut-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "The film will start ___ Friday evening. (in / on / at)",
+      "answer": [
+        "on"
+      ],
+      "explain": "We use 'on' with days: on Friday evening."
+    },
+    {
+      "id": "en-fut-040",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Next summer I ___ (to climb) a mountain.",
+      "answer": [
+        "will climb",
+        "'ll climb",
+        "am going to climb",
+        "'m going to climb"
+      ],
+      "explain": "Both will and be going to can express a future action."
+    },
+    {
+      "id": "en-fut-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Someone is hurt in the hall. Beowulf decides at that moment to help: 'Wait! I ___ you!'",
+      "choices": [
+        "going to help",
+        "'ll help",
+        "helped",
+        "help"
+      ],
+      "answer": "'ll help",
+      "explain": "A decision made at the moment of speaking takes will: I'll help you."
+    },
+    {
+      "id": "en-fut-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'I've already decided: I ___ my bike this afternoon.'",
+      "choices": [
+        "going to wash",
+        "wash will",
+        "am going to wash",
+        "am wash"
+      ],
+      "answer": "am going to wash",
+      "explain": "A decision already made takes be going to: I am going to wash."
+    },
+    {
+      "id": "en-fut-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Someone knocks at the door. You decide right now to open it: 'I ___ the door!'",
+      "choices": [
+        "going to open",
+        "opened",
+        "open",
+        "'ll open"
+      ],
+      "answer": "'ll open",
+      "explain": "A spontaneous decision takes will: I'll open the door."
+    },
+    {
+      "id": "en-fut-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I think our teacher ___ us a test next week.",
+      "choices": [
+        "will give",
+        "gives",
+        "is give",
+        "gave"
+      ],
+      "answer": "will give",
+      "explain": "A prediction with 'I think' takes will + base verb."
+    },
+    {
+      "id": "en-fut-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The striker is alone in front of the empty goal. 'Look! He ___ score!'",
+      "choices": [
+        "is going to",
+        "going to",
+        "is going",
+        "will to"
+      ],
+      "answer": "is going to",
+      "explain": "With visible evidence, be going to is the most natural: He is going to score."
+    },
+    {
+      "id": "en-fut-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We booked our flights last week. We ___ in Rome in July.",
+      "choices": [
+        "will to stay",
+        "going to stay",
+        "are going to stay",
+        "are going stay"
+      ],
+      "answer": "are going to stay",
+      "explain": "A plan already made takes be going to."
+    },
+    {
+      "id": "en-fut-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Leo ___ chess with his cousin at 5 p.m. tomorrow. They have arranged it.",
+      "choices": [
+        "is playing",
+        "will plays",
+        "playing",
+        "play will"
+      ],
+      "answer": "is playing",
+      "explain": "An arrangement with another person takes the present continuous."
+    },
+    {
+      "id": "en-fut-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sam and Leo have arranged to meet at five. Sam says: 'We ___ at the park at five.'",
+      "choices": [
+        "are meeting",
+        "is meeting",
+        "will meets",
+        "meeting"
+      ],
+      "answer": "are meeting",
+      "explain": "An arrangement with other people takes the present continuous."
+    },
+    {
+      "id": "en-fut-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The train ___ at 6:10 tomorrow morning.",
+      "choices": [
+        "leave",
+        "leaves",
+        "leaving",
+        "leaved"
+      ],
+      "answer": "leaves",
+      "explain": "A timetable takes the present simple."
+    },
+    {
+      "id": "en-fut-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which verb form is the usual choice for a timetable (a train, a lesson, a film)?",
+      "choices": [
+        "Present perfect",
+        "Past simple",
+        "Present simple",
+        "Past continuous"
+      ],
+      "answer": "Present simple",
+      "explain": "Timetables and schedules use the present simple."
+    },
+    {
+      "id": "en-fut-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence talks about a meeting arranged with a friend?",
+      "choices": [
+        "The film starts at seven.",
+        "I met Ana at seven.",
+        "I meet Ana every day.",
+        "I am meeting Ana at seven."
+      ],
+      "answer": "I am meeting Ana at seven.",
+      "explain": "A personal arrangement uses the present continuous."
+    },
+    {
+      "id": "en-fut-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I'll call you when I ___ home.",
+      "choices": [
+        "arrive",
+        "will arrive",
+        "would arrive",
+        "arriving"
+      ],
+      "answer": "arrive",
+      "explain": "After 'when' we use the present simple, not will."
+    },
+    {
+      "id": "en-fut-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ to the beach as soon as the rain stops.",
+      "choices": [
+        "goes",
+        "will go",
+        "went",
+        "will going"
+      ],
+      "answer": "will go",
+      "explain": "Main clause: will + base verb; time clause: present simple."
+    },
+    {
+      "id": "en-fut-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses 'before'?",
+      "choices": [
+        "I will phone you before I will leave.",
+        "I phone you before I will leave.",
+        "I will phone you before I leave.",
+        "I will phone you before I leaving."
+      ],
+      "answer": "I will phone you before I leave.",
+      "explain": "After 'before' we use the present simple: before I leave."
+    },
+    {
+      "id": "en-fut-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Wait here until the bus ___.",
+      "choices": [
+        "will come",
+        "come",
+        "coming",
+        "comes"
+      ],
+      "answer": "comes",
+      "explain": "After 'until' we use the present simple: comes."
+    },
+    {
+      "id": "en-fut-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If it ___ tomorrow, we will stay at home.",
+      "choices": [
+        "rains",
+        "will rain",
+        "rain",
+        "raining"
+      ],
+      "answer": "rains",
+      "explain": "After 'if' we use the present simple, not will."
+    },
+    {
+      "id": "en-fut-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "After Beowulf ___ Grendel, he will go home.",
+      "choices": [
+        "will defeat",
+        "defeats",
+        "defeat",
+        "defeating"
+      ],
+      "answer": "defeats",
+      "explain": "After 'after' we use the present simple: defeats."
+    },
+    {
+      "id": "en-fut-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf will wait in the dark until Grendel ___.",
+      "choices": [
+        "will arrive",
+        "arrive",
+        "arrives",
+        "arriving"
+      ],
+      "answer": "arrives",
+      "explain": "After 'until' we use the present simple: arrives."
+    },
+    {
+      "id": "en-fut-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence shows a promise?",
+      "choices": [
+        "I protect your people every day.",
+        "I am protecting your people.",
+        "I protected your people.",
+        "I will protect your people."
+      ],
+      "answer": "I will protect your people.",
+      "explain": "A promise uses will + base verb."
+    },
+    {
+      "id": "en-fut-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is an offer?",
+      "choices": [
+        "I'll carry your bag.",
+        "I'll be at home at six.",
+        "I'll never forget this day.",
+        "I'll see you tomorrow."
+      ],
+      "answer": "I'll carry your bag.",
+      "explain": "An offer to help uses I'll + base verb."
+    },
+    {
+      "id": "en-fut-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence correctly describes a plan for the weekend?",
+      "choices": [
+        "We going to have a barbecue this weekend.",
+        "We are going to have a barbecue this weekend.",
+        "We are going to having a barbecue this weekend.",
+        "We will to have a barbecue this weekend."
+      ],
+      "answer": "We are going to have a barbecue this weekend.",
+      "explain": "Are going to + base verb."
+    },
+    {
+      "id": "en-fut-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is a correct question about tomorrow?",
+      "choices": [
+        "Will you are at school tomorrow?",
+        "Do you will be at school tomorrow?",
+        "Will you be at school tomorrow?",
+        "You will be at school tomorrow, will?"
+      ],
+      "answer": "Will you be at school tomorrow?",
+      "explain": "Question with will: Will + subject + base verb."
+    },
+    {
+      "id": "en-fut-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is a correct question about tomorrow's weather?",
+      "choices": [
+        "Does it going to rain tomorrow?",
+        "Is going it to rain tomorrow?",
+        "Is it going to rains tomorrow?",
+        "Is it going to rain tomorrow?"
+      ],
+      "answer": "Is it going to rain tomorrow?",
+      "explain": "Question with be going to: Is + subject + going to + base verb."
+    },
+    {
+      "id": "en-fut-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Robin Hood hears a cry. He decides immediately: 'I ___ the villagers!'",
+      "choices": [
+        "'ll help",
+        "going to help",
+        "helped",
+        "help"
+      ],
+      "answer": "'ll help",
+      "explain": "A decision made at the moment of speaking takes will: I'll help."
+    },
+    {
+      "id": "en-fut-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Look! The bridge is breaking! The hero ___ jump.",
+      "choices": [
+        "is going to",
+        "going to",
+        "is going",
+        "will to"
+      ],
+      "answer": "is going to",
+      "explain": "With visible evidence, be going to is the most natural: The hero is going to jump."
+    },
+    {
+      "id": "en-fut-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I'm sure the king ___ Beowulf a big feast.",
+      "choices": [
+        "gives",
+        "will gives",
+        "will give",
+        "will giving"
+      ],
+      "answer": "will give",
+      "explain": "A confident prediction takes will + base verb."
+    },
+    {
+      "id": "en-fut-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf and Wiglaf have agreed to sail at dawn. 'We ___ at dawn.'",
+      "choices": [
+        "sail will",
+        "will sails",
+        "sailing",
+        "are sailing"
+      ],
+      "answer": "are sailing",
+      "explain": "An arrangement with another person takes the present continuous."
+    },
+    {
+      "id": "en-fut-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses 'probably' in a prediction?",
+      "choices": [
+        "She will probably win the race.",
+        "She will win probably the race.",
+        "She probably will to win the race.",
+        "She will probably wins the race."
+      ],
+      "answer": "She will probably win the race.",
+      "explain": "'Probably' goes after will, then the base verb."
+    },
+    {
+      "id": "en-fut-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Why is 'She will goes to the park' wrong?",
+      "choices": [
+        "Will needs 'to' before the verb.",
+        "After will we use the base verb.",
+        "Will is only used with I.",
+        "After will we use the -ing form."
+      ],
+      "answer": "After will we use the base verb.",
+      "explain": "After will the verb never takes -s: she will go."
+    },
+    {
+      "id": "en-fut-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The driver can't stop! The car ___ the wall.",
+      "choices": [
+        "will to hit",
+        "is going hit",
+        "is going to hit",
+        "going to hit"
+      ],
+      "answer": "is going to hit",
+      "explain": "The evidence is visible now, so: is going to + base verb."
+    },
+    {
+      "id": "en-fut-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I think our team ___ (to win) on Saturday.",
+      "answer": [
+        "will win",
+        "'ll win",
+        "is going to win",
+        "'s going to win"
+      ],
+      "explain": "With 'I think', both will and be going to are natural."
+    },
+    {
+      "id": "en-fut-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Sam ___ (to be) fourteen next month.",
+      "answer": [
+        "will be",
+        "'ll be",
+        "is going to be",
+        "'s going to be"
+      ],
+      "explain": "A certain future fact can take will or be going to."
+    },
+    {
+      "id": "en-fut-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form (negative): We ___ (to be) late. I promise.",
+      "answer": [
+        "won't be",
+        "will not be",
+        "aren't going to be",
+        "are not going to be",
+        "'re not going to be"
+      ],
+      "explain": "Negative future: won't be or aren't going to be."
+    },
+    {
+      "id": "en-fut-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I've already decided: I ___ (to learn) the guitar this year.",
+      "answer": [
+        "am going to learn",
+        "'m going to learn"
+      ],
+      "explain": "A decision already made takes be going to."
+    },
+    {
+      "id": "en-fut-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Beowulf is waiting in the dark. He thinks Grendel ___ (to come) tonight.",
+      "answer": [
+        "will come",
+        "'ll come",
+        "is going to come",
+        "'s going to come"
+      ],
+      "explain": "After 'he thinks', both forms express the prediction."
+    },
+    {
+      "id": "en-fut-076",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Beowulf has decided to fight Grendel tomorrow. He ___ (to fight) him in the hall.",
+      "answer": [
+        "is going to fight",
+        "'s going to fight",
+        "will fight",
+        "'ll fight"
+      ],
+      "explain": "Be going to fits a plan already made; will is possible too."
+    },
+    {
+      "id": "en-fut-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "The phone is ringing and you decide at once to answer. Which form is the most natural? (will / be going to)",
+      "answer": [
+        "will"
+      ],
+      "explain": "A decision made at the moment of speaking takes will."
+    },
+    {
+      "id": "en-fut-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "Last month Ben decided to paint his room. Which form is the most natural to talk about his plan? (will / be going to)",
+      "answer": [
+        "be going to"
+      ],
+      "explain": "A plan decided earlier takes be going to."
+    },
+    {
+      "id": "en-fut-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I'll tell you as soon as I ___ (to know).",
+      "answer": [
+        "know"
+      ],
+      "explain": "After 'as soon as' we use the present simple."
+    },
+    {
+      "id": "en-fut-080",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We will leave when the film ___ (to finish).",
+      "answer": [
+        "finishes",
+        "has finished"
+      ],
+      "explain": "After 'when' we use the present simple (or present perfect), not will."
+    },
+    {
+      "id": "en-fut-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If you ___ (to study) hard, you will pass the test.",
+      "answer": [
+        "study"
+      ],
+      "explain": "After 'if' we use the present simple."
+    },
+    {
+      "id": "en-fut-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Before she ___ (to go) to school, she will feed the cat.",
+      "answer": [
+        "goes"
+      ],
+      "explain": "After 'before' we use the present simple: goes."
+    },
+    {
+      "id": "en-fut-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Hrothgar says: 'If you ___ (to defeat) Grendel, I will give you gold.'",
+      "answer": [
+        "defeat"
+      ],
+      "explain": "After 'if' we use the present simple, not will."
+    },
+    {
+      "id": "en-fut-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses 'when'?",
+      "choices": [
+        "When I arrive, I will text you.",
+        "When I will arrive, I will text you.",
+        "When I arrive, I text will you.",
+        "When I arriving, I will text you."
+      ],
+      "answer": "When I arrive, I will text you.",
+      "explain": "After 'when' we use the present simple, never will."
+    },
+    {
+      "id": "en-fut-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses 'if' to talk about going out?",
+      "choices": [
+        "We will go out if the sun will shine.",
+        "We will go out if the sun shines.",
+        "We go will out if the sun shines.",
+        "We will go out if the sun shining."
+      ],
+      "answer": "We will go out if the sun shines.",
+      "explain": "After 'if' we use the present simple, never will."
+    },
+    {
+      "id": "en-fut-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses 'if' to talk about a cancelled match?",
+      "choices": [
+        "If it will rain tomorrow, the match will be cancelled.",
+        "If it rains tomorrow, the match cancelled will be.",
+        "If it rains tomorrow, the match will be cancelled.",
+        "If it rain tomorrow, the match will be cancelled."
+      ],
+      "answer": "If it rains tomorrow, the match will be cancelled.",
+      "explain": "If + present simple, then will + base verb."
+    },
+    {
+      "id": "en-fut-087",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "After the lesson ends, we ___ lunch.",
+      "choices": [
+        "had",
+        "would have",
+        "having",
+        "will have"
+      ],
+      "answer": "will have",
+      "explain": "The time clause is in the present simple; the main clause takes will."
+    },
+    {
+      "id": "en-fut-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Before Beowulf ___ the hall, he will take off his armour.",
+      "choices": [
+        "enters",
+        "will enter",
+        "enter",
+        "entering"
+      ],
+      "answer": "enters",
+      "explain": "After 'before' we use the present simple: enters."
+    },
+    {
+      "id": "en-fut-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses 'as soon as'?",
+      "choices": [
+        "I will tell you as soon as the results will arrive.",
+        "I will tell you as soon as the results arrive.",
+        "I tell will you as soon as the results arrive.",
+        "I will tell you as soon as the results arriving."
+      ],
+      "answer": "I will tell you as soon as the results arrive.",
+      "explain": "After 'as soon as' we use the present simple."
+    },
+    {
+      "id": "en-fut-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ I open the window? It's hot in here.",
+      "choices": [
+        "Will",
+        "Do",
+        "Shall",
+        "Am"
+      ],
+      "answer": "Shall",
+      "explain": "'Shall I...?' offers to do something."
+    },
+    {
+      "id": "en-fut-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Let's go to the park, ___ we?",
+      "choices": [
+        "will",
+        "do",
+        "are",
+        "shall"
+      ],
+      "answer": "shall",
+      "explain": "The tag after 'Let's' is 'shall we?'."
+    },
+    {
+      "id": "en-fut-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What does 'Shall we have pizza tonight?' do?",
+      "choices": [
+        "It makes a suggestion.",
+        "It makes a promise.",
+        "It makes a prediction.",
+        "It gives a timetable."
+      ],
+      "answer": "It makes a suggestion.",
+      "explain": "'Shall we...?' suggests an activity."
+    },
+    {
+      "id": "en-fut-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is a polite offer?",
+      "choices": [
+        "I shall carries your bag.",
+        "Shall I carry your bag?",
+        "Shall I to carry your bag?",
+        "I carry shall your bag?"
+      ],
+      "answer": "Shall I carry your bag?",
+      "explain": "Offer: Shall I + base verb?"
+    },
+    {
+      "id": "en-fut-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Hrothgar is tired. Beowulf offers: '___ I guard the hall tonight?'",
+      "choices": [
+        "Will",
+        "Do",
+        "Shall",
+        "Am"
+      ],
+      "answer": "Shall",
+      "explain": "'Shall I...?' is an offer."
+    },
+    {
+      "id": "en-fut-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence uses the future continuous?",
+      "choices": [
+        "At nine tomorrow I will sleep.",
+        "At nine tomorrow I am sleeping.",
+        "At nine tomorrow I slept.",
+        "At nine tomorrow I will be sleeping."
+      ],
+      "answer": "At nine tomorrow I will be sleeping.",
+      "explain": "Future continuous: will be + verb-ing."
+    },
+    {
+      "id": "en-fut-096",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "This time tomorrow I ___ to London.",
+      "choices": [
+        "will be flying",
+        "will being fly",
+        "will be fly",
+        "will flying"
+      ],
+      "answer": "will be flying",
+      "explain": "Future continuous: will be + -ing, an action in progress at that time."
+    },
+    {
+      "id": "en-fut-097",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What does 'This time next week, I'll be lying on a beach' mean?",
+      "choices": [
+        "I lay on a beach last week.",
+        "I will be in the middle of lying on a beach then.",
+        "I always lie on a beach.",
+        "I will start going to the beach next week."
+      ],
+      "answer": "I will be in the middle of lying on a beach then.",
+      "explain": "The future continuous shows an action in progress at a future moment."
+    },
+    {
+      "id": "en-fut-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'Are you free on Saturday?' 'No, I ___ lunch with my aunt. It's all arranged.'",
+      "choices": [
+        "have will",
+        "will to have",
+        "am having",
+        "am have"
+      ],
+      "answer": "am having",
+      "explain": "An arrangement with another person takes the present continuous."
+    },
+    {
+      "id": "en-fut-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence gives a timetable?",
+      "choices": [
+        "The match will starts at 3 p.m. tomorrow.",
+        "The match is start at 3 p.m. tomorrow.",
+        "The match starting at 3 p.m. tomorrow.",
+        "The match starts at 3 p.m. tomorrow."
+      ],
+      "answer": "The match starts at 3 p.m. tomorrow.",
+      "explain": "A timetable takes the present simple: starts."
+    },
+    {
+      "id": "en-fut-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is about a decision made at the moment of speaking?",
+      "choices": [
+        "Oh, it's cold. I'll close the window.",
+        "I'm going to close the shop in June. I decided last week.",
+        "The shop closes at six.",
+        "I'm closing the shop on Friday. I told the manager."
+      ],
+      "answer": "Oh, it's cold. I'll close the window.",
+      "explain": "Will is used for a decision taken while speaking."
+    },
+    {
+      "id": "en-fut-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'There's no sugar left.' 'Really? I didn't know. I ___ some from the shop.'",
+      "choices": [
+        "'m going to get",
+        "'ll get",
+        "got",
+        "get"
+      ],
+      "answer": "'ll get",
+      "explain": "The decision is made now, so: will."
+    },
+    {
+      "id": "en-fut-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'Why are you buying flour?' 'I've decided to bake a cake for Mum. I ___ one.'",
+      "choices": [
+        "going to make",
+        "make",
+        "am going to make",
+        "am make"
+      ],
+      "answer": "am going to make",
+      "explain": "A decision already made takes be going to: I am going to make."
+    },
+    {
+      "id": "en-fut-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence correctly says what will happen if you win?",
+      "choices": [
+        "If you will win, I will be very proud.",
+        "If you win, I be will very proud.",
+        "If you win, I will being very proud.",
+        "If you win, I will be very proud."
+      ],
+      "answer": "If you win, I will be very proud.",
+      "explain": "If + present simple, then will + base verb."
+    },
+    {
+      "id": "en-fut-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses 'until'?",
+      "choices": [
+        "I will wait here until you come back.",
+        "I will wait here until you will come back.",
+        "I wait will here until you come back.",
+        "I will wait here until you coming back."
+      ],
+      "answer": "I will wait here until you come back.",
+      "explain": "After 'until' we use the present simple."
+    },
+    {
+      "id": "en-fut-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence correctly says you plan not to eat sweets tonight?",
+      "choices": [
+        "Tonight I not going to eat any sweets.",
+        "Tonight I'm not going to eat any sweets.",
+        "Tonight I'm not going to eating any sweets.",
+        "Tonight I don't going to eat any sweets."
+      ],
+      "answer": "Tonight I'm not going to eat any sweets.",
+      "explain": "Negative: am not going to + base verb."
+    },
+    {
+      "id": "en-fut-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf is sure of himself. Which sentence is correct?",
+      "choices": [
+        "I think I will to win.",
+        "I think I wills win.",
+        "I think I will win.",
+        "I think I will winning."
+      ],
+      "answer": "I think I will win.",
+      "explain": "Will + base verb after 'I think'."
+    },
+    {
+      "id": "en-fut-107",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence correctly says that something will be hard, but that we will try?",
+      "choices": [
+        "It won't be easy, but we will to try.",
+        "It won't being easy, but we will try.",
+        "It doesn't will be easy, but we will try.",
+        "It won't be easy, but we will try."
+      ],
+      "answer": "It won't be easy, but we will try.",
+      "explain": "Will and won't are both followed by the base verb."
+    },
+    {
+      "id": "en-fut-108",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the future continuous: At eight o'clock tonight I ___ (to watch) the final.",
+      "answer": [
+        "will be watching",
+        "'ll be watching"
+      ],
+      "explain": "Future continuous: will be + verb-ing."
+    },
+    {
+      "id": "en-fut-109",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the future continuous: This time tomorrow night Beowulf ___ (to wait) for Grendel in the hall.",
+      "answer": [
+        "will be waiting",
+        "'ll be waiting"
+      ],
+      "explain": "Future continuous: will be + verb-ing."
+    },
+    {
+      "id": "en-fut-110",
+      "level": 3,
+      "type": "input",
+      "prompt": "Make a suggestion. Complete with one word: ___ we meet outside the stadium at six?",
+      "answer": [
+        "shall",
+        "should"
+      ],
+      "explain": "'Shall we...?' makes a suggestion ('Should we...?' also works)."
+    },
+    {
+      "id": "en-fut-111",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I will wait here until Anna ___ (to return).",
+      "answer": [
+        "returns",
+        "has returned"
+      ],
+      "explain": "After 'until' we use the present simple (or present perfect), not will."
+    },
+    {
+      "id": "en-fut-112",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We will start the game as soon as everybody ___ (to arrive).",
+      "answer": [
+        "arrives",
+        "has arrived"
+      ],
+      "explain": "After 'as soon as' we use the present simple (or present perfect), not will."
+    },
+    {
+      "id": "en-fut-113",
+      "level": 2,
+      "type": "input",
+      "prompt": "Use the present continuous: They ___ (to play) a match on Saturday. It's arranged with the other team.",
+      "answer": [
+        "are playing",
+        "'re playing"
+      ],
+      "explain": "An arrangement with another person takes the present continuous."
+    },
+    {
+      "id": "en-fut-114",
+      "level": 2,
+      "type": "input",
+      "prompt": "Use the present simple (timetable): The film ___ (to start) at 9:30 tonight.",
+      "answer": [
+        "starts"
+      ],
+      "explain": "A timetable takes the present simple."
+    },
+    {
+      "id": "en-fut-115",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form (negative): Look at his face! He ___ (to enjoy) the party.",
+      "answer": [
+        "isn't going to enjoy",
+        "is not going to enjoy",
+        "'s not going to enjoy",
+        "won't enjoy",
+        "will not enjoy"
+      ],
+      "explain": "We see the evidence now, so: is not going to + base verb."
+    },
+    {
+      "id": "en-fut-116",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form (negative): Don't worry. I ___ (to forget) your birthday.",
+      "answer": [
+        "won't forget",
+        "will not forget",
+        "am not going to forget",
+        "'m not going to forget"
+      ],
+      "explain": "The negative of will is won't + base verb."
+    },
+    {
+      "id": "en-fut-117",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: In 2050 people ___ (to live) on Mars. I think so.",
+      "answer": [
+        "will live",
+        "'ll live",
+        "are going to live",
+        "'re going to live"
+      ],
+      "explain": "After 'I think', both forms express the prediction."
+    },
+    {
+      "id": "en-fut-118",
+      "level": 3,
+      "type": "input",
+      "prompt": "A friend asks: 'Can you help me tonight?' You say yes right away. Which form is the most natural? (will / be going to)",
+      "answer": [
+        "will"
+      ],
+      "explain": "A reply made at the moment of speaking takes will."
+    },
+    {
+      "id": "en-fut-119",
+      "level": 3,
+      "type": "input",
+      "prompt": "Look at those players: they are exhausted and the score is 5-0. 'They ___ lose.' Which form is the most natural when you can see the evidence? (will / be going to)",
+      "answer": [
+        "be going to"
+      ],
+      "explain": "With visible evidence, be going to is the most natural form."
+    }
+  ]
+}

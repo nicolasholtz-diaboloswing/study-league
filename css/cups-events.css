@@ -1,0 +1,29 @@
+/* Cups section of the league view, cup result, event banner and pop-up. */
+.cup { display: flex; align-items: center; gap: var(--sp-3, .75rem); flex-wrap: wrap; }
+.cup__icon { font-size: 1.9rem; line-height: 1; }
+.cup__body { flex: 1 1 14rem; min-width: 0; display: grid; gap: 4px; }
+.cup--locked { opacity: .7; }
+.cup__rounds { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.cup__round { padding: 2px 9px; border-radius: 999px; font-size: var(--fs-xs); background: rgba(255,255,255,.07); color: var(--ink-faint); border: 1px solid transparent; }
+.cup__round.is-done { background: var(--ok-bg); color: var(--ok); }
+.cup__round.is-now { border-color: var(--gold); color: var(--gold-bright); }
+.cup-won { display: flex; align-items: center; gap: var(--sp-3, .75rem); }
+.cup-won__card { flex: none; }
+.event-banner { margin: 0; padding: 6px 12px; border-radius: 10px; text-align: center; font-size: var(--fs-sm); color: var(--gold-bright); background: rgba(251,191,36,.12); border: 1px solid rgba(251,191,36,.35); }
+.event-pop { display: grid; gap: var(--sp-2, .5rem); text-align: center; }
+.event-pop__icon { font-size: 2.6rem; line-height: 1; }
+
+/* Switch row of a setting (profile: optional content packs). */
+.toggle { position: relative; display: flex; align-items: center; gap: var(--sp-3, .75rem); cursor: pointer; min-height: 44px; }
+.toggle__text { flex: 1 1 auto; min-width: 0; display: grid; gap: 2px; }
+.toggle__label { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; letter-spacing: .04em; text-transform: uppercase; }
+.toggle__desc { font-size: var(--fs-sm); color: var(--ink-dim); }
+.toggle__meta { font-size: var(--fs-xs); color: var(--ink-faint); }
+.toggle__input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.toggle__track { position: relative; flex: none; width: 52px; height: 30px; border-radius: 999px; background: rgba(0,0,0,.4); border: 1px solid var(--line-strong); transition: background var(--t-fast); }
+.toggle__track::after { content: ''; position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: var(--ink-dim); transition: transform var(--t-fast), background var(--t-fast); }
+.toggle__input:checked + .toggle__track { background: var(--pitch-deep); border-color: var(--pitch); }
+.toggle__input:checked + .toggle__track::after { transform: translateX(22px); background: var(--pitch-bright); }
+.toggle__input:focus-visible + .toggle__track { outline: 3px solid var(--gold-bright); outline-offset: 2px; }
+.toggle + .toggle { border-top: 1px solid var(--line); padding-top: var(--sp-2, .5rem); margin-top: var(--sp-2, .5rem); }
+.panel > .topic-group { margin: 0 0 var(--sp-2, .5rem); display: flex; align-items: center; gap: var(--sp-2, .5rem); }

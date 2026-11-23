@@ -1,0 +1,2695 @@
+{
+  "topic": "maths-triangles",
+  "questions": [
+    {
+      "id": "ma-tri-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, comment appelle-t-on les points A, B et C ?",
+      "choices": [
+        "Les sommets",
+        "Les côtés",
+        "Les angles",
+        "Les milieux"
+      ],
+      "answer": "Les sommets",
+      "explain": "Les points A, B et C sont les sommets du triangle ABC."
+    },
+    {
+      "id": "ma-tri-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien un triangle a-t-il de sommets ?",
+      "choices": [
+        "4",
+        "3",
+        "2",
+        "6"
+      ],
+      "answer": "3",
+      "explain": "Un triangle a 3 sommets, 3 côtés et 3 angles."
+    },
+    {
+      "id": "ma-tri-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un triangle isocèle ?",
+      "choices": [
+        "Un triangle qui a au moins deux côtés de même longueur",
+        "Un triangle qui a un angle droit",
+        "Un triangle dont les trois côtés ont des longueurs différentes",
+        "Un triangle qui a deux angles droits"
+      ],
+      "answer": "Un triangle qui a au moins deux côtés de même longueur",
+      "explain": "Un triangle isocèle a au moins deux côtés de même longueur."
+    },
+    {
+      "id": "ma-tri-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un triangle équilatéral ?",
+      "choices": [
+        "Un triangle qui a exactement deux côtés de même longueur",
+        "Un triangle qui a un angle droit",
+        "Un triangle qui a trois angles droits",
+        "Un triangle qui a trois côtés de même longueur"
+      ],
+      "answer": "Un triangle qui a trois côtés de même longueur",
+      "explain": "Un triangle équilatéral a ses trois côtés de même longueur."
+    },
+    {
+      "id": "ma-tri-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un triangle rectangle ?",
+      "choices": [
+        "Un triangle qui a un angle droit",
+        "Un triangle qui a un angle de 60°",
+        "Un triangle qui a deux côtés de même longueur",
+        "Un triangle qui a trois côtés de même longueur"
+      ],
+      "answer": "Un triangle qui a un angle droit",
+      "explain": "Un triangle rectangle a un angle droit, c'est-à-dire de 90°."
+    },
+    {
+      "id": "ma-tri-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un triangle qui a ses trois côtés de même longueur est un triangle... (équilatéral / rectangle / quelconque)",
+      "answer": [
+        "équilatéral"
+      ],
+      "explain": "Trois côtés de même longueur : le triangle est équilatéral."
+    },
+    {
+      "id": "ma-tri-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est isocèle en A. Quels côtés ont la même longueur ?",
+      "choices": [
+        "AB et BC",
+        "AB et AC",
+        "AC et BC",
+        "Les trois côtés"
+      ],
+      "answer": "AB et AC",
+      "explain": "Isocèle en A signifie AB = AC."
+    },
+    {
+      "id": "ma-tri-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est isocèle en A. Quels angles sont égaux ?",
+      "choices": [
+        "Les angles en A et en B",
+        "Les angles en A et en C",
+        "Les angles en B et en C",
+        "Les trois angles"
+      ],
+      "answer": "Les angles en B et en C",
+      "explain": "Dans un triangle isocèle en A, les deux angles à la base, en B et en C, sont égaux."
+    },
+    {
+      "id": "ma-tri-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien mesure chaque angle d'un triangle équilatéral, en degrés ?",
+      "choices": [
+        "120",
+        "30",
+        "70",
+        "60"
+      ],
+      "answer": "60",
+      "explain": "180 ÷ 3 = 60 : les trois angles d'un triangle équilatéral mesurent 60°."
+    },
+    {
+      "id": "ma-tri-010",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le triangle DEF est rectangle en E. Combien mesure l'angle en E, en degrés ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "Un triangle rectangle en E a un angle droit en E, soit 90°."
+    },
+    {
+      "id": "ma-tri-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est isocèle en A. Comment appelle-t-on le point A ?",
+      "choices": [
+        "Le sommet principal",
+        "Le milieu de la base",
+        "Le pied de la hauteur",
+        "Le centre du cercle circonscrit"
+      ],
+      "answer": "Le sommet principal",
+      "explain": "Dans un triangle isocèle en A, le point A est le sommet principal."
+    },
+    {
+      "id": "ma-tri-012",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, les angles en B et en C mesurent ensemble 90°. Combien mesure l'angle en A, en degrés ?",
+      "choices": [
+        "100",
+        "90",
+        "80",
+        "180"
+      ],
+      "answer": "90",
+      "explain": "180 - 90 = 90 : le triangle est rectangle en A."
+    },
+    {
+      "id": "ma-tri-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a trois côtés de longueurs 4 cm, 4 cm et 7 cm. Quelle est sa nature ?",
+      "choices": [
+        "Équilatéral",
+        "Rectangle",
+        "Isocèle",
+        "Quelconque"
+      ],
+      "answer": "Isocèle",
+      "explain": "Deux côtés ont la même longueur, mais pas le troisième : le triangle est isocèle."
+    },
+    {
+      "id": "ma-tri-014",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a trois côtés de 5 cm. Quelle est sa nature la plus précise ?",
+      "choices": [
+        "Isocèle sans être équilatéral",
+        "Rectangle",
+        "Quelconque",
+        "Équilatéral"
+      ],
+      "answer": "Équilatéral",
+      "explain": "Trois côtés de même longueur : le triangle est équilatéral."
+    },
+    {
+      "id": "ma-tri-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un triangle n'a ni angle droit, ni deux côtés de même longueur. Comment l'appelle-t-on ?",
+      "choices": [
+        "Quelconque",
+        "Isocèle",
+        "Équilatéral",
+        "Rectangle"
+      ],
+      "answer": "Quelconque",
+      "explain": "Un triangle sans propriété particulière est dit quelconque."
+    },
+    {
+      "id": "ma-tri-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est équilatéral et AB = 6 cm. Combien mesure BC, en cm ?",
+      "choices": [
+        "7",
+        "6",
+        "5",
+        "12"
+      ],
+      "answer": "6",
+      "explain": "Les trois côtés d'un triangle équilatéral ont la même longueur."
+    },
+    {
+      "id": "ma-tri-017",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le triangle ABC est isocèle en A, avec AB = 5 cm et BC = 8 cm. Combien mesure AC, en cm ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Isocèle en A signifie AC = AB = 5 cm."
+    },
+    {
+      "id": "ma-tri-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que peut-on dire des angles d'un triangle isocèle ?",
+      "choices": [
+        "Les trois sont égaux",
+        "L'un d'eux est droit",
+        "Deux d'entre eux, à la base, sont égaux",
+        "Deux d'entre eux mesurent 60°"
+      ],
+      "answer": "Deux d'entre eux, à la base, sont égaux",
+      "explain": "Dans un triangle isocèle, les deux angles à la base sont égaux."
+    },
+    {
+      "id": "ma-tri-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est isocèle en A. Comment appelle-t-on le côté [BC] ?",
+      "choices": [
+        "Le sommet",
+        "La hauteur",
+        "La médiane",
+        "La base"
+      ],
+      "answer": "La base",
+      "explain": "Dans un triangle isocèle en A, le côté [BC] opposé au sommet principal est la base."
+    },
+    {
+      "id": "ma-tri-020",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle équilatéral est-il aussi un triangle isocèle ?",
+      "choices": [
+        "Oui, car il a au moins deux côtés de même longueur",
+        "Non, car il a trois côtés de même longueur et non deux",
+        "Non, car ses angles mesurent 60°",
+        "Oui, mais seulement s'il est rectangle"
+      ],
+      "answer": "Oui, car il a au moins deux côtés de même longueur",
+      "explain": "Un triangle équilatéral a deux côtés de même longueur (et même trois) : il est aussi isocèle."
+    },
+    {
+      "id": "ma-tri-021",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle rectangle peut-il être isocèle ?",
+      "choices": [
+        "Non, jamais",
+        "Oui, avec des angles de 90°, 45° et 45°",
+        "Oui, avec des angles de 90°, 60° et 30°",
+        "Oui, avec trois angles de 90°"
+      ],
+      "answer": "Oui, avec des angles de 90°, 45° et 45°",
+      "explain": "Un triangle rectangle isocèle a des angles de 90°, 45° et 45°."
+    },
+    {
+      "id": "ma-tri-022",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un triangle rectangle peut avoir deux angles droits. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Deux angles droits font déjà 180° : il ne resterait rien pour le troisième angle."
+    },
+    {
+      "id": "ma-tri-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, l'angle en A mesure 50° et l'angle en B mesure 60°. Combien mesure l'angle en C, en degrés ?",
+      "choices": [
+        "110",
+        "20",
+        "70",
+        "80"
+      ],
+      "answer": "70",
+      "explain": "180 - 50 - 60 = 70."
+    },
+    {
+      "id": "ma-tri-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans le triangle DEF, l'angle en D mesure 35° et l'angle en E mesure 85°. Combien mesure l'angle en F, en degrés ?",
+      "choices": [
+        "120",
+        "30",
+        "70",
+        "60"
+      ],
+      "answer": "60",
+      "explain": "180 - 35 - 85 = 60."
+    },
+    {
+      "id": "ma-tri-025",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans le triangle MNP, l'angle en M mesure 110° et l'angle en N mesure 25°. Combien mesure l'angle en P, en degrés ?",
+      "answer": [
+        "45"
+      ],
+      "explain": "180 - 110 - 25 = 45."
+    },
+    {
+      "id": "ma-tri-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le triangle XYZ, l'angle en X mesure 125° et l'angle en Y mesure 35°. Combien mesure l'angle en Z, en degrés ?",
+      "choices": [
+        "20",
+        "160",
+        "55",
+        "30"
+      ],
+      "answer": "20",
+      "explain": "180 - 125 - 35 = 20."
+    },
+    {
+      "id": "ma-tri-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le triangle KLM, l'angle en K mesure 45° et l'angle en L mesure 85°. Combien mesure l'angle en M, en degrés ?",
+      "choices": [
+        "130",
+        "50",
+        "40",
+        "60"
+      ],
+      "answer": "50",
+      "explain": "180 - 45 - 85 = 50."
+    },
+    {
+      "id": "ma-tri-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, l'angle en A mesure 40° et l'angle en B mesure 75°. Combien mesure l'angle en C, en degrés ?",
+      "choices": [
+        "115",
+        "140",
+        "65",
+        "75"
+      ],
+      "answer": "65",
+      "explain": "180 - 40 - 75 = 65."
+    },
+    {
+      "id": "ma-tri-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le triangle GHI, l'angle en G mesure 55° et l'angle en H mesure 75°. Combien mesure l'angle en I, en degrés ?",
+      "choices": [
+        "130",
+        "125",
+        "50",
+        "55"
+      ],
+      "answer": "50",
+      "explain": "180 - 55 - 75 = 50."
+    },
+    {
+      "id": "ma-tri-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le triangle JKL, l'angle en J mesure 105° et l'angle en K mesure 35°. Combien mesure l'angle en L, en degrés ?",
+      "choices": [
+        "40",
+        "140",
+        "70",
+        "145"
+      ],
+      "answer": "40",
+      "explain": "180 - 105 - 35 = 40."
+    },
+    {
+      "id": "ma-tri-031",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans le triangle ABC, les angles en A et en B mesurent ensemble 115°. Combien mesure l'angle en C, en degrés ?",
+      "answer": [
+        "65"
+      ],
+      "explain": "180 - 115 = 65."
+    },
+    {
+      "id": "ma-tri-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est isocèle en A et l'angle en A mesure 40°. Combien mesure l'angle en B, en degrés ?",
+      "choices": [
+        "110",
+        "70",
+        "20",
+        "80"
+      ],
+      "answer": "70",
+      "explain": "(180 - 40) ÷ 2 = 70."
+    },
+    {
+      "id": "ma-tri-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est isocèle en A et l'angle en B mesure 50°. Combien mesure l'angle en A, en degrés ?",
+      "choices": [
+        "100",
+        "10",
+        "80",
+        "90"
+      ],
+      "answer": "80",
+      "explain": "L'angle en C vaut aussi 50°, donc A = 180 - 50 - 50 = 80."
+    },
+    {
+      "id": "ma-tri-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le triangle SOL est isocèle en S et l'angle en S mesure 100°. Combien mesure l'angle en O, en degrés ?",
+      "choices": [
+        "80",
+        "50",
+        "100",
+        "40"
+      ],
+      "answer": "40",
+      "explain": "(180 - 100) ÷ 2 = 40."
+    },
+    {
+      "id": "ma-tri-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le triangle MNP est isocèle en M et l'angle en N mesure 70°. Combien mesure l'angle en M, en degrés ?",
+      "answer": "40",
+      "explain": "L'angle en P vaut aussi 70°, donc M = 180 - 70 - 70 = 40."
+    },
+    {
+      "id": "ma-tri-036",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle isocèle a un angle de 100°. Combien mesure chacun des deux autres angles, en degrés ?",
+      "choices": [
+        "40",
+        "140",
+        "50",
+        "30"
+      ],
+      "answer": "40",
+      "explain": "L'angle de 100° est au sommet (deux angles de 100° dépasseraient 180°) : (180 - 100) ÷ 2 = 40."
+    },
+    {
+      "id": "ma-tri-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle isocèle a un angle de 130°. Combien mesure chacun des deux autres angles, en degrés ?",
+      "choices": [
+        "155",
+        "25",
+        "65",
+        "35"
+      ],
+      "answer": "25",
+      "explain": "L'angle de 130° est au sommet : (180 - 130) ÷ 2 = 25."
+    },
+    {
+      "id": "ma-tri-038",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un triangle isocèle a un angle de 80° à la base. Combien mesure son angle au sommet, en degrés ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "Les deux angles à la base mesurent 80°, donc le sommet mesure 180 - 160 = 20."
+    },
+    {
+      "id": "ma-tri-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est rectangle en A et l'angle en B mesure 35°. Combien mesure l'angle en C, en degrés ?",
+      "choices": [
+        "125",
+        "35",
+        "55",
+        "65"
+      ],
+      "answer": "55",
+      "explain": "Les deux angles aigus font 90° ensemble : 90 - 35 = 55."
+    },
+    {
+      "id": "ma-tri-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le triangle RST est rectangle en R et l'angle en S mesure 62°. Combien mesure l'angle en T, en degrés ?",
+      "choices": [
+        "152",
+        "62",
+        "38",
+        "28"
+      ],
+      "answer": "28",
+      "explain": "90 - 62 = 28."
+    },
+    {
+      "id": "ma-tri-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le triangle EFG est rectangle en F et l'angle en E mesure 48°. Combien mesure l'angle en G, en degrés ?",
+      "choices": [
+        "42",
+        "132",
+        "138",
+        "52"
+      ],
+      "answer": "42",
+      "explain": "90 - 48 = 42."
+    },
+    {
+      "id": "ma-tri-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le triangle UVW est rectangle en W et l'angle en U mesure 15°. Combien mesure l'angle en V, en degrés ?",
+      "answer": [
+        "75"
+      ],
+      "explain": "90 - 15 = 75."
+    },
+    {
+      "id": "ma-tri-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle rectangle a un angle aigu de 70°. Combien mesure son autre angle aigu, en degrés ?",
+      "choices": [
+        "160",
+        "20",
+        "70",
+        "30"
+      ],
+      "answer": "20",
+      "explain": "Les deux angles aigus font 90° ensemble : 90 - 70 = 20."
+    },
+    {
+      "id": "ma-tri-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lesquelles de ces mesures peuvent être celles des angles d'un triangle ?",
+      "choices": [
+        "50°, 60° et 80°",
+        "40°, 60° et 70°",
+        "50°, 60° et 70°",
+        "90°, 90° et 10°"
+      ],
+      "answer": "50°, 60° et 70°",
+      "explain": "50 + 60 + 70 = 180."
+    },
+    {
+      "id": "ma-tri-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelles mesures sont possibles pour les trois angles d'un triangle ?",
+      "choices": [
+        "25°, 65° et 80°",
+        "35°, 65° et 90°",
+        "25°, 75° et 100°",
+        "25°, 65° et 90°"
+      ],
+      "answer": "25°, 65° et 90°",
+      "explain": "25 + 65 + 90 = 180."
+    },
+    {
+      "id": "ma-tri-046",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un triangle peut-il avoir des angles de 80°, 60° et 40° ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "80 + 60 + 40 = 180."
+    },
+    {
+      "id": "ma-tri-047",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un triangle peut-il avoir des angles de 90°, 50° et 50° ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "90 + 50 + 50 = 190, ce n'est pas 180."
+    },
+    {
+      "id": "ma-tri-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un triangle peut-il avoir des angles de 100°, 50° et 30° ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "100 + 50 + 30 = 180."
+    },
+    {
+      "id": "ma-tri-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un triangle peut-il avoir des angles de 45°, 45° et 100° ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "45 + 45 + 100 = 190, ce n'est pas 180."
+    },
+    {
+      "id": "ma-tri-050",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un triangle peut-il avoir un angle de 95° et un angle de 90° ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "95 + 90 = 185 dépasse déjà 180°."
+    },
+    {
+      "id": "ma-tri-051",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un triangle peut-il avoir deux angles obtus (plus de 90° chacun) ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Deux angles de plus de 90° dépasseraient 180° à eux seuls."
+    },
+    {
+      "id": "ma-tri-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un triangle a des angles de 60°, 60° et 60°. Quelle est sa nature ?",
+      "choices": [
+        "Équilatéral",
+        "Rectangle",
+        "Isocèle sans être équilatéral",
+        "Quelconque"
+      ],
+      "answer": "Équilatéral",
+      "explain": "Trois angles de 60° : le triangle est équilatéral."
+    },
+    {
+      "id": "ma-tri-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a des angles de 90°, 45° et 45°. Quelle est sa nature ?",
+      "choices": [
+        "Équilatéral",
+        "Rectangle et isocèle",
+        "Isocèle sans angle droit",
+        "Quelconque"
+      ],
+      "answer": "Rectangle et isocèle",
+      "explain": "Il a un angle droit et deux angles égaux : il est rectangle et isocèle."
+    },
+    {
+      "id": "ma-tri-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, l'angle en A mesure 70° et l'angle en B mesure 40°. Que peut-on dire de ABC ?",
+      "choices": [
+        "Il est isocèle en A",
+        "Il est rectangle en C",
+        "Il est isocèle en B",
+        "Il est équilatéral"
+      ],
+      "answer": "Il est isocèle en B",
+      "explain": "L'angle en C vaut 180 - 70 - 40 = 70° : les angles en A et en C sont égaux, donc BA = BC."
+    },
+    {
+      "id": "ma-tri-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, l'angle en A mesure 30° et l'angle en B mesure 60°. Que peut-on dire de ABC ?",
+      "choices": [
+        "Il est rectangle en A",
+        "Il est équilatéral",
+        "Il est isocèle en C",
+        "Il est rectangle en C"
+      ],
+      "answer": "Il est rectangle en C",
+      "explain": "L'angle en C vaut 180 - 30 - 60 = 90°."
+    },
+    {
+      "id": "ma-tri-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, l'angle en A mesure 20° et l'angle en B mesure 80°. Que peut-on dire de ABC ?",
+      "choices": [
+        "Il est isocèle en A",
+        "Il est isocèle en B",
+        "Il est rectangle en C",
+        "Il est équilatéral"
+      ],
+      "answer": "Il est isocèle en A",
+      "explain": "L'angle en C vaut 180 - 20 - 80 = 80° : les angles en B et en C sont égaux, donc AB = AC."
+    },
+    {
+      "id": "ma-tri-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, l'angle en A mesure 25° et l'angle en B mesure 65°. Que peut-on dire de ABC ?",
+      "choices": [
+        "Il est rectangle en A",
+        "Il est rectangle en C",
+        "Il est isocèle en C",
+        "Il est quelconque"
+      ],
+      "answer": "Il est rectangle en C",
+      "explain": "L'angle en C vaut 180 - 25 - 65 = 90°."
+    },
+    {
+      "id": "ma-tri-058",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle condition doivent vérifier les trois côtés d'un triangle (inégalité triangulaire) ?",
+      "choices": [
+        "Chaque côté est égal à la somme des deux autres",
+        "La somme des trois côtés vaut 180",
+        "Chaque côté est plus petit que la somme des deux autres",
+        "Chaque côté est plus grand que la somme des deux autres"
+      ],
+      "answer": "Chaque côté est plus petit que la somme des deux autres",
+      "explain": "Dans un triangle, chaque côté est plus court que la somme des deux autres."
+    },
+    {
+      "id": "ma-tri-059",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour savoir si on peut construire un triangle avec trois longueurs, que compare-t-on ?",
+      "choices": [
+        "Le plus petit côté et la somme des deux autres",
+        "La somme des trois côtés et 180",
+        "Le plus grand côté et le double du plus petit",
+        "Le plus grand côté et la somme des deux autres"
+      ],
+      "answer": "Le plus grand côté et la somme des deux autres",
+      "explain": "On compare la plus grande longueur à la somme des deux autres."
+    },
+    {
+      "id": "ma-tri-060",
+      "level": 1,
+      "type": "input",
+      "prompt": "Peut-on construire un triangle avec des côtés de 3 cm, 4 cm et 6 cm ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "6 < 3 + 4 = 7 : le triangle existe."
+    },
+    {
+      "id": "ma-tri-061",
+      "level": 1,
+      "type": "input",
+      "prompt": "Peut-on construire un triangle avec des côtés de 2 cm, 3 cm et 6 cm ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "6 est plus grand que 2 + 3 = 5 : le triangle n'existe pas."
+    },
+    {
+      "id": "ma-tri-062",
+      "level": 3,
+      "type": "input",
+      "prompt": "Peut-on construire un triangle avec des côtés de 5 cm, 7 cm et 11 cm ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "11 < 5 + 7 = 12 : le triangle existe."
+    },
+    {
+      "id": "ma-tri-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Peut-on construire un triangle avec des côtés de 4 cm, 4 cm et 9 cm ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "9 est plus grand que 4 + 4 = 8 : le triangle n'existe pas."
+    },
+    {
+      "id": "ma-tri-064",
+      "level": 3,
+      "type": "input",
+      "prompt": "Peut-on construire un triangle avec des côtés de 1,5 cm, 2 cm et 4 cm ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "4 est plus grand que 1,5 + 2 = 3,5 : le triangle n'existe pas."
+    },
+    {
+      "id": "ma-tri-065",
+      "level": 3,
+      "type": "input",
+      "prompt": "Peut-on construire un triangle avec des côtés de 4 cm, 6 cm et 10 cm ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "10 = 4 + 6 : les points seraient alignés, il n'y a pas de triangle."
+    },
+    {
+      "id": "ma-tri-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "Trois joueurs sont placés en A, B et C avec AB = 12 m, BC = 9 m et AC = 20 m. Peuvent-ils former un vrai triangle ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "20 < 12 + 9 = 21 : le triangle existe."
+    },
+    {
+      "id": "ma-tri-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "Trois plots sont placés en A, B et C avec AB = 10 m, BC = 15 m et AC = 30 m. Peuvent-ils former un triangle ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "30 est plus grand que 10 + 15 = 25 : le triangle n'existe pas."
+    },
+    {
+      "id": "ma-tri-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Avec lesquelles de ces longueurs peut-on construire un triangle ?",
+      "choices": [
+        "5 cm, 6 cm et 10 cm",
+        "3 cm, 4 cm et 8 cm",
+        "2 cm, 2 cm et 5 cm",
+        "4 cm, 6 cm et 10 cm"
+      ],
+      "answer": "5 cm, 6 cm et 10 cm",
+      "explain": "10 < 5 + 6 = 11 : seul ce triplet convient."
+    },
+    {
+      "id": "ma-tri-069",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel triplet de longueurs permet de construire un triangle ?",
+      "choices": [
+        "1 cm, 3 cm et 5 cm",
+        "7 cm, 7 cm et 13 cm",
+        "6 cm, 6 cm et 12 cm",
+        "2 cm, 8 cm et 5 cm"
+      ],
+      "answer": "7 cm, 7 cm et 13 cm",
+      "explain": "13 < 7 + 7 = 14 : seul ce triplet convient."
+    },
+    {
+      "id": "ma-tri-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On a AB = 3 cm, BC = 5 cm et AC = 8 cm. Que peut-on dire des points A, B et C ?",
+      "choices": [
+        "Ils forment un triangle isocèle",
+        "Ils forment un triangle rectangle en B",
+        "Ils sont alignés",
+        "Ils forment un triangle équilatéral"
+      ],
+      "answer": "Ils sont alignés",
+      "explain": "AB + BC = 3 + 5 = 8 = AC : le point B est sur le segment [AC]."
+    },
+    {
+      "id": "ma-tri-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On a MN = 7 cm, NP = 4 cm et MP = 3 cm. Quel point est situé entre les deux autres ?",
+      "choices": [
+        "M",
+        "N",
+        "Aucun : les points ne sont pas alignés",
+        "P"
+      ],
+      "answer": "P",
+      "explain": "MP + PN = 3 + 4 = 7 = MN : P est sur le segment [MN]."
+    },
+    {
+      "id": "ma-tri-072",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un triangle non aplati, la somme de deux côtés est toujours... au troisième côté.",
+      "choices": [
+        "strictement supérieure",
+        "égale",
+        "inférieure",
+        "strictement inférieure"
+      ],
+      "answer": "strictement supérieure",
+      "explain": "Si elle était égale, les trois points seraient alignés ; elle est donc strictement supérieure."
+    },
+    {
+      "id": "ma-tri-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a deux côtés de 4 cm et de 7 cm. Entre quelles valeurs se trouve la longueur du troisième côté ?",
+      "choices": [
+        "Plus de 4 cm et moins de 7 cm",
+        "Plus de 3 cm et moins de 11 cm",
+        "Plus de 7 cm et moins de 11 cm",
+        "Plus de 3 cm et moins de 7 cm"
+      ],
+      "answer": "Plus de 3 cm et moins de 11 cm",
+      "explain": "7 - 4 = 3 et 7 + 4 = 11 : le troisième côté est entre 3 cm et 11 cm."
+    },
+    {
+      "id": "ma-tri-074",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle a deux côtés de 5 cm chacun. Entre quelles valeurs se trouve la longueur du troisième côté ?",
+      "choices": [
+        "Exactement 5 cm",
+        "Plus de 5 cm et moins de 10 cm",
+        "Plus de 0 cm et moins de 10 cm",
+        "Plus de 0 cm et moins de 5 cm"
+      ],
+      "answer": "Plus de 0 cm et moins de 10 cm",
+      "explain": "5 - 5 = 0 et 5 + 5 = 10 : le troisième côté est entre 0 cm et 10 cm."
+    },
+    {
+      "id": "ma-tri-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle a deux côtés de 5 cm et de 9 cm. Quelle est la plus grande valeur entière possible, en cm, pour le troisième côté ?",
+      "choices": [
+        "14",
+        "12",
+        "26",
+        "13"
+      ],
+      "answer": "13",
+      "explain": "Le troisième côté est inférieur à 5 + 9 = 14 : la plus grande valeur entière est 13."
+    },
+    {
+      "id": "ma-tri-076",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un triangle a deux côtés de 6 cm et de 10 cm. Quelle est la plus petite valeur entière possible, en cm, pour le troisième côté ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Le troisième côté est supérieur à 10 - 6 = 4 : la plus petite valeur entière est 5."
+    },
+    {
+      "id": "ma-tri-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle a deux côtés de 3 cm et de 8 cm. Quelle longueur peut avoir le troisième côté ?",
+      "choices": [
+        "8 cm",
+        "4 cm",
+        "5 cm",
+        "11 cm"
+      ],
+      "answer": "8 cm",
+      "explain": "Il doit être entre 8 - 3 = 5 et 8 + 3 = 11, bornes exclues : seul 8 convient."
+    },
+    {
+      "id": "ma-tri-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle isocèle a deux côtés de 4 cm. Quelle longueur peut avoir le troisième côté ?",
+      "choices": [
+        "8 cm",
+        "3 cm",
+        "9 cm",
+        "12 cm"
+      ],
+      "answer": "3 cm",
+      "explain": "Le troisième côté doit être inférieur à 4 + 4 = 8 : seul 3 convient."
+    },
+    {
+      "id": "ma-tri-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle isocèle a des côtés de 3 cm et de 8 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "14",
+        "11",
+        "19",
+        "16"
+      ],
+      "answer": "19",
+      "explain": "Les côtés égaux mesurent 8 cm (3 + 3 < 8 est impossible) : 8 + 8 + 3 = 19."
+    },
+    {
+      "id": "ma-tri-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle isocèle a un côté de 2 cm et un côté de 5 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "13",
+        "11",
+        "24",
+        "12"
+      ],
+      "answer": "12",
+      "explain": "Les côtés égaux mesurent 5 cm (2 + 2 < 5 est impossible) : 5 + 5 + 2 = 12."
+    },
+    {
+      "id": "ma-tri-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la médiatrice d'un segment ?",
+      "choices": [
+        "La droite perpendiculaire au segment qui passe par son milieu",
+        "La droite parallèle au segment qui passe par son milieu",
+        "La droite qui passe par une extrémité et par le milieu",
+        "La droite perpendiculaire au segment qui passe par une extrémité"
+      ],
+      "answer": "La droite perpendiculaire au segment qui passe par son milieu",
+      "explain": "La médiatrice est la perpendiculaire au segment passant par son milieu."
+    },
+    {
+      "id": "ma-tri-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel ensemble de points forme la médiatrice du segment [AB] ?",
+      "choices": [
+        "Les points situés à 5 cm de A",
+        "Les points à égale distance de A et de B",
+        "Les points alignés avec A et B",
+        "Les points plus proches de A que de B"
+      ],
+      "answer": "Les points à égale distance de A et de B",
+      "explain": "La médiatrice de [AB] est l'ensemble des points équidistants de A et de B."
+    },
+    {
+      "id": "ma-tri-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une hauteur d'un triangle ?",
+      "choices": [
+        "La droite passant par un sommet et par le milieu du côté opposé",
+        "La droite perpendiculaire à un côté en son milieu",
+        "La droite passant par un sommet et perpendiculaire au côté opposé",
+        "La droite passant par deux sommets"
+      ],
+      "answer": "La droite passant par un sommet et perpendiculaire au côté opposé",
+      "explain": "Une hauteur passe par un sommet et est perpendiculaire au côté opposé."
+    },
+    {
+      "id": "ma-tri-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une médiane d'un triangle ?",
+      "choices": [
+        "La droite passant par un sommet et perpendiculaire au côté opposé",
+        "La droite perpendiculaire à un côté en son milieu",
+        "La droite parallèle à un côté",
+        "La droite passant par un sommet et par le milieu du côté opposé"
+      ],
+      "answer": "La droite passant par un sommet et par le milieu du côté opposé",
+      "explain": "Une médiane passe par un sommet et par le milieu du côté opposé."
+    },
+    {
+      "id": "ma-tri-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un triangle quelconque ABC, une droite passe par A et par le milieu de [BC]. De quelle droite s'agit-il ?",
+      "choices": [
+        "La médiane issue de A",
+        "La hauteur issue de A",
+        "La médiatrice de [BC]",
+        "La médiatrice de [AB]"
+      ],
+      "answer": "La médiane issue de A",
+      "explain": "Une droite passant par un sommet et par le milieu du côté opposé est une médiane."
+    },
+    {
+      "id": "ma-tri-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un triangle quelconque ABC, une droite passe par A et est perpendiculaire à (BC). De quelle droite s'agit-il ?",
+      "choices": [
+        "La médiane issue de A",
+        "La hauteur issue de A",
+        "La médiatrice de [BC]",
+        "La médiatrice de [AB]"
+      ],
+      "answer": "La hauteur issue de A",
+      "explain": "Une droite passant par un sommet et perpendiculaire au côté opposé est une hauteur."
+    },
+    {
+      "id": "ma-tri-087",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un triangle quelconque ABC, une droite est perpendiculaire à [BC] en son milieu. De quelle droite s'agit-il ?",
+      "choices": [
+        "La hauteur issue de A",
+        "La médiane issue de A",
+        "La médiatrice de [BC]",
+        "La médiane issue de B"
+      ],
+      "answer": "La médiatrice de [BC]",
+      "explain": "Perpendiculaire à un côté en son milieu : c'est la médiatrice de ce côté."
+    },
+    {
+      "id": "ma-tri-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le point M est sur la médiatrice de [AB] et MA = 6 cm. Combien mesure MB, en cm ?",
+      "choices": [
+        "7",
+        "5",
+        "12",
+        "6"
+      ],
+      "answer": "6",
+      "explain": "Un point de la médiatrice est à égale distance des extrémités : MB = MA."
+    },
+    {
+      "id": "ma-tri-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Par quels points passe le cercle circonscrit à un triangle ?",
+      "choices": [
+        "Par les trois sommets",
+        "Par les milieux des côtés",
+        "Par les pieds des hauteurs",
+        "Par un seul sommet"
+      ],
+      "answer": "Par les trois sommets",
+      "explain": "Le cercle circonscrit passe par les trois sommets du triangle."
+    },
+    {
+      "id": "ma-tri-090",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Où se trouve le centre du cercle circonscrit à un triangle ?",
+      "choices": [
+        "À l'intersection des trois hauteurs",
+        "À l'intersection des trois médiatrices des côtés",
+        "Au milieu du plus grand côté",
+        "À l'intersection des trois médianes"
+      ],
+      "answer": "À l'intersection des trois médiatrices des côtés",
+      "explain": "Les trois médiatrices se coupent au centre du cercle circonscrit."
+    },
+    {
+      "id": "ma-tri-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le point O est le centre du cercle circonscrit au triangle ABC et OA = 5 cm. Combien mesure OB, en cm ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "O est à égale distance des trois sommets : OB = OA."
+    },
+    {
+      "id": "ma-tri-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nombre minimal de médiatrices à tracer pour trouver le centre du cercle circonscrit à un triangle ?",
+      "choices": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": "2",
+      "explain": "Deux médiatrices se coupent en un point : c'est le centre (la troisième passe par ce point)."
+    },
+    {
+      "id": "ma-tri-093",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien de hauteurs un triangle a-t-il ?",
+      "choices": [
+        "4",
+        "2",
+        "6",
+        "3"
+      ],
+      "answer": "3",
+      "explain": "Un triangle a une hauteur issue de chacun de ses trois sommets."
+    },
+    {
+      "id": "ma-tri-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le triangle ABC est isocèle en A. Quelle droite est un axe de symétrie du triangle ?",
+      "choices": [
+        "La médiatrice de [BC]",
+        "La médiatrice de [AB]",
+        "La droite (BC)",
+        "La parallèle à (BC) passant par A"
+      ],
+      "answer": "La médiatrice de [BC]",
+      "explain": "La médiatrice de la base [BC] passe par A et échange B et C."
+    },
+    {
+      "id": "ma-tri-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un triangle quelconque, quelle droite passe par un sommet et par le milieu du côté opposé, sans être forcément perpendiculaire à ce côté ?",
+      "choices": [
+        "La hauteur",
+        "La médiane",
+        "La médiatrice",
+        "Un côté du triangle"
+      ],
+      "answer": "La médiane",
+      "explain": "La médiane coupe le côté opposé en son milieu, sans être forcément perpendiculaire."
+    },
+    {
+      "id": "ma-tri-096",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le point M est tel que MA = MB = MC pour le triangle ABC. Que représente M pour ce triangle ?",
+      "choices": [
+        "Le milieu du côté [BC]",
+        "Le pied de la hauteur issue de A",
+        "Le centre du cercle circonscrit",
+        "Un sommet du triangle"
+      ],
+      "answer": "Le centre du cercle circonscrit",
+      "explain": "M est à égale distance des trois sommets : c'est le centre du cercle circonscrit."
+    },
+    {
+      "id": "ma-tri-097",
+      "level": 1,
+      "type": "input",
+      "prompt": "La médiatrice d'un segment est perpendiculaire à ce segment. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "La médiatrice est la perpendiculaire au segment passant par son milieu."
+    },
+    {
+      "id": "ma-tri-098",
+      "level": 2,
+      "type": "input",
+      "prompt": "Les trois médiatrices d'un triangle se coupent en un seul point. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Ce point est le centre du cercle circonscrit."
+    },
+    {
+      "id": "ma-tri-099",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un triangle a des côtés de 5 cm, 7 cm et 9 cm. Quel est son périmètre, en cm ?",
+      "answer": [
+        "21"
+      ],
+      "explain": "5 + 7 + 9 = 21."
+    },
+    {
+      "id": "ma-tri-100",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un triangle équilatéral a un côté de 8 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "25",
+        "23",
+        "48",
+        "24"
+      ],
+      "answer": "24",
+      "explain": "3 × 8 = 24."
+    },
+    {
+      "id": "ma-tri-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a des côtés de 4,5 cm, 6 cm et 7,5 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "18",
+        "19",
+        "17",
+        "36"
+      ],
+      "answer": "18",
+      "explain": "4,5 + 6 + 7,5 = 18."
+    },
+    {
+      "id": "ma-tri-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle isocèle a deux côtés de 6 cm et une base de 5 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "11",
+        "17",
+        "12",
+        "30"
+      ],
+      "answer": "17",
+      "explain": "6 + 6 + 5 = 17."
+    },
+    {
+      "id": "ma-tri-103",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un triangle équilatéral a un périmètre de 36 cm. Combien mesure un côté, en cm ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "36 ÷ 3 = 12."
+    },
+    {
+      "id": "ma-tri-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle isocèle a un périmètre de 20 cm et une base de 8 cm. Combien mesure chacun des deux autres côtés, en cm ?",
+      "choices": [
+        "7",
+        "5",
+        "6",
+        "12"
+      ],
+      "answer": "6",
+      "explain": "(20 - 8) ÷ 2 = 6."
+    },
+    {
+      "id": "ma-tri-105",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la formule de l'aire d'un triangle ?",
+      "choices": [
+        "base × hauteur",
+        "base + hauteur ÷ 2",
+        "(base + hauteur) × 2",
+        "base × hauteur ÷ 2"
+      ],
+      "answer": "base × hauteur ÷ 2",
+      "explain": "Aire = base × hauteur ÷ 2."
+    },
+    {
+      "id": "ma-tri-106",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "En quelle unité s'exprime l'aire d'un triangle dont les côtés sont en cm ?",
+      "choices": [
+        "cm²",
+        "cm",
+        "cm³",
+        "m"
+      ],
+      "answer": "cm²",
+      "explain": "Une aire se mesure en unités carrées : ici en cm²."
+    },
+    {
+      "id": "ma-tri-107",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un triangle a une base de 10 cm et une hauteur de 6 cm. Quelle est son aire, en cm² ?",
+      "choices": [
+        "31",
+        "30",
+        "29",
+        "60"
+      ],
+      "answer": "30",
+      "explain": "10 × 6 ÷ 2 = 30.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            3.0,
+            6
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "10 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "6 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-108",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un triangle a une base de 8 cm et une hauteur de 5 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "8 × 5 ÷ 2 = 20.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2.4,
+            5
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "8 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "5 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a une base de 7 cm et une hauteur de 4 cm. Quelle est son aire, en cm² ?",
+      "choices": [
+        "28",
+        "11",
+        "14",
+        "22"
+      ],
+      "answer": "14",
+      "explain": "7 × 4 ÷ 2 = 14.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2.1,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "7 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "4 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a une base de 5 cm et une hauteur de 3 cm. Quelle est son aire, en cm² ?",
+      "choices": [
+        "8,5",
+        "6,5",
+        "15",
+        "7,5"
+      ],
+      "answer": "7,5",
+      "explain": "5 × 3 ÷ 2 = 7,5.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            1.5,
+            3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "5 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "3 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un fanion triangulaire a une base de 30 cm et une hauteur de 20 cm. Quelle est son aire, en cm² ?",
+      "choices": [
+        "300",
+        "600",
+        "150",
+        "50"
+      ],
+      "answer": "300",
+      "explain": "30 × 20 ÷ 2 = 300.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            9,
+            20
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "30 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "20 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle rectangle a deux côtés de l'angle droit de 6 cm et de 8 cm. Quelle est son aire, en cm² ?",
+      "choices": [
+        "25",
+        "24",
+        "23",
+        "48"
+      ],
+      "answer": "24",
+      "explain": "Un côté de l'angle droit sert de base, l'autre de hauteur : 6 × 8 ÷ 2 = 24.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "rightAt": [
+          1
+        ],
+        "sides": [
+          "8 cm",
+          "6 cm",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle rectangle a deux côtés de l'angle droit de 5 cm et de 12 cm. Quelle est son aire, en cm² ?",
+      "choices": [
+        "60",
+        "17",
+        "30",
+        "35"
+      ],
+      "answer": "30",
+      "explain": "5 × 12 ÷ 2 = 30.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            12
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "rightAt": [
+          1
+        ],
+        "sides": [
+          "12 cm",
+          "5 cm",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-114",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un triangle rectangle a deux côtés de l'angle droit de 9 m et de 10 m. Quelle est son aire, en m² ?",
+      "answer": [
+        "45"
+      ],
+      "explain": "9 × 10 ÷ 2 = 45.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ],
+        "rightAt": [
+          1
+        ],
+        "sides": [
+          "10 m",
+          "9 m",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un triangle a une aire de 24 cm² et une base de 8 cm. Combien mesure sa hauteur, en cm ?",
+      "choices": [
+        "7",
+        "5",
+        "12",
+        "6"
+      ],
+      "answer": "6",
+      "explain": "Hauteur = aire × 2 ÷ base = 24 × 2 ÷ 8 = 6.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2.4,
+            6
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "8 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "?"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle a une aire de 30 cm² et une hauteur de 5 cm. Combien mesure sa base, en cm ?",
+      "choices": [
+        "12",
+        "13",
+        "11",
+        "24"
+      ],
+      "answer": "12",
+      "explain": "Base = aire × 2 ÷ hauteur = 30 × 2 ÷ 5 = 12.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            3.6,
+            5
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "?",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "5 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un triangle a une aire de 18 cm² et une base de 9 cm. Combien mesure sa hauteur, en cm ?",
+      "choices": [
+        "2",
+        "4",
+        "81",
+        "9"
+      ],
+      "answer": "4",
+      "explain": "Hauteur = aire × 2 ÷ base = 18 × 2 ÷ 9 = 4.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2.7,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ],
+        "sides": [
+          null,
+          "9 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "?"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-118",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un triangle rectangle a une aire de 15 cm². L'un des côtés de l'angle droit mesure 5 cm. Combien mesure l'autre, en cm ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "L'autre côté vaut aire × 2 ÷ 5 = 15 × 2 ÷ 5 = 6.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "rightAt": [
+          1
+        ],
+        "sides": [
+          "5 cm",
+          "?",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-119",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, BC = 14 cm, AB = 13 cm, AC = 15 cm. La hauteur issue de A, relative au côté [BC], mesure 12 cm. Quelle est l'aire de ABC, en cm² ?",
+      "choices": [
+        "168",
+        "84",
+        "90",
+        "91"
+      ],
+      "answer": "84",
+      "explain": "On utilise la base [BC] et sa hauteur : 14 × 12 ÷ 2 = 84 (les côtés AB et AC ne servent pas).",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            5,
+            12
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "sides": [
+          "13 cm",
+          "14 cm",
+          "15 cm"
+        ],
+        "height": {
+          "from": 0,
+          "label": "12 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-120",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du triangle ABC ?",
+      "choices": [
+        "équilatéral",
+        "quelconque",
+        "rectangle",
+        "isocèle"
+      ],
+      "answer": "isocèle",
+      "explain": "Les côtés [AB] et [AC] portent le même codage : ils sont égaux, le triangle est isocèle.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-121",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du triangle ABC ?",
+      "choices": [
+        "isocèle",
+        "équilatéral",
+        "rectangle",
+        "quelconque"
+      ],
+      "answer": "équilatéral",
+      "explain": "Les trois côtés portent le même codage : le triangle est équilatéral.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2,
+            3.464
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-122",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du triangle ABC ?",
+      "choices": [
+        "quelconque",
+        "isocèle",
+        "rectangle",
+        "équilatéral"
+      ],
+      "answer": "rectangle",
+      "explain": "Le codage indique un angle droit en B : le triangle est rectangle.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "rightAt": [
+          1
+        ],
+        "sides": [
+          "3 cm",
+          "4 cm",
+          "5 cm"
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-123",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature du triangle ABC ?",
+      "choices": [
+        "équilatéral",
+        "isocèle seulement",
+        "rectangle et isocèle",
+        "rectangle seulement"
+      ],
+      "answer": "rectangle et isocèle",
+      "explain": "Il y a un angle droit en B et deux côtés égaux [BA] et [BC] : rectangle et isocèle.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "rightAt": [
+          1
+        ],
+        "ticks": [
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-124",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien mesure l'angle A, en degrés ?",
+      "answer": [
+        "80"
+      ],
+      "explain": "La somme des angles d'un triangle est 180° : 180 − 40 − 60 = 80°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            3.368,
+            2.826
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "angles": [
+          "?",
+          "40°",
+          "60°"
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-125",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABC est un triangle rectangle en B. Combien mesure l'angle A, en degrés ?",
+      "answer": [
+        "55"
+      ],
+      "explain": "Dans un triangle rectangle, les deux angles aigus font 90° ensemble : 90 − 35 = 55°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0.0,
+            2.801
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "rightAt": [
+          1
+        ],
+        "angles": [
+          "?",
+          null,
+          "35°"
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-126",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABC est un triangle équilatéral. Combien mesure l'angle A, en degrés ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "Les trois angles sont égaux et leur somme vaut 180° : 180 ÷ 3 = 60°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2,
+            3.464
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          1,
+          1
+        ],
+        "angles": [
+          "?",
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-127",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABC est isocèle en A. Combien mesure l'angle B, en degrés ?",
+      "answer": [
+        "70"
+      ],
+      "explain": "Les angles à la base sont égaux : (180 − 40) ÷ 2 = 70°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2.5,
+            6.869
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          0,
+          1
+        ],
+        "angles": [
+          "40°",
+          "?",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-128",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABC est isocèle en A. Combien mesure l'angle A, en degrés ?",
+      "answer": [
+        "80"
+      ],
+      "explain": "Les deux angles à la base valent 50° : 180 − 50 − 50 = 80°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2.5,
+            2.979
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          0,
+          1
+        ],
+        "angles": [
+          "?",
+          "50°",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-129",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABC est un triangle rectangle isocèle en B. Combien mesure l'angle A, en degrés ?",
+      "answer": [
+        "45"
+      ],
+      "explain": "Les deux angles aigus sont égaux et font 90° ensemble : 90 ÷ 2 = 45°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "rightAt": [
+          1
+        ],
+        "ticks": [
+          1,
+          1,
+          0
+        ],
+        "angles": [
+          "?",
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-130",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABC est isocèle en A. Combien mesure l'angle B, en degrés ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "Les angles à la base sont égaux : (180 − 100) ÷ 2 = 40°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            3.0,
+            2.517
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          0,
+          1
+        ],
+        "angles": [
+          "100°",
+          "?",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-131",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABC est isocèle en A. Combien mesure l'angle A, en degrés ?",
+      "answer": [
+        "50"
+      ],
+      "explain": "Les angles à la base valent 65° chacun : 180 − 65 − 65 = 180 − 130 = 50°.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2.5,
+            5.361
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          0,
+          1
+        ],
+        "angles": [
+          "?",
+          "65°",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-132",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est l'aire de ce triangle rectangle, en cm² ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "L'aire se calcule avec les deux côtés de l'angle droit : 6 × 8 ÷ 2 = 24 cm² (la longueur 10 cm est celle de l'hypoténuse).",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "rightAt": [
+          1
+        ],
+        "sides": [
+          "8 cm",
+          "6 cm",
+          "10 cm"
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-133",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le périmètre de ce triangle, en cm ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "3 + 4 + 5 = 12 cm.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "rightAt": [
+          1
+        ],
+        "sides": [
+          "3 cm",
+          "4 cm",
+          "5 cm"
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-134",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABC est isocèle en A. Quel est son périmètre, en cm ?",
+      "answer": [
+        "16"
+      ],
+      "explain": "AC = AB = 5 cm : 5 + 5 + 6 = 16 cm.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          0,
+          1
+        ],
+        "sides": [
+          "5 cm",
+          "6 cm",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-135",
+      "level": 2,
+      "type": "input",
+      "prompt": "Ce triangle est équilatéral. Quel est son périmètre, en cm ?",
+      "answer": [
+        "21"
+      ],
+      "explain": "Trois côtés égaux de 7 cm : 3 × 7 = 21 cm.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2,
+            3.464
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "ticks": [
+          1,
+          1,
+          1
+        ],
+        "sides": [
+          null,
+          "7 cm",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-136",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABC est isocèle en A et son périmètre est 30 cm. Combien mesure chacun des côtés [AB] et [AC], en cm ?",
+      "answer": [
+        "11"
+      ],
+      "explain": "BC = 8 cm, donc AB + AC = 30 − 8 = 22 cm, et AB = AC = 22 ÷ 2 = 11 cm.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "ticks": [
+          1,
+          0,
+          1
+        ],
+        "sides": [
+          "?",
+          "8 cm",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-tri-137",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle le segment en pointillé tracé depuis le sommet A ?",
+      "choices": [
+        "La bissectrice de l'angle A",
+        "La médiatrice de [BC]",
+        "La médiane issue de A",
+        "La hauteur issue de A"
+      ],
+      "answer": "La hauteur issue de A",
+      "explain": "Il part de A et tombe à angle droit sur (BC) : c'est la hauteur issue de A.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "height": {
+          "from": 0,
+          "foot": "H"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-138",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans ce triangle, la hauteur issue de A tombe à l'extérieur du triangle. (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "L'angle en C est obtus : le pied H de la hauteur est sur le prolongement de [BC], hors du triangle.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            9,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "height": {
+          "from": 0,
+          "foot": "H"
+        }
+      }
+    },
+    {
+      "id": "ma-tri-139",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est l'aire du triangle ABC, en cm² ? (la hauteur est tracée en pointillé)",
+      "answer": [
+        "12"
+      ],
+      "explain": "Aire = base × hauteur ÷ 2 = 6 × 4 ÷ 2 = 12 cm², même si la hauteur est à l'extérieur.",
+      "figure": {
+        "type": "triangle",
+        "vertices": [
+          [
+            9,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "sides": [
+          null,
+          "6 cm",
+          null
+        ],
+        "height": {
+          "from": 0,
+          "label": "4 cm"
+        }
+      }
+    }
+  ]
+}

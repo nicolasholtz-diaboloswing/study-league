@@ -4,6 +4,7 @@
 import { GOAL_EVERY_N_CORRECT } from '../config.js';
 import { meterText } from './rules.js';
 import { crest, esc, flag, football, safeColor, trophy } from './art.js';
+import { renderFigure } from './figures.js';
 
 export { esc };
 
@@ -94,14 +95,14 @@ export function scoreboard({ home, away, homeScore = 0, awayScore = 0, minute, s
 }
 
 /**
- * Attack meter: GOAL_EVERY_N_CORRECT segments, step 0..N (N = BUT lit).
+ * Attack meter: n segments (correct answers per goal of the match; default GOAL_EVERY_N_CORRECT), step 0..n (n = BUT lit).
  * Optional `{ live: true }` replaces the bare « Attaque » label by the countdown (« Encore 2 bonnes réponses pour marquer »).
  */
-export function attackMeter(step = 0, { live = false } = {}) {
-  const N = GOAL_EVERY_N_CORRECT;
+export function attackMeter(step = 0, { live = false, n = GOAL_EVERY_N_CORRECT } = {}) {
+  const N = n;
   const s = clamp(step, 0, N);
   const goal = s === N;
-  const t = meterText(s);
+  const t = meterText(s, N);
   const label = live && !goal
     ? `<span class="attack__label attack__label--live ${t.ready ? 'is-ready' : ''}"><span class="attack__long">${esc(t.long)}</span><span class="attack__short" aria-hidden="true">${esc(t.short)}</span></span>`
     : '<span class="attack__label">Attaque</span>';
@@ -117,13 +118,18 @@ export function attackMeter(step = 0, { live = false } = {}) {
 /**
  * @param {{number:number,total:number,prompt:string,type:'mcq'|'input',choices?:string[],
  *   status?:'idle'|'correct'|'wrong'|'timeout', selected?:number, correctAnswer?:string, explanation?:string,
- *   inputValue?:string, placeholder?:string, topic?:string, timer?:string}} q
+ *   inputValue?:string, placeholder?:string, topic?:string, timer?:string, level?:number, figure?:object}} q
+ * level (1..3) shows the question's difficulty as one to three stars; omitted = no stars.
+ * figure (a spec of js/ui/figures.js) is drawn between the header and the prompt, before and after the answer; an invalid spec shows nothing.
  * mcq choices carry data-choice="index"; input form is <form data-answer-form> with <input name="answer">.
  * After an answer (status != idle) all inputs are disabled; the right choice is marked, the explanation shown.
  */
 export function questionCard(q) {
-  const { number, total, prompt, type, choices = [], status = 'idle', selected, correctAnswer, explanation, inputValue = '', placeholder = 'Écris ta réponse', topic, timer = '', note = '' } = q;
+  const { number, total, prompt, type, choices = [], status = 'idle', selected, correctAnswer, explanation, inputValue = '', placeholder = 'Écris ta réponse', topic, timer = '', note = '', level, figure } = q;
   const done = status !== 'idle';
+  const lv = level ? Math.max(1, Math.min(3, Math.round(level))) : 0;
+  const stars = lv ? `<span class="qcard__level" role="img" aria-label="Difficulté ${lv} sur 3">${[1, 2, 3].map((i) => `<span class="${i <= lv ? 'is-on' : ''}" aria-hidden="true">★</span>`).join('')}</span>` : '';
+  const fig = figure ? renderFigure(figure) : '';
   const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
   let body;
   if (type === 'mcq') {
@@ -148,7 +154,8 @@ export function questionCard(q) {
         ${explanation ? `<div class="feedback__why">${esc(explanation)}</div>` : ''}
       </div>` : ''}</div>`;
   return `<article class="qcard qcard--${status}">
-    <header class="qcard__head"><span class="qcard__no"><b class="num">${esc(number)}</b><small>/ ${esc(total)}</small></span>${topic ? `<span class="qcard__topic">${esc(topic)}</span>` : ''}<span class="qcard__timer">${timer}</span></header>
+    <header class="qcard__head"><span class="qcard__no"><b class="num">${esc(number)}</b><small>/ ${esc(total)}</small></span>${topic ? `<span class="qcard__topic">${esc(topic)}</span>` : ''}${stars}<span class="qcard__timer">${timer}</span></header>
+    ${fig ? `<div class="qcard__figure">${fig}</div>` : ''}
     <h2 class="qcard__prompt">${esc(prompt)}</h2>
     ${body}${feedback}
   </article>`;
@@ -335,6 +342,14 @@ export function selectField({ label, name, options, value, hint }) {
 /** Big radio cards (e.g. squad choice). options: [{value,label,desc,icon}] */
 export function choiceGroup({ label, name, options, value }) {
   return `<fieldset class="field choicegroup"><legend class="field__label">${esc(label)}</legend><div class="choicegroup__grid">${options.map((o) => `<label class="choicecard"><input type="radio" name="${esc(name)}" value="${esc(o.value)}" ${o.value === value ? 'checked' : ''}><span class="choicecard__box">${o.icon ? `<span class="choicecard__icon" aria-hidden="true">${o.icon}</span>` : ''}<span class="choicecard__label">${esc(o.label)}</span>${o.desc ? `<span class="choicecard__desc">${esc(o.desc)}</span>` : ''}</span></label>`).join('')}</div></fieldset>`;
+}
+
+/**
+ * On/off switch row for a setting: title, optional description and small line, and a checkbox with role="switch" (name, attrs on the input).
+ * @param {{label:string, desc?:string, meta?:string, name?:string, checked?:boolean, attrs?:object}} o
+ */
+export function toggle({ label, desc, meta, name, checked = false, attrs: a }) {
+  return `<label class="toggle"><span class="toggle__text"><b class="toggle__label">${esc(label)}</b>${desc ? `<span class="toggle__desc">${esc(desc)}</span>` : ''}${meta ? `<span class="toggle__meta">${esc(meta)}</span>` : ''}</span><input class="toggle__input" type="checkbox" role="switch" ${attrs({ name, checked, ...a })}><span class="toggle__track" aria-hidden="true"></span></label>`;
 }
 
 /** Colour swatch picker (kit colours). colors: hex[]; renders radio inputs named `name`. */

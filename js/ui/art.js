@@ -165,7 +165,13 @@ const FLAGS = {
 const NATION_LABEL = {
   Argentina: 'Argentine', England: 'Angleterre', Spain: 'Espagne', Germany: 'Allemagne', Italy: 'Italie',
   Netherlands: 'Pays-Bas', Belgium: 'Belgique', Morocco: 'Maroc', Brazil: 'Brésil',
+  France: 'France', Portugal: 'Portugal', Uruguay: 'Uruguay', Croatia: 'Croatie', Poland: 'Pologne', Sweden: 'Suède',
+  Switzerland: 'Suisse', Mexico: 'Mexique', Japan: 'Japon', Nigeria: 'Nigéria', Ghana: 'Ghana', Senegal: 'Sénégal', Ireland: 'Irlande',
 };
+/** True when the nation key has a French label (the label can equal the key, e.g. Uruguay). */
+export const hasNationLabel = (n) => Object.hasOwn(NATION_LABEL, n);
+/** True when the nation key has a flag drawing. */
+export const hasFlag = (n) => Object.hasOwn(FLAGS, n);
 /** French name of a nation key (the keys of FLAGS and of the `nation` field of a card). */
 export const nationLabel = (n) => NATION_LABEL[n] || n;
 /** Small SVG flag for a nation name (falls back to a neutral flag). */
@@ -246,7 +252,7 @@ export function portrait(seed, opt = {}) {
 
 /** Dark silhouette for the "missing" state. */
 function silhouette(size = 120) {
-  return `${svgOpen(size, '0 0 100 100', size, 'Joueur manquant', 'art-portrait')}
+  return `${svgOpen(size, '0 0 100 100', size, 'Carte manquante', 'art-portrait')}
     <rect width="100" height="100" fill="#0a1432"/>
     <path d="M6 100 C6 82 24 74 50 74 C76 74 94 82 94 100 Z" fill="#16264f"/>
     <rect x="42" y="58" width="16" height="22" rx="6" fill="#16264f"/>
@@ -257,14 +263,38 @@ function silhouette(size = 120) {
 const RARITY_LABEL = { common: 'Commune', rare: 'Rare', epic: 'Épique', legend: 'Légende' };
 export const rarityLabel = (r) => RARITY_LABEL[r] || r;
 
+/** Kind of a card: 'player' (default, also when the field is absent), 'nation' or 'club'. */
+export const cardKind = (c) => (c && (c.kind === 'nation' || c.kind === 'club') ? c.kind : 'player');
+const KIND_LABEL = { player: 'Joueur', nation: 'Pays', club: 'Club' };
+
 /**
- * Collectible player card (HTML). Scales to its container width (aspect 5:7).
- * @param {{id:string,name:string,pos:string,nation:string,rating:number,rarity:'common'|'rare'|'epic'|'legend'}} c
+ * Collectible card (HTML). Scales to its container width (aspect 5:7).
+ * Player: {id,name,pos,nation,rating,rarity,era}. Nation (kind 'nation'): {id,name,nation,rarity}, big flag.
+ * Club (kind 'club'): {id,name,short,colors,crest,country,rarity}, generated crest.
+ * @param {object} c
  * @param {{count?:number, size?:'sm'|'md'|'lg'|'fluid', tag?:string}} [opt] count>1 shows a "×n" badge
  */
 export function card(c, opt = {}) {
   const { count = 1, size = 'fluid' } = opt;
   const rarity = Object.hasOwn(RARITY_LABEL, c.rarity) ? c.rarity : 'common';
+  const kind = cardKind(c);
+  const sparks = rarity === 'legend' ? '<span class="pcard__spark pcard__spark--1" aria-hidden="true"></span><span class="pcard__spark pcard__spark--2" aria-hidden="true"></span><span class="pcard__spark pcard__spark--3" aria-hidden="true"></span>' : '';
+  const badge = count > 1 ? `<span class="pcard__count" aria-label="${esc(count)} exemplaires">×${esc(count)}</span>` : '';
+  if (kind !== 'player') {
+    const art = kind === 'nation' ? `<div class="pcard__art pcard__art--flag">${flag(c.nation, 160)}</div>` : `<div class="pcard__art pcard__art--crest">${crest(c, 160)}</div>`;
+    const foot = kind === 'nation' ? 'Sélection' : (c.country || 'Club');
+    return `<div class="pcard pcard--${rarity} pcard--${size} pcard--${kind}" data-card="${esc(c.id)}" role="group" aria-label="${esc(`${KIND_LABEL[kind]} ${c.name}, ${RARITY_LABEL[rarity]}`)}">
+    <div class="pcard__frame">
+      <div class="pcard__shine" aria-hidden="true"></div>
+      <div class="pcard__top"><span class="pcard__kind">${KIND_LABEL[kind]}</span></div>
+      ${art}
+      <div class="pcard__name">${esc(c.name)}</div>
+      <div class="pcard__foot"><span class="pcard__nation">${esc(foot)}</span></div>
+      ${sparks}
+    </div>
+    ${badge}
+  </div>`;
+  }
   return `<div class="pcard pcard--${rarity} pcard--${size}" data-card="${esc(c.id)}" role="group" aria-label="${esc(`${c.name}, ${c.pos}, note ${c.rating}, ${RARITY_LABEL[rarity]}`)}">
     <div class="pcard__frame">
       <div class="pcard__shine" aria-hidden="true"></div>
@@ -272,9 +302,9 @@ export function card(c, opt = {}) {
       <div class="pcard__art">${portrait(c.id, { size: 160 })}</div>
       <div class="pcard__name">${esc(c.name)}</div>
       <div class="pcard__foot">${flag(c.nation || 'France', 22)}<span class="pcard__nation">${esc(c.era || c.nation)}</span></div>
-      ${rarity === 'legend' ? '<span class="pcard__spark pcard__spark--1" aria-hidden="true"></span><span class="pcard__spark pcard__spark--2" aria-hidden="true"></span><span class="pcard__spark pcard__spark--3" aria-hidden="true"></span>' : ''}
+      ${sparks}
     </div>
-    ${count > 1 ? `<span class="pcard__count" aria-label="${esc(count)} exemplaires">×${esc(count)}</span>` : ''}
+    ${badge}
   </div>`;
 }
 
@@ -291,15 +321,18 @@ export function cardBack(opt = {}) {
     </div></div>`;
 }
 
-/** Silhouette of a card not yet collected. `c` may be partial: only c.id and c.pos are shown. */
+/** Silhouette of a card not yet collected. `c` may be partial: only c.id, c.pos and c.kind are used. */
 export function cardMissing(c = {}, opt = {}) {
   const { size = 'fluid' } = opt;
-  return `<div class="pcard pcard--missing pcard--${size}" aria-label="Carte manquante${c.pos ? ', ' + esc(c.pos) : ''}">
+  const kind = cardKind(c);
+  const aria = kind === 'player' ? `Carte manquante${c.pos ? ', ' + esc(c.pos) : ''}` : `Carte ${KIND_LABEL[kind].toLowerCase()} manquante, à gagner en coupe`;
+  const foot = kind === 'player' ? `<span class="pcard__nation">#${esc(String(c.id || '').replace(/^[pnk]/, ''))}</span>` : '<span class="pcard__win">À gagner en coupe</span>';
+  return `<div class="pcard pcard--missing pcard--${size}${kind === 'player' ? '' : ' pcard--' + kind}" aria-label="${aria}">
     <div class="pcard__frame">
-      <div class="pcard__top"><span class="pcard__rating">?</span><span class="pcard__pos">${esc(c.pos || '')}</span></div>
+      <div class="pcard__top">${kind === 'player' ? `<span class="pcard__rating">?</span><span class="pcard__pos">${esc(c.pos || '')}</span>` : `<span class="pcard__kind">${KIND_LABEL[kind]}</span>`}</div>
       <div class="pcard__art">${silhouette(160)}</div>
       <div class="pcard__name">???</div>
-      <div class="pcard__foot"><span class="pcard__nation">#${esc(String(c.id || '').replace(/^p/, ''))}</span></div>
+      <div class="pcard__foot">${foot}</div>
     </div></div>`;
 }
 

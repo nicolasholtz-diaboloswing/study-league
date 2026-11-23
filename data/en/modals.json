@@ -1,0 +1,1509 @@
+{
+  "topic": "en-modals",
+  "questions": [
+    {
+      "id": "en-mod-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf ___ lift a heavy stone with one hand.",
+      "choices": [
+        "cans",
+        "can",
+        "can to",
+        "is can"
+      ],
+      "answer": "can",
+      "explain": "A modal is followed by the base verb: no -s and no 'to'."
+    },
+    {
+      "id": "en-mod-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "choices": [
+        "My friend cans run very fast.",
+        "My friend can runs very fast.",
+        "My friend can run very fast.",
+        "My friend can to run very fast."
+      ],
+      "answer": "My friend can run very fast.",
+      "explain": "After 'can' we use the base verb, with no -s and no 'to'."
+    },
+    {
+      "id": "en-mod-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You ___ wear a helmet when you ride a bike.",
+      "choices": [
+        "shoulds",
+        "should to",
+        "are should",
+        "should"
+      ],
+      "answer": "should",
+      "explain": "'Should' never takes -s and is followed by the base verb."
+    },
+    {
+      "id": "en-mod-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question is correct?",
+      "choices": [
+        "Can you help me with my homework?",
+        "Do you can help me with my homework?",
+        "Can you to help me with my homework?",
+        "Can you helping me with my homework?"
+      ],
+      "answer": "Can you help me with my homework?",
+      "explain": "Modal questions use inversion: modal + subject + base verb."
+    },
+    {
+      "id": "en-mod-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ play outside. It is raining too hard.",
+      "choices": [
+        "don't can",
+        "can't",
+        "can not to",
+        "not can"
+      ],
+      "answer": "can't",
+      "explain": "The negative of 'can' is can't or cannot."
+    },
+    {
+      "id": "en-mod-006",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ open the window? It is hot in here.",
+      "choices": [
+        "Do I should",
+        "Should to I",
+        "Should I",
+        "I should"
+      ],
+      "answer": "Should I",
+      "explain": "Questions with 'should' use inversion: Should + subject + base verb."
+    },
+    {
+      "id": "en-mod-007",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "You ought ___ listen to your coach.",
+      "choices": [
+        "for",
+        "by",
+        "with",
+        "to"
+      ],
+      "answer": "to",
+      "explain": "'Ought' is followed by 'to' and the base verb."
+    },
+    {
+      "id": "en-mod-008",
+      "level": 2,
+      "type": "input",
+      "prompt": "My brother ___ to get up at six every day. (has / have)",
+      "answer": [
+        "has"
+      ],
+      "explain": "'Have to' is not a modal: with he/she/it it becomes 'has to'."
+    },
+    {
+      "id": "en-mod-009",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question is correct? (obligation)",
+      "choices": [
+        "Must we to bring our own ball?",
+        "Do we have to bring our own ball?",
+        "Do we must bring our own ball?",
+        "Do we have bring our own ball?"
+      ],
+      "answer": "Do we have to bring our own ball?",
+      "explain": "'Have to' makes questions with do/does: Do we have to + base verb?"
+    },
+    {
+      "id": "en-mod-010",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (future)",
+      "choices": [
+        "Will she can come to the party?",
+        "Will she able to come to the party?",
+        "Will she be able to come to the party?",
+        "Does she can come to the party?"
+      ],
+      "answer": "Will she be able to come to the party?",
+      "explain": "'Can' has no future form, so we use 'will be able to'."
+    },
+    {
+      "id": "en-mod-011",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (wish)",
+      "choices": [
+        "I would like to can swim like a fish.",
+        "I would like can swim like a fish.",
+        "I would like to able swim like a fish.",
+        "I would like to be able to swim like a fish."
+      ],
+      "answer": "I would like to be able to swim like a fish.",
+      "explain": "After 'to' we cannot use 'can': we use 'be able to'."
+    },
+    {
+      "id": "en-mod-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the short form of 'cannot'.",
+      "answer": [
+        "can't"
+      ],
+      "explain": "Cannot becomes can't."
+    },
+    {
+      "id": "en-mod-013",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the short form of 'must not'.",
+      "answer": [
+        "mustn't"
+      ],
+      "explain": "Must not becomes mustn't."
+    },
+    {
+      "id": "en-mod-014",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (past, no obligation)",
+      "choices": [
+        "She didn't had to pay for the ticket.",
+        "She didn't must pay for the ticket.",
+        "She didn't have to pay for the ticket.",
+        "She doesn't had to pay for the ticket."
+      ],
+      "answer": "She didn't have to pay for the ticket.",
+      "explain": "After did/didn't we use the base verb: didn't have to."
+    },
+    {
+      "id": "en-mod-015",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the short form of 'should not'.",
+      "answer": [
+        "shouldn't"
+      ],
+      "explain": "Should not becomes shouldn't."
+    },
+    {
+      "id": "en-mod-016",
+      "level": 2,
+      "type": "input",
+      "prompt": "The knights ___ to wait for their king. (has / have)",
+      "answer": [
+        "have"
+      ],
+      "explain": "With plural 'knights' we use 'have to'."
+    },
+    {
+      "id": "en-mod-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "When I was five, I ___ ride a bike. I was too small.",
+      "choices": [
+        "can't",
+        "couldn't",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": "couldn't",
+      "explain": "'Couldn't' is the past of 'can't'."
+    },
+    {
+      "id": "en-mod-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My little sister ___ read yet. She is only three.",
+      "choices": [
+        "mustn't",
+        "must",
+        "can't",
+        "should"
+      ],
+      "answer": "can't",
+      "explain": "'Can't' expresses a lack of ability."
+    },
+    {
+      "id": "en-mod-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf is very strong. He ___ swim for hours.",
+      "choices": [
+        "can't",
+        "mustn't",
+        "may not",
+        "can"
+      ],
+      "answer": "can",
+      "explain": "'Can' expresses ability."
+    },
+    {
+      "id": "en-mod-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Our goalkeeper is tall. He ___ catch high balls easily. (can / can't)",
+      "answer": [
+        "can"
+      ],
+      "explain": "'Can' expresses ability."
+    },
+    {
+      "id": "en-mod-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Next week my ankle will be better, so I ___ play again.",
+      "choices": [
+        "will can",
+        "will be able to",
+        "will able to",
+        "would can"
+      ],
+      "answer": "will be able to",
+      "explain": "'Can' has no future form: we use 'will be able to'."
+    },
+    {
+      "id": "en-mod-022",
+      "level": 2,
+      "type": "input",
+      "prompt": "When the king was young, he ___ fight very well. (can / could)",
+      "answer": [
+        "could"
+      ],
+      "explain": "For past ability we use 'could'."
+    },
+    {
+      "id": "en-mod-023",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Yesterday the thief locked the door, but the hero ___ open it and escape.",
+      "choices": [
+        "can",
+        "mustn't",
+        "is able to",
+        "was able to"
+      ],
+      "answer": "was able to",
+      "explain": "For one successful action in the past, we use 'was able to'."
+    },
+    {
+      "id": "en-mod-024",
+      "level": 2,
+      "type": "input",
+      "prompt": "She was ill yesterday, so she wasn't ___ to come to training. (able / can)",
+      "answer": [
+        "able"
+      ],
+      "explain": "'Wasn't able to' = couldn't."
+    },
+    {
+      "id": "en-mod-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "A fish ___ swim, but it can't walk.",
+      "choices": [
+        "must",
+        "can",
+        "should",
+        "mustn't"
+      ],
+      "answer": "can",
+      "explain": "'Can' expresses ability."
+    },
+    {
+      "id": "en-mod-026",
+      "level": 2,
+      "type": "input",
+      "prompt": "She will ___ able to run again next month. Write one word.",
+      "answer": [
+        "be"
+      ],
+      "explain": "The future of 'can' is 'will be able to'."
+    },
+    {
+      "id": "en-mod-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "I ___ swim, so I wear a life jacket. (can / can't)",
+      "answer": [
+        "can't"
+      ],
+      "explain": "'Can't' = not able to."
+    },
+    {
+      "id": "en-mod-028",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dogs ___ fly. (can / can't)",
+      "answer": [
+        "can't"
+      ],
+      "explain": "Dogs are not able to fly."
+    },
+    {
+      "id": "en-mod-029",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The hero fell into a deep hole, but he ___ climb out in the end.",
+      "choices": [
+        "can",
+        "was able to",
+        "would can",
+        "is able to"
+      ],
+      "answer": "was able to",
+      "explain": "A single success in the past: 'was able to'."
+    },
+    {
+      "id": "en-mod-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ I borrow your pen, please?",
+      "choices": [
+        "Must",
+        "Ought",
+        "Would",
+        "Can"
+      ],
+      "answer": "Can",
+      "explain": "'Can I...?' asks for permission."
+    },
+    {
+      "id": "en-mod-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you open the door, please?",
+      "choices": [
+        "Could",
+        "Must",
+        "Ought",
+        "Have"
+      ],
+      "answer": "Could",
+      "explain": "'Could you...?' is a polite request."
+    },
+    {
+      "id": "en-mod-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Excuse me, ___ I leave the room?",
+      "choices": [
+        "Does",
+        "May",
+        "Ought",
+        "Have"
+      ],
+      "answer": "May",
+      "explain": "'May I...?' is a polite way to ask permission."
+    },
+    {
+      "id": "en-mod-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is the most polite?",
+      "choices": [
+        "Pass me the ball.",
+        "You must pass me the ball.",
+        "Could you pass me the ball, please?",
+        "You pass me the ball now."
+      ],
+      "answer": "Could you pass me the ball, please?",
+      "explain": "'Could you...?' is a polite request."
+    },
+    {
+      "id": "en-mod-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "Asking for permission: ___ I go to the toilet, please? (Can / Must)",
+      "answer": [
+        "can"
+      ],
+      "explain": "'Can I...?' asks for permission."
+    },
+    {
+      "id": "en-mod-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Excuse me, ___ I use your phone, please? (may / must)",
+      "answer": [
+        "may"
+      ],
+      "explain": "'May I...?' is a polite way to ask permission."
+    },
+    {
+      "id": "en-mod-036",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which is the most formal way to ask for permission?",
+      "choices": [
+        "Can I ask a question, sir?",
+        "May I ask a question, sir?",
+        "I ask a question, okay?",
+        "You must let me ask a question."
+      ],
+      "answer": "May I ask a question, sir?",
+      "explain": "'May I...?' is more formal than 'Can I...?'."
+    },
+    {
+      "id": "en-mod-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct for a polite request?",
+      "choices": [
+        "Could you to tell me the way to the station?",
+        "Do you could tell me the way to the station?",
+        "Could you tell me the way to the station?",
+        "Could you telling me the way to the station?"
+      ],
+      "answer": "Could you tell me the way to the station?",
+      "explain": "Could + subject + base verb, with no 'to'."
+    },
+    {
+      "id": "en-mod-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A guard says to Beowulf: 'You ___ enter the hall, but leave your sword outside.'",
+      "choices": [
+        "mustn't",
+        "can't",
+        "don't have to",
+        "may"
+      ],
+      "answer": "may",
+      "explain": "'May' gives permission."
+    },
+    {
+      "id": "en-mod-039",
+      "level": 2,
+      "type": "input",
+      "prompt": "Polite request: ___ you close the window, please? (Could / Must)",
+      "answer": [
+        "could"
+      ],
+      "explain": "'Could you...?' is a polite request."
+    },
+    {
+      "id": "en-mod-040",
+      "level": 1,
+      "type": "input",
+      "prompt": "You ___ drive at twelve. It is against the law. (can't / may)",
+      "answer": [
+        "can't"
+      ],
+      "explain": "'Can't' also says that something is not allowed."
+    },
+    {
+      "id": "en-mod-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "My teacher says: 'You ___ leave the room now.' (She gives permission.) (may / mustn't)",
+      "answer": [
+        "may"
+      ],
+      "explain": "'May' gives permission."
+    },
+    {
+      "id": "en-mod-042",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You ___ cross the road when the light is red. It is dangerous.",
+      "choices": [
+        "don't have to",
+        "may",
+        "could",
+        "mustn't"
+      ],
+      "answer": "mustn't",
+      "explain": "'Mustn't' means it is forbidden."
+    },
+    {
+      "id": "en-mod-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Tomorrow is a holiday. We ___ go to school.",
+      "choices": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "should"
+      ],
+      "answer": "don't have to",
+      "explain": "'Don't have to' means it is not necessary."
+    },
+    {
+      "id": "en-mod-044",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You ___ run near the pool. It is forbidden.",
+      "choices": [
+        "don't have to",
+        "mustn't",
+        "can",
+        "might"
+      ],
+      "answer": "mustn't",
+      "explain": "'Mustn't' means it is forbidden."
+    },
+    {
+      "id": "en-mod-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You ___ wear a seat belt in a car. It is the law.",
+      "choices": [
+        "mustn't",
+        "don't have to",
+        "must",
+        "may not"
+      ],
+      "answer": "must",
+      "explain": "'Must' expresses a strong obligation."
+    },
+    {
+      "id": "en-mod-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "It's Sunday, so I ___ wake up early. I can sleep late.",
+      "choices": [
+        "mustn't",
+        "must",
+        "have to",
+        "don't have to"
+      ],
+      "answer": "don't have to",
+      "explain": "'Don't have to' = it is not necessary."
+    },
+    {
+      "id": "en-mod-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Players ___ touch the ball with their hands in football, except the goalkeeper. It is against the rules.",
+      "choices": [
+        "mustn't",
+        "don't have to",
+        "can",
+        "ought to"
+      ],
+      "answer": "mustn't",
+      "explain": "'Mustn't' = it is against the rules."
+    },
+    {
+      "id": "en-mod-048",
+      "level": 1,
+      "type": "input",
+      "prompt": "At the airport, you ___ leave your bag alone. It is dangerous. (mustn't / don't have to)",
+      "answer": [
+        "mustn't"
+      ],
+      "explain": "'Mustn't' = it is forbidden."
+    },
+    {
+      "id": "en-mod-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ do her homework tonight. It is for tomorrow.",
+      "choices": [
+        "doesn't have to",
+        "mustn't",
+        "has to",
+        "can't"
+      ],
+      "answer": "has to",
+      "explain": "'Has to' expresses obligation with he/she/it."
+    },
+    {
+      "id": "en-mod-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I ___ do the dishes today. My brother does them.",
+      "choices": [
+        "mustn't",
+        "must",
+        "have to",
+        "don't have to"
+      ],
+      "answer": "don't have to",
+      "explain": "'Don't have to' = no obligation."
+    },
+    {
+      "id": "en-mod-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "There was no dress code yesterday, so we ___ wear our uniform.",
+      "choices": [
+        "didn't have to",
+        "didn't must",
+        "mustn't",
+        "don't have to"
+      ],
+      "answer": "didn't have to",
+      "explain": "Past of 'don't have to': didn't have to."
+    },
+    {
+      "id": "en-mod-052",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Last Monday I was late, so I ___ stay after school.",
+      "choices": [
+        "must",
+        "had to",
+        "have to",
+        "musted"
+      ],
+      "answer": "had to",
+      "explain": "'Must' has no past form: we use 'had to'."
+    },
+    {
+      "id": "en-mod-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'It is not necessary to bring a ball.'",
+      "choices": [
+        "You mustn't bring a ball.",
+        "You can't bring a ball.",
+        "You shouldn't bring a ball.",
+        "You don't have to bring a ball."
+      ],
+      "answer": "You don't have to bring a ball.",
+      "explain": "'It is not necessary' = don't have to."
+    },
+    {
+      "id": "en-mod-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'It is forbidden to take photos.'",
+      "choices": [
+        "You mustn't take photos.",
+        "You don't have to take photos.",
+        "You may take photos.",
+        "You might take photos."
+      ],
+      "answer": "You mustn't take photos.",
+      "explain": "'It is forbidden' = mustn't."
+    },
+    {
+      "id": "en-mod-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What does 'You don't have to wear a helmet' mean?",
+      "choices": [
+        "It is forbidden.",
+        "It is dangerous.",
+        "It is not necessary.",
+        "It is a good idea."
+      ],
+      "answer": "It is not necessary.",
+      "explain": "'Don't have to' = no obligation, not a prohibition."
+    },
+    {
+      "id": "en-mod-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What does 'You mustn't tell anyone the secret' mean?",
+      "choices": [
+        "Telling is not necessary.",
+        "Telling is possible.",
+        "Telling is impossible.",
+        "Telling is forbidden."
+      ],
+      "answer": "Telling is forbidden.",
+      "explain": "'Mustn't' = prohibition."
+    },
+    {
+      "id": "en-mod-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A warrior ___ be loyal to his king. It is the rule.",
+      "choices": [
+        "mustn't",
+        "don't have to",
+        "can't",
+        "must"
+      ],
+      "answer": "must",
+      "explain": "'Must' expresses an obligation."
+    },
+    {
+      "id": "en-mod-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf is a king now, so he ___ fight every day. His men can fight.",
+      "choices": [
+        "doesn't have to",
+        "mustn't",
+        "must",
+        "has to"
+      ],
+      "answer": "doesn't have to",
+      "explain": "'Doesn't have to' = it is not necessary."
+    },
+    {
+      "id": "en-mod-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Heroes ___ run away from danger. It is a terrible shame.",
+      "choices": [
+        "must",
+        "mustn't",
+        "have to",
+        "can"
+      ],
+      "answer": "mustn't",
+      "explain": "'Mustn't' = it is forbidden / a strong 'no'."
+    },
+    {
+      "id": "en-mod-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "The warriors ___ sleep in the hall tonight. The king ordered it. (must / mustn't)",
+      "answer": [
+        "must"
+      ],
+      "explain": "'Must' expresses an order."
+    },
+    {
+      "id": "en-mod-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Last night the king's guards ___ stay awake because the monster was near.",
+      "choices": [
+        "must",
+        "have to",
+        "mustn't",
+        "had to"
+      ],
+      "answer": "had to",
+      "explain": "'Must' has no past: we use 'had to'."
+    },
+    {
+      "id": "en-mod-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Next week I ___ study hard for the test.",
+      "choices": [
+        "will have to",
+        "will must",
+        "would must",
+        "am must"
+      ],
+      "answer": "will have to",
+      "explain": "'Must' has no future form: we use 'will have to'."
+    },
+    {
+      "id": "en-mod-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'Do I have to wear a tie?' 'No, you ___.'",
+      "choices": [
+        "mustn't",
+        "don't have to",
+        "can't",
+        "must"
+      ],
+      "answer": "don't have to",
+      "explain": "The answer to 'Do I have to...?' is 'No, you don't have to.'"
+    },
+    {
+      "id": "en-mod-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'Tickets are free, so it is not necessary to pay.'",
+      "choices": [
+        "You mustn't pay.",
+        "You can't pay.",
+        "You don't have to pay.",
+        "You shouldn't pay."
+      ],
+      "answer": "You don't have to pay.",
+      "explain": "'It is not necessary' = don't have to."
+    },
+    {
+      "id": "en-mod-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The rule says: 'Students must wear shoes in the gym.' Which sentence is true?",
+      "choices": [
+        "Students don't have to wear shoes in the gym.",
+        "Students mustn't wear shoes in the gym.",
+        "Students can enter the gym barefoot.",
+        "Students have to wear shoes in the gym."
+      ],
+      "answer": "Students have to wear shoes in the gym.",
+      "explain": "'Must' and 'have to' both express obligation."
+    },
+    {
+      "id": "en-mod-066",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You ___ bring lunch. The school gives free meals.",
+      "choices": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "have to"
+      ],
+      "answer": "don't have to",
+      "explain": "'Don't have to' = no obligation."
+    },
+    {
+      "id": "en-mod-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In the exam, you ___ use your phone. It is cheating.",
+      "choices": [
+        "don't have to",
+        "mustn't",
+        "have to",
+        "may"
+      ],
+      "answer": "mustn't",
+      "explain": "'Mustn't' = forbidden."
+    },
+    {
+      "id": "en-mod-068",
+      "level": 3,
+      "type": "input",
+      "prompt": "In football, the goalkeeper ___ use his hands inside the box. It is allowed, but not compulsory. (must / can)",
+      "answer": [
+        "can"
+      ],
+      "explain": "'Can' = allowed; 'must' would make it compulsory."
+    },
+    {
+      "id": "en-mod-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "At the zoo, a sign says 'Do not touch the animals.' Which sentence is correct?",
+      "choices": [
+        "You don't have to touch the animals.",
+        "You have to touch the animals.",
+        "You mustn't touch the animals.",
+        "You may touch the animals."
+      ],
+      "answer": "You mustn't touch the animals.",
+      "explain": "'Do not' on a sign = 'mustn't'."
+    },
+    {
+      "id": "en-mod-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (no obligation)",
+      "choices": [
+        "You don't must wear a coat; it is warm today.",
+        "You haven't to wear a coat; it is warm today.",
+        "You mustn't to wear a coat; it is warm today.",
+        "You don't have to wear a coat; it is warm today."
+      ],
+      "answer": "You don't have to wear a coat; it is warm today.",
+      "explain": "Not necessary = don't have to."
+    },
+    {
+      "id": "en-mod-071",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You look tired. You ___ go to bed early.",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "mustn't"
+      ],
+      "answer": "should",
+      "explain": "'Should' gives advice."
+    },
+    {
+      "id": "en-mod-072",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You have a cold. You ___ go to school today. Stay at home.",
+      "choices": [
+        "should",
+        "can",
+        "shouldn't",
+        "may"
+      ],
+      "answer": "shouldn't",
+      "explain": "'Shouldn't' advises against something."
+    },
+    {
+      "id": "en-mod-073",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I have a toothache. What ___ I do?",
+      "choices": [
+        "am",
+        "ought",
+        "have",
+        "should"
+      ],
+      "answer": "should",
+      "explain": "'What should I do?' asks for advice."
+    },
+    {
+      "id": "en-mod-074",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You ___ eat so many sweets. They are bad for your teeth.",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can",
+        "may"
+      ],
+      "answer": "shouldn't",
+      "explain": "'Shouldn't' = it is not a good idea."
+    },
+    {
+      "id": "en-mod-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (advice)",
+      "choices": [
+        "You ought warm up before running.",
+        "You ought to warm up before running.",
+        "You oughts to warm up before running.",
+        "You ought to warming up before running."
+      ],
+      "answer": "You ought to warm up before running.",
+      "explain": "Ought to + base verb."
+    },
+    {
+      "id": "en-mod-076",
+      "level": 2,
+      "type": "input",
+      "prompt": "You are very tired. You ___ rest. (should / shouldn't)",
+      "answer": [
+        "should"
+      ],
+      "explain": "'Should' gives advice."
+    },
+    {
+      "id": "en-mod-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "It is dangerous to swim here. You ___ swim here. (should / shouldn't)",
+      "answer": [
+        "shouldn't"
+      ],
+      "explain": "'Shouldn't' advises against something."
+    },
+    {
+      "id": "en-mod-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "You'd better ___ now, or you will miss the bus.",
+      "choices": [
+        "hurry up",
+        "to hurry up",
+        "hurrying up",
+        "hurried up"
+      ],
+      "answer": "hurry up",
+      "explain": "'Had better' is followed by the base verb, with no 'to'."
+    },
+    {
+      "id": "en-mod-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "You ___ take an umbrella. It looks like rain.",
+      "choices": [
+        "had better to",
+        "had better",
+        "have better",
+        "would better"
+      ],
+      "answer": "had better",
+      "explain": "The form is 'had better' + base verb."
+    },
+    {
+      "id": "en-mod-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (warning)",
+      "choices": [
+        "You'd better don't be late.",
+        "You hadn't better to be late.",
+        "You'd better not be late.",
+        "You better not to be late."
+      ],
+      "answer": "You'd better not be late.",
+      "explain": "Negative: had better not + base verb."
+    },
+    {
+      "id": "en-mod-081",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence gives the strongest advice (a warning)?",
+      "choices": [
+        "You could leave if you want.",
+        "You might leave.",
+        "You may leave.",
+        "You had better leave, or the guards will come."
+      ],
+      "answer": "You had better leave, or the guards will come.",
+      "explain": "'Had better' is a strong warning with a possible bad result."
+    },
+    {
+      "id": "en-mod-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "A wise old man says to Beowulf: 'You ___ be careful. The sea is dangerous.'",
+      "choices": [
+        "should",
+        "shouldn't",
+        "can't",
+        "mustn't"
+      ],
+      "answer": "should",
+      "explain": "'Should' gives advice."
+    },
+    {
+      "id": "en-mod-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf's friend says: 'You ___ enter the dark cave alone. Take your men with you.'",
+      "choices": [
+        "should",
+        "shouldn't",
+        "can",
+        "must"
+      ],
+      "answer": "shouldn't",
+      "explain": "'Shouldn't' advises against something."
+    },
+    {
+      "id": "en-mod-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "A young knight ___ listen to the older warriors. It is wise.",
+      "choices": [
+        "shouldn't",
+        "can't",
+        "should",
+        "won't"
+      ],
+      "answer": "should",
+      "explain": "'Should' gives advice."
+    },
+    {
+      "id": "en-mod-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "You missed the bus. You ___ left earlier.",
+      "choices": [
+        "should had",
+        "must",
+        "would should",
+        "should have"
+      ],
+      "answer": "should have",
+      "explain": "'Should have' + past participle criticises a past action."
+    },
+    {
+      "id": "en-mod-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (past advice)",
+      "choices": [
+        "I should have told you earlier.",
+        "I should had told you earlier.",
+        "I should to have told you earlier.",
+        "I should has told you earlier."
+      ],
+      "answer": "I should have told you earlier.",
+      "explain": "The form is should + have + past participle."
+    },
+    {
+      "id": "en-mod-087",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Take a coat. It ___ rain later.",
+      "choices": [
+        "must",
+        "might",
+        "has to",
+        "mustn't"
+      ],
+      "answer": "might",
+      "explain": "'Might' expresses a possibility."
+    },
+    {
+      "id": "en-mod-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I'm not sure, but I ___ go to the cinema tonight.",
+      "choices": [
+        "have to",
+        "mustn't",
+        "might",
+        "should to"
+      ],
+      "answer": "might",
+      "explain": "'Might' expresses a possibility."
+    },
+    {
+      "id": "en-mod-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'Where is Tom?' 'I don't know. He ___ be at the gym.'",
+      "choices": [
+        "has to",
+        "don't have to",
+        "mustn't",
+        "might"
+      ],
+      "answer": "might",
+      "explain": "'Might' expresses a possibility."
+    },
+    {
+      "id": "en-mod-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "There are dark clouds. It ___ rain soon, but I am not sure. (may / mustn't)",
+      "answer": [
+        "may"
+      ],
+      "explain": "'May' expresses a possibility."
+    },
+    {
+      "id": "en-mod-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Their car is gone, the lights are off and nobody answers the door. They ___ be out.",
+      "choices": [
+        "can't",
+        "must",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": "must",
+      "explain": "'Must be' expresses a strong certainty."
+    },
+    {
+      "id": "en-mod-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Maria has just eaten a huge lunch. She ___ be hungry.",
+      "choices": [
+        "must",
+        "has to",
+        "can't",
+        "mustn't"
+      ],
+      "answer": "can't",
+      "explain": "'Can't be' = it is impossible."
+    },
+    {
+      "id": "en-mod-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The footprints are enormous. The monster ___ be very large.",
+      "choices": [
+        "can't",
+        "mustn't",
+        "ought",
+        "must"
+      ],
+      "answer": "must",
+      "explain": "'Must be' = I am almost sure."
+    },
+    {
+      "id": "en-mod-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We looked everywhere in the cave and found nothing. The treasure ___ be in there.",
+      "choices": [
+        "can't",
+        "must",
+        "mustn't",
+        "ought"
+      ],
+      "answer": "can't",
+      "explain": "'Can't be' = it is impossible."
+    },
+    {
+      "id": "en-mod-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence means 'I am almost sure it is true'?",
+      "choices": [
+        "He might be the new coach.",
+        "He must be the new coach.",
+        "He can't be the new coach.",
+        "He shouldn't be the new coach."
+      ],
+      "answer": "He must be the new coach.",
+      "explain": "'Must be' = strong certainty."
+    },
+    {
+      "id": "en-mod-096",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence means 'It is impossible'?",
+      "choices": [
+        "That must be Tom. He is in Spain.",
+        "That might be Tom. He is in Spain.",
+        "That can't be Tom. He is in Spain.",
+        "That may be Tom. He is in Spain."
+      ],
+      "answer": "That can't be Tom. He is in Spain.",
+      "explain": "'Can't be' = impossible."
+    },
+    {
+      "id": "en-mod-097",
+      "level": 3,
+      "type": "input",
+      "prompt": "The lights are on and I can hear music. They ___ be at home. (must / can't)",
+      "answer": [
+        "must"
+      ],
+      "explain": "'Must be' = I am almost sure."
+    },
+    {
+      "id": "en-mod-098",
+      "level": 3,
+      "type": "input",
+      "prompt": "Tom is in bed with flu. He ___ be at the match. (must / can't)",
+      "answer": [
+        "can't"
+      ],
+      "explain": "'Can't be' = impossible."
+    },
+    {
+      "id": "en-mod-099",
+      "level": 3,
+      "type": "input",
+      "prompt": "He has been running all day. He ___ be tired. (must / can't)",
+      "answer": [
+        "must"
+      ],
+      "explain": "'Must be' = I am almost sure."
+    },
+    {
+      "id": "en-mod-100",
+      "level": 2,
+      "type": "input",
+      "prompt": "That ___ be true! It is impossible. (must / can't)",
+      "answer": [
+        "can't"
+      ],
+      "explain": "'Can't be' = impossible."
+    },
+    {
+      "id": "en-mod-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The ground is wet. It ___ rained in the night.",
+      "choices": [
+        "must had",
+        "must",
+        "have must",
+        "must have"
+      ],
+      "answer": "must have",
+      "explain": "'Must have' + past participle = a strong deduction about the past."
+    },
+    {
+      "id": "en-mod-102",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The sky is grey. It ___ snow tonight, but nobody knows.",
+      "choices": [
+        "could",
+        "mustn't",
+        "has to",
+        "ought"
+      ],
+      "answer": "could",
+      "explain": "'Could' expresses a possibility."
+    },
+    {
+      "id": "en-mod-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The hero ___ be in the forest, or he might be in the village. Nobody knows.",
+      "choices": [
+        "must",
+        "may",
+        "can't",
+        "has to"
+      ],
+      "answer": "may",
+      "explain": "'May' expresses a possibility."
+    },
+    {
+      "id": "en-mod-104",
+      "level": 2,
+      "type": "input",
+      "prompt": "I haven't decided. I ___ go to the party. (might / must)",
+      "answer": [
+        "might"
+      ],
+      "explain": "'Might' expresses a possibility."
+    },
+    {
+      "id": "en-mod-105",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence expresses ability?",
+      "choices": [
+        "My dog mustn't jump over the fence.",
+        "My dog should jump over the fence.",
+        "My dog may jump over the fence.",
+        "My dog can jump over the fence."
+      ],
+      "answer": "My dog can jump over the fence.",
+      "explain": "'Can' expresses ability."
+    },
+    {
+      "id": "en-mod-106",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence expresses obligation?",
+      "choices": [
+        "Students must wear a uniform.",
+        "Students might wear a uniform.",
+        "Students can wear a uniform.",
+        "Students may wear a uniform."
+      ],
+      "answer": "Students must wear a uniform.",
+      "explain": "'Must' expresses obligation."
+    },
+    {
+      "id": "en-mod-107",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence expresses prohibition?",
+      "choices": [
+        "You don't have to feed the swans.",
+        "You mustn't feed the swans.",
+        "You should feed the swans.",
+        "You can feed the swans."
+      ],
+      "answer": "You mustn't feed the swans.",
+      "explain": "'Mustn't' expresses prohibition."
+    },
+    {
+      "id": "en-mod-108",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence gives advice?",
+      "choices": [
+        "You mustn't drink water.",
+        "You can drink water here.",
+        "You should drink more water.",
+        "You might drink water."
+      ],
+      "answer": "You should drink more water.",
+      "explain": "'Should' gives advice."
+    },
+    {
+      "id": "en-mod-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'It is possible that she is late.'",
+      "choices": [
+        "She must be late.",
+        "She can't be late.",
+        "She has to be late.",
+        "She might be late."
+      ],
+      "answer": "She might be late.",
+      "explain": "'Might' = possible."
+    },
+    {
+      "id": "en-mod-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'It is a good idea to wear a hat.'",
+      "choices": [
+        "You mustn't wear a hat.",
+        "You should wear a hat.",
+        "You can't wear a hat.",
+        "You don't have to wear a hat."
+      ],
+      "answer": "You should wear a hat.",
+      "explain": "'It is a good idea' = should."
+    },
+    {
+      "id": "en-mod-111",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence shows an obligation, not advice?",
+      "choices": [
+        "Soldiers should obey orders.",
+        "Soldiers ought to obey orders.",
+        "Soldiers have to obey orders.",
+        "Soldiers might obey orders."
+      ],
+      "answer": "Soldiers have to obey orders.",
+      "explain": "'Have to' = obligation; should / ought to = advice."
+    },
+    {
+      "id": "en-mod-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'Beowulf is able to swim for hours.'",
+      "choices": [
+        "Beowulf must swim for hours.",
+        "Beowulf may swim for hours.",
+        "Beowulf should swim for hours.",
+        "Beowulf can swim for hours."
+      ],
+      "answer": "Beowulf can swim for hours.",
+      "explain": "Can = be able to."
+    },
+    {
+      "id": "en-mod-113",
+      "level": 2,
+      "type": "input",
+      "prompt": "'You are not allowed to shout.' = You ___ shout. (mustn't / don't have to)",
+      "answer": [
+        "mustn't"
+      ],
+      "explain": "'Not allowed' = mustn't."
+    },
+    {
+      "id": "en-mod-114",
+      "level": 1,
+      "type": "input",
+      "prompt": "We are in a library. You ___ talk loudly. (mustn't / can)",
+      "answer": [
+        "mustn't"
+      ],
+      "explain": "'Mustn't' = forbidden."
+    },
+    {
+      "id": "en-mod-115",
+      "level": 2,
+      "type": "input",
+      "prompt": "You ___ better wash your hands before dinner. (had / have)",
+      "answer": [
+        "had"
+      ],
+      "explain": "The form is 'had better' + base verb."
+    },
+    {
+      "id": "en-mod-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is correct? (past obligation)",
+      "choices": [
+        "I must leave early yesterday.",
+        "I musted leave early yesterday.",
+        "I had to leave early yesterday.",
+        "I had must leave early yesterday."
+      ],
+      "answer": "I had to leave early yesterday.",
+      "explain": "The past of 'must' is 'had to'."
+    }
+  ]
+}

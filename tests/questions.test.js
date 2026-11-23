@@ -29,6 +29,19 @@ test('checkAnswer: string answer, array answers, empty, null', () => {
   assert(!checkAnswer({ type: 'input', answer: 'eté' }, 'ete'));
 });
 
+test('checkAnswer: u10 treats "ê" and "e" as the same letter; every other accent still counts; default and u13 stay strict', () => {
+  const q = { type: 'input', answer: 'êtes' };
+  const u10 = { squad: 'u10' };
+  assert(checkAnswer(q, 'etes', u10) && checkAnswer(q, 'êtes', u10) && checkAnswer(q, ' ÊTES ', u10));
+  assert(!checkAnswer(q, 'etes') && !checkAnswer(q, 'etes', { squad: 'u13' }) && !checkAnswer(q, 'etes', {}));
+  assert(checkAnswer(q, 'êtes') && checkAnswer(q, 'êtes', { squad: 'u13' }));
+  assert(!checkAnswer(q, 'ètes', u10) && !checkAnswer(q, 'étes', u10), 'è and é are not ê');
+  assert(!checkAnswer({ type: 'input', answer: 'éte' }, 'ete', u10), 'é is not folded');
+  assert(checkAnswer({ type: 'input', answer: ['arrête', 'arrete'] }, 'arrete', u10));
+  assert(checkAnswer({ type: 'input', answer: 'tête' }, 'tete', u10) && !checkAnswer({ type: 'input', answer: 'tete' }, 'têtè', u10));
+  assert(!checkAnswer(q, null, u10) && !checkAnswer(q, '', u10));
+});
+
 test('displayAnswer: numeric typing variants shown once, text forms kept', () => {
   const d = (answer) => displayAnswer({ type: 'input', answer });
   eq(d(['-8,5', '-8.5', '−8,5', '−8.5']), '-8,5');

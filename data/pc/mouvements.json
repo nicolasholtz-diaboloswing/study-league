@@ -435,20 +435,6 @@
       "explain": "Pour passer de m/s à km/h, on multiplie la vitesse par 3,6."
     },
     {
-      "id": "pc-mv-035",
-      "level": 3,
-      "type": "mcq",
-      "prompt": "Un coureur avance à 6 m/s. Quelle est sa vitesse en km/h ?",
-      "choices": [
-        "2,16 km/h",
-        "21,6 km/h",
-        "216 km/h",
-        "36 km/h"
-      ],
-      "answer": "21,6 km/h",
-      "explain": "6 x 3,6 = 21,6 km/h."
-    },
-    {
       "id": "pc-mv-036",
       "level": 2,
       "type": "input",
@@ -985,12 +971,11 @@
       "id": "pc-mv-078",
       "level": 3,
       "type": "input",
-      "prompt": "Un cycliste parcourt 90 m en 10 s. Quelle est sa vitesse moyenne en km/h ?",
+      "prompt": "Un cycliste parcourt 50 m en 10 s. Quelle est sa vitesse moyenne en km/h ?",
       "answer": [
-        "32,4",
-        "32.4"
+        "18"
       ],
-      "explain": "v = 90 / 10 = 9 m/s, et 9 x 3,6 = 32,4 km/h."
+      "explain": "v = 50 / 10 = 5 m/s, et 5 x 3,6 = 18 km/h."
     },
     {
       "id": "pc-mv-079",
@@ -1024,12 +1009,11 @@
       "id": "pc-mv-081",
       "level": 2,
       "type": "input",
-      "prompt": "Convertis 8 m/s en km/h.",
+      "prompt": "Convertis 30 m/s en km/h.",
       "answer": [
-        "28,8",
-        "28.8"
+        "108"
       ],
-      "explain": "8 x 3,6 = 28,8 km/h."
+      "explain": "30 x 3,6 = 108 km/h."
     },
     {
       "id": "pc-mv-082",

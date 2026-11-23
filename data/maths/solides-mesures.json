@@ -1,0 +1,1901 @@
+{
+  "topic": "maths-solides-mesures",
+  "questions": [
+    {
+      "id": "ma-sol-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de faces a un cube ?",
+      "choices": [
+        "12",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "6",
+      "explain": "Un cube a 6 faces carrées."
+    },
+    {
+      "id": "ma-sol-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien d'arêtes a un cube ?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": "12",
+      "explain": "Un cube a 12 arêtes."
+    },
+    {
+      "id": "ma-sol-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de sommets a un cube ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "Un cube a 8 sommets."
+    },
+    {
+      "id": "ma-sol-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de faces a un pavé droit ?",
+      "choices": [
+        "8",
+        "6",
+        "12",
+        "4"
+      ],
+      "answer": "6",
+      "explain": "Un pavé droit a 6 faces rectangulaires."
+    },
+    {
+      "id": "ma-sol-005",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien de sommets a un pavé droit ?",
+      "choices": [
+        "4",
+        "12",
+        "8",
+        "6"
+      ],
+      "answer": "8",
+      "explain": "Un pavé droit a 8 sommets, comme un cube."
+    },
+    {
+      "id": "ma-sol-006",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien d'arêtes a un pavé droit ?",
+      "choices": [
+        "6",
+        "12",
+        "8",
+        "10"
+      ],
+      "answer": "12",
+      "explain": "Un pavé droit a 12 arêtes, comme un cube."
+    },
+    {
+      "id": "ma-sol-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel autre nom donne-t-on au pavé droit ?",
+      "choices": [
+        "Cylindre de révolution",
+        "Patron",
+        "Parallélépipède rectangle",
+        "Prisme à base triangulaire"
+      ],
+      "answer": "Parallélépipède rectangle",
+      "explain": "Le pavé droit s'appelle aussi parallélépipède rectangle."
+    },
+    {
+      "id": "ma-sol-008",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien de sommets a un prisme droit à base triangulaire ?",
+      "choices": [
+        "5",
+        "8",
+        "9",
+        "6"
+      ],
+      "answer": "6",
+      "explain": "Il a 3 sommets sur chaque base : 3 + 3 = 6."
+    },
+    {
+      "id": "ma-sol-009",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Combien d'arêtes a un prisme droit à base triangulaire ?",
+      "choices": [
+        "8",
+        "9",
+        "12",
+        "6"
+      ],
+      "answer": "9",
+      "explain": "3 arêtes sur chaque base et 3 arêtes latérales : 3 + 3 + 3 = 9."
+    },
+    {
+      "id": "ma-sol-010",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien de faces a un prisme droit à base triangulaire ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Il a 2 bases triangulaires et 3 faces latérales : 2 + 3 = 5."
+    },
+    {
+      "id": "ma-sol-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la forme des faces latérales d'un prisme droit ?",
+      "choices": [
+        "Des triangles",
+        "Des disques",
+        "Des rectangles",
+        "Des trapèzes"
+      ],
+      "answer": "Des rectangles",
+      "explain": "Les faces latérales d'un prisme droit sont des rectangles."
+    },
+    {
+      "id": "ma-sol-012",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien de faces latérales a un prisme droit à base triangulaire ?",
+      "choices": [
+        "2",
+        "6",
+        "5",
+        "3"
+      ],
+      "answer": "3",
+      "explain": "Il y a une face latérale par côté de la base : 3."
+    },
+    {
+      "id": "ma-sol-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelles sont les bases d'un cylindre de révolution ?",
+      "choices": [
+        "Deux triangles",
+        "Deux disques",
+        "Deux rectangles",
+        "Un seul disque"
+      ],
+      "answer": "Deux disques",
+      "explain": "Un cylindre de révolution a deux bases, qui sont des disques."
+    },
+    {
+      "id": "ma-sol-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un patron d'un solide ?",
+      "choices": [
+        "Le nombre de faces du solide",
+        "Un dessin du solide en perspective cavalière",
+        "La liste des arêtes du solide",
+        "Une figure plane qui, une fois pliée, donne le solide"
+      ],
+      "answer": "Une figure plane qui, une fois pliée, donne le solide",
+      "explain": "Un patron est une figure plane qui, pliée, permet de fabriquer le solide."
+    },
+    {
+      "id": "ma-sol-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de faces comporte un patron de cube ?",
+      "choices": [
+        "12",
+        "8",
+        "6",
+        "4"
+      ],
+      "answer": "6",
+      "explain": "Le patron d'un cube comporte 6 carrés, un pour chaque face."
+    },
+    {
+      "id": "ma-sol-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "De quelles figures est formé un patron de cube ?",
+      "choices": [
+        "4 carrés identiques",
+        "8 carrés identiques",
+        "6 carrés identiques",
+        "6 rectangles de dimensions différentes"
+      ],
+      "answer": "6 carrés identiques",
+      "explain": "Chaque face du cube est un carré : le patron est fait de 6 carrés identiques."
+    },
+    {
+      "id": "ma-sol-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la forme de la surface latérale d'un cylindre une fois dépliée ?",
+      "choices": [
+        "Un disque",
+        "Un trapèze",
+        "Un triangle",
+        "Un rectangle"
+      ],
+      "answer": "Un rectangle",
+      "explain": "La surface latérale d'un cylindre déroulée est un rectangle."
+    },
+    {
+      "id": "ma-sol-018",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel patron convient pour un cylindre de révolution ?",
+      "choices": [
+        "Un rectangle et deux disques",
+        "Un rectangle et un disque",
+        "Deux rectangles et un disque",
+        "Trois disques"
+      ],
+      "answer": "Un rectangle et deux disques",
+      "explain": "Il faut un rectangle pour la surface latérale et deux disques pour les bases."
+    },
+    {
+      "id": "ma-sol-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "En perspective cavalière, comment représente-t-on les arêtes cachées ?",
+      "choices": [
+        "En pointillés",
+        "On ne les représente pas",
+        "En traits plus épais",
+        "En couleur"
+      ],
+      "answer": "En pointillés",
+      "explain": "En perspective cavalière, les arêtes cachées sont dessinées en pointillés."
+    },
+    {
+      "id": "ma-sol-020",
+      "level": 2,
+      "type": "input",
+      "prompt": "En perspective cavalière, deux arêtes parallèles du solide sont représentées par des segments parallèles. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "La perspective cavalière conserve le parallélisme."
+    },
+    {
+      "id": "ma-sol-021",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un prisme droit a deux bases qui sont des rectangles. De quel solide s'agit-il ?",
+      "choices": [
+        "Un patron",
+        "Un pavé droit",
+        "Un cylindre de révolution",
+        "Un prisme à base triangulaire"
+      ],
+      "answer": "Un pavé droit",
+      "explain": "Un prisme droit dont les bases sont des rectangles est un pavé droit."
+    },
+    {
+      "id": "ma-sol-022",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un cube est un pavé droit particulier. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Un cube est un pavé droit dont toutes les faces sont des carrés."
+    },
+    {
+      "id": "ma-sol-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle formule donne le volume d'un cube de côté c ?",
+      "choices": [
+        "6 × c × c",
+        "c × c × c",
+        "3 × c",
+        "c × c"
+      ],
+      "answer": "c × c × c",
+      "explain": "Le volume d'un cube est côté × côté × côté."
+    },
+    {
+      "id": "ma-sol-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle formule donne le volume d'un pavé droit de longueur L, largeur l et hauteur h ?",
+      "choices": [
+        "2 × (L + l) × h",
+        "L + l + h",
+        "L × l",
+        "L × l × h"
+      ],
+      "answer": "L × l × h",
+      "explain": "Le volume d'un pavé droit est longueur × largeur × hauteur."
+    },
+    {
+      "id": "ma-sol-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle formule donne le volume d'un prisme droit ?",
+      "choices": [
+        "Aire de la base × hauteur",
+        "Périmètre de la base × hauteur",
+        "Aire de la base + hauteur",
+        "Aire de la base × aire d'une face latérale"
+      ],
+      "answer": "Aire de la base × hauteur",
+      "explain": "Le volume d'un prisme droit est l'aire de la base multipliée par la hauteur."
+    },
+    {
+      "id": "ma-sol-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle formule donne le volume d'un cylindre de rayon r et de hauteur h ?",
+      "choices": [
+        "2 × π × r × h",
+        "π × r × r × h",
+        "π × r × r",
+        "π × r × h"
+      ],
+      "answer": "π × r × r × h",
+      "explain": "Le volume est l'aire du disque de base (π × r × r) multipliée par la hauteur h."
+    },
+    {
+      "id": "ma-sol-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le volume d'un cube de 3 cm de côté ?",
+      "choices": [
+        "12 cm³",
+        "9 cm³",
+        "6 cm³",
+        "27 cm³"
+      ],
+      "answer": "27 cm³",
+      "explain": "3 × 3 × 3 = 27 cm³."
+    },
+    {
+      "id": "ma-sol-028",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le volume, en dm³, d'un cube de 5 dm de côté ?",
+      "answer": [
+        "125"
+      ],
+      "explain": "5 × 5 × 5 = 125 dm³."
+    },
+    {
+      "id": "ma-sol-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le volume d'un cube de 6 cm d'arête ?",
+      "choices": [
+        "18 cm³",
+        "216 cm³",
+        "144 cm³",
+        "36 cm³"
+      ],
+      "answer": "216 cm³",
+      "explain": "6 × 6 × 6 = 216 cm³."
+    },
+    {
+      "id": "ma-sol-030",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le volume, en cm³, d'un cube de 10 cm d'arête ?",
+      "answer": [
+        "1 000",
+        "1000"
+      ],
+      "explain": "10 × 10 × 10 = 1000 cm³."
+    },
+    {
+      "id": "ma-sol-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un pavé droit mesure 5 cm de long, 4 cm de large et 3 cm de haut. Quel est son volume ?",
+      "choices": [
+        "20 cm³",
+        "60 cm³",
+        "12 cm³",
+        "23 cm³"
+      ],
+      "answer": "60 cm³",
+      "explain": "5 × 4 × 3 = 60 cm³."
+    },
+    {
+      "id": "ma-sol-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un pavé droit mesure 8 m de long, 5 m de large et 2 m de haut. Quel est son volume en m³ ?",
+      "answer": [
+        "80"
+      ],
+      "explain": "8 × 5 × 2 = 80 m³."
+    },
+    {
+      "id": "ma-sol-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une piscine a la forme d'un pavé droit de 25 m de long, 10 m de large et 2 m de profondeur. Quel est son volume ?",
+      "choices": [
+        "5 000 m³",
+        "250 m³",
+        "37 m³",
+        "500 m³"
+      ],
+      "answer": "500 m³",
+      "explain": "25 × 10 × 2 = 500 m³."
+    },
+    {
+      "id": "ma-sol-034",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un pavé droit mesure 1,5 m de long, 4 m de large et 2 m de haut. Quel est son volume en m³ ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "1,5 × 4 × 2 = 12 m³."
+    },
+    {
+      "id": "ma-sol-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "On remplit un pavé droit de 4 cm sur 3 cm sur 2 cm avec des petits cubes de 1 cm³. Combien faut-il de cubes ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "4 × 3 × 2 = 24 cubes de 1 cm³."
+    },
+    {
+      "id": "ma-sol-036",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un prisme droit a une base d'aire 12 cm² et une hauteur de 5 cm. Quel est son volume ?",
+      "choices": [
+        "60 cm³",
+        "17 cm³",
+        "30 cm³",
+        "120 cm³"
+      ],
+      "answer": "60 cm³",
+      "explain": "12 × 5 = 60 cm³."
+    },
+    {
+      "id": "ma-sol-037",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un prisme droit a une base d'aire 15 cm² et une hauteur de 6 cm. Quel est son volume en cm³ ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "15 × 6 = 90 cm³."
+    },
+    {
+      "id": "ma-sol-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une tente en forme de prisme droit a une base d'aire 8 m² et une longueur de 7 m. Quel est son volume ?",
+      "choices": [
+        "56 m³",
+        "15 m³",
+        "112 m³",
+        "64 m³"
+      ],
+      "answer": "56 m³",
+      "explain": "8 × 7 = 56 m³."
+    },
+    {
+      "id": "ma-sol-039",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un cylindre a une base d'aire 25 cm² et une hauteur de 4 cm. Quel est son volume en cm³ ?",
+      "answer": [
+        "100"
+      ],
+      "explain": "25 × 4 = 100 cm³."
+    },
+    {
+      "id": "ma-sol-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le volume d'un cylindre de rayon 3 cm et de hauteur 2 cm ?",
+      "choices": [
+        "72π cm³",
+        "12π cm³",
+        "6π cm³",
+        "18π cm³"
+      ],
+      "answer": "18π cm³",
+      "explain": "π × 3 × 3 × 2 = 18π cm³."
+    },
+    {
+      "id": "ma-sol-041",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le volume d'un cylindre de rayon 5 cm et de hauteur 2 cm ?",
+      "choices": [
+        "200π cm³",
+        "50π cm³",
+        "20π cm³",
+        "10π cm³"
+      ],
+      "answer": "50π cm³",
+      "explain": "π × 5 × 5 × 2 = 50π cm³."
+    },
+    {
+      "id": "ma-sol-042",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un cylindre a un diamètre de 6 cm et une hauteur de 10 cm. Quel est son volume ?",
+      "choices": [
+        "180π cm³",
+        "360π cm³",
+        "60π cm³",
+        "90π cm³"
+      ],
+      "answer": "90π cm³",
+      "explain": "Le rayon est 3 cm : π × 3 × 3 × 10 = 90π cm³."
+    },
+    {
+      "id": "ma-sol-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cylindre a un rayon de 2 cm et une hauteur de 10 cm. Avec π ≈ 3, quel est son volume en cm³ ?",
+      "answer": [
+        "120"
+      ],
+      "explain": "3 × 2 × 2 × 10 = 120 cm³."
+    },
+    {
+      "id": "ma-sol-044",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un pavé droit a un volume de 60 cm³, une longueur de 5 cm et une largeur de 4 cm. Quelle est sa hauteur en cm ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "60 ÷ (5 × 4) = 60 ÷ 20 = 3 cm."
+    },
+    {
+      "id": "ma-sol-045",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un pavé droit a un volume de 120 cm³, une longueur de 6 cm et une largeur de 4 cm. Quelle est sa hauteur ?",
+      "choices": [
+        "5 cm",
+        "30 cm",
+        "20 cm",
+        "12 cm"
+      ],
+      "answer": "5 cm",
+      "explain": "120 ÷ (6 × 4) = 120 ÷ 24 = 5 cm."
+    },
+    {
+      "id": "ma-sol-046",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un cube a un volume de 64 cm³. Quelle est la longueur de son côté ?",
+      "choices": [
+        "32 cm",
+        "8 cm",
+        "4 cm",
+        "16 cm"
+      ],
+      "answer": "4 cm",
+      "explain": "4 × 4 × 4 = 64, donc le côté mesure 4 cm."
+    },
+    {
+      "id": "ma-sol-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un prisme droit a un volume de 72 cm³ et une base d'aire 12 cm². Quelle est sa hauteur en cm ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "72 ÷ 12 = 6 cm."
+    },
+    {
+      "id": "ma-sol-048",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un cylindre a un volume de 90 cm³ et une hauteur de 5 cm. Quelle est l'aire de sa base en cm² ?",
+      "answer": [
+        "18"
+      ],
+      "explain": "90 ÷ 5 = 18 cm²."
+    },
+    {
+      "id": "ma-sol-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle formule donne l'aire d'un disque de rayon r ?",
+      "choices": [
+        "2 × π × r",
+        "π × 2 × r × r",
+        "π × r × r",
+        "π × r"
+      ],
+      "answer": "π × r × r",
+      "explain": "L'aire d'un disque est π × r × r."
+    },
+    {
+      "id": "ma-sol-050",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle formule donne le périmètre d'un cercle de rayon r ?",
+      "choices": [
+        "π × r × r",
+        "π × r",
+        "2 × π × r",
+        "2 × r × r"
+      ],
+      "answer": "2 × π × r",
+      "explain": "Le périmètre d'un cercle est 2 × π × r."
+    },
+    {
+      "id": "ma-sol-051",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un cercle a un diamètre de 12 cm. Quel est son rayon ?",
+      "choices": [
+        "12 cm",
+        "4 cm",
+        "6 cm",
+        "24 cm"
+      ],
+      "answer": "6 cm",
+      "explain": "Le rayon est la moitié du diamètre : 12 ÷ 2 = 6 cm."
+    },
+    {
+      "id": "ma-sol-052",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un cercle a un rayon de 7 cm. Quel est son diamètre en cm ?",
+      "answer": [
+        "14"
+      ],
+      "explain": "Le diamètre est le double du rayon : 7 × 2 = 14 cm."
+    },
+    {
+      "id": "ma-sol-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est l'aire d'un disque de rayon 3 cm ?",
+      "choices": [
+        "9π cm²",
+        "3π cm²",
+        "6π cm²",
+        "18π cm²"
+      ],
+      "answer": "9π cm²",
+      "explain": "π × 3 × 3 = 9π cm²."
+    },
+    {
+      "id": "ma-sol-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est l'aire d'un disque de rayon 5 m ?",
+      "choices": [
+        "100π m²",
+        "10π m²",
+        "5π m²",
+        "25π m²"
+      ],
+      "answer": "25π m²",
+      "explain": "π × 5 × 5 = 25π m²."
+    },
+    {
+      "id": "ma-sol-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le périmètre d'un cercle de rayon 4 cm ?",
+      "choices": [
+        "8π cm",
+        "16π cm",
+        "4π cm",
+        "6π cm"
+      ],
+      "answer": "8π cm",
+      "explain": "2 × π × 4 = 8π cm."
+    },
+    {
+      "id": "ma-sol-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le périmètre d'un cercle de diamètre 10 cm ?",
+      "choices": [
+        "10π cm",
+        "5π cm",
+        "25π cm",
+        "20π cm"
+      ],
+      "answer": "10π cm",
+      "explain": "Le rayon est 5 cm : 2 × π × 5 = 10π cm."
+    },
+    {
+      "id": "ma-sol-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est l'aire d'un disque de diamètre 8 cm ?",
+      "choices": [
+        "16π cm²",
+        "8π cm²",
+        "64π cm²",
+        "32π cm²"
+      ],
+      "answer": "16π cm²",
+      "explain": "Le rayon est 4 cm : π × 4 × 4 = 16π cm²."
+    },
+    {
+      "id": "ma-sol-058",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un disque a un rayon de 2 cm. Avec π ≈ 3, quelle est son aire en cm² ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "3 × 2 × 2 = 12 cm²."
+    },
+    {
+      "id": "ma-sol-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cercle a un rayon de 5 cm. Avec π ≈ 3, quel est son périmètre en cm ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "2 × 3 × 5 = 30 cm."
+    },
+    {
+      "id": "ma-sol-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le rond central d'un terrain de football a un rayon de 9 m. Avec π ≈ 3, quel est son périmètre en m ?",
+      "answer": [
+        "54"
+      ],
+      "explain": "2 × 3 × 9 = 54 m."
+    },
+    {
+      "id": "ma-sol-061",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cercle a un rayon de 10 m. Avec π ≈ 3,14, quel est son périmètre en m ?",
+      "answer": [
+        "62,8",
+        "62.8"
+      ],
+      "explain": "2 × 3,14 × 10 = 62,8 m."
+    },
+    {
+      "id": "ma-sol-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un disque a un rayon de 10 cm. Avec π ≈ 3,14, quelle est son aire en cm² ?",
+      "answer": [
+        "314"
+      ],
+      "explain": "3,14 × 10 × 10 = 314 cm²."
+    },
+    {
+      "id": "ma-sol-063",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un cercle a un diamètre de 20 cm. Avec π ≈ 3, quel est son périmètre en cm ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "Le rayon est 10 cm : 2 × 3 × 10 = 60 cm."
+    },
+    {
+      "id": "ma-sol-064",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un disque a un diamètre de 6 m. Avec π ≈ 3, quelle est son aire en m² ?",
+      "answer": "27",
+      "explain": "Le rayon est 3 m : 3 × 3 × 3 = 27 m²."
+    },
+    {
+      "id": "ma-sol-065",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un cercle a un périmètre de 18 cm. Avec π ≈ 3, quel est son rayon en cm ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "2 × 3 × r = 6 × r = 18, donc r = 18 ÷ 6 = 3 cm."
+    },
+    {
+      "id": "ma-sol-066",
+      "level": 1,
+      "type": "input",
+      "prompt": "Convertis 3,5 km en m. Donne le nombre de mètres.",
+      "answer": [
+        "3 500",
+        "3500"
+      ],
+      "explain": "1 km = 1 000 m, donc 3,5 km = 3 500 m."
+    },
+    {
+      "id": "ma-sol-067",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Convertis 450 cm en m.",
+      "choices": [
+        "450 m",
+        "0,45 m",
+        "4,5 m",
+        "45 m"
+      ],
+      "answer": "4,5 m",
+      "explain": "1 m = 100 cm, donc 450 cm = 4,5 m."
+    },
+    {
+      "id": "ma-sol-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien de millimètres y a-t-il dans 7 m ?",
+      "choices": [
+        "70 000 mm",
+        "70 mm",
+        "7 000 mm",
+        "700 mm"
+      ],
+      "answer": "7 000 mm",
+      "explain": "1 m = 1 000 mm, donc 7 m = 7 000 mm."
+    },
+    {
+      "id": "ma-sol-069",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Convertis 6,2 cm en mm.",
+      "choices": [
+        "0,62 mm",
+        "6 200 mm",
+        "62 mm",
+        "620 mm"
+      ],
+      "answer": "62 mm",
+      "explain": "1 cm = 10 mm, donc 6,2 cm = 62 mm."
+    },
+    {
+      "id": "ma-sol-070",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Convertis 12 000 m en km.",
+      "choices": [
+        "12 km",
+        "120 km",
+        "12 000 km",
+        "1,2 km"
+      ],
+      "answer": "12 km",
+      "explain": "1 km = 1 000 m, donc 12 000 m = 12 km."
+    },
+    {
+      "id": "ma-sol-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un terrain de football mesure 105 m de long. Donne sa longueur en km (nombre seul).",
+      "answer": [
+        "0,105",
+        "0.105"
+      ],
+      "explain": "105 m = 105 ÷ 1 000 = 0,105 km."
+    },
+    {
+      "id": "ma-sol-072",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de dm² y a-t-il dans 1 m² ?",
+      "choices": [
+        "1 000 dm²",
+        "10 dm²",
+        "10 000 dm²",
+        "100 dm²"
+      ],
+      "answer": "100 dm²",
+      "explain": "Pour les aires, le facteur est 100 : 1 m² = 100 dm²."
+    },
+    {
+      "id": "ma-sol-073",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de cm² y a-t-il dans 1 dm² ?",
+      "choices": [
+        "100 cm²",
+        "10 cm²",
+        "1 cm²",
+        "1 000 cm²"
+      ],
+      "answer": "100 cm²",
+      "explain": "1 dm² = 100 cm²."
+    },
+    {
+      "id": "ma-sol-074",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Combien de cm² y a-t-il dans 1 m² ?",
+      "choices": [
+        "100 000 cm²",
+        "10 000 cm²",
+        "1 000 cm²",
+        "100 cm²"
+      ],
+      "answer": "10 000 cm²",
+      "explain": "1 m² = 100 dm² = 100 × 100 cm² = 10 000 cm²."
+    },
+    {
+      "id": "ma-sol-075",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Convertis 5 m² en dm².",
+      "choices": [
+        "500 dm²",
+        "50 dm²",
+        "5 000 dm²",
+        "50 000 dm²"
+      ],
+      "answer": "500 dm²",
+      "explain": "1 m² = 100 dm², donc 5 m² = 500 dm²."
+    },
+    {
+      "id": "ma-sol-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Convertis 300 cm² en dm².",
+      "choices": [
+        "3 dm²",
+        "0,3 dm²",
+        "30 dm²",
+        "300 dm²"
+      ],
+      "answer": "3 dm²",
+      "explain": "100 cm² = 1 dm², donc 300 cm² = 3 dm²."
+    },
+    {
+      "id": "ma-sol-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 2,5 dm² en cm². Donne le nombre de cm².",
+      "answer": [
+        "250"
+      ],
+      "explain": "1 dm² = 100 cm², donc 2,5 dm² = 250 cm²."
+    },
+    {
+      "id": "ma-sol-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Convertis 4 m² en cm².",
+      "choices": [
+        "400 000 cm²",
+        "4 000 cm²",
+        "400 cm²",
+        "40 000 cm²"
+      ],
+      "answer": "40 000 cm²",
+      "explain": "4 m² = 4 × 10 000 cm² = 40 000 cm²."
+    },
+    {
+      "id": "ma-sol-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Convertis 75 000 cm² en m².",
+      "choices": [
+        "75 m²",
+        "750 m²",
+        "0,75 m²",
+        "7,5 m²"
+      ],
+      "answer": "7,5 m²",
+      "explain": "75 000 ÷ 10 000 = 7,5, donc 75 000 cm² = 7,5 m²."
+    },
+    {
+      "id": "ma-sol-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Combien de carrés de 1 dm de côté faut-il pour recouvrir un carré de 1 m de côté ?",
+      "choices": [
+        "1 000",
+        "100",
+        "20",
+        "10"
+      ],
+      "answer": "100",
+      "explain": "L'aire est 1 m² = 100 dm² : il faut 100 carrés."
+    },
+    {
+      "id": "ma-sol-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de dm³ y a-t-il dans 1 m³ ?",
+      "choices": [
+        "10 dm³",
+        "10 000 dm³",
+        "100 dm³",
+        "1 000 dm³"
+      ],
+      "answer": "1 000 dm³",
+      "explain": "Pour les volumes, le facteur est 1 000 : 1 m³ = 1 000 dm³."
+    },
+    {
+      "id": "ma-sol-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de cm³ y a-t-il dans 1 dm³ ?",
+      "choices": [
+        "100 cm³",
+        "10 cm³",
+        "10 000 cm³",
+        "1 000 cm³"
+      ],
+      "answer": "1 000 cm³",
+      "explain": "1 dm³ = 1 000 cm³."
+    },
+    {
+      "id": "ma-sol-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Convertis 3 m³ en dm³.",
+      "choices": [
+        "30 dm³",
+        "30 000 dm³",
+        "300 dm³",
+        "3 000 dm³"
+      ],
+      "answer": "3 000 dm³",
+      "explain": "1 m³ = 1 000 dm³, donc 3 m³ = 3 000 dm³."
+    },
+    {
+      "id": "ma-sol-084",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 5 000 cm³ en dm³. Donne le nombre de dm³.",
+      "answer": [
+        "5"
+      ],
+      "explain": "1 000 cm³ = 1 dm³, donc 5 000 cm³ = 5 dm³."
+    },
+    {
+      "id": "ma-sol-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 2,5 dm³ en cm³. Donne le nombre de cm³.",
+      "answer": [
+        "2 500",
+        "2500"
+      ],
+      "explain": "1 dm³ = 1 000 cm³, donc 2,5 dm³ = 2 500 cm³."
+    },
+    {
+      "id": "ma-sol-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Convertis 0,5 m³ en dm³.",
+      "choices": [
+        "5 dm³",
+        "50 dm³",
+        "5 000 dm³",
+        "500 dm³"
+      ],
+      "answer": "500 dm³",
+      "explain": "0,5 × 1 000 = 500, donc 0,5 m³ = 500 dm³."
+    },
+    {
+      "id": "ma-sol-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Convertis 7 200 dm³ en m³.",
+      "choices": [
+        "7,2 m³",
+        "7 200 000 m³",
+        "0,72 m³",
+        "72 m³"
+      ],
+      "answer": "7,2 m³",
+      "explain": "7 200 ÷ 1 000 = 7,2, donc 7 200 dm³ = 7,2 m³."
+    },
+    {
+      "id": "ma-sol-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Convertis 1 m³ en cm³.",
+      "choices": [
+        "1 000 000 cm³",
+        "10 000 cm³",
+        "1 000 cm³",
+        "100 000 cm³"
+      ],
+      "answer": "1 000 000 cm³",
+      "explain": "1 m³ = 1 000 dm³ = 1 000 × 1 000 cm³ = 1 000 000 cm³."
+    },
+    {
+      "id": "ma-sol-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "1 L est égal à :",
+      "choices": [
+        "1 cm³",
+        "1 m³",
+        "1 dm³",
+        "1 mm³"
+      ],
+      "answer": "1 dm³",
+      "explain": "1 L = 1 dm³."
+    },
+    {
+      "id": "ma-sol-090",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "1 mL est égal à :",
+      "choices": [
+        "1 cm³",
+        "1 m³",
+        "1 dm³",
+        "1 mm³"
+      ],
+      "answer": "1 cm³",
+      "explain": "1 mL = 1 cm³."
+    },
+    {
+      "id": "ma-sol-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de litres y a-t-il dans 1 m³ ?",
+      "choices": [
+        "100 L",
+        "1 000 L",
+        "10 L",
+        "10 000 L"
+      ],
+      "answer": "1 000 L",
+      "explain": "1 m³ = 1 000 dm³ = 1 000 L."
+    },
+    {
+      "id": "ma-sol-092",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de cL y a-t-il dans 1 L ?",
+      "choices": [
+        "1 000 cL",
+        "1 cL",
+        "100 cL",
+        "10 cL"
+      ],
+      "answer": "100 cL",
+      "explain": "1 L = 100 cL."
+    },
+    {
+      "id": "ma-sol-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une bouteille contient 1,5 L. Quelle est sa contenance en cL ?",
+      "choices": [
+        "1,5 cL",
+        "150 cL",
+        "15 cL",
+        "1 500 cL"
+      ],
+      "answer": "150 cL",
+      "explain": "1 L = 100 cL, donc 1,5 L = 150 cL."
+    },
+    {
+      "id": "ma-sol-094",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 2,5 L en mL. Donne le nombre de mL.",
+      "answer": [
+        "2 500",
+        "2500"
+      ],
+      "explain": "1 L = 1 000 mL, donc 2,5 L = 2 500 mL."
+    },
+    {
+      "id": "ma-sol-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "Convertis 750 cL en L. Donne le nombre de litres.",
+      "answer": [
+        "7,5",
+        "7.5"
+      ],
+      "explain": "750 ÷ 100 = 7,5, donc 750 cL = 7,5 L."
+    },
+    {
+      "id": "ma-sol-096",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un verre contient 25 cL. Quelle est sa contenance en mL ?",
+      "choices": [
+        "2 500 mL",
+        "25 mL",
+        "2,5 mL",
+        "250 mL"
+      ],
+      "answer": "250 mL",
+      "explain": "1 cL = 10 mL, donc 25 cL = 250 mL."
+    },
+    {
+      "id": "ma-sol-097",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Convertis 4 500 mL en L.",
+      "choices": [
+        "450 L",
+        "4,5 L",
+        "0,45 L",
+        "45 L"
+      ],
+      "answer": "4,5 L",
+      "explain": "4 500 ÷ 1 000 = 4,5, donc 4 500 mL = 4,5 L."
+    },
+    {
+      "id": "ma-sol-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une citerne a un volume de 2 m³. Quelle est sa contenance ?",
+      "choices": [
+        "200 L",
+        "2 000 L",
+        "20 000 L",
+        "20 L"
+      ],
+      "answer": "2 000 L",
+      "explain": "1 m³ = 1 000 L, donc 2 m³ = 2 000 L."
+    },
+    {
+      "id": "ma-sol-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un aquarium en forme de pavé droit mesure 50 cm de long, 30 cm de large et 40 cm de haut. Quelle est sa contenance ?",
+      "choices": [
+        "60 L",
+        "6 L",
+        "6 000 L",
+        "600 L"
+      ],
+      "answer": "60 L",
+      "explain": "50 × 30 × 40 = 60 000 cm³ = 60 dm³ = 60 L."
+    },
+    {
+      "id": "ma-sol-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une piscine a un volume de 500 m³. Combien de litres d'eau contient-elle ?",
+      "choices": [
+        "5 000 L",
+        "500 000 L",
+        "5 000 000 L",
+        "50 000 L"
+      ],
+      "answer": "500 000 L",
+      "explain": "1 m³ = 1 000 L, donc 500 m³ = 500 000 L."
+    },
+    {
+      "id": "ma-sol-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle contenance correspond à un volume de 200 cm³ ?",
+      "choices": [
+        "2 cL",
+        "20 cL",
+        "0,2 cL",
+        "200 cL"
+      ],
+      "answer": "20 cL",
+      "explain": "200 cm³ = 200 mL = 20 cL."
+    },
+    {
+      "id": "ma-sol-102",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de minutes y a-t-il dans 2 h ?",
+      "answer": [
+        "120"
+      ],
+      "explain": "1 h = 60 min, donc 2 h = 120 min."
+    },
+    {
+      "id": "ma-sol-103",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un entraînement dure 3 h 15 min. Quelle est sa durée en minutes ?",
+      "answer": [
+        "195"
+      ],
+      "explain": "3 × 60 + 15 = 180 + 15 = 195 min."
+    },
+    {
+      "id": "ma-sol-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une séance de natation dure 150 min. Quelle est cette durée en heures et minutes ?",
+      "choices": [
+        "2 h 50 min",
+        "1 h 30 min",
+        "2 h 30 min",
+        "1 h 50 min"
+      ],
+      "answer": "2 h 30 min",
+      "explain": "150 = 120 + 30, donc 2 h 30 min."
+    },
+    {
+      "id": "ma-sol-105",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de secondes y a-t-il dans 5 min ?",
+      "choices": [
+        "500 s",
+        "3 000 s",
+        "300 s",
+        "30 s"
+      ],
+      "answer": "300 s",
+      "explain": "5 × 60 = 300 s."
+    },
+    {
+      "id": "ma-sol-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que vaut 1,5 h ?",
+      "choices": [
+        "1 h 50 min",
+        "1 h 30 min",
+        "1 h 05 min",
+        "1 h 15 min"
+      ],
+      "answer": "1 h 30 min",
+      "explain": "0,5 h = 30 min, donc 1,5 h = 1 h 30 min."
+    },
+    {
+      "id": "ma-sol-107",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un joueur s'échauffe pendant 0,25 h. Quelle est cette durée en minutes ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "0,25 h = un quart d'heure = 15 min."
+    },
+    {
+      "id": "ma-sol-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que vaut 2,5 h ?",
+      "choices": [
+        "2 h 15 min",
+        "2 h 05 min",
+        "2 h 50 min",
+        "2 h 30 min"
+      ],
+      "answer": "2 h 30 min",
+      "explain": "0,5 h = 30 min, donc 2,5 h = 2 h 30 min."
+    },
+    {
+      "id": "ma-sol-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que vaut 0,75 h ?",
+      "choices": [
+        "25 min",
+        "75 min",
+        "45 min",
+        "7,5 min"
+      ],
+      "answer": "45 min",
+      "explain": "0,75 h = trois quarts d'heure = 45 min."
+    },
+    {
+      "id": "ma-sol-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un match de basket dure 45 min. Quelle est cette durée en heures ?",
+      "choices": [
+        "0,75 h",
+        "0,45 h",
+        "4,5 h",
+        "1,45 h"
+      ],
+      "answer": "0,75 h",
+      "explain": "45 min = 45 ÷ 60 h = 0,75 h."
+    },
+    {
+      "id": "ma-sol-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la durée entre 14 h 20 et 16 h 05 ?",
+      "choices": [
+        "1 h 55 min",
+        "1 h 15 min",
+        "1 h 45 min",
+        "2 h 15 min"
+      ],
+      "answer": "1 h 45 min",
+      "explain": "De 14 h 20 à 16 h 00 : 1 h 40 min, puis 5 min de plus : 1 h 45 min."
+    },
+    {
+      "id": "ma-sol-112",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une course commence à 9 h 45 et se termine à 11 h 10. Quelle est sa durée en minutes ?",
+      "answer": [
+        "85"
+      ],
+      "explain": "De 9 h 45 à 11 h 00 : 75 min, puis 10 min de plus : 85 min."
+    },
+    {
+      "id": "ma-sol-113",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un match de football dure deux mi-temps de 45 min, avec 15 min de pause entre les deux. Il commence à 20 h 45. À quelle heure se termine-t-il ?",
+      "choices": [
+        "22 h 45",
+        "22 h 15",
+        "21 h 30",
+        "22 h 30"
+      ],
+      "answer": "22 h 30",
+      "explain": "45 + 15 + 45 = 105 min = 1 h 45 min ; 20 h 45 + 1 h 45 = 22 h 30."
+    },
+    {
+      "id": "ma-sol-114",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un train part à 8 h 50 et le trajet dure 2 h 25 min. À quelle heure arrive-t-il ?",
+      "choices": [
+        "10 h 15",
+        "11 h 15",
+        "11 h 05",
+        "11 h 25"
+      ],
+      "answer": "11 h 15",
+      "explain": "8 h 50 + 2 h = 10 h 50, puis + 25 min = 11 h 15."
+    },
+    {
+      "id": "ma-sol-115",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un train part à 16 h 40 et arrive à 19 h 10. Quelle est la durée du trajet en minutes ?",
+      "answer": [
+        "150"
+      ],
+      "explain": "De 16 h 40 à 19 h 10 : 2 h 30 min = 150 min."
+    },
+    {
+      "id": "ma-sol-116",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un coureur termine un 10 km en 1 h 05 min. Quelle est sa durée en minutes ?",
+      "choices": [
+        "105 min",
+        "65 min",
+        "15 min",
+        "6,5 min"
+      ],
+      "answer": "65 min",
+      "explain": "1 h 05 min = 60 min + 5 min = 65 min."
+    },
+    {
+      "id": "ma-sol-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un nageur s'entraîne pendant 2 h 30 min. Quelle est cette durée en heures décimales ?",
+      "choices": [
+        "2,5 h",
+        "2,3 h",
+        "2,05 h",
+        "2,75 h"
+      ],
+      "answer": "2,5 h",
+      "explain": "30 min = 0,5 h, donc 2 h 30 min = 2,5 h."
+    },
+    {
+      "id": "ma-sol-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un film dure 2 h 15 min et commence à 20 h 50. À quelle heure se termine-t-il ?",
+      "choices": [
+        "23 h 15",
+        "23 h 25",
+        "22 h 55",
+        "23 h 05"
+      ],
+      "answer": "23 h 05",
+      "explain": "20 h 50 + 2 h = 22 h 50, puis + 15 min = 23 h 05."
+    },
+    {
+      "id": "ma-sol-119",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un cycliste roule pendant 4 500 s. Quelle est cette durée en minutes ?",
+      "answer": [
+        "75"
+      ],
+      "explain": "4 500 ÷ 60 = 75 min."
+    },
+    {
+      "id": "ma-sol-120",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le volume de ce pavé droit, en cm³ ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "Volume = longueur × largeur × hauteur = 5 × 2 × 3 = 30 cm³.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 5,
+        "w": 2,
+        "h": 3,
+        "labels": {
+          "l": "5 cm",
+          "w": "2 cm",
+          "h": "3 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-121",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le volume de ce cube, en cm³ ?",
+      "choices": [
+        "12",
+        "6",
+        "4",
+        "8"
+      ],
+      "answer": "8",
+      "explain": "Volume = arête × arête × arête = 2 × 2 × 2 = 8 cm³.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 2,
+        "w": 2,
+        "h": 2,
+        "labels": {
+          "l": "2 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-122",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le volume de ce cube, en cm³ ?",
+      "answer": [
+        "27"
+      ],
+      "explain": "3 × 3 × 3 = 27 cm³.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 3,
+        "w": 3,
+        "h": 3,
+        "labels": {
+          "l": "3 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le volume de ce pavé droit, en cm³ ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "5 × 3 × 4 = 15 × 4 = 60 cm³.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 5,
+        "w": 3,
+        "h": 4,
+        "labels": {
+          "l": "5 cm",
+          "w": "3 cm",
+          "h": "4 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est l'aire de la face du dessus de ce pavé droit, en cm² ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "La face du dessus est un rectangle de 5 cm sur 3 cm : 5 × 3 = 15 cm².",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 5,
+        "w": 3,
+        "h": 4,
+        "labels": {
+          "l": "5 cm",
+          "w": "3 cm",
+          "h": "4 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la somme des longueurs des 12 arêtes de ce pavé droit, en cm ?",
+      "answer": [
+        "48"
+      ],
+      "explain": "Il y a 4 arêtes de chaque longueur : 4 × (5 + 3 + 4) = 4 × 12 = 48 cm.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 5,
+        "w": 3,
+        "h": 4,
+        "labels": {
+          "l": "5 cm",
+          "w": "3 cm",
+          "h": "4 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-126",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est l'aire totale (les 6 faces) de ce pavé droit, en cm² ?",
+      "answer": [
+        "52"
+      ],
+      "explain": "Les faces valent 4 × 3 = 12, 4 × 2 = 8 et 3 × 2 = 6, chacune en double : 2 × (12 + 8 + 6) = 52 cm².",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 4,
+        "w": 3,
+        "h": 2,
+        "labels": {
+          "l": "4 cm",
+          "w": "3 cm",
+          "h": "2 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-127",
+      "level": 3,
+      "type": "input",
+      "prompt": "Ce pavé droit a un volume de 60 cm³. Combien mesure sa hauteur, en cm ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "La base vaut 5 × 3 = 15 cm², donc la hauteur est 60 ÷ 15 = 4 cm.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 5,
+        "w": 3,
+        "h": 4,
+        "labels": {
+          "l": "5 cm",
+          "w": "3 cm",
+          "h": "?"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-128",
+      "level": 3,
+      "type": "input",
+      "prompt": "Cet aquarium est un pavé droit. Combien de litres d'eau contient-il quand il est plein ? (1 dm³ = 1 L)",
+      "answer": [
+        "100"
+      ],
+      "explain": "Volume = 10 × 5 × 2 = 100 dm³, soit 100 litres.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 10,
+        "w": 5,
+        "h": 2,
+        "labels": {
+          "l": "10 dm",
+          "w": "5 dm",
+          "h": "2 dm"
+        }
+      }
+    },
+    {
+      "id": "ma-sol-129",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle ce solide ?",
+      "choices": [
+        "Un cylindre",
+        "Un cube",
+        "Une pyramide",
+        "Un pavé droit"
+      ],
+      "answer": "Un pavé droit",
+      "explain": "Il a 6 faces rectangulaires, de dimensions différentes : c'est un pavé droit.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 5,
+        "w": 3,
+        "h": 4,
+        "labels": {}
+      }
+    },
+    {
+      "id": "ma-sol-130",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle arête est parallèle à l'arête [AB] ?",
+      "choices": [
+        "[EF]",
+        "[BC]",
+        "[AE]",
+        "[BF]"
+      ],
+      "answer": "[EF]",
+      "explain": "[EF] est l'arête du dessus située juste au-dessus de [AB] : elles sont parallèles.",
+      "figure": {
+        "type": "solid",
+        "kind": "block",
+        "l": 5,
+        "w": 3,
+        "h": 4,
+        "labels": {},
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H"
+        ]
+      }
+    },
+    {
+      "id": "ma-sol-131",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de cubes comporte cet empilement ? (aucun cube ne flotte : les cubes cachés sont sous ou derrière les autres)",
+      "answer": [
+        "6"
+      ],
+      "explain": "Colonne de 1, de 2 et de 3 cubes : 1 + 2 + 3 = 6 cubes.",
+      "figure": {
+        "type": "solid",
+        "kind": "cubes",
+        "heights": [
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ma-sol-132",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de cubes comporte cet empilement ? (aucun cube ne flotte : les cubes cachés sont sous ou derrière les autres)",
+      "answer": [
+        "7"
+      ],
+      "explain": "À l'avant 1 + 2 = 3 cubes, à l'arrière 2 + 2 = 4 cubes : 3 + 4 = 7 cubes.",
+      "figure": {
+        "type": "solid",
+        "kind": "cubes",
+        "heights": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ma-sol-133",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien de cubes comporte cet empilement ? (aucun cube ne flotte : les cubes cachés sont sous ou derrière les autres)",
+      "answer": [
+        "10"
+      ],
+      "explain": "À l'avant 1 + 1 = 2 cubes, au milieu 2 + 2 = 4 cubes, à l'arrière 2 + 2 = 4 cubes : 2 + 4 + 4 = 10 cubes.",
+      "figure": {
+        "type": "solid",
+        "kind": "cubes",
+        "heights": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ma-sol-134",
+      "level": 2,
+      "type": "input",
+      "prompt": "Il faut ajouter des cubes pour obtenir un grand cube de 2 cubes d'arête (8 cubes en tout). Combien de cubes faut-il ajouter ?",
+      "answer": [
+        "1"
+      ],
+      "explain": "Un cube de 2 cubes d'arête compte 2 × 2 × 2 = 8 cubes. L'empilement en a 7 : il en manque 1.",
+      "figure": {
+        "type": "solid",
+        "kind": "cubes",
+        "heights": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ma-sol-135",
+      "level": 3,
+      "type": "input",
+      "prompt": "Chaque petit cube a une arête de 2 cm. Quel est le volume de cet empilement, en cm³ ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "L'empilement compte 1 + 1 + 2 + 1 = 5 cubes. Chaque cube a un volume de 2 × 2 × 2 = 8 cm³ : 5 × 8 = 40 cm³.",
+      "figure": {
+        "type": "solid",
+        "kind": "cubes",
+        "heights": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      }
+    }
+  ]
+}

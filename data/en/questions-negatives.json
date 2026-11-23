@@ -1,0 +1,1690 @@
+{
+  "topic": "en-questions-negatives",
+  "questions": [
+    {
+      "id": "en-qn-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about food is correct?",
+      "choices": [
+        "Is she like pizza?",
+        "Does she likes pizza?",
+        "Does she like pizza?",
+        "Do she like pizza?"
+      ],
+      "answer": "Does she like pizza?",
+      "explain": "With she, use Does + subject + base verb."
+    },
+    {
+      "id": "en-qn-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about yesterday is correct?",
+      "choices": [
+        "Did he went to school yesterday?",
+        "Does he went to school yesterday?",
+        "Was he go to school yesterday?",
+        "Did he go to school yesterday?"
+      ],
+      "answer": "Did he go to school yesterday?",
+      "explain": "After Did, the main verb stays in the base form: go."
+    },
+    {
+      "id": "en-qn-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about a home is correct?",
+      "choices": [
+        "Where you live?",
+        "Where do you live?",
+        "Where does you live?",
+        "Where you do live?"
+      ],
+      "answer": "Where do you live?",
+      "explain": "A question word is followed by the auxiliary, then the subject: Where do you live?"
+    },
+    {
+      "id": "en-qn-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about a word is correct?",
+      "choices": [
+        "What do this word mean?",
+        "What does this word means?",
+        "What does this word mean?",
+        "What means this word?"
+      ],
+      "answer": "What does this word mean?",
+      "explain": "Use does + subject + base verb: What does this word mean?"
+    },
+    {
+      "id": "en-qn-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ you ready for the match?",
+      "choices": [
+        "Does",
+        "Are",
+        "Do",
+        "Have"
+      ],
+      "answer": "Are",
+      "explain": "Be makes its own questions, without do: Are you ready?"
+    },
+    {
+      "id": "en-qn-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the missing word: ___ they at home now?",
+      "answer": [
+        "Are"
+      ],
+      "explain": "Be makes its own questions: Are they...?"
+    },
+    {
+      "id": "en-qn-007",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ you got a spare ticket?",
+      "choices": [
+        "Are",
+        "Has",
+        "Have",
+        "Do"
+      ],
+      "answer": "Have",
+      "explain": "In British English, have got makes questions with Have + subject + got."
+    },
+    {
+      "id": "en-qn-008",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a brother is correct?",
+      "choices": [
+        "Do you got a brother?",
+        "Are you got a brother?",
+        "Have you a brother got?",
+        "Have you got a brother?"
+      ],
+      "answer": "Have you got a brother?",
+      "explain": "Have you got...? is British; Do you have...? is American. Never Do you got."
+    },
+    {
+      "id": "en-qn-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about swimming is correct?",
+      "choices": [
+        "Can Tom swims?",
+        "Can Tom swim?",
+        "Can Tom to swim?",
+        "Does Tom can swim?"
+      ],
+      "answer": "Can Tom swim?",
+      "explain": "A modal verb comes first and is followed by the base verb, with no do and no -s."
+    },
+    {
+      "id": "en-qn-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about football boots is correct?",
+      "choices": [
+        "Do we should bring our boots?",
+        "Should we to bring our boots?",
+        "Should we bring our boots?",
+        "Should we brings our boots?"
+      ],
+      "answer": "Should we bring our boots?",
+      "explain": "Modal + subject + base verb: Should we bring...?"
+    },
+    {
+      "id": "en-qn-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about a phone call is correct?",
+      "choices": [
+        "Why you didn't call me?",
+        "Why did you not called me?",
+        "Why didn't you called me?",
+        "Why didn't you call me?"
+      ],
+      "answer": "Why didn't you call me?",
+      "explain": "Question word + didn't + subject + base verb."
+    },
+    {
+      "id": "en-qn-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about homework is correct?",
+      "choices": [
+        "Did she finished her homework?",
+        "Has she finished her homework?",
+        "Does she finished her homework?",
+        "Has she finish her homework?"
+      ],
+      "answer": "Has she finished her homework?",
+      "explain": "Present perfect questions use Has/Have + subject + past participle."
+    },
+    {
+      "id": "en-qn-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which question about a film is correct?",
+      "choices": [
+        "Were the film long?",
+        "Did the film was long?",
+        "Does the film long?",
+        "Was the film long?"
+      ],
+      "answer": "Was the film long?",
+      "explain": "Be makes its own questions: Was the film...? The film is singular, so was."
+    },
+    {
+      "id": "en-qn-014",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about Grendel is correct?",
+      "choices": [
+        "How does Grendel entered the hall?",
+        "How did Grendel entered the hall?",
+        "How did Grendel enter the hall?",
+        "How Grendel entered the hall?"
+      ],
+      "answer": "How did Grendel enter the hall?",
+      "explain": "Use did + subject + base verb in the past: How did Grendel enter...?"
+    },
+    {
+      "id": "en-qn-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a bus is correct?",
+      "choices": [
+        "What time the bus leaves?",
+        "What time leaves the bus?",
+        "What time does the bus leave?",
+        "What time does the bus leaves?"
+      ],
+      "answer": "What time does the bus leave?",
+      "explain": "What time + does + subject + base verb."
+    },
+    {
+      "id": "en-qn-016",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question about a trip is correct?",
+      "choices": [
+        "Doesn't he coming with us?",
+        "Not he is coming with us?",
+        "Isn't he come with us?",
+        "Isn't he coming with us?"
+      ],
+      "answer": "Isn't he coming with us?",
+      "explain": "In a negative question, the contracted auxiliary goes before the subject: Isn't he...?"
+    },
+    {
+      "id": "en-qn-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a missing brother is correct?",
+      "choices": [
+        "Where has your brother been?",
+        "Where your brother has been?",
+        "Where has been your brother?",
+        "Where does your brother been?"
+      ],
+      "answer": "Where has your brother been?",
+      "explain": "Question word + has + subject + past participle."
+    },
+    {
+      "id": "en-qn-018",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question about a conversation is correct?",
+      "choices": [
+        "Who were you talking to?",
+        "Who did you talking to?",
+        "Who were talking you to?",
+        "Who you were talking to?"
+      ],
+      "answer": "Who were you talking to?",
+      "explain": "The auxiliary were comes before the subject you, and the preposition stays at the end."
+    },
+    {
+      "id": "en-qn-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is the mistake in 'Did you saw the match?'",
+      "choices": [
+        "There is no mistake",
+        "saw should be see",
+        "Did should be Do",
+        "you should come after saw"
+      ],
+      "answer": "saw should be see",
+      "explain": "After Did, the main verb is in the base form: Did you see...?"
+    },
+    {
+      "id": "en-qn-020",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the missing word: ___ the heroes sleep in the hall last night? (do / does / did)",
+      "answer": [
+        "Did"
+      ],
+      "explain": "Last night is past, so use Did."
+    },
+    {
+      "id": "en-qn-021",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the missing word: What time ___ the match start every Saturday? (do / does / did)",
+      "answer": [
+        "does"
+      ],
+      "explain": "The subject the match is third person singular: does."
+    },
+    {
+      "id": "en-qn-022",
+      "level": 2,
+      "type": "input",
+      "prompt": "Correct the mistake in 'Does she likes tea?' Write the correct verb.",
+      "answer": [
+        "like"
+      ],
+      "explain": "After does, the verb has no -s: like."
+    },
+    {
+      "id": "en-qn-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ is your birthday? It's on 4 May.",
+      "choices": [
+        "Why",
+        "When",
+        "Who",
+        "Where"
+      ],
+      "answer": "When",
+      "explain": "When asks about a time or a date."
+    },
+    {
+      "id": "en-qn-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ do the Geats come from? From a land across the sea.",
+      "choices": [
+        "Why",
+        "When",
+        "Who",
+        "Where"
+      ],
+      "answer": "Where",
+      "explain": "Where asks about a place."
+    },
+    {
+      "id": "en-qn-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ is that tall man? He's my coach.",
+      "choices": [
+        "Who",
+        "Where",
+        "Whose",
+        "Which"
+      ],
+      "answer": "Who",
+      "explain": "Who asks about a person."
+    },
+    {
+      "id": "en-qn-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ are you late? Because the bus broke down.",
+      "choices": [
+        "When",
+        "Why",
+        "How",
+        "Where"
+      ],
+      "answer": "Why",
+      "explain": "Why asks for a reason."
+    },
+    {
+      "id": "en-qn-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ old is your brother? He's fifteen.",
+      "choices": [
+        "Who",
+        "What",
+        "Which",
+        "How"
+      ],
+      "answer": "How",
+      "explain": "How old asks about age."
+    },
+    {
+      "id": "en-qn-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ bag is this? It's Maya's.",
+      "choices": [
+        "Whose",
+        "Who's",
+        "Who",
+        "Whom"
+      ],
+      "answer": "Whose",
+      "explain": "Whose asks who owns something."
+    },
+    {
+      "id": "en-qn-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ does a ticket cost? Ten euros.",
+      "choices": [
+        "How long",
+        "How much",
+        "How many",
+        "How often"
+      ],
+      "answer": "How much",
+      "explain": "How much asks about price or an uncountable amount."
+    },
+    {
+      "id": "en-qn-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ players are there in a rugby team? Fifteen.",
+      "choices": [
+        "How far",
+        "How much",
+        "How long",
+        "How many"
+      ],
+      "answer": "How many",
+      "explain": "How many asks about a number of countable things."
+    },
+    {
+      "id": "en-qn-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ does the film last? Two hours.",
+      "choices": [
+        "How long",
+        "How far",
+        "How old",
+        "How often"
+      ],
+      "answer": "How long",
+      "explain": "How long asks about length of time."
+    },
+    {
+      "id": "en-qn-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ do you go swimming? Twice a week.",
+      "choices": [
+        "How often",
+        "How long",
+        "How far",
+        "How much"
+      ],
+      "answer": "How often",
+      "explain": "How often asks about frequency."
+    },
+    {
+      "id": "en-qn-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "___ is it from your house to the stadium? Three kilometres.",
+      "choices": [
+        "How often",
+        "How long",
+        "How many",
+        "How far"
+      ],
+      "answer": "How far",
+      "explain": "How far asks about distance."
+    },
+    {
+      "id": "en-qn-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'Because I was ill.'",
+      "choices": [
+        "When were you absent?",
+        "Why were you absent?",
+        "Where were you absent?",
+        "Who was absent?"
+      ],
+      "answer": "Why were you absent?",
+      "explain": "Because gives a reason, so the question starts with Why."
+    },
+    {
+      "id": "en-qn-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'Next Friday.'",
+      "choices": [
+        "Who is the concert?",
+        "Where is the concert?",
+        "Why is the concert?",
+        "When is the concert?"
+      ],
+      "answer": "When is the concert?",
+      "explain": "Next Friday is a time, so use When."
+    },
+    {
+      "id": "en-qn-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'It belongs to Lucas.'",
+      "choices": [
+        "Whose bike is this?",
+        "Which bike is this?",
+        "Who bike is this?",
+        "Who's bike is this?"
+      ],
+      "answer": "Whose bike is this?",
+      "explain": "Whose + noun asks about the owner; Who's means Who is."
+    },
+    {
+      "id": "en-qn-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'By train.'",
+      "choices": [
+        "Who do you get to school?",
+        "Where do you get to school?",
+        "How do you get to school?",
+        "When do you get to school?"
+      ],
+      "answer": "How do you get to school?",
+      "explain": "How asks about the way or means of doing something."
+    },
+    {
+      "id": "en-qn-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Hrothgar and Unferth are in the hall. ___ of them is the king?",
+      "choices": [
+        "What",
+        "Whose",
+        "Which",
+        "How"
+      ],
+      "answer": "Which",
+      "explain": "Which is used to choose between a limited group, followed by of them."
+    },
+    {
+      "id": "en-qn-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ does 'brave' mean?",
+      "choices": [
+        "Which",
+        "How",
+        "What",
+        "Who"
+      ],
+      "answer": "What",
+      "explain": "What asks for a definition: What does ... mean?"
+    },
+    {
+      "id": "en-qn-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'About two hours, I think.'",
+      "choices": [
+        "How far does the journey take?",
+        "How many does the journey take?",
+        "How long does the journey take?",
+        "How often does the journey take?"
+      ],
+      "answer": "How long does the journey take?",
+      "explain": "About two hours is a length of time: How long."
+    },
+    {
+      "id": "en-qn-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'Every two years.'",
+      "choices": [
+        "How often is the tournament held?",
+        "How far is the tournament held?",
+        "How long is the tournament held?",
+        "How many is the tournament held?"
+      ],
+      "answer": "How often is the tournament held?",
+      "explain": "Every two years is a frequency: How often."
+    },
+    {
+      "id": "en-qn-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'Nearly two metres.'",
+      "choices": [
+        "How tall is your brother?",
+        "How long is your brother?",
+        "How many is your brother?",
+        "How old is your brother?"
+      ],
+      "answer": "How tall is your brother?",
+      "explain": "A person's height is asked with How tall."
+    },
+    {
+      "id": "en-qn-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the question for this answer: 'At half past seven.'",
+      "choices": [
+        "What time does the match start?",
+        "How long does the match last?",
+        "How far does the match start?",
+        "Where does the match start?"
+      ],
+      "answer": "What time does the match start?",
+      "explain": "A clock time answers What time...?"
+    },
+    {
+      "id": "en-qn-044",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the question word: ___ did Grendel attack the hall? Because he hated the noise.",
+      "answer": [
+        "Why"
+      ],
+      "explain": "Because gives a reason: Why."
+    },
+    {
+      "id": "en-qn-045",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write two words: ___ ___ days are there in a week? Seven.",
+      "answer": [
+        "How many"
+      ],
+      "explain": "A number of countable things is asked with How many."
+    },
+    {
+      "id": "en-qn-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the question word: ___ jacket is on the floor? It's Ben's.",
+      "answer": [
+        "Whose"
+      ],
+      "explain": "Whose asks about ownership."
+    },
+    {
+      "id": "en-qn-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write two words: ___ ___ does the train run? Every twenty minutes.",
+      "answer": [
+        "How often",
+        "How frequently"
+      ],
+      "explain": "Every twenty minutes is a frequency: How often."
+    },
+    {
+      "id": "en-qn-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a letter is correct?",
+      "choices": [
+        "Who wrote this letter?",
+        "Who wrote did this letter?",
+        "Who was wrote this letter?",
+        "Who did wrote this letter?"
+      ],
+      "answer": "Who wrote this letter?",
+      "explain": "When Who is the subject, there is no did: Who wrote...?"
+    },
+    {
+      "id": "en-qn-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a story is correct?",
+      "choices": [
+        "What happened next?",
+        "What was happened next?",
+        "What did happened next?",
+        "What does happened next?"
+      ],
+      "answer": "What happened next?",
+      "explain": "When What is the subject, the verb follows it directly: What happened?"
+    },
+    {
+      "id": "en-qn-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about neighbours is correct?",
+      "choices": [
+        "Who lives next door does?",
+        "Who is live next door?",
+        "Who lives next door?",
+        "Who does lives next door?"
+      ],
+      "answer": "Who lives next door?",
+      "explain": "Who is the subject, so use the verb with -s and no does."
+    },
+    {
+      "id": "en-qn-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Hrothgar built the hall Heorot. Which question has the answer 'Hrothgar'?",
+      "choices": [
+        "Who did built Heorot?",
+        "What did Hrothgar build?",
+        "Who built Heorot?",
+        "Who did Hrothgar build?"
+      ],
+      "answer": "Who built Heorot?",
+      "explain": "Hrothgar is the subject, so the question has no did: Who built Heorot?"
+    },
+    {
+      "id": "en-qn-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Hrothgar built the hall Heorot. Which question has the answer 'Heorot'?",
+      "choices": [
+        "What built Hrothgar?",
+        "What Hrothgar built?",
+        "What did Hrothgar build?",
+        "Who built Heorot?"
+      ],
+      "answer": "What did Hrothgar build?",
+      "explain": "Heorot is the object, so the question needs did: What did Hrothgar build?"
+    },
+    {
+      "id": "en-qn-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Hrothgar thanked Beowulf. Which question has the answer 'Beowulf'?",
+      "choices": [
+        "Who did Hrothgar thank?",
+        "Who thanked Hrothgar?",
+        "Who Hrothgar thanked?",
+        "Who thanked Beowulf?"
+      ],
+      "answer": "Who did Hrothgar thank?",
+      "explain": "Beowulf is the object, so use did + subject + base verb."
+    },
+    {
+      "id": "en-qn-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a match is correct?",
+      "choices": [
+        "Who met you did at the stadium?",
+        "Who you met at the stadium?",
+        "Who did you met at the stadium?",
+        "Who did you meet at the stadium?"
+      ],
+      "answer": "Who did you meet at the stadium?",
+      "explain": "Who is the object here, so use did + you + base verb."
+    },
+    {
+      "id": "en-qn-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Unferth challenged Beowulf with words. Which question has the answer 'Unferth'?",
+      "choices": [
+        "Who challenged Beowulf?",
+        "Who did Beowulf challenge?",
+        "Whom Unferth challenged?",
+        "Who did Unferth challenge?"
+      ],
+      "answer": "Who challenged Beowulf?",
+      "explain": "Unferth is the subject, so there is no did."
+    },
+    {
+      "id": "en-qn-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question about Heorot is correct?",
+      "choices": [
+        "Who did Grendel attacked in the night?",
+        "Who did Grendel attack in the night?",
+        "Who attacked did Grendel in the night?",
+        "Who Grendel attacked in the night?"
+      ],
+      "answer": "Who did Grendel attack in the night?",
+      "explain": "Who is the object: Who + did + subject + base verb."
+    },
+    {
+      "id": "en-qn-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "___ the winning goal in the final?",
+      "choices": [
+        "Who scored",
+        "Who did scored",
+        "Who does scored",
+        "Who score"
+      ],
+      "answer": "Who scored",
+      "explain": "Who is the subject, so the past verb follows directly."
+    },
+    {
+      "id": "en-qn-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "___ to your phone? It looks broken.",
+      "choices": [
+        "What happened",
+        "What did happened",
+        "What did happens",
+        "What was happen"
+      ],
+      "answer": "What happened",
+      "explain": "What is the subject here, so no did: What happened to...?"
+    },
+    {
+      "id": "en-qn-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf swam with Breca. Which question has the answer 'Beowulf'?",
+      "choices": [
+        "Who swam with Breca?",
+        "Who did Beowulf swim with?",
+        "Who Beowulf swam with?",
+        "Who did swam with Breca?"
+      ],
+      "answer": "Who swam with Breca?",
+      "explain": "Beowulf is the subject, so the question has no did: Who swam...?"
+    },
+    {
+      "id": "en-qn-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Someone broke the vase. Which question is correct?",
+      "choices": [
+        "Who did broke the vase?",
+        "Who the vase broke?",
+        "Who broken the vase?",
+        "Who broke the vase?"
+      ],
+      "answer": "Who broke the vase?",
+      "explain": "Who is the subject, so use the past form directly: broke."
+    },
+    {
+      "id": "en-qn-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a fight is correct?",
+      "choices": [
+        "What did Beowulf used against Grendel?",
+        "What did Beowulf use against Grendel?",
+        "What Beowulf used against Grendel?",
+        "What used Beowulf against Grendel?"
+      ],
+      "answer": "What did Beowulf use against Grendel?",
+      "explain": "The answer is the object (his hands), so use did + subject + base verb."
+    },
+    {
+      "id": "en-qn-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the past form of 'break': Who ___ the window yesterday?",
+      "answer": [
+        "broke"
+      ],
+      "explain": "Who is the subject, so the verb is in the past simple: broke."
+    },
+    {
+      "id": "en-qn-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the missing word: Who ___ you invite to the party last week? My cousin. (do / does / did)",
+      "answer": [
+        "did"
+      ],
+      "explain": "Who is the object, so the question needs did."
+    },
+    {
+      "id": "en-qn-064",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write the past form of 'attack': Who ___ Heorot every night?",
+      "answer": [
+        "attacked"
+      ],
+      "explain": "Who is the subject, so there is no did."
+    },
+    {
+      "id": "en-qn-065",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write the missing word: What ___ Grendel hear that night? The sound of the feast. (do / does / did)",
+      "answer": [
+        "did"
+      ],
+      "explain": "What is the object and the time is past, so the question needs did."
+    },
+    {
+      "id": "en-qn-066",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the short negative: I ___ like spiders.",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "explain": "With I, the present simple negative is don't + base verb."
+    },
+    {
+      "id": "en-qn-067",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She ___ play tennis on Mondays.",
+      "choices": [
+        "isn't",
+        "not",
+        "don't",
+        "doesn't"
+      ],
+      "answer": "doesn't",
+      "explain": "With she, use doesn't + base verb."
+    },
+    {
+      "id": "en-qn-068",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The Danes ___ at the feast yesterday. They were afraid.",
+      "choices": [
+        "aren't",
+        "didn't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": "weren't",
+      "explain": "The past negative of be with plural subjects is weren't."
+    },
+    {
+      "id": "en-qn-069",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I ___ finished my homework yet.",
+      "choices": [
+        "am not",
+        "didn't",
+        "don't",
+        "haven't"
+      ],
+      "answer": "haven't",
+      "explain": "Present perfect negative: haven't + past participle."
+    },
+    {
+      "id": "en-qn-070",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I'm sorry, I ___ come to the party. I'm busy.",
+      "choices": [
+        "not can",
+        "don't can",
+        "can't to",
+        "can't"
+      ],
+      "answer": "can't",
+      "explain": "The negative of can is can't, followed by the base verb."
+    },
+    {
+      "id": "en-qn-071",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "He ___ to the match last week because he wasn't well.",
+      "choices": [
+        "didn't go",
+        "not went",
+        "wasn't go",
+        "didn't went"
+      ],
+      "answer": "didn't go",
+      "explain": "didn't + base verb for the past simple negative."
+    },
+    {
+      "id": "en-qn-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a family is correct?",
+      "choices": [
+        "He doesn't have any brothers.",
+        "He doesn't has any brothers.",
+        "He not have any brothers.",
+        "He don't have any brothers."
+      ],
+      "answer": "He doesn't have any brothers.",
+      "explain": "After doesn't, use the base form have."
+    },
+    {
+      "id": "en-qn-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a mystery is correct?",
+      "choices": [
+        "I didn't see nothing.",
+        "I not saw anything.",
+        "I didn't see anything.",
+        "I didn't saw anything."
+      ],
+      "answer": "I didn't see anything.",
+      "explain": "English avoids a double negative: didn't ... anything."
+    },
+    {
+      "id": "en-qn-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I don't have ___ money.",
+      "choices": [
+        "any",
+        "none",
+        "no",
+        "nothing"
+      ],
+      "answer": "any",
+      "explain": "After a negative verb, use any, not no."
+    },
+    {
+      "id": "en-qn-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "How many apples are left? There are ___.",
+      "choices": [
+        "no",
+        "none",
+        "any",
+        "nothing"
+      ],
+      "answer": "none",
+      "explain": "None can stand alone to mean not one."
+    },
+    {
+      "id": "en-qn-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "There is ___ milk in the fridge. We must buy some.",
+      "choices": [
+        "any",
+        "nobody",
+        "no",
+        "none"
+      ],
+      "answer": "no",
+      "explain": "No goes before a noun and means not any."
+    },
+    {
+      "id": "en-qn-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ___ eats meat. She is a vegetarian.",
+      "choices": [
+        "not never",
+        "never",
+        "doesn't never",
+        "isn't never"
+      ],
+      "answer": "never",
+      "explain": "Never is already negative: no doesn't before it."
+    },
+    {
+      "id": "en-qn-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "We ___ be late tomorrow. I promise.",
+      "choices": [
+        "aren't",
+        "don't",
+        "doesn't",
+        "won't"
+      ],
+      "answer": "won't",
+      "explain": "Won't is the negative of will, used for promises about the future."
+    },
+    {
+      "id": "en-qn-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a ticket is correct?",
+      "choices": [
+        "She not has got a ticket.",
+        "She hasn't got a ticket.",
+        "She doesn't got a ticket.",
+        "She hasn't a got ticket."
+      ],
+      "answer": "She hasn't got a ticket.",
+      "explain": "British negative: hasn't got. Got stays after hasn't."
+    },
+    {
+      "id": "en-qn-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a problem is correct?",
+      "choices": [
+        "Nobody didn't help me.",
+        "Nobody helped me.",
+        "Nobody don't help me.",
+        "Nobody helped me not."
+      ],
+      "answer": "Nobody helped me.",
+      "explain": "Nobody is already negative, so the verb is positive."
+    },
+    {
+      "id": "en-qn-081",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same as 'There is no time'?",
+      "choices": [
+        "There isn't any time.",
+        "There isn't no time.",
+        "There don't be any time.",
+        "There is not none time."
+      ],
+      "answer": "There isn't any time.",
+      "explain": "Not any = no. Never combine isn't with no."
+    },
+    {
+      "id": "en-qn-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence means the same as 'I've never been to Rome'?",
+      "choices": [
+        "I never haven't been to Rome.",
+        "I haven't ever been to Rome.",
+        "I don't never been to Rome.",
+        "I haven't never been to Rome."
+      ],
+      "answer": "I haven't ever been to Rome.",
+      "explain": "Haven't + ever = never; a double negative is wrong."
+    },
+    {
+      "id": "en-qn-083",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the short negative: She does not like fish. = She ___ like fish.",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "explain": "Does not is shortened to doesn't."
+    },
+    {
+      "id": "en-qn-084",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the short negative: They were not at home. = They ___ at home.",
+      "answer": [
+        "weren't",
+        "were not"
+      ],
+      "explain": "Were not is shortened to weren't."
+    },
+    {
+      "id": "en-qn-085",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write one word: I have some bread. = I don't have ___ bread.",
+      "answer": [
+        "any"
+      ],
+      "explain": "Some changes to any after a negative verb."
+    },
+    {
+      "id": "en-qn-086",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the tag: You like football, ___?",
+      "answer": [
+        "don't you"
+      ],
+      "explain": "A positive sentence takes a negative tag: don't you?"
+    },
+    {
+      "id": "en-qn-087",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the tag: Hrothgar is a king, ___?",
+      "answer": [
+        "isn't he",
+        "is he not"
+      ],
+      "explain": "Positive sentence with be: negative tag with be, isn't he?"
+    },
+    {
+      "id": "en-qn-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The Geats live by the sea, ___?",
+      "choices": [
+        "aren't they",
+        "don't they",
+        "doesn't they",
+        "do they"
+      ],
+      "answer": "don't they",
+      "explain": "Present simple with they: the tag uses don't they."
+    },
+    {
+      "id": "en-qn-089",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the tag: He can swim, ___?",
+      "answer": [
+        "can't he"
+      ],
+      "explain": "The tag repeats the modal, in the negative: can't he?"
+    },
+    {
+      "id": "en-qn-090",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write the tag: You didn't see him, ___?",
+      "answer": [
+        "did you"
+      ],
+      "explain": "A negative sentence takes a positive tag, with did: did you?"
+    },
+    {
+      "id": "en-qn-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "You are tired, ___?",
+      "choices": [
+        "don't you",
+        "do you",
+        "aren't you",
+        "are you"
+      ],
+      "answer": "aren't you",
+      "explain": "Positive sentence with are: negative tag aren't you?"
+    },
+    {
+      "id": "en-qn-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the tag: She isn't here, ___?",
+      "answer": [
+        "is she"
+      ],
+      "explain": "A negative sentence takes a positive tag: is she?"
+    },
+    {
+      "id": "en-qn-093",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We won the game, ___?",
+      "choices": [
+        "weren't we",
+        "did we",
+        "didn't we",
+        "don't we"
+      ],
+      "answer": "didn't we",
+      "explain": "Past simple positive: tag didn't we?"
+    },
+    {
+      "id": "en-qn-094",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "You haven't got a pen, ___?",
+      "choices": [
+        "haven't you",
+        "have you",
+        "did you",
+        "do you"
+      ],
+      "answer": "have you",
+      "explain": "Negative sentence with haven't: positive tag, have you?"
+    },
+    {
+      "id": "en-qn-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the tag: They aren't coming, ___?",
+      "answer": [
+        "are they"
+      ],
+      "explain": "Negative sentence with aren't: positive tag, are they?"
+    },
+    {
+      "id": "en-qn-096",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The poet plays the harp, ___?",
+      "choices": [
+        "does he",
+        "don't he",
+        "isn't he",
+        "doesn't he"
+      ],
+      "answer": "doesn't he",
+      "explain": "Present simple with he: the tag uses doesn't he."
+    },
+    {
+      "id": "en-qn-097",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the tag: Let's go to the beach, ___?",
+      "answer": [
+        "shall we"
+      ],
+      "explain": "After Let's, the tag is shall we?"
+    },
+    {
+      "id": "en-qn-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf was very strong, ___?",
+      "choices": [
+        "was he",
+        "didn't he",
+        "wasn't he",
+        "isn't he"
+      ],
+      "answer": "wasn't he",
+      "explain": "Past of be: tag wasn't he?"
+    },
+    {
+      "id": "en-qn-099",
+      "level": 2,
+      "type": "input",
+      "prompt": "Write the tag: The heroes didn't run away, ___?",
+      "answer": [
+        "did they"
+      ],
+      "explain": "Negative sentence in the past: positive tag, did they?"
+    },
+    {
+      "id": "en-qn-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I'm late, ___?",
+      "choices": [
+        "aren't I",
+        "am I",
+        "isn't I",
+        "don't I"
+      ],
+      "answer": "aren't I",
+      "explain": "After I am, the usual tag is aren't I?"
+    },
+    {
+      "id": "en-qn-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Open the window, ___?",
+      "choices": [
+        "do you",
+        "shall we",
+        "will you",
+        "aren't you"
+      ],
+      "answer": "will you",
+      "explain": "After an order, the tag is will you? (or won't you?)."
+    },
+    {
+      "id": "en-qn-102",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Nobody called, ___?",
+      "choices": [
+        "do they",
+        "didn't they",
+        "were they",
+        "did they"
+      ],
+      "answer": "did they",
+      "explain": "Nobody is negative, so the tag is positive: did they?"
+    },
+    {
+      "id": "en-qn-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "There are two exits, ___?",
+      "choices": [
+        "aren't they",
+        "aren't there",
+        "are there",
+        "don't there"
+      ],
+      "answer": "aren't there",
+      "explain": "With there are, the tag repeats there: aren't there?"
+    },
+    {
+      "id": "en-qn-104",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She has never been to Spain, ___?",
+      "choices": [
+        "hasn't she",
+        "has she",
+        "does she",
+        "is she"
+      ],
+      "answer": "has she",
+      "explain": "Never makes the sentence negative, so the tag is positive: has she?"
+    },
+    {
+      "id": "en-qn-105",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "You will help me, ___?",
+      "choices": [
+        "won't you",
+        "don't you",
+        "aren't you",
+        "will you"
+      ],
+      "answer": "won't you",
+      "explain": "Positive sentence with will: negative tag won't you?"
+    },
+    {
+      "id": "en-qn-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write the tag: Nothing happened, ___?",
+      "answer": [
+        "did it"
+      ],
+      "explain": "Nothing is negative, so the tag is positive; it replaces nothing."
+    },
+    {
+      "id": "en-qn-107",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write the tag: I am right, ___?",
+      "answer": [
+        "aren't I",
+        "am I not"
+      ],
+      "explain": "After I am, the tag is aren't I?"
+    },
+    {
+      "id": "en-qn-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Everybody enjoyed the trip, ___?",
+      "choices": [
+        "didn't he",
+        "did they",
+        "didn't everybody",
+        "didn't they"
+      ],
+      "answer": "didn't they",
+      "explain": "Everybody takes the tag with they: didn't they?"
+    },
+    {
+      "id": "en-qn-109",
+      "level": 1,
+      "type": "input",
+      "prompt": "Write one word: Do you like swimming? Yes, I ___.",
+      "answer": [
+        "do"
+      ],
+      "explain": "A short answer repeats the auxiliary: Yes, I do."
+    },
+    {
+      "id": "en-qn-110",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Is Maya your cousin? No, she ___.",
+      "choices": [
+        "doesn't",
+        "isn't",
+        "wasn't",
+        "don't"
+      ],
+      "answer": "isn't",
+      "explain": "Answer with the same verb: No, she isn't."
+    },
+    {
+      "id": "en-qn-111",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Did Beowulf win the first fight? Yes, he ___.",
+      "choices": [
+        "was",
+        "won",
+        "did",
+        "does"
+      ],
+      "answer": "did",
+      "explain": "A short answer repeats the auxiliary of the question: did."
+    },
+    {
+      "id": "en-qn-112",
+      "level": 1,
+      "type": "input",
+      "prompt": "Have you finished? No, I ___.",
+      "answer": [
+        "haven't",
+        "have not"
+      ],
+      "explain": "The short answer repeats have in the negative: No, I haven't."
+    },
+    {
+      "id": "en-qn-113",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Can he swim? Yes, he ___.",
+      "choices": [
+        "swims",
+        "does",
+        "can",
+        "is"
+      ],
+      "answer": "can",
+      "explain": "A short answer repeats the modal: Yes, he can."
+    },
+    {
+      "id": "en-qn-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'I love football.' 'So ___ I.'",
+      "choices": [
+        "did",
+        "do",
+        "am",
+        "have"
+      ],
+      "answer": "do",
+      "explain": "So + auxiliary + subject; the auxiliary matches love: do."
+    },
+    {
+      "id": "en-qn-115",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'I don't like spiders.' '___ do I.'",
+      "choices": [
+        "Too",
+        "Either",
+        "Neither",
+        "So"
+      ],
+      "answer": "Neither",
+      "explain": "Neither agrees with a negative statement."
+    },
+    {
+      "id": "en-qn-116",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write one word: 'I was ill last week.' 'So ___ I.'",
+      "answer": [
+        "was"
+      ],
+      "explain": "The auxiliary matches the first sentence (past of be): was."
+    },
+    {
+      "id": "en-qn-117",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write one word: 'I haven't seen it.' 'Neither ___ I.'",
+      "answer": [
+        "have"
+      ],
+      "explain": "After Neither, the auxiliary is positive: have."
+    },
+    {
+      "id": "en-qn-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'I went to the match.' 'So ___ I.'",
+      "choices": [
+        "do",
+        "went",
+        "was",
+        "did"
+      ],
+      "answer": "did",
+      "explain": "The past simple went is matched with did."
+    },
+    {
+      "id": "en-qn-119",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a station is correct?",
+      "choices": [
+        "Do you know where the station is?",
+        "Do you know where the station does?",
+        "Do you know where does the station is?",
+        "Do you know where is the station?"
+      ],
+      "answer": "Do you know where the station is?",
+      "explain": "Inside an indirect question, use statement order: where the station is."
+    },
+    {
+      "id": "en-qn-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question about a start time is correct?",
+      "choices": [
+        "Can you tell me what time does it start?",
+        "Can you tell me what time it does start?",
+        "Can you tell me what time it starts?",
+        "Can you tell me what time starts it?"
+      ],
+      "answer": "Can you tell me what time it starts?",
+      "explain": "No does in the embedded part: what time it starts."
+    },
+    {
+      "id": "en-qn-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Could you tell me ___?",
+      "choices": [
+        "how much does it cost",
+        "how much costs it",
+        "how much it cost does",
+        "how much it costs"
+      ],
+      "answer": "how much it costs",
+      "explain": "Embedded questions have statement order and no does."
+    },
+    {
+      "id": "en-qn-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I wonder why ___.",
+      "choices": [
+        "he did left early",
+        "he left early",
+        "left he early",
+        "did he leave early"
+      ],
+      "answer": "he left early",
+      "explain": "Statement order, past verb: why he left early."
+    },
+    {
+      "id": "en-qn-123",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which question about a museum is correct?",
+      "choices": [
+        "Do you know if is the museum open?",
+        "Do you know does the museum open?",
+        "Do you know if the museum is open?",
+        "Do you know is the museum open?"
+      ],
+      "answer": "Do you know if the museum is open?",
+      "explain": "Yes/no indirect questions use if or whether plus statement order."
+    },
+    {
+      "id": "en-qn-124",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write the verb in the present simple: Do you know where she ___ (live)?",
+      "answer": [
+        "lives"
+      ],
+      "explain": "No does in the embedded question, so the verb takes -s: lives."
+    },
+    {
+      "id": "en-qn-125",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Direct question: 'Where did he go?' Complete: Can you tell me ___?",
+      "choices": [
+        "where he go",
+        "where he went",
+        "where went he",
+        "where did he go"
+      ],
+      "answer": "where he went",
+      "explain": "Embedded: no did, and the verb goes back to the past form: went."
+    },
+    {
+      "id": "en-qn-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Do you remember ___ the keys?",
+      "choices": [
+        "where we put",
+        "where put we",
+        "where did we put",
+        "where we putted"
+      ],
+      "answer": "where we put",
+      "explain": "Statement order: where we put."
+    },
+    {
+      "id": "en-qn-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence has a mistake?",
+      "choices": [
+        "Can you tell me who she is?",
+        "I don't know why he is late.",
+        "Do you know where is the library?",
+        "Do you know where the library is?"
+      ],
+      "answer": "Do you know where is the library?",
+      "explain": "It should be where the library is."
+    },
+    {
+      "id": "en-qn-128",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Do you know where ___?",
+      "choices": [
+        "Heorot is",
+        "is Heorot",
+        "does Heorot is",
+        "Heorot does"
+      ],
+      "answer": "Heorot is",
+      "explain": "In an indirect question the verb comes after the subject."
+    },
+    {
+      "id": "en-qn-129",
+      "level": 3,
+      "type": "input",
+      "prompt": "Write one word: Can you tell me how old she ___?",
+      "answer": [
+        "is"
+      ],
+      "explain": "Statement order: how old she is."
+    }
+  ]
+}

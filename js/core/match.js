@@ -1,16 +1,8 @@
-// One match: MATCH_QUESTIONS questions = as many "minutes" (9', 18' ... 90' for 10). Mutable match object, driven by the view.
+// One match: N questions = as many "minutes" (9', 18' ... 90' for 10; 6', 12' ... 90' for 15). Mutable match object, driven by the view.
 import { TIMER_MCQ_SECONDS, TIMER_INPUT_SECONDS, GOAL_EVERY_N_CORRECT } from '../config.js';
 import { checkAnswer, displayAnswer } from './questions.js';
 
 export const PRACTICE_OPPONENT = { id: 'practice', name: 'Équipe d\'entraînement', strength: 0.5 };
-
-/**
- * Difficulty: 'normal' (a wrong answer lets the opponent score with probability = its strength) or 'expert'
- * (every wrong answer or timeout is a goal for the opponent). Expert is reserved for the u13 squad.
- */
-export function resolveDifficulty(squad, wanted) {
-  return squad === 'u13' && wanted === 'expert' ? 'expert' : 'normal';
-}
 
 /** Seconds allowed for a question type. */
 export function timeLimitSeconds(q) {
@@ -35,26 +27,32 @@ export function minuteOf(index, total) {
 
 /**
  * Create a match.
- *  mode: 'league' | 'training'
+ *  mode: 'league' | 'cup' | 'training'
  *  questions: from pickQuestions
- *  opponent: {id, name, strength} (league). Training uses a neutral practice opponent.
- *  topicId/subjectId: the one topic (and its subject) being played
+ *  opponent: {id, name, strength} (league, cup). Training uses a neutral practice opponent.
+ *  topicId/subjectId: the one topic (and its subject) being played ('event:<id>' / 'event' for an event mix)
  *  division: 0..4 (league)
+ *  goalEvery: correct answers needed per goal (the attack meter has that many segments); default GOAL_EVERY_N_CORRECT (training)
  *  coachPick: true if the chosen topic was the coach's pick (+50% coins)
- *  difficulty: 'normal' | 'expert' (the caller resolves it for the squad with resolveDifficulty)
- *  rng: seeded rng (used for goals against in normal difficulty)
+ *  squad: 'u10' | 'u13', passed to the answer check (u10 typing tolerance for "ê")
+ *  concedeAll: every wrong answer or timeout is a goal for the opponent (set by the cup definition, e.g. the Coupe du monde),
+ *    instead of the opponent's strength deciding
+ *  cupId: the cup being played (mode 'cup')
+ *  rng: seeded rng (used for goals against)
  *  now: timestamp ms (stored as startedAt)
  */
 export function createMatch({
   mode = 'league', questions, opponent = null, topicId, subjectId = null,
-  division = 0, coachPick = false, difficulty = 'normal', rng, now,
+  division = 0, goalEvery = GOAL_EVERY_N_CORRECT, coachPick = false, squad = null, concedeAll = false, cupId = null, rng, now,
 }) {
   if (!questions || !questions.length) throw new Error('createMatch: no questions');
   return {
     mode,
-    timed: mode === 'league',
-    topicId, subjectId, division, coachPick,
-    difficulty: difficulty === 'expert' ? 'expert' : 'normal',
+    timed: mode !== 'training',
+    topicId, subjectId, division, coachPick, squad,
+    goalEvery: Math.max(1, Math.floor(goalEvery) || GOAL_EVERY_N_CORRECT),
+    concedeAll: !!concedeAll,
+    ...(cupId ? { cupId } : {}),
     opponent: opponent || PRACTICE_OPPONENT,
     questions,
     index: 0,
@@ -100,18 +98,18 @@ export function answerQuestion(match, given, elapsedMs) {
   const minute = minuteOf(match.index, match.questions.length);
   const limit = match.timed ? timeLimitSeconds(q) * 1000 : null;
   const timedOut = given == null || (limit != null && elapsedMs > limit);
-  const correct = !timedOut && checkAnswer(q, given);
+  const correct = !timedOut && checkAnswer(q, given, { squad: match.squad });
   let goalFor = false;
   let goalAgainst = false;
   let bonus = 0;
   if (correct) {
     match.correct += 1;
     bonus = speedBonus(elapsedMs, q);
-    if (match.correct % GOAL_EVERY_N_CORRECT === 0) {
+    if (match.correct % match.goalEvery === 0) {
       goalFor = true;
       match.goalsFor += 1;
     }
-  } else if (match.difficulty === 'expert' || match.rng.chance(match.opponent.strength)) {
+  } else if (match.concedeAll || match.rng.chance(match.opponent.strength)) {
     goalAgainst = true;
     match.goalsAgainst += 1;
   }
@@ -139,7 +137,7 @@ export function answerQuestion(match, given, elapsedMs) {
     speedBonus: bonus,
     goalFor,
     goalAgainst,
-    attack: { charge: match.correct % GOAL_EVERY_N_CORRECT, max: GOAL_EVERY_N_CORRECT },
+    attack: { charge: match.correct % match.goalEvery, max: match.goalEvery },
     score: { for: match.goalsFor, against: match.goalsAgainst },
     minute,
     finished: match.finished,
@@ -169,7 +167,7 @@ export function summarizeMatch(match, now) {
     subjectId: match.subjectId,
     division: match.division,
     coachPick: match.coachPick,
-    difficulty: match.difficulty,
+    ...(match.cupId ? { cupId: match.cupId } : {}),
     opponent: { id: match.opponent.id, name: match.opponent.name, strength: match.opponent.strength },
     goalsFor: match.goalsFor,
     goalsAgainst: match.goalsAgainst,

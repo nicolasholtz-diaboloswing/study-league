@@ -2,6 +2,7 @@
 import { PACK_SIZE, TRAINING_XP_FACTOR } from '../config.js';
 import { listTopics } from './questions.js';
 import { topicStars, uniqueCards } from './stats.js';
+import { CUPS } from './cups.js';
 
 // ---------- XP & levels ----------
 
@@ -45,12 +46,12 @@ export function matchXp(result) {
   return { base, speed, outcome, total };
 }
 
-/** A league defeat earns no coins when fewer than a third of the questions are right (4 of 10). */
+/** A league or cup defeat earns no coins when fewer than a third of the questions are right (4 of 10, 5 of 15). */
 export const minCorrectForLossCoins = (total) => Math.ceil((Number(total) || 0) / 3);
 
-/** Coins of a result: { base, perfect, coachPick (bonus part), total }. Training earns none; a league defeat with fewer than a third of the questions right earns none. */
+/** Coins of a result: { base, perfect, coachPick (bonus part), total }. Training earns none; a league or cup defeat with fewer than a third of the questions right earns none. */
 export function matchCoins(result) {
-  if (result.mode !== 'league') return { base: 0, perfect: 0, coachPick: 0, total: 0 };
+  if (result.mode === 'training') return { base: 0, perfect: 0, coachPick: 0, total: 0 };
   if (result.outcome === 'L' && result.correct < minCorrectForLossCoins(result.total)) return { base: 0, perfect: 0, coachPick: 0, total: 0 };
   const base = OUTCOME_COINS[result.outcome];
   const perfect = result.perfect ? PERFECT_COINS : 0;
@@ -69,14 +70,17 @@ export const PACK_ODDS = {
 export const RARITY_ODDS = PACK_ODDS.big;
 export const RARITIES = ['common', 'rare', 'epic', 'legend'];
 
+/** True for a player card: no `kind`, or kind 'player' (nation and club cards are won in cups only, never in packs). */
+export const isPlayerCard = (c) => !c.kind || c.kind === 'player';
+
 /**
- * Open a pack. cards: array from data/cards.json. collection: state.cards (id -> count), used for isNew.
+ * Open a pack. cards: array from data/cards.json (only the player cards are drawn). collection: state.cards (id -> count), used for isNew.
  * Rarity is drawn per card from `odds` (default: the big pack; rarities with no cards or 0 odds are skipped), then a random card of it.
  * Returns [{ card, isNew }] (isNew false for a second copy inside the same pack).
  */
 export function openPack(cards, rng, collection = {}, size = PACK_SIZE, odds = RARITY_ODDS) {
   const byRarity = {};
-  for (const c of cards) (byRarity[c.rarity] ||= []).push(c);
+  for (const c of cards) if (isPlayerCard(c)) (byRarity[c.rarity] ||= []).push(c);
   const rarities = RARITIES.filter((r) => byRarity[r]?.length && odds[r] > 0);
   const have = new Set(Object.keys(collection).filter((id) => collection[id] > 0));
   const out = [];
@@ -89,14 +93,32 @@ export function openPack(cards, rng, collection = {}, size = PACK_SIZE, odds = R
   return out;
 }
 
+/**
+ * The card won with a cup match: one card of `kind` ('nation' or 'club') the player does not own yet; a duplicate only once the
+ * set is complete. The final gives the highest rarity still missing (the highest of the set once complete).
+ *  collection: state.cards (id -> count). Returns { card, isNew } or null when the card file has no card of that kind.
+ */
+export function pickCupCard(cards, rng, collection, kind, { final = false } = {}) {
+  const all = cards.filter((c) => c.kind === kind);
+  if (!all.length) return null;
+  const unowned = all.filter((c) => !(collection[c.id] > 0));
+  const source = unowned.length ? unowned : all;
+  let pool = source;
+  if (final) {
+    const best = Math.max(...source.map((c) => RARITIES.indexOf(c.rarity)));
+    pool = source.filter((c) => RARITIES.indexOf(c.rarity) === best);
+  }
+  return { card: { ...rng.pick(pool) }, isNew: unowned.length > 0 };
+}
+
 // ---------- badges ----------
 
-/** env for badge predicates: { catalog (subjects.json content), totalCards (size of the deck) }. */
+/** env for badge predicates: { catalog (subjects.json content), totalCards (size of the whole deck: players, countries and clubs) }. */
 function subjectMastered(state, env) {
   if (!env?.catalog) return false;
   const squad = state.profile.squad;
   return env.catalog.subjects.some((s) => {
-    const topics = listTopics(env.catalog, squad, s.id);
+    const topics = listTopics(env.catalog, squad, s.id); // compulsory topics only: an optional topic never blocks nor grants the badge
     return topics.length > 0 && topics.every((t) => topicStars(state, t.id) === 3);
   });
 }
@@ -129,6 +151,8 @@ export const BADGES = [
   b('correct-100', 'Précis', 'Donne 100 bonnes réponses', '🎯', (s) => s.totals.correct >= 100),
   b('correct-500', 'Cerveau', 'Donne 500 bonnes réponses', '🧠', (s) => s.totals.correct >= 500),
   b('correct-1000', 'Génie', 'Donne 1000 bonnes réponses', '🚀', (s) => s.totals.correct >= 1000),
+  // one trophy per cup, for winning its final (state.cups[id].trophies, see core/cups.js)
+  ...CUPS.map((cup) => b(`cup-${cup.id}`, `Vainqueur : ${cup.name}`, `Gagne la finale de la ${cup.name}`, cup.icon, (s) => (s.cups?.[cup.id]?.trophies || 0) >= 1)),
 ];
 
 export function badgeById(id) {

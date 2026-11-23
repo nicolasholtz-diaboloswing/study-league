@@ -8,7 +8,7 @@ Open `gallery.html` (through a local server) to see everything. Test hooks: `gal
 
 - **Components** (`js/ui/components.js`) are pure functions returning **HTML strings**. Escape is done inside; pass raw text. Interaction is by data attributes: you attach the listeners (event delegation on `#view`).
 - **Art** (`js/ui/art.js`) returns SVG/HTML strings. **Effects** (`js/ui/effects.js`) touch the DOM and return Promises.
-- Club objects look like `{ name, short, colors:[c1,c2], crest }` (see `data/clubs.json`). Card objects look like `{ id, name, pos, nation, flag, rating, rarity, era }` (see `data/cards.json`).
+- Club objects look like `{ name, short, colors:[c1,c2], crest }` (see `data/clubs.json`). Card objects (see `data/cards.json`) come in three kinds, told apart by `kind` (`A.cardKind(c)`: absent = `'player'`): player `{ id, name, pos, nation, flag, rating, rarity, era }`, nation `{ id, kind:'nation', name, nation, rarity }`, club `{ id, kind:'club', name, short, colors, crest, country, rarity }`.
 - The only impure helpers in components.js: `showModal`, `closeModal`, `showToast`, `updateTimer`.
 - Everything respects `prefers-reduced-motion`. Primary touch targets are at least 48–52 px.
 
@@ -32,7 +32,7 @@ document.getElementById('view').innerHTML = `<div class="page">${C.pageHead('Acc
 | `#view` | mount point of every view |
 | `#overlay`, `#modal-root`, `#toasts` | layers used by effects, modal and toast |
 
-`document.body.classList`: `no-shell` hides top bar and nav (login), `in-match` hides the nav only. Views may add `css/views.css` (already linked, empty).
+`document.body.classList`: `no-shell` hides top bar and nav (login), `in-match` hides the nav only. Per-screen styles live in `css/views.css`, `css/views-meta.css` and `css/cups-events.css` (cups, event banner and pop-up, switch rows).
 
 ## Layout classes
 
@@ -69,8 +69,8 @@ Type: `--font-display`, `--font-text`, `--fs-xs..3xl`. Space: `--sp-1..7`, `--gu
 | `stars(value, {max, size})` | 0–3 | `stars(2)` |
 | `xpBar({level, xp, next, compact})` | xp = XP inside the level, next = XP needed for it | `xpBar({level:7,xp:140,next:260})` |
 | `scoreboard({home, away, homeScore, awayScore, minute, status, goalSide})` | clubs are objects; `data-score="home\|away"` and `data-minute` for live updates; `goalSide` pops the digit | `scoreboard({home, away, homeScore:1, awayScore:0, minute:27})` |
-| `attackMeter(step, {live})` | `GOAL_EVERY_N_CORRECT` segments, step 0..N; N = BUT lit. `live: true` replaces the « Attaque » label by the countdown « Encore 2 bonnes réponses pour marquer » (texts from `js/ui/rules.js`) | `attackMeter(1, { live: true })` |
-| `questionCard(q)` | `{number,total,prompt,type:'mcq'\|'input',choices,status:'idle'\|'correct'\|'wrong'\|'timeout',selected,correctAnswer,explanation,inputValue,placeholder,topic,timer,note}` — `note` is a short line under the verdict; mcq buttons: `[data-choice=index]`; input: `form[data-answer-form]` with `input[name=answer]`; after an answer everything is disabled and feedback + explanation appear | `questionCard({number:1,total:10,type:'mcq',prompt:'…',choices:[…]})` |
+| `attackMeter(step, {live, n})` | `n` segments (correct answers per goal of the match, default `GOAL_EVERY_N_CORRECT`), step 0..n; n = BUT lit. `live: true` replaces the « Attaque » label by the countdown « Encore 2 bonnes réponses pour marquer » (texts from `js/ui/rules.js`) | `attackMeter(1, { live: true, n: 3 })` |
+| `questionCard(q)` | `{number,total,prompt,type:'mcq'\|'input',choices,status:'idle'\|'correct'\|'wrong'\|'timeout',selected,correctAnswer,explanation,inputValue,placeholder,topic,timer,note,level,figure}` — `note` is a short line under the verdict; `topic` is the label in the header (the topic name, or « Matière · thème » for a question of an event mix); `level` (1..3) shows one to three stars (`.qcard__level`, `aria-label` « Difficulté n sur 3 »), none when omitted; `figure` (a spec of `js/ui/figures.js`) is drawn in `.qcard__figure` between the header and the prompt, before and after the answer, and an invalid spec draws nothing; mcq buttons: `[data-choice=index]`; input: `form[data-answer-form]` with `input[name=answer]`; after an answer everything is disabled and feedback + explanation appear | `questionCard({number:1,total:10,type:'mcq',prompt:'…',choices:[…]})` |
 | `timer({remaining,total,variant:'ring'\|'bar'})` | goes in `questionCard({timer})`; update with `updateTimer(el, remaining, total)` (urgent red under 25 %) | `timer({remaining:30,total:30})` |
 | `leagueTable({rows,promotionSpots,compact})` | row `{pos,club,played,won,drawn,lost,gf,ga,pts,isYou}`; promotion zone marked on the first rows | `leagueTable({rows})` |
 | `fixtureRow({matchday,home,away,homeScore,awayScore,status:'upcoming'\|'next'\|'played',result:'W'\|'D'\|'L',youSide,href})` | | `fixtureRow({matchday:3,home,away,status:'next',youSide:'home'})` |
@@ -88,6 +88,7 @@ Type: `--font-display`, `--font-text`, `--fs-xs..3xl`. Space: `--sp-1..7`, `--gu
 | `field({label,name,type,value,placeholder,hint,error,required,autocomplete,attrs})` | input id is `f-<name>` | `field({label:'Identifiant',name:'username',required:true})` |
 | `selectField({label,name,options:[{value,label}],value,hint})` | | |
 | `choiceGroup({label,name,options:[{value,label,desc,icon}],value})` | big radio cards (squad choice) | |
+| `toggle({label,desc,meta,name,checked,attrs})` | switch row: title, optional description and small line, and a checkbox with `role="switch"` (`name` and `attrs` go on the input; used for the optional topics of the profile). Rows stacked in one panel get a separator | `toggle({label:'Modals', name:'optional', checked:true, attrs:{'data-optional':'en-modals'}})` |
 | `colorPicker({label,name,colors,value})` | radio swatches (kit colours) | |
 
 Division names shown in the UI: District, Régional, National, Ligue 2, Ligue 1.
@@ -99,10 +100,12 @@ Division names shown in the UI: District, Régional, National, Ligue 2, Ligue 1.
 | `crest(club, size=64)` | styles by `club.crest`: `shield`, `round`, `diamond`, `stripes`; monogram = `short` |
 | `kit(c1, c2, {size, pattern:'plain'\|'hoops'\|'stripes'\|'sash', number})` | shirt |
 | `portrait(seed, {size, kit:[c1,c2]})` | generic fictional face, skin/hair/shirt derived from the seed (use the card id) |
-| `flag(nation, width=24)` | SVG flag (Windows has no flag emoji) |
-| `card(c, {count, size:'sm'\|'md'\|'lg'\|'fluid'})` | collectible card; shows `c.era` (else the nation); rarity frames `common`, `rare`, `epic`, `legend` (gold foil, shine, sparkles); `count>1` shows a ×n badge. `fluid` fills its container (aspect 5:7) |
+| `flag(nation, width=24)` | SVG flag (Windows has no flag emoji); flags and crests are generated, no official logo |
+| `card(c, {count, size:'sm'\|'md'\|'lg'\|'fluid'})` | collectible card; rarity frames `common`, `rare`, `epic`, `legend` (gold foil, shine, sparkles); `count>1` shows a ×n badge. `fluid` fills its container (aspect 5:7). Player: portrait, rating, position, and `c.era` (else the nation). Nation (`pcard--nation`): kind label « Pays », large generated flag, name, footer « Sélection ». Club (`pcard--club`): kind label « Club », generated crest, name, footer = the country. Names of nation and club cards may take two lines |
 | `cardBack({size})` | face-down card |
-| `cardMissing({id,pos}, {size})` | silhouette for a card not yet owned |
+| `cardMissing({id,pos,kind}, {size})` | silhouette for a card not yet owned; for a nation or club it shows the kind label and « À gagner en coupe » |
+| `cardKind(c)` | `'player'` (also when `kind` is absent), `'nation'` or `'club'` |
+| `nationLabel(key)`, `hasNationLabel(key)`, `hasFlag(key)` | French name of a nation key (the keys of the flag table and of the `nation` field of a card); whether a label / a flag drawing exists |
 | `trophy(size, {color:'gold'\|'silver'\|'bronze'\|'locked'})`, `football(size)` | |
 | `shade(hex, amt)`, `inkOn(bg, pref)`, `rarityLabel(r)`, `esc(s)` | helpers |
 
@@ -128,8 +131,27 @@ Division names shown in the UI: District, Régional, National, Ligue 2, Ligue 1.
 - `.swatches` (kit colours) is a 4-column grid.
 - `body.in-pack` moves the toast area to the bottom so toasts never cover the pack-opening title (set by the cards view during a reveal).
 
+## Rule texts and match flow
+
+- `js/ui/rules.js`: `ruleFor(n, { concedeAll })` gives `{ line: « 3 bonnes réponses = 1 but », miss, intro, introMiss }` for `n` correct answers per goal (`concedeAll`: « Chaque erreur = un but pour l'adversaire », Coupe du monde); `meterText(filled, n)` is the countdown under the attack meter; `remainingText(filled, n)` the line added to « Bravo ! » when the answer did not score. Every screen takes `n` from the match, the player's division (`goalEveryOf`) or the cup, never from a constant.
+- `js/ui/flow.js`: `prepareMatch(ctx, { mode: 'league'|'cup'|'training', topic, coachPick, cupId })` builds the match (15 questions for league and cup, 10 for training; the event mix when `topic` is the event topic), writes the kick-off marker for league and cup, and stores it in `flow.current`; `finishMatch` applies the result once; `settlePendingForfeit` settles a marker left by a reload.
+- Match view: the scoreboard status reads « Championnat », the cup name, or « Entraînement ». Leaving a started league or cup match is a forfeit; the confirmation adds « et tu es éliminé de la coupe » for a cup. With a figure on a phone (`.match.has-figure`) the scoreboard shrinks and the attack meter is hidden, to leave room; the verdict scrolls into view above the sticky « Question suivante » button.
+- Pre-match screen (`play.js`): subject, topic, then a summary with the number of questions and minutes (15, about 5), the rule line, and for a cup the knock-out reminder. During an event the subject and topic steps are skipped and `.event-banner` shows « 🎓 U13 ECE Event · jusqu'au 2 décembre ».
+- Result screen: for a cup, a « Qualifié ! » / « Éliminé » / « Tu gagnes la … ! » headline (with the shoot-out line when the draw went to « tirs au but »), the round, the card won (`.cup-won`, « Nouvelle carte ! » or « Carte en double »), and a reward banner for a won final (medal, free pack, bonus coins). The « À revoir » list shows the prompt and the answer only, no figure.
+
+## League view: cups, events, optional topics
+
+- Championnat screen, « Coupes » section (`.cup` panels, `css/cups-events.css`): one panel per cup. Locked: the unlock text with a padlock. Open: edition, round and opponent, the list of rounds (`.cup__round`, done / current), the goal rule, a « Jouer » / « Jouer le tour » button to `#/play?cup=<id>`, and a trophy count pill. Waiting: « Coupe gagnée ! » or « Éliminé en … », then « Nouvelle édition demain. ».
+- Event pop-up (`announceEvent` in `play.js`, `.event-pop`): a modal with the event name, the end date and the subjects mixed; « C'est parti ! » closes it. Home shows it once per local day (after the welcome carousel when there is one); before a match or a training it appears when it was not shown that day. The coach's pick is hidden during an event.
+- Training screen: during an event, a first choice between « Entraînement de l'évènement » and « Entraînement classique »; a button « Changer de mode d'entraînement » goes back.
+- Profile: « Thèmes en option » (only when the squad has some): one panel per subject, one `toggle` per optional topic. Switching saves immediately and shows a toast.
+
+## Question figures
+
+Drawn by `js/ui/figures.js` as one 320-unit wide SVG (`.fg`, 200 units high at most, text 14 to 16 units so it stays readable on a 360 px phone), coloured through the classes of `css/components.css` which use the tokens (`k1` gold, `k2` blue, `k3` green, `k4` pink, `k5` violet, `k6` orange). Shown on the question card of every match (league, cup, training) when the question has a `figure`; not shown in the result review nor in the parent's most-missed list. Spec of the ten types: `docs/API.md`.
+
 ## Cards view and coach view
 
-- Album: «&nbsp;Mes cartes&nbsp;» chip (default when the player owns a card), owned cards first by rating, 3 columns under 480 px, missing cards (`.album__cell--missing`) at about half height. `.odds` shows the four rarities in their colours next to the buy button.
+- Album: a kind row (« Joueurs », « Pays », « Clubs »), then the rarity row with «&nbsp;Mes cartes&nbsp;» (default when the player owns a card). For players only, a position row and a nations row (`tabs--wrap`: it wraps onto several lines instead of scrolling sideways; each tab shows owned/total). Owned cards come first (players by rating, nations and clubs by rarity), 3 columns under 480 px, missing cards (`.album__cell--missing`) at about half height; the empty « Mes cartes » message for nations and clubs says to win cup matches. The progress panel counts the whole file (players, nations, clubs) and shows « Album complet ! » at the total. `.odds` shows the four rarities in their colours next to the buy button; packs hold players only.
 - Pack reveal is resumable: the purchase save also stores `state.pendingReveal = { kind: 'buy-small'|'buy-big'|'free' (old saves: 'buy'), ids: [cardId x1..3], fresh: [bool x1..3] }`. The cards view resumes it on mount and sets it to `null` (and saves) when the last card is flipped or the child leaves. Badge toasts are held until the reveal is over.
-- Parent dashboard (`coach.js`, shown as « Espace parent »): `.psum` button per child (this week: matches, time, V/N/D, accuracy, weakest theme, last activity; `aria-pressed` marks the selected child), then the detail: 7-day `barChart` with weekday letters (today in gold), themes by subject weakest first (`.coach__todo` = « pas encore joué »), most-missed questions, last 20 matches (`.cm`, two lines on phones).
+- Parent dashboard (`coach.js`, shown as « Espace parent »): `.psum` button per child (this week: matches, time, V/N/D, accuracy, weakest theme, last activity; `aria-pressed` marks the selected child), then the detail: 7-day `barChart` with weekday letters (today in gold), themes by subject weakest first (`.coach__todo` = « pas encore joué »; an optional topic is listed only once played or activated), « Thèmes en option » (read-only: topic, subject, « activé le … à … »), most-missed questions, last 20 matches (`.cm`, two lines on phones; an event match shows the event name, mode labels are Entraînement / Championnat / Coupe).

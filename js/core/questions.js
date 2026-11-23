@@ -54,12 +54,20 @@ export function displayAnswer(q) {
     .join(' / ');
 }
 
-/** `given` is the player's string (a choice for mcq, typed text for input). */
-export function checkAnswer(q, given) {
+/** u10 typing tolerance: "ê" and "e" are the same letter (only ê: every other accent still counts). */
+const foldCircumflexE = (s) => s.replace(/ê/g, 'e');
+
+/**
+ * `given` is the player's string (a choice for mcq, typed text for input).
+ * opts.squad: 'u10' treats "ê" and "e" as the same letter in typed answers; any other value (and no option) is strict.
+ */
+export function checkAnswer(q, given, { squad = null } = {}) {
   if (given == null) return false;
-  const g = normalizeAnswer(given);
+  const loose = squad === 'u10';
+  const prep = (s) => (loose ? foldCircumflexE(normalizeAnswer(s)) : normalizeAnswer(s));
+  const g = prep(given);
   if (g === '') return false;
-  return acceptedAnswers(q).some((a) => normalizeAnswer(a) === g);
+  return acceptedAnswers(q).some((a) => prep(a) === g);
 }
 
 // ---------- catalog ----------
@@ -70,26 +78,47 @@ export async function loadCatalog(fetchJson) {
   return { subjects: data.subjects || [] };
 }
 
+/** True when `active` (state.optionalTopics, { [topicId]: ms of the last activation }) has a valid entry for the topic id: a positive number. */
+export const isActivated = (active, topicId) => typeof active?.[topicId] === 'number' && Number.isFinite(active[topicId]) && active[topicId] > 0;
+
 /**
- * Topics offered to a squad, flattened. Optional subjectId filter.
- * Each: { id, name, file, squads, subjectId, subjectName, icon, accents } (accents: the subject shows accent keys; `group`, `forms` are optional topic fields)
+ * Whether a topic is offered given the optional topics a player switched on (`active` = state.optionalTopics).
+ * A topic without `optional: true` is compulsory (always offered); an optional one only when it is activated.
  */
-export function listTopics(catalog, squad, subjectId = null) {
-  const out = [];
-  for (const s of catalog.subjects || []) {
-    if (subjectId && s.id !== subjectId) continue;
-    for (const t of s.topics || []) {
-      if (squad && t.squads && !t.squads.includes(squad)) continue;
-      out.push({ ...t, subjectId: s.id, subjectName: s.name, icon: s.icon, accents: !!s.accents });
-    }
-  }
-  return out;
+export const topicAvailable = (topic, active) => !topic.optional || isActivated(active, topic.id);
+
+/** Every topic of the catalog, flattened like listTopics but with no squad or optional filter (for looking a name up from an id). */
+export function allTopics(catalog) {
+  return (catalog.subjects || []).flatMap((s) => (s.topics || []).map((t) => ({ ...t, subjectId: s.id, subjectName: s.name, icon: s.icon, accents: !!s.accents })));
 }
 
-/** Subjects that have at least one topic for the squad: [{id, name, icon, topics:[...]}] */
-export function listSubjects(catalog, squad) {
+/** One topic by id, wherever it is (any squad, optional or not, switched on or not), or null. */
+export const findTopic = (catalog, id) => allTopics(catalog).find((t) => t.id === id) || null;
+
+/**
+ * Topics offered to a squad, flattened. Optional subjectId filter.
+ * `active` is the player's state.optionalTopics: optional topics not switched on in it are left out (none switched on when omitted).
+ * Each: { id, name, file, squads, subjectId, subjectName, icon, accents } (accents: the subject shows accent keys; `group`, `forms`, `optional` are optional topic fields)
+ */
+export function listTopics(catalog, squad, subjectId = null, active = null) {
+  return allTopics(catalog).filter((t) => (!subjectId || t.subjectId === subjectId)
+    && !(squad && t.squads && !t.squads.includes(squad)) && topicAvailable(t, active));
+}
+
+/** Subjects that have at least one topic for the squad (compulsory ones and the switched-on optional ones in `active`): [{id, name, icon, topics:[...]}] */
+export function listSubjects(catalog, squad, active = null) {
   return (catalog.subjects || [])
-    .map((s) => ({ id: s.id, name: s.name, icon: s.icon, topics: listTopics(catalog, squad, s.id) }))
+    .map((s) => ({ id: s.id, name: s.name, icon: s.icon, topics: listTopics(catalog, squad, s.id, active) }))
+    .filter((s) => s.topics.length > 0);
+}
+
+/**
+ * The optional topics offered to a squad (switched on or not), grouped by subject, in catalog order:
+ * [{ id, name, icon, topics: [listTopics-like entries] }]. A subject with no optional topic for the squad is not listed (nothing for u10).
+ */
+export function listOptionalTopics(catalog, squad) {
+  return (catalog.subjects || [])
+    .map((s) => ({ id: s.id, name: s.name, icon: s.icon, topics: allTopics({ subjects: [s] }).filter((t) => t.optional && (!squad || !t.squads || t.squads.includes(squad))) }))
     .filter((s) => s.topics.length > 0);
 }
 
@@ -207,7 +236,10 @@ export function optionChoices(q) {
   return opts;
 }
 
-/** Questions of a parsed topic file, each tagged with topicId. */
+/**
+ * Questions of a parsed topic file, each tagged with topicId. A question may carry an optional `figure` (data describing a drawing,
+ * see js/ui/figures.js): it is passed through untouched; the engine never reads it.
+ */
 export function questionsFromFile(file, topicId = file.topic, forms) {
   const qs = file.kind === 'verbs' ? expandVerbs(file, topicId, forms) : (file.questions || []).map((q) => ({ ...q }));
   return qs.map((q) => ({ ...q, topicId, level: q.level || 1 }));

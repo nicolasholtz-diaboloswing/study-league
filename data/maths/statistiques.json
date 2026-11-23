@@ -1,0 +1,1964 @@
+{
+  "topic": "maths-statistiques",
+  "questions": [
+    {
+      "id": "ma-sta-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "On demande à 30 élèves combien de frères et sœurs ils ont. Quelle est la population étudiée ?",
+      "choices": [
+        "Le nombre de frères et sœurs",
+        "La moyenne de la classe",
+        "Les 30 élèves",
+        "Le nombre 30 seul"
+      ],
+      "answer": "Les 30 élèves",
+      "explain": "La population, ce sont les personnes (ou objets) interrogées : ici les 30 élèves."
+    },
+    {
+      "id": "ma-sta-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "On demande à 30 élèves combien de frères et sœurs ils ont. Quel est le caractère étudié ?",
+      "choices": [
+        "Le nombre de frères et sœurs",
+        "Le prénom des élèves",
+        "Les 30 élèves",
+        "La taille de la classe"
+      ],
+      "answer": "Le nombre de frères et sœurs",
+      "explain": "Le caractère est ce que l'on observe sur chaque individu : ici le nombre de frères et sœurs."
+    },
+    {
+      "id": "ma-sta-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le caractère « sport préféré » est-il quantitatif (un nombre) ou qualitatif ? (quantitatif / qualitatif)",
+      "answer": [
+        "qualitatif"
+      ],
+      "explain": "Les réponses (football, tennis...) sont des mots, pas des nombres : le caractère est qualitatif."
+    },
+    {
+      "id": "ma-sta-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le caractère « pointure » est-il quantitatif (un nombre) ou qualitatif ? (quantitatif / qualitatif)",
+      "answer": [
+        "quantitatif"
+      ],
+      "explain": "Les réponses sont des nombres (37, 38...) : le caractère est quantitatif."
+    },
+    {
+      "id": "ma-sta-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le caractère « nombre de buts marqués dans un match » est-il quantitatif ou qualitatif ? (quantitatif / qualitatif)",
+      "answer": [
+        "quantitatif"
+      ],
+      "explain": "Les valeurs sont des nombres : 0, 1, 2..."
+    },
+    {
+      "id": "ma-sta-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le caractère « couleur de maillot » est-il quantitatif ou qualitatif ? (quantitatif / qualitatif)",
+      "answer": [
+        "qualitatif"
+      ],
+      "explain": "Les valeurs sont des couleurs : le caractère est qualitatif."
+    },
+    {
+      "id": "ma-sta-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle le nombre de fois qu'une valeur apparaît dans une série de données ?",
+      "choices": [
+        "La population",
+        "La moyenne",
+        "La fréquence",
+        "L'effectif"
+      ],
+      "answer": "L'effectif",
+      "explain": "L'effectif d'une valeur est son nombre d'apparitions."
+    },
+    {
+      "id": "ma-sta-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle le quotient de l'effectif d'une valeur par l'effectif total ?",
+      "choices": [
+        "Le caractère",
+        "La moyenne",
+        "La fréquence",
+        "L'effectif"
+      ],
+      "answer": "La fréquence",
+      "explain": "Fréquence = effectif de la valeur ÷ effectif total."
+    },
+    {
+      "id": "ma-sta-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'appelle la somme de toutes les valeurs divisée par le nombre de valeurs ?",
+      "choices": [
+        "L'effectif total",
+        "La moyenne",
+        "La fréquence",
+        "Le pourcentage"
+      ],
+      "answer": "La moyenne",
+      "explain": "Moyenne = somme des valeurs ÷ nombre de valeurs."
+    },
+    {
+      "id": "ma-sta-010",
+      "level": 1,
+      "type": "input",
+      "prompt": "Voici les pointures de 8 joueurs : 38 ; 40 ; 39 ; 40 ; 41 ; 40 ; 39 ; 38. Quel est l'effectif de la valeur 38 ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "On compte combien de fois 38 apparaît : 2 fois."
+    },
+    {
+      "id": "ma-sta-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Voici les pointures de 8 joueurs : 38 ; 40 ; 39 ; 40 ; 41 ; 40 ; 39 ; 38. Quel est l'effectif total ?",
+      "choices": [
+        "5",
+        "11",
+        "10",
+        "8"
+      ],
+      "answer": "8",
+      "explain": "Il y a 8 valeurs."
+    },
+    {
+      "id": "ma-sta-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Voici le nombre de buts marqués par une équipe lors de 10 matchs : 1 ; 0 ; 2 ; 1 ; 3 ; 1 ; 0 ; 2 ; 1 ; 4. Quel est l'effectif de la valeur 0 ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "On compte combien de fois 0 apparaît : 2 fois."
+    },
+    {
+      "id": "ma-sta-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Voici le nombre de buts marqués par une équipe lors de 10 matchs : 1 ; 0 ; 2 ; 1 ; 3 ; 1 ; 0 ; 2 ; 1 ; 4. Quel est l'effectif total ?",
+      "choices": [
+        "10",
+        "8",
+        "11",
+        "7"
+      ],
+      "answer": "10",
+      "explain": "Il y a 10 valeurs."
+    },
+    {
+      "id": "ma-sta-014",
+      "level": 1,
+      "type": "input",
+      "prompt": "Voici les notes de 10 élèves à un contrôle : 12 ; 14 ; 12 ; 16 ; 12 ; 14 ; 10 ; 12 ; 14 ; 16. Quel est l'effectif de la valeur 12 ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "On compte combien de fois 12 apparaît : 4 fois."
+    },
+    {
+      "id": "ma-sta-015",
+      "level": 1,
+      "type": "input",
+      "prompt": "Voici les notes de 10 élèves à un contrôle : 12 ; 14 ; 12 ; 16 ; 12 ; 14 ; 10 ; 12 ; 14 ; 16. Quel est l'effectif total ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Il y a 10 valeurs."
+    },
+    {
+      "id": "ma-sta-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans une classe de 24 élèves, 6 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "25",
+        "28",
+        "24",
+        "26"
+      ],
+      "answer": "25",
+      "explain": "6 ÷ 24 = 0,25, soit 25 %."
+    },
+    {
+      "id": "ma-sta-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans une classe de 24 élèves, 12 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "51",
+        "48",
+        "47",
+        "50"
+      ],
+      "answer": "50",
+      "explain": "12 ÷ 24 = 0,5, soit 50 %."
+    },
+    {
+      "id": "ma-sta-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans une classe de 12 élèves, 3 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "26",
+        "24",
+        "25",
+        "22"
+      ],
+      "answer": "25",
+      "explain": "3 ÷ 12 = 0,25, soit 25 %."
+    },
+    {
+      "id": "ma-sta-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Sur 6 tirs, un joueur en marque 3. Quelle est sa fréquence de réussite en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "50"
+      ],
+      "explain": "3 ÷ 6 = 0,5, soit 50 %."
+    },
+    {
+      "id": "ma-sta-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un groupe de 8 personnes, 2 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "choices": [
+        "1/4",
+        "2/5",
+        "1/5",
+        "1/8"
+      ],
+      "answer": "1/4",
+      "explain": "2/8 = 1/4."
+    },
+    {
+      "id": "ma-sta-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans un groupe de 10 personnes, 3 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "answer": [
+        "3/10"
+      ],
+      "explain": "3/10 = 3/10."
+    },
+    {
+      "id": "ma-sta-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule la moyenne de la série : 8 ; 10 ; 12.",
+      "choices": [
+        "10",
+        "9",
+        "13",
+        "12"
+      ],
+      "answer": "10",
+      "explain": "(8 + 10 + 12) ÷ 3 = 30 ÷ 3 = 10."
+    },
+    {
+      "id": "ma-sta-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule la moyenne de la série : 12 ; 14 ; 16 ; 18.",
+      "answer": [
+        "15"
+      ],
+      "explain": "(12 + 14 + 16 + 18) ÷ 4 = 60 ÷ 4 = 15."
+    },
+    {
+      "id": "ma-sta-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule la moyenne de la série : 2 ; 0 ; 3 ; 1 ; 4.",
+      "answer": [
+        "2"
+      ],
+      "explain": "(2 + 0 + 3 + 1 + 4) ÷ 5 = 10 ÷ 5 = 2."
+    },
+    {
+      "id": "ma-sta-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule la moyenne de la série : 10 ; 15.",
+      "choices": [
+        "11,5",
+        "12,5",
+        "12,6",
+        "12,4"
+      ],
+      "answer": "12,5",
+      "explain": "(10 + 15) ÷ 2 = 25 ÷ 2 = 12,5."
+    },
+    {
+      "id": "ma-sta-026",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule la moyenne de la série : 4 ; 4 ; 4 ; 4.",
+      "answer": [
+        "4"
+      ],
+      "explain": "(4 + 4 + 4 + 4) ÷ 4 = 16 ÷ 4 = 4."
+    },
+    {
+      "id": "ma-sta-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un diagramme en barres, la hauteur d'une barre représente :",
+      "choices": [
+        "l'effectif de la valeur (ou sa fréquence)",
+        "l'angle d'un secteur",
+        "la moyenne de la série",
+        "le nom de la population"
+      ],
+      "answer": "l'effectif de la valeur (ou sa fréquence)",
+      "explain": "Plus la barre est haute, plus la valeur a un grand effectif."
+    },
+    {
+      "id": "ma-sta-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une fréquence peut s'écrire :",
+      "choices": [
+        "uniquement sous forme de fraction",
+        "sous forme décimale, de fraction ou de pourcentage",
+        "uniquement avec une virgule",
+        "uniquement en pourcentage"
+      ],
+      "answer": "sous forme décimale, de fraction ou de pourcentage",
+      "explain": "Une fréquence s'exprime en fraction, en nombre décimal ou en pourcentage : 1/4 = 0,25 = 25 %."
+    },
+    {
+      "id": "ma-sta-029",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une fréquence peut-elle être supérieure à 1 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "L'effectif d'une valeur est au plus l'effectif total : la fréquence est comprise entre 0 et 1 (0 % et 100 %)."
+    },
+    {
+      "id": "ma-sta-030",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une série, la somme de toutes les fréquences vaut 1. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Les effectifs ont pour somme l'effectif total, donc les fréquences ont pour somme 1 (100 %)."
+    },
+    {
+      "id": "ma-sta-031",
+      "level": 2,
+      "type": "input",
+      "prompt": "Voici les pointures de 8 joueurs : 38 ; 40 ; 39 ; 40 ; 41 ; 40 ; 39 ; 38. Quelle est la valeur la plus fréquente ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "40 apparaît 3 fois, plus que les autres valeurs."
+    },
+    {
+      "id": "ma-sta-032",
+      "level": 2,
+      "type": "input",
+      "prompt": "Voici le nombre de buts marqués par une équipe lors de 10 matchs : 1 ; 0 ; 2 ; 1 ; 3 ; 1 ; 0 ; 2 ; 1 ; 4. Quelle est la valeur la plus fréquente ?",
+      "answer": [
+        "1"
+      ],
+      "explain": "1 apparaît 4 fois, plus que les autres valeurs."
+    },
+    {
+      "id": "ma-sta-033",
+      "level": 2,
+      "type": "input",
+      "prompt": "Voici les notes de 10 élèves à un contrôle : 12 ; 14 ; 12 ; 16 ; 12 ; 14 ; 10 ; 12 ; 14 ; 16. Quelle est la valeur la plus fréquente ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "12 apparaît 4 fois, plus que les autres valeurs."
+    },
+    {
+      "id": "ma-sta-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Voici le nombre de buts marqués par une équipe lors de 10 matchs : 1 ; 0 ; 2 ; 1 ; 3 ; 1 ; 0 ; 2 ; 1 ; 4. Quel est l'effectif de la valeur 1 ?",
+      "choices": [
+        "2",
+        "5",
+        "4",
+        "6"
+      ],
+      "answer": "4",
+      "explain": "1 apparaît 4 fois."
+    },
+    {
+      "id": "ma-sta-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Voici le nombre de buts marqués par une équipe lors de 10 matchs : 1 ; 0 ; 2 ; 1 ; 3 ; 1 ; 0 ; 2 ; 1 ; 4. Quelle est la fréquence de la valeur 1 en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "40"
+      ],
+      "explain": "4 matchs sur 10 : 4/10 = 0,4 = 40 %."
+    },
+    {
+      "id": "ma-sta-036",
+      "level": 2,
+      "type": "input",
+      "prompt": "Voici les notes de 10 élèves à un contrôle : 12 ; 14 ; 12 ; 16 ; 12 ; 14 ; 10 ; 12 ; 14 ; 16. Quelle est la fréquence de la note 12 en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "40"
+      ],
+      "explain": "12 apparaît 4 fois sur 10 : 4/10 = 40 %."
+    },
+    {
+      "id": "ma-sta-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans une classe de 36 élèves, 9 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "26",
+        "25",
+        "27",
+        "22"
+      ],
+      "answer": "25",
+      "explain": "9 ÷ 36 = 0,25, soit 25 %."
+    },
+    {
+      "id": "ma-sta-038",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une classe de 20 élèves, 15 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "75"
+      ],
+      "explain": "15 ÷ 20 = 0,75, soit 75 %."
+    },
+    {
+      "id": "ma-sta-039",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une classe de 40 élèves, 8 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "20"
+      ],
+      "explain": "8 ÷ 40 = 0,2, soit 20 %."
+    },
+    {
+      "id": "ma-sta-040",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une classe de 20 élèves, 14 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "70"
+      ],
+      "explain": "14 ÷ 20 = 0,7, soit 70 %."
+    },
+    {
+      "id": "ma-sta-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une classe de 50 élèves, 30 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "60"
+      ],
+      "explain": "30 ÷ 50 = 0,6, soit 60 %."
+    },
+    {
+      "id": "ma-sta-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une classe de 30 élèves, 27 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "90"
+      ],
+      "explain": "27 ÷ 30 = 0,9, soit 90 %."
+    },
+    {
+      "id": "ma-sta-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un groupe de 24 personnes, 6 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "answer": [
+        "1/4"
+      ],
+      "explain": "6/24 = 1/4."
+    },
+    {
+      "id": "ma-sta-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un groupe de 60 personnes, 15 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "choices": [
+        "1/4",
+        "2/5",
+        "1/8",
+        "1/5"
+      ],
+      "answer": "1/4",
+      "explain": "15/60 = 1/4."
+    },
+    {
+      "id": "ma-sta-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un groupe de 12 personnes, 9 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "choices": [
+        "4/5",
+        "3/5",
+        "3/4",
+        "3/8"
+      ],
+      "answer": "3/4",
+      "explain": "9/12 = 3/4."
+    },
+    {
+      "id": "ma-sta-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un groupe de 5 personnes, 4 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "answer": [
+        "4/5"
+      ],
+      "explain": "4/5 = 4/5."
+    },
+    {
+      "id": "ma-sta-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans une classe de 25 élèves, voici les effectifs par pointure : pointure 37 : 5 élèves ; pointure 38 : 7 élèves ; pointure 40 : 6 élèves ; pointure 41 : 2 élèves ; pointure 42 : 4 élèves ; pointure 43 : 1 élèves. Combien d'élèves chaussent au moins du 40 ?",
+      "choices": [
+        "11",
+        "15",
+        "12",
+        "13"
+      ],
+      "answer": "13",
+      "explain": "6 + 2 + 4 + 1 = 13 élèves."
+    },
+    {
+      "id": "ma-sta-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une classe de 25 élèves, voici les effectifs par pointure : pointure 37 : 5 élèves ; pointure 38 : 7 élèves ; pointure 40 : 6 élèves ; pointure 41 : 2 élèves ; pointure 42 : 4 élèves ; pointure 43 : 1 élèves. Combien d'élèves chaussent moins que du 40 ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "5 + 7 = 12 élèves."
+    },
+    {
+      "id": "ma-sta-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une classe de 25 élèves, voici les effectifs par pointure : pointure 37 : 5 élèves ; pointure 38 : 7 élèves ; pointure 40 : 6 élèves ; pointure 41 : 2 élèves ; pointure 42 : 4 élèves ; pointure 43 : 1 élèves. Quelle pointure est la plus fréquente ?",
+      "answer": [
+        "38"
+      ],
+      "explain": "38 a l'effectif le plus grand (7)."
+    },
+    {
+      "id": "ma-sta-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une équipe a joué 15 matchs. Effectifs du nombre de buts marqués : 0 but(s) : 3 match(s) ; 1 but(s) : 5 match(s) ; 2 but(s) : 4 match(s) ; 3 but(s) : 2 match(s) ; 4 but(s) : 1 match(s). Dans combien de matchs a-t-elle marqué au moins 2 buts ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "4 + 2 + 1 = 7 matchs."
+    },
+    {
+      "id": "ma-sta-051",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une équipe a joué 15 matchs. Effectifs du nombre de buts marqués : 0 but(s) : 3 match(s) ; 1 but(s) : 5 match(s) ; 2 but(s) : 4 match(s) ; 3 but(s) : 2 match(s) ; 4 but(s) : 1 match(s). Dans combien de matchs n'a-t-elle marqué aucun but ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "L'effectif de la valeur 0 est 3."
+    },
+    {
+      "id": "ma-sta-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un tableau d'effectifs, les effectifs de quatre valeurs sont 5, 8, 4 et 3. Quel est l'effectif total ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "5 + 8 + 4 + 3 = 20."
+    },
+    {
+      "id": "ma-sta-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule la moyenne de la série : 5 ; 7 ; 9 ; 11.",
+      "answer": [
+        "8"
+      ],
+      "explain": "(5 + 7 + 9 + 11) ÷ 4 = 32 ÷ 4 = 8."
+    },
+    {
+      "id": "ma-sta-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule la moyenne de la série : 6 ; 9.",
+      "choices": [
+        "7",
+        "8",
+        "7,5",
+        "6,5"
+      ],
+      "answer": "7,5",
+      "explain": "(6 + 9) ÷ 2 = 15 ÷ 2 = 7,5."
+    },
+    {
+      "id": "ma-sta-055",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule la moyenne de la série : 20 ; 5 ; 10 ; 15.",
+      "answer": [
+        "12,5",
+        "12.5"
+      ],
+      "explain": "(20 + 5 + 10 + 15) ÷ 4 = 50 ÷ 4 = 12,5."
+    },
+    {
+      "id": "ma-sta-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule la moyenne de la série : 3 ; 5 ; 7 ; 9 ; 11.",
+      "choices": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "answer": "7",
+      "explain": "(3 + 5 + 7 + 9 + 11) ÷ 5 = 35 ÷ 5 = 7."
+    },
+    {
+      "id": "ma-sta-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule la moyenne de la série : 13 ; 17 ; 12 ; 18.",
+      "answer": [
+        "15"
+      ],
+      "explain": "(13 + 17 + 12 + 18) ÷ 4 = 60 ÷ 4 = 15."
+    },
+    {
+      "id": "ma-sta-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule la moyenne de la série : 0 ; 5 ; 10 ; 15 ; 20.",
+      "choices": [
+        "11",
+        "10",
+        "12",
+        "7"
+      ],
+      "answer": "10",
+      "explain": "(0 + 5 + 10 + 15 + 20) ÷ 5 = 50 ÷ 5 = 10."
+    },
+    {
+      "id": "ma-sta-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule la moyenne de la série : 9 ; 12 ; 15.",
+      "answer": [
+        "12"
+      ],
+      "explain": "(9 + 12 + 15) ÷ 3 = 36 ÷ 3 = 12."
+    },
+    {
+      "id": "ma-sta-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un joueur a marqué 2 ; 0 ; 3 ; 1 ; 4 buts lors de cinq matchs. Quel est le nombre moyen de buts par match ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "(2 + 0 + 3 + 1 + 4) ÷ 5 = 10 ÷ 5 = 2."
+    },
+    {
+      "id": "ma-sta-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une classe a obtenu les notes 12 ; 15 ; 9 ; 14. Quelle est la moyenne ?",
+      "choices": [
+        "11,5",
+        "13,5",
+        "12,6",
+        "12,5"
+      ],
+      "answer": "12,5",
+      "explain": "(12 + 15 + 9 + 14) ÷ 4 = 50 ÷ 4 = 12,5."
+    },
+    {
+      "id": "ma-sta-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "La moyenne de 4 notes est 12. Quelle est la somme de ces 4 notes ?",
+      "answer": [
+        "48"
+      ],
+      "explain": "Somme = moyenne × nombre de notes = 12 × 4 = 48."
+    },
+    {
+      "id": "ma-sta-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une moyenne est-elle toujours une valeur de la série ?",
+      "choices": [
+        "Oui, toujours",
+        "Oui, c'est la valeur la plus fréquente",
+        "Oui, c'est la plus grande valeur",
+        "Non, ce peut être un autre nombre"
+      ],
+      "answer": "Non, ce peut être un autre nombre",
+      "explain": "Par exemple la moyenne de 1 et 2 est 1,5, qui n'est pas dans la série."
+    },
+    {
+      "id": "ma-sta-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La moyenne d'une série de notes est :",
+      "choices": [
+        "toujours égale à la note la plus fréquente",
+        "toujours plus grande que la plus grande note",
+        "comprise entre la plus petite et la plus grande note",
+        "toujours plus petite que la plus petite note"
+      ],
+      "answer": "comprise entre la plus petite et la plus grande note",
+      "explain": "La moyenne se situe entre le minimum et le maximum de la série."
+    },
+    {
+      "id": "ma-sta-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un diagramme circulaire sert surtout à :",
+      "choices": [
+        "visualiser la part de chaque valeur dans le total",
+        "calculer une vitesse",
+        "suivre l'évolution d'une grandeur au cours du temps",
+        "mesurer des angles"
+      ],
+      "answer": "visualiser la part de chaque valeur dans le total",
+      "explain": "Le diagramme circulaire montre des parts d'un tout (comparées à 50 %, 25 %...)."
+    },
+    {
+      "id": "ma-sta-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour suivre l'évolution de la température heure par heure, on choisit plutôt :",
+      "choices": [
+        "un graphique cartésien (courbe)",
+        "un diagramme à bandes unique",
+        "un tableau de prénoms",
+        "un diagramme circulaire"
+      ],
+      "answer": "un graphique cartésien (courbe)",
+      "explain": "Une courbe dans un repère (temps en abscisse) montre une évolution."
+    },
+    {
+      "id": "ma-sta-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour comparer le nombre de buts marqués par 4 équipes, on choisit plutôt :",
+      "choices": [
+        "un nuage de points sans axes",
+        "un diagramme en barres",
+        "un diagramme circulaire de 4 secteurs égaux",
+        "un seul nombre : la moyenne"
+      ],
+      "answer": "un diagramme en barres",
+      "explain": "Le diagramme en barres permet de comparer facilement des effectifs."
+    },
+    {
+      "id": "ma-sta-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un diagramme en barres, la barre « souvent » mesure 40 et la barre « parfois » mesure 20. Paul dit : « il y a deux fois plus de réponses souvent que parfois ». A-t-il raison ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "40 = 2 × 20 : il y a bien deux fois plus de réponses « souvent »."
+    },
+    {
+      "id": "ma-sta-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un diagramme circulaire, un secteur de 90° représente quelle fréquence en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "25"
+      ],
+      "explain": "90° sur 360° : 90 ÷ 360 = 1/4 = 25 %."
+    },
+    {
+      "id": "ma-sta-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un diagramme circulaire, un secteur de 180° représente quelle fréquence en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "50",
+        "53",
+        "47",
+        "48"
+      ],
+      "answer": "50",
+      "explain": "180° sur 360° : la moitié, 50 %."
+    },
+    {
+      "id": "ma-sta-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un diagramme circulaire, un secteur représente 25 % du total. Quel est son angle, en degrés ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "25 % de 360° = 360 ÷ 4 = 90°."
+    },
+    {
+      "id": "ma-sta-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Sur 20 lancers d'un dé, on a obtenu 5 fois le 6. Quelle est la fréquence de la face 6 en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "25"
+      ],
+      "explain": "5 ÷ 20 = 1/4 = 25 %."
+    },
+    {
+      "id": "ma-sta-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "En 40 matchs, un club a gagné 24 fois. Quelle est la fréquence des victoires en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "60",
+        "59",
+        "57",
+        "58"
+      ],
+      "answer": "60",
+      "explain": "24 ÷ 40 = 0,6 = 60 %."
+    },
+    {
+      "id": "ma-sta-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une série a quatre valeurs. Les fréquences de trois d'entre elles sont 0,2 ; 0,3 et 0,1. Quelle est la fréquence de la quatrième ?",
+      "answer": [
+        "0,4",
+        "0.4"
+      ],
+      "explain": "Les fréquences ont pour somme 1 : 1 − (0,2 + 0,3 + 0,1) = 0,4."
+    },
+    {
+      "id": "ma-sta-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Voici les pointures de 8 joueurs : 38 ; 40 ; 39 ; 40 ; 41 ; 40 ; 39 ; 38. Quelle est la fréquence de la pointure 40 sous forme de fraction simplifiée ?",
+      "choices": [
+        "3/7",
+        "3/8",
+        "4/9",
+        "3/16"
+      ],
+      "answer": "3/8",
+      "explain": "40 apparaît 3 fois sur 8 : 3/8."
+    },
+    {
+      "id": "ma-sta-076",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Voici les pointures de 8 joueurs : 38 ; 40 ; 39 ; 40 ; 41 ; 40 ; 39 ; 38. Quelle est la fréquence de la pointure 38 sous forme décimale ?",
+      "choices": [
+        "0,35",
+        "0,25",
+        "0,75",
+        "0,5"
+      ],
+      "answer": "0,25",
+      "explain": "38 apparaît 2 fois sur 8 : 2/8 = 1/4 = 0,25."
+    },
+    {
+      "id": "ma-sta-077",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans une classe de 20 élèves, 9 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "45"
+      ],
+      "explain": "9 ÷ 20 = 0,45, soit 45 %."
+    },
+    {
+      "id": "ma-sta-078",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans une classe de 50 élèves, 13 jouent au football. Quelle est la fréquence des footballeurs en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "26"
+      ],
+      "explain": "13 ÷ 50 = 0,26, soit 26 %."
+    },
+    {
+      "id": "ma-sta-079",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur 8 tirs, un joueur en marque 3. Quelle est sa fréquence de réussite en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "37,5",
+        "37.5"
+      ],
+      "explain": "3 ÷ 8 = 0,375, soit 37,5 %."
+    },
+    {
+      "id": "ma-sta-080",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans un groupe de 24 personnes, 18 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "answer": [
+        "3/4"
+      ],
+      "explain": "18/24 = 3/4."
+    },
+    {
+      "id": "ma-sta-081",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans un groupe de 28 personnes, 21 ont plus de 12 ans. Quelle est leur fréquence sous forme de fraction simplifiée ?",
+      "answer": [
+        "3/4"
+      ],
+      "explain": "21/28 = 3/4."
+    },
+    {
+      "id": "ma-sta-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans une classe de 25 élèves, voici les effectifs par pointure : pointure 37 : 5 élèves ; pointure 38 : 7 élèves ; pointure 40 : 6 élèves ; pointure 41 : 2 élèves ; pointure 42 : 4 élèves ; pointure 43 : 1 élèves. Quelle est la fréquence des élèves qui chaussent au moins du 42, en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "18",
+        "20",
+        "22",
+        "21"
+      ],
+      "answer": "20",
+      "explain": "4 + 1 = 5 élèves sur 25 : 5/25 = 0,2 = 20 %."
+    },
+    {
+      "id": "ma-sta-083",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans une classe de 25 élèves, voici les effectifs par pointure : pointure 37 : 5 élèves ; pointure 38 : 7 élèves ; pointure 40 : 6 élèves ; pointure 41 : 2 élèves ; pointure 42 : 4 élèves ; pointure 43 : 1 élèves. Quelle est la fréquence des élèves qui chaussent du 38, en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "28"
+      ],
+      "explain": "7 élèves sur 25 : 7/25 = 28/100 = 28 %."
+    },
+    {
+      "id": "ma-sta-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une équipe a joué 15 matchs. Effectifs du nombre de buts marqués : 0 but(s) : 3 match(s) ; 1 but(s) : 5 match(s) ; 2 but(s) : 4 match(s) ; 3 but(s) : 2 match(s) ; 4 but(s) : 1 match(s). Quelle est la fréquence des matchs sans but, sous forme de fraction simplifiée ?",
+      "choices": [
+        "1/6",
+        "1/10",
+        "1/5",
+        "3/5"
+      ],
+      "answer": "1/5",
+      "explain": "3 matchs sur 15 : 3/15 = 1/5."
+    },
+    {
+      "id": "ma-sta-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une équipe a joué 15 matchs. Effectifs du nombre de buts marqués : 0 but(s) : 3 match(s) ; 1 but(s) : 5 match(s) ; 2 but(s) : 4 match(s) ; 3 but(s) : 2 match(s) ; 4 but(s) : 1 match(s). Combien de buts l'équipe a-t-elle marqués en tout ?",
+      "choices": [
+        "23",
+        "20",
+        "21",
+        "22"
+      ],
+      "answer": "23",
+      "explain": "0 × 3 + 1 × 5 + 2 × 4 + 3 × 2 + 4 × 1 = 0 + 5 + 8 + 6 + 4 = 23."
+    },
+    {
+      "id": "ma-sta-086",
+      "level": 3,
+      "type": "input",
+      "prompt": "L'effectif total d'une série est 30. Trois valeurs ont pour effectifs 8, 12 et 6. Quel est l'effectif de la dernière valeur ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "30 − (8 + 12 + 6) = 30 − 26 = 4."
+    },
+    {
+      "id": "ma-sta-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule la moyenne de la série : 1 ; 2 ; 3 ; 4.",
+      "choices": [
+        "2,6",
+        "3,5",
+        "2,5",
+        "2,4"
+      ],
+      "answer": "2,5",
+      "explain": "(1 + 2 + 3 + 4) ÷ 4 = 10 ÷ 4 = 2,5."
+    },
+    {
+      "id": "ma-sta-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un coureur a parcouru 21 km en 3 jours. Quelle est la distance moyenne par jour, en km ?",
+      "choices": [
+        "4",
+        "9",
+        "8",
+        "7"
+      ],
+      "answer": "7",
+      "explain": "21 ÷ 3 = 7 km par jour."
+    },
+    {
+      "id": "ma-sta-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "En 10 jours, un club a vendu 250 billets. Quel est le nombre moyen de billets vendus par jour ?",
+      "choices": [
+        "24",
+        "23",
+        "25",
+        "26"
+      ],
+      "answer": "25",
+      "explain": "250 ÷ 10 = 25 billets par jour."
+    },
+    {
+      "id": "ma-sta-090",
+      "level": 3,
+      "type": "input",
+      "prompt": "La moyenne de 3 nombres est 10. Deux de ces nombres sont 8 et 12. Quel est le troisième ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Somme = 3 × 10 = 30 ; 30 − (8 + 12) = 10."
+    },
+    {
+      "id": "ma-sta-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Léo a 12 et 14 à deux contrôles. Quelle note doit-il avoir au troisième pour que sa moyenne soit 15 ?",
+      "choices": [
+        "16",
+        "20",
+        "18",
+        "19"
+      ],
+      "answer": "19",
+      "explain": "Somme voulue : 3 × 15 = 45 ; 45 − (12 + 14) = 19."
+    },
+    {
+      "id": "ma-sta-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une joueuse a une moyenne de 6 buts sur 4 matchs. Combien de buts a-t-elle marqués en tout ?",
+      "choices": [
+        "24",
+        "25",
+        "22",
+        "21"
+      ],
+      "answer": "24",
+      "explain": "6 × 4 = 24 buts."
+    },
+    {
+      "id": "ma-sta-093",
+      "level": 3,
+      "type": "input",
+      "prompt": "La moyenne de deux nombres est 7. L'un est 4. Quel est l'autre ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Somme = 2 × 7 = 14 ; 14 − 4 = 10."
+    },
+    {
+      "id": "ma-sta-094",
+      "level": 3,
+      "type": "input",
+      "prompt": "Les notes de Zoé sont 10 ; 12 ; 14. On ajoute 2 points à chaque note. De combien la moyenne augmente-t-elle ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "Si toutes les données augmentent de 2, la moyenne augmente de 2 : de 12 à 14."
+    },
+    {
+      "id": "ma-sta-095",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quatre athlètes ont lancé le javelot à 60 m, 70 m, 80 m et 70 m. Quelle est la longueur moyenne, en m ?",
+      "answer": [
+        "70"
+      ],
+      "explain": "(60 + 70 + 80 + 70) ÷ 4 = 280 ÷ 4 = 70 m."
+    },
+    {
+      "id": "ma-sta-096",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Chaque athlète de la série 60 ; 70 ; 80 ; 70 améliore son jet de 1 m. Quelle est la nouvelle longueur moyenne, en m ?",
+      "choices": [
+        "70",
+        "71",
+        "72",
+        "74"
+      ],
+      "answer": "71",
+      "explain": "Toutes les données augmentent de 1 m : la moyenne passe de 70 à 71 m."
+    },
+    {
+      "id": "ma-sta-097",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une série de notes est : 5 ; 5 ; 5 ; 20. Quelle phrase est vraie ?",
+      "choices": [
+        "La moyenne est égale à 20",
+        "La moyenne est plus petite que toutes les notes",
+        "La moyenne (8,75) est plus grande que trois des quatre notes",
+        "La moyenne est égale à 5"
+      ],
+      "answer": "La moyenne (8,75) est plus grande que trois des quatre notes",
+      "explain": "(5 + 5 + 5 + 20) ÷ 4 = 35 ÷ 4 = 8,75."
+    },
+    {
+      "id": "ma-sta-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une série a pour effectifs : la note 10 apparaît 2 fois et la note 16 apparaît 3 fois. Quelle est la moyenne ?",
+      "choices": [
+        "13,6",
+        "14,6",
+        "13,5",
+        "13,7"
+      ],
+      "answer": "13,6",
+      "explain": "(10 × 2 + 16 × 3) ÷ 5 = (20 + 48) ÷ 5 = 68 ÷ 5 = 13,6."
+    },
+    {
+      "id": "ma-sta-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un test, 2 élèves ont eu 10 et 2 élèves ont eu 18. Quelle est la moyenne ?",
+      "choices": [
+        "11",
+        "14",
+        "12",
+        "17"
+      ],
+      "answer": "14",
+      "explain": "(10 + 10 + 18 + 18) ÷ 4 = 56 ÷ 4 = 14."
+    },
+    {
+      "id": "ma-sta-100",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans un diagramme circulaire, un secteur représente 10 % du total. Quel est son angle, en degrés ?",
+      "answer": [
+        "36"
+      ],
+      "explain": "10 % de 360° = 36°."
+    },
+    {
+      "id": "ma-sta-101",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans une classe de 24 élèves, 6 viennent à pied. Quel est l'angle du secteur « à pied » dans un diagramme circulaire, en degrés ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "6 ÷ 24 = 1/4 et 1/4 de 360° = 90°."
+    },
+    {
+      "id": "ma-sta-102",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans une classe de 30 élèves, 5 aiment le tennis. Quel est l'angle du secteur « tennis » dans un diagramme circulaire, en degrés ?",
+      "choices": [
+        "60",
+        "30",
+        "58",
+        "120"
+      ],
+      "answer": "60",
+      "explain": "5 ÷ 30 = 1/6 et 360° ÷ 6 = 60°."
+    },
+    {
+      "id": "ma-sta-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un diagramme circulaire, trois secteurs représentent 50 %, 30 % et 15 %. Quel pourcentage représente le quatrième secteur ? (donne seulement le nombre)",
+      "choices": [
+        "2",
+        "6",
+        "5",
+        "3"
+      ],
+      "answer": "5",
+      "explain": "100 − (50 + 30 + 15) = 5 %."
+    },
+    {
+      "id": "ma-sta-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans la ville Alpha (2000 licenciés), 25 % pratiquent un sport collectif. Dans la ville Bêta (3000 licenciés), 20 % en pratiquent un. Tom dit : « Il y a moins de pratiquants de sports collectifs à Bêta ». Pourquoi est-ce faux ?",
+      "choices": [
+        "Parce que les deux villes ont le même nombre de pratiquants",
+        "Parce que Bêta a moins de licenciés",
+        "Il y a 500 pratiquants à Alpha et 600 à Bêta",
+        "Parce que 20 est plus grand que 25"
+      ],
+      "answer": "Il y a 500 pratiquants à Alpha et 600 à Bêta",
+      "explain": "25 % de 2000 = 500 et 20 % de 3000 = 600 : un pourcentage plus petit peut représenter plus de personnes."
+    },
+    {
+      "id": "ma-sta-105",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un graphique en barres a un axe vertical qui commence à 90 au lieu de 0. Quel effet cela a-t-il ?",
+      "choices": [
+        "Il rend toutes les barres égales",
+        "Il exagère les différences entre les barres",
+        "Il cache les différences entre les barres",
+        "Il ne change pas l'impression visuelle"
+      ],
+      "answer": "Il exagère les différences entre les barres",
+      "explain": "Quand l'axe ne part pas de 0, de petites différences paraissent très grandes : la présentation est trompeuse."
+    },
+    {
+      "id": "ma-sta-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un diagramme en barres montre 60 réponses « oui » et 20 réponses « non ». Combien de fois plus y a-t-il de « oui » que de « non » ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "60 ÷ 20 = 3."
+    },
+    {
+      "id": "ma-sta-107",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un sondage donne : oui 45 %, non 35 %, sans avis le reste. Quel pourcentage représentent les sans avis ? (donne seulement le nombre)",
+      "answer": [
+        "20"
+      ],
+      "explain": "100 − (45 + 35) = 20 %."
+    },
+    {
+      "id": "ma-sta-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un graphique montre que le nombre de spectateurs passe de 200 à 300. Quelle est l'augmentation en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "49",
+        "51",
+        "52",
+        "50"
+      ],
+      "answer": "50",
+      "explain": "L'augmentation est 100, et 100 ÷ 200 = 0,5 = 50 %."
+    },
+    {
+      "id": "ma-sta-109",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un club a joué 20 matchs. Il en a gagné 11, fait 5 nuls et perdu les autres. Quelle est la fréquence des défaites en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "17",
+        "21",
+        "23",
+        "20"
+      ],
+      "answer": "20",
+      "explain": "20 − 11 − 5 = 4 défaites ; 4 ÷ 20 = 20 %."
+    },
+    {
+      "id": "ma-sta-110",
+      "level": 1,
+      "type": "input",
+      "prompt": "D'après le diagramme, combien d'élèves ont choisi le judo ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "La barre du judo monte jusqu'à la graduation 5.",
+      "figure": {
+        "type": "bar",
+        "cats": [
+          "Foot",
+          "Judo",
+          "Danse",
+          "Tennis"
+        ],
+        "values": [
+          10,
+          5,
+          15,
+          20
+        ],
+        "ymax": 20,
+        "ystep": 5,
+        "xTitle": "Sport choisi",
+        "yTitle": "Nombre d'élèves"
+      }
+    },
+    {
+      "id": "ma-sta-111",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "D'après le diagramme, quel sport a été le plus choisi ?",
+      "choices": [
+        "Tennis",
+        "Foot",
+        "Judo",
+        "Danse"
+      ],
+      "answer": "Tennis",
+      "explain": "La barre la plus haute est celle du tennis (20 élèves).",
+      "figure": {
+        "type": "bar",
+        "cats": [
+          "Foot",
+          "Judo",
+          "Danse",
+          "Tennis"
+        ],
+        "values": [
+          10,
+          5,
+          15,
+          20
+        ],
+        "ymax": 20,
+        "ystep": 5,
+        "xTitle": "Sport choisi",
+        "yTitle": "Nombre d'élèves"
+      }
+    },
+    {
+      "id": "ma-sta-112",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien d'élèves ont été interrogés en tout ?",
+      "answer": [
+        "50"
+      ],
+      "explain": "On additionne les effectifs : 10 + 5 + 15 + 20 = 50.",
+      "figure": {
+        "type": "bar",
+        "cats": [
+          "Foot",
+          "Judo",
+          "Danse",
+          "Tennis"
+        ],
+        "values": [
+          10,
+          5,
+          15,
+          20
+        ],
+        "ymax": 20,
+        "ystep": 5,
+        "xTitle": "Sport choisi",
+        "yTitle": "Nombre d'élèves"
+      }
+    },
+    {
+      "id": "ma-sta-113",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien d'élèves de plus ont choisi le tennis que le judo ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "20 − 5 = 15 élèves de plus.",
+      "figure": {
+        "type": "bar",
+        "cats": [
+          "Foot",
+          "Judo",
+          "Danse",
+          "Tennis"
+        ],
+        "values": [
+          10,
+          5,
+          15,
+          20
+        ],
+        "ymax": 20,
+        "ystep": 5,
+        "xTitle": "Sport choisi",
+        "yTitle": "Nombre d'élèves"
+      }
+    },
+    {
+      "id": "ma-sta-114",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel pourcentage des élèves a choisi le bleu ? (donne seulement le nombre)",
+      "answer": [
+        "30"
+      ],
+      "explain": "Total : 10 + 6 + 2 + 2 = 20 élèves. Le bleu : 6 ÷ 20 = 0,3 = 30 %.",
+      "figure": {
+        "type": "bar",
+        "cats": [
+          "Rouge",
+          "Bleu",
+          "Vert",
+          "Noir"
+        ],
+        "values": [
+          10,
+          6,
+          2,
+          2
+        ],
+        "ymax": 10,
+        "ystep": 2,
+        "xTitle": "Couleur préférée",
+        "yTitle": "Élèves"
+      }
+    },
+    {
+      "id": "ma-sta-115",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la moyenne de buts marqués par match ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "Total : 2 + 0 + 3 + 1 + 4 = 10 buts en 5 matchs, soit 10 ÷ 5 = 2 buts par match.",
+      "figure": {
+        "type": "bar",
+        "cats": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "values": [
+          2,
+          0,
+          3,
+          1,
+          4
+        ],
+        "ymax": 5,
+        "ystep": 1,
+        "xTitle": "Match",
+        "yTitle": "Buts marqués",
+        "show": "all"
+      }
+    },
+    {
+      "id": "ma-sta-116",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est l'étendue de cette série (plus grand nombre de buts moins plus petit) ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "Le maximum est 4 et le minimum est 0 : 4 − 0 = 4.",
+      "figure": {
+        "type": "bar",
+        "cats": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "values": [
+          2,
+          0,
+          3,
+          1,
+          4
+        ],
+        "ymax": 5,
+        "ystep": 1,
+        "xTitle": "Match",
+        "yTitle": "Buts marqués",
+        "show": "all"
+      }
+    },
+    {
+      "id": "ma-sta-117",
+      "level": 1,
+      "type": "input",
+      "prompt": "D'après la courbe, quelle est la température en avril, en °C ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "Le point d'avril est à la hauteur 20.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "cats": [
+            "Jan",
+            "Fév",
+            "Mar",
+            "Avr",
+            "Mai",
+            "Juin"
+          ],
+          "title": "Mois"
+        },
+        "y": {
+          "min": 0,
+          "max": 25,
+          "step": 5,
+          "title": "Température (°C)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                3,
+                20
+              ],
+              [
+                4,
+                25
+              ],
+              [
+                5,
+                25
+              ]
+            ],
+            "labels": "all"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-118",
+      "level": 2,
+      "type": "input",
+      "prompt": "D'après la courbe, quelle est la température en mars, en °C ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Le point de mars est à la hauteur 10.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "cats": [
+            "Jan",
+            "Fév",
+            "Mar",
+            "Avr",
+            "Mai",
+            "Juin"
+          ],
+          "title": "Mois"
+        },
+        "y": {
+          "min": 0,
+          "max": 25,
+          "step": 5,
+          "title": "Température (°C)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                3,
+                20
+              ],
+              [
+                4,
+                25
+              ],
+              [
+                5,
+                25
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-119",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Entre quels mois la température a-t-elle le plus augmenté ?",
+      "choices": [
+        "Mars et avril",
+        "Février et mars",
+        "Avril et mai",
+        "Janvier et février"
+      ],
+      "answer": "Mars et avril",
+      "explain": "La hausse est de 0, 5, 10 puis 5 °C : la plus forte, 10 °C, a lieu entre mars et avril.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "cats": [
+            "Jan",
+            "Fév",
+            "Mar",
+            "Avr",
+            "Mai",
+            "Juin"
+          ],
+          "title": "Mois"
+        },
+        "y": {
+          "min": 0,
+          "max": 25,
+          "step": 5,
+          "title": "Température (°C)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                3,
+                20
+              ],
+              [
+                4,
+                25
+              ],
+              [
+                5,
+                25
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-120",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est l'étendue des températures (la plus haute moins la plus basse), en °C ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "25 − 5 = 20 °C.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "cats": [
+            "Jan",
+            "Fév",
+            "Mar",
+            "Avr",
+            "Mai",
+            "Juin"
+          ],
+          "title": "Mois"
+        },
+        "y": {
+          "min": 0,
+          "max": 25,
+          "step": 5,
+          "title": "Température (°C)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                3,
+                20
+              ],
+              [
+                4,
+                25
+              ],
+              [
+                5,
+                25
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-121",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans ce diagramme circulaire, quel pourcentage représente le tennis ? (donne seulement le nombre)",
+      "answer": [
+        "15"
+      ],
+      "explain": "Le total vaut 100 % : 100 − (40 + 25 + 20) = 15 %.",
+      "figure": {
+        "type": "pie",
+        "parts": [
+          {
+            "v": 40,
+            "name": "Foot",
+            "text": "40 %"
+          },
+          {
+            "v": 25,
+            "name": "Judo",
+            "text": "25 %"
+          },
+          {
+            "v": 20,
+            "name": "Danse",
+            "text": "20 %"
+          },
+          {
+            "v": 15,
+            "name": "Tennis",
+            "text": "?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-122",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel sport est choisi par la moitié des élèves ?",
+      "choices": [
+        "Foot",
+        "Judo",
+        "Aucun",
+        "Danse"
+      ],
+      "answer": "Foot",
+      "explain": "Une moitié, c'est 50 % : c'est le foot.",
+      "figure": {
+        "type": "pie",
+        "parts": [
+          {
+            "v": 50,
+            "name": "Foot",
+            "text": "50 %"
+          },
+          {
+            "v": 25,
+            "name": "Judo",
+            "text": "25 %"
+          },
+          {
+            "v": 25,
+            "name": "Danse",
+            "text": "25 %"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-123",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans cette classe de 40 élèves, combien d'élèves ont choisi la danse ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "25 % de 40 : 40 ÷ 4 = 10 élèves.",
+      "figure": {
+        "type": "pie",
+        "parts": [
+          {
+            "v": 50,
+            "name": "Foot",
+            "text": "50 %"
+          },
+          {
+            "v": 25,
+            "name": "Judo",
+            "text": "25 %"
+          },
+          {
+            "v": 25,
+            "name": "Danse",
+            "text": "25 %"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-124",
+      "level": 3,
+      "type": "input",
+      "prompt": "On a interrogé 80 élèves. Combien ont choisi la danse ?",
+      "answer": [
+        "16"
+      ],
+      "explain": "20 % de 80 : 80 ÷ 5 = 16 élèves.",
+      "figure": {
+        "type": "pie",
+        "parts": [
+          {
+            "v": 40,
+            "name": "Foot",
+            "text": "40 %"
+          },
+          {
+            "v": 25,
+            "name": "Judo",
+            "text": "25 %"
+          },
+          {
+            "v": 20,
+            "name": "Danse",
+            "text": "20 %"
+          },
+          {
+            "v": 15,
+            "name": "Tennis",
+            "text": "15 %"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-125",
+      "level": 3,
+      "type": "input",
+      "prompt": "Les nombres indiqués sont des effectifs. Quel pourcentage des élèves a choisi le bleu ? (donne seulement le nombre)",
+      "answer": [
+        "20"
+      ],
+      "explain": "Total : 12 + 8 + 4 + 16 = 40 élèves. Le bleu : 8 ÷ 40 = 0,2 = 20 %.",
+      "figure": {
+        "type": "pie",
+        "parts": [
+          {
+            "v": 12,
+            "name": "Jaune",
+            "text": "12"
+          },
+          {
+            "v": 8,
+            "name": "Bleu",
+            "text": "8"
+          },
+          {
+            "v": 4,
+            "name": "Vert",
+            "text": "4"
+          },
+          {
+            "v": 16,
+            "name": "Rouge",
+            "text": "16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sta-126",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel sport est le moins pratiqué ?",
+      "choices": [
+        "Foot",
+        "Judo",
+        "Tennis",
+        "Danse"
+      ],
+      "answer": "Tennis",
+      "explain": "Le plus petit secteur est celui du tennis.",
+      "figure": {
+        "type": "pie",
+        "parts": [
+          {
+            "v": 50,
+            "name": "Foot"
+          },
+          {
+            "v": 25,
+            "name": "Judo"
+          },
+          {
+            "v": 15,
+            "name": "Danse"
+          },
+          {
+            "v": 10,
+            "name": "Tennis"
+          }
+        ]
+      }
+    }
+  ]
+}

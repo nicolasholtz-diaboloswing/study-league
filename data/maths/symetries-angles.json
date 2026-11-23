@@ -959,6 +959,930 @@
       ],
       "answer": "Les droites (AB) et (CD) sont parallèles",
       "explain": "La Conclusion donne le résultat : les droites (AB) et (CD) sont parallèles."
+    },
+    {
+      "id": "ma-sa-075",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel point est le symétrique du point A par rapport à la droite (d) ?",
+      "choices": [
+        "M",
+        "N",
+        "R",
+        "P"
+      ],
+      "answer": "N",
+      "explain": "A est à 3 carreaux à gauche de (d) : son symétrique est à 3 carreaux à droite, sur la même ligne : c'est le point N.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "axis": {
+          "p": [
+            5,
+            0
+          ],
+          "q": [
+            5,
+            7
+          ],
+          "name": "(d)"
+        },
+        "points": [
+          {
+            "p": [
+              8,
+              2
+            ],
+            "name": "M"
+          },
+          {
+            "p": [
+              8.0,
+              4.0
+            ],
+            "name": "N"
+          },
+          {
+            "p": [
+              2,
+              2
+            ],
+            "name": "P"
+          },
+          {
+            "p": [
+              5,
+              4
+            ],
+            "name": "R"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sa-076",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel point est le symétrique du point B par rapport à la droite (d) ?",
+      "choices": [
+        "N",
+        "R",
+        "P",
+        "M"
+      ],
+      "answer": "P",
+      "explain": "B est à 2 carreaux au-dessus de (d) : son symétrique est à 2 carreaux en dessous, dans la même colonne : c'est le point P.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "axis": {
+          "p": [
+            0,
+            3
+          ],
+          "q": [
+            10,
+            3
+          ],
+          "name": "(d)"
+        },
+        "points": [
+          {
+            "p": [
+              4,
+              2
+            ],
+            "name": "M"
+          },
+          {
+            "p": [
+              6,
+              5
+            ],
+            "name": "N"
+          },
+          {
+            "p": [
+              4.0,
+              1.0
+            ],
+            "name": "P"
+          },
+          {
+            "p": [
+              4,
+              3
+            ],
+            "name": "R"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sa-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel point est le symétrique du point C par rapport à la droite (d) ?",
+      "choices": [
+        "P",
+        "M",
+        "N",
+        "R"
+      ],
+      "answer": "M",
+      "explain": "L'axe (d) est la diagonale des carreaux : on échange abscisse et ordonnée. C (3 ; 4) a pour symétrique (4 ; 3), c'est le point M.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "axis": {
+          "p": [
+            0,
+            0
+          ],
+          "q": [
+            7,
+            7
+          ],
+          "name": "(d)"
+        },
+        "points": [
+          {
+            "p": [
+              4.0,
+              3.0
+            ],
+            "name": "M"
+          },
+          {
+            "p": [
+              4,
+              4
+            ],
+            "name": "N"
+          },
+          {
+            "p": [
+              2,
+              3
+            ],
+            "name": "P"
+          },
+          {
+            "p": [
+              5,
+              3
+            ],
+            "name": "R"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sa-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un carreau mesure 1 cm. Quelle est la longueur du segment [AA′], en cm ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "A est à 4 carreaux de (d) et A′ aussi : AA′ = 4 + 4 = 8 cm.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "axis": {
+          "p": [
+            5,
+            0
+          ],
+          "q": [
+            5,
+            7
+          ],
+          "name": "(d)"
+        },
+        "image": true
+      }
+    },
+    {
+      "id": "ma-sa-079",
+      "level": 1,
+      "type": "input",
+      "prompt": "La droite (d) est-elle un axe de symétrie de la figure ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Un triangle isocèle est symétrique par rapport à la droite qui passe par son sommet principal et le milieu de sa base.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            2,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "axis": {
+          "p": [
+            5,
+            0
+          ],
+          "q": [
+            5,
+            7
+          ],
+          "name": "(d)"
+        }
+      }
+    },
+    {
+      "id": "ma-sa-080",
+      "level": 1,
+      "type": "input",
+      "prompt": "La droite (d) est-elle un axe de symétrie de la figure ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le sommet est à gauche de (d) alors que la base est centrée sur (d) : le triangle n'est pas symétrique.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            2,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "axis": {
+          "p": [
+            5,
+            0
+          ],
+          "q": [
+            5,
+            7
+          ],
+          "name": "(d)"
+        }
+      }
+    },
+    {
+      "id": "ma-sa-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "La droite (d) est-elle un axe de symétrie de la figure ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "La droite (d) passe par les milieux des côtés verticaux : un rectangle est symétrique par rapport à cette droite.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            2,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "axis": {
+          "p": [
+            0,
+            3
+          ],
+          "q": [
+            10,
+            3
+          ],
+          "name": "(d)"
+        }
+      }
+    },
+    {
+      "id": "ma-sa-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "La droite (d) est-elle un axe de symétrie de la figure ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Un rectangle qui n'est pas un carré n'est pas symétrique par rapport à sa diagonale.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            2,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "axis": {
+          "p": [
+            2,
+            1
+          ],
+          "q": [
+            6,
+            5
+          ],
+          "name": "(d)"
+        }
+      }
+    },
+    {
+      "id": "ma-sa-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "La droite (d) est-elle un axe de symétrie de la figure ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Un carré est symétrique par rapport à chacune de ses diagonales.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "axial",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "axis": {
+          "p": [
+            3,
+            1
+          ],
+          "q": [
+            7,
+            5
+          ],
+          "name": "(d)"
+        }
+      }
+    },
+    {
+      "id": "ma-sa-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel point est le symétrique du point A par rapport au point O ?",
+      "choices": [
+        "N",
+        "P",
+        "M",
+        "R"
+      ],
+      "answer": "R",
+      "explain": "O est le milieu de [AA′] : A est à 4 carreaux à gauche et 2 au-dessus de O, A′ est à 4 carreaux à droite et 2 en dessous : c'est le point R.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "central",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "center": {
+          "p": [
+            5,
+            3
+          ],
+          "name": "O"
+        },
+        "points": [
+          {
+            "p": [
+              1,
+              1
+            ],
+            "name": "M"
+          },
+          {
+            "p": [
+              9,
+              5
+            ],
+            "name": "N"
+          },
+          {
+            "p": [
+              5,
+              1
+            ],
+            "name": "P"
+          },
+          {
+            "p": [
+              9,
+              1
+            ],
+            "name": "R"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sa-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un carreau mesure 1 cm. Quelle est la longueur du segment [AA′], en cm ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "OA = 4 carreaux et O est le milieu de [AA′] : AA′ = 2 × 4 = 8 cm.",
+      "figure": {
+        "type": "symmetry",
+        "mode": "central",
+        "cols": 10,
+        "rows": 7,
+        "shape": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C"
+        ],
+        "center": {
+          "p": [
+            5,
+            3
+          ],
+          "name": "O"
+        },
+        "image": true
+      }
+    },
+    {
+      "id": "ma-sa-086",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les droites (d) et (d′) sont parallèles. Quelle est la mesure de l'angle x, en degrés ?",
+      "answer": [
+        "50"
+      ],
+      "explain": "Les angles correspondants sont égaux : x = 50.",
+      "figure": {
+        "type": "secant",
+        "angle": 50,
+        "marks": [
+          {
+            "at": "P ne",
+            "text": "50°",
+            "hl": 2
+          },
+          {
+            "at": "Q ne",
+            "text": "x",
+            "hl": 3
+          }
+        ],
+        "parallelMarks": true
+      }
+    },
+    {
+      "id": "ma-sa-087",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les droites (d) et (d′) sont parallèles. Quelle est la mesure de l'angle x, en degrés ?",
+      "answer": [
+        "130"
+      ],
+      "explain": "Les angles alternes-internes sont égaux : x = 130.",
+      "figure": {
+        "type": "secant",
+        "angle": 130,
+        "marks": [
+          {
+            "at": "P sw",
+            "text": "130°",
+            "hl": 2
+          },
+          {
+            "at": "Q ne",
+            "text": "x",
+            "hl": 3
+          }
+        ],
+        "parallelMarks": true
+      }
+    },
+    {
+      "id": "ma-sa-088",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les droites (d) et (d′) sont parallèles. Quelle est la mesure de l'angle x, en degrés ?",
+      "answer": [
+        "70"
+      ],
+      "explain": "Les angles opposés par le sommet sont égaux : x = 70.",
+      "figure": {
+        "type": "secant",
+        "angle": 70,
+        "marks": [
+          {
+            "at": "P ne",
+            "text": "70°",
+            "hl": 2
+          },
+          {
+            "at": "P sw",
+            "text": "x",
+            "hl": 3
+          }
+        ],
+        "parallelMarks": true
+      }
+    },
+    {
+      "id": "ma-sa-089",
+      "level": 2,
+      "type": "input",
+      "prompt": "Les droites (d) et (d′) sont parallèles. Quelle est la mesure de l'angle x, en degrés ?",
+      "answer": [
+        "140"
+      ],
+      "explain": "Les deux angles forment un angle plat : x = 180 − 40 = 140.",
+      "figure": {
+        "type": "secant",
+        "angle": 40,
+        "marks": [
+          {
+            "at": "P ne",
+            "text": "40°",
+            "hl": 2
+          },
+          {
+            "at": "P se",
+            "text": "x",
+            "hl": 3
+          }
+        ],
+        "parallelMarks": true
+      }
+    },
+    {
+      "id": "ma-sa-090",
+      "level": 3,
+      "type": "input",
+      "prompt": "Les droites (d) et (d′) sont parallèles. Quelle est la mesure de l'angle x, en degrés ?",
+      "answer": [
+        "130"
+      ],
+      "explain": "Le correspondant de l'angle de 50° vaut 50° ; x forme avec lui un angle plat : x = 180 − 50 = 130.",
+      "figure": {
+        "type": "secant",
+        "angle": 50,
+        "marks": [
+          {
+            "at": "P ne",
+            "text": "50°",
+            "hl": 2
+          },
+          {
+            "at": "Q se",
+            "text": "x",
+            "hl": 3
+          }
+        ],
+        "parallelMarks": true
+      }
+    },
+    {
+      "id": "ma-sa-091",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on les angles a et b ?",
+      "choices": [
+        "alternes-internes",
+        "opposés par le sommet",
+        "supplémentaires",
+        "correspondants"
+      ],
+      "answer": "alternes-internes",
+      "explain": "Entre les deux droites et de part et d'autre de la sécante : alternes-internes.",
+      "figure": {
+        "type": "secant",
+        "angle": 60,
+        "marks": [
+          {
+            "at": "P sw",
+            "text": "a",
+            "hl": 2
+          },
+          {
+            "at": "Q ne",
+            "text": "b",
+            "hl": 3
+          }
+        ],
+        "parallelMarks": true
+      }
+    },
+    {
+      "id": "ma-sa-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Les angles alternes-internes marqués mesurent chacun 60°. Les droites (d) et (d′) sont-elles parallèles ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Deux angles alternes-internes de même mesure (60°) : les droites sont parallèles.",
+      "figure": {
+        "type": "secant",
+        "angle": 60,
+        "marks": [
+          {
+            "at": "P sw",
+            "text": "60°",
+            "hl": 2
+          },
+          {
+            "at": "Q ne",
+            "text": "60°",
+            "hl": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-sa-093",
+      "level": 3,
+      "type": "input",
+      "prompt": "Les angles alternes-internes marqués mesurent 60° et 50°. Les droites (d) et (d′) sont-elles parallèles ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Deux angles alternes-internes de mesures différentes (60° et 50°) : les droites ne sont pas parallèles.",
+      "figure": {
+        "type": "secant",
+        "angle": 60,
+        "marks": [
+          {
+            "at": "P sw",
+            "text": "60°",
+            "hl": 2
+          },
+          {
+            "at": "Q ne",
+            "text": "50°",
+            "hl": 3
+          }
+        ],
+        "tilt": 10
+      }
+    },
+    {
+      "id": "ma-sa-094",
+      "level": 3,
+      "type": "input",
+      "prompt": "Les droites (d) et (d′) sont parallèles. Quelle est la mesure de l'angle x, en degrés ?",
+      "answer": [
+        "110"
+      ],
+      "explain": "Le correspondant de l'angle de 70° vaut 70° ; x forme avec lui un angle plat : x = 180 − 70 = 110.",
+      "figure": {
+        "type": "secant",
+        "angle": 110,
+        "marks": [
+          {
+            "at": "P nw",
+            "text": "70°",
+            "hl": 2
+          },
+          {
+            "at": "Q ne",
+            "text": "x",
+            "hl": 3
+          }
+        ],
+        "parallelMarks": true
+      }
+    },
+    {
+      "id": "ma-sa-095",
+      "level": 3,
+      "type": "input",
+      "prompt": "Les angles correspondants marqués mesurent 80° et 70°. Les droites (d) et (d′) sont-elles parallèles ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Deux angles correspondants de mesures différentes (80° et 70°) : les droites ne sont pas parallèles.",
+      "figure": {
+        "type": "secant",
+        "angle": 80,
+        "marks": [
+          {
+            "at": "P ne",
+            "text": "80°",
+            "hl": 2
+          },
+          {
+            "at": "Q ne",
+            "text": "70°",
+            "hl": 3
+          }
+        ],
+        "tilt": 10
+      }
     }
   ]
 }

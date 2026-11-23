@@ -3,7 +3,9 @@ import * as C from '../components.js';
 import { coachReport, dayKey } from '../../core/stats.js';
 import { computeTable, divisionName } from '../../core/league.js';
 import { levelInfo } from '../../core/rewards.js';
-import { listen, fmtDate, fmtDuration, relTime, SQUADS } from './_meta.js';
+import { EVENTS, EVENT_TOPIC_PREFIX } from '../../core/events.js';
+import { allTopics, topicAvailable, isActivated } from '../../core/questions.js';
+import { listen, fmtDate, fmtHour, fmtDuration, relTime, SQUADS } from './_meta.js';
 
 const e = C.esc;
 const pct = (x) => Math.round((Number(x) || 0) * 100);
@@ -65,6 +67,7 @@ export default {
     const now = ctx.now();
     const topicName = {};
     for (const s of ctx.catalog.subjects) for (const t of s.topics) topicName[t.id] = t.name;
+    for (const ev of EVENTS) topicName[EVENT_TOPIC_PREFIX + ev.id] = ev.name; // matches of an event mix carry the sentinel topic id
     let current = players[0].uid;
     try { const saved = sessionStorage.getItem('sl.coach.pick'); if (saved && players.some((p) => p.uid === saved)) current = saved; } catch { /* no storage */ }
 
@@ -122,7 +125,8 @@ export default {
       const subjects = Array.isArray(ctx.catalog?.subjects) ? ctx.catalog.subjects : [];
       const out = [];
       for (const subj of subjects) {
-        const topics = subj.topics.filter((t) => known.has(t.id) || (t.squads || []).includes(squad));
+        // an optional topic the child did not switch on is not listed, unless it was already played
+        const topics = subj.topics.filter((t) => known.has(t.id) || ((t.squads || []).includes(squad) && topicAvailable(t, state.optionalTopics)));
         if (!topics.length) continue;
         const played = topics.filter((t) => known.get(t.id)?.totalAnswered > 0).map((t) => ({ t, m: known.get(t.id) })).sort((a, b) => a.m.accuracy - b.m.accuracy);
         const unplayed = topics.filter((t) => !(known.get(t.id)?.totalAnswered > 0));
@@ -131,6 +135,14 @@ export default {
           ${unplayed.map((t) => `<div class="coach__todo"><span>${e(t.name)}</span><span class="text-faint">pas encore joué</span></div>`).join('')}</div>`);
       }
       return `${out.join('') || '<p class="text-dim">Aucun thème joué pour l\'instant.</p>'}<p class="text-faint text-sm">Maîtrise : réussite sur les 20 dernières réponses du thème. Étoiles à partir de 10 réponses (1 étoile dès 50 %, 2 dès 70 %, 3 dès 90 %).</p>`;
+    };
+
+    // ---------- optional topics the child switched on, read-only: only the child can change them (Firestore rules) ----------
+    const optionalSection = (state) => {
+      if (!allTopics(ctx.catalog).some((t) => t.optional && (t.squads || []).includes(state.profile.squad))) return '';
+      // another user's document: only a positive number counts as an activation; most recent first
+      const on = allTopics(ctx.catalog).filter((t) => t.optional && isActivated(state.optionalTopics, t.id)).sort((a, b) => state.optionalTopics[b.id] - state.optionalTopics[a.id]);
+      return C.section('Thèmes en option', `${on.length ? `<div class="stack stack--sm">${on.map((t) => `<div class="coach__todo"><span>${e(t.name)} <span class="text-faint">· ${e(t.subjectName)}</span></span><span class="text-faint">activé le ${e(fmtDate(state.optionalTopics[t.id]))} à ${e(fmtHour(state.optionalTopics[t.id]))}</span></div>`).join('')}</div>` : '<p class="text-dim">Aucun thème en option activé.</p>'}<p class="text-faint text-sm">L'enfant les active lui-même depuis son profil.</p>`);
     };
 
     const player = (p) => {
@@ -146,7 +158,7 @@ export default {
       const today = week[week.length - 1].day;
       const days = week.map((d) => { const [y, m, dd] = d.day.split('-').map(Number); return { label: WEEKDAY[new Date(y, m - 1, dd).getDay()], value: d.matches, highlight: d.day === today }; });
       const active = week.filter((d) => d.matches > 0).length;
-      const modeLabel = (m) => (m.mode === 'training' ? 'Entraînement' : 'Championnat');
+      const modeLabel = (m) => (m.mode === 'training' ? 'Entraînement' : m.mode === 'cup' ? 'Coupe' : 'Championnat');
       const recent = rep.recentMatches.filter((m) => m && typeof m === 'object').map((m) => { const oc = OUTCOMES.includes(m.outcome) ? m.outcome : 'L'; return `<div class="cm cm--${oc}">
           <span class="cm__date">${e(fmtDate(m.at, false))}</span>
           <span class="cm__what"><b>${e(topicName[m.topicId] || m.topicId)}</b></span>
@@ -164,6 +176,7 @@ export default {
         </div>
         ${C.section('Les 7 derniers jours', `${C.barChart({ data: days, height: 110, unit: 'matchs' })}<p class="text-dim text-sm">Matchs par jour, championnat et entraînement. Aujourd'hui : barre dorée. ${active} jour${plural(active, '', 's')} joué${plural(active, '', 's')} sur 7.</p>`)}
         ${C.section('Thèmes, les plus fragiles d\'abord', `<div class="stack">${themesSection(rep, st)}</div>`)}
+        ${optionalSection(st)}
         ${C.section('Questions les plus ratées', missed ? `<ol class="miss-list">${missed}</ol>` : '<p class="text-dim">Aucune erreur enregistrée pour l\'instant.</p>')}
         ${C.section('20 derniers matchs', recent ? `<div class="cm-list">${recent}</div>` : '<p class="text-dim">Aucun match joué.</p>')}</div>`;
     };

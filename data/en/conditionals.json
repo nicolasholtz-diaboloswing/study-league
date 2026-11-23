@@ -1,0 +1,1488 @@
+{
+  "topic": "en-conditionals",
+  "questions": [
+    {
+      "id": "en-cond-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If you heat ice, it ___.",
+      "choices": [
+        "melt",
+        "is melting",
+        "melted",
+        "melts"
+      ],
+      "answer": "melts",
+      "explain": "Type 0 (general truth): if + present simple, present simple."
+    },
+    {
+      "id": "en-cond-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If the ball crosses the line, it ___ a goal.",
+      "choices": [
+        "are",
+        "was",
+        "is",
+        "be"
+      ],
+      "answer": "is",
+      "explain": "Type 0 (rule): if + present simple, present simple."
+    },
+    {
+      "id": "en-cond-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "When the temperature drops below zero, puddles ___.",
+      "choices": [
+        "freezes",
+        "freeze",
+        "freezed",
+        "is freeze"
+      ],
+      "answer": "freeze",
+      "explain": "Type 0 (general truth): when + present simple, present simple."
+    },
+    {
+      "id": "en-cond-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If a player gets two yellow cards, the referee ___ him off.",
+      "choices": [
+        "send",
+        "sends",
+        "sent",
+        "sending"
+      ],
+      "answer": "sends",
+      "explain": "Type 0 (rule): both clauses are in the present simple; the referee takes -s."
+    },
+    {
+      "id": "en-cond-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If you mix blue and yellow, you always ___ (to get) green.",
+      "answer": [
+        "get"
+      ],
+      "explain": "Type 0: a general truth uses the present simple in both clauses."
+    },
+    {
+      "id": "en-cond-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If it ___ (to rain), the grass gets wet.",
+      "answer": [
+        "rains"
+      ],
+      "explain": "Type 0: present simple in both clauses; it takes -s."
+    },
+    {
+      "id": "en-cond-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about a machine is correct?",
+      "choices": [
+        "If you will press the button, the light comes on.",
+        "If you pressed the button, the light comes on.",
+        "If you press the button, the light comes on.",
+        "If you press the button, the light would come on."
+      ],
+      "answer": "If you press the button, the light comes on.",
+      "explain": "A general truth: present simple in both clauses."
+    },
+    {
+      "id": "en-cond-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If a warrior is brave, people ___ him.",
+      "choices": [
+        "respects",
+        "respected",
+        "respect",
+        "respecting"
+      ],
+      "answer": "respect",
+      "explain": "Type 0: present simple in both clauses; 'people' is plural, so no -s."
+    },
+    {
+      "id": "en-cond-009",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If you ___ (not / to water) a plant, it dies.",
+      "answer": [
+        "don't water",
+        "do not water"
+      ],
+      "explain": "Type 0: negative present simple with you: don't + base verb."
+    },
+    {
+      "id": "en-cond-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If it ___ tomorrow, we will stay at home.",
+      "choices": [
+        "rains",
+        "will rain",
+        "rained",
+        "would rain"
+      ],
+      "answer": "rains",
+      "explain": "Type 1: if + present simple, will + base verb; never will after if."
+    },
+    {
+      "id": "en-cond-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If I ___ my homework, I will watch TV.",
+      "choices": [
+        "will finish",
+        "finished",
+        "would finish",
+        "finish"
+      ],
+      "answer": "finish",
+      "explain": "Type 1: present simple in the if-clause."
+    },
+    {
+      "id": "en-cond-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We will win the match if we ___ hard.",
+      "choices": [
+        "will train",
+        "trained",
+        "would train",
+        "train"
+      ],
+      "answer": "train",
+      "explain": "Type 1: no will in the if-clause."
+    },
+    {
+      "id": "en-cond-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If Grendel attacks tonight, Beowulf ___ ready.",
+      "choices": [
+        "would be",
+        "will being",
+        "will be",
+        "is being"
+      ],
+      "answer": "will be",
+      "explain": "Type 1: if + present simple, will + base verb."
+    },
+    {
+      "id": "en-cond-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about the weather and a match is correct?",
+      "choices": [
+        "If it will rain, we will cancel the game.",
+        "If it rains, we will cancel the game.",
+        "If it rained, we will cancel the game.",
+        "If it would rain, we will cancel the game."
+      ],
+      "answer": "If it rains, we will cancel the game.",
+      "explain": "After if, use the present simple, not will."
+    },
+    {
+      "id": "en-cond-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If you ___ the bus, you will be late.",
+      "choices": [
+        "miss",
+        "will miss",
+        "missed",
+        "would miss"
+      ],
+      "answer": "miss",
+      "explain": "Type 1: present simple after if."
+    },
+    {
+      "id": "en-cond-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "She ___ a new bike if she saves her pocket money.",
+      "choices": [
+        "will buy",
+        "would buy",
+        "will buying",
+        "buying"
+      ],
+      "answer": "will buy",
+      "explain": "Type 1 main clause: will + base verb."
+    },
+    {
+      "id": "en-cond-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about pocket money is correct?",
+      "choices": [
+        "If I will save £5 a week, I will have enough in a month.",
+        "If I would save £5 a week, I will have enough in a month.",
+        "If I saved £5 a week, I will have enough in a month.",
+        "If I save £5 a week, I will have enough in a month."
+      ],
+      "answer": "If I save £5 a week, I will have enough in a month.",
+      "explain": "Type 1: present simple in the if-clause, will in the main clause."
+    },
+    {
+      "id": "en-cond-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "When the if-clause comes first, what goes after it? 'If it rains ___ we will stay in.'",
+      "choices": [
+        "a full stop",
+        "a colon",
+        "a comma",
+        "a dash"
+      ],
+      "answer": "a comma",
+      "explain": "An if-clause at the start is followed by a comma."
+    },
+    {
+      "id": "en-cond-019",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same as 'If you train hard, you will improve.'?",
+      "choices": [
+        "You will improve if you will train hard.",
+        "You will improve if you train hard.",
+        "You will improve if you trained hard.",
+        "You would improve if you train hard."
+      ],
+      "answer": "You will improve if you train hard.",
+      "explain": "The two clauses can swap places; there is no comma when the if-clause comes second."
+    },
+    {
+      "id": "en-cond-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If it ___ (to snow) tomorrow, we will build a snowman.",
+      "answer": [
+        "snows"
+      ],
+      "explain": "Type 1: present simple after if; it takes -s."
+    },
+    {
+      "id": "en-cond-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I ___ (to see) Anna, I will give her the book.",
+      "answer": [
+        "see"
+      ],
+      "explain": "Type 1: present simple after if."
+    },
+    {
+      "id": "en-cond-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: We will be late if we ___ (not / to hurry).",
+      "answer": [
+        "don't hurry",
+        "do not hurry"
+      ],
+      "explain": "Negative present simple with we: don't + base verb."
+    },
+    {
+      "id": "en-cond-023",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If she ___ (to pass) the test, her parents will be proud.",
+      "answer": [
+        "passes"
+      ],
+      "explain": "Type 1: present simple after if; she takes -es."
+    },
+    {
+      "id": "en-cond-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If the striker ___ (to score) on Sunday, we will win the cup.",
+      "answer": [
+        "scores"
+      ],
+      "explain": "Type 1: present simple after if; the striker takes -s."
+    },
+    {
+      "id": "en-cond-025",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I ___ (to have) time, I will call you.",
+      "answer": [
+        "have"
+      ],
+      "explain": "Type 1: present simple after if."
+    },
+    {
+      "id": "en-cond-026",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If Beowulf ___ (to enter) the hall, the warriors will cheer.",
+      "answer": [
+        "enters"
+      ],
+      "explain": "Type 1: present simple after if; Beowulf takes -s."
+    },
+    {
+      "id": "en-cond-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If the weather is bad tomorrow, we ___ (to stay) at home.",
+      "answer": [
+        "will stay",
+        "'ll stay",
+        "ll stay"
+      ],
+      "explain": "Type 1 main clause: will + base verb."
+    },
+    {
+      "id": "en-cond-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "'If I find your keys, I will tell you.' What does this show?",
+      "choices": [
+        "an imaginary situation",
+        "a general truth",
+        "a past event",
+        "a real possibility"
+      ],
+      "answer": "a real possibility",
+      "explain": "Type 1 talks about a possible situation in the future."
+    },
+    {
+      "id": "en-cond-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If you see Tom, ___ him I have his ball.",
+      "choices": [
+        "telling",
+        "told",
+        "tell",
+        "to tell"
+      ],
+      "answer": "tell",
+      "explain": "The main clause can be an imperative: base verb."
+    },
+    {
+      "id": "en-cond-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence giving advice is correct?",
+      "choices": [
+        "If you are tired, you should to rest.",
+        "If you are tired, you should rest.",
+        "If you are tired, you shoulds rest.",
+        "If you will be tired, you should rest."
+      ],
+      "answer": "If you are tired, you should rest.",
+      "explain": "Modals (should, can, may, must) are followed by the base verb, and after if we use the present."
+    },
+    {
+      "id": "en-cond-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If it stops raining, we ___ play outside.",
+      "choices": [
+        "can",
+        "cans",
+        "will can",
+        "can to"
+      ],
+      "answer": "can",
+      "explain": "Modal can + base verb is possible in the main clause."
+    },
+    {
+      "id": "en-cond-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If Tom runs fast, he ___ win the race, but it is not certain.",
+      "choices": [
+        "might",
+        "might to",
+        "mights",
+        "will might"
+      ],
+      "answer": "might",
+      "explain": "Might + base verb expresses a possibility."
+    },
+    {
+      "id": "en-cond-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If you want to join the team, you ___ come to training on Friday. It is compulsory.",
+      "choices": [
+        "musts",
+        "must to",
+        "will must",
+        "must"
+      ],
+      "answer": "must",
+      "explain": "Must + base verb expresses obligation."
+    },
+    {
+      "id": "en-cond-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If it ___ stop raining, we won't play.",
+      "choices": [
+        "won't",
+        "don't",
+        "doesn't",
+        "wouldn't"
+      ],
+      "answer": "doesn't",
+      "explain": "Negative in the if-clause: present simple, doesn't + base verb."
+    },
+    {
+      "id": "en-cond-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If you ___ eat breakfast, you will feel tired.",
+      "choices": [
+        "won't",
+        "don't",
+        "aren't",
+        "doesn't"
+      ],
+      "answer": "don't",
+      "explain": "Negative present simple with you: don't + base verb."
+    },
+    {
+      "id": "en-cond-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If Tom ___ (not / to study), he will fail the test.",
+      "answer": [
+        "doesn't study",
+        "does not study"
+      ],
+      "explain": "Negative present simple with he: doesn't + base verb."
+    },
+    {
+      "id": "en-cond-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If we ___ (not / to leave) now, we will miss the train.",
+      "answer": [
+        "don't leave",
+        "do not leave"
+      ],
+      "explain": "Negative present simple with we: don't + base verb."
+    },
+    {
+      "id": "en-cond-038",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If they ___ (not / to score), they won't win.",
+      "answer": [
+        "don't score",
+        "do not score"
+      ],
+      "explain": "Negative present simple with they: don't + base verb."
+    },
+    {
+      "id": "en-cond-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What ___ you do if it rains tomorrow?",
+      "choices": [
+        "has",
+        "did",
+        "will",
+        "are"
+      ],
+      "answer": "will",
+      "explain": "Question in type 1: What will + subject + base verb + if + present?"
+    },
+    {
+      "id": "en-cond-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about a bus is correct?",
+      "choices": [
+        "What will you do if you will miss the bus?",
+        "What do you will do if you miss the bus?",
+        "What will you do if you miss the bus?",
+        "What you will do if you miss the bus?"
+      ],
+      "answer": "What will you do if you miss the bus?",
+      "explain": "Main clause: will + subject + base verb; if-clause: present simple."
+    },
+    {
+      "id": "en-cond-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: What will Beowulf do if Grendel ___ (to come) tonight?",
+      "answer": [
+        "comes"
+      ],
+      "explain": "Type 1: present simple after if; Grendel takes -s."
+    },
+    {
+      "id": "en-cond-042",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "'Will you play if it rains?' 'Yes, I ___.'",
+      "choices": [
+        "will",
+        "would",
+        "do",
+        "am"
+      ],
+      "answer": "will",
+      "explain": "A short answer repeats the auxiliary: Yes, I will."
+    },
+    {
+      "id": "en-cond-043",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If Grendel comes, ___ the doors!",
+      "choices": [
+        "closing",
+        "closed",
+        "to close",
+        "close"
+      ],
+      "answer": "close",
+      "explain": "The main clause can be an imperative."
+    },
+    {
+      "id": "en-cond-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If the sun ___ (to shine), we may go to the beach.",
+      "answer": [
+        "shines"
+      ],
+      "explain": "Type 1: present simple after if, even with may in the main clause."
+    },
+    {
+      "id": "en-cond-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We ___ the museum if we have time tomorrow.",
+      "choices": [
+        "would visit",
+        "visited",
+        "will visit",
+        "visiting"
+      ],
+      "answer": "will visit",
+      "explain": "Type 1 main clause: will + base verb."
+    },
+    {
+      "id": "en-cond-046",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I ___ (to be) angry if you lose my pen.",
+      "answer": [
+        "will be",
+        "'ll be",
+        "ll be"
+      ],
+      "explain": "Type 1 main clause: will + base verb."
+    },
+    {
+      "id": "en-cond-047",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I ___ (to get) 10 euros for my birthday, I will buy a football.",
+      "answer": [
+        "get"
+      ],
+      "explain": "Type 1: present simple after if."
+    },
+    {
+      "id": "en-cond-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If Beowulf wins, the king ___ him a reward.",
+      "choices": [
+        "will give",
+        "would give",
+        "will gave",
+        "giving"
+      ],
+      "answer": "will give",
+      "explain": "Type 1 main clause: will + base verb."
+    },
+    {
+      "id": "en-cond-049",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Hrothgar's men will celebrate if Beowulf ___ Grendel.",
+      "choices": [
+        "will defeat",
+        "defeated",
+        "would defeat",
+        "defeats"
+      ],
+      "answer": "defeats",
+      "explain": "Type 1: present simple after if."
+    },
+    {
+      "id": "en-cond-050",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "If you don't wear your boots, your feet ___ wet.",
+      "choices": [
+        "would get",
+        "got",
+        "will get",
+        "are get"
+      ],
+      "answer": "will get",
+      "explain": "Type 1 main clause: will + base verb."
+    },
+    {
+      "id": "en-cond-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about asking for help is correct?",
+      "choices": [
+        "If you ask her, she will helps you.",
+        "If you ask her, she will help you.",
+        "If you ask her, she helps will you.",
+        "If you ask her, she will to help you."
+      ],
+      "answer": "If you ask her, she will help you.",
+      "explain": "After will, use the base verb with no -s."
+    },
+    {
+      "id": "en-cond-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a message for a hero is correct?",
+      "choices": [
+        "If I will see Beowulf, I will give him this message.",
+        "If I see Beowulf, I will give him this message.",
+        "If I would see Beowulf, I will give him this message.",
+        "If I saw Beowulf, I will give him this message."
+      ],
+      "answer": "If I see Beowulf, I will give him this message.",
+      "explain": "Type 1: if + present simple, will + base verb."
+    },
+    {
+      "id": "en-cond-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Unless you hurry, you ___ the bus.",
+      "choices": [
+        "will miss",
+        "missed",
+        "would miss",
+        "won't miss"
+      ],
+      "answer": "will miss",
+      "explain": "Unless = if ... not: present simple after unless, will in the main clause."
+    },
+    {
+      "id": "en-cond-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "'We won't go out unless it stops raining.' means:",
+      "choices": [
+        "We will go out if it keeps raining.",
+        "We will go out when it rains.",
+        "We will go out whatever the weather.",
+        "We will go out only if it stops raining."
+      ],
+      "answer": "We will go out only if it stops raining.",
+      "explain": "Unless = if ... not: we go out only if the rain stops."
+    },
+    {
+      "id": "en-cond-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence with unless is correct?",
+      "choices": [
+        "Unless you don't study, you will fail.",
+        "Unless you will study, you will fail.",
+        "Unless you study, you will fail.",
+        "Unless you studied, you will fail."
+      ],
+      "answer": "Unless you study, you will fail.",
+      "explain": "Unless already has a negative meaning: do not add not, and no will after it."
+    },
+    {
+      "id": "en-cond-056",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with one word: 'If you don't train, you won't improve.' = You won't improve ___ you train.",
+      "answer": [
+        "unless"
+      ],
+      "explain": "Unless = if ... not."
+    },
+    {
+      "id": "en-cond-057",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with one or two words: We will play outside unless it rains. = We will play outside if it ___ rain.",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "explain": "Unless it rains = if it doesn't rain."
+    },
+    {
+      "id": "en-cond-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "You can borrow my bike ___ you bring it back before dark.",
+      "choices": [
+        "as long as",
+        "unless",
+        "in case",
+        "even if"
+      ],
+      "answer": "as long as",
+      "explain": "As long as = only if (a condition)."
+    },
+    {
+      "id": "en-cond-059",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We will play tomorrow ___ the pitch is dry. If it is not, we will not play.",
+      "choices": [
+        "unless",
+        "in case",
+        "although",
+        "provided that"
+      ],
+      "answer": "provided that",
+      "explain": "Provided that = only if."
+    },
+    {
+      "id": "en-cond-060",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Take an umbrella ___ it rains later.",
+      "choices": [
+        "unless",
+        "although",
+        "so that",
+        "in case"
+      ],
+      "answer": "in case",
+      "explain": "In case = as a precaution, because it might happen."
+    },
+    {
+      "id": "en-cond-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence means you take a coat as a precaution, before it gets cold?",
+      "choices": [
+        "I'll take a coat unless it gets cold.",
+        "I'll take a coat provided it gets cold.",
+        "I'll take a coat in case it gets cold.",
+        "I'll take a coat in case it will get cold."
+      ],
+      "answer": "I'll take a coat in case it gets cold.",
+      "explain": "In case + present simple expresses a precaution; no will after in case."
+    },
+    {
+      "id": "en-cond-062",
+      "level": 3,
+      "type": "input",
+      "prompt": "Pack your boots ___ the pitch is muddy. (in case / unless / although)",
+      "answer": [
+        "in case"
+      ],
+      "explain": "In case = as a precaution, because it might happen."
+    },
+    {
+      "id": "en-cond-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf will fight Grendel ___ the king gives him permission.",
+      "choices": [
+        "provided that",
+        "unless",
+        "in case",
+        "although"
+      ],
+      "answer": "provided that",
+      "explain": "Provided that = only if."
+    },
+    {
+      "id": "en-cond-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Unless the keeper is injured, he ___ in goal on Sunday.",
+      "choices": [
+        "will play",
+        "has played",
+        "would play",
+        "played"
+      ],
+      "answer": "will play",
+      "explain": "Unless + present simple, will + base verb."
+    },
+    {
+      "id": "en-cond-065",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: Unless it ___ (to snow), the match will go ahead.",
+      "answer": [
+        "snows"
+      ],
+      "explain": "Unless + present simple; it takes -s."
+    },
+    {
+      "id": "en-cond-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If I ___ you, I would talk to the coach.",
+      "choices": [
+        "am",
+        "will be",
+        "were",
+        "would be"
+      ],
+      "answer": "were",
+      "explain": "Advice: If I were you, I would..."
+    },
+    {
+      "id": "en-cond-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If I had a lot of money, I ___ a big house.",
+      "choices": [
+        "will buy",
+        "would buy",
+        "bought",
+        "had bought"
+      ],
+      "answer": "would buy",
+      "explain": "Type 2 main clause: would + base verb."
+    },
+    {
+      "id": "en-cond-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about winning a cup is correct?",
+      "choices": [
+        "If I would win the cup, I would be happy.",
+        "If I won the cup, I would be happy.",
+        "If I will win the cup, I would be happy.",
+        "If I would have won the cup, I would be happy."
+      ],
+      "answer": "If I won the cup, I would be happy.",
+      "explain": "Type 2: if + past simple, would + base verb; never would after if."
+    },
+    {
+      "id": "en-cond-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a swimming pool is correct?",
+      "choices": [
+        "If we had a pool, we would swim every day.",
+        "If we would have a pool, we would swim every day.",
+        "If we will have a pool, we would swim every day.",
+        "If we had a pool, we will swim every day."
+      ],
+      "answer": "If we had a pool, we would swim every day.",
+      "explain": "Type 2: past simple in the if-clause, would in the main clause."
+    },
+    {
+      "id": "en-cond-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If Grendel ___ a friend, he wouldn't be so angry.",
+      "choices": [
+        "has",
+        "would have",
+        "will have",
+        "had"
+      ],
+      "answer": "had",
+      "explain": "Type 2: past simple after if."
+    },
+    {
+      "id": "en-cond-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If I had a bike, I ___ cycle to school.",
+      "choices": [
+        "can",
+        "will can",
+        "could",
+        "coulds"
+      ],
+      "answer": "could",
+      "explain": "Could + base verb is possible in a type 2 main clause."
+    },
+    {
+      "id": "en-cond-072",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If I won a free trip, I ___ go to Japan, but I am not sure.",
+      "choices": [
+        "might to",
+        "mights",
+        "might",
+        "will"
+      ],
+      "answer": "might",
+      "explain": "Might + base verb expresses a possibility in type 2."
+    },
+    {
+      "id": "en-cond-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I ___ (to be) a famous footballer, I would sign shirts every day.",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "explain": "Type 2: past simple after if; were (or was) with I."
+    },
+    {
+      "id": "en-cond-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I ___ (to have) a time machine, I would visit the Vikings.",
+      "answer": [
+        "had"
+      ],
+      "explain": "Type 2: past simple after if."
+    },
+    {
+      "id": "en-cond-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If Tom ___ (to know) the answer, he would tell us.",
+      "answer": [
+        "knew"
+      ],
+      "explain": "Type 2: past simple after if."
+    },
+    {
+      "id": "en-cond-076",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: She would buy a new phone if she ___ (to have) enough money.",
+      "answer": [
+        "had"
+      ],
+      "explain": "Type 2: past simple after if."
+    },
+    {
+      "id": "en-cond-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If we ___ (to live) near the sea, we would go swimming every day.",
+      "answer": [
+        "lived"
+      ],
+      "explain": "Type 2: past simple after if."
+    },
+    {
+      "id": "en-cond-078",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I ___ (not / to be) so tired, I would play with you.",
+      "answer": [
+        "weren't",
+        "wasn't",
+        "were not",
+        "was not"
+      ],
+      "explain": "Type 2 negative: weren't (or wasn't) with I."
+    },
+    {
+      "id": "en-cond-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If they ___ (to train) more, they would win more games.",
+      "answer": [
+        "trained"
+      ],
+      "explain": "Type 2: past simple after if."
+    },
+    {
+      "id": "en-cond-080",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I were the coach, I ___ (to change) the tactics.",
+      "answer": [
+        "would change",
+        "'d change",
+        "d change"
+      ],
+      "explain": "Type 2 main clause: would + base verb."
+    },
+    {
+      "id": "en-cond-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If Beowulf ___ (to be) afraid of monsters, he wouldn't fight them.",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "explain": "Type 2: past simple after if; were (or was)."
+    },
+    {
+      "id": "en-cond-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If the king ___ (to have) a bigger hall, he would invite more guests.",
+      "answer": [
+        "had"
+      ],
+      "explain": "Type 2: past simple after if."
+    },
+    {
+      "id": "en-cond-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: I would travel the world if I ___ (to be) rich.",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "explain": "Type 2: past simple after if; were (or was) with I."
+    },
+    {
+      "id": "en-cond-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What would you do if you ___ invisible?",
+      "choices": [
+        "are",
+        "were",
+        "will be",
+        "would be"
+      ],
+      "answer": "were",
+      "explain": "Type 2: past simple after if; were is the standard form."
+    },
+    {
+      "id": "en-cond-085",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which question about money is correct?",
+      "choices": [
+        "What would you buy if you had £100?",
+        "What will you buy if you had £100?",
+        "What would you buy if you would have £100?",
+        "What you would buy if you had £100?"
+      ],
+      "answer": "What would you buy if you had £100?",
+      "explain": "Type 2 question: would + subject + base verb, if + past simple."
+    },
+    {
+      "id": "en-cond-086",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'Would you go to the moon if you could?' 'Yes, I ___.'",
+      "choices": [
+        "will",
+        "do",
+        "am",
+        "would"
+      ],
+      "answer": "would",
+      "explain": "A short answer repeats would: Yes, I would."
+    },
+    {
+      "id": "en-cond-087",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: If I ___ (not / to have) any homework, I would play football all afternoon.",
+      "answer": [
+        "didn't have",
+        "did not have",
+        "hadn't",
+        "had not"
+      ],
+      "explain": "Type 2 negative: didn't + base verb."
+    },
+    {
+      "id": "en-cond-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "If I were Beowulf, I ___ afraid of Grendel.",
+      "choices": [
+        "won't be",
+        "didn't be",
+        "wouldn't be",
+        "wouldn't being"
+      ],
+      "answer": "wouldn't be",
+      "explain": "Type 2 negative main clause: wouldn't + base verb."
+    },
+    {
+      "id": "en-cond-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence giving a warning is correct?",
+      "choices": [
+        "If I would be you, I wouldn't do that.",
+        "If I were you, I wouldn't do that.",
+        "If I am you, I wouldn't do that.",
+        "If I was you, I won't do that."
+      ],
+      "answer": "If I were you, I wouldn't do that.",
+      "explain": "Type 2: if + past simple, would + base verb."
+    },
+    {
+      "id": "en-cond-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is NOT correct?",
+      "choices": [
+        "If I would have a car, I would drive to work.",
+        "If I had wings, I would fly to school.",
+        "If I had a ticket, I would go to the final.",
+        "If we lived closer, we could meet more often."
+      ],
+      "answer": "If I would have a car, I would drive to work.",
+      "explain": "Never use would after if: If I had a car, I would drive to work."
+    },
+    {
+      "id": "en-cond-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "If I could fly, I ___ to Norway to see the home of the Vikings.",
+      "choices": [
+        "will go",
+        "went",
+        "could have gone",
+        "would go"
+      ],
+      "answer": "would go",
+      "explain": "Type 2: past simple (could) in the if-clause, would + base verb."
+    },
+    {
+      "id": "en-cond-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "I do not speak Old English, but if I ___ speak it, I could read Beowulf in the original.",
+      "choices": [
+        "can",
+        "would can",
+        "will be able to",
+        "could"
+      ],
+      "answer": "could",
+      "explain": "Type 2: could (past form of can) after if."
+    },
+    {
+      "id": "en-cond-093",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf lived long ago. If he ___ here today, he would help our team.",
+      "choices": [
+        "is",
+        "will be",
+        "were",
+        "would be"
+      ],
+      "answer": "were",
+      "explain": "Type 2: an imaginary situation (Beowulf is not here), so past simple after if."
+    },
+    {
+      "id": "en-cond-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We are the favourites in tomorrow's final and we expect to win. Which sentence fits?",
+      "choices": [
+        "If we won, we would get the cup.",
+        "If we win, we will get the cup.",
+        "If we will win, we will get the cup.",
+        "If we would win, we would get the cup."
+      ],
+      "answer": "If we win, we will get the cup.",
+      "explain": "We expect to win tomorrow, so winning is probable: type 1."
+    },
+    {
+      "id": "en-cond-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Tom is 12, so he can't drive. Which sentence fits?",
+      "choices": [
+        "If Tom were 18, he would drive to the stadium.",
+        "If Tom is 18, he will drive to the stadium.",
+        "If Tom were 18, he will drive to the stadium.",
+        "If Tom would be 18, he would drive to the stadium."
+      ],
+      "answer": "If Tom were 18, he would drive to the stadium.",
+      "explain": "Tom is 12, so being 18 is imaginary: type 2."
+    },
+    {
+      "id": "en-cond-096",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I never buy lottery tickets, but if I ___ the lottery, I would travel the world.",
+      "choices": [
+        "won",
+        "wins",
+        "will win",
+        "would win"
+      ],
+      "answer": "won",
+      "explain": "Imaginary situation: type 2, past simple after if."
+    },
+    {
+      "id": "en-cond-097",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the verb in the correct form: The forecast says it will be sunny tomorrow. If it ___ (to be) sunny, we will have a barbecue.",
+      "answer": [
+        "is"
+      ],
+      "explain": "A probable situation: type 1, present simple after if."
+    },
+    {
+      "id": "en-cond-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Mia says: 'If I ___ my room tomorrow, I can go to the match.'",
+      "choices": [
+        "tidied",
+        "would tidy",
+        "tidy",
+        "will tidy"
+      ],
+      "answer": "tidy",
+      "explain": "A real possibility for tomorrow: type 1, present simple after if."
+    },
+    {
+      "id": "en-cond-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Sam lives in a flat with no garden. If he ___ a garden, he would play football there.",
+      "choices": [
+        "has",
+        "had",
+        "would have",
+        "will have"
+      ],
+      "answer": "had",
+      "explain": "He has no garden: imaginary, type 2."
+    },
+    {
+      "id": "en-cond-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The keeper is ill and cannot play today. If he ___ fit, he would be in goal.",
+      "choices": [
+        "is",
+        "were",
+        "will be",
+        "would be"
+      ],
+      "answer": "were",
+      "explain": "He is not fit: imaginary, type 2."
+    },
+    {
+      "id": "en-cond-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf is on his way to Heorot. If he ___ tonight, Hrothgar will be happy.",
+      "choices": [
+        "arrives",
+        "arrived",
+        "will arrive",
+        "would arrive"
+      ],
+      "answer": "arrives",
+      "explain": "His arrival is probable: type 1, present simple after if."
+    },
+    {
+      "id": "en-cond-102",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Grendel is a monster and cannot talk. If Grendel ___ talk, he would explain his anger.",
+      "choices": [
+        "can",
+        "will",
+        "would",
+        "could"
+      ],
+      "answer": "could",
+      "explain": "Grendel cannot talk: imaginary, type 2, so could after if."
+    },
+    {
+      "id": "en-cond-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "'If I had a spaceship, I would visit Mars.' What does this sentence express?",
+      "choices": [
+        "a real habit",
+        "a probable future",
+        "an imaginary situation",
+        "a past event"
+      ],
+      "answer": "an imaginary situation",
+      "explain": "If + past simple, would + base verb = imaginary (type 2)."
+    },
+    {
+      "id": "en-cond-104",
+      "level": 2,
+      "type": "input",
+      "prompt": "'If I were a bird, I would fly south.' Is this situation real or imaginary? (real / imaginary)",
+      "answer": [
+        "imaginary"
+      ],
+      "explain": "If + past simple, would + base verb = imaginary."
+    },
+    {
+      "id": "en-cond-105",
+      "level": 2,
+      "type": "input",
+      "prompt": "'If you boil water, it turns into steam.' What does this sentence express? (general truth / future / imaginary)",
+      "answer": [
+        "general truth"
+      ],
+      "explain": "Present simple in both clauses = general truth (type 0)."
+    },
+    {
+      "id": "en-cond-106",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence is about a probable future situation?",
+      "choices": [
+        "If it snows tonight, we will go sledding.",
+        "If I had snow every day, I would go sledding every day.",
+        "If you heat snow, it melts.",
+        "If I were a snowman, I would hate the sun."
+      ],
+      "answer": "If it snows tonight, we will go sledding.",
+      "explain": "If + present simple, will + base verb = probable future."
+    },
+    {
+      "id": "en-cond-107",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is about an imaginary situation?",
+      "choices": [
+        "If you press this button, the door opens.",
+        "If it rains, I'll take my umbrella.",
+        "If we win, we will celebrate.",
+        "If I were the referee, I would give a red card."
+      ],
+      "answer": "If I were the referee, I would give a red card.",
+      "explain": "If + past simple, would + base verb = imaginary."
+    },
+    {
+      "id": "en-cond-108",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence talks about a general truth?",
+      "choices": [
+        "If I find some paint tomorrow, I will paint my room.",
+        "If I mixed red and white, I would paint a pink wall.",
+        "If you will mix red and white, you get pink.",
+        "If you mix red and white, you get pink."
+      ],
+      "answer": "If you mix red and white, you get pink.",
+      "explain": "Present simple in both clauses = general truth."
+    },
+    {
+      "id": "en-cond-109",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Choose the best ending: 'If it rains tomorrow, ...'",
+      "choices": [
+        "we would stayed at home.",
+        "we stayed at home.",
+        "we will stay at home.",
+        "we have stayed at home."
+      ],
+      "answer": "we will stay at home.",
+      "explain": "Type 1: if + present simple, will + base verb."
+    },
+    {
+      "id": "en-cond-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the best ending: 'If I had a magic wand, ...'",
+      "choices": [
+        "I will make everyone happy.",
+        "I would make everyone happy.",
+        "I make everyone happy tomorrow.",
+        "I would made everyone happy."
+      ],
+      "answer": "I would make everyone happy.",
+      "explain": "Type 2: if + past simple, would + base verb."
+    },
+    {
+      "id": "en-cond-111",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Choose the best ending: 'If you heat chocolate, ...'",
+      "choices": [
+        "it melts.",
+        "it would melt.",
+        "it melted.",
+        "it will to melt."
+      ],
+      "answer": "it melts.",
+      "explain": "Type 0: present simple in both clauses."
+    },
+    {
+      "id": "en-cond-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Choose the best ending: 'Unless you hurry, ...'",
+      "choices": [
+        "you will miss the start.",
+        "you would miss the start.",
+        "you don't miss the start.",
+        "you missed the start."
+      ],
+      "answer": "you will miss the start.",
+      "explain": "Unless + present simple, will + base verb."
+    },
+    {
+      "id": "en-cond-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the best ending: 'If Beowulf were here, ...'",
+      "choices": [
+        "he will help us.",
+        "he helps us.",
+        "he would helps us.",
+        "he would help us."
+      ],
+      "answer": "he would help us.",
+      "explain": "Type 2: if + were, would + base verb."
+    },
+    {
+      "id": "en-cond-114",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the best beginning: '... we will go to the beach.'",
+      "choices": [
+        "If the weather will be nice,",
+        "If the weather were nice,",
+        "If the weather is nice,",
+        "If the weather would be nice,"
+      ],
+      "answer": "If the weather is nice,",
+      "explain": "Type 1: present simple after if."
+    },
+    {
+      "id": "en-cond-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Choose the best ending: 'I would help you if ...'",
+      "choices": [
+        "I know the answer tomorrow.",
+        "I knew the answer.",
+        "I will know the answer.",
+        "I would know the answer."
+      ],
+      "answer": "I knew the answer.",
+      "explain": "Type 2: if + past simple."
+    }
+  ]
+}

@@ -1,23 +1,35 @@
 // League: divisions, seasons, fixtures, table. Season objects are plain JSON (no nested arrays,
 // so they can be stored in Firestore). playMatchday mutates the season it is given.
 
-import { OPPONENTS_PER_SEASON, SEASON_MATCHDAYS } from '../config.js';
+import { OPPONENTS_PER_SEASON, SEASON_MATCHDAYS, LEAGUE_QUESTIONS } from '../config.js';
 
 export const PLAYER_CLUB_ID = 'me';
 export const PROMOTION_PLACES = 2;
 
+// strength: range of the opponents' chance to score on a wrong answer. goalEvery: correct answers needed per goal.
 export const DIVISIONS = [
-  { index: 0, id: 'district', name: 'District', strength: [0.35, 0.5] },
-  { index: 1, id: 'regional', name: 'Régional', strength: [0.45, 0.6] },
-  { index: 2, id: 'national', name: 'National', strength: [0.55, 0.7] },
-  { index: 3, id: 'ligue2', name: 'Ligue 2', strength: [0.65, 0.8] },
-  { index: 4, id: 'ligue1', name: 'Ligue 1', strength: [0.75, 0.9] },
+  { index: 0, id: 'district', name: 'District', strength: [0.35, 0.5], goalEvery: 2 },
+  { index: 1, id: 'regional', name: 'Régional', strength: [0.45, 0.6], goalEvery: 3 },
+  { index: 2, id: 'national', name: 'National', strength: [0.55, 0.7], goalEvery: 3 },
+  { index: 3, id: 'ligue2', name: 'Ligue 2', strength: [0.65, 0.8], goalEvery: 4 },
+  { index: 4, id: 'ligue1', name: 'Ligue 1', strength: [0.75, 0.9], goalEvery: 5 },
 ];
 export const TOP_DIVISION = DIVISIONS.length - 1;
 
 export function divisionName(index) {
-  const i = Number.isInteger(index) ? Math.max(0, Math.min(TOP_DIVISION, index)) : 0;
-  return DIVISIONS[i].name;
+  return DIVISIONS[clampDivision(index)].name;
+}
+
+const clampDivision = (index) => (Number.isInteger(index) ? Math.max(0, Math.min(TOP_DIVISION, index)) : 0);
+
+/** Correct answers needed per goal in a division (a hostile index is clamped like divisionName does). */
+export function goalEveryOf(index) {
+  return DIVISIONS[clampDivision(index)].goalEvery;
+}
+
+/** Most goals a player can score in a league match of this division: LEAGUE_QUESTIONS / goalEvery (7, 5, 5, 3, 3). */
+export function goalScale(index) {
+  return Math.floor(LEAGUE_QUESTIONS / goalEveryOf(index));
 }
 
 const round2 = (x) => Math.round(x * 100) / 100;
@@ -59,7 +71,7 @@ function roundRobin(ids, rounds) {
  *  profile: {club, colors:[c1,c2]} of the player
  *  division: 0..4, number: season number (1-based), rng, exclude: club ids to avoid (previous opponents)
  * Season: { number, division, clubs:[{id,name,short,colors,crest,strength,isPlayer}],
- *           fixtures:[{md,home,away,hg,ag}] (28, flat), matchday: 0 }
+ *           fixtures:[{md,home,away,hg,ag}] (56, flat), matchday: 0 }
  */
 export function newSeason({ clubs, profile, division = 0, number = 1, rng, exclude = [] }) {
   const ex = new Set(exclude);
@@ -119,14 +131,19 @@ export function nextFixture(season) {
   return { matchday: f.md, home: f.home, away: f.away, isHome, opponent, strength: opponent.strength };
 }
 
-/** Score of a simulated fixture from two strengths (0.35..0.9). */
-export function simulateScore(strengthHome, strengthAway, rng) {
+/**
+ * Score of a simulated fixture from two strengths (0.35..0.9). maxGoals is the goal scale of the division (goalScale): the
+ * number of chances per side grows with it (6 chances at the original scale of 5), so the other clubs' goal difference stays
+ * comparable with what the player can score.
+ */
+export function simulateScore(strengthHome, strengthAway, rng, maxGoals = 5) {
+  const chances = Math.max(1, Math.round((6 * maxGoals) / 5));
   const share = strengthHome / (strengthHome + strengthAway);
   const pHome = 0.12 + 0.35 * share;
   const pAway = 0.12 + 0.35 * (1 - share);
   let hg = 0;
   let ag = 0;
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < chances; i++) {
     if (rng.chance(pHome)) hg++;
     if (rng.chance(pAway)) ag++;
   }
@@ -147,7 +164,7 @@ export function playMatchday(season, { goalsFor, goalsAgainst }, rng) {
     if (f.home === PLAYER_CLUB_ID) { f.hg = goalsFor; f.ag = goalsAgainst; }
     else if (f.away === PLAYER_CLUB_ID) { f.hg = goalsAgainst; f.ag = goalsFor; }
     else {
-      const [hg, ag] = simulateScore(clubOf(season, f.home).strength, clubOf(season, f.away).strength, rng);
+      const [hg, ag] = simulateScore(clubOf(season, f.home).strength, clubOf(season, f.away).strength, rng, goalScale(season.division));
       f.hg = hg; f.ag = ag;
     }
     results.push({ ...f });

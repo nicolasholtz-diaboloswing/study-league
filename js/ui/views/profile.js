@@ -4,6 +4,9 @@ import * as A from '../art.js';
 import { divisionName } from '../../core/league.js';
 import { levelInfo } from '../../core/rewards.js';
 import { overallAccuracy, dayStreak } from '../../core/stats.js';
+import { listOptionalTopics, isActivated } from '../../core/questions.js';
+import { setOptionalTopic } from '../../core/state.js';
+import { subjectLabel, subjectIcon } from '../shell-utils.js';
 import { clubFrom, fmtDate, fmtDuration, listen, shortOf, SQUADS } from './_meta.js';
 
 const e = C.esc;
@@ -35,6 +38,7 @@ export default {
     const trophies = (s.league?.history || []).filter((h) => h.champion);
     const history = (s.league?.history || []).slice().reverse();
     const season = s.league?.season;
+    const optional = listOptionalTopics(ctx.catalog, p.squad); // none for a squad without optional topics (u10)
     const tile = (label, value, sub, tone) => C.statTile({ label, value, sub, tone });
 
     el.innerHTML = `<div class="page profile">
@@ -72,6 +76,10 @@ export default {
         <p class="field__msg text-bad" id="pf-err" role="alert" hidden></p>
         ${C.button({ label: 'Enregistrer', variant: 'gold', size: 'lg', block: true, type: 'submit', id: 'pf-save' })}
       </form>`)}
+      ${optional.length ? C.section('Thèmes en option', `<p class="text-dim text-sm">Ces thèmes sont en plus du programme : active-les un par un, quand tu veux les réviser.</p>
+        <div class="stack stack--sm" id="pf-optional">${optional.map((sub) => C.panel(`<h3 class="topic-group"><span aria-hidden="true">${subjectIcon(sub.id, sub.icon)}</span> ${e(subjectLabel(sub))}</h3>${sub.topics.map((t) => C.toggle({
+          label: t.name, name: 'optional', checked: isActivated(s.optionalTopics, t.id), attrs: { 'data-optional': t.id },
+        })).join('')}`)).join('')}</div>`) : ''}
     </div>`;
 
     const form = el.querySelector('#pf-form'), err = el.querySelector('#pf-err');
@@ -110,6 +118,14 @@ export default {
         if (ok) ctx.toast('Club enregistré !', 'ok');
       } finally { saving = false; }
     });
-    return () => { off1(); off2(); };
+    const optBox = el.querySelector('#pf-optional');
+    const off3 = optBox ? listen(optBox, 'change', async (ev) => {
+      const box = ev.target.closest('[data-optional]');
+      if (!box) return;
+      ctx.setState(setOptionalTopic(ctx.state, box.dataset.optional, box.checked, ctx.now()));
+      const ok = await ctx.save(); // never throws: on failure it shows its own toast and the next save retries
+      if (ok) ctx.toast(box.checked ? 'Thème ajouté : tu le trouves dans Jouer et Entraînement.' : 'Thème retiré de la liste. Tes étoiles sont gardées.', 'ok');
+    }) : () => {};
+    return () => { off1(); off2(); off3(); };
   },
 };

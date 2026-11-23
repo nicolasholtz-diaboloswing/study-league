@@ -19,6 +19,18 @@ export const CARDS = Array.from({ length: 28 }, (_, i) => ({
   rarity: rar[i % rar.length],
 }));
 
+// Country and club cards (kind 'nation' / 'club'): won in cups only, never drawn from packs.
+const nrar = ['common', 'common', 'rare', 'epic', 'legend'];
+export const NATION_CARDS = ['France', 'Brésil', 'Argentine', 'Espagne', 'Italie', 'Portugal', 'Japon', 'Maroc'].map((name, i) => ({
+  id: 'n' + String(i + 1).padStart(3, '0'), kind: 'nation', name, nation: name, rarity: nrar[i % nrar.length],
+}));
+export const CLUB_CARDS = ['Lyon', 'Marseille', 'Lille', 'Nice', 'Rennes', 'Lens'].map((name, i) => ({
+  id: 'k' + String(i + 1).padStart(3, '0'), kind: 'club', name, short: name.slice(0, 3).toUpperCase(), colors: ['#111111', '#eeeeee'], crest: 'shield',
+  country: 'France', rarity: nrar[i % nrar.length],
+}));
+/** The whole card file as the app loads it: players, countries and clubs. */
+export const ALL_CARDS = [...CARDS, ...NATION_CARDS, ...CLUB_CARDS];
+
 export const SUBJECTS = {
   subjects: [
     {

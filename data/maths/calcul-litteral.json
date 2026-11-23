@@ -1,0 +1,1494 @@
+{
+  "topic": "maths-calcul-litteral",
+  "questions": [
+    {
+      "id": "ma-lit-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression donne le double d'un nombre n ?",
+      "choices": [
+        "n²",
+        "n ÷ 2",
+        "n + 2",
+        "2n"
+      ],
+      "answer": "2n",
+      "explain": "Le double de n, c'est 2 × n, qu'on écrit 2n."
+    },
+    {
+      "id": "ma-lit-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression donne le triple d'un nombre n ?",
+      "choices": [
+        "n + 3",
+        "n³",
+        "3n",
+        "n ÷ 3"
+      ],
+      "answer": "3n",
+      "explain": "Le triple de n, c'est 3 × n, qu'on écrit 3n."
+    },
+    {
+      "id": "ma-lit-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression donne la moitié d'un nombre n ?",
+      "choices": [
+        "n + 2",
+        "n − 2",
+        "n ÷ 2",
+        "2n"
+      ],
+      "answer": "n ÷ 2",
+      "explain": "La moitié, c'est diviser par 2 : n ÷ 2."
+    },
+    {
+      "id": "ma-lit-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression donne le prédécesseur d'un nombre entier n ?",
+      "choices": [
+        "n + 1",
+        "n ÷ 2",
+        "1 − n",
+        "n − 1"
+      ],
+      "answer": "n − 1",
+      "explain": "Le prédécesseur est le nombre entier précédent : n − 1."
+    },
+    {
+      "id": "ma-lit-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression donne le carré d'un nombre n ?",
+      "choices": [
+        "n²",
+        "2n",
+        "n + n",
+        "n ÷ 2"
+      ],
+      "answer": "n²",
+      "explain": "Le carré de n, c'est n × n, qu'on écrit n²."
+    },
+    {
+      "id": "ma-lit-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression traduit « 4 de moins que x » ?",
+      "choices": [
+        "4x",
+        "4 − x",
+        "x + 4",
+        "x − 4"
+      ],
+      "answer": "x − 4",
+      "explain": "4 de moins que x : x − 4."
+    },
+    {
+      "id": "ma-lit-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression donne le périmètre d'un carré de côté c ?",
+      "choices": [
+        "c²",
+        "c + 4",
+        "4c",
+        "2c"
+      ],
+      "answer": "4c",
+      "explain": "Un carré a 4 côtés égaux : 4 × c = 4c."
+    },
+    {
+      "id": "ma-lit-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle expression donne l'aire d'un carré de côté c ?",
+      "choices": [
+        "c²",
+        "c + c",
+        "4c",
+        "2c"
+      ],
+      "answer": "c²",
+      "explain": "L'aire d'un carré est c × c = c²."
+    },
+    {
+      "id": "ma-lit-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'écrit 2 × n sans le signe × ?",
+      "choices": [
+        "n²",
+        "n2",
+        "2 + n",
+        "2n"
+      ],
+      "answer": "2n",
+      "explain": "On supprime le signe × entre un nombre et une lettre, et on écrit le nombre d'abord : 2n."
+    },
+    {
+      "id": "ma-lit-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment s'écrit a × b sans le signe × ?",
+      "choices": [
+        "a/b",
+        "a + b",
+        "a²",
+        "ab"
+      ],
+      "answer": "ab",
+      "explain": "On supprime le signe × entre deux lettres : ab."
+    },
+    {
+      "id": "ma-lit-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que signifie x² ?",
+      "choices": [
+        "x + 2",
+        "x ÷ 2",
+        "2 × x",
+        "x × x"
+      ],
+      "answer": "x × x",
+      "explain": "x² signifie x × x."
+    },
+    {
+      "id": "ma-lit-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 3x + 2 pour x = 4.",
+      "choices": [
+        "14",
+        "16",
+        "12",
+        "17"
+      ],
+      "answer": "14",
+      "explain": "On remplace x par 4 : 3 × 4 + 2 = 14."
+    },
+    {
+      "id": "ma-lit-013",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 2x + 5 pour x = 3.",
+      "answer": [
+        "11"
+      ],
+      "explain": "On remplace x par 3 : 2 × 3 + 5 = 11."
+    },
+    {
+      "id": "ma-lit-014",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 5x − 4 pour x = 3.",
+      "answer": [
+        "11"
+      ],
+      "explain": "On remplace x par 3 : 5 × 3 − 4 = 11."
+    },
+    {
+      "id": "ma-lit-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 10 − 2x pour x = 3.",
+      "choices": [
+        "2",
+        "5",
+        "4",
+        "7"
+      ],
+      "answer": "4",
+      "explain": "On remplace x par 3 : 10 − 2 × 3 = 4."
+    },
+    {
+      "id": "ma-lit-016",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 10 − 2x pour x = 5.",
+      "answer": [
+        "0"
+      ],
+      "explain": "On remplace x par 5 : 10 − 2 × 5 = 0."
+    },
+    {
+      "id": "ma-lit-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 4x pour x = 6.",
+      "choices": [
+        "21",
+        "26",
+        "24",
+        "27"
+      ],
+      "answer": "24",
+      "explain": "On remplace x par 6 : 4 × 6 = 24."
+    },
+    {
+      "id": "ma-lit-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule x² pour x = 3.",
+      "choices": [
+        "6",
+        "12",
+        "9",
+        "7"
+      ],
+      "answer": "9",
+      "explain": "On remplace x par 3 : 3 × 3 = 9."
+    },
+    {
+      "id": "ma-lit-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule x² pour x = 9.",
+      "answer": [
+        "81"
+      ],
+      "explain": "On remplace x par 9 : 9 × 9 = 81."
+    },
+    {
+      "id": "ma-lit-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule x² + 1 pour x = 5.",
+      "choices": [
+        "23",
+        "26",
+        "29",
+        "24"
+      ],
+      "answer": "26",
+      "explain": "On remplace x par 5 : 5 × 5 + 1 = 26."
+    },
+    {
+      "id": "ma-lit-021",
+      "level": 1,
+      "type": "input",
+      "prompt": "Pour x = 4, l'égalité 3x − 2 = 11 est-elle vraie ? (vraie / fausse)",
+      "answer": [
+        "fausse"
+      ],
+      "explain": "3 × 4 − 2 = 10, pas 11 : l'égalité est fausse."
+    },
+    {
+      "id": "ma-lit-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Pour x = 5, l'égalité x + 7 = 12 est-elle vraie ? (vraie / fausse)",
+      "answer": [
+        "vraie"
+      ],
+      "explain": "5 + 7 = 12 : vraie."
+    },
+    {
+      "id": "ma-lit-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 12 × 50 en pensant à 12 × 100 ÷ 2.",
+      "answer": [
+        "600"
+      ],
+      "explain": "12 × 100 ÷ 2 = 1200 ÷ 2 = 600."
+    },
+    {
+      "id": "ma-lit-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Résous x + 7 = 12.",
+      "answer": [
+        "5"
+      ],
+      "explain": "x = 12 − 7 = 5."
+    },
+    {
+      "id": "ma-lit-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Résous x + 9 = 20.",
+      "answer": [
+        "11"
+      ],
+      "explain": "x = 20 − 9 = 11."
+    },
+    {
+      "id": "ma-lit-026",
+      "level": 1,
+      "type": "input",
+      "prompt": "Résous 3x = 12.",
+      "answer": [
+        "4"
+      ],
+      "explain": "x = 12 ÷ 3 = 4."
+    },
+    {
+      "id": "ma-lit-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Résous 5x = 20.",
+      "answer": [
+        "4"
+      ],
+      "explain": "x = 20 ÷ 5 = 4."
+    },
+    {
+      "id": "ma-lit-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour résoudre x + 7 = 12, on doit :",
+      "choices": [
+        "multiplier par 7",
+        "soustraire 7 aux deux membres",
+        "diviser par 12",
+        "additionner 7 aux deux membres"
+      ],
+      "answer": "soustraire 7 aux deux membres",
+      "explain": "Pour « défaire » + 7, on retranche 7 : x = 12 − 7."
+    },
+    {
+      "id": "ma-lit-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle expression donne le périmètre d'un rectangle de longueur L et de largeur l ?",
+      "choices": [
+        "L × l",
+        "2 × (L + l)",
+        "L + l",
+        "2 × L × l"
+      ],
+      "answer": "2 × (L + l)",
+      "explain": "Le périmètre est le double de la somme de la longueur et de la largeur."
+    },
+    {
+      "id": "ma-lit-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle expression traduit « 3 de plus que le double de n » ?",
+      "choices": [
+        "2(n + 3)",
+        "3n + 2",
+        "n + 5",
+        "2n + 3"
+      ],
+      "answer": "2n + 3",
+      "explain": "Le double de n : 2n, puis 3 de plus : 2n + 3."
+    },
+    {
+      "id": "ma-lit-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un billet de match coûte b euros. Quelle expression donne le prix de 5 billets ?",
+      "choices": [
+        "b + 5",
+        "5b",
+        "b ÷ 5",
+        "5 − b"
+      ],
+      "answer": "5b",
+      "explain": "5 billets de b euros : 5 × b = 5b."
+    },
+    {
+      "id": "ma-lit-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un joueur marque g buts par match. Quelle expression donne son nombre de buts après m matchs ?",
+      "choices": [
+        "g × m",
+        "g ÷ m",
+        "g − m",
+        "g + m"
+      ],
+      "answer": "g × m",
+      "explain": "g buts par match, m fois : g × m."
+    },
+    {
+      "id": "ma-lit-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un billet coûte b euros. On ajoute 3 euros de frais pour la commande. Quelle expression donne le prix de 4 billets avec ces frais ?",
+      "choices": [
+        "b + 7",
+        "4b + 3",
+        "7b",
+        "4(b + 3)"
+      ],
+      "answer": "4b + 3",
+      "explain": "4 billets : 4b, puis 3 euros de frais : 4b + 3."
+    },
+    {
+      "id": "ma-lit-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Jade a x ans. Quelle expression donne son âge dans 6 ans ?",
+      "choices": [
+        "x − 6",
+        "6x",
+        "x + 6",
+        "x ÷ 6"
+      ],
+      "answer": "x + 6",
+      "explain": "Dans 6 ans : x + 6."
+    },
+    {
+      "id": "ma-lit-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que signifie x³ ?",
+      "choices": [
+        "x × x × x",
+        "x × 3",
+        "3 × x",
+        "x + x + x"
+      ],
+      "answer": "x × x × x",
+      "explain": "x³ signifie x × x × x."
+    },
+    {
+      "id": "ma-lit-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle écriture est égale à x × x ?",
+      "choices": [
+        "2x",
+        "x2",
+        "x²",
+        "x + x"
+      ],
+      "answer": "x²",
+      "explain": "Deux fois le facteur x : x²."
+    },
+    {
+      "id": "ma-lit-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour n = 3, que vaut 5n ?",
+      "choices": [
+        "53",
+        "35",
+        "15",
+        "8"
+      ],
+      "answer": "15",
+      "explain": "5n signifie 5 × n : 5 × 3 = 15."
+    },
+    {
+      "id": "ma-lit-038",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 2x² pour x = 3.",
+      "answer": [
+        "18"
+      ],
+      "explain": "On remplace x par 3 : 2 × 3² = 18."
+    },
+    {
+      "id": "ma-lit-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 2x² pour x = 5.",
+      "choices": [
+        "47",
+        "50",
+        "51",
+        "53"
+      ],
+      "answer": "50",
+      "explain": "On remplace x par 5 : 2 × 5² = 50."
+    },
+    {
+      "id": "ma-lit-040",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule x³ pour x = 2.",
+      "answer": [
+        "8"
+      ],
+      "explain": "On remplace x par 2 : 2 × 2 × 2 = 8."
+    },
+    {
+      "id": "ma-lit-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule x³ pour x = 3.",
+      "answer": [
+        "27"
+      ],
+      "explain": "On remplace x par 3 : 3 × 3 × 3 = 27."
+    },
+    {
+      "id": "ma-lit-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule x³ pour x = 10.",
+      "answer": [
+        "1000"
+      ],
+      "explain": "On remplace x par 10 : 10 × 10 × 10 = 1000."
+    },
+    {
+      "id": "ma-lit-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 3x² − 7 pour x = 2.",
+      "answer": [
+        "5"
+      ],
+      "explain": "On remplace x par 2 : 3 × 2² − 7 = 5."
+    },
+    {
+      "id": "ma-lit-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule x² + x pour x = 4.",
+      "answer": [
+        "20"
+      ],
+      "explain": "On remplace x par 4 : 4² + 4 = 20."
+    },
+    {
+      "id": "ma-lit-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 2(x + 3) pour x = 4.",
+      "answer": [
+        "14"
+      ],
+      "explain": "On remplace x par 4 : 2 × (4 + 3) = 14."
+    },
+    {
+      "id": "ma-lit-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 2(x + 3) pour x = 10.",
+      "answer": [
+        "26"
+      ],
+      "explain": "On remplace x par 10 : 2 × (10 + 3) = 26."
+    },
+    {
+      "id": "ma-lit-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule x² − 2x pour x = 5.",
+      "choices": [
+        "17",
+        "15",
+        "16",
+        "12"
+      ],
+      "answer": "15",
+      "explain": "On remplace x par 5 : 5² − 2 × 5 = 15."
+    },
+    {
+      "id": "ma-lit-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule x ÷ 2 + 1 pour x = 10.",
+      "answer": [
+        "6"
+      ],
+      "explain": "On remplace x par 10 : 10 ÷ 2 + 1 = 6."
+    },
+    {
+      "id": "ma-lit-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule x ÷ 2 + 1 pour x = 6.",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "3"
+      ],
+      "answer": "4",
+      "explain": "On remplace x par 6 : 6 ÷ 2 + 1 = 4."
+    },
+    {
+      "id": "ma-lit-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 6x − x pour x = 3.",
+      "answer": [
+        "15"
+      ],
+      "explain": "On remplace x par 3 : 6 × 3 − 3 = 15."
+    },
+    {
+      "id": "ma-lit-051",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un carré a un côté de 6 cm. Calcule c² puis donne son aire en cm².",
+      "answer": [
+        "36"
+      ],
+      "explain": "6² = 6 × 6 = 36."
+    },
+    {
+      "id": "ma-lit-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour x = 2, l'égalité x² = 2x est-elle vraie ? (vraie / fausse)",
+      "answer": [
+        "vraie"
+      ],
+      "explain": "2² = 4 et 2 × 2 = 4 : l'égalité est vraie pour x = 2."
+    },
+    {
+      "id": "ma-lit-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour x = 3, l'égalité x² = 2x est-elle vraie ? (vraie / fausse)",
+      "answer": [
+        "fausse"
+      ],
+      "explain": "3² = 9 et 2 × 3 = 6 : l'égalité est fausse pour x = 3."
+    },
+    {
+      "id": "ma-lit-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour x = 4, l'égalité 3x + 1 = 3(x + 1) est-elle vraie ? (vraie / fausse)",
+      "answer": [
+        "fausse"
+      ],
+      "explain": "3 × 4 + 1 = 13 alors que 3 × (4 + 1) = 15."
+    },
+    {
+      "id": "ma-lit-055",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour x = 5, l'égalité 2x + 3 = x + 8 est-elle vraie ? (vraie / fausse)",
+      "answer": [
+        "vraie"
+      ],
+      "explain": "2 × 5 + 3 = 13 et 5 + 8 = 13 : vraie."
+    },
+    {
+      "id": "ma-lit-056",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour x = 0, l'égalité 3x + 1 = 3(x + 1) est-elle vraie ? (vraie / fausse)",
+      "answer": [
+        "fausse"
+      ],
+      "explain": "3 × 0 + 1 = 1 alors que 3 × (0 + 1) = 3."
+    },
+    {
+      "id": "ma-lit-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'égalité x + x = 2x est-elle vraie pour toutes les valeurs de x ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "x + x = 2 × x quelle que soit la valeur de x."
+    },
+    {
+      "id": "ma-lit-058",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'égalité x + 3 = 3 + x est-elle vraie pour toutes les valeurs de x ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "L'addition est commutative : x + 3 = 3 + x."
+    },
+    {
+      "id": "ma-lit-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'égalité 2x = x² est-elle vraie pour toutes les valeurs de x ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Elle est fausse pour x = 3 : 6 ≠ 9."
+    },
+    {
+      "id": "ma-lit-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression 5 × (x + 2) est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "produit"
+      ],
+      "explain": "La dernière opération est la multiplication par 5 de la parenthèse."
+    },
+    {
+      "id": "ma-lit-061",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression 4x − 7 est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "différence"
+      ],
+      "explain": "La dernière opération est une soustraction : on calcule 4x puis on retranche 7."
+    },
+    {
+      "id": "ma-lit-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression 2x est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "produit"
+      ],
+      "explain": "2x = 2 × x : c'est un produit."
+    },
+    {
+      "id": "ma-lit-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression (x + 1) × (x + 2) est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "produit"
+      ],
+      "explain": "C'est un produit de deux parenthèses."
+    },
+    {
+      "id": "ma-lit-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression x + 1 + 5 est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "somme"
+      ],
+      "explain": "Ce sont des additions : c'est une somme."
+    },
+    {
+      "id": "ma-lit-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression 3 × (x + y) est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "produit"
+      ],
+      "explain": "La parenthèse est calculée d'abord, puis multipliée par 3 : produit."
+    },
+    {
+      "id": "ma-lit-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression 2 × (3x − 1) est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "produit"
+      ],
+      "explain": "La dernière opération est la multiplication par 2 : produit."
+    },
+    {
+      "id": "ma-lit-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'expression 10 − 3x est-elle une somme, une différence ou un produit ? (somme / différence / produit)",
+      "answer": [
+        "différence"
+      ],
+      "explain": "On calcule 3x puis on le retranche à 10 : différence."
+    },
+    {
+      "id": "ma-lit-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 27 × 99 en écrivant 99 = 100 − 1.",
+      "answer": [
+        "2673"
+      ],
+      "explain": "27 × 100 − 27 × 1 = 2700 − 27 = 2673."
+    },
+    {
+      "id": "ma-lit-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 8 × 99 en écrivant 99 = 100 − 1.",
+      "answer": [
+        "792"
+      ],
+      "explain": "8 × 100 − 8 = 800 − 8 = 792."
+    },
+    {
+      "id": "ma-lit-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 3 × 23 + 7 × 23 en factorisant par 23.",
+      "choices": [
+        "229",
+        "231",
+        "230",
+        "232"
+      ],
+      "answer": "230",
+      "explain": "(3 + 7) × 23 = 10 × 23 = 230."
+    },
+    {
+      "id": "ma-lit-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 6 × 17 + 6 × 3 en factorisant par 6.",
+      "choices": [
+        "117",
+        "120",
+        "122",
+        "121"
+      ],
+      "answer": "120",
+      "explain": "6 × (17 + 3) = 6 × 20 = 120."
+    },
+    {
+      "id": "ma-lit-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 15 × 98 + 15 × 2 en factorisant par 15.",
+      "choices": [
+        "1500",
+        "1501",
+        "1502",
+        "1497"
+      ],
+      "answer": "1500",
+      "explain": "15 × (98 + 2) = 15 × 100 = 1500."
+    },
+    {
+      "id": "ma-lit-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Développe 3(x + 4).",
+      "choices": [
+        "x + 12",
+        "3x + 4",
+        "3x + 12",
+        "3x + 7"
+      ],
+      "answer": "3x + 12",
+      "explain": "3(x + 4) = 3 × x + 3 × 4 = 3x + 12."
+    },
+    {
+      "id": "ma-lit-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Développe 2(x + 5).",
+      "choices": [
+        "2x + 10",
+        "2x + 7",
+        "2x + 5",
+        "x + 10"
+      ],
+      "answer": "2x + 10",
+      "explain": "2(x + 5) = 2x + 10."
+    },
+    {
+      "id": "ma-lit-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Développe 5(x − 2).",
+      "choices": [
+        "5x + 10",
+        "5x − 2",
+        "x − 10",
+        "5x − 10"
+      ],
+      "answer": "5x − 10",
+      "explain": "5(x − 2) = 5x − 5 × 2 = 5x − 10."
+    },
+    {
+      "id": "ma-lit-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Développe 4(a + b).",
+      "choices": [
+        "4a + 4b",
+        "4ab",
+        "a + b + 4",
+        "4a + b"
+      ],
+      "answer": "4a + 4b",
+      "explain": "4(a + b) = 4a + 4b."
+    },
+    {
+      "id": "ma-lit-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Factorise 2x + 6.",
+      "choices": [
+        "x(2 + 6)",
+        "2(x + 6)",
+        "2x(6)",
+        "2(x + 3)"
+      ],
+      "answer": "2(x + 3)",
+      "explain": "2x + 6 = 2 × x + 2 × 3 = 2(x + 3)."
+    },
+    {
+      "id": "ma-lit-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Factorise 7a + 7b.",
+      "choices": [
+        "14(a + b)",
+        "7(a + b)",
+        "7(a + 7b)",
+        "a(7 + b)"
+      ],
+      "answer": "7(a + b)",
+      "explain": "7 est un facteur commun : 7(a + b)."
+    },
+    {
+      "id": "ma-lit-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Réduis 7x − 2x.",
+      "choices": [
+        "5x²",
+        "5x",
+        "5",
+        "9x"
+      ],
+      "answer": "5x",
+      "explain": "7x − 2x = (7 − 2)x = 5x."
+    },
+    {
+      "id": "ma-lit-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Réduis x + 4x.",
+      "choices": [
+        "5x",
+        "4x²",
+        "4x",
+        "5"
+      ],
+      "answer": "5x",
+      "explain": "x = 1x, donc x + 4x = 5x."
+    },
+    {
+      "id": "ma-lit-081",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Réduis 6x − x.",
+      "choices": [
+        "7x",
+        "6",
+        "5x",
+        "6x − 1"
+      ],
+      "answer": "5x",
+      "explain": "x = 1x, donc 6x − x = 5x."
+    },
+    {
+      "id": "ma-lit-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Réduis 2x + 3 + 5x.",
+      "choices": [
+        "10x + 7",
+        "10x",
+        "7x² + 3",
+        "7x + 3"
+      ],
+      "answer": "7x + 3",
+      "explain": "2x + 5x = 7x, puis on garde le + 3."
+    },
+    {
+      "id": "ma-lit-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "Résous 7x = 56.",
+      "answer": [
+        "8"
+      ],
+      "explain": "x = 56 ÷ 7 = 8."
+    },
+    {
+      "id": "ma-lit-084",
+      "level": 2,
+      "type": "input",
+      "prompt": "Résous x ÷ 3 = 4.",
+      "answer": [
+        "12"
+      ],
+      "explain": "x = 4 × 3 = 12."
+    },
+    {
+      "id": "ma-lit-085",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Résous x ÷ 4 = 5.",
+      "choices": [
+        "19",
+        "20",
+        "17",
+        "21"
+      ],
+      "answer": "20",
+      "explain": "x = 5 × 4 = 20."
+    },
+    {
+      "id": "ma-lit-086",
+      "level": 2,
+      "type": "input",
+      "prompt": "Résous x ÷ 3 = 1.",
+      "answer": [
+        "3"
+      ],
+      "explain": "x ÷ 3 = 1 signifie que x = 1 × 3 = 3."
+    },
+    {
+      "id": "ma-lit-087",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Résous 2x = 0.",
+      "choices": [
+        "1",
+        "0",
+        "2",
+        "10"
+      ],
+      "answer": "0",
+      "explain": "x = 0 ÷ 2 = 0 : un produit est nul si l'un des facteurs est nul."
+    },
+    {
+      "id": "ma-lit-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Résous x ÷ 2 = 0.",
+      "choices": [
+        "0",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": "0",
+      "explain": "x = 0 × 2 = 0."
+    },
+    {
+      "id": "ma-lit-089",
+      "level": 2,
+      "type": "input",
+      "prompt": "Résous x + 2,5 = 4.",
+      "answer": [
+        "1,5",
+        "1.5"
+      ],
+      "explain": "x = 4 − 2,5 = 1,5."
+    },
+    {
+      "id": "ma-lit-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "Résous 4x = 10.",
+      "answer": [
+        "2,5",
+        "2.5"
+      ],
+      "explain": "x = 10 ÷ 4 = 2,5."
+    },
+    {
+      "id": "ma-lit-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "Résous 0,5x = 3.",
+      "answer": [
+        "6"
+      ],
+      "explain": "0,5 fois x, c'est la moitié de x : x = 3 × 2 = 6."
+    },
+    {
+      "id": "ma-lit-092",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour résoudre x ÷ 5 = 2, on doit :",
+      "choices": [
+        "diviser par 5",
+        "multiplier les deux membres par 5",
+        "additionner 5",
+        "soustraire 5"
+      ],
+      "answer": "multiplier les deux membres par 5",
+      "explain": "Pour « défaire » ÷ 5, on multiplie par 5 : x = 2 × 5."
+    },
+    {
+      "id": "ma-lit-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "Trois maillots identiques coûtent 45 euros en tout. Quel est le prix d'un maillot en euros ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "3x = 45, donc x = 45 ÷ 3 = 15."
+    },
+    {
+      "id": "ma-lit-094",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Je pense à un nombre, je lui ajoute 8 et j'obtiens 15. Quel est ce nombre ?",
+      "choices": [
+        "10",
+        "7",
+        "9",
+        "5"
+      ],
+      "answer": "7",
+      "explain": "x + 8 = 15, donc x = 15 − 8 = 7."
+    },
+    {
+      "id": "ma-lit-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un seul exemple suffit-il à prouver qu'une affirmation est vraie pour tous les nombres ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Un exemple ne prouve pas une propriété générale ; il faut un raisonnement valable pour tous les nombres."
+    },
+    {
+      "id": "ma-lit-096",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Affirmation : « Le double d'un nombre est toujours plus grand que ce nombre. » Quel nombre est un contre-exemple ?",
+      "choices": [
+        "0,5",
+        "−3",
+        "10",
+        "3"
+      ],
+      "answer": "−3",
+      "explain": "Le double de −3 est −6, qui est plus petit que −3."
+    },
+    {
+      "id": "ma-lit-097",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un motif comporte 3 carrés à l'étape 1, 5 à l'étape 2, 7 à l'étape 3, et ainsi de suite (+ 2 carrés à chaque étape). Combien de carrés à l'étape 10 ?",
+      "answer": [
+        "21"
+      ],
+      "explain": "À l'étape n, il y a 2n + 1 carrés : 2 × 10 + 1 = 21."
+    },
+    {
+      "id": "ma-lit-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un programme de calcul : choisir un nombre n, le multiplier par 3, puis ajouter 2. Quelle expression traduit ce programme ?",
+      "choices": [
+        "3n + 2",
+        "3 + 2n",
+        "n + 5",
+        "3(n + 2)"
+      ],
+      "answer": "3n + 2",
+      "explain": "n × 3, puis + 2 : 3n + 2."
+    },
+    {
+      "id": "ma-lit-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle expression donne un nombre impair, pour tout nombre entier n ?",
+      "choices": [
+        "3n",
+        "2n + 1",
+        "n + 1",
+        "2n"
+      ],
+      "answer": "2n + 1",
+      "explain": "2n est pair, donc 2n + 1 est impair."
+    },
+    {
+      "id": "ma-lit-100",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule (3x)² − 7 pour x = 1.",
+      "answer": [
+        "2"
+      ],
+      "explain": "On remplace x par 1 : (3 × 1)² − 7 = 2."
+    },
+    {
+      "id": "ma-lit-101",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule (3x)² − 7 pour x = 2.",
+      "answer": [
+        "29"
+      ],
+      "explain": "On remplace x par 2 : (3 × 2)² − 7 = 29."
+    },
+    {
+      "id": "ma-lit-102",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule (2x)² pour x = 3.",
+      "choices": [
+        "37",
+        "36",
+        "33",
+        "35"
+      ],
+      "answer": "36",
+      "explain": "On remplace x par 3 : (2 × 3)² = 36."
+    },
+    {
+      "id": "ma-lit-103",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule (2x)² pour x = 5.",
+      "answer": [
+        "100"
+      ],
+      "explain": "On remplace x par 5 : (2 × 5)² = 100."
+    },
+    {
+      "id": "ma-lit-104",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule 2x + 1 pour x = −3.",
+      "answer": [
+        "-5",
+        "−5"
+      ],
+      "explain": "On remplace x par −3 : 2 × (−3) + 1 = −5."
+    },
+    {
+      "id": "ma-lit-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule 5 − 3x pour x = −2.",
+      "answer": [
+        "11"
+      ],
+      "explain": "On remplace x par −2 : 5 − 3 × (−2) = 11."
+    },
+    {
+      "id": "ma-lit-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule x² + 3 pour x = −4.",
+      "answer": [
+        "19"
+      ],
+      "explain": "On remplace x par −4 : (−4)² + 3 = 19."
+    },
+    {
+      "id": "ma-lit-107",
+      "level": 3,
+      "type": "input",
+      "prompt": "L'égalité 2x + 1 = 2(x + 1) est-elle vraie pour toutes les valeurs de x ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "2(x + 1) = 2x + 2, qui n'est jamais égal à 2x + 1."
+    },
+    {
+      "id": "ma-lit-108",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle valeur de x vérifie l'égalité x² = 5x ? (x différent de 0)",
+      "answer": [
+        "5"
+      ],
+      "explain": "Pour x = 5 : 5² = 25 et 5 × 5 = 25."
+    },
+    {
+      "id": "ma-lit-109",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Développe 6(2x + 1).",
+      "choices": [
+        "2x + 6",
+        "8x + 6",
+        "12x + 1",
+        "12x + 6"
+      ],
+      "answer": "12x + 6",
+      "explain": "6 × 2x = 12x et 6 × 1 = 6."
+    },
+    {
+      "id": "ma-lit-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Développe 2(3x − 4).",
+      "choices": [
+        "5x − 8",
+        "6x − 8",
+        "6x − 4",
+        "6x + 8"
+      ],
+      "answer": "6x − 8",
+      "explain": "2 × 3x = 6x et 2 × 4 = 8."
+    },
+    {
+      "id": "ma-lit-111",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Factorise 3x + 12.",
+      "choices": [
+        "3(x + 12)",
+        "x(3 + 12)",
+        "3(x + 9)",
+        "3(x + 4)"
+      ],
+      "answer": "3(x + 4)",
+      "explain": "12 = 3 × 4, donc 3x + 12 = 3(x + 4)."
+    },
+    {
+      "id": "ma-lit-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Réduis 5 + 2x + 3 − x.",
+      "choices": [
+        "3x + 8",
+        "x + 2",
+        "x + 8",
+        "7x + 3"
+      ],
+      "answer": "x + 8",
+      "explain": "2x − x = x et 5 + 3 = 8."
+    },
+    {
+      "id": "ma-lit-113",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Réduis 0,5x + 1,5x.",
+      "choices": [
+        "2x",
+        "2x²",
+        "0,75x",
+        "x"
+      ],
+      "answer": "2x",
+      "explain": "0,5 + 1,5 = 2, donc 2x."
+    },
+    {
+      "id": "ma-lit-114",
+      "level": 3,
+      "type": "input",
+      "prompt": "Résous 1,5x = 6.",
+      "answer": [
+        "4"
+      ],
+      "explain": "1,5x = 6 : x = 6 ÷ 1,5 = 60 ÷ 15 = 4."
+    },
+    {
+      "id": "ma-lit-115",
+      "level": 3,
+      "type": "input",
+      "prompt": "Résous 25x = 100.",
+      "answer": [
+        "4"
+      ],
+      "explain": "x = 100 ÷ 25 = 4."
+    },
+    {
+      "id": "ma-lit-116",
+      "level": 3,
+      "type": "input",
+      "prompt": "Résous x ÷ 10 = 0,8.",
+      "answer": [
+        "8"
+      ],
+      "explain": "x = 0,8 × 10 = 8."
+    },
+    {
+      "id": "ma-lit-117",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un joueur marque 2 buts de plus que son coéquipier. Ensemble ils ont marqué 12 buts. Combien de buts a marqué le coéquipier ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "x + (x + 2) = 12, donc 2x + 2 = 12, 2x = 10, x = 5."
+    },
+    {
+      "id": "ma-lit-118",
+      "level": 3,
+      "type": "input",
+      "prompt": "Je pense à un nombre, je le double et j'ajoute 5 : j'obtiens 17. Quel est ce nombre ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "2x + 5 = 17, donc 2x = 12 et x = 6."
+    },
+    {
+      "id": "ma-lit-119",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Affirmation : « La somme de deux carrés parfaits est un carré parfait. » Quel couple est un contre-exemple ?",
+      "choices": [
+        "0 et 4",
+        "1 et 4",
+        "9 et 16",
+        "36 et 64"
+      ],
+      "answer": "1 et 4",
+      "explain": "1 + 4 = 5 n'est pas un carré parfait (alors que 9 + 16 = 25 et 36 + 64 = 100 en sont)."
+    },
+    {
+      "id": "ma-lit-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Affirmation : « Si n est un nombre, n² est plus grand que n. » Quelle valeur est un contre-exemple ?",
+      "choices": [
+        "10",
+        "2",
+        "0,5",
+        "3"
+      ],
+      "answer": "0,5",
+      "explain": "0,5² = 0,25, qui est plus petit que 0,5."
+    },
+    {
+      "id": "ma-lit-121",
+      "level": 3,
+      "type": "input",
+      "prompt": "La somme de deux nombres entiers consécutifs n et n + 1 est 2n + 1. Cette somme est-elle paire ou impaire ? (paire / impaire)",
+      "answer": [
+        "impaire"
+      ],
+      "explain": "2n est pair, donc 2n + 1 est impair."
+    },
+    {
+      "id": "ma-lit-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un motif comporte 4 carrés à l'étape 1, 7 à l'étape 2, 10 à l'étape 3. Combien de carrés à l'étape n ?",
+      "choices": [
+        "3n",
+        "n + 3",
+        "4n",
+        "3n + 1"
+      ],
+      "answer": "3n + 1",
+      "explain": "On ajoute 3 à chaque étape en partant de 4 : 3n + 1 (étape 1 : 3 + 1 = 4)."
+    },
+    {
+      "id": "ma-lit-123",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un motif comporte 4 carrés à l'étape 1, 7 à l'étape 2, 10 à l'étape 3 : à l'étape n, il y a 3n + 1 carrés. Combien à l'étape 20 ?",
+      "answer": [
+        "61"
+      ],
+      "explain": "3 × 20 + 1 = 61."
+    },
+    {
+      "id": "ma-lit-124",
+      "level": 3,
+      "type": "input",
+      "prompt": "À l'étape n, un motif comporte 2n + 5 allumettes. À quelle étape y en a-t-il 21 ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "2n + 5 = 21 donne 2n = 16, donc n = 8."
+    },
+    {
+      "id": "ma-lit-125",
+      "level": 3,
+      "type": "input",
+      "prompt": "Pour n = 4, quelle est la valeur de 3 × (n + 2) ?",
+      "answer": [
+        "18"
+      ],
+      "explain": "3 × (4 + 2) = 3 × 6 = 18."
+    }
+  ]
+}

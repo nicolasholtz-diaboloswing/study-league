@@ -2,7 +2,7 @@
 import { store } from './store/index.js';
 import { createRng, randomSeed } from './core/rng.js';
 import { loadCatalog } from './core/questions.js';
-import { newPlayerState, ensureSeason } from './core/state.js';
+import { newPlayerState, ensureSeason, applyDemotion } from './core/state.js';
 import * as C from './ui/components.js';
 import * as A from './ui/art.js';
 import { myClub, levelBar, lsSet } from './ui/shell-utils.js';
@@ -266,6 +266,7 @@ async function restoreSession(user) {
   let dirty = false;
   if (!st) { st = newPlayerState({ username: user.username, displayName: user.username, now: ctx.now() }); dirty = true; }
   if (!st.league.season) { st = ensureSeason(st, ctx.clubs, ctx.rng); dirty = true; }
+  if (st.pendingDemotion) { st = applyDemotion(st, ctx.clubs, ctx.rng); dirty = true; } // one-off demotion (schema 2): new season in the lower division, saved right below
   ctx.state = st;
   if (store.pendingSave?.()) dirty = true; // a sign-up state that could not be written yet
   if (dirty) {

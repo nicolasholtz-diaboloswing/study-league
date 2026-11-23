@@ -20,9 +20,10 @@ export default {
       return;
     }
     const { match, me, opp } = c;
-    const league = c.mode === 'league';
+    const ranked = c.mode !== 'training'; // league or cup: timed, kick-off marker, leaving = forfeit
+    const n = match.goalEvery; // correct answers per goal in this match
     const total = match.questions.length;
-    const french = !!c.topic.accents; // subject flagged "accents" in the catalog
+    const topicAccents = !!c.topic.accents; // subject flagged "accents" in the catalog (an event mix tags each question instead)
     let phase = 'idle'; // idle | asking | feedback | celebrating | leaving | done
     let q = null;
     let uiChoices = null; // answer buttons: the mcq choices, or the options of a typed "(a / b)" question
@@ -40,7 +41,7 @@ export default {
       <div id="m-meter" class="match__meter"></div>
       <div id="m-q"></div>
       <div id="m-next" class="match__next"></div>
-      <div class="match__quit">${C.button({ label: league ? 'Quitter le match' : 'Quitter l\'entraînement', variant: 'ghost', size: 'sm', cls: 'match__quitbtn', attrs: { 'data-action': 'quit' } })}</div>
+      <div class="match__quit">${C.button({ label: ranked ? 'Quitter le match' : 'Quitter l\'entraînement', variant: 'ghost', size: 'sm', cls: 'match__quitbtn', attrs: { 'data-action': 'quit' } })}</div>
       <p class="match__keys" aria-hidden="true">Clavier : A B C D · Entrée</p>
     </div>`;
     const $match = el.querySelector('.match');
@@ -51,7 +52,7 @@ export default {
 
     const scoreboard = (minute, goalSide) => C.scoreboard({
       home: me, away: opp, homeScore: match.goalsFor, awayScore: match.goalsAgainst, minute,
-      status: league ? 'Championnat' : 'Entraînement', goalSide,
+      status: c.cup ? c.cup.name : ranked ? 'Championnat' : 'Entraînement', goalSide,
     });
 
     /* ---- clock (counts only while a question is waiting for an answer) ---- */
@@ -113,12 +114,12 @@ export default {
     function renderCard(o) {
       const question = o.question;
       $q.innerHTML = C.questionCard({
-        number: o.number, total, prompt: question.prompt, type: uiChoices ? 'mcq' : 'input', choices: uiChoices || undefined, topic: c.topic.name,
+        number: o.number, total, prompt: question.prompt, type: uiChoices ? 'mcq' : 'input', choices: uiChoices || undefined, topic: question.tag || c.topic.name, level: question.level, figure: question.figure,
         status: o.status, note: o.note, selected: o.selected, correctAnswer: o.correctAnswer, explanation: o.explanation, inputValue: o.inputValue || '',
         timer: limitMs ? C.timer({ remaining: o.remaining, total: limitMs / 1000 }) : '',
       });
       if (question.label) $q.querySelector('.qcard__prompt')?.insertAdjacentHTML('beforebegin', `<span class="qcard__label">${C.esc(question.label)}</span>`);
-      if (french && !uiChoices && (o.status || 'idle') === 'idle') {
+      if ((question.accents ?? topicAccents) && !uiChoices && (o.status || 'idle') === 'idle') {
         $q.querySelector('[data-answer-form]')?.insertAdjacentHTML('afterend', `<div class="accents" role="group" aria-label="Lettres avec accent">${ACCENTS.map((a) => `<button type="button" class="accent-key" data-accent="${a}" aria-label="${a}" tabindex="-1">${a}</button>`).join('')}</div>`);
       }
     }
@@ -133,8 +134,9 @@ export default {
       acc = 0; t0 = 0;
       phase = 'asking';
       setTyping(false);
+      $match.classList.toggle('has-figure', !!q.figure); // a figure takes room: the scoreboard gets compact on a phone (css/views.css)
       $sb.innerHTML = scoreboard(currentMinute(match));
-      $meter.innerHTML = C.attackMeter(attackStep, { live: true });
+      $meter.innerHTML = C.attackMeter(attackStep, { live: true, n });
       $next.innerHTML = '';
       renderCard({ question: q, number: match.index + 1, status: 'idle', remaining: limitMs ? limitMs / 1000 : 0 });
       const field = input();
@@ -154,13 +156,13 @@ export default {
       attackStep = fb.attack.charge;
       const status = fb.correct ? 'correct' : fb.timedOut ? 'timeout' : 'wrong';
       const marked = uiChoices && question.type === 'input' ? optionAnswer(question, uiChoices) : fb.correctAnswer;
-      const note = fb.correct ? (fb.goalFor ? '' : remainingText(fb.attack.charge)) : (fb.goalAgainst ? '' : MISSED_CHANCE);
+      const note = fb.correct ? (fb.goalFor ? '' : remainingText(fb.attack.charge, n)) : (fb.goalAgainst ? '' : MISSED_CHANCE);
       renderCard({
         question, number, status, selected, correctAnswer: marked ?? fb.correctAnswer, explanation: fb.explanation, inputValue: given || '', note,
         remaining: limitMs ? Math.max(0, limitMs - ms) / 1000 : 0,
       });
       $sb.innerHTML = scoreboard(fb.minute, fb.goalFor ? 'home' : fb.goalAgainst ? 'away' : undefined);
-      $meter.innerHTML = C.attackMeter(fb.goalFor ? fb.attack.max : fb.attack.charge, { live: true });
+      $meter.innerHTML = C.attackMeter(fb.goalFor ? fb.attack.max : fb.attack.charge, { live: true, n });
       afterAnswer(fb);
     }
 
@@ -172,11 +174,12 @@ export default {
           ? E.goalCelebration({ sub: score, kit: me.colors })
           : E.goalCelebration({ side: 'away', sub: 'Raté : l\'adversaire en profite !', score, kit: opp.colors }));
         if (destroyed) return;
-        $meter.innerHTML = C.attackMeter(fb.attack.charge, { live: true });
+        $meter.innerHTML = C.attackMeter(fb.attack.charge, { live: true, n });
       }
       if (phase === 'leaving' || phase === 'done') return;
       phase = 'feedback';
       nextAllowedAt = performance.now() + 350;
+      if (q?.figure) $q.querySelector('.qcard__feedback')?.scrollIntoView({ block: 'nearest' }); // the figure pushes the verdict down: bring it above the sticky button
       const last = fb.finished;
       $next.innerHTML = C.button({ label: last ? 'Voir le résultat' : 'Question suivante', size: 'lg', block: true, variant: 'primary', attrs: { 'data-action': 'next' } });
       // keyboard focus goes straight to the button; no scrolling, so the scoreboard stays in view (the button is sticky)
@@ -215,14 +218,14 @@ export default {
         return;
       }
       const answered = match.index;
-      const noEffect = !league || answered === 0;
+      const noEffect = !ranked || answered === 0;
       pausedByDialog(true);
       const m = C.showModal(C.modal({
         id: 'leave',
-        title: league ? 'Quitter le match ?' : 'Quitter l\'entraînement ?',
+        title: ranked ? 'Quitter le match ?' : 'Quitter l\'entraînement ?',
         body: noEffect
           ? '<p>Tu n\'as encore rien perdu. Si tu pars, rien n\'est enregistré.</p>'
-          : '<p>Si tu pars maintenant, le match est perdu. Les questions qui restent comptent comme fausses.</p>',
+          : `<p>Si tu pars maintenant, le match est perdu${c.cup ? ' et tu es éliminé de la coupe' : ''}. Les questions qui restent comptent comme fausses.</p>`,
         actions: [
           C.button({ label: 'Rester', variant: 'primary', attrs: { 'data-modal-close': '' } }),
           C.button({ label: 'Partir', variant: 'danger', attrs: { 'data-leave': '' } }),
@@ -235,8 +238,8 @@ export default {
         C.closeModal();
         if (noEffect) {
           flow.current = null;
-          if (league) await dropPendingMatch(ctx);
-          ctx.navigate(target && target !== '#/match' ? target : (league ? '#/home' : '#/training'));
+          if (ranked) await dropPendingMatch(ctx);
+          ctx.navigate(target && target !== '#/match' ? target : (ranked ? '#/home' : '#/training'));
         } else {
           await finishMatch(ctx, { forfeit: true });
           ctx.navigate('#/result');
@@ -296,7 +299,7 @@ export default {
         id: 'intro',
         title: 'Comment marquer ?',
         body: `<div class="intro"><div class="intro__meter">${C.attackMeter(0)}</div>
-          <p class="intro__goal">${C.esc(ruleFor(match.difficulty).intro)}</p><p class="intro__miss">${C.esc(ruleFor(match.difficulty).introMiss)}</p></div>`,
+          <p class="intro__goal">${C.esc(ruleFor(n, { concedeAll: match.concedeAll }).intro)}</p><p class="intro__miss">${C.esc(ruleFor(n, { concedeAll: match.concedeAll }).introMiss)}</p></div>`,
         actions: [C.button({ label: "C'est parti !", variant: 'gold', size: 'lg', block: true, attrs: { 'data-modal-close': '', 'data-intro-go': '' } })],
       }));
       m.querySelector('[data-intro-go]')?.focus();
@@ -323,10 +326,10 @@ export default {
       el.removeEventListener('submit', onSubmit);
       // an unfinished match left by any other way: a started league match is a forfeit (once), an untouched one costs nothing
       if (flow.current === c && !c.applied && !match.finished) {
-        if (league && ctx.state && match.index > 0) finishMatch(ctx, { forfeit: true });
+        if (ranked && ctx.state && match.index > 0) finishMatch(ctx, { forfeit: true });
         else {
           flow.current = null;
-          if (league && ctx.state) dropPendingMatch(ctx);
+          if (ranked && ctx.state) dropPendingMatch(ctx);
         }
       }
       document.getElementById('overlay')?.replaceChildren();

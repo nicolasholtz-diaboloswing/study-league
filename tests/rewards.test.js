@@ -1,10 +1,10 @@
 import { test, eq, assert, near } from './runner.js';
 import { createRng } from '../js/core/rng.js';
 import {
-  xpToReach, levelForXp, levelInfo, matchXp, matchCoins, openPack, RARITY_ODDS, PACK_ODDS, BADGES, evaluateBadges,
+  xpToReach, levelForXp, levelInfo, matchXp, matchCoins, openPack, pickCupCard, isPlayerCard, RARITY_ODDS, PACK_ODDS, BADGES, evaluateBadges,
 } from '../js/core/rewards.js';
 import { newPlayerState } from '../js/core/state.js';
-import { CARDS, SUBJECTS } from './fixtures.js';
+import { CARDS, SUBJECTS, ALL_CARDS, NATION_CARDS, CLUB_CARDS } from './fixtures.js';
 
 const res = (o = {}) => ({
   mode: 'league', outcome: 'W', correct: 10, total: 10, perfect: true, speedBonus: 20, coachPick: false, ...o,
@@ -80,9 +80,9 @@ test('rewards: a rarity with no cards is skipped', () => {
 
 const player = () => newPlayerState({ username: 'kid', displayName: 'Kid', squad: 'u13', club: 'My FC', now: 0 });
 
-test('badges: about 25, unique ids, complete definitions', () => {
-  eq(BADGES.length, 25);
-  eq(new Set(BADGES.map((b) => b.id)).size, 25);
+test('badges: 25 + one trophy per cup, unique ids, complete definitions', () => {
+  eq(BADGES.length, 29);
+  eq(new Set(BADGES.map((b) => b.id)).size, 29);
   for (const b of BADGES) assert(b.id && b.name && b.desc && b.icon && typeof b.check === 'function', b.id);
 });
 
@@ -149,4 +149,66 @@ test('rewards: a league defeat with fewer than a third of the questions right ea
   eq(matchCoins(res({ outcome: 'L', correct: 5, total: 15, perfect: false })).total, 5);
   eq(matchCoins(res({ outcome: 'D', correct: 2, perfect: false })).total, 15);
   eq(matchXp(res({ outcome: 'L', correct: 3, total: 10, perfect: false, speedBonus: 0 })).total, 3 * 10 + 10, 'xp unchanged');
+});
+
+test('openPack draws player cards only: nation and club cards never come out of a pack', () => {
+  const rng = createRng(5);
+  for (const odds of [PACK_ODDS.big, PACK_ODDS.small]) {
+    for (const p of openPack(ALL_CARDS, rng, {}, 3000, odds)) assert(!p.card.kind || p.card.kind === 'player', `${p.card.id} is a ${p.card.kind}`);
+  }
+  assert(isPlayerCard({ rarity: 'rare' }) && isPlayerCard({ kind: 'player' }) && !isPlayerCard({ kind: 'nation' }) && !isPlayerCard({ kind: 'club' }));
+  // a file with a single player and many countries: only the player
+  const one = [CARDS[0], ...NATION_CARDS, ...CLUB_CARDS];
+  assert(openPack(one, rng, {}, 200).every((p) => p.card.id === CARDS[0].id));
+});
+
+test('pickCupCard: a card of the kind not owned yet; a duplicate only once the set is complete', () => {
+  const rng = createRng(9);
+  const owned = {};
+  const seen = new Set();
+  for (let i = 0; i < NATION_CARDS.length; i++) {
+    const w = pickCupCard(ALL_CARDS, rng, owned, 'nation');
+    eq([w.card.kind, w.isNew], ['nation', true]);
+    assert(!owned[w.card.id], 'not owned yet');
+    owned[w.card.id] = 1; seen.add(w.card.id);
+  }
+  eq(seen.size, NATION_CARDS.length, 'the whole set, no duplicate on the way');
+  const dup = pickCupCard(ALL_CARDS, rng, owned, 'nation');
+  eq([dup.card.kind, dup.isNew], ['nation', false]);
+  // clubs are independent of nations
+  const club = pickCupCard(ALL_CARDS, rng, owned, 'club');
+  eq([club.card.kind, club.isNew], ['club', true]);
+  eq(pickCupCard(CARDS, rng, {}, 'nation'), null, 'no card of that kind in the file');
+});
+
+test('pickCupCard: the final gives the highest rarity still missing (the highest of the set once complete)', () => {
+  const rng = createRng(4);
+  const rank = ['common', 'rare', 'epic', 'legend'];
+  const legend = NATION_CARDS.find((c) => c.rarity === 'legend');
+  eq(pickCupCard(ALL_CARDS, rng, {}, 'nation', { final: true }).card.id, legend.id);
+  const owned = { [legend.id]: 1 };
+  const epic = NATION_CARDS.find((c) => c.rarity === 'epic');
+  eq(pickCupCard(ALL_CARDS, rng, owned, 'nation', { final: true }).card.id, epic.id);
+  for (let i = 0; i < 40; i++) {
+    const w = pickCupCard(ALL_CARDS, createRng(i), owned, 'nation', { final: true });
+    eq(w.card.rarity, 'epic');
+  }
+  const all = Object.fromEntries(NATION_CARDS.map((c) => [c.id, 1]));
+  const done = pickCupCard(ALL_CARDS, rng, all, 'nation', { final: true });
+  eq([done.card.rarity, done.isNew, rank.indexOf(done.card.rarity)], ['legend', false, 3]);
+});
+
+test('matchCoins: a cup match earns coins like a league match, training none', () => {
+  eq(matchCoins(res({ mode: 'cup', perfect: false })).total, 30);
+  eq(matchCoins(res({ mode: 'cup', outcome: 'L', correct: 3, total: 15, perfect: false })).total, 0);
+  eq(matchCoins(res({ mode: 'training' })).total, 0);
+});
+
+test('badges: the album badge needs the whole deck, players, countries and clubs', () => {
+  const s = player();
+  const env = { totalCards: ALL_CARDS.length };
+  for (const c of CARDS) s.cards[c.id] = 1;
+  assert(!evaluateBadges(s, env).some((x) => x.id === 'cards-all'), 'players alone do not complete the album');
+  for (const c of ALL_CARDS) s.cards[c.id] = 1;
+  assert(evaluateBadges(s, env).some((x) => x.id === 'cards-all'));
 });

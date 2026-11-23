@@ -1,0 +1,1420 @@
+{
+  "topic": "en-comparatives",
+  "questions": [
+    {
+      "id": "en-comp-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "A cheetah is ___ a lion.",
+      "choices": [
+        "more fast than",
+        "faster than",
+        "fastest than",
+        "faster that"
+      ],
+      "answer": "faster than",
+      "explain": "Short adjective: add -er, then use 'than': faster than."
+    },
+    {
+      "id": "en-comp-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My bag is ___ yours. It has more books in it.",
+      "choices": [
+        "heavyer than",
+        "more heavier than",
+        "heavier than",
+        "heaviest than"
+      ],
+      "answer": "heavier than",
+      "explain": "Consonant + y becomes -ier: heavier."
+    },
+    {
+      "id": "en-comp-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "This ball is ___ that one. It is a size 5.",
+      "choices": [
+        "biger than",
+        "more big than",
+        "biggest than",
+        "bigger than"
+      ],
+      "answer": "bigger than",
+      "explain": "One vowel + one consonant: double the consonant (bigger)."
+    },
+    {
+      "id": "en-comp-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Today is ___ yesterday. The sun is shining!",
+      "choices": [
+        "nicer than",
+        "nicier than",
+        "nicest than",
+        "nicer then"
+      ],
+      "answer": "nicer than",
+      "explain": "Adjective ending in -e: add only -r (nicer), then 'than'."
+    },
+    {
+      "id": "en-comp-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sara is the ___ runner in our team.",
+      "choices": [
+        "faster",
+        "fastest",
+        "most fast",
+        "fastests"
+      ],
+      "answer": "fastest",
+      "explain": "'In the team' compares one with all: the + -est (fastest)."
+    },
+    {
+      "id": "en-comp-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Russia is the ___ country in the world.",
+      "choices": [
+        "bigger",
+        "bigest",
+        "biggest",
+        "most big"
+      ],
+      "answer": "biggest",
+      "explain": "Superlative of a short adjective: double the g, add -est."
+    },
+    {
+      "id": "en-comp-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the comparative of 'hot'?",
+      "choices": [
+        "hoter",
+        "more hot",
+        "hottest",
+        "hotter"
+      ],
+      "answer": "hotter",
+      "explain": "One vowel + one consonant: double the t (hotter)."
+    },
+    {
+      "id": "en-comp-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the comparative of 'happy'?",
+      "choices": [
+        "happier",
+        "happyer",
+        "happiyer",
+        "happiest"
+      ],
+      "answer": "happier",
+      "explain": "Consonant + y becomes -ier: happier."
+    },
+    {
+      "id": "en-comp-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "What is the superlative of 'easy'?",
+      "choices": [
+        "the easyest",
+        "the easiest",
+        "the easyiest",
+        "the more easy"
+      ],
+      "answer": "the easiest",
+      "explain": "Consonant + y becomes -iest: the easiest."
+    },
+    {
+      "id": "en-comp-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "A plane is ___ than a train. It costs more.",
+      "choices": [
+        "expensiver",
+        "most expensive",
+        "more expensive",
+        "more expensiver"
+      ],
+      "answer": "more expensive",
+      "explain": "Long adjectives take more + adjective, with no -er."
+    },
+    {
+      "id": "en-comp-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "This is the ___ film of the year. I loved it!",
+      "choices": [
+        "more exciting",
+        "excitingest",
+        "most excited",
+        "most exciting"
+      ],
+      "answer": "most exciting",
+      "explain": "Long adjective in a superlative: the most + adjective."
+    },
+    {
+      "id": "en-comp-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Our team is ___ than theirs. We won 5-0.",
+      "choices": [
+        "better",
+        "gooder",
+        "more good",
+        "best"
+      ],
+      "answer": "better",
+      "explain": "Good is irregular: good, better, best."
+    },
+    {
+      "id": "en-comp-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Who is the ___ player in your team?",
+      "choices": [
+        "better",
+        "best",
+        "goodest",
+        "most good"
+      ],
+      "answer": "best",
+      "explain": "Superlative of good: best."
+    },
+    {
+      "id": "en-comp-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Yesterday it was cold and wet. Today it is ___ than yesterday: it is snowing too!",
+      "choices": [
+        "worser",
+        "more bad",
+        "worse",
+        "badder"
+      ],
+      "answer": "worse",
+      "explain": "Bad is irregular: bad, worse, worst."
+    },
+    {
+      "id": "en-comp-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "That was the ___ day of my life! I lost my phone and failed a test.",
+      "choices": [
+        "worse",
+        "baddest",
+        "most bad",
+        "worst"
+      ],
+      "answer": "worst",
+      "explain": "Superlative of bad: worst."
+    },
+    {
+      "id": "en-comp-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about heights is correct?",
+      "choices": [
+        "My brother is taller than me.",
+        "My brother is more taller than me.",
+        "My brother is more tall than me.",
+        "My brother is tallest than me."
+      ],
+      "answer": "My brother is taller than me.",
+      "explain": "Never use 'more' with an -er adjective: taller, not more taller."
+    },
+    {
+      "id": "en-comp-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "We are both 12. I am ___ old ___ my cousin.",
+      "choices": [
+        "as ... than",
+        "as ... as",
+        "more ... than",
+        "than ... as"
+      ],
+      "answer": "as ... as",
+      "explain": "Equal things: as + adjective + as."
+    },
+    {
+      "id": "en-comp-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about two boys of the same height is correct?",
+      "choices": [
+        "Tom is as tall than Ben.",
+        "Tom is as taller as Ben.",
+        "Tom is as tall as Ben.",
+        "Tom is same tall as Ben."
+      ],
+      "answer": "Tom is as tall as Ben.",
+      "explain": "Equality uses as + adjective + as (never than)."
+    },
+    {
+      "id": "en-comp-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "She plays tennis ___ than her brother. She wins every game.",
+      "choices": [
+        "gooder",
+        "more well",
+        "weller",
+        "better"
+      ],
+      "answer": "better",
+      "explain": "Comparative of the adverb well: better."
+    },
+    {
+      "id": "en-comp-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Beowulf was ___ than the other warriors in the hall.",
+      "choices": [
+        "stronger",
+        "more strong",
+        "strongest",
+        "strongger"
+      ],
+      "answer": "stronger",
+      "explain": "Short adjective: stronger than."
+    },
+    {
+      "id": "en-comp-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Many people said Beowulf was the ___ warrior of all.",
+      "choices": [
+        "braver",
+        "bravest",
+        "most braver",
+        "bravester"
+      ],
+      "answer": "bravest",
+      "explain": "'Of all' needs a superlative: the bravest."
+    },
+    {
+      "id": "en-comp-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The giraffe is the ___ animal on Earth.",
+      "choices": [
+        "taller",
+        "most tall",
+        "tallest",
+        "tallester"
+      ],
+      "answer": "tallest",
+      "explain": "Superlative of a short adjective: the tallest."
+    },
+    {
+      "id": "en-comp-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sharks are ___ than goldfish.",
+      "choices": [
+        "dangerouser",
+        "most dangerous",
+        "more dangerouser",
+        "more dangerous"
+      ],
+      "answer": "more dangerous",
+      "explain": "Long adjective: more dangerous than."
+    },
+    {
+      "id": "en-comp-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Football is more popular ___ rugby in my town.",
+      "choices": [
+        "than",
+        "that",
+        "then",
+        "as"
+      ],
+      "answer": "than",
+      "explain": "Use 'than' after a comparative."
+    },
+    {
+      "id": "en-comp-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "First we warmed up, ___ we played the match.",
+      "choices": [
+        "than",
+        "then",
+        "that",
+        "them"
+      ],
+      "answer": "then",
+      "explain": "'Then' shows time (next); 'than' compares."
+    },
+    {
+      "id": "en-comp-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Heorot was the ___ hall in the land.",
+      "choices": [
+        "larger",
+        "more large",
+        "largest",
+        "largeest"
+      ],
+      "answer": "largest",
+      "explain": "Adjective ending in -e: add -st (the largest)."
+    },
+    {
+      "id": "en-comp-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: A mouse is ___ than a rabbit. (small)",
+      "answer": [
+        "smaller"
+      ],
+      "explain": "Short adjective: add -er."
+    },
+    {
+      "id": "en-comp-028",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: Winter is ___ than autumn. (cold)",
+      "answer": [
+        "colder"
+      ],
+      "explain": "Short adjective: add -er."
+    },
+    {
+      "id": "en-comp-029",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: My brother is ___ than me. (old)",
+      "answer": [
+        "older"
+      ],
+      "explain": "Short adjective: add -er."
+    },
+    {
+      "id": "en-comp-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: The Nile is the ___ river in Africa. (long)",
+      "answer": [
+        "longest"
+      ],
+      "explain": "Superlative of a short adjective: add -est."
+    },
+    {
+      "id": "en-comp-031",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: Everest is the ___ mountain in the world. (high)",
+      "answer": [
+        "highest"
+      ],
+      "explain": "Superlative of a short adjective: add -est."
+    },
+    {
+      "id": "en-comp-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: The blue whale is the ___ animal in the world. (big)",
+      "answer": [
+        "biggest"
+      ],
+      "explain": "Double the g: biggest."
+    },
+    {
+      "id": "en-comp-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: Jack is a good player, but Tom is even ___ than him. (good)",
+      "answer": [
+        "better"
+      ],
+      "explain": "Good is irregular: better."
+    },
+    {
+      "id": "en-comp-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with one word: My bike is as fast ___ yours. They are the same model.",
+      "answer": [
+        "as"
+      ],
+      "explain": "Equal things: as + adjective + as."
+    },
+    {
+      "id": "en-comp-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is the comparative of 'slow'?",
+      "choices": [
+        "slowwer",
+        "slowier",
+        "slowest",
+        "slower"
+      ],
+      "answer": "slower",
+      "explain": "A final w is not doubled: slower."
+    },
+    {
+      "id": "en-comp-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is the comparative of 'thin'?",
+      "choices": [
+        "thinner",
+        "thiner",
+        "thinnier",
+        "thinnest"
+      ],
+      "answer": "thinner",
+      "explain": "One vowel + one consonant: double the n (thinner)."
+    },
+    {
+      "id": "en-comp-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is the superlative of 'wet'?",
+      "choices": [
+        "the wetest",
+        "the wettest",
+        "the wettiest",
+        "the wetter"
+      ],
+      "answer": "the wettest",
+      "explain": "One vowel + one consonant: double the t (the wettest)."
+    },
+    {
+      "id": "en-comp-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The shopping centre is ___ on Saturdays than on Mondays.",
+      "choices": [
+        "busyer",
+        "busiest",
+        "busier",
+        "more busyer"
+      ],
+      "answer": "busier",
+      "explain": "Consonant + y becomes -ier: busier."
+    },
+    {
+      "id": "en-comp-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "This stadium is ___ than the old one.",
+      "choices": [
+        "moderner",
+        "most modern",
+        "more moderner",
+        "more modern"
+      ],
+      "answer": "more modern",
+      "explain": "Modern has two syllables but takes more: more modern."
+    },
+    {
+      "id": "en-comp-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "I am ___ than yesterday. I did not sleep well.",
+      "choices": [
+        "more tired",
+        "tireder",
+        "tiredder",
+        "most tired"
+      ],
+      "answer": "more tired",
+      "explain": "Adjectives ending in -ed take more: more tired."
+    },
+    {
+      "id": "en-comp-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf is one of the ___ heroes in English literature.",
+      "choices": [
+        "more famous",
+        "most famous",
+        "famousest",
+        "most famouser"
+      ],
+      "answer": "most famous",
+      "explain": "Long adjective in a superlative: the most famous."
+    },
+    {
+      "id": "en-comp-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "My new school is ___ from home than my old one.",
+      "choices": [
+        "more far",
+        "farer",
+        "further",
+        "farest"
+      ],
+      "answer": "further",
+      "explain": "Far is irregular: far, further/farther, furthest/farthest."
+    },
+    {
+      "id": "en-comp-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "What is the superlative of 'bad'?",
+      "choices": [
+        "the baddest",
+        "the worse",
+        "the most bad",
+        "the worst"
+      ],
+      "answer": "the worst",
+      "explain": "Bad is irregular: bad, worse, worst."
+    },
+    {
+      "id": "en-comp-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sam scored three goals and Leo scored two. Sam scored ___ goals than Leo.",
+      "choices": [
+        "more",
+        "most",
+        "much",
+        "many"
+      ],
+      "answer": "more",
+      "explain": "Comparative of many/much is more."
+    },
+    {
+      "id": "en-comp-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Of all the players in the league, Dan scored ___ goals.",
+      "choices": [
+        "more",
+        "the most",
+        "the more",
+        "many"
+      ],
+      "answer": "the most",
+      "explain": "Superlative of many/much is most: the most."
+    },
+    {
+      "id": "en-comp-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'Tom is taller than Ben.'",
+      "choices": [
+        "Ben is taller than Tom.",
+        "Tom isn't as tall as Ben.",
+        "Ben isn't as tall as Tom.",
+        "Ben is as tall as Tom."
+      ],
+      "answer": "Ben isn't as tall as Tom.",
+      "explain": "If Tom is taller, Ben is not as tall as Tom."
+    },
+    {
+      "id": "en-comp-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Tennis is ___ dangerous than boxing. Boxing is more dangerous.",
+      "choices": [
+        "least",
+        "lesser",
+        "littler",
+        "less"
+      ],
+      "answer": "less",
+      "explain": "Less + adjective + than shows a lower degree."
+    },
+    {
+      "id": "en-comp-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Of the three exercises, this one is ___ difficult. The others are harder.",
+      "choices": [
+        "the least",
+        "the less",
+        "least the",
+        "the lesser"
+      ],
+      "answer": "the least",
+      "explain": "Superlative of little: the least + adjective."
+    },
+    {
+      "id": "en-comp-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about two schools is correct?",
+      "choices": [
+        "Our school isn't as bigger as yours.",
+        "Our school isn't as big as yours.",
+        "Our school isn't so bigger than yours.",
+        "Our school isn't as big than yours."
+      ],
+      "answer": "Our school isn't as big as yours.",
+      "explain": "Not as + adjective + as: the adjective stays in its base form."
+    },
+    {
+      "id": "en-comp-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dad drives ___ than Mum. He is very careful.",
+      "choices": [
+        "carefuller",
+        "more careful",
+        "more carefully",
+        "most carefully"
+      ],
+      "answer": "more carefully",
+      "explain": "Adverbs in -ly take more: more carefully."
+    },
+    {
+      "id": "en-comp-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Marta trains ___ than anyone in the team.",
+      "choices": [
+        "more hard",
+        "hardest",
+        "hardlier",
+        "harder"
+      ],
+      "answer": "harder",
+      "explain": "Hard is also an adverb: harder."
+    },
+    {
+      "id": "en-comp-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "He plays ___ now than last year. He keeps making mistakes.",
+      "choices": [
+        "worse",
+        "worser",
+        "worst",
+        "badlier"
+      ],
+      "answer": "worse",
+      "explain": "Comparative of the adverb badly: worse."
+    },
+    {
+      "id": "en-comp-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a class is correct?",
+      "choices": [
+        "He is the most tall boy in the class.",
+        "He is the tallest boy in the class.",
+        "He is the tallest boy from the class.",
+        "He is the more tall boy in the class."
+      ],
+      "answer": "He is the tallest boy in the class.",
+      "explain": "Short adjective: the tallest (not the most tall)."
+    },
+    {
+      "id": "en-comp-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about pizza is correct?",
+      "choices": [
+        "This is the goodest pizza in town.",
+        "This is the most good pizza in town.",
+        "This is the best pizza in town.",
+        "This is the more good pizza in town."
+      ],
+      "answer": "This is the best pizza in town.",
+      "explain": "Superlative of good: the best."
+    },
+    {
+      "id": "en-comp-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a cold is correct?",
+      "choices": [
+        "My cold is worser today than yesterday.",
+        "My cold is more bad today than yesterday.",
+        "My cold is more worse today than yesterday.",
+        "My cold is worse today than yesterday."
+      ],
+      "answer": "My cold is worse today than yesterday.",
+      "explain": "Worse is already a comparative: no more, no -er."
+    },
+    {
+      "id": "en-comp-056",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Hrothgar was ___ than Beowulf. Beowulf was a young man.",
+      "choices": [
+        "older",
+        "more old",
+        "oldest",
+        "olded"
+      ],
+      "answer": "older",
+      "explain": "Short adjective: older than."
+    },
+    {
+      "id": "en-comp-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The giant's sword was ___ than any normal sword.",
+      "choices": [
+        "more heavier",
+        "heavier",
+        "heaviest",
+        "heavyer"
+      ],
+      "answer": "heavier",
+      "explain": "Consonant + y becomes -ier: heavier."
+    },
+    {
+      "id": "en-comp-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Beowulf was stronger than any ___ in Denmark.",
+      "choices": [
+        "warriors",
+        "warrior's",
+        "warrior",
+        "the warrior"
+      ],
+      "answer": "warrior",
+      "explain": "After 'any' in a comparison, use a singular noun."
+    },
+    {
+      "id": "en-comp-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The Danes thought Grendel was the ___ monster in the world.",
+      "choices": [
+        "terriblest",
+        "more terrible",
+        "most terribler",
+        "most terrible"
+      ],
+      "answer": "most terrible",
+      "explain": "Long adjective: the most terrible."
+    },
+    {
+      "id": "en-comp-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about Achilles is correct?",
+      "choices": [
+        "Achilles was the fastest runner in the Greek army.",
+        "Achilles was the most fast runner in the Greek army.",
+        "Achilles was the fastest runner from the Greek army.",
+        "Achilles was the faster runner in the Greek army."
+      ],
+      "answer": "Achilles was the fastest runner in the Greek army.",
+      "explain": "Superlative + in + group: the fastest runner in the army."
+    },
+    {
+      "id": "en-comp-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Mercury is the ___ planet to the Sun.",
+      "choices": [
+        "closer",
+        "closest",
+        "most close",
+        "closeest"
+      ],
+      "answer": "closest",
+      "explain": "Close ends in -e: add -st (closest)."
+    },
+    {
+      "id": "en-comp-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: The station is ___ from here than the park. (far)",
+      "answer": [
+        "farther",
+        "further"
+      ],
+      "explain": "Both farther and further are correct."
+    },
+    {
+      "id": "en-comp-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: Odysseus was ___ than the other leaders. (clever)",
+      "answer": [
+        "cleverer",
+        "more clever"
+      ],
+      "explain": "Two-syllable adjective in -er: both forms are correct."
+    },
+    {
+      "id": "en-comp-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: This street is ___ than that one. (narrow)",
+      "answer": [
+        "narrower",
+        "more narrow"
+      ],
+      "explain": "Two-syllable adjective in -ow: both forms are correct."
+    },
+    {
+      "id": "en-comp-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: The sea is ___ at night than in the day. (quiet)",
+      "answer": [
+        "quieter",
+        "more quiet"
+      ],
+      "explain": "Two-syllable adjective in -et: both forms are correct."
+    },
+    {
+      "id": "en-comp-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: Our new coach is ___ than the old one. (friendly)",
+      "answer": [
+        "friendlier",
+        "more friendly"
+      ],
+      "explain": "Consonant + y becomes -ier (friendlier); more friendly is also correct."
+    },
+    {
+      "id": "en-comp-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: A marathon is ___ than a sprint. (tiring)",
+      "answer": [
+        "more tiring"
+      ],
+      "explain": "Adjectives ending in -ing take more: more tiring."
+    },
+    {
+      "id": "en-comp-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: Sam is a bad singer, but I am even ___. (bad)",
+      "answer": [
+        "worse"
+      ],
+      "explain": "Bad is irregular: worse."
+    },
+    {
+      "id": "en-comp-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adverb in the correct form: She sings ___ than me. (well)",
+      "answer": [
+        "better"
+      ],
+      "explain": "Comparative of the adverb well: better."
+    },
+    {
+      "id": "en-comp-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adverb in the correct form: She gets up ___ than me. (early)",
+      "answer": [
+        "earlier"
+      ],
+      "explain": "Consonant + y becomes -ier: earlier."
+    },
+    {
+      "id": "en-comp-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adverb in the correct form: The turtle moves ___ than the rabbit. (slowly)",
+      "answer": [
+        "more slowly",
+        "slower"
+      ],
+      "explain": "Adverb in -ly: more slowly (slower is also used)."
+    },
+    {
+      "id": "en-comp-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete with one word: Ben isn't ___ tall as Tom. Tom is taller.",
+      "answer": [
+        "as",
+        "so"
+      ],
+      "explain": "Not as + adjective + as (not so ... as is also correct)."
+    },
+    {
+      "id": "en-comp-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete with one word: Lake Baikal is the deepest lake ___ the world.",
+      "answer": [
+        "in"
+      ],
+      "explain": "Use 'in' with a place or group: in the world."
+    },
+    {
+      "id": "en-comp-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complete with one word: She is the oldest ___ the three sisters.",
+      "answer": [
+        "of",
+        "among"
+      ],
+      "explain": "Use 'of' (or 'among') with a number: of the three."
+    },
+    {
+      "id": "en-comp-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Beowulf was ___ stronger than the other men in the hall.",
+      "choices": [
+        "very",
+        "more",
+        "most",
+        "much"
+      ],
+      "answer": "much",
+      "explain": "Before a comparative, use much / far / a lot, not 'very'."
+    },
+    {
+      "id": "en-comp-076",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Sam is 1.61 m tall and Tom is 1.60 m. Sam is ___ taller than Tom.",
+      "choices": [
+        "slightly",
+        "far",
+        "much",
+        "a lot"
+      ],
+      "answer": "slightly",
+      "explain": "A small difference needs slightly or a bit."
+    },
+    {
+      "id": "en-comp-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about two phones is correct?",
+      "choices": [
+        "This phone is very better than that one.",
+        "This phone is much better than that one.",
+        "This phone is much more better than that one.",
+        "This phone is too better than that one."
+      ],
+      "answer": "This phone is much better than that one.",
+      "explain": "Much + comparative; never very + comparative."
+    },
+    {
+      "id": "en-comp-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Our goalkeeper is by far ___ player in the league.",
+      "choices": [
+        "the better",
+        "best",
+        "the best",
+        "more good"
+      ],
+      "answer": "the best",
+      "explain": "By far goes with a superlative: by far the best."
+    },
+    {
+      "id": "en-comp-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Our team is getting ___. We won three matches in a row.",
+      "choices": [
+        "more and more good",
+        "gooder and gooder",
+        "best and best",
+        "better and better"
+      ],
+      "answer": "better and better",
+      "explain": "Comparative + and + comparative shows a steady change."
+    },
+    {
+      "id": "en-comp-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The more you train, ___ you play.",
+      "choices": [
+        "the better",
+        "the best",
+        "better",
+        "more better"
+      ],
+      "answer": "the better",
+      "explain": "The + comparative, the + comparative: the more ..., the better."
+    },
+    {
+      "id": "en-comp-081",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The ___ you practise, the better you get.",
+      "choices": [
+        "most",
+        "more",
+        "much",
+        "many"
+      ],
+      "answer": "more",
+      "explain": "The more ..., the better ...: more is the comparative."
+    },
+    {
+      "id": "en-comp-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "The older he gets, ___ he becomes.",
+      "choices": [
+        "more patient",
+        "the most patient",
+        "the more patient",
+        "the patienter"
+      ],
+      "answer": "the more patient",
+      "explain": "The + comparative, the + comparative: the more patient."
+    },
+    {
+      "id": "en-comp-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about two bags is correct?",
+      "choices": [
+        "This bag is twice so heavy as that one.",
+        "This bag is twice as heavy than that one.",
+        "This bag is twice more heavy as that one.",
+        "This bag is twice as heavy as that one."
+      ],
+      "answer": "This bag is twice as heavy as that one.",
+      "explain": "Twice + as + adjective + as."
+    },
+    {
+      "id": "en-comp-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Heorot was three times ___ large ___ an ordinary house.",
+      "choices": [
+        "as ... as",
+        "more ... than",
+        "as ... than",
+        "so ... as"
+      ],
+      "answer": "as ... as",
+      "explain": "Multiple + as + adjective + as: three times as fast as."
+    },
+    {
+      "id": "en-comp-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about Hrothgar's hall is correct?",
+      "choices": [
+        "Hrothgar's hall was one of the largest building in the land.",
+        "Hrothgar's hall was one of the largest buildings in the land.",
+        "Hrothgar's hall was one of largest buildings in the land.",
+        "Hrothgar's hall was one of the most larger buildings in the land."
+      ],
+      "answer": "Hrothgar's hall was one of the largest buildings in the land.",
+      "explain": "One of the + superlative + plural noun."
+    },
+    {
+      "id": "en-comp-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Saturn is the ___ largest planet in the solar system. Only Jupiter is bigger.",
+      "choices": [
+        "two",
+        "twice",
+        "second",
+        "secondly"
+      ],
+      "answer": "second",
+      "explain": "Use an ordinal number: the second largest."
+    },
+    {
+      "id": "en-comp-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "We need ___ information about the tickets.",
+      "choices": [
+        "further",
+        "furthest",
+        "more far",
+        "farer"
+      ],
+      "answer": "further",
+      "explain": "Further means 'more' or 'additional'; farther is only for distance."
+    },
+    {
+      "id": "en-comp-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a boring match is correct?",
+      "choices": [
+        "It was the most boringest match I have ever seen.",
+        "It was the most boring match I have ever seen.",
+        "It was most boring match I have ever seen.",
+        "It was the more boring match I have ever seen."
+      ],
+      "answer": "It was the most boring match I have ever seen.",
+      "explain": "Long adjective: the most boring (no -est as well)."
+    },
+    {
+      "id": "en-comp-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about Grendel is correct?",
+      "choices": [
+        "Grendel was more stronger than any warrior in Denmark.",
+        "Grendel was strongest than any warrior in Denmark.",
+        "Grendel was stronger than any warrior in Denmark.",
+        "Grendel was stronger as any warrior in Denmark."
+      ],
+      "answer": "Grendel was stronger than any warrior in Denmark.",
+      "explain": "Short adjective + -er + than."
+    },
+    {
+      "id": "en-comp-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence means the same? 'No other animal on land is faster than a cheetah.'",
+      "choices": [
+        "A cheetah is one of the fastest animals on land.",
+        "A cheetah is as fast as other land animals.",
+        "A cheetah is slower than other land animals.",
+        "A cheetah is the fastest animal on land."
+      ],
+      "answer": "A cheetah is the fastest animal on land.",
+      "explain": "If nothing is faster, the cheetah is the fastest."
+    },
+    {
+      "id": "en-comp-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The first film was good, but the second is ___. It is the best I have seen.",
+      "choices": [
+        "even better",
+        "even more good",
+        "even best",
+        "even gooder"
+      ],
+      "answer": "even better",
+      "explain": "Even + comparative adds emphasis: even better."
+    },
+    {
+      "id": "en-comp-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Both teams are equally good. Our team is just ___ good ___ theirs.",
+      "choices": [
+        "more ... than",
+        "as ... as",
+        "as ... than",
+        "so ... as"
+      ],
+      "answer": "as ... as",
+      "explain": "Just as ... as stresses that two things are equal."
+    },
+    {
+      "id": "en-comp-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Of all the sports, golf is ___ tiring.",
+      "choices": [
+        "the less",
+        "the lest",
+        "the least",
+        "the lowest"
+      ],
+      "answer": "the least",
+      "explain": "Superlative of little: the least + adjective."
+    },
+    {
+      "id": "en-comp-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which is the opposite of 'the most dangerous'?",
+      "choices": [
+        "the less dangerous",
+        "the dangerousest",
+        "the most safest",
+        "the least dangerous"
+      ],
+      "answer": "the least dangerous",
+      "explain": "Opposite of the most: the least."
+    },
+    {
+      "id": "en-comp-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about cheese is correct?",
+      "choices": [
+        "The more cheese I eat, the more I like it.",
+        "The more cheese I eat, more I like it.",
+        "The most cheese I eat, the most I like it.",
+        "More cheese I eat, the more I like it."
+      ],
+      "answer": "The more cheese I eat, the more I like it.",
+      "explain": "The more ..., the more ..."
+    },
+    {
+      "id": "en-comp-096",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a test is correct?",
+      "choices": [
+        "This test was much difficult than the last one.",
+        "This test was much more difficult than the last one.",
+        "This test was very more difficult than the last one.",
+        "This test was more much difficult than the last one."
+      ],
+      "answer": "This test was much more difficult than the last one.",
+      "explain": "Much + more + adjective + than."
+    },
+    {
+      "id": "en-comp-097",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Neptune is the ___ planet from the Sun.",
+      "choices": [
+        "most far",
+        "farrest",
+        "farthest",
+        "farer"
+      ],
+      "answer": "farthest",
+      "explain": "Superlative of far: farthest or furthest."
+    },
+    {
+      "id": "en-comp-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "The giant's sword was ___ any other sword in the cave. It was very sharp.",
+      "choices": [
+        "sharper than",
+        "sharpest than",
+        "as sharp than",
+        "more sharper than"
+      ],
+      "answer": "sharper than",
+      "explain": "A comparison with 'any other' needs comparative + than."
+    },
+    {
+      "id": "en-comp-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Hercules is one of the ___ heroes in Greek stories.",
+      "choices": [
+        "strongest",
+        "stronger",
+        "most strong",
+        "strongest of"
+      ],
+      "answer": "strongest",
+      "explain": "One of the + superlative + plural noun."
+    },
+    {
+      "id": "en-comp-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about Beowulf is correct?",
+      "choices": [
+        "Beowulf was more braver than all the other men.",
+        "Beowulf was braver than all the other men.",
+        "Beowulf was bravest than all the other men.",
+        "Beowulf was brave than all the other men."
+      ],
+      "answer": "Beowulf was braver than all the other men.",
+      "explain": "Comparative + than: braver than."
+    },
+    {
+      "id": "en-comp-101",
+      "level": 2,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: The nights are getting ___ and ___. (long)",
+      "answer": [
+        "longer and longer"
+      ],
+      "explain": "Repeat the comparative to show a steady change."
+    },
+    {
+      "id": "en-comp-102",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with one word: The game is getting more and ___ exciting.",
+      "answer": [
+        "more"
+      ],
+      "explain": "Long adjective: more and more + adjective."
+    },
+    {
+      "id": "en-comp-103",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: The older he gets, the ___ he becomes. (wise)",
+      "answer": [
+        "wiser",
+        "more wise"
+      ],
+      "explain": "The + comparative: wiser or more wise."
+    },
+    {
+      "id": "en-comp-104",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the adverb in the correct form: The harder you train, the ___ you play. (well)",
+      "answer": [
+        "better"
+      ],
+      "explain": "Comparative of the adverb well: better."
+    },
+    {
+      "id": "en-comp-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with one word: This is one of the ___ interesting books I know.",
+      "answer": [
+        "most"
+      ],
+      "explain": "One of the most + adjective + plural noun."
+    },
+    {
+      "id": "en-comp-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with one word: Our goalkeeper is by ___ the best player in the league.",
+      "answer": [
+        "far"
+      ],
+      "explain": "By far the best."
+    },
+    {
+      "id": "en-comp-107",
+      "level": 3,
+      "type": "input",
+      "prompt": "Put the adjective in the correct form: K2 is the second ___ mountain in the world. (high)",
+      "answer": [
+        "highest"
+      ],
+      "explain": "The second + superlative: the second highest."
+    },
+    {
+      "id": "en-comp-108",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with one word: Beowulf was stronger ___ any other warrior.",
+      "answer": [
+        "than"
+      ],
+      "explain": "After a comparative, use 'than'."
+    },
+    {
+      "id": "en-comp-109",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with one word: The new hall is three times bigger ___ the old one.",
+      "answer": [
+        "than"
+      ],
+      "explain": "After a comparative, use 'than' (three times as big as is also correct)."
+    }
+  ]
+}

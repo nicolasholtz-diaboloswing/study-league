@@ -14,6 +14,14 @@ const packName = (k) => (k === 'small' ? '1 carte' : `${PACKS.big.size} cartes`)
 // rarities that can drop from each pack (the small pack has no legend)
 const ODDS = Object.fromEntries(BUY_KINDS.map((k) => [k, RARITIES.filter((r) => PACK_ODDS[k][r] > 0).map((r) => `<span class="odds__r odds__r--${r}">${A.rarityLabel(r)}</span>`).join(' · ')]));
 const oddsLine = (k) => `<p class="odds"><span class="odds__list">${ODDS[k]}</span><span class="odds__hint">${k === 'small' ? 'Pas de légende dans ce paquet.' : 'Une légende est possible, et les cartes sont plus fortes.'}</span></p>`;
+const KIND_TABS = [{ id: 'player', label: 'Joueurs' }, { id: 'nation', label: 'Pays' }, { id: 'club', label: 'Clubs' }];
+const kindOf = (c) => A.cardKind(c);
+const nationOf = (c) => c.nation || 'France';   // players only: pays and club cards are never filed under a nation
+// the nations row wraps onto several lines instead of scrolling sideways
+const wrapTabs = (html) => html.replace('class="tabs ', 'class="tabs tabs--wrap ');
+const EMPTY = {
+  mine: { player: 'Ouvre un paquet pour commencer ta collection.', nation: 'Gagne des matchs de coupe pour débloquer des pays.', club: 'Gagne des matchs de coupe pour débloquer des clubs.' },
+};
 const POS_TABS = [
   { id: 'all', label: 'Tous' }, { id: 'GK', label: 'Gardiens' }, { id: 'DEF', label: 'Défenseurs' },
   { id: 'MID', label: 'Milieux' }, { id: 'FWD', label: 'Attaquants' },
@@ -27,12 +35,15 @@ export default {
       el.innerHTML = `<div class="page page--narrow">${C.emptyState({ icon: '🃏', title: 'Les cartes sont pour les joueurs', text: 'Connecte-toi avec un compte joueur pour voir un album.' })}</div>`;
       return;
     }
-    const cards = [...ctx.cards].sort((a, b) => b.rating - a.rating || a.id.localeCompare(b.id));
-    const filter = { rarity: uniqueCards(state) > 0 ? 'mine' : 'all', pos: 'all', nation: 'all' };
-    const nations = [...new Set(cards.map((c) => c.nation || 'France'))].sort((a, b) => (a === 'France' ? -1 : b === 'France' ? 1 : A.nationLabel(a).localeCompare(A.nationLabel(b), 'fr')));
-    const nationOf = (c) => c.nation || 'France';
+    // players by rating, then pays and clubs by rarity (they have no rating)
+    const rank = (c) => RARITIES.indexOf(c.rarity);
+    const cards = [...ctx.cards].sort((a, b) => (kindOf(a) === 'player' ? 0 : 1) - (kindOf(b) === 'player' ? 0 : 1)
+      || (kindOf(a) === 'player' && kindOf(b) === 'player' ? (b.rating || 0) - (a.rating || 0) : rank(b) - rank(a)) || a.id.localeCompare(b.id));
+    const players = cards.filter((c) => kindOf(c) === 'player');
+    const filter = { kind: 'player', rarity: uniqueCards(state) > 0 ? 'mine' : 'all', pos: 'all', nation: 'all' };
+    const nations = [...new Set(players.map(nationOf))].sort((a, b) => (a === 'France' ? -1 : b === 'France' ? 1 : A.nationLabel(a).localeCompare(A.nationLabel(b), 'fr')));
     const nationTabs = () => [{ id: 'all', label: 'Toutes les sélections' }, ...nations.map((n) => {
-      const all = cards.filter((c) => nationOf(c) === n);
+      const all = players.filter((c) => nationOf(c) === n);
       return { id: n, label: `${A.nationLabel(n)} ${all.filter((c) => state.cards[c.id]).length}/${all.length}` };
     })];
     let newIds = new Set();
@@ -74,7 +85,8 @@ export default {
 
     const gridHtml = () => {
       const mine = filter.rarity === 'mine';
-      const shown = cards.filter((c) => (filter.rarity === 'all' || mine || c.rarity === filter.rarity) && (filter.pos === 'all' || c.pos === filter.pos) && (filter.nation === 'all' || nationOf(c) === filter.nation) && (!mine || state.cards[c.id]));
+      const isPlayer = filter.kind === 'player';
+      const shown = cards.filter((c) => kindOf(c) === filter.kind && (filter.rarity === 'all' || mine || c.rarity === filter.rarity) && (!isPlayer || ((filter.pos === 'all' || c.pos === filter.pos) && (filter.nation === 'all' || nationOf(c) === filter.nation))) && (!mine || state.cards[c.id]));
       // owned first (the list is already sorted by rating), then the missing ones
       shown.sort((a, b) => (state.cards[b.id] ? 1 : 0) - (state.cards[a.id] ? 1 : 0));
       const have = shown.filter((c) => state.cards[c.id]).length;
@@ -85,16 +97,22 @@ export default {
         return `<div class="album__cell ${isNew ? 'is-new' : ''}" data-card-id="${A.esc(c.id)}">${A.card(c, { count: n })}${isNew ? '<span class="album__new">NOUVEAU</span>' : ''}</div>`;
       }).join('');
       return `<p class="text-dim text-sm album__count"><b class="num">${have}</b> sur ${shown.length} dans cette liste</p>
-        <div class="grid grid--cards album">${cells || C.emptyState({ icon: '🔍', title: 'Aucune carte ici', text: mine ? 'Ouvre un paquet pour commencer ta collection.' : '' })}</div>`;
+        <div class="grid grid--cards album">${cells || C.emptyState({ icon: '🔍', title: 'Aucune carte ici', text: mine ? EMPTY.mine[filter.kind] : 'Aucune carte ne correspond à ces filtres. Essaie « Toutes » ou une autre rareté.' })}</div>`;
     };
+
+    // the positions and nations rows only make sense for players
+    const extraFilters = () => (filter.kind === 'player'
+      ? `${C.tabs(POS_TABS, filter.pos, { scroll: true, attrs: { 'data-filter': 'pos', 'aria-label': 'Filtrer par poste' } })}
+          ${wrapTabs(C.tabs(nationTabs(), filter.nation, { attrs: { 'data-filter': 'nation', 'aria-label': 'Filtrer par sélection' } }))}`
+      : '');
 
     const renderAlbum = () => {
       el.innerHTML = `<div class="page cards-page">${C.pageHead('Mes cartes', { kicker: 'Album', sub: `Gagne des pièces en jouant, puis achète des cartes ici : ${PACKS.small.cost} pièces = 1 carte, ${PACKS.big.cost} pièces = ${PACKS.big.size} cartes (avec une légende possible).` })}
         <div class="cards-top">${progress()}${packPanel()}</div>
         <div class="stack stack--sm">
+          ${C.tabs(KIND_TABS, filter.kind, { attrs: { 'data-filter': 'kind', 'aria-label': 'Type de carte' } })}
           ${C.tabs(RARITY_TABS, filter.rarity, { scroll: true, attrs: { 'data-filter': 'rarity', 'aria-label': 'Filtrer par rareté' } })}
-          ${C.tabs(POS_TABS, filter.pos, { scroll: true, attrs: { 'data-filter': 'pos', 'aria-label': 'Filtrer par poste' } })}
-          ${C.tabs(nationTabs(), filter.nation, { scroll: true, attrs: { 'data-filter': 'nation', 'aria-label': 'Filtrer par sélection' } })}
+          <div class="stack stack--sm" id="album-extra">${extraFilters()}</div>
         </div>
         <div id="album-grid">${gridHtml()}</div></div>`;
       const first = el.querySelector('.album__cell.is-new');
@@ -176,6 +194,10 @@ export default {
       if (group) {
         filter[group.dataset.filter] = tab.dataset.tab;
         group.querySelectorAll('[data-tab]').forEach((b) => b.setAttribute('aria-selected', String(b === tab)));
+        if (group.dataset.filter === 'kind') {
+          filter.pos = 'all'; filter.nation = 'all';
+          el.querySelector('#album-extra').innerHTML = extraFilters();
+        }
         el.querySelector('#album-grid').innerHTML = gridHtml();
       }
     });

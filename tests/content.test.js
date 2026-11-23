@@ -1,8 +1,9 @@
 // Checks on the real content: data/subjects.json and every file it references (nothing is mocked).
 import { test, assert } from './runner.js';
 import { normalizeAnswer, acceptedAnswers, questionsFromFile } from '../js/core/questions.js';
+import { validateFigure } from '../js/ui/figures.js';
 
-const KEYS = ['id', 'level', 'type', 'prompt', 'choices', 'answer', 'explain'];
+const KEYS = ['id', 'level', 'type', 'prompt', 'choices', 'answer', 'explain', 'figure'];
 const DECIMAL = /^-?\d+[,.]\d+$/;
 
 const catalog = await (await fetch('../data/subjects.json')).json();
@@ -39,6 +40,14 @@ test('content: subject and topic ids are unique, topics have a name, a file and 
   report(errors);
 });
 
+test('content: `optional` on a topic is the boolean true when present', () => {
+  const errors = [];
+  for (const t of topics) if (t.optional !== undefined && t.optional !== true) errors.push(`topic ${t.id}: optional must be true or absent (got ${JSON.stringify(t.optional)})`);
+  for (const t of topics) if ('pack' in t) errors.push(`topic ${t.id}: unknown field pack`);
+  if ('packs' in catalog) errors.push('catalog: unknown field packs');
+  report(errors);
+});
+
 test('content: every file of the catalog exists and its topic id is one of the topics using it', () => {
   const errors = [];
   for (const [f, file] of files) {
@@ -61,6 +70,7 @@ test('content: standard files: keys, level, type, prompt, explanation, choices a
       if (![1, 2, 3].includes(q.level)) errors.push(`${w}: level ${JSON.stringify(q.level)}`);
       if (!nonEmpty(q.prompt)) errors.push(`${w}: empty prompt`);
       if (!nonEmpty(q.explain)) errors.push(`${w}: empty explanation`);
+      if (q.figure !== undefined) for (const m of validateFigure(q.figure)) errors.push(`${w}: figure: ${m}`);
       if (q.type === 'mcq') {
         const norm = Array.isArray(q.choices) ? q.choices.map(normalizeAnswer) : [];
         if (norm.length !== 4 || norm.some((c) => !c)) errors.push(`${w}: mcq needs exactly 4 non-empty choices`);
@@ -110,6 +120,22 @@ test('content: question ids are unique across the whole catalog (verb files expa
         const norm = q.choices.map(normalizeAnswer);
         if (new Set(norm).size !== 4 || !norm.includes(normalizeAnswer(q.answer))) errors.push(`${q.id}: bad generated choices ${JSON.stringify(q.choices)}`);
       } else if (!acceptedAnswers(q).length) errors.push(`${q.id}: no answer`);
+    }
+  }
+  report(errors);
+});
+
+// A pie sector is drawn in a fixed colour by position (css .fg .k1..k4: jaune, bleu, vert, rouge); a part named after a colour must sit on that colour.
+test('content: pie parts named after a colour are drawn in that colour', () => {
+  const SECTOR_COLOUR = ['jaune', 'bleu', 'vert', 'rouge'];
+  const errors = [];
+  for (const [f, file] of files) {
+    for (const q of file?.questions || []) {
+      if (q.figure?.type !== 'pie') continue;
+      q.figure.parts.forEach((p, i) => {
+        const name = normalizeAnswer(p.name || '');
+        if (['jaune', 'bleu', 'vert', 'rouge'].includes(name) && SECTOR_COLOUR[i % 6] !== name) errors.push(`${f} ${q.id}: "${p.name}" is part ${i + 1}, drawn ${SECTOR_COLOUR[i % 6] || 'another colour'}`);
+      });
     }
   }
   report(errors);

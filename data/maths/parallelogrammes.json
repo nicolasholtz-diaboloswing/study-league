@@ -1,0 +1,2375 @@
+{
+  "topic": "maths-parallelogrammes",
+  "questions": [
+    {
+      "id": "ma-par-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un parallélogramme est un quadrilatère qui a :",
+      "choices": [
+        "un seul couple de côtés parallèles",
+        "ses côtés opposés parallèles deux à deux",
+        "quatre côtés de même longueur",
+        "quatre angles droits"
+      ],
+      "answer": "ses côtés opposés parallèles deux à deux",
+      "explain": "Définition : un parallélogramme est un quadrilatère dont les côtés opposés sont parallèles deux à deux."
+    },
+    {
+      "id": "ma-par-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un trapèze est un quadrilatère qui a :",
+      "choices": [
+        "des diagonales de même longueur",
+        "quatre côtés égaux",
+        "au moins un couple de côtés opposés parallèles",
+        "quatre angles droits"
+      ],
+      "answer": "au moins un couple de côtés opposés parallèles",
+      "explain": "Un trapèze a (au moins) deux côtés opposés parallèles."
+    },
+    {
+      "id": "ma-par-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de côtés a un pentagone ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Penta- veut dire cinq : un pentagone a 5 côtés."
+    },
+    {
+      "id": "ma-par-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de côtés a un hexagone ?",
+      "choices": [
+        "6",
+        "8",
+        "5",
+        "4"
+      ],
+      "answer": "6",
+      "explain": "Hexa- veut dire six : un hexagone a 6 côtés."
+    },
+    {
+      "id": "ma-par-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien de sommets a un quadrilatère ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "Un quadrilatère a 4 côtés et 4 sommets."
+    },
+    {
+      "id": "ma-par-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un rectangle est un parallélogramme qui a :",
+      "choices": [
+        "un angle droit",
+        "deux côtés consécutifs égaux",
+        "des diagonales perpendiculaires",
+        "un seul axe de symétrie"
+      ],
+      "answer": "un angle droit",
+      "explain": "Définition : un rectangle est un parallélogramme ayant un angle droit."
+    },
+    {
+      "id": "ma-par-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un losange est un parallélogramme qui a :",
+      "choices": [
+        "deux côtés consécutifs égaux",
+        "un angle droit",
+        "deux côtés parallèles seulement",
+        "des diagonales de même longueur"
+      ],
+      "answer": "deux côtés consécutifs égaux",
+      "explain": "Définition : un losange est un parallélogramme ayant deux côtés consécutifs égaux."
+    },
+    {
+      "id": "ma-par-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un carré est un parallélogramme qui est à la fois :",
+      "choices": [
+        "un rectangle et un losange",
+        "un losange et un pentagone",
+        "un rectangle et un trapèze",
+        "un trapèze et un hexagone"
+      ],
+      "answer": "un rectangle et un losange",
+      "explain": "Un carré a un angle droit (rectangle) et deux côtés consécutifs égaux (losange)."
+    },
+    {
+      "id": "ma-par-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Tous les carrés sont des rectangles. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Un carré a quatre angles droits : c'est un rectangle particulier."
+    },
+    {
+      "id": "ma-par-010",
+      "level": 1,
+      "type": "input",
+      "prompt": "Tous les carrés sont des losanges. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Un carré a ses quatre côtés égaux : c'est un losange particulier."
+    },
+    {
+      "id": "ma-par-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Tous les rectangles sont des parallélogrammes. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Les côtés opposés d'un rectangle sont parallèles : c'est un parallélogramme."
+    },
+    {
+      "id": "ma-par-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, les côtés opposés sont :",
+      "choices": [
+        "parallèles mais de longueurs différentes",
+        "perpendiculaires",
+        "parallèles et de même longueur",
+        "toujours de longueurs différentes"
+      ],
+      "answer": "parallèles et de même longueur",
+      "explain": "Les côtés opposés d'un parallélogramme sont parallèles et de même longueur."
+    },
+    {
+      "id": "ma-par-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, les diagonales :",
+      "choices": [
+        "se coupent en leur milieu",
+        "ont toujours la même longueur",
+        "sont parallèles",
+        "sont perpendiculaires"
+      ],
+      "answer": "se coupent en leur milieu",
+      "explain": "Les diagonales d'un parallélogramme ont le même milieu : le centre de symétrie."
+    },
+    {
+      "id": "ma-par-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, les angles opposés sont :",
+      "choices": [
+        "toujours droits",
+        "de même mesure",
+        "supplémentaires",
+        "complémentaires"
+      ],
+      "answer": "de même mesure",
+      "explain": "Le demi-tour autour du centre envoie un angle sur son angle opposé : ils ont la même mesure."
+    },
+    {
+      "id": "ma-par-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel point est le centre de symétrie d'un parallélogramme ?",
+      "choices": [
+        "Un de ses sommets",
+        "Le milieu d'un côté",
+        "L'intersection de ses diagonales",
+        "Il n'a pas de centre de symétrie"
+      ],
+      "answer": "L'intersection de ses diagonales",
+      "explain": "Le centre de symétrie est le point où les diagonales se coupent, leur milieu commun."
+    },
+    {
+      "id": "ma-par-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a un angle droit. Que peut-on en déduire ?",
+      "choices": [
+        "C'est un trapèze qui n'est pas un parallélogramme",
+        "Ses diagonales sont perpendiculaires",
+        "C'est un losange",
+        "C'est un rectangle"
+      ],
+      "answer": "C'est un rectangle",
+      "explain": "Un parallélogramme avec un angle droit est un rectangle (par définition)."
+    },
+    {
+      "id": "ma-par-017",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un parallélogramme a des côtés de 5 cm et de 3 cm. Quel est son périmètre, en cm ?",
+      "answer": [
+        "16"
+      ],
+      "explain": "Les côtés opposés sont égaux : 2 × (5 + 3) = 16."
+    },
+    {
+      "id": "ma-par-018",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un parallélogramme a des côtés de 8 cm et de 6 cm. Quel est son périmètre, en cm ?",
+      "answer": [
+        "28"
+      ],
+      "explain": "Les côtés opposés sont égaux : 2 × (8 + 6) = 28."
+    },
+    {
+      "id": "ma-par-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un parallélogramme a des côtés de 4 cm et de 7 cm. Quel est son périmètre, en cm ?",
+      "answer": [
+        "22"
+      ],
+      "explain": "Les côtés opposés sont égaux : 2 × (4 + 7) = 22."
+    },
+    {
+      "id": "ma-par-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un losange a un côté de 6 cm. Quel est son périmètre, en cm ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "Les quatre côtés d'un losange sont égaux : 4 × 6 = 24."
+    },
+    {
+      "id": "ma-par-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un losange a un côté de 9 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "35",
+        "34",
+        "38",
+        "36"
+      ],
+      "answer": "36",
+      "explain": "Les quatre côtés d'un losange sont égaux : 4 × 9 = 36."
+    },
+    {
+      "id": "ma-par-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un carré a un périmètre de 20 cm. Combien mesure son côté, en cm ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "20 ÷ 4 = 5 cm."
+    },
+    {
+      "id": "ma-par-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O avec AC = 10 cm. Combien mesure OA, en cm ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "O est le milieu de [AC] : OA = 10 ÷ 2 = 5 cm."
+    },
+    {
+      "id": "ma-par-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme de centre O avec BD = 14 cm. Combien mesure OD, en cm ?",
+      "choices": [
+        "6",
+        "5",
+        "4",
+        "7"
+      ],
+      "answer": "7",
+      "explain": "O est le milieu de [BD] : OD = 14 ÷ 2 = 7 cm."
+    },
+    {
+      "id": "ma-par-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O avec AC = 12 cm. Combien mesure OA, en cm ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "O est le milieu de [AC] : OA = 12 ÷ 2 = 6 cm."
+    },
+    {
+      "id": "ma-par-026",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O avec BD = 8 cm. Combien mesure OD, en cm ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "O est le milieu de [BD] : OD = 8 ÷ 2 = 4 cm."
+    },
+    {
+      "id": "ma-par-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 70°. Combien mesure l'angle en C, en degrés ?",
+      "answer": [
+        "70"
+      ],
+      "explain": "Les angles opposés d'un parallélogramme ont la même mesure : 70°."
+    },
+    {
+      "id": "ma-par-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 50°. Combien mesure l'angle en C, en degrés ?",
+      "choices": [
+        "130",
+        "47",
+        "50",
+        "40"
+      ],
+      "answer": "50",
+      "explain": "Les angles opposés d'un parallélogramme ont la même mesure : 50°."
+    },
+    {
+      "id": "ma-par-029",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un parallélogramme a une base de 8 cm et une hauteur correspondante de 5 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "Aire = base × hauteur = 8 × 5 = 40."
+    },
+    {
+      "id": "ma-par-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un parallélogramme a une base de 6 cm et une hauteur correspondante de 4 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "Aire = base × hauteur = 6 × 4 = 24."
+    },
+    {
+      "id": "ma-par-031",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un parallélogramme a une base de 10 cm et une hauteur correspondante de 3 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "Aire = base × hauteur = 10 × 3 = 30."
+    },
+    {
+      "id": "ma-par-032",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un rectangle mesure 7 cm de long et 3 cm de large. Quelle est son aire, en cm² ?",
+      "choices": [
+        "19",
+        "18",
+        "24",
+        "21"
+      ],
+      "answer": "21",
+      "explain": "Aire = longueur × largeur = 7 × 3 = 21."
+    },
+    {
+      "id": "ma-par-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un rectangle mesure 9 cm de long et 4 cm de large. Quelle est son aire, en cm² ?",
+      "choices": [
+        "34",
+        "39",
+        "37",
+        "36"
+      ],
+      "answer": "36",
+      "explain": "Aire = longueur × largeur = 9 × 4 = 36."
+    },
+    {
+      "id": "ma-par-034",
+      "level": 2,
+      "type": "input",
+      "prompt": "Tous les rectangles sont des carrés. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Un rectangle de 3 cm sur 5 cm n'est pas un carré."
+    },
+    {
+      "id": "ma-par-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Tous les losanges sont des rectangles. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Un losange n'a pas forcément d'angle droit."
+    },
+    {
+      "id": "ma-par-036",
+      "level": 2,
+      "type": "input",
+      "prompt": "Tous les parallélogrammes sont des rectangles. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Un parallélogramme n'a pas forcément d'angle droit."
+    },
+    {
+      "id": "ma-par-037",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un losange qui a un angle droit est un carré. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Un losange avec un angle droit est un parallélogramme à côtés égaux et à angle droit : un carré."
+    },
+    {
+      "id": "ma-par-038",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un rectangle qui a deux côtés consécutifs égaux est un carré. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Un rectangle avec deux côtés consécutifs égaux a ses quatre côtés égaux : c'est un carré."
+    },
+    {
+      "id": "ma-par-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Parmi ces quadrilatères, lequel n'est pas toujours un parallélogramme ?",
+      "choices": [
+        "Le rectangle",
+        "Le losange",
+        "Le carré",
+        "Le trapèze"
+      ],
+      "answer": "Le trapèze",
+      "explain": "Un trapèze peut n'avoir qu'un seul couple de côtés parallèles."
+    },
+    {
+      "id": "ma-par-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, deux angles consécutifs sont :",
+      "choices": [
+        "complémentaires (leur somme fait 90°)",
+        "droits",
+        "égaux",
+        "supplémentaires (leur somme fait 180°)"
+      ],
+      "answer": "supplémentaires (leur somme fait 180°)",
+      "explain": "Deux angles consécutifs sont entre deux parallèles : leur somme fait 180°."
+    },
+    {
+      "id": "ma-par-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Les diagonales d'un rectangle sont :",
+      "choices": [
+        "perpendiculaires",
+        "toujours de longueurs différentes",
+        "parallèles",
+        "de même longueur"
+      ],
+      "answer": "de même longueur",
+      "explain": "Dans un rectangle, les diagonales ont la même longueur."
+    },
+    {
+      "id": "ma-par-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Les diagonales d'un losange sont :",
+      "choices": [
+        "perpendiculaires",
+        "confondues",
+        "parallèles",
+        "de même longueur"
+      ],
+      "answer": "perpendiculaires",
+      "explain": "Dans un losange, les diagonales se coupent à angle droit."
+    },
+    {
+      "id": "ma-par-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Les diagonales d'un carré sont :",
+      "choices": [
+        "parallèles",
+        "seulement perpendiculaires",
+        "seulement de même longueur",
+        "perpendiculaires et de même longueur"
+      ],
+      "answer": "perpendiculaires et de même longueur",
+      "explain": "Le carré est à la fois un rectangle et un losange : il cumule les deux propriétés."
+    },
+    {
+      "id": "ma-par-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien d'axes de symétrie a un rectangle (qui n'est pas un carré) ?",
+      "choices": [
+        "1",
+        "4",
+        "2",
+        "0"
+      ],
+      "answer": "2",
+      "explain": "Les médiatrices de ses côtés sont ses deux axes de symétrie."
+    },
+    {
+      "id": "ma-par-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien d'axes de symétrie a un losange (qui n'est pas un carré) ?",
+      "choices": [
+        "1",
+        "0",
+        "4",
+        "2"
+      ],
+      "answer": "2",
+      "explain": "Ses deux diagonales sont ses axes de symétrie."
+    },
+    {
+      "id": "ma-par-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien d'axes de symétrie a un carré ?",
+      "choices": [
+        "4",
+        "8",
+        "2",
+        "1"
+      ],
+      "answer": "4",
+      "explain": "Un carré a 4 axes : les deux diagonales et les deux médiatrices des côtés."
+    },
+    {
+      "id": "ma-par-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien d'axes de symétrie a un parallélogramme quelconque (ni rectangle ni losange) ?",
+      "choices": [
+        "4",
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": "0",
+      "explain": "Il n'a aucun axe de symétrie, mais il a un centre de symétrie."
+    },
+    {
+      "id": "ma-par-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Tous les parallélogrammes ont un centre de symétrie. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Le milieu commun de leurs diagonales est un centre de symétrie."
+    },
+    {
+      "id": "ma-par-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Tous les parallélogrammes ont un axe de symétrie. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Un parallélogramme quelconque n'a aucun axe de symétrie."
+    },
+    {
+      "id": "ma-par-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a deux côtés consécutifs de même longueur. Que peut-on en déduire ?",
+      "choices": [
+        "C'est un rectangle",
+        "C'est un losange",
+        "C'est un carré",
+        "Ses diagonales ont même longueur"
+      ],
+      "answer": "C'est un losange",
+      "explain": "Un parallélogramme avec deux côtés consécutifs égaux est un losange (par définition)."
+    },
+    {
+      "id": "ma-par-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a ses diagonales de même longueur. Que peut-on en déduire ?",
+      "choices": [
+        "C'est un rectangle",
+        "C'est un losange",
+        "C'est un trapèze qui n'est pas un parallélogramme",
+        "C'est un carré"
+      ],
+      "answer": "C'est un rectangle",
+      "explain": "Un parallélogramme dont les diagonales ont la même longueur est un rectangle."
+    },
+    {
+      "id": "ma-par-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a ses diagonales perpendiculaires. Que peut-on en déduire ?",
+      "choices": [
+        "Ses angles sont tous droits",
+        "C'est un carré",
+        "C'est un rectangle",
+        "C'est un losange"
+      ],
+      "answer": "C'est un losange",
+      "explain": "Un parallélogramme dont les diagonales sont perpendiculaires est un losange."
+    },
+    {
+      "id": "ma-par-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un quadrilatère non croisé a ses côtés opposés de même longueur deux à deux. C'est forcément :",
+      "choices": [
+        "un trapèze qui n'est pas un parallélogramme",
+        "un rectangle",
+        "un parallélogramme",
+        "un losange"
+      ],
+      "answer": "un parallélogramme",
+      "explain": "Propriété caractéristique : un quadrilatère non croisé à côtés opposés de même longueur est un parallélogramme."
+    },
+    {
+      "id": "ma-par-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un quadrilatère a ses diagonales qui se coupent en leur milieu. C'est forcément :",
+      "choices": [
+        "un rectangle",
+        "un losange",
+        "un parallélogramme",
+        "un carré"
+      ],
+      "answer": "un parallélogramme",
+      "explain": "Propriété caractéristique : des diagonales de même milieu donnent un parallélogramme."
+    },
+    {
+      "id": "ma-par-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un quadrilatère non croisé a deux côtés opposés parallèles et de même longueur. C'est forcément :",
+      "choices": [
+        "un parallélogramme",
+        "un losange",
+        "un trapèze qui n'est pas un parallélogramme",
+        "un rectangle"
+      ],
+      "answer": "un parallélogramme",
+      "explain": "Deux côtés opposés parallèles et égaux suffisent pour un parallélogramme."
+    },
+    {
+      "id": "ma-par-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a des côtés de 10 cm et de 4 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "27",
+        "28",
+        "31",
+        "25"
+      ],
+      "answer": "28",
+      "explain": "Les côtés opposés sont égaux : 2 × (10 + 4) = 28."
+    },
+    {
+      "id": "ma-par-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un parallélogramme a des côtés de 12 cm et de 9 cm. Quel est son périmètre, en cm ?",
+      "answer": [
+        "42"
+      ],
+      "explain": "Les côtés opposés sont égaux : 2 × (12 + 9) = 42."
+    },
+    {
+      "id": "ma-par-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a un périmètre de 30 cm et un côté de 9 cm. Combien mesure un côté consécutif, en cm ?",
+      "choices": [
+        "5",
+        "4",
+        "6",
+        "9"
+      ],
+      "answer": "6",
+      "explain": "La somme de deux côtés consécutifs est 30 ÷ 2 = 15 ; 15 − 9 = 6."
+    },
+    {
+      "id": "ma-par-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un parallélogramme a un périmètre de 40 cm et un côté de 12 cm. Combien mesure un côté consécutif, en cm ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "La somme de deux côtés consécutifs est 40 ÷ 2 = 20 ; 20 − 12 = 8."
+    },
+    {
+      "id": "ma-par-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un losange a un côté de 12 cm. Quel est son périmètre, en cm ?",
+      "answer": [
+        "48"
+      ],
+      "explain": "Les quatre côtés d'un losange sont égaux : 4 × 12 = 48."
+    },
+    {
+      "id": "ma-par-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un losange a un périmètre de 36 cm. Combien mesure chacun de ses côtés, en cm ?",
+      "choices": [
+        "6",
+        "12",
+        "9",
+        "7"
+      ],
+      "answer": "9",
+      "explain": "36 ÷ 4 = 9 cm."
+    },
+    {
+      "id": "ma-par-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un carré a un périmètre de 48 cm. Combien mesure son côté, en cm ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "48 ÷ 4 = 12 cm."
+    },
+    {
+      "id": "ma-par-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O avec AC = 16 cm. Combien mesure OA, en cm ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "O est le milieu de [AC] : OA = 16 ÷ 2 = 8 cm."
+    },
+    {
+      "id": "ma-par-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O avec BD = 6 cm. Combien mesure OD, en cm ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "O est le milieu de [BD] : OD = 6 ÷ 2 = 3 cm."
+    },
+    {
+      "id": "ma-par-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O et OA = 4 cm. Combien mesure la diagonale AC, en cm ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "AC = 2 × OA = 8 cm."
+    },
+    {
+      "id": "ma-par-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O et OA = 7 cm. Combien mesure la diagonale AC, en cm ?",
+      "answer": [
+        "14"
+      ],
+      "explain": "AC = 2 × OA = 14 cm."
+    },
+    {
+      "id": "ma-par-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un rectangle de diagonale AC = 12 cm. Combien mesure la diagonale BD, en cm ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "Les diagonales d'un rectangle ont la même longueur : BD = AC = 12 cm."
+    },
+    {
+      "id": "ma-par-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un rectangle de diagonale AC = 18 cm. Combien mesure la diagonale BD, en cm ?",
+      "answer": [
+        "18"
+      ],
+      "explain": "Les diagonales d'un rectangle ont la même longueur : BD = AC = 18 cm."
+    },
+    {
+      "id": "ma-par-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 70°. Combien mesure l'angle en B, en degrés ?",
+      "choices": [
+        "70",
+        "110",
+        "109",
+        "112"
+      ],
+      "answer": "110",
+      "explain": "Deux angles consécutifs sont supplémentaires : 180 − 70 = 110°."
+    },
+    {
+      "id": "ma-par-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 50°. Combien mesure l'angle en B, en degrés ?",
+      "answer": [
+        "130"
+      ],
+      "explain": "Deux angles consécutifs sont supplémentaires : 180 − 50 = 130°."
+    },
+    {
+      "id": "ma-par-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 65°. Combien mesure l'angle en C, en degrés ?",
+      "answer": [
+        "65"
+      ],
+      "explain": "Les angles opposés d'un parallélogramme ont la même mesure : 65°."
+    },
+    {
+      "id": "ma-par-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 80°. Combien mesure l'angle en C, en degrés ?",
+      "choices": [
+        "82",
+        "100",
+        "80",
+        "10"
+      ],
+      "answer": "80",
+      "explain": "Les angles opposés d'un parallélogramme ont la même mesure : 80°."
+    },
+    {
+      "id": "ma-par-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 110°. Combien mesure l'angle en C, en degrés ?",
+      "choices": [
+        "110",
+        "70",
+        "109",
+        "107"
+      ],
+      "answer": "110",
+      "explain": "Les angles opposés d'un parallélogramme ont la même mesure : 110°."
+    },
+    {
+      "id": "ma-par-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un parallélogramme a un angle de 90°. Combien mesure chacun de ses autres angles, en degrés ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "Opposé : 90° ; consécutifs : 180 − 90 = 90° : c'est un rectangle."
+    },
+    {
+      "id": "ma-par-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un parallélogramme a une base de 12 cm et une hauteur correspondante de 5 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "Aire = base × hauteur = 12 × 5 = 60."
+    },
+    {
+      "id": "ma-par-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a une base de 7 cm et une hauteur correspondante de 4 cm. Quelle est son aire, en cm² ?",
+      "choices": [
+        "31",
+        "25",
+        "27",
+        "28"
+      ],
+      "answer": "28",
+      "explain": "Aire = base × hauteur = 7 × 4 = 28."
+    },
+    {
+      "id": "ma-par-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a une aire de 36 cm² et une base de 9 cm. Quelle est la hauteur correspondante, en cm ?",
+      "choices": [
+        "2",
+        "1",
+        "6",
+        "4"
+      ],
+      "answer": "4",
+      "explain": "Hauteur = aire ÷ base = 36 ÷ 9 = 4."
+    },
+    {
+      "id": "ma-par-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a une aire de 48 cm² et une base de 6 cm. Quelle est la hauteur correspondante, en cm ?",
+      "choices": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "answer": "8",
+      "explain": "Hauteur = aire ÷ base = 48 ÷ 6 = 8."
+    },
+    {
+      "id": "ma-par-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un rectangle mesure 12 cm de long et 5 cm de large. Quelle est son aire, en cm² ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "Aire = longueur × largeur = 12 × 5 = 60."
+    },
+    {
+      "id": "ma-par-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un rectangle a une aire de 72 cm² et une longueur de 9 cm. Quelle est sa largeur, en cm ?",
+      "choices": [
+        "9",
+        "6",
+        "11",
+        "8"
+      ],
+      "answer": "8",
+      "explain": "72 ÷ 9 = 8."
+    },
+    {
+      "id": "ma-par-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un carré a un côté de 11 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "121"
+      ],
+      "explain": "11 × 11 = 121."
+    },
+    {
+      "id": "ma-par-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme d'aire 40 cm². La diagonale [AC] le coupe en deux triangles ABC et ACD. Quelle est l'aire du triangle ABC, en cm² ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "Les triangles ABC et CDA sont symétriques par rapport au centre O : ils ont la même aire, 40 ÷ 2 = 20 cm²."
+    },
+    {
+      "id": "ma-par-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux parallélogrammes ont la même base et la même hauteur. Que peut-on dire de leurs aires ?",
+      "choices": [
+        "La plus grande est celle du plus penché",
+        "On ne peut rien dire",
+        "Elles sont égales",
+        "Elles sont différentes"
+      ],
+      "answer": "Elles sont égales",
+      "explain": "Aire = base × hauteur : mêmes base et hauteur, même aire."
+    },
+    {
+      "id": "ma-par-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle formule donne l'aire d'un parallélogramme ?",
+      "choices": [
+        "côté × côté",
+        "base × hauteur",
+        "(base + hauteur) × 2",
+        "base + hauteur"
+      ],
+      "answer": "base × hauteur",
+      "explain": "L'aire d'un parallélogramme est le produit d'une base par la hauteur correspondante."
+    },
+    {
+      "id": "ma-par-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un parallélogramme, la hauteur peut-elle être plus longue que le côté voisin de la base ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La hauteur est le plus court chemin entre les deux côtés parallèles : elle est plus courte (ou égale) au côté oblique."
+    },
+    {
+      "id": "ma-par-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a ses diagonales perpendiculaires et de même longueur. C'est :",
+      "choices": [
+        "un trapèze quelconque",
+        "un losange qui n'est pas un carré",
+        "un rectangle qui n'est pas un carré",
+        "un carré"
+      ],
+      "answer": "un carré",
+      "explain": "Diagonales perpendiculaires : losange ; diagonales égales : rectangle ; donc un carré."
+    },
+    {
+      "id": "ma-par-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un quadrilatère. Les points A et C sont symétriques par rapport à O, ainsi que B et D. Quelle est la nature de ABCD ?",
+      "choices": [
+        "un cerf-volant sans propriété particulière",
+        "un trapèze quelconque",
+        "un parallélogramme",
+        "un rectangle"
+      ],
+      "answer": "un parallélogramme",
+      "explain": "O est le milieu de [AC] et de [BD] : les diagonales se coupent en leur milieu, donc ABCD est un parallélogramme."
+    },
+    {
+      "id": "ma-par-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et ABC est un angle droit. Que peut-on dire de ABCD ?",
+      "choices": [
+        "C'est un rectangle",
+        "On ne peut rien dire",
+        "C'est un losange qui n'est pas un carré",
+        "C'est un trapèze quelconque"
+      ],
+      "answer": "C'est un rectangle",
+      "explain": "Un parallélogramme avec un angle droit est un rectangle."
+    },
+    {
+      "id": "ma-par-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et AB = BC. Que peut-on dire de ABCD ?",
+      "choices": [
+        "C'est un losange",
+        "On ne peut rien dire",
+        "C'est un trapèze quelconque",
+        "C'est un rectangle"
+      ],
+      "answer": "C'est un losange",
+      "explain": "AB et BC sont consécutifs et égaux : c'est un losange."
+    },
+    {
+      "id": "ma-par-090",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un quadrilatère a quatre côtés de même longueur. Est-ce forcément un losange ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Quatre côtés égaux : côtés opposés égaux, donc parallélogramme, avec deux côtés consécutifs égaux : un losange."
+    },
+    {
+      "id": "ma-par-091",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un quadrilatère a quatre angles droits. Est-ce forcément un rectangle ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Les côtés opposés sont parallèles (angles droits), c'est un parallélogramme avec un angle droit : un rectangle."
+    },
+    {
+      "id": "ma-par-092",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un quadrilatère a deux côtés opposés de même longueur. Est-ce forcément un parallélogramme ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Il faut en plus qu'ils soient parallèles (ou que les deux autres côtés soient aussi égaux) : un trapèze isocèle est un contre-exemple."
+    },
+    {
+      "id": "ma-par-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a des côtés de 2,5 cm et de 3 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "13",
+        "9",
+        "14",
+        "11"
+      ],
+      "answer": "11",
+      "explain": "Les côtés opposés sont égaux : 2 × (2,5 + 3) = 11."
+    },
+    {
+      "id": "ma-par-094",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un parallélogramme a un périmètre de 22 cm et un côté de 5 cm. Combien mesure un côté consécutif, en cm ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "La somme de deux côtés consécutifs est 22 ÷ 2 = 11 ; 11 − 5 = 6."
+    },
+    {
+      "id": "ma-par-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un losange a un côté de 5,5 cm. Quel est son périmètre, en cm ?",
+      "choices": [
+        "22",
+        "25",
+        "19",
+        "21"
+      ],
+      "answer": "22",
+      "explain": "Les quatre côtés d'un losange sont égaux : 4 × 5,5 = 22."
+    },
+    {
+      "id": "ma-par-096",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un rectangle de centre O avec AC = 14 cm. Combien mesure OB, en cm ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "BD = AC = 14 cm et O est le milieu de [BD] : OB = 14 ÷ 2 = 7 cm."
+    },
+    {
+      "id": "ma-par-097",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un losange de côté 5 cm. Combien mesure la longueur BC, en cm ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Les quatre côtés d'un losange sont égaux."
+    },
+    {
+      "id": "ma-par-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme avec AB = 7 cm et BC = 4 cm. Combien mesure CD, en cm ?",
+      "choices": [
+        "9",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": "7",
+      "explain": "Les côtés opposés sont égaux : CD = AB = 7 cm."
+    },
+    {
+      "id": "ma-par-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 65°. Combien mesure l'angle en B, en degrés ?",
+      "choices": [
+        "118",
+        "114",
+        "65",
+        "115"
+      ],
+      "answer": "115",
+      "explain": "Deux angles consécutifs sont supplémentaires : 180 − 65 = 115°."
+    },
+    {
+      "id": "ma-par-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 80°. Combien mesure l'angle en B, en degrés ?",
+      "choices": [
+        "98",
+        "101",
+        "100",
+        "80"
+      ],
+      "answer": "100",
+      "explain": "Deux angles consécutifs sont supplémentaires : 180 − 80 = 100°."
+    },
+    {
+      "id": "ma-par-101",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 110°. Combien mesure l'angle en B, en degrés ?",
+      "answer": [
+        "70"
+      ],
+      "explain": "Deux angles consécutifs sont supplémentaires : 180 − 110 = 70°."
+    },
+    {
+      "id": "ma-par-102",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme et l'angle en A mesure 125°. Combien mesure l'angle en C, en degrés ?",
+      "answer": [
+        "125"
+      ],
+      "explain": "Les angles opposés d'un parallélogramme ont la même mesure : 125°."
+    },
+    {
+      "id": "ma-par-103",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, un angle mesure 40°. Quelle est la somme des quatre angles, en degrés ?",
+      "choices": [
+        "357",
+        "359",
+        "360",
+        "362"
+      ],
+      "answer": "360",
+      "explain": "40 + 140 + 40 + 140 = 360 : la somme des angles d'un quadrilatère est 360°."
+    },
+    {
+      "id": "ma-par-104",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans un losange ABCD, la diagonale [AC] coupe l'angle en A en deux angles égaux. L'angle en A mesure 80°. Combien mesure l'angle BAC, en degrés ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "La diagonale est un axe de symétrie : 80 ÷ 2 = 40°."
+    },
+    {
+      "id": "ma-par-105",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, deux angles consécutifs sont dans le rapport suivant : l'un est le double de l'autre. Combien mesure le plus petit, en degrés ?",
+      "choices": [
+        "60",
+        "30",
+        "61",
+        "120"
+      ],
+      "answer": "60",
+      "explain": "x + 2x = 180 donc x = 60°."
+    },
+    {
+      "id": "ma-par-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un parallélogramme a une base de 2,5 cm et une hauteur correspondante de 4 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Aire = base × hauteur = 2,5 × 4 = 10."
+    },
+    {
+      "id": "ma-par-107",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un parallélogramme a une base de 1,5 cm et une hauteur correspondante de 6 cm. Quelle est son aire, en cm² ?",
+      "answer": [
+        "9"
+      ],
+      "explain": "Aire = base × hauteur = 1,5 × 6 = 9."
+    },
+    {
+      "id": "ma-par-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un parallélogramme a une aire de 30 cm² et une base de 5 cm. Quelle est la hauteur correspondante, en cm ?",
+      "choices": [
+        "4",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": "6",
+      "explain": "Hauteur = aire ÷ base = 30 ÷ 5 = 6."
+    },
+    {
+      "id": "ma-par-109",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O et d'aire 40 cm². Quelle est l'aire du triangle AOB, en cm² ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Les diagonales partagent le parallélogramme en quatre triangles de même aire : 40 ÷ 4 = 10 cm²."
+    },
+    {
+      "id": "ma-par-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une figure est formée d'un parallélogramme (base 6 cm, hauteur 3 cm) et d'un rectangle de 6 cm sur 2 cm. Quelle est l'aire totale, en cm² ?",
+      "choices": [
+        "33",
+        "32",
+        "29",
+        "30"
+      ],
+      "answer": "30",
+      "explain": "Parallélogramme : 6 × 3 = 18 ; rectangle : 6 × 2 = 12 ; total : 30 cm²."
+    },
+    {
+      "id": "ma-par-111",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une figure est formée d'un carré de 4 cm de côté et d'un parallélogramme de base 4 cm et de hauteur 5 cm. Quelle est l'aire totale, en cm² ?",
+      "answer": [
+        "36"
+      ],
+      "explain": "Carré : 4 × 4 = 16 ; parallélogramme : 4 × 5 = 20 ; total : 36 cm²."
+    },
+    {
+      "id": "ma-par-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un terrain a la forme d'un rectangle de 40 m sur 20 m. On enlève un carré de 10 m de côté. Quelle est l'aire restante, en m² ?",
+      "choices": [
+        "700",
+        "701",
+        "699",
+        "697"
+      ],
+      "answer": "700",
+      "explain": "40 × 20 = 800 ; 10 × 10 = 100 ; 800 − 100 = 700 m²."
+    },
+    {
+      "id": "ma-par-113",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un parallélogramme a une base de 50 cm et une hauteur de 40 cm. Quelle est son aire en dm² ? (1 dm² = 100 cm²)",
+      "answer": [
+        "20"
+      ],
+      "explain": "50 × 40 = 2000 cm², et 2000 ÷ 100 = 20 dm²."
+    },
+    {
+      "id": "ma-par-114",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une pelouse rectangulaire mesure 20 m sur 15 m. Une bande de gazon coûte 2 euros le m². Quel est le prix total, en euros ?",
+      "answer": [
+        "600"
+      ],
+      "explain": "20 × 15 = 300 m² ; 300 × 2 = 600 euros."
+    },
+    {
+      "id": "ma-par-115",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nom le plus précis de ce quadrilatère, d'après son codage ?",
+      "choices": [
+        "un parallélogramme",
+        "un carré",
+        "un losange",
+        "un rectangle"
+      ],
+      "answer": "un rectangle",
+      "explain": "Quatre angles droits et des côtés de longueurs différentes : c'est un rectangle.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "rightAt": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sides": [
+          "6 cm",
+          "3 cm",
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-116",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nom le plus précis de ce quadrilatère, d'après son codage ?",
+      "choices": [
+        "un losange",
+        "un carré",
+        "un parallélogramme",
+        "un rectangle"
+      ],
+      "answer": "un losange",
+      "explain": "Quatre côtés de même longueur, sans angle droit : c'est un losange.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5.368,
+            3.759
+          ],
+          [
+            1.368,
+            3.759
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "ticks": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ma-par-117",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nom le plus précis de ce quadrilatère, d'après son codage ?",
+      "choices": [
+        "un losange",
+        "un rectangle",
+        "un carré",
+        "un parallélogramme"
+      ],
+      "answer": "un carré",
+      "explain": "Quatre côtés égaux et quatre angles droits : c'est un carré.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "rightAt": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "ticks": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ma-par-118",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nom le plus précis de ce quadrilatère, d'après son codage ?",
+      "choices": [
+        "un losange",
+        "un parallélogramme",
+        "un rectangle",
+        "un carré"
+      ],
+      "answer": "un parallélogramme",
+      "explain": "Seuls les côtés opposés parallèles sont codés : c'est un parallélogramme (ni angle droit, ni quatre côtés égaux).",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "sides": [
+          "6 cm",
+          "4 cm",
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-119",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nom le plus précis de ce quadrilatère, d'après son codage ?",
+      "choices": [
+        "un losange",
+        "un rectangle",
+        "un parallélogramme",
+        "un carré"
+      ],
+      "answer": "un rectangle",
+      "explain": "Les diagonales se coupent en leur milieu et ont la même longueur : c'est un rectangle.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "diagonals": true,
+        "center": "O",
+        "diagTicks": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ma-par-120",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nom le plus précis de ce quadrilatère, d'après son codage ?",
+      "choices": [
+        "un losange",
+        "un carré",
+        "un parallélogramme",
+        "un rectangle"
+      ],
+      "answer": "un losange",
+      "explain": "Les diagonales se coupent en leur milieu et sont perpendiculaires : c'est un losange.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5.368,
+            3.759
+          ],
+          [
+            1.368,
+            3.759
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "diagonals": true,
+        "center": "O",
+        "diagTicks": [
+          1,
+          2
+        ],
+        "diagRight": true
+      }
+    },
+    {
+      "id": "ma-par-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nom le plus précis de ce quadrilatère, d'après son codage ?",
+      "choices": [
+        "un rectangle",
+        "un carré",
+        "un losange",
+        "un parallélogramme"
+      ],
+      "answer": "un carré",
+      "explain": "Diagonales de même longueur, perpendiculaires et qui se coupent en leur milieu : c'est un carré.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "diagonals": true,
+        "center": "O",
+        "diagTicks": [
+          1,
+          1
+        ],
+        "diagRight": true
+      }
+    },
+    {
+      "id": "ma-par-122",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le périmètre de ce carré, en cm ?",
+      "answer": [
+        "28"
+      ],
+      "explain": "Un carré a 4 côtés égaux : 4 × 7 = 28 cm.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "rightAt": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "ticks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sides": [
+          "7 cm",
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-123",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le périmètre de ce losange, en cm ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "Un losange a 4 côtés égaux : 4 × 5 = 20 cm.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6.71,
+            4.698
+          ],
+          [
+            1.71,
+            4.698
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "ticks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sides": [
+          "5 cm",
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-124",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le périmètre de ce parallélogramme, en cm ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "Les côtés opposés sont égaux : 2 × (6 + 4) = 20 cm.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "sides": [
+          "6 cm",
+          "4 cm",
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-125",
+      "level": 3,
+      "type": "input",
+      "prompt": "Ce parallélogramme a un périmètre de 28 cm. Combien mesure le côté [BC], en cm ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "La moitié du périmètre vaut 28 ÷ 2 = 14 cm, donc BC = 14 − 8 = 6 cm.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "sides": [
+          "8 cm",
+          "?",
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-126",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est l'aire de ce rectangle, en cm² ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "Aire = longueur × largeur = 8 × 5 = 40 cm².",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "rightAt": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sides": [
+          "8 cm",
+          "5 cm",
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-127",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est l'aire de ce parallélogramme, en cm² ? (le côté de 5 cm est penché : il n'est pas la hauteur)",
+      "answer": [
+        "24"
+      ],
+      "explain": "Aire = base × hauteur = 6 × 4 = 24 cm².",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "sides": [
+          "6 cm",
+          "5 cm",
+          null,
+          null
+        ],
+        "height": {
+          "from": 3,
+          "to": 0,
+          "label": "4 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-par-128",
+      "level": 3,
+      "type": "input",
+      "prompt": "L'aire de ce parallélogramme est de 40 cm². Combien mesure sa hauteur, en cm ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Aire = base × hauteur, donc hauteur = 40 ÷ 8 = 5 cm.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "sides": [
+          "8 cm",
+          null,
+          null,
+          null
+        ],
+        "height": {
+          "from": 3,
+          "to": 0,
+          "label": "?"
+        }
+      }
+    },
+    {
+      "id": "ma-par-129",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est l'aire de ce parallélogramme, en cm² ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "Aire = base × hauteur = 15 × 4 = 60 cm².",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "sides": [
+          "15 cm",
+          null,
+          null,
+          null
+        ],
+        "height": {
+          "from": 3,
+          "to": 0,
+          "label": "4 cm"
+        }
+      }
+    },
+    {
+      "id": "ma-par-130",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABCD est un rectangle dont la diagonale [AC] mesure 10 cm. Combien mesure la diagonale [BD], en cm ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Les diagonales d'un rectangle ont la même longueur : BD = AC = 10 cm.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "rightAt": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "diagonals": true,
+        "center": "O",
+        "diagTicks": [
+          1,
+          1
+        ],
+        "diagLabels": [
+          "10 cm",
+          "?"
+        ]
+      }
+    },
+    {
+      "id": "ma-par-131",
+      "level": 1,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme de centre O, avec AO = 3 cm. Combien mesure la diagonale [AC], en cm ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "O est le milieu de [AC] : AC = 2 × 3 = 6 cm.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "diagonals": true,
+        "center": "O",
+        "diagTicks": [
+          1,
+          2
+        ],
+        "diagLabels": [
+          "3 cm",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-132",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme. Combien mesure l'angle C, en degrés ?",
+      "answer": [
+        "70"
+      ],
+      "explain": "Les angles opposés d'un parallélogramme sont égaux : C = A = 70°.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7.026,
+            2.819
+          ],
+          [
+            1.026,
+            2.819
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "angles": [
+          "70°",
+          null,
+          "?",
+          null
+        ]
+      }
+    },
+    {
+      "id": "ma-par-133",
+      "level": 2,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme. Combien mesure l'angle B, en degrés ?",
+      "answer": [
+        "110"
+      ],
+      "explain": "Deux angles consécutifs d'un parallélogramme sont supplémentaires : B = 180 − 70 = 110°.",
+      "figure": {
+        "type": "quad",
+        "vertices": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7.026,
+            2.819
+          ],
+          [
+            1.026,
+            2.819
+          ]
+        ],
+        "names": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "par": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "angles": [
+          "70°",
+          "?",
+          null,
+          null
+        ]
+      }
+    }
+  ]
+}

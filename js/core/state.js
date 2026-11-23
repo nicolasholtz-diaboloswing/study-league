@@ -1,14 +1,18 @@
 // Player state: creation, migration, and the orchestrator that applies a match result.
 // Nothing here mutates its inputs: functions return new state objects.
 import {
-  HISTORY_LIMIT, MASTERY_WINDOW, ACTIVITY_DAYS_KEPT, PACKS, FREE_PACK_EVERY_N_LEVELS, MATCH_QUESTIONS,
+  HISTORY_LIMIT, MASTERY_WINDOW, ACTIVITY_DAYS_KEPT, PACKS, FREE_PACK_EVERY_N_LEVELS, LEAGUE_QUESTIONS,
 } from '../config.js';
 import { newSeason, playMatchday, isSeasonOver, seasonEnd, startNextSeason, computeTable } from './league.js';
-import { matchXp, matchCoins, levelForXp, openPack, evaluateBadges, PACK_ODDS } from './rewards.js';
+import { matchXp, matchCoins, levelForXp, openPack, pickCupCard, evaluateBadges, PACK_ODDS } from './rewards.js';
 import { dayKey, updateStreak, topicStars } from './stats.js';
-import { resolveDifficulty } from './match.js';
+import { cupById, ensureCupEdition, advanceCup } from './cups.js';
 
-export const SCHEMA_VERSION = 1;
+// Schema 2: the one-off demotion (see MIGRATIONS[1] and applyDemotion). New states are created at the current schema.
+export const SCHEMA_VERSION = 2;
+
+/** Divisions dropped, once, by every player that existed before schema 2 (floor: District). */
+export const DEMOTION_DIVISIONS = 2;
 
 const clone = (x) => JSON.parse(JSON.stringify(x));
 
@@ -56,7 +60,8 @@ export function newPlayerState({
     streak: { current: 0, best: 0, lastDay: null },
     activity: {},
     pendingMatch: null,
-    difficulty: 'normal', // choice for the next league match: 'normal' | 'expert' (u13 only), see setDifficulty
+    cups: {}, // parallel cups, see core/cups.js
+    optionalTopics: {}, // optional topics the child switched on: { [topicId]: ms of the last activation } (top level: firestore.rules restricts `profile`)
   };
   return clubs ? ensureSeason(state, clubs, rng) : state;
 }
@@ -71,8 +76,47 @@ export function ensureSeason(state, clubs, rng) {
   return s;
 }
 
-// Migrations keyed by the schema version they upgrade FROM. None yet.
-const MIGRATIONS = {};
+/**
+ * State with the optional topic `topicId` switched on (the entry becomes `now`, ms: switching on again updates it) or off (the key is
+ * removed). A coach state is returned unchanged.
+ */
+export function setOptionalTopic(state, topicId, on, now) {
+  if (state.role === 'coach') return state;
+  const optionalTopics = { ...(state.optionalTopics || {}) };
+  if (on) optionalTopics[topicId] = now; else delete optionalTopics[topicId];
+  return { ...state, optionalTopics };
+}
+
+// Migrations keyed by the schema version they upgrade FROM.
+// 1 -> 2: marks every existing player for the one-off demotion by DEMOTION_DIVISIONS divisions. Migration has no clubs nor rng,
+// so the new season is built by applyDemotion (called by restoreSession in main.js, which saves). A new player is created at
+// schema 2 and never goes through this.
+const MIGRATIONS = {
+  1: (s) => (s.role === 'coach' ? s : { ...s, pendingDemotion: DEMOTION_DIVISIONS }),
+};
+
+/**
+ * Carry out the demotion marked by MIGRATIONS[1]: a new season, restarting at matchday 0, in the division lowered by
+ * state.pendingDemotion (floor District), same season number; the marker is removed so it happens exactly once. History, totals,
+ * cards, xp and coins are untouched. A player already at the floor keeps the season in progress. Any kick-off marker is dropped
+ * with the old season. The caller saves the result.
+ */
+export function applyDemotion(state, clubs, rng) {
+  if (!state.pendingDemotion) return state;
+  const s = clone(state);
+  const by = Number(s.pendingDemotion) || 0;
+  delete s.pendingDemotion;
+  const season = s.league?.season;
+  if (!season) return s; // ensureSeason builds season 1 in District
+  const division = Math.max(0, season.division - by);
+  if (division === season.division) return s;
+  s.league.season = newSeason({
+    clubs, profile: s.profile, division, number: season.number, rng,
+    exclude: season.clubs.filter((c) => !c.isPlayer).map((c) => c.id),
+  });
+  s.pendingMatch = null;
+  return s;
+}
 
 /**
  * Bring a stored state to the current schema, filling missing fields with defaults.
@@ -104,14 +148,19 @@ export function migrateState(raw) {
   s.streak = { ...d.streak, ...s.streak };
   s.activity ??= {};
   s.pendingMatch ??= null;
-  s.difficulty = s.difficulty === 'expert' ? 'expert' : 'normal';
+  s.cups ??= {};
+  // { [topicId]: ms of the last activation }: only positive numbers are kept (a leftover `true` or any other shape is dropped)
+  s.optionalTopics = Object.fromEntries(Object.entries(s.optionalTopics && typeof s.optionalTopics === 'object' && !Array.isArray(s.optionalTopics) ? s.optionalTopics : {})
+    .filter(([, v]) => typeof v === 'number' && Number.isFinite(v) && v > 0));
+  delete s.packs; // field of an unreleased draft
+  delete s.difficulty; // the u13 "expert" mode no longer exists; old states may still carry the field
   s.createdAt ??= 0;
   s.lastActive ??= s.createdAt;
   return s;
 }
 
 function badgeEnv(ctx) {
-  return { catalog: ctx.catalog, totalCards: ctx.cards ? ctx.cards.length : undefined };
+  return { catalog: ctx.catalog, totalCards: ctx.cards ? ctx.cards.length : undefined }; // the album is the whole deck: players, countries and clubs
 }
 
 function grantBadges(s, ctx, events) {
@@ -138,12 +187,21 @@ function pruneActivity(s) {
  *  {type:'streak', days}                         (day streak grew)
  *  {type:'matchday', matchday, results, position, table}  (league only)
  *  {type:'season-end', summary, nextDivision, promoted, champion}  (league only, after matchday)
+ *  {type:'cup', cupId, cupName, edition, round, roundName, rounds, qualified, shootout, eliminated, finalWon, card: {card,isNew}|null, coins}
+ *    (cup only; card = the nation/club card won by a qualification; coins = final bonus; a won final also gives a
+ *    {type:'free-pack', reason:'cup'})
  *  {type:'badge', badge:{id,name,desc,icon}}
  */
 export function applyResult(state, result, ctx) {
   const { now, rng } = ctx;
   const league = result.mode === 'league';
+  const cup = result.mode === 'cup';
+  const ranked = league || cup; // timed matches: kick-off marker, coins
+  const cupDef = cup ? cupById(result.cupId) : null;
   let s = league && !state.league.season ? ensureSeason(state, ctx.clubs, rng) : state;
+  if (cupDef && state.cups?.[cupDef.id]?.status !== 'active') {
+    try { s = ensureCupEdition(s, cupDef, now, { clubs: ctx.clubs, cards: ctx.cards }); } catch { /* locked or ended today: recorded as a plain match */ }
+  }
   s = clone(s);
   const events = [];
   const t = s.totals;
@@ -188,7 +246,7 @@ export function applyResult(state, result, ctx) {
   s.xp += xp.total;
   events.push({ type: 'xp', ...xp });
   const coins = matchCoins(result);
-  if (league) {
+  if (ranked) {
     s.coins += coins.total;
     events.push({ type: 'coins', ...coins });
   }
@@ -247,15 +305,38 @@ export function applyResult(state, result, ctx) {
     }
   }
 
-  if (league) s.pendingMatch = null; // the kick-off marker is settled
+  // cup: the knockout round, the card won, the final's rewards (the league season is untouched)
+  const cupRec = cupDef ? s.cups?.[cupDef.id] : null;
+  if (cupRec && cupRec.status === 'active') {
+    const adv = advanceCup(cupDef, cupRec, result, now);
+    s.cups[cupDef.id] = adv.record;
+    const ev = {
+      type: 'cup', cupId: cupDef.id, cupName: cupDef.name, edition: cupRec.edition, round: adv.round, roundName: adv.roundName,
+      rounds: cupDef.rounds.length, qualified: adv.qualified, shootout: adv.shootout, eliminated: adv.eliminated, finalWon: adv.finalWon,
+      card: null, coins: 0,
+    };
+    if (adv.qualified) {
+      const won = pickCupCard(ctx.cards || [], rng, s.cards, cupDef.cardKind, { final: adv.finalWon });
+      if (won) { addCards(s, [won]); ev.card = won; }
+    }
+    events.push(ev);
+    if (adv.finalWon) {
+      s.coins += cupDef.finalCoins;
+      ev.coins = cupDef.finalCoins;
+      s.freePacks += 1;
+      events.push({ type: 'free-pack', reason: 'cup' });
+    }
+  }
+
+  if (ranked) s.pendingMatch = null; // the kick-off marker is settled
 
   // match record
   s.matches.push({
     at: now, mode: result.mode, topicId: result.topicId, subjectId: result.subjectId,
     opponent: result.opponent.name, division: result.division,
     goalsFor: result.goalsFor, goalsAgainst: result.goalsAgainst, outcome: result.outcome,
-    correct: result.correct, total: result.total, xp: xp.total, coins: league ? coins.total : 0,
-    ...(result.difficulty === 'expert' ? { difficulty: 'expert' } : {}),
+    correct: result.correct, total: result.total, xp: xp.total, coins: coins.total,
+    ...(cup ? { cup: result.cupId } : {}),
   });
   if (s.matches.length > HISTORY_LIMIT) s.matches.splice(0, s.matches.length - HISTORY_LIMIT);
 
@@ -264,33 +345,24 @@ export function applyResult(state, result, ctx) {
   return { state: s, events };
 }
 
-// ---------- league match in progress (forfeit when the page is closed or reloaded) ----------
+// ---------- league or cup match in progress (forfeit when the page is closed or reloaded) ----------
 
 /**
- * Marker written at kick-off of a league match: { mode: 'league', opponent: {id, name, strength}, topicId, subjectId,
- * division, total, startedAt, difficulty? }. A plain JSON object stored in state.pendingMatch; applyResult clears it.
- * `difficulty: 'expert'` is written only for a u13 player (absent = normal).
+ * Marker written at kick-off of a league or cup match: { mode: 'league' | 'cup', opponent: {id, name, strength}, topicId, subjectId,
+ * division, total, startedAt, goalEvery?, cupId? }. A plain JSON object stored in state.pendingMatch; applyResult clears it.
+ * A marker written before cups and per-division goals has no goalEvery and is a league marker.
  */
-export function startPendingMatch(state, { opponent, topicId, subjectId = null, division = 0, total = MATCH_QUESTIONS, difficulty = 'normal', now }) {
+export function startPendingMatch(state, {
+  mode = 'league', cupId = null, opponent, topicId, subjectId = null, division = 0, total = LEAGUE_QUESTIONS, goalEvery = null, now,
+}) {
   const s = clone(state);
   s.pendingMatch = {
-    mode: 'league',
+    mode,
     opponent: { id: opponent.id, name: opponent.name, strength: opponent.strength ?? 0.5 },
     topicId, subjectId, division, total, startedAt: now,
+    ...(goalEvery ? { goalEvery } : {}),
+    ...(cupId ? { cupId } : {}),
   };
-  if (resolveDifficulty(s.profile.squad, difficulty) === 'expert') s.pendingMatch.difficulty = 'expert';
-  return s;
-}
-
-/** Difficulty of the player's next league match: the stored choice, forced to 'normal' outside the u13 squad. */
-export function playerDifficulty(state) {
-  return resolveDifficulty(state.profile?.squad, state.difficulty);
-}
-
-/** State with the difficulty choice stored for the next league matches ('expert' only accepted for u13). */
-export function setDifficulty(state, difficulty) {
-  const s = clone(state);
-  s.difficulty = resolveDifficulty(s.profile?.squad, difficulty);
   return s;
 }
 
@@ -303,11 +375,12 @@ export function clearPendingMatch(state) {
 
 /** The result of a forfeited match: 0 goals for, 3 against, every question unanswered, no per-question history. */
 export function forfeitResult(pending, now) {
-  const total = pending.total || MATCH_QUESTIONS;
+  const total = pending.total || LEAGUE_QUESTIONS;
+  const cup = pending.mode === 'cup' && pending.cupId;
   return {
-    mode: 'league', topicId: pending.topicId, subjectId: pending.subjectId ?? null, division: pending.division ?? 0, coachPick: false,
+    mode: cup ? 'cup' : 'league', ...(cup ? { cupId: pending.cupId } : {}),
+    topicId: pending.topicId, subjectId: pending.subjectId ?? null, division: pending.division ?? 0, coachPick: false,
     opponent: { id: pending.opponent.id, name: pending.opponent.name, strength: pending.opponent.strength ?? 0.5 },
-    difficulty: pending.difficulty === 'expert' ? 'expert' : 'normal',
     goalsFor: 0, goalsAgainst: 3, outcome: 'L', correct: 0, total, accuracy: 0, perfect: false, cleanSheet: false,
     speedBonus: 0, durationMs: 0, playedAt: now,
     answers: [], // nothing reaches the per-question or topic mastery history
@@ -315,13 +388,14 @@ export function forfeitResult(pending, now) {
 }
 
 /**
- * Settle a pending league match as a forfeit defeat through applyResult. Returns { state, events, result } or null
- * when there is no marker. Totals count every question as answered (wrong); question and topic history are untouched.
+ * Settle a pending league or cup match as a forfeit defeat through applyResult (a cup forfeit eliminates the player). Returns
+ * { state, events, result } or null when there is no marker. Totals count every question as answered (wrong); question and
+ * topic history are untouched.
  */
 export function applyPendingForfeit(state, ctx) {
   const p = state.pendingMatch;
   if (!p || !p.opponent) return null;
-  const result = forfeitResult({ ...p, difficulty: resolveDifficulty(state.profile?.squad, p.difficulty) }, ctx.now);
+  const result = forfeitResult(p, ctx.now);
   const out = applyResult(state, result, ctx);
   out.state.pendingMatch = null;
   return { ...out, result };

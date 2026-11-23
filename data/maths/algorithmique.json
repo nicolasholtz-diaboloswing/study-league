@@ -1,0 +1,1135 @@
+{
+  "topic": "maths-algorithmique",
+  "questions": [
+    {
+      "id": "ma-alg-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un algorithme est :",
+      "choices": [
+        "une suite d'instructions à exécuter dans l'ordre",
+        "un tableau de données",
+        "un nombre premier",
+        "une figure géométrique"
+      ],
+      "answer": "une suite d'instructions à exécuter dans l'ordre",
+      "explain": "Un algorithme décrit, étape par étape, comment résoudre un problème."
+    },
+    {
+      "id": "ma-alg-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un programme, que fait une boucle « répéter 5 fois » ?",
+      "choices": [
+        "Elle arrête le programme après 5 secondes",
+        "Elle ajoute 5 au résultat",
+        "Elle exécute 5 fois la même suite d'instructions",
+        "Elle efface les 5 premières instructions"
+      ],
+      "answer": "Elle exécute 5 fois la même suite d'instructions",
+      "explain": "Une boucle répète un bloc d'instructions un nombre précis de fois."
+    },
+    {
+      "id": "ma-alg-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un programme, une variable sert à :",
+      "choices": [
+        "arrêter le programme",
+        "mémoriser une valeur qui peut changer",
+        "choisir la couleur du fond",
+        "tracer une figure"
+      ],
+      "answer": "mémoriser une valeur qui peut changer",
+      "explain": "Une variable a un nom et contient une valeur que le programme peut modifier."
+    },
+    {
+      "id": "ma-alg-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre à l'utilisateur et affiche son double. Quelle est l'entrée ?",
+      "choices": [
+        "Le nombre saisi par l'utilisateur",
+        "L'écran",
+        "Le double du nombre",
+        "Le texte de la question"
+      ],
+      "answer": "Le nombre saisi par l'utilisateur",
+      "explain": "L'entrée est la donnée fournie au programme ; la sortie est le résultat affiché."
+    },
+    {
+      "id": "ma-alg-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre à l'utilisateur et affiche son double. Quelle est la sortie ?",
+      "choices": [
+        "Le mot « double »",
+        "Le double du nombre saisi",
+        "La question posée",
+        "Le nombre saisi"
+      ],
+      "answer": "Le double du nombre saisi",
+      "explain": "La sortie est ce que le programme affiche : le double."
+    },
+    {
+      "id": "ma-alg-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 4 fois : avancer de 20 pas, tourner de 90 degrés ». Combien de pas fait-il en tout ?",
+      "answer": [
+        "80"
+      ],
+      "explain": "4 × 20 = 80 pas."
+    },
+    {
+      "id": "ma-alg-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un lutin exécute le programme : « répéter 4 fois : avancer de 20 pas, tourner de 90 degrés ». Quel est l'angle total tourné, en degrés ?",
+      "choices": [
+        "360",
+        "361",
+        "358",
+        "359"
+      ],
+      "answer": "360",
+      "explain": "4 × 90 = 360 degrés : un tour complet."
+    },
+    {
+      "id": "ma-alg-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un lutin exécute le programme : « répéter 4 fois : avancer de 50 pas, tourner de 90 degrés ». Combien de pas fait-il en tout ?",
+      "choices": [
+        "203",
+        "199",
+        "200",
+        "202"
+      ],
+      "answer": "200",
+      "explain": "4 × 50 = 200 pas."
+    },
+    {
+      "id": "ma-alg-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 4 fois : avancer de 50 pas, tourner de 90 degrés ». Quel est l'angle total tourné, en degrés ?",
+      "answer": [
+        "360"
+      ],
+      "explain": "4 × 90 = 360 degrés : un tour complet."
+    },
+    {
+      "id": "ma-alg-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un lutin exécute le programme : « répéter 4 fois : avancer de 15 pas, tourner de 90 degrés ». Combien de pas fait-il en tout ?",
+      "choices": [
+        "62",
+        "60",
+        "61",
+        "58"
+      ],
+      "answer": "60",
+      "explain": "4 × 15 = 60 pas."
+    },
+    {
+      "id": "ma-alg-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 4 fois : avancer de 15 pas, tourner de 90 degrés ». Quel est l'angle total tourné, en degrés ?",
+      "answer": [
+        "360"
+      ],
+      "explain": "4 × 90 = 360 degrés : un tour complet."
+    },
+    {
+      "id": "ma-alg-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre (réponse) puis affiche (réponse + 10) × 2. Quelle valeur affiche-t-il si on saisit 4 ?",
+      "choices": [
+        "27",
+        "31",
+        "28",
+        "25"
+      ],
+      "answer": "28",
+      "explain": "(4 + 10) × 2 = 14 × 2 = 28."
+    },
+    {
+      "id": "ma-alg-013",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un programme demande un nombre (réponse) puis affiche (réponse + 10) × 2. Quelle valeur affiche-t-il si on saisit 10 ?",
+      "answer": [
+        "40"
+      ],
+      "explain": "(10 + 10) × 2 = 20 × 2 = 40."
+    },
+    {
+      "id": "ma-alg-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre et affiche son double plus 1. Quelle valeur affiche-t-il si on saisit 5 ?",
+      "choices": [
+        "11",
+        "14",
+        "13",
+        "12"
+      ],
+      "answer": "11",
+      "explain": "2 × 5 + 1 = 11."
+    },
+    {
+      "id": "ma-alg-015",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un programme demande un nombre et affiche son double plus 1. Quelle valeur affiche-t-il si on saisit 8 ?",
+      "answer": [
+        "17"
+      ],
+      "explain": "2 × 8 + 1 = 17."
+    },
+    {
+      "id": "ma-alg-016",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un programme demande un nombre et affiche son carré moins 1. Quelle valeur affiche-t-il si on saisit 3 ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "3 × 3 − 1 = 8."
+    },
+    {
+      "id": "ma-alg-017",
+      "level": 1,
+      "type": "input",
+      "prompt": "La variable x vaut au départ 5. Programme : x prend la valeur x + 3 ; x prend la valeur x × 2. Quelle est la valeur finale de x ?",
+      "answer": [
+        "16"
+      ],
+      "explain": "On enchaîne : x = 8, puis x = 16."
+    },
+    {
+      "id": "ma-alg-018",
+      "level": 1,
+      "type": "input",
+      "prompt": "La variable x vaut au départ 2. Programme : x prend la valeur x × 5 ; x prend la valeur x + 1. Quelle est la valeur finale de x ?",
+      "answer": [
+        "11"
+      ],
+      "explain": "On enchaîne : x = 10, puis x = 11."
+    },
+    {
+      "id": "ma-alg-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "La variable x vaut au départ 4. Programme : x prend la valeur x × 2 ; x prend la valeur x × 2. Quelle est la valeur finale de x ?",
+      "choices": [
+        "16",
+        "18",
+        "15",
+        "13"
+      ],
+      "answer": "16",
+      "explain": "On enchaîne : x = 8, puis x = 16."
+    },
+    {
+      "id": "ma-alg-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi utilise-t-on une boucle plutôt que de recopier 10 fois la même instruction ?",
+      "choices": [
+        "Pour changer le résultat",
+        "Pour que le programme aille moins vite",
+        "Parce que c'est obligatoire",
+        "Le programme est plus court et plus facile à modifier"
+      ],
+      "answer": "Le programme est plus court et plus facile à modifier",
+      "explain": "Une boucle évite de réécrire plusieurs fois la même séquence."
+    },
+    {
+      "id": "ma-alg-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un programme, l'ordre des instructions est-il important ?",
+      "choices": [
+        "Oui, on peut obtenir un résultat différent en changeant l'ordre",
+        "Oui, mais seulement pour les variables",
+        "Non, mais seulement pour les boucles",
+        "Non, le résultat est toujours le même"
+      ],
+      "answer": "Oui, on peut obtenir un résultat différent en changeant l'ordre",
+      "explain": "Par exemple, « avancer puis tourner » ne donne pas la même position que « tourner puis avancer »."
+    },
+    {
+      "id": "ma-alg-022",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que fait l'instruction « tourner de 90 degrés » quand le lutin est orienté vers la droite et qu'on tourne à droite ?",
+      "choices": [
+        "Il avance de 90 pas",
+        "Il se tourne vers le bas",
+        "Il reste orienté vers la droite",
+        "Il se tourne vers le haut"
+      ],
+      "answer": "Il se tourne vers le bas",
+      "explain": "Un quart de tour à droite depuis la droite amène l'orientation vers le bas."
+    },
+    {
+      "id": "ma-alg-023",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 3 fois : avancer de 30 pas, tourner de 120 degrés ». Combien de pas fait-il en tout ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "3 × 30 = 90 pas."
+    },
+    {
+      "id": "ma-alg-024",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 3 fois : avancer de 30 pas, tourner de 120 degrés ». Quel est l'angle total tourné, en degrés ?",
+      "answer": [
+        "360"
+      ],
+      "explain": "3 × 120 = 360 degrés : un tour complet."
+    },
+    {
+      "id": "ma-alg-025",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 6 fois : avancer de 10 pas, tourner de 60 degrés ». Combien de pas fait-il en tout ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "6 × 10 = 60 pas."
+    },
+    {
+      "id": "ma-alg-026",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin exécute le programme : « répéter 6 fois : avancer de 10 pas, tourner de 60 degrés ». Quel est l'angle total tourné, en degrés ?",
+      "choices": [
+        "360",
+        "358",
+        "357",
+        "359"
+      ],
+      "answer": "360",
+      "explain": "6 × 60 = 360 degrés : un tour complet."
+    },
+    {
+      "id": "ma-alg-027",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 3 fois : avancer de 40 pas, tourner de 120 degrés ». Combien de pas fait-il en tout ?",
+      "answer": [
+        "120"
+      ],
+      "explain": "3 × 40 = 120 pas."
+    },
+    {
+      "id": "ma-alg-028",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 3 fois : avancer de 40 pas, tourner de 120 degrés ». Quel est l'angle total tourné, en degrés ?",
+      "answer": [
+        "360"
+      ],
+      "explain": "3 × 120 = 360 degrés : un tour complet."
+    },
+    {
+      "id": "ma-alg-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin exécute le programme : « répéter 6 fois : avancer de 20 pas, tourner de 60 degrés ». Combien de pas fait-il en tout ?",
+      "choices": [
+        "118",
+        "119",
+        "121",
+        "120"
+      ],
+      "answer": "120",
+      "explain": "6 × 20 = 120 pas."
+    },
+    {
+      "id": "ma-alg-030",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 6 fois : avancer de 20 pas, tourner de 60 degrés ». Quel est l'angle total tourné, en degrés ?",
+      "answer": [
+        "360"
+      ],
+      "explain": "6 × 60 = 360 degrés : un tour complet."
+    },
+    {
+      "id": "ma-alg-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin répète 4 fois : « avancer de 30 pas, tourner de 90 degrés ». Quelle figure trace-t-il ?",
+      "choices": [
+        "rectangle de 30 sur 60",
+        "triangle équilatéral",
+        "carré",
+        "hexagone régulier"
+      ],
+      "answer": "carré",
+      "explain": "Les 4 côtés ont la même longueur et on tourne de 90° à chaque fois (4 × 90 = 360°) : c'est un carré."
+    },
+    {
+      "id": "ma-alg-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin répète 3 fois : « avancer de 30 pas, tourner de 120 degrés ». Quelle figure trace-t-il ?",
+      "choices": [
+        "hexagone régulier",
+        "carré",
+        "pentagone régulier",
+        "triangle équilatéral"
+      ],
+      "answer": "triangle équilatéral",
+      "explain": "Les 3 côtés ont la même longueur et on tourne de 120° à chaque fois (3 × 120 = 360°) : c'est un triangle équilatéral."
+    },
+    {
+      "id": "ma-alg-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin répète 6 fois : « avancer de 30 pas, tourner de 60 degrés ». Quelle figure trace-t-il ?",
+      "choices": [
+        "hexagone régulier",
+        "pentagone régulier",
+        "triangle équilatéral",
+        "carré"
+      ],
+      "answer": "hexagone régulier",
+      "explain": "Les 6 côtés ont la même longueur et on tourne de 60° à chaque fois (6 × 60 = 360°) : c'est un hexagone régulier."
+    },
+    {
+      "id": "ma-alg-034",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour tracer un carré avec une boucle, combien de fois doit-on répéter « avancer, tourner de 90 degrés » ?",
+      "choices": [
+        "7",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": "4",
+      "explain": "Un carré a 4 côtés égaux et 4 angles droits."
+    },
+    {
+      "id": "ma-alg-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour tracer un triangle équilatéral avec une boucle, combien de fois doit-on répéter « avancer, tourner de 120 degrés » ?",
+      "choices": [
+        "5",
+        "6",
+        "3",
+        "0"
+      ],
+      "answer": "3",
+      "explain": "Un triangle a 3 côtés : 3 × 120 = 360."
+    },
+    {
+      "id": "ma-alg-036",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour tracer un hexagone régulier avec une boucle, combien de fois doit-on répéter « avancer, tourner de 60 degrés » ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "6 × 60 = 360 degrés."
+    },
+    {
+      "id": "ma-alg-037",
+      "level": 2,
+      "type": "input",
+      "prompt": "Programme : avancer de 50 pas, tourner de 90 degrés, avancer de 20 pas, tourner de 90 degrés, avancer de 50 pas, tourner de 90 degrés, avancer de 20 pas. Si on ferme la figure, quelle est sa nature ? (rectangle / carré / triangle)",
+      "answer": [
+        "rectangle"
+      ],
+      "explain": "Les côtés valent 50, 20, 50, 20 avec des angles droits : un rectangle (qui n'est pas un carré)."
+    },
+    {
+      "id": "ma-alg-038",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un programme trace un rectangle avec les instructions : avancer de 50, tourner de 90, avancer de 20, tourner de 90, avancer de 50, tourner de 90, avancer de 20. Par quel nombre faut-il remplacer les « 20 » pour tracer un carré ?",
+      "answer": [
+        "50"
+      ],
+      "explain": "Pour un carré, les quatre côtés ont la même longueur : 50."
+    },
+    {
+      "id": "ma-alg-039",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un lutin répète 5 fois « avancer de 20 pas ». Combien de pas a-t-il fait ?",
+      "answer": [
+        "100"
+      ],
+      "explain": "5 × 20 = 100 pas."
+    },
+    {
+      "id": "ma-alg-040",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle instruction, répétée 12 fois, fait parcourir 60 pas ? Quel nombre de pas doit-on mettre dans « avancer de ... pas » ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "60 ÷ 12 = 5 pas."
+    },
+    {
+      "id": "ma-alg-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux programmes : A = « tourner de 45 degrés puis avancer de 50 pas », B = « avancer de 50 pas puis tourner de 45 degrés ». Que peut-on dire ?",
+      "choices": [
+        "Les lutins ne finissent pas au même endroit avec la même direction",
+        "Les deux programmes ont le même effet",
+        "Aucun des deux ne fait avancer le lutin",
+        "A est plus long que B"
+      ],
+      "answer": "Les lutins ne finissent pas au même endroit avec la même direction",
+      "explain": "Dans A on tourne avant d'avancer, dans B après : la direction du déplacement diffère."
+    },
+    {
+      "id": "ma-alg-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin est orienté vers la droite. Programme : avancer de 10 pas, tourner de 90 degrés à droite, avancer de 10 pas. Où se trouve-t-il par rapport au point de départ ?",
+      "choices": [
+        "20 pas à droite",
+        "Au point de départ",
+        "10 pas à droite et 10 pas plus bas",
+        "10 pas à droite et 10 pas plus haut"
+      ],
+      "answer": "10 pas à droite et 10 pas plus bas",
+      "explain": "Il avance de 10 vers la droite, puis tourne vers le bas et avance de 10."
+    },
+    {
+      "id": "ma-alg-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin est orienté vers la droite. Programme : avancer de 10 pas, tourner de 180 degrés, avancer de 10 pas. Où se trouve-t-il ?",
+      "choices": [
+        "20 pas à droite",
+        "10 pas à droite",
+        "Au point de départ",
+        "10 pas à gauche du départ"
+      ],
+      "answer": "Au point de départ",
+      "explain": "Il avance de 10 puis fait demi-tour et revient de 10 : il est revenu au départ."
+    },
+    {
+      "id": "ma-alg-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un lutin est orienté vers la droite. Programme : avancer de 10 pas, avancer de 20 pas, avancer de 5 pas. À quelle distance du départ se trouve-t-il, en pas ?",
+      "choices": [
+        "35",
+        "38",
+        "33",
+        "34"
+      ],
+      "answer": "35",
+      "explain": "10 + 20 + 5 = 35 pas en ligne droite."
+    },
+    {
+      "id": "ma-alg-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un programme demande un nombre (réponse) puis affiche (réponse + 10) × 2. Quelle valeur affiche-t-il si on saisit 7 ?",
+      "answer": [
+        "34"
+      ],
+      "explain": "(7 + 10) × 2 = 17 × 2 = 34."
+    },
+    {
+      "id": "ma-alg-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre (réponse) puis affiche (réponse + 10) × 2. Quelle valeur affiche-t-il si on saisit 0 ?",
+      "choices": [
+        "23",
+        "18",
+        "20",
+        "21"
+      ],
+      "answer": "20",
+      "explain": "(0 + 10) × 2 = 10 × 2 = 20."
+    },
+    {
+      "id": "ma-alg-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre (réponse) puis affiche (réponse + 10) × 2. Quelle valeur affiche-t-il si on saisit 13 ?",
+      "choices": [
+        "46",
+        "49",
+        "45",
+        "47"
+      ],
+      "answer": "46",
+      "explain": "(13 + 10) × 2 = 23 × 2 = 46."
+    },
+    {
+      "id": "ma-alg-048",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un programme demande un nombre et affiche son double plus 1. Quelle valeur affiche-t-il si on saisit 0 ?",
+      "answer": [
+        "1"
+      ],
+      "explain": "2 × 0 + 1 = 1."
+    },
+    {
+      "id": "ma-alg-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un programme demande un nombre et affiche son double plus 1. Quelle valeur affiche-t-il si on saisit 20 ?",
+      "answer": [
+        "41"
+      ],
+      "explain": "2 × 20 + 1 = 41."
+    },
+    {
+      "id": "ma-alg-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre et affiche son carré moins 1. Quelle valeur affiche-t-il si on saisit 6 ?",
+      "choices": [
+        "33",
+        "34",
+        "38",
+        "35"
+      ],
+      "answer": "35",
+      "explain": "6 × 6 − 1 = 35."
+    },
+    {
+      "id": "ma-alg-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un programme demande un nombre et affiche son carré moins 1. Quelle valeur affiche-t-il si on saisit 9 ?",
+      "choices": [
+        "83",
+        "79",
+        "81",
+        "80"
+      ],
+      "answer": "80",
+      "explain": "9 × 9 − 1 = 80."
+    },
+    {
+      "id": "ma-alg-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un programme demande un nombre et affiche (nombre ÷ 2) + 3. Quelle valeur affiche-t-il si on saisit 12 ?",
+      "answer": [
+        "9"
+      ],
+      "explain": "12 ÷ 2 = 6, puis 6 + 3 = 9."
+    },
+    {
+      "id": "ma-alg-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "La variable x vaut au départ 10. Programme : x prend la valeur x − 4 ; x prend la valeur x × 3. Quelle est la valeur finale de x ?",
+      "answer": [
+        "18"
+      ],
+      "explain": "On enchaîne : x = 6, puis x = 18."
+    },
+    {
+      "id": "ma-alg-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La variable x vaut au départ 7. Programme : x prend la valeur x + 3 ; x prend la valeur x ÷ 2. Quelle est la valeur finale de x ?",
+      "choices": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "answer": "5",
+      "explain": "On enchaîne : x = 10, puis x = 5."
+    },
+    {
+      "id": "ma-alg-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La variable x vaut au départ 20. Programme : x prend la valeur x ÷ 4 ; x prend la valeur x + 10. Quelle est la valeur finale de x ?",
+      "choices": [
+        "12",
+        "13",
+        "15",
+        "18"
+      ],
+      "answer": "15",
+      "explain": "On enchaîne : x = 5, puis x = 15."
+    },
+    {
+      "id": "ma-alg-056",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au départ, score vaut 0. On répète 5 fois : « ajouter 3 à score ». Quelle est la valeur finale de score ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "5 × 3 = 15."
+    },
+    {
+      "id": "ma-alg-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Au départ, score vaut 10. On répète 4 fois : « ajouter 5 à score ». Quelle est la valeur finale de score ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "10 + 4 × 5 = 30."
+    },
+    {
+      "id": "ma-alg-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle expression traduit le bloc : « (réponse + 10) × 2 » ?",
+      "choices": [
+        "Multiplier 10 par 2 puis ajouter la réponse",
+        "Ajouter 10 puis 2",
+        "Ajouter 10 à la réponse, puis multiplier le tout par 2",
+        "Multiplier la réponse par 2, puis ajouter 10"
+      ],
+      "answer": "Ajouter 10 à la réponse, puis multiplier le tout par 2",
+      "explain": "Les parenthèses indiquent qu'on additionne d'abord : (réponse + 10), puis on multiplie par 2."
+    },
+    {
+      "id": "ma-alg-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle expression correspond à « multiplier la réponse par 2, puis ajouter 10 » ?",
+      "choices": [
+        "réponse × (2 + 10)",
+        "réponse × 2 + 10",
+        "(réponse + 10) × 2",
+        "réponse + 2 × 10"
+      ],
+      "answer": "réponse × 2 + 10",
+      "explain": "La multiplication est prioritaire : réponse × 2 + 10."
+    },
+    {
+      "id": "ma-alg-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un programme, « réponse + 10 » donne 14. Quelle était la valeur de réponse ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "réponse + 10 = 14 donc réponse = 4."
+    },
+    {
+      "id": "ma-alg-061",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un programme affiche les multiples de 4 en répétant 5 fois « ajouter 4 puis afficher », en partant de 0. Quel est le dernier nombre affiché ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "Les nombres affichés sont 4, 8, 12, 16, 20."
+    },
+    {
+      "id": "ma-alg-062",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 5 fois : avancer de 20 pas, tourner de 72 degrés ». Combien de pas fait-il en tout ?",
+      "answer": [
+        "100"
+      ],
+      "explain": "5 × 20 = 100 pas."
+    },
+    {
+      "id": "ma-alg-063",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un lutin exécute le programme : « répéter 8 fois : avancer de 10 pas, tourner de 45 degrés ». Combien de pas fait-il en tout ?",
+      "answer": [
+        "80"
+      ],
+      "explain": "8 × 10 = 80 pas."
+    },
+    {
+      "id": "ma-alg-064",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un lutin exécute le programme : « répéter 10 fois : avancer de 5 pas, tourner de 36 degrés ». Combien de pas fait-il en tout ?",
+      "choices": [
+        "50",
+        "49",
+        "51",
+        "52"
+      ],
+      "answer": "50",
+      "explain": "10 × 5 = 50 pas."
+    },
+    {
+      "id": "ma-alg-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un lutin répète 5 fois : « avancer de 30 pas, tourner de 72 degrés ». Quelle figure trace-t-il ?",
+      "choices": [
+        "pentagone régulier",
+        "triangle équilatéral",
+        "hexagone régulier",
+        "carré"
+      ],
+      "answer": "pentagone régulier",
+      "explain": "Les 5 côtés ont la même longueur et on tourne de 72° à chaque fois (5 × 72 = 360°) : c'est un pentagone régulier."
+    },
+    {
+      "id": "ma-alg-066",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un lutin répète 8 fois : « avancer de 30 pas, tourner de 45 degrés ». Quelle figure trace-t-il ?",
+      "choices": [
+        "triangle équilatéral",
+        "carré",
+        "pentagone régulier",
+        "octogone régulier"
+      ],
+      "answer": "octogone régulier",
+      "explain": "Les 8 côtés ont la même longueur et on tourne de 45° à chaque fois (8 × 45 = 360°) : c'est un octogone régulier."
+    },
+    {
+      "id": "ma-alg-067",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour tracer un polygone régulier à 3 côtés, de quel angle (en degrés) le lutin doit-il tourner à chaque sommet ?",
+      "choices": [
+        "120",
+        "121",
+        "117",
+        "123"
+      ],
+      "answer": "120",
+      "explain": "360 ÷ 3 = 120 degrés."
+    },
+    {
+      "id": "ma-alg-068",
+      "level": 3,
+      "type": "input",
+      "prompt": "Pour tracer un polygone régulier à 6 côtés, de quel angle (en degrés) le lutin doit-il tourner à chaque sommet ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "360 ÷ 6 = 60 degrés."
+    },
+    {
+      "id": "ma-alg-069",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour tracer un polygone régulier à 5 côtés, de quel angle (en degrés) le lutin doit-il tourner à chaque sommet ?",
+      "choices": [
+        "70",
+        "75",
+        "74",
+        "72"
+      ],
+      "answer": "72",
+      "explain": "360 ÷ 5 = 72 degrés."
+    },
+    {
+      "id": "ma-alg-070",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour tracer un polygone régulier à 10 côtés, de quel angle (en degrés) le lutin doit-il tourner à chaque sommet ?",
+      "choices": [
+        "36",
+        "37",
+        "39",
+        "34"
+      ],
+      "answer": "36",
+      "explain": "360 ÷ 10 = 36 degrés."
+    },
+    {
+      "id": "ma-alg-071",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour tracer un polygone régulier à 9 côtés, de quel angle (en degrés) le lutin doit-il tourner à chaque sommet ?",
+      "choices": [
+        "40",
+        "39",
+        "42",
+        "41"
+      ],
+      "answer": "40",
+      "explain": "360 ÷ 9 = 40 degrés."
+    },
+    {
+      "id": "ma-alg-072",
+      "level": 3,
+      "type": "input",
+      "prompt": "Programme : avancer de 50 pas, tourner de 90 degrés, avancer de 20 pas, tourner de 90 degrés, avancer de 50 pas, tourner de 90 degrés, avancer de 20 pas, tourner de 90 degrés. Combien de pas le lutin fait-il en tout ?",
+      "answer": [
+        "140"
+      ],
+      "explain": "50 + 20 + 50 + 20 = 140 pas."
+    },
+    {
+      "id": "ma-alg-073",
+      "level": 3,
+      "type": "input",
+      "prompt": "On veut tracer un carré de 80 pas de côté avec une boucle « répéter 4 fois ». Quelle valeur de pas place-t-on dans « avancer de ... pas » ?",
+      "answer": [
+        "80"
+      ],
+      "explain": "Chaque côté fait 80 pas."
+    },
+    {
+      "id": "ma-alg-074",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un programme trace un carré de 15 pas de côté. Quel est son périmètre, en pas ?",
+      "choices": [
+        "60",
+        "57",
+        "61",
+        "58"
+      ],
+      "answer": "60",
+      "explain": "4 × 15 = 60 pas."
+    },
+    {
+      "id": "ma-alg-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un lutin répète 10 fois : « avancer de 10 pas, tourner à droite de 90 degrés, avancer de 10 pas, tourner à gauche de 90 degrés ». Combien de pas fait-il en tout ?",
+      "choices": [
+        "198",
+        "200",
+        "203",
+        "199"
+      ],
+      "answer": "200",
+      "explain": "Chaque tour de boucle fait 10 + 10 = 20 pas ; 10 × 20 = 200 pas."
+    },
+    {
+      "id": "ma-alg-076",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un lutin répète 10 fois : « avancer de 10 pas, tourner à droite de 90 degrés, avancer de 10 pas, tourner à gauche de 90 degrés ». Au bout de la boucle, est-il orienté comme au départ ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "À chaque tour, 90° à droite puis 90° à gauche se compensent : l'orientation ne change pas."
+    },
+    {
+      "id": "ma-alg-077",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un lutin répète 3 fois : « avancer de 10 pas, tourner de 90 degrés à droite ». Combien de degrés a-t-il tourné en tout ?",
+      "answer": [
+        "270"
+      ],
+      "explain": "3 × 90 = 270 degrés."
+    },
+    {
+      "id": "ma-alg-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un programme sans boucle contient 4 fois la séquence « avancer de 10 pas ; tourner de 90 degrés ». On le remplace par une boucle. Combien de fois la boucle répète-t-elle la séquence ?",
+      "choices": [
+        "2",
+        "1",
+        "4",
+        "7"
+      ],
+      "answer": "4",
+      "explain": "La séquence est écrite 4 fois : « répéter 4 fois »."
+    },
+    {
+      "id": "ma-alg-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un lutin est orienté vers la droite. Programme : avancer de 30 pas, tourner de 180 degrés, avancer de 10 pas. À quelle distance du départ se trouve-t-il, en pas ?",
+      "choices": [
+        "20",
+        "22",
+        "19",
+        "17"
+      ],
+      "answer": "20",
+      "explain": "Il avance de 30 puis revient de 10 : il est à 30 − 10 = 20 pas du départ."
+    },
+    {
+      "id": "ma-alg-080",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un lutin répète 4 fois : « avancer de 20 pas, tourner de 90 degrés ». À la fin, à quelle distance du point de départ se trouve-t-il, en pas ?",
+      "answer": [
+        "0"
+      ],
+      "explain": "Il a tracé un carré complet : il est revenu à son point de départ."
+    },
+    {
+      "id": "ma-alg-081",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un programme demande un nombre (réponse) puis affiche (réponse + 10) × 2. Quelle valeur affiche-t-il si on saisit 2,5 ?",
+      "answer": [
+        "25"
+      ],
+      "explain": "(2,5 + 10) × 2 = 12,5 × 2 = 25."
+    },
+    {
+      "id": "ma-alg-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "La variable x vaut au départ 1. Programme : x prend la valeur x + 2 ; x prend la valeur x × 4 ; x prend la valeur x − 5. Quelle est la valeur finale de x ?",
+      "choices": [
+        "5",
+        "7",
+        "10",
+        "6"
+      ],
+      "answer": "7",
+      "explain": "On enchaîne : x = 3, puis x = 12, puis x = 7."
+    },
+    {
+      "id": "ma-alg-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "La variable x vaut au départ 3. Programme : x prend la valeur x × 3 ; x prend la valeur x − 1 ; x prend la valeur x ÷ 2. Quelle est la valeur finale de x ?",
+      "choices": [
+        "3",
+        "6",
+        "2",
+        "4"
+      ],
+      "answer": "4",
+      "explain": "On enchaîne : x = 9, puis x = 8, puis x = 4."
+    },
+    {
+      "id": "ma-alg-084",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au départ, n vaut 1. On répète 3 fois : « n prend la valeur n × 2 ». Quelle est la valeur finale de n ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "1 → 2 → 4 → 8."
+    },
+    {
+      "id": "ma-alg-085",
+      "level": 3,
+      "type": "input",
+      "prompt": "Au départ, n vaut 1. On répète 4 fois : « n prend la valeur n × 3 ». Quelle est la valeur finale de n ?",
+      "answer": [
+        "81"
+      ],
+      "explain": "1 → 3 → 9 → 27 → 81."
+    },
+    {
+      "id": "ma-alg-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au départ, n vaut 1. On répète 3 fois : « ajouter 2 puis multiplier par 2 ». Quelle est la valeur finale de n ?",
+      "choices": [
+        "34",
+        "38",
+        "37",
+        "36"
+      ],
+      "answer": "36",
+      "explain": "Tour 1 : (1 + 2) × 2 = 6 ; tour 2 : (6 + 2) × 2 = 16 ; tour 3 : (16 + 2) × 2 = 36."
+    },
+    {
+      "id": "ma-alg-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un programme affiche (réponse + 10) × 2 et on obtient 28. Quel nombre a été saisi ?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": "4",
+      "explain": "(réponse + 10) × 2 = 28 donc réponse + 10 = 14 et réponse = 4."
+    },
+    {
+      "id": "ma-alg-088",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un programme affiche 3 × réponse + 2 et on obtient 14. Quel nombre a été saisi ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "3 × réponse = 12 donc réponse = 4."
+    },
+    {
+      "id": "ma-alg-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un programme doit afficher le double de la somme de deux nombres a et b. Quelle expression faut-il écrire ?",
+      "choices": [
+        "2 + a × b",
+        "a + b × 2",
+        "2 × a + b",
+        "2 × (a + b)"
+      ],
+      "answer": "2 × (a + b)",
+      "explain": "Il faut additionner d'abord : (a + b), puis doubler."
+    },
+    {
+      "id": "ma-alg-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Que signifie l'instruction « x prend la valeur x + 1 » ?",
+      "choices": [
+        "On remplace x par 1",
+        "On supprime la variable x",
+        "On augmente de 1 la valeur de x",
+        "x est égal à x + 1 (c'est impossible)"
+      ],
+      "answer": "On augmente de 1 la valeur de x",
+      "explain": "Le signe d'affectation signifie qu'on calcule x + 1 puis qu'on range le résultat dans x."
+    },
+    {
+      "id": "ma-alg-091",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un algorithme teste tous les nombres de 1 à 12 et affiche ceux qui divisent 12. Combien de nombres affiche-t-il ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "Les diviseurs de 12 sont 1, 2, 3, 4, 6 et 12."
+    },
+    {
+      "id": "ma-alg-092",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un algorithme teste les nombres de 1 à 10 et affiche ceux qui sont divisibles par 3. Combien de nombres affiche-t-il ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "3, 6 et 9."
+    },
+    {
+      "id": "ma-alg-093",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un algorithme part de 0 et répète 6 fois : « ajouter 7 puis afficher ». Quel est le dernier nombre affiché ?",
+      "answer": [
+        "42"
+      ],
+      "explain": "7 × 6 = 42."
+    }
+  ]
+}

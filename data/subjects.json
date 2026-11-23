@@ -87,6 +87,15 @@
           ]
         },
         {
+          "id": "en-past-perfect",
+          "name": "Past perfect",
+          "file": "data/en/past-perfect.json",
+          "group": "Verb Tense",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
           "id": "en-irregular-verbs-pp",
           "name": "Irregular verbs (past + participle)",
           "file": "data/en/irregular-verbs.json",
@@ -118,13 +127,64 @@
           ]
         },
         {
-          "id": "en-past-perfect",
-          "name": "Past perfect",
-          "file": "data/en/past-perfect.json",
+          "id": "en-questions-negatives",
+          "name": "Questions & negatives",
+          "file": "data/en/questions-negatives.json",
           "group": "More grammar",
           "squads": [
             "u13"
-          ]
+          ],
+          "optional": true
+        },
+        {
+          "id": "en-modals",
+          "name": "Modals",
+          "file": "data/en/modals.json",
+          "group": "More grammar",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
+          "id": "en-comparatives",
+          "name": "Comparatives & superlatives",
+          "file": "data/en/comparatives.json",
+          "group": "More grammar",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
+          "id": "en-future",
+          "name": "Future forms",
+          "file": "data/en/future.json",
+          "group": "More grammar",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
+          "id": "en-relative-clauses",
+          "name": "Relative clauses",
+          "file": "data/en/relative-clauses.json",
+          "group": "More grammar",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
+          "id": "en-conditionals",
+          "name": "Conditionals",
+          "file": "data/en/conditionals.json",
+          "group": "More grammar",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
         },
         {
           "id": "en-irregular-verbs",
@@ -205,6 +265,24 @@
           "squads": [
             "u13"
           ]
+        },
+        {
+          "id": "fr-gn-phrase-discours",
+          "name": "Groupe nominal, phrase et discours",
+          "file": "data/fr/gn-phrase-discours.json",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
+          "id": "fr-accords-attribut-sujet",
+          "name": "Accords : attribut et sujet",
+          "file": "data/fr/accords-attribut-sujet.json",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
         }
       ]
     },
@@ -217,6 +295,7 @@
           "id": "maths-relatifs",
           "name": "Nombres relatifs et repérage",
           "file": "data/maths/relatifs.json",
+          "group": "Nombres et calculs",
           "squads": [
             "u13"
           ]
@@ -225,6 +304,7 @@
           "id": "maths-priorites",
           "name": "Priorités opératoires",
           "file": "data/maths/priorites.json",
+          "group": "Nombres et calculs",
           "squads": [
             "u13"
           ]
@@ -233,14 +313,109 @@
           "id": "maths-quotients-puissances",
           "name": "Quotients et puissances",
           "file": "data/maths/quotients-puissances.json",
+          "group": "Nombres et calculs",
           "squads": [
             "u13"
           ]
         },
         {
+          "id": "maths-multiples-diviseurs",
+          "name": "Multiples, diviseurs et nombres premiers",
+          "file": "data/maths/multiples-diviseurs.json",
+          "group": "Nombres et calculs",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "maths-fractions",
+          "name": "Fractions",
+          "file": "data/maths/fractions.json",
+          "group": "Nombres et calculs",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "maths-calcul-litteral",
+          "name": "Calcul littéral et équations",
+          "file": "data/maths/calcul-litteral.json",
+          "group": "Nombres et calculs",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "maths-proportionnalite",
+          "name": "Proportionnalité",
+          "file": "data/maths/proportionnalite.json",
+          "group": "Proportionnalité",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
           "id": "maths-symetries-angles",
           "name": "Symétries et angles",
           "file": "data/maths/symetries-angles.json",
+          "group": "Espace et géométrie",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "maths-parallelogrammes",
+          "name": "Parallélogrammes et quadrilatères",
+          "file": "data/maths/parallelogrammes.json",
+          "group": "Espace et géométrie",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "maths-triangles",
+          "name": "Triangles",
+          "file": "data/maths/triangles.json",
+          "group": "Espace et géométrie",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
+          "id": "maths-solides-mesures",
+          "name": "Solides et mesures",
+          "file": "data/maths/solides-mesures.json",
+          "group": "Espace et géométrie",
+          "squads": [
+            "u13"
+          ],
+          "optional": true
+        },
+        {
+          "id": "maths-statistiques",
+          "name": "Statistiques",
+          "file": "data/maths/statistiques.json",
+          "group": "Données et probabilités",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "maths-probabilites",
+          "name": "Probabilités",
+          "file": "data/maths/probabilites.json",
+          "group": "Données et probabilités",
+          "squads": [
+            "u13"
+          ]
+        },
+        {
+          "id": "maths-algorithmique",
+          "name": "Algorithmique et programmes",
+          "file": "data/maths/algorithmique.json",
+          "group": "Pensée informatique",
           "squads": [
             "u13"
           ]

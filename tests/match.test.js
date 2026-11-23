@@ -4,7 +4,7 @@ import { createRng } from '../js/core/rng.js';
 import { acceptedAnswers } from '../js/core/questions.js';
 import {
   createMatch, answerQuestion, timeoutQuestion, summarizeMatch, currentQuestion, currentMinute,
-  currentTimeLimitMs, minuteOf, speedBonus, outcomeOf, resolveDifficulty,
+  currentTimeLimitMs, minuteOf, speedBonus, outcomeOf,
 } from '../js/core/match.js';
 
 function mk(strength = 0.5, mode = 'league', n = NQ) {
@@ -126,14 +126,34 @@ test('match: answering after the end throws', () => {
   eq(currentQuestion(m), null);
 });
 
-// ---------- expert difficulty (u13 only) ----------
-function mkExpert(strength = 0, difficulty = 'expert') {
-  const m = mk(strength);
-  return createMatch({ mode: 'league', questions: m.questions, opponent: m.opponent, topicId: 't1', subjectId: 'en', division: 0, difficulty, rng: createRng(1), now: 1000 });
-}
+// ---------- goals per division, "every error concedes" (cup flag) ----------
+const mkWith = (opts) => createMatch({ mode: 'league', questions: mk(0).questions, opponent: { id: 'c01', name: 'Club A', strength: opts.strength ?? 0 }, topicId: 't1', subjectId: 'en', division: 0, rng: createRng(1), now: 1000, ...opts });
 
-test('expert: every wrong answer or timeout is a goal against, even when the opponent strength is 0', () => {
-  const m = mkExpert(0);
+test('goalEvery: every Nth correct answer scores, the attack meter has that many steps, stored on the match', () => {
+  for (const g of [2, 3, 4, 5]) {
+    const m = mkWith({ goalEvery: g });
+    eq(m.goalEvery, g);
+    const charges = [];
+    while (!m.finished) { const r = answerQuestion(m, right(m), 2000); charges.push([r.attack.charge, r.attack.max]); }
+    eq(m.goalsFor, Math.floor(NQ / g), `goalEvery ${g}`);
+    eq(charges.map((c) => c[1]), Array(NQ).fill(g));
+    eq(charges.map((c) => c[0]), Array.from({ length: NQ }, (_, i) => (i + 1) % g));
+  }
+  eq(mk(0).goalEvery, N, 'default is GOAL_EVERY_N_CORRECT (training)');
+});
+
+test('league and cup matches are timed, training is not; a cup match carries its cupId into the summary', () => {
+  eq([mk(0, 'league').timed, mk(0, 'training').timed, mkWith({ mode: 'cup', cupId: 'league-cup' }).timed], [true, false, true]);
+  const m = mkWith({ mode: 'cup', cupId: 'league-cup' });
+  while (!m.finished) answerQuestion(m, right(m), 100);
+  eq([summarizeMatch(m, 0).mode, summarizeMatch(m, 0).cupId], ['cup', 'league-cup']);
+  const plain = mk(0);
+  while (!plain.finished) answerQuestion(plain, right(plain), 100);
+  assert(!('cupId' in summarizeMatch(plain, 0)));
+});
+
+test('concedeAll (Coupe du monde): every wrong answer or timeout is a goal against, even when the strength is 0, and it draws no random number', () => {
+  const m = mkWith({ concedeAll: true });
   const r1 = answerQuestion(m, 'zzz', 100);
   const r2 = timeoutQuestion(m);
   eq([r1.goalAgainst, r2.goalAgainst, m.goalsAgainst], [true, true, 2]);
@@ -141,35 +161,23 @@ test('expert: every wrong answer or timeout is a goal against, even when the opp
   eq([r3.goalAgainst, m.goalsAgainst], [false, 2], 'a correct answer never concedes');
   while (!m.finished) answerQuestion(m, 'zzz', 100);
   eq(m.goalsAgainst, NQ - 1);
-});
-
-test('expert: replaces the normal rule (no random roll, no extra goals), goals for are unchanged', () => {
-  const m = mkExpert(1);
-  const seq = [true, false, true, true, false, true, true, true, false, true];
-  for (const ok of seq) answerQuestion(m, ok ? right(m) : 'zzz', 1000);
-  const wrong = seq.filter((x) => !x).length, good = seq.length - wrong;
-  eq([m.goalsAgainst, m.goalsFor, m.correct], [wrong, Math.floor(good / N), good]);
-  eq(summarizeMatch(m, 0).difficulty, 'expert');
-  // the expert rule does not consume any random draw
   eq(m.rng.next(), createRng(1).next());
 });
 
-test('expert: all correct is the same as normal (full goals, clean sheet)', () => {
-  const m = mkExpert(1);
-  while (!m.finished) answerQuestion(m, right(m), 2000);
-  eq([m.goalsFor, m.goalsAgainst], [Math.floor(NQ / N), 0]);
-});
-
-test('normal difficulty is unchanged: default is normal and wrong answers still follow the strength', () => {
-  eq(mk(0.5).difficulty, 'normal');
-  eq(mkExpert(0, 'whatever').difficulty, 'normal');
-  const m = mkExpert(0, 'normal');
+test('without concedeAll the strength decides (default), and no match carries a difficulty any more', () => {
+  const m = mkWith({});
+  eq(m.concedeAll, false);
   while (!m.finished) answerQuestion(m, 'zzz', 100);
   eq(m.goalsAgainst, 0);
-  eq(summarizeMatch(m, 0).difficulty, 'normal');
+  assert(!('difficulty' in m) && !('difficulty' in summarizeMatch(m, 0)));
 });
 
-test('resolveDifficulty: only the u13 squad can get expert', () => {
-  eq([resolveDifficulty('u13', 'expert'), resolveDifficulty('u13', 'normal'), resolveDifficulty('u13', undefined), resolveDifficulty('u13', 'x')], ['expert', 'normal', 'normal', 'normal']);
-  eq([resolveDifficulty('u10', 'expert'), resolveDifficulty(null, 'expert'), resolveDifficulty(undefined, 'expert')], ['normal', 'normal', 'normal']);
+test('squad u10: "ê" and "e" are the same typed letter in a match; u13 and no squad stay strict', () => {
+  const qs = [{ id: 'q', topicId: 't', level: 1, type: 'input', prompt: 'Vous ___ (être)', answer: 'êtes', explain: '' }];
+  const play = (squad, given) => {
+    const m = createMatch({ mode: 'training', questions: qs, topicId: 't', squad, rng: createRng(1), now: 0 });
+    return answerQuestion(m, given, 100).correct;
+  };
+  eq([play('u10', 'etes'), play('u10', 'êtes'), play('u10', 'ÊTES'), play('u13', 'etes'), play(null, 'etes'), play('u13', 'êtes')], [true, true, true, false, false, true]);
+  eq([play('u10', 'ètes'), play('u10', 'étes')], [false, false], 'other accents still count');
 });

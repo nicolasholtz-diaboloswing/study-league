@@ -19,18 +19,20 @@ const forceCloud = !!loc && new URLSearchParams(loc.search).has('cloud');
 export const FIREBASE_CONFIG = isDevHost && !forceCloud ? null : CLOUD_CONFIG;
 
 export const APP_NAME = 'Study League';
-export const APP_VERSION = '1.1.0'; // shown in the top bar and on the login screen; bump it at every release (go-live)
+export const APP_VERSION = '1.2.0'; // shown in the top bar and on the login screen; bump it at every release (go-live)
 
 // Match
-export const MATCH_QUESTIONS = 10;   // questions per match (league and training), about 3 minutes
-export const MATCH_MINUTES = 3;      // about how long a match takes (shown to the child)
+export const MATCH_QUESTIONS = 10;   // questions per training match, about 3 minutes
+export const MATCH_MINUTES = 3;      // about how long a training match takes (shown to the child)
+export const LEAGUE_QUESTIONS = 15;  // questions per league or cup match, about 5 minutes
+export const LEAGUE_MINUTES = 5;     // about how long a league or cup match takes (shown to the child)
 export const TIMER_MCQ_SECONDS = 30;
 export const TIMER_INPUT_SECONDS = 45;
-export const GOAL_EVERY_N_CORRECT = 2; // every Nth correct answer scores (the attack meter has N segments)
+export const GOAL_EVERY_N_CORRECT = 2; // training: every Nth correct answer scores (the attack meter has N segments). League and cup matches use the value of their division / cup (DIVISIONS[].goalEvery, CUPS[].goalEvery).
 
-// League season: 8 clubs (the player + 7 opponents), single round-robin = one match per opponent, one matchday each.
+// League season: 8 clubs (the player + 7 opponents), double round-robin = two matches per opponent (home and away), one matchday each.
 export const OPPONENTS_PER_SEASON = 7;
-export const SEASON_MATCHDAYS = OPPONENTS_PER_SEASON; // a season of about one week at one match a day
+export const SEASON_MATCHDAYS = OPPONENTS_PER_SEASON * 2; // 14 matchdays, about two weeks at one match a day
 
 // Rewards
 // Two packs: "small" (1 card, never a legend) and "big" (3 cards, legend possible, better odds). Odds: see PACK_ODDS in core/rewards.js.

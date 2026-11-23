@@ -188,10 +188,27 @@ body.in-match .topbar { display: none; }
   .match .sb__score { padding: 0 10px; }
   .match .qcard__head { min-height: 40px; }
   .match .qcard__prompt { font-size: 1.2rem; padding: 0; }
+  .match .fg { max-height: 170px; }
   .match .answer-form { flex-wrap: nowrap; }
   .match .answer-input { flex: 1 1 0; min-height: 52px; font-size: 1.25rem; }
   .match .answer-form .btn--lg { flex: none; min-height: 52px; padding: 0 1rem; }
   .match__keys { display: none; }
+}
+/* a question with a figure on a phone: same compact scoreboard as the typing mode, to leave room for the figure */
+@media (max-width: 639px) {
+  .match.has-figure { gap: var(--sp-2); }
+  .match.has-figure .match__meter { display: none; }
+  .match.has-figure .scoreboard { display: flex; align-items: center; gap: var(--sp-2); padding: 6px var(--sp-3); }
+  .match.has-figure .scoreboard__lights, .match.has-figure .sb__name, .match.has-figure .sb__status { display: none; }
+  .match.has-figure .sb__row { flex: 1; }
+  .match.has-figure .sb__clock { margin: 0; }
+  .match.has-figure .sb__crest svg { width: 30px; height: 30px; }
+  .match.has-figure .sb__digit { font-size: 2rem; }
+  .match.has-figure .sb__dash { font-size: 1.4rem; }
+  .match.has-figure .sb__score { padding: 0 10px; }
+  .match.has-figure .qcard__head { min-height: 40px; }
+  .match.has-figure .qcard__prompt { font-size: 1.2rem; padding: 0; }
+  .match.has-figure .qcard__feedback { scroll-margin-bottom: 96px; }
 }
 .match.is-typing { gap: var(--sp-2); }
 .match.is-typing .match__meter { display: none; }
@@ -206,6 +223,9 @@ body.in-match .topbar { display: none; }
 .match.is-typing .qcard__head { min-height: 40px; }
 .match.is-typing .qcard__prompt { font-size: 1.2rem; padding: 0; }
 .match.is-typing .answer-form { flex-wrap: nowrap; }
+.match.is-typing .fg { max-height: 170px; }
+/* after the answer the figure keeps its place but leaves room for the verdict above the sticky « Question suivante » */
+.match .qcard:not(.qcard--idle) .fg { max-height: 170px; }
 .match.is-typing .answer-input { flex: 1 1 0; min-height: 52px; font-size: 1.25rem; }
 .match.is-typing .answer-form .btn--lg { flex: none; min-height: 52px; padding: 0 1rem; }
 

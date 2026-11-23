@@ -1,0 +1,1153 @@
+{
+  "topic": "fr-accords-attribut-sujet",
+  "questions": [
+    {
+      "id": "fr-aas-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Les joueuses semblent ___ .",
+      "choices": [
+        "fatigués",
+        "fatiguées",
+        "fatiguée",
+        "fatigué"
+      ],
+      "answer": "fatiguées",
+      "explain": "L'attribut s'accorde avec le sujet « les joueuses » : féminin pluriel."
+    },
+    {
+      "id": "fr-aas-002",
+      "level": 1,
+      "type": "input",
+      "prompt": "Ces gâteaux paraissent ___ . (délicieux / délicieuse / délicieuses)",
+      "answer": [
+        "délicieux"
+      ],
+      "explain": "« gâteaux » est masculin pluriel ; « délicieux » ne change pas au pluriel."
+    },
+    {
+      "id": "fr-aas-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Léa est ___ de sa victoire.",
+      "choices": [
+        "fier",
+        "fières",
+        "fiers",
+        "fière"
+      ],
+      "answer": "fière",
+      "explain": "L'adjectif attribut s'accorde avec « Léa » : féminin singulier."
+    },
+    {
+      "id": "fr-aas-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les spectateurs semblent ___ . (ravi / ravis / ravies)",
+      "answer": [
+        "ravis"
+      ],
+      "explain": "Le sujet « les spectateurs » est masculin pluriel."
+    },
+    {
+      "id": "fr-aas-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le gardien reste ___ devant le but.",
+      "choices": [
+        "attentive",
+        "attentif",
+        "attentifs",
+        "attentives"
+      ],
+      "answer": "attentif",
+      "explain": "Après « rester », l'adjectif s'accorde avec « le gardien » : masculin singulier."
+    },
+    {
+      "id": "fr-aas-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Ces joueuses deviennent ___ .",
+      "choices": [
+        "forts",
+        "forte",
+        "fortes",
+        "fort"
+      ],
+      "answer": "fortes",
+      "explain": "Après « devenir », l'attribut s'accorde avec « ces joueuses » : féminin pluriel."
+    },
+    {
+      "id": "fr-aas-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les couloirs demeurent ___ pendant le cours. (vide / vides)",
+      "answer": [
+        "vides"
+      ],
+      "explain": "« les couloirs » est pluriel : l'attribut prend un « s »."
+    },
+    {
+      "id": "fr-aas-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Ma sœur paraît ___ avant le match.",
+      "choices": [
+        "tendue",
+        "tendu",
+        "tendues",
+        "tendus"
+      ],
+      "answer": "tendue",
+      "explain": "L'attribut s'accorde avec « ma sœur » : féminin singulier."
+    },
+    {
+      "id": "fr-aas-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les filles de ma classe sont ___ au premier rang. (assis / assises / assise)",
+      "answer": [
+        "assises"
+      ],
+      "explain": "Le sujet « les filles » est féminin pluriel."
+    },
+    {
+      "id": "fr-aas-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Léa et Inès sont ___ .",
+      "choices": [
+        "amis",
+        "amie",
+        "amies",
+        "ami"
+      ],
+      "answer": "amies",
+      "explain": "Deux sujets féminins : l'attribut est au féminin pluriel."
+    },
+    {
+      "id": "fr-aas-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Paul et Marc sont devenus ___ . (ami / amis / amies)",
+      "answer": [
+        "amis"
+      ],
+      "explain": "Sujet mixte ou masculin à deux : l'attribut est au masculin pluriel."
+    },
+    {
+      "id": "fr-aas-012",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les portes sont restées ___ .",
+      "choices": [
+        "fermées",
+        "fermés",
+        "fermée",
+        "fermer"
+      ],
+      "answer": "fermées",
+      "explain": "Le participe attribut s'accorde avec « les portes » : féminin pluriel."
+    },
+    {
+      "id": "fr-aas-013",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Elles sont devenues ___ . (Elles = les joueuses de l'équipe.)",
+      "choices": [
+        "célèbre",
+        "célèbres",
+        "célébrés",
+        "célébrées"
+      ],
+      "answer": "célèbres",
+      "explain": "L'attribut s'accorde avec « elles » : féminin pluriel."
+    },
+    {
+      "id": "fr-aas-014",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'entraîneur demande à ses joueurs, tous des garçons : « Vous êtes ___ ? » (content / contents / contentes)",
+      "answer": [
+        "contents"
+      ],
+      "explain": "« vous » désigne plusieurs garçons : masculin pluriel."
+    },
+    {
+      "id": "fr-aas-015",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "L'entraîneur dit à deux joueuses : « Vous êtes ___ ! »",
+      "choices": [
+        "sélectionnés",
+        "sélectionnée",
+        "sélectionné",
+        "sélectionnées"
+      ],
+      "answer": "sélectionnées",
+      "explain": "« vous » désigne deux filles : féminin pluriel."
+    },
+    {
+      "id": "fr-aas-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Les joueuses de l'équipe adverse, malgré la pluie, semblent très ___ .",
+      "choices": [
+        "motivées",
+        "motivée",
+        "motivés",
+        "motivé"
+      ],
+      "answer": "motivées",
+      "explain": "Le sujet « les joueuses » est loin de l'attribut, mais l'accord se fait avec lui."
+    },
+    {
+      "id": "fr-aas-017",
+      "level": 2,
+      "type": "input",
+      "prompt": "Les spectatrices semblent ___ du match. (satisfait / satisfaits / satisfaites)",
+      "answer": [
+        "satisfaites"
+      ],
+      "explain": "Le sujet « les spectatrices » est féminin pluriel."
+    },
+    {
+      "id": "fr-aas-018",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec l'adjectif « heureux » : Les joueuses semblent ___ .",
+      "answer": [
+        "heureuses"
+      ],
+      "explain": "Féminin pluriel de « heureux » : heureuses."
+    },
+    {
+      "id": "fr-aas-019",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le participe passé de fatiguer : Les gardiennes semblent ___ .",
+      "answer": [
+        "fatiguées"
+      ],
+      "explain": "Le participe attribut s'accorde avec « les gardiennes » : féminin pluriel."
+    },
+    {
+      "id": "fr-aas-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Nous, les filles de l'équipe, nous sommes ___ de gagner.",
+      "choices": [
+        "contentes",
+        "contents",
+        "content",
+        "contente"
+      ],
+      "answer": "contentes",
+      "explain": "« nous » désigne des filles : féminin pluriel."
+    },
+    {
+      "id": "fr-aas-021",
+      "level": 2,
+      "type": "input",
+      "prompt": "Léa et Paul sont ___ de leur victoire. (fier / fiers / fières)",
+      "answer": [
+        "fiers"
+      ],
+      "explain": "Un sujet mixte (fille et garçon) donne le masculin pluriel."
+    },
+    {
+      "id": "fr-aas-022",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Le cartable des filles reste ___ sous le banc.",
+      "choices": [
+        "ouverte",
+        "ouverts",
+        "ouvert",
+        "ouvertes"
+      ],
+      "answer": "ouvert",
+      "explain": "Le sujet est « le cartable » (masculin singulier), pas « les filles »."
+    },
+    {
+      "id": "fr-aas-023",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Les garçons de la classe voisine sont ___ au match.",
+      "choices": [
+        "invité",
+        "invitée",
+        "invitées",
+        "invités"
+      ],
+      "answer": "invités",
+      "explain": "Le sujet est « les garçons » (masculin pluriel), pas « la classe »."
+    },
+    {
+      "id": "fr-aas-024",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Nager longtemps semble ___ .",
+      "choices": [
+        "fatigant",
+        "fatigante",
+        "fatigants",
+        "fatigantes"
+      ],
+      "answer": "fatigant",
+      "explain": "Un sujet à l'infinitif est masculin singulier."
+    },
+    {
+      "id": "fr-aas-025",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Jouer au foot tous les jours est ___ pour la santé.",
+      "choices": [
+        "bonne",
+        "bon",
+        "bons",
+        "bonnes"
+      ],
+      "answer": "bon",
+      "explain": "Un sujet à l'infinitif est masculin singulier."
+    },
+    {
+      "id": "fr-aas-026",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève dit à sa directrice, seule dans la pièce : « Vous êtes très ___ . »",
+      "choices": [
+        "élégantes",
+        "élégant",
+        "élégante",
+        "élégants"
+      ],
+      "answer": "élégante",
+      "explain": "« vous » de politesse désigne une seule femme : féminin singulier."
+    },
+    {
+      "id": "fr-aas-027",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : La gardienne et la capitaine restent ___ après la défaite.",
+      "choices": [
+        "déçu",
+        "déçues",
+        "déçus",
+        "déçue"
+      ],
+      "answer": "déçues",
+      "explain": "Deux sujets féminins : l'attribut est au féminin pluriel."
+    },
+    {
+      "id": "fr-aas-028",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : La foule semble ___ après le but.",
+      "choices": [
+        "excités",
+        "excitée",
+        "excité",
+        "excitées"
+      ],
+      "answer": "excitée",
+      "explain": "Le sujet « la foule » est féminin singulier."
+    },
+    {
+      "id": "fr-aas-029",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Zoé et Hugo semblent ___ .",
+      "choices": [
+        "fatiguées",
+        "fatigués",
+        "fatigué",
+        "fatiguée"
+      ],
+      "answer": "fatigués",
+      "explain": "Un sujet mixte donne le masculin pluriel."
+    },
+    {
+      "id": "fr-aas-030",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Inès, Léa et Tom paraissent ___ .",
+      "choices": [
+        "inquiètes",
+        "inquiet",
+        "inquiets",
+        "inquiète"
+      ],
+      "answer": "inquiets",
+      "explain": "Un seul garçon parmi les sujets suffit pour le masculin pluriel."
+    },
+    {
+      "id": "fr-aas-031",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Les joueuses ont l'air ___ .",
+      "choices": [
+        "fatiguée",
+        "fatigués",
+        "fatiguer",
+        "fatiguées"
+      ],
+      "answer": "fatiguées",
+      "explain": "Après « avoir l'air », l'adjectif peut s'accorder avec le sujet de personne : ici féminin pluriel."
+    },
+    {
+      "id": "fr-aas-032",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Les joueuses et le gardien sont ___ .",
+      "choices": [
+        "contents",
+        "contentes",
+        "content",
+        "contente"
+      ],
+      "answer": "contents",
+      "explain": "Un sujet mixte donne le masculin pluriel."
+    },
+    {
+      "id": "fr-aas-033",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Paul et Marc ___ au football. (jouer)",
+      "choices": [
+        "joue",
+        "jouent",
+        "joues",
+        "jouons"
+      ],
+      "answer": "jouent",
+      "explain": "Deux sujets coordonnés par « et » : le verbe est au pluriel."
+    },
+    {
+      "id": "fr-aas-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le ballon et le sifflet ___ sur le banc. (être)",
+      "choices": [
+        "est",
+        "es",
+        "sommes",
+        "sont"
+      ],
+      "answer": "sont",
+      "explain": "Deux sujets au singulier reliés par « et » : verbe au pluriel."
+    },
+    {
+      "id": "fr-aas-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : La pluie et le vent ___ le match. (arrêter)",
+      "choices": [
+        "arrêtent",
+        "arrête",
+        "arrêtes",
+        "arrêtons"
+      ],
+      "answer": "arrêtent",
+      "explain": "Deux sujets reliés par « et » : verbe à la 3e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-036",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Ton frère et toi, vous ___ raison. (avoir)",
+      "choices": [
+        "ont",
+        "avez",
+        "avons",
+        "as"
+      ],
+      "answer": "avez",
+      "explain": "« Ton frère et toi » = « vous » : 2e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "Toi et moi, ___ sommes amis. (nous / vous / ils)",
+      "answer": [
+        "nous"
+      ],
+      "explain": "« Toi et moi » se remplace par « nous »."
+    },
+    {
+      "id": "fr-aas-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "Ton frère et toi, ___ êtes champions. (nous / vous / ils)",
+      "answer": [
+        "vous"
+      ],
+      "explain": "« Ton frère et toi » se remplace par « vous »."
+    },
+    {
+      "id": "fr-aas-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Mon frère et moi, nous ___ au stade. (aller)",
+      "choices": [
+        "allons",
+        "vont",
+        "allez",
+        "vais"
+      ],
+      "answer": "allons",
+      "explain": "« Mon frère et moi » = « nous » : 1re personne du pluriel."
+    },
+    {
+      "id": "fr-aas-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Léa et lui, ___ jouent ensemble.",
+      "choices": [
+        "elles",
+        "ils",
+        "nous",
+        "vous"
+      ],
+      "answer": "ils",
+      "explain": "Avec un garçon parmi les sujets, on reprend par « ils »."
+    },
+    {
+      "id": "fr-aas-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le verbe courir au présent : Hugo et Tom ___ vite.",
+      "answer": [
+        "courent"
+      ],
+      "explain": "Deux sujets : 3e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Mon père et ma mère ___ me voir jouer. (venir)",
+      "choices": [
+        "viennent",
+        "vient",
+        "viens",
+        "venons"
+      ],
+      "answer": "viennent",
+      "explain": "Deux sujets reliés par « et » : 3e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le verbe finir au présent : Le match et l'entraînement ___ à 18 h.",
+      "answer": [
+        "finissent"
+      ],
+      "explain": "Deux sujets reliés par « et » : 3e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Toi et ta sœur, vous ___ en premier. (finir)",
+      "choices": [
+        "finissent",
+        "finissons",
+        "finissez",
+        "finis"
+      ],
+      "answer": "finissez",
+      "explain": "« Toi et ta sœur » = « vous » : terminaison -ez."
+    },
+    {
+      "id": "fr-aas-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Lui et moi, nous ___ un but chacun. (marquer)",
+      "choices": [
+        "marquez",
+        "marquent",
+        "marque",
+        "marquons"
+      ],
+      "answer": "marquons",
+      "explain": "« Lui et moi » = « nous » : terminaison -ons."
+    },
+    {
+      "id": "fr-aas-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le verbe lire au présent : Ton frère et toi, vous ___ le même livre.",
+      "answer": [
+        "lisez"
+      ],
+      "explain": "« Ton frère et toi » = « vous » : lisez."
+    },
+    {
+      "id": "fr-aas-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Marc et toi, vous ___ gagner. (pouvoir)",
+      "choices": [
+        "peuvent",
+        "pouvez",
+        "pouvons",
+        "peux"
+      ],
+      "answer": "pouvez",
+      "explain": "« Marc et toi » = « vous » : pouvez."
+    },
+    {
+      "id": "fr-aas-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Le gardien de mon équipe et son remplaçant ___ ensemble. (travailler)",
+      "choices": [
+        "travaille",
+        "travailles",
+        "travaillons",
+        "travaillent"
+      ],
+      "answer": "travaillent",
+      "explain": "Les deux sujets sont « le gardien » et « son remplaçant » : pluriel."
+    },
+    {
+      "id": "fr-aas-049",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : C'est toi qui ___ gagné la course.",
+      "choices": [
+        "as",
+        "a",
+        "es",
+        "ai"
+      ],
+      "answer": "as",
+      "explain": "« qui » reprend « toi » : 2e personne du singulier."
+    },
+    {
+      "id": "fr-aas-050",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : C'est nous qui ___ préparé les sandwichs.",
+      "choices": [
+        "ont",
+        "avons",
+        "avez",
+        "a"
+      ],
+      "answer": "avons",
+      "explain": "« qui » reprend « nous » : 1re personne du pluriel."
+    },
+    {
+      "id": "fr-aas-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : C'est vous qui ___ les capitaines. (être)",
+      "choices": [
+        "sont",
+        "est",
+        "êtes",
+        "sommes"
+      ],
+      "answer": "êtes",
+      "explain": "« qui » reprend « vous » : 2e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-052",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec être au présent : C'est moi qui ___ le capitaine.",
+      "answer": [
+        "suis"
+      ],
+      "explain": "« qui » reprend « moi » : 1re personne du singulier."
+    },
+    {
+      "id": "fr-aas-053",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Vous qui ___ vite, rejoignez l'équipe d'athlétisme. (courir)",
+      "choices": [
+        "courez",
+        "courent",
+        "court",
+        "courons"
+      ],
+      "answer": "courez",
+      "explain": "« qui » reprend « vous » : 2e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-054",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Hugo, Tom et moi, nous ___ en attaque. (jouer)",
+      "choices": [
+        "jouent",
+        "jouons",
+        "jouez",
+        "joue"
+      ],
+      "answer": "jouons",
+      "explain": "La liste contient « moi » : on reprend par « nous »."
+    },
+    {
+      "id": "fr-aas-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Elle et lui ___ voisins. (être)",
+      "choices": [
+        "est",
+        "sommes",
+        "sont",
+        "êtes"
+      ],
+      "answer": "sont",
+      "explain": "Deux sujets pronoms : verbe à la 3e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-056",
+      "level": 3,
+      "type": "input",
+      "prompt": "Ni les joueuses ni les joueurs ne ___ en retard. (est / sont)",
+      "answer": [
+        "sont"
+      ],
+      "explain": "Les deux sujets sont au pluriel : verbe au pluriel."
+    },
+    {
+      "id": "fr-aas-057",
+      "level": 3,
+      "type": "input",
+      "prompt": "Des cris ou des chants ___ dans les tribunes. (résonne / résonnent)",
+      "answer": [
+        "résonnent"
+      ],
+      "explain": "Les deux sujets sont au pluriel : verbe au pluriel."
+    },
+    {
+      "id": "fr-aas-058",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Toi, Léa et Paul, vous ___ les plus rapides. (être)",
+      "choices": [
+        "sont",
+        "sommes",
+        "êtes",
+        "es"
+      ],
+      "answer": "êtes",
+      "explain": "Le sujet est repris par « vous » : 2e personne du pluriel."
+    },
+    {
+      "id": "fr-aas-059",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Elle n'aime ___ le chocolat ni la vanille.",
+      "choices": [
+        "n'y",
+        "nie",
+        "nid",
+        "ni"
+      ],
+      "answer": "ni",
+      "explain": "« ni » relie deux éléments niés ; « n'y » = « ne » + « y »."
+    },
+    {
+      "id": "fr-aas-060",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : ___ sœur joue au football.",
+      "choices": [
+        "Ma",
+        "M'a",
+        "M'as",
+        "Mas"
+      ],
+      "answer": "Ma",
+      "explain": "« ma » est un déterminant : on peut le remplacer par « ta »."
+    },
+    {
+      "id": "fr-aas-061",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Léo ___ passé le ballon.",
+      "choices": [
+        "ma",
+        "m'a",
+        "m'as",
+        "mas"
+      ],
+      "answer": "m'a",
+      "explain": "« m'a » = « m' » + avoir : on peut dire « m'avait »."
+    },
+    {
+      "id": "fr-aas-062",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le ballon est ___ le filet.",
+      "choices": [
+        "d'en",
+        "dan",
+        "dans",
+        "dent"
+      ],
+      "answer": "dans",
+      "explain": "« dans » indique un lieu ; « d'en » = « de » + « en »."
+    },
+    {
+      "id": "fr-aas-063",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Je joue, ___ je suis fatigué.",
+      "choices": [
+        "mes",
+        "met",
+        "mets",
+        "mais"
+      ],
+      "answer": "mais",
+      "explain": "« mais » marque l'opposition : on peut le remplacer par « pourtant »."
+    },
+    {
+      "id": "fr-aas-064",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Je range ___ chaussures.",
+      "choices": [
+        "mes",
+        "mais",
+        "met",
+        "mets"
+      ],
+      "answer": "mes",
+      "explain": "« mes » est un déterminant : on peut le remplacer par « tes »."
+    },
+    {
+      "id": "fr-aas-065",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Le stade est ___ de chez moi.",
+      "choices": [
+        "prêt",
+        "près",
+        "pré",
+        "prés"
+      ],
+      "answer": "près",
+      "explain": "« près » indique la proximité, contraire de « loin »."
+    },
+    {
+      "id": "fr-aas-066",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Léo est ___ à jouer.",
+      "choices": [
+        "près",
+        "prêts",
+        "prêt",
+        "prêtes"
+      ],
+      "answer": "prêt",
+      "explain": "« prêt » se met au féminin : « prête » ; « près » est invariable."
+    },
+    {
+      "id": "fr-aas-067",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : Il part ___ ses gants.",
+      "choices": [
+        "sens",
+        "sent",
+        "s'en",
+        "sans"
+      ],
+      "answer": "sans",
+      "explain": "« sans » est le contraire de « avec »."
+    },
+    {
+      "id": "fr-aas-068",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète : ___ mère te regarde. (Ta / T'a)",
+      "answer": [
+        "Ta"
+      ],
+      "explain": "« ta » est un déterminant : on peut le remplacer par « ma »."
+    },
+    {
+      "id": "fr-aas-069",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète : ___ ballon est neuf. (Mon / M'ont)",
+      "answer": [
+        "Mon"
+      ],
+      "explain": "« mon » est un déterminant : on peut le remplacer par « ton »."
+    },
+    {
+      "id": "fr-aas-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "Je ___ vais pas ce soir. (ni / n'y)",
+      "answer": [
+        "n'y"
+      ],
+      "explain": "« n'y » = « ne » + « y » : « Je n'y vais pas »."
+    },
+    {
+      "id": "fr-aas-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Tu ___ passé le ballon hier. (ma / m'a / m'as)",
+      "answer": [
+        "m'as"
+      ],
+      "explain": "Avec « tu », le verbe avoir s'écrit « as » : « m'as »."
+    },
+    {
+      "id": "fr-aas-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Léa ___ envoyé un message. (ta / t'a)",
+      "answer": [
+        "t'a"
+      ],
+      "explain": "« t'a » = « t' » + avoir : on peut dire « t'avait »."
+    },
+    {
+      "id": "fr-aas-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Mes amis ___ offert un maillot.",
+      "choices": [
+        "mon",
+        "m'ont",
+        "m'a",
+        "mont"
+      ],
+      "answer": "m'ont",
+      "explain": "« m'ont » = « m' » + avoir au pluriel : on peut dire « m'avaient »."
+    },
+    {
+      "id": "fr-aas-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Tes parents ___ félicité.",
+      "choices": [
+        "ton",
+        "t'a",
+        "t'ont",
+        "tond"
+      ],
+      "answer": "t'ont",
+      "explain": "« t'ont » = « t' » + avoir au pluriel : on peut dire « t'avaient »."
+    },
+    {
+      "id": "fr-aas-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Il ___ va déjà.",
+      "choices": [
+        "sans",
+        "sens",
+        "sent",
+        "s'en"
+      ],
+      "answer": "s'en",
+      "explain": "« s'en va » : « s' » + « en » devant le verbe « va »."
+    },
+    {
+      "id": "fr-aas-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Elle ___ le gazon frais sous ses pieds.",
+      "choices": [
+        "sent",
+        "sans",
+        "s'en",
+        "sens"
+      ],
+      "answer": "sent",
+      "explain": "« sent » est le verbe sentir : on peut dire « sentait »."
+    },
+    {
+      "id": "fr-aas-077",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Le coach ___ son sifflet à la bouche.",
+      "choices": [
+        "mais",
+        "met",
+        "mes",
+        "mets"
+      ],
+      "answer": "met",
+      "explain": "« met » est le verbe mettre avec « il » ou « elle »."
+    },
+    {
+      "id": "fr-aas-078",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Je ___ mon maillot.",
+      "choices": [
+        "met",
+        "mes",
+        "mets",
+        "mais"
+      ],
+      "answer": "mets",
+      "explain": "Avec « je », le verbe mettre s'écrit « mets »."
+    },
+    {
+      "id": "fr-aas-079",
+      "level": 2,
+      "type": "input",
+      "prompt": "Les joueuses sont ___ . (prêts / prêtes / près)",
+      "answer": [
+        "prêtes"
+      ],
+      "explain": "« prêt » s'accorde avec le sujet féminin pluriel."
+    },
+    {
+      "id": "fr-aas-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : ___ il pleut, on joue dans le gymnase.",
+      "choices": [
+        "Quand",
+        "Quant",
+        "Qu'en",
+        "Camp"
+      ],
+      "answer": "Quand",
+      "explain": "« quand » marque le moment : on peut dire « lorsque »."
+    },
+    {
+      "id": "fr-aas-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "Arrive une heure ___ pour t'échauffer. (plus tôt / plutôt)",
+      "answer": [
+        "plus tôt"
+      ],
+      "explain": "« plus tôt » s'oppose à « plus tard »."
+    },
+    {
+      "id": "fr-aas-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "Ce match est ___ facile à gagner. (plus tôt / plutôt)",
+      "answer": [
+        "plutôt"
+      ],
+      "explain": "« plutôt » signifie « assez » ; on ne peut pas dire « plus tard »."
+    },
+    {
+      "id": "fr-aas-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : ___ à moi, je reste dans les buts.",
+      "choices": [
+        "Quand",
+        "Qu'en",
+        "Caen",
+        "Quant"
+      ],
+      "answer": "Quant",
+      "explain": "« quant à » signifie « en ce qui concerne »."
+    },
+    {
+      "id": "fr-aas-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : ___ penses-tu ? (Que penses-tu de cela ?)",
+      "choices": [
+        "Qu'en",
+        "Quand",
+        "Quant",
+        "Camp"
+      ],
+      "answer": "Qu'en",
+      "explain": "« qu'en » = « que » + « en » : « que penses-tu de cela ? »."
+    },
+    {
+      "id": "fr-aas-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Il y a trop de ballons : je n'ai pas besoin ___ prendre un autre.",
+      "choices": [
+        "dans",
+        "d'en",
+        "dent",
+        "dont"
+      ],
+      "answer": "d'en",
+      "explain": "« d'en » = « de » + « en » devant un verbe."
+    },
+    {
+      "id": "fr-aas-086",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : Cette rue est à ___ unique.",
+      "choices": [
+        "sans",
+        "sent",
+        "sens",
+        "s'en"
+      ],
+      "answer": "sens",
+      "explain": "« sens unique » : « sens » est un nom, direction."
+    },
+    {
+      "id": "fr-aas-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Ce jeu lui plaît et il ___ entraîne chaque soir.",
+      "choices": [
+        "si",
+        "s'il",
+        "ci",
+        "s'y"
+      ],
+      "answer": "s'y",
+      "explain": "« s'y » = « se » + « y » devant le verbe."
+    },
+    {
+      "id": "fr-aas-088",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète : ___ tu viens, nous gagnerons. (Si / S'y)",
+      "answer": [
+        "Si"
+      ],
+      "explain": "« si » exprime la condition ; « s'y » est un pronom devant un verbe."
+    },
+    {
+      "id": "fr-aas-089",
+      "level": 3,
+      "type": "input",
+      "prompt": "Il n'y a ___ ballon ni filet sur ce terrain. (ni / n'y)",
+      "answer": [
+        "ni"
+      ],
+      "explain": "« ni… ni » relie deux éléments niés."
+    },
+    {
+      "id": "fr-aas-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète : Ce ballon est neuf et Léa ___ sert pour s'entraîner.",
+      "choices": [
+        "sans",
+        "sens",
+        "s'en",
+        "sent"
+      ],
+      "answer": "s'en",
+      "explain": "« s'en sert » : « se » + « en » devant le verbe servir."
+    }
+  ]
+}

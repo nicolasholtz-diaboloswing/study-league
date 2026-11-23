@@ -1,0 +1,2948 @@
+{
+  "topic": "maths-proportionnalite",
+  "questions": [
+    {
+      "id": "ma-prop-001",
+      "level": 1,
+      "type": "input",
+      "prompt": "Des cahiers coûtent 2 € l'unité. Le prix à payer est-il proportionnel au nombre de cahiers ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Avec un prix unitaire fixe, le prix est proportionnel à la quantité."
+    },
+    {
+      "id": "ma-prop-002",
+      "level": 1,
+      "type": "input",
+      "prompt": "L'âge d'un enfant et sa taille sont-ils proportionnels ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "On ne passe pas de l'âge à la taille en multipliant toujours par le même nombre."
+    },
+    {
+      "id": "ma-prop-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le périmètre d'un carré est-il proportionnel à la longueur de son côté ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Le périmètre vaut toujours 4 fois le côté."
+    },
+    {
+      "id": "ma-prop-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "L'aire d'un carré est-elle proportionnelle à la longueur de son côté ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Si le côté double, l'aire est multipliée par 4 et non par 2."
+    },
+    {
+      "id": "ma-prop-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un club de foot demande 20 € d'inscription, puis 5 € par mois. Le total payé est-il proportionnel au nombre de mois ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Avec 0 mois, on paie déjà 20 € : ce n'est pas proportionnel."
+    },
+    {
+      "id": "ma-prop-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Laquelle de ces situations est une situation de proportionnalité ?",
+      "choices": [
+        "Le prix de 5 kg de pommes à 3 € le kilo",
+        "La taille d'un élève selon son âge",
+        "Le prix d'une location de vélo : 5 € fixes plus 2 € par heure",
+        "L'aire d'un carré selon la longueur de son côté"
+      ],
+      "answer": "Le prix de 5 kg de pommes à 3 € le kilo",
+      "explain": "Avec un prix au kilo fixe, le prix est proportionnel à la masse."
+    },
+    {
+      "id": "ma-prop-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Laquelle de ces situations n'est pas une situation de proportionnalité ?",
+      "choices": [
+        "Le périmètre d'un carré selon son côté",
+        "L'aire d'un carré selon son côté",
+        "Le prix de ballons vendus à prix unitaire fixe",
+        "La distance parcourue à vitesse constante selon la durée"
+      ],
+      "answer": "L'aire d'un carré selon son côté",
+      "explain": "L'aire d'un carré n'est pas proportionnelle à son côté."
+    },
+    {
+      "id": "ma-prop-008",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cycliste roule à vitesse constante. La distance parcourue est-elle proportionnelle à la durée ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "À vitesse constante, la distance est proportionnelle à la durée."
+    },
+    {
+      "id": "ma-prop-009",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une recette, la masse de farine est-elle proportionnelle au nombre de personnes ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "On multiplie les quantités par le même nombre quand on change le nombre de personnes."
+    },
+    {
+      "id": "ma-prop-010",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une boulangerie vend 1 baguette à 1 €, mais 6 baguettes pour 5 €. Le prix est-il proportionnel au nombre de baguettes ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le prix de 6 baguettes devrait être 6 € pour que ce soit proportionnel."
+    },
+    {
+      "id": "ma-prop-011",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans quel cas le prix est-il proportionnel au nombre de tickets ?",
+      "choices": [
+        "1 ticket : 4 € ; 2 tickets : 7 € ; 3 tickets : 10 €",
+        "1 ticket : 4 € ; 2 tickets : 6 € ; 3 tickets : 8 €",
+        "1 ticket : 4 € ; 2 tickets : 8 € ; 3 tickets : 12 €",
+        "1 ticket : 4 € ; 2 tickets : 8 € ; 3 tickets : 11 €"
+      ],
+      "answer": "1 ticket : 4 € ; 2 tickets : 8 € ; 3 tickets : 12 €",
+      "explain": "Seul le cas 4 ; 8 ; 12 multiplie 4 par 1, 2 puis 3."
+    },
+    {
+      "id": "ma-prop-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Voici un tableau en texte : 1 → 4 ; 2 → 8 ; 5 → 20. Est-ce un tableau de proportionnalité ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "On multiplie toujours par 4."
+    },
+    {
+      "id": "ma-prop-013",
+      "level": 2,
+      "type": "input",
+      "prompt": "Voici un tableau en texte : 2 → 5 ; 4 → 10 ; 6 → 15. Est-ce un tableau de proportionnalité ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "5 ÷ 2 = 10 ÷ 4 = 15 ÷ 6 = 2,5."
+    },
+    {
+      "id": "ma-prop-014",
+      "level": 2,
+      "type": "input",
+      "prompt": "Voici un tableau en texte : 3 → 6 ; 5 → 8 ; 9 → 12. Est-ce un tableau de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "On ajoute 3 à chaque fois, on ne multiplie pas par le même nombre."
+    },
+    {
+      "id": "ma-prop-015",
+      "level": 3,
+      "type": "input",
+      "prompt": "Voici un tableau en texte : 4 → 10 ; 6 → 15 ; 10 → 20. Est-ce un tableau de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "10 ÷ 4 = 2,5 et 15 ÷ 6 = 2,5, mais 20 ÷ 10 = 2."
+    },
+    {
+      "id": "ma-prop-016",
+      "level": 3,
+      "type": "input",
+      "prompt": "Voici un tableau en texte : 2 → 6 ; 4 → 10 ; 6 → 14. Est-ce un tableau de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "On ajoute 4 à chaque fois : ce n'est pas proportionnel."
+    },
+    {
+      "id": "ma-prop-017",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Lequel de ces tableaux, écrits en texte, est un tableau de proportionnalité ?",
+      "choices": [
+        "3 → 9 ; 5 → 11 ; 8 → 14",
+        "3 → 9 ; 5 → 15 ; 8 → 20",
+        "3 → 6 ; 5 → 10 ; 8 → 14",
+        "3 → 9 ; 5 → 15 ; 8 → 24"
+      ],
+      "answer": "3 → 9 ; 5 → 15 ; 8 → 24",
+      "explain": "Seul ce tableau est obtenu en multipliant toujours par 3."
+    },
+    {
+      "id": "ma-prop-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le tableau 2 → 7 ; 4 → 14 ; 6 → ?, quelle valeur remplace « ? » pour que ce soit un tableau de proportionnalité ?",
+      "choices": [
+        "20",
+        "24",
+        "21",
+        "42"
+      ],
+      "answer": "21",
+      "explain": "Le coefficient est 7 ÷ 2 = 3,5 et 6 × 3,5 = 21."
+    },
+    {
+      "id": "ma-prop-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, on passe d'une ligne à l'autre en :",
+      "choices": [
+        "multipliant par un même nombre",
+        "ajoutant un même nombre",
+        "soustrayant un même nombre",
+        "multipliant par un nombre différent à chaque colonne"
+      ],
+      "answer": "multipliant par un même nombre",
+      "explain": "Le coefficient de proportionnalité est le même pour toutes les colonnes."
+    },
+    {
+      "id": "ma-prop-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un tableau est de proportionnalité lorsque :",
+      "choices": [
+        "toutes les différences entre les deux lignes sont égales",
+        "tous les quotients valeur de la 2e ligne ÷ valeur de la 1re ligne sont égaux",
+        "les valeurs de la 2e ligne sont plus grandes que celles de la 1re",
+        "toutes les sommes des deux lignes sont égales"
+      ],
+      "answer": "tous les quotients valeur de la 2e ligne ÷ valeur de la 1re ligne sont égaux",
+      "explain": "Les quotients égaux donnent le coefficient de proportionnalité."
+    },
+    {
+      "id": "ma-prop-021",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un rectangle a une largeur fixe de 3 cm. Son périmètre est-il proportionnel à sa longueur ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le périmètre vaut 2 × longueur + 6 : si la longueur double, le périmètre ne double pas."
+    },
+    {
+      "id": "ma-prop-022",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un rectangle a une largeur fixe de 3 cm. Son aire est-elle proportionnelle à sa longueur ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "L'aire vaut 3 fois la longueur."
+    },
+    {
+      "id": "ma-prop-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans un tableau de proportionnalité, 4 correspond à 12. Quel est le coefficient de proportionnalité pour passer de la 1re ligne à la 2e ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "12 ÷ 4 = 3."
+    },
+    {
+      "id": "ma-prop-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, on passe de 5 à 20. Quel est le coefficient ?",
+      "choices": [
+        "15",
+        "25",
+        "4",
+        "0,25"
+      ],
+      "answer": "4",
+      "explain": "20 ÷ 5 = 4."
+    },
+    {
+      "id": "ma-prop-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "5 kg de pommes coûtent 15 €. Quel est le coefficient de proportionnalité pour passer des kg aux € ?",
+      "choices": [
+        "10",
+        "20",
+        "75",
+        "3"
+      ],
+      "answer": "3",
+      "explain": "15 ÷ 5 = 3 : c'est le prix d'un kilo."
+    },
+    {
+      "id": "ma-prop-026",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un tableau de proportionnalité, 6 correspond à 15. Quel est le coefficient pour passer de la 1re ligne à la 2e ?",
+      "answer": [
+        "2,5",
+        "2.5"
+      ],
+      "explain": "15 ÷ 6 = 2,5."
+    },
+    {
+      "id": "ma-prop-027",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le coefficient de proportionnalité est 4. Quelle valeur correspond à 7 ?",
+      "choices": [
+        "28",
+        "11",
+        "3",
+        "1,75"
+      ],
+      "answer": "28",
+      "explain": "7 × 4 = 28."
+    },
+    {
+      "id": "ma-prop-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le coefficient de proportionnalité est 2,5. Quelle valeur correspond à 12 ?",
+      "choices": [
+        "14,5",
+        "30",
+        "9,5",
+        "4,8"
+      ],
+      "answer": "30",
+      "explain": "12 × 2,5 = 30."
+    },
+    {
+      "id": "ma-prop-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le coefficient de proportionnalité est 0,5. Quelle valeur correspond à 18 ?",
+      "choices": [
+        "18,5",
+        "36",
+        "9",
+        "17,5"
+      ],
+      "answer": "9",
+      "explain": "18 × 0,5 = 9."
+    },
+    {
+      "id": "ma-prop-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Le coefficient de proportionnalité est 1,5. Quelle valeur correspond à 8 ?",
+      "choices": [
+        "9,5",
+        "6,5",
+        "10",
+        "12"
+      ],
+      "answer": "12",
+      "explain": "8 × 1,5 = 12."
+    },
+    {
+      "id": "ma-prop-031",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un cycliste roule 45 km en 3 h à vitesse constante. Quel est le coefficient pour passer des heures aux km ?",
+      "choices": [
+        "42",
+        "48",
+        "135",
+        "15"
+      ],
+      "answer": "15",
+      "explain": "45 ÷ 3 = 15 : il roule à 15 km par heure."
+    },
+    {
+      "id": "ma-prop-032",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "4 kg de cerises coûtent 10 €. Quel est le coefficient pour passer des € aux kg ?",
+      "choices": [
+        "0,4",
+        "2,5",
+        "6",
+        "40"
+      ],
+      "answer": "0,4",
+      "explain": "4 ÷ 10 = 0,4 : pour 1 € on a 0,4 kg."
+    },
+    {
+      "id": "ma-prop-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le tableau 2 → 3 ; 6 → ? ; 10 → 15, quelle est la valeur manquante ?",
+      "choices": [
+        "9",
+        "7",
+        "12",
+        "18"
+      ],
+      "answer": "9",
+      "explain": "Le coefficient est 3 ÷ 2 = 1,5 et 6 × 1,5 = 9."
+    },
+    {
+      "id": "ma-prop-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans le tableau 3 → 12 ; 5 → ?, quelle est la valeur manquante ?",
+      "choices": [
+        "14",
+        "20",
+        "17",
+        "8"
+      ],
+      "answer": "20",
+      "explain": "Le coefficient est 12 ÷ 3 = 4 et 5 × 4 = 20."
+    },
+    {
+      "id": "ma-prop-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une recette demande 250 g de farine pour 5 personnes. Quel est le coefficient pour passer du nombre de personnes à la masse en g ?",
+      "answer": [
+        "50"
+      ],
+      "explain": "250 ÷ 5 = 50 g par personne."
+    },
+    {
+      "id": "ma-prop-036",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une photocopie coûte 0,05 €. Quel est le prix de 40 photocopies en € ?",
+      "choices": [
+        "0,2",
+        "2",
+        "20",
+        "40,05"
+      ],
+      "answer": "2",
+      "explain": "Le coefficient est 0,05 et 40 × 0,05 = 2."
+    },
+    {
+      "id": "ma-prop-037",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, le coefficient pour passer de la 1re à la 2e ligne est 4. Quel est le coefficient pour passer de la 2e à la 1re ligne ?",
+      "choices": [
+        "4",
+        "0,4",
+        "0,25",
+        "2"
+      ],
+      "answer": "0,25",
+      "explain": "Pour revenir en arrière, on divise par 4, donc on multiplie par 0,25."
+    },
+    {
+      "id": "ma-prop-038",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans un tableau de proportionnalité, 8 correspond à 2. Quel est le coefficient pour passer de la 1re ligne à la 2e ?",
+      "answer": [
+        "0,25",
+        "0.25"
+      ],
+      "explain": "2 ÷ 8 = 0,25."
+    },
+    {
+      "id": "ma-prop-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Le prix d'un kilo de cerises est, dans le tableau « kg → € » :",
+      "choices": [
+        "la somme des prix",
+        "la différence entre deux prix",
+        "la moyenne des quantités",
+        "le coefficient de proportionnalité"
+      ],
+      "answer": "le coefficient de proportionnalité",
+      "explain": "Le prix d'un kilo est le nombre par lequel on multiplie les kg pour obtenir les €."
+    },
+    {
+      "id": "ma-prop-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, 1,5 correspond à 6. Quel est le coefficient pour passer de la 1re ligne à la 2e ?",
+      "choices": [
+        "4,5",
+        "7,5",
+        "4",
+        "9"
+      ],
+      "answer": "4",
+      "explain": "6 ÷ 1,5 = 4."
+    },
+    {
+      "id": "ma-prop-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le coefficient pour passer des mètres aux centimètres est 100. Combien y a-t-il de cm dans 3,5 m ?",
+      "answer": [
+        "350"
+      ],
+      "explain": "3,5 × 100 = 350."
+    },
+    {
+      "id": "ma-prop-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "10 stylos coûtent 12 €. Quel est le coefficient pour passer du nombre de stylos au prix en € ?",
+      "choices": [
+        "2",
+        "12",
+        "22",
+        "1,2"
+      ],
+      "answer": "1,2",
+      "explain": "12 ÷ 10 = 1,2 : un stylo coûte 1,2 €."
+    },
+    {
+      "id": "ma-prop-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, 4 correspond à 14. Quelle valeur correspond à 10 ?",
+      "choices": [
+        "35",
+        "20",
+        "24",
+        "40"
+      ],
+      "answer": "35",
+      "explain": "Le coefficient est 14 ÷ 4 = 3,5 et 10 × 3,5 = 35."
+    },
+    {
+      "id": "ma-prop-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le coefficient pour passer de la 1re ligne à la 2e dans le tableau 4 → 10 ; 8 → 20 ; 12 → 30 ?",
+      "choices": [
+        "2,5",
+        "0,4",
+        "6",
+        "4"
+      ],
+      "answer": "2,5",
+      "explain": "10 ÷ 4 = 2,5."
+    },
+    {
+      "id": "ma-prop-045",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "3 cahiers identiques coûtent 6 €. Combien coûtent 5 cahiers, en € ?",
+      "choices": [
+        "8",
+        "10",
+        "11",
+        "15"
+      ],
+      "answer": "10",
+      "explain": "Un cahier coûte 6 ÷ 3 = 2 €, donc 5 cahiers coûtent 5 × 2 = 10 €."
+    },
+    {
+      "id": "ma-prop-046",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une recette pour 4 personnes demande 200 g de farine. Combien de g faut-il pour 6 personnes ?",
+      "choices": [
+        "202",
+        "250",
+        "300",
+        "400"
+      ],
+      "answer": "300",
+      "explain": "Pour 1 personne : 200 ÷ 4 = 50 g, donc pour 6 personnes : 6 × 50 = 300 g."
+    },
+    {
+      "id": "ma-prop-047",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une recette pour 4 personnes demande 2 œufs. Combien d'œufs faut-il pour 10 personnes ?",
+      "choices": [
+        "8",
+        "12",
+        "20",
+        "5"
+      ],
+      "answer": "5",
+      "explain": "Pour 1 personne : 0,5 œuf, donc pour 10 personnes : 5 œufs."
+    },
+    {
+      "id": "ma-prop-048",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour résoudre un problème en passant par l'unité, on cherche d'abord :",
+      "choices": [
+        "la somme des deux valeurs connues",
+        "la valeur correspondant à 1",
+        "la différence entre les deux valeurs connues",
+        "la moitié de la valeur connue"
+      ],
+      "answer": "la valeur correspondant à 1",
+      "explain": "On trouve la valeur pour 1, puis on multiplie par la quantité demandée."
+    },
+    {
+      "id": "ma-prop-049",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "5 stylos coûtent 4 €. Quel est le prix de 10 stylos, en € ?",
+      "choices": [
+        "9",
+        "6",
+        "8",
+        "40"
+      ],
+      "answer": "8",
+      "explain": "10 stylos = 2 fois 5 stylos, donc 2 × 4 = 8 € (et non 4 + 5)."
+    },
+    {
+      "id": "ma-prop-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "3 kg de cerises coûtent 12 € et 5 kg coûtent 20 €. Combien coûtent 8 kg, en € ?",
+      "answer": [
+        "32"
+      ],
+      "explain": "On additionne les colonnes : 12 + 20 = 32 €."
+    },
+    {
+      "id": "ma-prop-051",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une voiture consomme 5 L pour 100 km. Combien de L consomme-t-elle pour 250 km ?",
+      "choices": [
+        "12,5",
+        "15",
+        "10",
+        "25"
+      ],
+      "answer": "12,5",
+      "explain": "250 km = 2,5 × 100 km, donc 2,5 × 5 = 12,5 L."
+    },
+    {
+      "id": "ma-prop-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un coureur parcourt 12 km en 2 h à vitesse constante. Quelle distance parcourt-il en 5 h, en km ?",
+      "choices": [
+        "15",
+        "30",
+        "24",
+        "60"
+      ],
+      "answer": "30",
+      "explain": "Il parcourt 6 km par heure, donc 5 × 6 = 30 km."
+    },
+    {
+      "id": "ma-prop-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un cycliste roule 20 km en 2 h à vitesse constante. Combien de temps met-il pour 50 km, en h ?",
+      "choices": [
+        "10",
+        "25",
+        "5",
+        "30"
+      ],
+      "answer": "5",
+      "explain": "Il roule 10 km par heure, donc 50 ÷ 10 = 5 h."
+    },
+    {
+      "id": "ma-prop-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "10 € valent 8 livres. Combien de livres obtient-on pour 25 € ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "1 € vaut 0,8 livre, donc 25 € valent 25 × 0,8 = 20 livres."
+    },
+    {
+      "id": "ma-prop-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour 10 € on obtient 11 dollars. Combien de dollars obtient-on pour 50 € ?",
+      "choices": [
+        "51",
+        "60",
+        "110",
+        "55"
+      ],
+      "answer": "55",
+      "explain": "50 € = 5 × 10 €, donc 5 × 11 = 55 dollars."
+    },
+    {
+      "id": "ma-prop-056",
+      "level": 1,
+      "type": "input",
+      "prompt": "Sur une carte, 1 cm représente 5 km. Deux villes sont distantes de 7 cm sur la carte. Quelle est la distance réelle, en km ?",
+      "answer": [
+        "35"
+      ],
+      "explain": "7 × 5 = 35 km."
+    },
+    {
+      "id": "ma-prop-057",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Sur une carte, 1 cm représente 5 km. Deux villes sont distantes de 60 km en réalité. Quelle est leur distance sur la carte, en cm ?",
+      "choices": [
+        "12",
+        "300",
+        "55",
+        "65"
+      ],
+      "answer": "12",
+      "explain": "60 ÷ 5 = 12 cm."
+    },
+    {
+      "id": "ma-prop-058",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sur une carte, 1 cm représente 5 km. Que représentent 3 cm sur la carte ?",
+      "choices": [
+        "8 km",
+        "5 km",
+        "1,7 km",
+        "15 km"
+      ],
+      "answer": "15 km",
+      "explain": "3 × 5 = 15 km."
+    },
+    {
+      "id": "ma-prop-059",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sur un plan, 1 cm représente 50 m. Un couloir mesure 3,5 cm sur le plan. Quelle est sa longueur réelle, en m ?",
+      "choices": [
+        "53,5",
+        "175",
+        "46,5",
+        "17,5"
+      ],
+      "answer": "175",
+      "explain": "3,5 × 50 = 175 m."
+    },
+    {
+      "id": "ma-prop-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un tableau, 6 correspond à 15. Pour trouver la valeur qui correspond à 10 en « multipliant puis divisant », on calcule :",
+      "choices": [
+        "10 × 15 ÷ 6",
+        "10 × 6 ÷ 15",
+        "6 × 15 ÷ 10",
+        "10 + 15 − 6"
+      ],
+      "answer": "10 × 15 ÷ 6",
+      "explain": "On multiplie 10 par 15 puis on divise par 6, ce qui donne 25."
+    },
+    {
+      "id": "ma-prop-061",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, 12 correspond à 9. Quelle valeur correspond à 20 ?",
+      "choices": [
+        "17",
+        "12",
+        "15",
+        "27"
+      ],
+      "answer": "15",
+      "explain": "20 × 9 ÷ 12 = 180 ÷ 12 = 15."
+    },
+    {
+      "id": "ma-prop-062",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans un tableau de proportionnalité, 6 correspond à 8. Quelle valeur correspond à 9 ?",
+      "answer": "12",
+      "explain": "9 = 1,5 × 6, donc on multiplie 8 par 1,5 : 12."
+    },
+    {
+      "id": "ma-prop-063",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, 2 correspond à 7. En multipliant la colonne par 3, quelle valeur correspond à 6 ?",
+      "choices": [
+        "9",
+        "21",
+        "10",
+        "13"
+      ],
+      "answer": "21",
+      "explain": "On multiplie 2 par 3 et 7 par 3 : 6 correspond à 21."
+    },
+    {
+      "id": "ma-prop-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un tableau de proportionnalité, 4 correspond à 18. Quelle valeur correspond à 12 ?",
+      "choices": [
+        "26",
+        "72",
+        "6",
+        "54"
+      ],
+      "answer": "54",
+      "explain": "12 = 3 × 4, donc on multiplie 18 par 3 : 54."
+    },
+    {
+      "id": "ma-prop-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un tableau de proportionnalité, 2 correspond à 9 et 3 correspond à 13,5. Quelle valeur correspond à 5 ?",
+      "answer": [
+        "22,5",
+        "22.5"
+      ],
+      "explain": "5 = 2 + 3, donc 9 + 13,5 = 22,5."
+    },
+    {
+      "id": "ma-prop-066",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une recette pour 6 personnes demande 1,5 L de lait. Combien de L faut-il pour 4 personnes ?",
+      "answer": [
+        "1"
+      ],
+      "explain": "Pour 1 personne : 1,5 ÷ 6 = 0,25 L, donc pour 4 personnes : 1 L."
+    },
+    {
+      "id": "ma-prop-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une voiture consomme 6 L aux 100 km. Combien de L consomme-t-elle pour 350 km ?",
+      "choices": [
+        "21",
+        "18",
+        "20",
+        "30"
+      ],
+      "answer": "21",
+      "explain": "350 km = 3,5 × 100 km, donc 3,5 × 6 = 21 L."
+    },
+    {
+      "id": "ma-prop-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une moto consomme 4 L aux 100 km. Combien de L consomme-t-elle pour 50 km ?",
+      "choices": [
+        "2,5",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": "2",
+      "explain": "50 km = 0,5 × 100 km, donc 0,5 × 4 = 2 L."
+    },
+    {
+      "id": "ma-prop-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "12 billes coûtent 3 €. Combien coûtent 20 billes, en € ?",
+      "choices": [
+        "11",
+        "8",
+        "5",
+        "6"
+      ],
+      "answer": "5",
+      "explain": "Une bille coûte 0,25 €, donc 20 billes coûtent 5 €."
+    },
+    {
+      "id": "ma-prop-070",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un robinet débite 12 L en 3 min. Combien de L débite-t-il en 20 min ?",
+      "choices": [
+        "29",
+        "60",
+        "240",
+        "80"
+      ],
+      "answer": "80",
+      "explain": "Il débite 4 L par minute, donc 20 × 4 = 80 L."
+    },
+    {
+      "id": "ma-prop-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "2 L de peinture couvrent 15 m². Combien de m² couvrent 6 L ?",
+      "choices": [
+        "17",
+        "30",
+        "45",
+        "90"
+      ],
+      "answer": "45",
+      "explain": "6 L = 3 × 2 L, donc 3 × 15 = 45 m²."
+    },
+    {
+      "id": "ma-prop-072",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un élève met de côté 15 € en 3 semaines, au même rythme chaque semaine. Combien aura-t-il mis de côté en 8 semaines, en € ?",
+      "choices": [
+        "40",
+        "20",
+        "45",
+        "120"
+      ],
+      "answer": "40",
+      "explain": "Il met 5 € par semaine, donc 8 × 5 = 40 €."
+    },
+    {
+      "id": "ma-prop-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un nageur parcourt 50 m en 40 s à allure constante. Combien de s met-il pour 200 m ?",
+      "choices": [
+        "190",
+        "160",
+        "80",
+        "10"
+      ],
+      "answer": "160",
+      "explain": "200 m = 4 × 50 m, donc 4 × 40 = 160 s."
+    },
+    {
+      "id": "ma-prop-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un attaquant marque 6 buts en 4 matchs, au même rythme. Combien de buts marque-t-il en 10 matchs ?",
+      "choices": [
+        "12",
+        "24",
+        "15",
+        "10"
+      ],
+      "answer": "15",
+      "explain": "Il marque 1,5 but par match, donc 10 × 1,5 = 15 buts."
+    },
+    {
+      "id": "ma-prop-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un élève lit 24 pages en 30 min. Combien de pages lit-il en 45 min, au même rythme ?",
+      "answer": [
+        "36"
+      ],
+      "explain": "45 min = 1,5 × 30 min, donc 1,5 × 24 = 36 pages."
+    },
+    {
+      "id": "ma-prop-076",
+      "level": 3,
+      "type": "input",
+      "prompt": "4 pizzas nourrissent 10 personnes. Combien de pizzas faut-il pour 25 personnes ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Il faut 0,4 pizza par personne, donc 25 × 0,4 = 10 pizzas."
+    },
+    {
+      "id": "ma-prop-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "5 stylos coûtent 7,50 €. Combien coûtent 8 stylos, en € ?",
+      "choices": [
+        "10,5",
+        "9",
+        "3,5",
+        "12"
+      ],
+      "answer": "12",
+      "explain": "Un stylo coûte 1,5 €, donc 8 × 1,5 = 12 €."
+    },
+    {
+      "id": "ma-prop-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un élève paie 18 € pour 6 entrées à la piscine. Combien d'entrées peut-il acheter avec 45 € ?",
+      "choices": [
+        "12",
+        "27",
+        "7",
+        "15"
+      ],
+      "answer": "15",
+      "explain": "Une entrée coûte 3 €, donc 45 ÷ 3 = 15 entrées."
+    },
+    {
+      "id": "ma-prop-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "6 baguettes coûtent 5,40 €. Quel est le prix de 10 baguettes, en € ?",
+      "choices": [
+        "9",
+        "8,4",
+        "4,4",
+        "54"
+      ],
+      "answer": "9",
+      "explain": "Une baguette coûte 0,90 €, donc 10 baguettes coûtent 9 €."
+    },
+    {
+      "id": "ma-prop-080",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Prendre 50 % d'une quantité, c'est en prendre :",
+      "choices": [
+        "le quart",
+        "la moitié",
+        "le dixième",
+        "les trois quarts"
+      ],
+      "answer": "la moitié",
+      "explain": "50 % = 50 sur 100 = la moitié."
+    },
+    {
+      "id": "ma-prop-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Prendre 25 % d'une quantité, c'est en prendre :",
+      "choices": [
+        "la moitié",
+        "le dixième",
+        "le quart",
+        "les trois quarts"
+      ],
+      "answer": "le quart",
+      "explain": "25 % = 25 sur 100 = un quart."
+    },
+    {
+      "id": "ma-prop-082",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Prendre 75 % d'une quantité, c'est en prendre :",
+      "choices": [
+        "la moitié",
+        "le quart",
+        "le cinquième",
+        "les trois quarts"
+      ],
+      "answer": "les trois quarts",
+      "explain": "75 % = 3 × 25 % = trois quarts."
+    },
+    {
+      "id": "ma-prop-083",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Prendre 10 % d'une quantité, c'est en prendre :",
+      "choices": [
+        "le dixième",
+        "le quart",
+        "le centième",
+        "la moitié"
+      ],
+      "answer": "le dixième",
+      "explain": "10 % = 10 sur 100 = un dixième."
+    },
+    {
+      "id": "ma-prop-084",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Prendre 20 % d'une quantité, c'est en prendre :",
+      "choices": [
+        "le quart",
+        "le cinquième",
+        "le dixième",
+        "la moitié"
+      ],
+      "answer": "le cinquième",
+      "explain": "20 % = 20 sur 100 = un cinquième."
+    },
+    {
+      "id": "ma-prop-085",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calculer 10 % d'une quantité revient à la diviser par :",
+      "choices": [
+        "100",
+        "5",
+        "10",
+        "2"
+      ],
+      "answer": "10",
+      "explain": "10 % est le dixième de la quantité."
+    },
+    {
+      "id": "ma-prop-086",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calculer 25 % d'une quantité revient à la diviser par :",
+      "choices": [
+        "25",
+        "2",
+        "5",
+        "4"
+      ],
+      "answer": "4",
+      "explain": "25 % est le quart de la quantité."
+    },
+    {
+      "id": "ma-prop-087",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pour calculer 20 % de 90, on peut calculer :",
+      "choices": [
+        "90 × 20 ÷ 100",
+        "90 × 100 ÷ 20",
+        "90 + 20",
+        "90 − 20"
+      ],
+      "answer": "90 × 20 ÷ 100",
+      "explain": "20 % de 90 = 90 × 20 ÷ 100 = 18."
+    },
+    {
+      "id": "ma-prop-088",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un club de 120 licenciés, 25 % sont des filles. Combien y a-t-il de filles ?",
+      "choices": [
+        "30",
+        "25",
+        "95",
+        "480"
+      ],
+      "answer": "30",
+      "explain": "25 % = le quart : 120 ÷ 4 = 30."
+    },
+    {
+      "id": "ma-prop-089",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un maillot coûte 36 €. Un magasin en offre 50 % du prix en bon d'achat. Quel est le montant du bon, en € ?",
+      "choices": [
+        "50",
+        "18",
+        "86",
+        "36"
+      ],
+      "answer": "18",
+      "explain": "50 % = la moitié : 36 ÷ 2 = 18."
+    },
+    {
+      "id": "ma-prop-090",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le nombre qui correspond à 10 % de 80 ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "80 ÷ 10 = 8."
+    },
+    {
+      "id": "ma-prop-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 75 % de 40 ?",
+      "choices": [
+        "10",
+        "30",
+        "75",
+        "3"
+      ],
+      "answer": "30",
+      "explain": "75 % = trois quarts : 40 ÷ 4 × 3 = 30."
+    },
+    {
+      "id": "ma-prop-092",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 20 % de 90 ?",
+      "choices": [
+        "20",
+        "70",
+        "18",
+        "4,5"
+      ],
+      "answer": "18",
+      "explain": "10 % de 90 = 9, donc 20 % = 18."
+    },
+    {
+      "id": "ma-prop-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 5 % de 60 ?",
+      "choices": [
+        "5",
+        "55",
+        "12",
+        "3"
+      ],
+      "answer": "3",
+      "explain": "10 % de 60 = 6, donc 5 % = 3."
+    },
+    {
+      "id": "ma-prop-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 5 % de 200 ?",
+      "choices": [
+        "5",
+        "40",
+        "10",
+        "195"
+      ],
+      "answer": "10",
+      "explain": "10 % de 200 = 20, donc 5 % = 10."
+    },
+    {
+      "id": "ma-prop-095",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 30 % de 50 ?",
+      "choices": [
+        "15",
+        "30",
+        "20",
+        "150"
+      ],
+      "answer": "15",
+      "explain": "10 % de 50 = 5, donc 30 % = 15."
+    },
+    {
+      "id": "ma-prop-096",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le nombre qui correspond à 40 % de 25 ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "10 % de 25 = 2,5, donc 40 % = 10."
+    },
+    {
+      "id": "ma-prop-097",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le nombre qui correspond à 15 % de 40 ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "10 % de 40 = 4 et 5 % = 2, donc 15 % = 6."
+    },
+    {
+      "id": "ma-prop-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 60 % de 35 ?",
+      "choices": [
+        "25",
+        "60",
+        "2,1",
+        "21"
+      ],
+      "answer": "21",
+      "explain": "10 % de 35 = 3,5, donc 60 % = 21."
+    },
+    {
+      "id": "ma-prop-099",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 1 % de 300 ?",
+      "choices": [
+        "30",
+        "3",
+        "100",
+        "0,3"
+      ],
+      "answer": "3",
+      "explain": "300 ÷ 100 = 3."
+    },
+    {
+      "id": "ma-prop-100",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nombre qui correspond à 35 % de 20 ?",
+      "choices": [
+        "7",
+        "35",
+        "15",
+        "0,7"
+      ],
+      "answer": "7",
+      "explain": "10 % de 20 = 2, donc 30 % = 6 et 5 % = 1 : 35 % = 7."
+    },
+    {
+      "id": "ma-prop-101",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un maillot à 60 € est soldé avec 20 % de réduction. Quel est son nouveau prix, en € ?",
+      "choices": [
+        "12",
+        "48",
+        "40",
+        "72"
+      ],
+      "answer": "48",
+      "explain": "20 % de 60 = 12, puis 60 − 12 = 48."
+    },
+    {
+      "id": "ma-prop-102",
+      "level": 2,
+      "type": "input",
+      "prompt": "Des chaussures coûtent 80 €. Elles sont soldées avec 25 % de réduction. Quel est leur nouveau prix, en € ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "25 % de 80 = 20, puis 80 − 20 = 60."
+    },
+    {
+      "id": "ma-prop-103",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un ballon à 30 € est vendu avec 10 % de réduction. Quel est son nouveau prix, en € ?",
+      "choices": [
+        "3",
+        "20",
+        "27",
+        "33"
+      ],
+      "answer": "27",
+      "explain": "10 % de 30 = 3, puis 30 − 3 = 27."
+    },
+    {
+      "id": "ma-prop-104",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un sac à 50 € est vendu avec 50 % de réduction. Quel est son nouveau prix, en € ?",
+      "choices": [
+        "50",
+        "0",
+        "75",
+        "25"
+      ],
+      "answer": "25",
+      "explain": "La moitié de 50 est 25 : on paie 25 €."
+    },
+    {
+      "id": "ma-prop-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un sac de sport coûte 120 €. Il est vendu avec 5 % de réduction. Quel est son nouveau prix, en € ?",
+      "answer": [
+        "114"
+      ],
+      "explain": "5 % de 120 = 6, puis 120 − 6 = 114."
+    },
+    {
+      "id": "ma-prop-106",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un short coûte 40 €. Il est vendu avec 15 % de réduction. Quel est son nouveau prix, en € ?",
+      "choices": [
+        "6",
+        "46",
+        "34",
+        "25"
+      ],
+      "answer": "34",
+      "explain": "15 % de 40 = 6, puis 40 − 6 = 34."
+    },
+    {
+      "id": "ma-prop-107",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un abonnement coûte 40 €. Son prix augmente de 10 %. Quel est le nouveau prix, en € ?",
+      "choices": [
+        "44",
+        "4",
+        "50",
+        "36"
+      ],
+      "answer": "44",
+      "explain": "10 % de 40 = 4, puis 40 + 4 = 44."
+    },
+    {
+      "id": "ma-prop-108",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une place de match coûte 25 €. Son prix augmente de 20 %. Quel est le nouveau prix, en € ?",
+      "choices": [
+        "5",
+        "20",
+        "45",
+        "30"
+      ],
+      "answer": "30",
+      "explain": "20 % de 25 = 5, puis 25 + 5 = 30."
+    },
+    {
+      "id": "ma-prop-109",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un forfait coûte 80 €. Son prix augmente de 25 %. Quel est le nouveau prix, en € ?",
+      "choices": [
+        "20",
+        "100",
+        "105",
+        "60"
+      ],
+      "answer": "100",
+      "explain": "25 % de 80 = 20, puis 80 + 20 = 100."
+    },
+    {
+      "id": "ma-prop-110",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un élève reçoit 20 € d'argent de poche par mois. Son argent de poche augmente de 50 %. Quel est le nouveau montant, en € ?",
+      "choices": [
+        "30",
+        "10",
+        "50",
+        "70"
+      ],
+      "answer": "30",
+      "explain": "50 % de 20 = 10, puis 20 + 10 = 30."
+    },
+    {
+      "id": "ma-prop-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un jeu à 50 € est soldé avec 30 % de réduction. Quel est le montant de la réduction, en € ?",
+      "choices": [
+        "35",
+        "15",
+        "30",
+        "20"
+      ],
+      "answer": "15",
+      "explain": "30 % de 50 = 15 €."
+    },
+    {
+      "id": "ma-prop-112",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un jeu à 70 € est soldé avec 30 % de réduction. Combien le paie-t-on, en € ?",
+      "choices": [
+        "21",
+        "49",
+        "91",
+        "40"
+      ],
+      "answer": "49",
+      "explain": "30 % de 70 = 21, puis 70 − 21 = 49."
+    },
+    {
+      "id": "ma-prop-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans un club de 48 joueurs, 12 sont gardiens. Quel pourcentage de gardiens y a-t-il ?",
+      "choices": [
+        "12 %",
+        "36 %",
+        "4 %",
+        "25 %"
+      ],
+      "answer": "25 %",
+      "explain": "12 sur 48 = 1 sur 4 = 25 %."
+    },
+    {
+      "id": "ma-prop-114",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un joueur réussit 18 tirs sur 24. Quel est son pourcentage de réussite, en % ?",
+      "answer": [
+        "75"
+      ],
+      "explain": "18 sur 24 = 3 sur 4 = 75 %."
+    },
+    {
+      "id": "ma-prop-115",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un joueur marque 3 buts sur 30 tirs. Quel est son pourcentage de réussite, en % ?",
+      "choices": [
+        "3",
+        "27",
+        "10",
+        "30"
+      ],
+      "answer": "10",
+      "explain": "3 sur 30 = 1 sur 10 = 10 %."
+    },
+    {
+      "id": "ma-prop-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une classe a 20 élèves et 7 d'entre eux vont au collège à vélo. Quel est le pourcentage de cyclistes, en % ?",
+      "choices": [
+        "7",
+        "13",
+        "65",
+        "35"
+      ],
+      "answer": "35",
+      "explain": "7 sur 20 = 35 sur 100 = 35 %."
+    },
+    {
+      "id": "ma-prop-117",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un élève répond juste à 8 questions sur 10. Quel est son pourcentage de réussite, en % ?",
+      "answer": [
+        "80"
+      ],
+      "explain": "8 sur 10 = 80 sur 100 = 80 %."
+    },
+    {
+      "id": "ma-prop-118",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une équipe a gagné 45 matchs sur 60. Quel pourcentage de victoires cela fait-il ?",
+      "choices": [
+        "75 %",
+        "45 %",
+        "15 %",
+        "60 %"
+      ],
+      "answer": "75 %",
+      "explain": "45 sur 60 = 3 sur 4 = 75 %."
+    },
+    {
+      "id": "ma-prop-119",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un pantalon à 50 € est payé 40 €. Quel est le pourcentage de réduction, en % ?",
+      "answer": [
+        "20"
+      ],
+      "explain": "La réduction est de 10 € sur 50 €, soit 20 sur 100 = 20 %."
+    },
+    {
+      "id": "ma-prop-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un jeu passe de 30 € à 36 €. Quel est le pourcentage d'augmentation, en % ?",
+      "choices": [
+        "20",
+        "6",
+        "16",
+        "120"
+      ],
+      "answer": "20",
+      "explain": "L'augmentation est de 6 € sur 30 €, soit 20 sur 100 = 20 %."
+    },
+    {
+      "id": "ma-prop-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "10 % d'une somme d'argent représentent 7 €. Quelle est la somme, en € ?",
+      "choices": [
+        "7",
+        "70",
+        "0,7",
+        "17"
+      ],
+      "answer": "70",
+      "explain": "La somme est 10 fois plus grande : 7 × 10 = 70 €."
+    },
+    {
+      "id": "ma-prop-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "25 % des élèves d'un collège sont demi-pensionnaires et cela représente 60 élèves. Combien d'élèves compte le collège ?",
+      "choices": [
+        "15",
+        "240",
+        "85",
+        "80"
+      ],
+      "answer": "240",
+      "explain": "Un quart des élèves = 60, donc le collège compte 4 × 60 = 240 élèves."
+    },
+    {
+      "id": "ma-prop-123",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand : 20 % de 50 ou 30 % de 30 ?",
+      "choices": [
+        "30 % de 30",
+        "Ils sont égaux",
+        "20 % de 50",
+        "On ne peut pas savoir"
+      ],
+      "answer": "20 % de 50",
+      "explain": "20 % de 50 = 10 et 30 % de 30 = 9."
+    },
+    {
+      "id": "ma-prop-124",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pour partager 60 billes dans le ratio 2 : 3, combien y a-t-il de parts égales en tout ?",
+      "choices": [
+        "6",
+        "1",
+        "23",
+        "5"
+      ],
+      "answer": "5",
+      "explain": "2 parts + 3 parts = 5 parts."
+    },
+    {
+      "id": "ma-prop-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "On partage 60 billes en deux parts dans le ratio 2 : 3. Combien vaut la part qui correspond à 2 ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "Une part vaut 60 ÷ 5 = 12 billes, donc le premier reçoit 2 × 12 = 24 billes."
+    },
+    {
+      "id": "ma-prop-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On partage 30 billes en deux parts dans le ratio 2 : 3. Quelles sont les deux parts, dans l'ordre du ratio ?",
+      "choices": [
+        "12 et 18",
+        "10 et 20",
+        "15 et 15",
+        "6 et 24"
+      ],
+      "answer": "12 et 18",
+      "explain": "Une part vaut 30 ÷ 5 = 6, donc 2 × 6 = 12 et 3 × 6 = 18."
+    },
+    {
+      "id": "ma-prop-127",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "On partage 50 € en deux parts dans le ratio 1 : 4. Combien vaut la part qui correspond à 1, en € ?",
+      "choices": [
+        "50",
+        "40",
+        "10",
+        "12,5"
+      ],
+      "answer": "10",
+      "explain": "Il y a 5 parts de 10 €, donc la part qui correspond à 1 vaut 10 €."
+    },
+    {
+      "id": "ma-prop-128",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Deux amis se partagent un gain de 100 €. Le premier reçoit 2 parts et le second 3 parts. Combien reçoit le premier, en € ?",
+      "choices": [
+        "20",
+        "50",
+        "60",
+        "40"
+      ],
+      "answer": "40",
+      "explain": "Une part vaut 100 ÷ 5 = 20 €, donc le premier reçoit 40 €."
+    },
+    {
+      "id": "ma-prop-129",
+      "level": 3,
+      "type": "input",
+      "prompt": "On partage 90 € dans le ratio 1 : 2 : 3. Combien reçoit la plus petite part, en € ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "Il y a 6 parts de 15 €, donc la plus petite part vaut 15 €."
+    },
+    {
+      "id": "ma-prop-130",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans une équipe, il y a 2 attaquants pour 3 défenseurs. Quel est le ratio attaquants : défenseurs ?",
+      "choices": [
+        "3 : 2",
+        "2 : 3",
+        "2 : 5",
+        "5 : 2"
+      ],
+      "answer": "2 : 3",
+      "explain": "Le ratio s'écrit dans l'ordre de la phrase : 2 : 3."
+    },
+    {
+      "id": "ma-prop-131",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une peinture orange contient 2 mesures de jaune pour 1 mesure de rouge. Pour 9 mesures de peinture en tout, combien faut-il de mesures de jaune ?",
+      "choices": [
+        "6",
+        "3",
+        "7",
+        "18"
+      ],
+      "answer": "6",
+      "explain": "Il y a 3 parts de 3 mesures, donc le jaune compte 2 × 3 = 6 mesures."
+    },
+    {
+      "id": "ma-prop-132",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On partage 40 L dans le ratio 1 : 3. Quelles sont les deux parts ?",
+      "choices": [
+        "20 L et 20 L",
+        "13 L et 27 L",
+        "10 L et 30 L",
+        "4 L et 36 L"
+      ],
+      "answer": "10 L et 30 L",
+      "explain": "Une part vaut 40 ÷ 4 = 10 L, donc 10 L et 30 L."
+    },
+    {
+      "id": "ma-prop-133",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On partage 72 € entre deux enfants : le premier reçoit 5 parts et le second 4 parts. Combien reçoit le premier, en € ?",
+      "choices": [
+        "32",
+        "40",
+        "45",
+        "8"
+      ],
+      "answer": "40",
+      "explain": "Une part vaut 72 ÷ 9 = 8 €, donc le premier reçoit 5 × 8 = 40 €."
+    },
+    {
+      "id": "ma-prop-134",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On partage 48 cartes en deux parts dans le ratio 3 : 1. Quelle est la plus petite part ?",
+      "choices": [
+        "16",
+        "36",
+        "24",
+        "12"
+      ],
+      "answer": "12",
+      "explain": "Il y a 4 parts de 12 cartes : la plus petite part vaut 12."
+    },
+    {
+      "id": "ma-prop-135",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une boisson contient 1 part de sirop pour 4 parts d'eau. Pour 35 cL de boisson, combien faut-il de cL de sirop ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "Il y a 5 parts de 7 cL, donc le sirop compte 7 cL."
+    },
+    {
+      "id": "ma-prop-136",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel ratio est équivalent au ratio 2 : 3 ?",
+      "choices": [
+        "6 : 9",
+        "3 : 4",
+        "4 : 5",
+        "5 : 6"
+      ],
+      "answer": "6 : 9",
+      "explain": "On multiplie 2 et 3 par 3 : 6 : 9."
+    },
+    {
+      "id": "ma-prop-137",
+      "level": 2,
+      "type": "input",
+      "prompt": "On partage 60 € dans le ratio 1 : 1 : 2. Combien reçoit la plus grande part, en € ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "Il y a 4 parts de 15 €, donc la plus grande part vaut 2 × 15 = 30 €."
+    },
+    {
+      "id": "ma-prop-138",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une situation de proportionnalité est représentée par des points :",
+      "choices": [
+        "alignés sur une droite qui ne passe pas par l'origine",
+        "alignés avec l'origine du repère",
+        "placés sur une courbe qui monte de plus en plus vite",
+        "tous situés à la même hauteur"
+      ],
+      "answer": "alignés avec l'origine du repère",
+      "explain": "Les points d'une situation de proportionnalité sont alignés avec l'origine."
+    },
+    {
+      "id": "ma-prop-139",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le graphique du prix de pommes à 3 € le kilo, selon la masse, est formé de points alignés avec l'origine. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "C'est une situation de proportionnalité, donc les points sont alignés avec l'origine.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-140",
+      "level": 1,
+      "type": "input",
+      "prompt": "Un graphique est formé de points alignés sur une droite qui coupe l'axe vertical à 10. S'agit-il d'une situation de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La droite ne passe pas par l'origine : ce n'est pas de la proportionnalité.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Séances"
+        },
+        "y": {
+          "min": 0,
+          "max": 20,
+          "step": 5,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                14
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                18
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-141",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un graphique place les points (1 h ; 3 km), (2 h ; 6 km) et (3 h ; 9 km). Sont-ils alignés avec l'origine du repère ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "La distance vaut toujours 3 fois la durée : les points sont alignés avec l'origine.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 3,
+          "step": 1,
+          "title": "Durée (h)"
+        },
+        "y": {
+          "min": 0,
+          "max": 9,
+          "step": 3,
+          "title": "Distance (km)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ]
+            ],
+            "join": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-142",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un graphique place les points (1 ; 2), (2 ; 4) et (3 ; 7). Sont-ils alignés avec l'origine du repère ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "3 devrait correspondre à 6 pour que ce soit proportionnel.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 3,
+          "step": 1,
+          "title": "Abscisse"
+        },
+        "y": {
+          "min": 0,
+          "max": 8,
+          "step": 2,
+          "title": "Ordonnée"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "join": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-143",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un graphique est une courbe qui monte de plus en plus vite, comme l'aire d'un carré selon son côté. Est-ce une situation de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Les points ne sont pas alignés : ce n'est pas de la proportionnalité.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Côté (cm)"
+        },
+        "y": {
+          "min": 0,
+          "max": 16,
+          "step": 4,
+          "title": "Aire (cm²)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                16
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-144",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel graphique, décrit en mots, correspond à une situation de proportionnalité ?",
+      "choices": [
+        "Une droite qui coupe l'axe vertical à 4",
+        "Une courbe qui monte puis redescend",
+        "Une droite qui passe par l'origine",
+        "Une droite horizontale à la hauteur 3"
+      ],
+      "answer": "Une droite qui passe par l'origine",
+      "explain": "Seule une droite passant par l'origine représente la proportionnalité."
+    },
+    {
+      "id": "ma-prop-145",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Pour 2 kg de pommes, on paie 6 €, au même prix au kilo. Quel autre point appartient au graphique de la proportionnalité entre la masse et le prix ?",
+      "choices": [
+        "(4 kg ; 8 €)",
+        "(3 kg ; 7 €)",
+        "(1 kg ; 4 €)",
+        "(4 kg ; 12 €)"
+      ],
+      "answer": "(4 kg ; 12 €)",
+      "explain": "Le prix d'un kilo est 3 €, donc 4 kg coûtent 12 €.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 15,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                2,
+                6
+              ]
+            ],
+            "join": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-146",
+      "level": 2,
+      "type": "input",
+      "prompt": "L'origine du repère (0 ; 0) est-elle toujours un point du graphique d'une situation de proportionnalité ? (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "0 multiplié par le coefficient donne toujours 0."
+    },
+    {
+      "id": "ma-prop-147",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un abonnement coûte 10 € plus 2 € par séance. Son graphique selon le nombre de séances est formé de points :",
+      "choices": [
+        "alignés sur une droite qui ne passe pas par l'origine",
+        "alignés avec l'origine",
+        "situés sur une courbe qui monte de plus en plus vite",
+        "tous situés à la même hauteur"
+      ],
+      "answer": "alignés sur une droite qui ne passe pas par l'origine",
+      "explain": "Pour 0 séance on paie 10 € : la droite ne passe pas par l'origine.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Séances"
+        },
+        "y": {
+          "min": 0,
+          "max": 20,
+          "step": 5,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                14
+              ],
+              [
+                3,
+                16
+              ],
+              [
+                4,
+                18
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-148",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un cycliste roule à vitesse constante. Le graphique de la distance selon la durée est formé de points :",
+      "choices": [
+        "alignés sur une droite qui coupe l'axe vertical à 5",
+        "alignés avec l'origine",
+        "tous situés à la même hauteur",
+        "situés sur une courbe qui monte de plus en plus vite"
+      ],
+      "answer": "alignés avec l'origine",
+      "explain": "À vitesse constante, la distance est proportionnelle à la durée."
+    },
+    {
+      "id": "ma-prop-149",
+      "level": 1,
+      "type": "input",
+      "prompt": "Les pommes sont toutes au même prix au kilo. D'après le graphique, combien coûtent 2 kg de pommes, en € ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "Le point d'abscisse 2 est à la hauteur 6 : 2 kg coûtent 6 €.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-150",
+      "level": 1,
+      "type": "input",
+      "prompt": "D'après le graphique, combien coûte 1 kg de pommes, en € ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "Le point d'abscisse 1 est à la hauteur 3 : 1 kg coûte 3 €.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-151",
+      "level": 2,
+      "type": "input",
+      "prompt": "D'après le graphique, combien coûtent 4 kg de pommes, en € ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "Le point d'abscisse 4 est à la hauteur 12 : 4 kg coûtent 12 €.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-152",
+      "level": 2,
+      "type": "input",
+      "prompt": "D'après le graphique, quelle masse de pommes peut-on acheter avec 9 € ? (en kg)",
+      "answer": [
+        "3"
+      ],
+      "explain": "On cherche l'abscisse du point de hauteur 9 : c'est 3 kg.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-153",
+      "level": 3,
+      "type": "input",
+      "prompt": "Ces points sont alignés avec l'origine. Combien coûteraient 10 kg de pommes, en € ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "1 kg coûte 3 €, donc 10 kg coûtent 10 × 3 = 30 €.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-154",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel point appartient aussi à cette droite ?",
+      "choices": [
+        "(5 ; 12)",
+        "(5 ; 14)",
+        "(5 ; 17)",
+        "(5 ; 15)"
+      ],
+      "answer": "(5 ; 15)",
+      "explain": "Le prix est 3 fois la masse : pour 5 kg, 5 × 3 = 15 €. Le point est (5 ; 15).",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-155",
+      "level": 1,
+      "type": "input",
+      "prompt": "Ce graphique représente-t-il une situation de proportionnalité ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Les points sont alignés avec l'origine : c'est une situation de proportionnalité.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Durée (h)"
+        },
+        "y": {
+          "min": 0,
+          "max": 8,
+          "step": 2,
+          "title": "Distance (km)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                8
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-156",
+      "level": 1,
+      "type": "input",
+      "prompt": "Ce graphique représente-t-il une situation de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La droite ne passe pas par l'origine (elle part de 4) : ce n'est pas une situation de proportionnalité.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Séances"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 2,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                10
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-157",
+      "level": 2,
+      "type": "input",
+      "prompt": "Ce graphique représente-t-il une situation de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Les points ne sont pas alignés : le graphique monte de plus en plus vite, ce n'est pas proportionnel.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 3,
+          "step": 1,
+          "title": "Côté (cm)"
+        },
+        "y": {
+          "min": 0,
+          "max": 9,
+          "step": 3,
+          "title": "Aire (cm²)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                9
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-158",
+      "level": 2,
+      "type": "input",
+      "prompt": "Ce graphique représente-t-il une situation de proportionnalité ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La droite est horizontale : la grandeur ne change pas, elle n'est pas proportionnelle à l'autre.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Temps (h)"
+        },
+        "y": {
+          "min": 0,
+          "max": 8,
+          "step": 2,
+          "title": "Prix du forfait (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                6
+              ],
+              [
+                4,
+                6
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-159",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un cycliste roule à vitesse constante. D'après le graphique, quelle est sa vitesse, en km/h ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "En 1 h il parcourt 15 km : sa vitesse est 15 km/h.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 3,
+          "step": 1,
+          "title": "Durée (h)"
+        },
+        "y": {
+          "min": 0,
+          "max": 45,
+          "step": 15,
+          "title": "Distance (km)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                15
+              ],
+              [
+                2,
+                30
+              ],
+              [
+                3,
+                45
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-160",
+      "level": 2,
+      "type": "input",
+      "prompt": "Ces points sont alignés avec l'origine. Quel est le prix d'un kilo, en € ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Le point (4 ; 20) donne 20 ÷ 4 = 5 € le kilo.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 20,
+          "step": 5,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                4,
+                20
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-161",
+      "level": 3,
+      "type": "input",
+      "prompt": "La recette est proportionnelle au nombre de gâteaux. D'après le graphique, combien de grammes de farine faut-il pour 6 gâteaux ?",
+      "answer": [
+        "300"
+      ],
+      "explain": "Pour 1 gâteau il faut 50 g, donc pour 6 gâteaux : 6 × 50 = 300 g.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Gâteaux"
+        },
+        "y": {
+          "min": 0,
+          "max": 200,
+          "step": 50,
+          "title": "Farine (g)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                50
+              ],
+              [
+                2,
+                100
+              ],
+              [
+                3,
+                150
+              ],
+              [
+                4,
+                200
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-162",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "D'après le graphique, combien coûtent 3 kg de pommes, en € ?",
+      "choices": [
+        "12",
+        "6",
+        "9",
+        "3"
+      ],
+      "answer": "9",
+      "explain": "Le point d'abscisse 3 est à la hauteur 9 : 3 kg coûtent 9 €.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Masse (kg)"
+        },
+        "y": {
+          "min": 0,
+          "max": 12,
+          "step": 3,
+          "title": "Prix (€)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-163",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Pourquoi ce graphique représente-t-il une situation de proportionnalité ?",
+      "choices": [
+        "Les points sont alignés avec l'origine du repère",
+        "Les points forment une courbe qui monte de plus en plus vite",
+        "La droite coupe l'axe vertical au-dessus de 0",
+        "Les points sont tous à la même hauteur"
+      ],
+      "answer": "Les points sont alignés avec l'origine du repère",
+      "explain": "Des points alignés avec l'origine du repère traduisent la proportionnalité.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 4,
+          "step": 1,
+          "title": "Durée (h)"
+        },
+        "y": {
+          "min": 0,
+          "max": 8,
+          "step": 2,
+          "title": "Distance (km)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                8
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-prop-164",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Le cycliste garde la même vitesse. Quelle distance parcourt-il en 5 h, en km ?",
+      "choices": [
+        "60",
+        "75",
+        "45",
+        "90"
+      ],
+      "answer": "75",
+      "explain": "En 1 h il parcourt 15 km, donc en 5 h : 5 × 15 = 75 km.",
+      "figure": {
+        "type": "line",
+        "x": {
+          "min": 0,
+          "max": 3,
+          "step": 1,
+          "title": "Durée (h)"
+        },
+        "y": {
+          "min": 0,
+          "max": 45,
+          "step": 15,
+          "title": "Distance (km)"
+        },
+        "series": [
+          {
+            "pts": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                15
+              ],
+              [
+                2,
+                30
+              ],
+              [
+                3,
+                45
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

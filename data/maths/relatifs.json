@@ -1227,12 +1227,12 @@
       "id": "ma-rel-093",
       "level": 3,
       "type": "input",
-      "prompt": "Calcule B = (−13) + (−57) − (−24) − (+38) − (−12) + (+13)",
+      "prompt": "Calcule B = (−10) + (−25) − (−30) − (+40) − (−15) + (+20)",
       "answer": [
-        "-59",
-        "−59"
+        "-10",
+        "−10"
       ],
-      "explain": "En supprimant les parenthèses puis en regroupant, on obtient −59."
+      "explain": "En supprimant les parenthèses puis en regroupant, on obtient −10 − 25 + 30 − 40 + 15 + 20 = −10."
     },
     {
       "id": "ma-rel-094",
@@ -1927,6 +1927,711 @@
       ],
       "answer": "0",
       "explain": "Deux nombres opposés ont pour somme 0."
+    },
+    {
+      "id": "ma-rel-147",
+      "level": 1,
+      "type": "input",
+      "prompt": "Sur la droite graduée, quelle est l'abscisse du point A ?",
+      "answer": [
+        "-3",
+        "−3"
+      ],
+      "explain": "A est à 3 graduations à gauche de 0 : son abscisse est −3.",
+      "figure": {
+        "type": "numberline",
+        "min": -5,
+        "max": 5,
+        "step": 1,
+        "labelEvery": 1,
+        "points": [
+          {
+            "x": -3,
+            "name": "A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-148",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sur la droite graduée, quelle est l'abscisse du point B ?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "−3"
+      ],
+      "answer": "3",
+      "explain": "B est à 3 graduations à droite de 0 : son abscisse est 3.",
+      "figure": {
+        "type": "numberline",
+        "min": -5,
+        "max": 5,
+        "step": 1,
+        "labelEvery": 1,
+        "points": [
+          {
+            "x": -2,
+            "name": "A"
+          },
+          {
+            "x": 3,
+            "name": "B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-149",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sur la droite graduée, quel point a pour abscisse −2 ?",
+      "choices": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "answer": "B",
+      "explain": "−2 est à 2 graduations à gauche de 0 : c'est le point B.",
+      "figure": {
+        "type": "numberline",
+        "min": -5,
+        "max": 5,
+        "step": 1,
+        "labelEvery": 1,
+        "points": [
+          {
+            "x": -4,
+            "name": "A"
+          },
+          {
+            "x": -2,
+            "name": "B"
+          },
+          {
+            "x": 1,
+            "name": "C"
+          },
+          {
+            "x": 3,
+            "name": "D"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-150",
+      "level": 2,
+      "type": "input",
+      "prompt": "Sur la droite graduée, quelle est l'abscisse du point M ?",
+      "answer": [
+        "-0,3",
+        "-0.3",
+        "−0,3",
+        "−0.3"
+      ],
+      "explain": "Chaque graduation vaut 0,1 : M est à 3 graduations à gauche de 0, son abscisse est −0,3.",
+      "figure": {
+        "type": "numberline",
+        "min": -1,
+        "max": 1,
+        "step": 0.1,
+        "labelEvery": 5,
+        "points": [
+          {
+            "x": -0.3,
+            "name": "M"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-151",
+      "level": 2,
+      "type": "input",
+      "prompt": "Sur la droite graduée, quelle est l'abscisse du point P ?",
+      "answer": [
+        "-0,5",
+        "-0.5",
+        "−0,5",
+        "−0.5"
+      ],
+      "explain": "Chaque graduation vaut 0,5 : P est une graduation à gauche de 0, son abscisse est −0,5.",
+      "figure": {
+        "type": "numberline",
+        "min": -2,
+        "max": 2,
+        "step": 0.5,
+        "labelEvery": 2,
+        "points": [
+          {
+            "x": -0.5,
+            "name": "P"
+          },
+          {
+            "x": 1.5,
+            "name": "Q"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-152",
+      "level": 2,
+      "type": "input",
+      "prompt": "Sur la droite graduée, quelle est la distance AB ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "Entre −4 et 3 il y a 4 + 3 = 7 unités.",
+      "figure": {
+        "type": "numberline",
+        "min": -10,
+        "max": 10,
+        "step": 1,
+        "labelEvery": 5,
+        "points": [
+          {
+            "x": -4,
+            "name": "A"
+          },
+          {
+            "x": 3,
+            "name": "B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-153",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel point a pour abscisse l'opposé de l'abscisse de A ?",
+      "choices": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "answer": "B",
+      "explain": "L'opposé de −3 est 3 : c'est le point B.",
+      "figure": {
+        "type": "numberline",
+        "min": -5,
+        "max": 5,
+        "step": 1,
+        "labelEvery": 1,
+        "points": [
+          {
+            "x": -3,
+            "name": "A"
+          },
+          {
+            "x": 3,
+            "name": "B"
+          },
+          {
+            "x": 2,
+            "name": "C"
+          },
+          {
+            "x": -2,
+            "name": "D"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-154",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel point est le plus éloigné de l'origine ?",
+      "choices": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "answer": "A",
+      "explain": "A est à 0,8 de 0 ; B à 0,3 ; C à 0,2 ; D à 0,6. Le plus éloigné est A.",
+      "figure": {
+        "type": "numberline",
+        "min": -1,
+        "max": 1,
+        "step": 0.1,
+        "labelEvery": 5,
+        "points": [
+          {
+            "x": -0.8,
+            "name": "A"
+          },
+          {
+            "x": -0.3,
+            "name": "B"
+          },
+          {
+            "x": 0.2,
+            "name": "C"
+          },
+          {
+            "x": 0.6,
+            "name": "D"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-155",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur la droite graduée, quelle est l'abscisse du milieu de [AB] ?",
+      "answer": [
+        "-2",
+        "−2"
+      ],
+      "explain": "Le milieu est à égale distance de A et de B : (−7 + 3) ÷ 2 = −2.",
+      "figure": {
+        "type": "numberline",
+        "min": -10,
+        "max": 10,
+        "step": 1,
+        "labelEvery": 5,
+        "points": [
+          {
+            "x": -7,
+            "name": "A"
+          },
+          {
+            "x": 3,
+            "name": "B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-156",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur la droite graduée, quelle est la distance AB ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "De −1,5 à 0,5 : 1,5 + 0,5 = 2 unités.",
+      "figure": {
+        "type": "numberline",
+        "min": -2,
+        "max": 2,
+        "step": 0.5,
+        "labelEvery": 2,
+        "points": [
+          {
+            "x": -1.5,
+            "name": "A"
+          },
+          {
+            "x": 0.5,
+            "name": "B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-157",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans le repère, quelle est l'abscisse du point A ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "On lit d'abord la graduation sur l'axe horizontal : A a pour abscisse 3.",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": 3,
+            "y": 2,
+            "pos": "ne"
+          },
+          {
+            "name": "B",
+            "x": -2,
+            "y": 3
+          },
+          {
+            "name": "C",
+            "x": -3,
+            "y": -2,
+            "pos": "sw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-158",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans le repère, quelle est l'ordonnée du point B ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "On lit la graduation sur l'axe vertical : B a pour ordonnée 3.",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": 3,
+            "y": 2,
+            "pos": "ne"
+          },
+          {
+            "name": "B",
+            "x": -2,
+            "y": 3
+          },
+          {
+            "name": "C",
+            "x": -3,
+            "y": -2,
+            "pos": "sw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-159",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans le repère, quelles sont les coordonnées du point C ?",
+      "choices": [
+        "(3 ; 2)",
+        "(−3 ; −2)",
+        "(2 ; −3)",
+        "(−2 ; −3)"
+      ],
+      "answer": "(−3 ; −2)",
+      "explain": "On lit l'abscisse puis l'ordonnée : C est à 3 vers la gauche et 2 vers le bas, soit (−3 ; −2).",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": 3,
+            "y": 2,
+            "pos": "ne"
+          },
+          {
+            "name": "B",
+            "x": -2,
+            "y": 3
+          },
+          {
+            "name": "C",
+            "x": -3,
+            "y": -2,
+            "pos": "sw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-160",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans le repère, quel point a pour coordonnées (3 ; −2) ?",
+      "choices": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": "C",
+      "explain": "Abscisse 3 : on va à droite de 3 ; ordonnée −2 : on descend de 2. C'est le point C.",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": 2,
+            "y": 3
+          },
+          {
+            "name": "B",
+            "x": -3,
+            "y": 1
+          },
+          {
+            "name": "C",
+            "x": 3,
+            "y": -2
+          },
+          {
+            "name": "D",
+            "x": -1,
+            "y": -3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-161",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans le repère, quelles sont les coordonnées du point A ?",
+      "choices": [
+        "(−4 ; 3)",
+        "(4 ; −3)",
+        "(3 ; −4)",
+        "(−3 ; 4)"
+      ],
+      "answer": "(4 ; −3)",
+      "explain": "A est à 4 vers la droite et 3 vers le bas : (4 ; −3).",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": 4,
+            "y": -3,
+            "pos": "ne"
+          },
+          {
+            "name": "B",
+            "x": -2,
+            "y": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-162",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel point est situé sur l'axe des abscisses (l'axe horizontal) ?",
+      "choices": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "answer": "A",
+      "explain": "Un point de l'axe des abscisses a pour ordonnée 0 : c'est A (3 ; 0).",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": 3,
+            "y": 0,
+            "pos": "ne"
+          },
+          {
+            "name": "B",
+            "x": 0,
+            "y": 2
+          },
+          {
+            "name": "C",
+            "x": -2,
+            "y": -2
+          },
+          {
+            "name": "D",
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-163",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un rectangle. Quelle est l'abscisse du point D ?",
+      "answer": [
+        "-3",
+        "−3"
+      ],
+      "explain": "D est au-dessus de A : il a la même abscisse que A, soit −3.",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": -3,
+            "y": -2,
+            "pos": "sw"
+          },
+          {
+            "name": "B",
+            "x": 3,
+            "y": -2,
+            "pos": "se"
+          },
+          {
+            "name": "C",
+            "x": 3,
+            "y": 1,
+            "pos": "ne"
+          }
+        ],
+        "lines": [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "B",
+            "C"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-164",
+      "level": 3,
+      "type": "input",
+      "prompt": "ABCD est un parallélogramme. Quelle est l'abscisse du point D ?",
+      "answer": [
+        "-2",
+        "−2"
+      ],
+      "explain": "Pour aller de B à C on avance de 2 : de A à D aussi. L'abscisse de D est −4 + 2 = −2.",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": -4,
+            "y": -1,
+            "pos": "sw"
+          },
+          {
+            "name": "B",
+            "x": 1,
+            "y": -1,
+            "pos": "se"
+          },
+          {
+            "name": "C",
+            "x": 3,
+            "y": 2,
+            "pos": "ne"
+          }
+        ],
+        "lines": [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "B",
+            "C"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-165",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelles sont les coordonnées du symétrique de A par rapport à l'origine du repère ?",
+      "choices": [
+        "(2 ; −3)",
+        "(−3 ; −2)",
+        "(−3 ; 2)",
+        "(3 ; 2)"
+      ],
+      "answer": "(−3 ; 2)",
+      "explain": "Le symétrique par rapport à l'origine a des coordonnées opposées : (−3 ; 2).",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": 3,
+            "y": -2,
+            "pos": "se"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ma-rel-166",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la distance AB ? (une graduation vaut 1)",
+      "answer": [
+        "7"
+      ],
+      "explain": "A et B ont la même ordonnée : AB = 4 − (−3) = 7.",
+      "figure": {
+        "type": "plane",
+        "xmin": -5,
+        "xmax": 5,
+        "ymin": -3,
+        "ymax": 3,
+        "points": [
+          {
+            "name": "A",
+            "x": -3,
+            "y": 2,
+            "pos": "nw"
+          },
+          {
+            "name": "B",
+            "x": 4,
+            "y": 2,
+            "pos": "ne"
+          }
+        ],
+        "lines": [
+          [
+            "A",
+            "B"
+          ]
+        ]
+      }
     }
   ]
 }

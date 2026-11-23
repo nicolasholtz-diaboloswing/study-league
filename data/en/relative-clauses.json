@@ -1,0 +1,1356 @@
+{
+  "topic": "en-relative-clauses",
+  "questions": [
+    {
+      "id": "en-rel-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The girl ___ sits next to me is called Zoe.",
+      "choices": [
+        "where",
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": "who",
+      "explain": "Use 'who' for people."
+    },
+    {
+      "id": "en-rel-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The book ___ I read last week was about a hero.",
+      "choices": [
+        "who",
+        "whose",
+        "where",
+        "which"
+      ],
+      "answer": "which",
+      "explain": "Use 'which' for things."
+    },
+    {
+      "id": "en-rel-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Grendel was the monster ___ attacked Heorot.",
+      "choices": [
+        "whose",
+        "that",
+        "when",
+        "where"
+      ],
+      "answer": "that",
+      "explain": "'That' can replace 'who' or 'which' in a defining clause."
+    },
+    {
+      "id": "en-rel-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "A teacher is a person ___ teaches students.",
+      "choices": [
+        "when",
+        "where",
+        "who",
+        "which"
+      ],
+      "answer": "who",
+      "explain": "Use 'who' for people."
+    },
+    {
+      "id": "en-rel-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "A stadium is a place ___ people watch football.",
+      "choices": [
+        "whose",
+        "where",
+        "who",
+        "when"
+      ],
+      "answer": "where",
+      "explain": "Use 'where' for places."
+    },
+    {
+      "id": "en-rel-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Sunday is the day ___ we visit my grandparents.",
+      "choices": [
+        "whose",
+        "where",
+        "when",
+        "who"
+      ],
+      "answer": "when",
+      "explain": "Use 'when' for a time."
+    },
+    {
+      "id": "en-rel-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The boy ___ bike was stolen called the police.",
+      "choices": [
+        "who",
+        "where",
+        "which",
+        "whose"
+      ],
+      "answer": "whose",
+      "explain": "Use 'whose' to show that something belongs to someone."
+    },
+    {
+      "id": "en-rel-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "I don't know the reason ___ he left early.",
+      "choices": [
+        "whose",
+        "why",
+        "who",
+        "where"
+      ],
+      "answer": "why",
+      "explain": "Use 'why' after 'the reason'."
+    },
+    {
+      "id": "en-rel-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Hrothgar is the king ___ built Heorot.",
+      "choices": [
+        "which",
+        "whose",
+        "who",
+        "where"
+      ],
+      "answer": "who",
+      "explain": "Use 'who' for people."
+    },
+    {
+      "id": "en-rel-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The dog ___ barks at night belongs to our neighbour.",
+      "choices": [
+        "whose",
+        "when",
+        "where",
+        "which"
+      ],
+      "answer": "which",
+      "explain": "Use 'which' for animals and things."
+    },
+    {
+      "id": "en-rel-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which relative pronoun do we use for people?",
+      "choices": [
+        "when",
+        "who",
+        "which",
+        "where"
+      ],
+      "answer": "who",
+      "explain": "'Who' is for people."
+    },
+    {
+      "id": "en-rel-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which relative pronoun shows possession?",
+      "choices": [
+        "when",
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": "whose",
+      "explain": "'Whose' shows that something belongs to someone."
+    },
+    {
+      "id": "en-rel-013",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which relative pronoun do we use for places?",
+      "choices": [
+        "when",
+        "whose",
+        "where",
+        "who"
+      ],
+      "answer": "where",
+      "explain": "'Where' is for places."
+    },
+    {
+      "id": "en-rel-014",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which relative pronoun do we use for a time, like a day or a year?",
+      "choices": [
+        "where",
+        "who",
+        "when",
+        "whose"
+      ],
+      "answer": "when",
+      "explain": "'When' is for times."
+    },
+    {
+      "id": "en-rel-015",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about a neighbour is correct?",
+      "choices": [
+        "The man which lives next door is a doctor.",
+        "The man where lives next door is a doctor.",
+        "The man whose lives next door is a doctor.",
+        "The man who lives next door is a doctor."
+      ],
+      "answer": "The man who lives next door is a doctor.",
+      "explain": "Use 'who' for a person."
+    },
+    {
+      "id": "en-rel-016",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about a pen is correct?",
+      "choices": [
+        "This is the pen which I bought yesterday.",
+        "This is the pen who I bought yesterday.",
+        "This is the pen whose I bought yesterday.",
+        "This is the pen where I bought yesterday."
+      ],
+      "answer": "This is the pen which I bought yesterday.",
+      "explain": "Use 'which' for a thing."
+    },
+    {
+      "id": "en-rel-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Unferth is the warrior ___ doubted Beowulf at first.",
+      "choices": [
+        "who",
+        "where",
+        "which",
+        "whose"
+      ],
+      "answer": "who",
+      "explain": "Use 'who' for people."
+    },
+    {
+      "id": "en-rel-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Heorot is the hall ___ the Danes held their feasts.",
+      "choices": [
+        "when",
+        "where",
+        "who",
+        "whose"
+      ],
+      "answer": "where",
+      "explain": "Use 'where' for a place."
+    },
+    {
+      "id": "en-rel-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "My friend ___ lives in Spain visits us every summer.",
+      "choices": [
+        "where",
+        "who",
+        "whose",
+        "which"
+      ],
+      "answer": "who",
+      "explain": "Use 'who' for people."
+    },
+    {
+      "id": "en-rel-020",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "The match ___ we watched on Saturday was amazing.",
+      "choices": [
+        "where",
+        "who",
+        "whose",
+        "which"
+      ],
+      "answer": "which",
+      "explain": "Use 'which' for things."
+    },
+    {
+      "id": "en-rel-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "That is the girl ___ mother is a pilot.",
+      "choices": [
+        "whose",
+        "which",
+        "who",
+        "where"
+      ],
+      "answer": "whose",
+      "explain": "'Whose' replaces 'her' to show possession."
+    },
+    {
+      "id": "en-rel-022",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Paris is the city ___ my aunt lives.",
+      "choices": [
+        "who",
+        "where",
+        "when",
+        "whose"
+      ],
+      "answer": "where",
+      "explain": "'Where' means 'in which' and is used for places."
+    },
+    {
+      "id": "en-rel-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about a boy and his father is correct?",
+      "choices": [
+        "I know a boy where father is a footballer.",
+        "I know a boy who father is a footballer.",
+        "I know a boy which father is a footballer.",
+        "I know a boy whose father is a footballer."
+      ],
+      "answer": "I know a boy whose father is a footballer.",
+      "explain": "Use 'whose' for possession."
+    },
+    {
+      "id": "en-rel-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about a cafe is correct?",
+      "choices": [
+        "That is the cafe whose we meet every Friday.",
+        "That is the cafe where we meet every Friday.",
+        "That is the cafe when we meet every Friday.",
+        "That is the cafe who we meet every Friday."
+      ],
+      "answer": "That is the cafe where we meet every Friday.",
+      "explain": "Use 'where' for a place."
+    },
+    {
+      "id": "en-rel-025",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about a bicycle is correct?",
+      "choices": [
+        "A bicycle is a vehicle whose has two wheels.",
+        "A bicycle is a vehicle which has two wheels.",
+        "A bicycle is a vehicle who has two wheels.",
+        "A bicycle is a vehicle where has two wheels."
+      ],
+      "answer": "A bicycle is a vehicle which has two wheels.",
+      "explain": "Use 'which' for things."
+    },
+    {
+      "id": "en-rel-026",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Which sentence about Beowulf is correct?",
+      "choices": [
+        "Beowulf is the hero where fought Grendel.",
+        "Beowulf is the hero which fought Grendel.",
+        "Beowulf is the hero whose fought Grendel.",
+        "Beowulf is the hero who fought Grendel."
+      ],
+      "answer": "Beowulf is the hero who fought Grendel.",
+      "explain": "Use 'who' for a person."
+    },
+    {
+      "id": "en-rel-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): The woman ___ teaches us maths is very kind.",
+      "answer": [
+        "who",
+        "that"
+      ],
+      "explain": "For a person in a defining clause, 'who' and 'that' are both correct."
+    },
+    {
+      "id": "en-rel-028",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): A kettle is an object ___ boils water.",
+      "answer": [
+        "which",
+        "that"
+      ],
+      "explain": "For a thing in a defining clause, 'which' and 'that' are both correct."
+    },
+    {
+      "id": "en-rel-029",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): He is the boy ___ brother plays for Lyon.",
+      "answer": [
+        "whose"
+      ],
+      "explain": "Use 'whose' to show possession."
+    },
+    {
+      "id": "en-rel-030",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): This is the room ___ we have English lessons.",
+      "answer": [
+        "where"
+      ],
+      "explain": "Use 'where' for a place."
+    },
+    {
+      "id": "en-rel-031",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): Hrothgar is the king ___ ruled the Danes.",
+      "answer": [
+        "who",
+        "that"
+      ],
+      "explain": "For a person in a defining clause, 'who' and 'that' are both correct."
+    },
+    {
+      "id": "en-rel-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): July is the month ___ school ends.",
+      "answer": [
+        "when",
+        "that"
+      ],
+      "explain": "Use 'when' for a time ('that' is also possible)."
+    },
+    {
+      "id": "en-rel-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): Beowulf is a hero ___ story is very old.",
+      "answer": [
+        "whose"
+      ],
+      "explain": "Use 'whose' to show possession."
+    },
+    {
+      "id": "en-rel-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): Football is a sport ___ millions of people love.",
+      "answer": [
+        "which",
+        "that"
+      ],
+      "explain": "For a thing in a defining clause, 'which' and 'that' are both correct."
+    },
+    {
+      "id": "en-rel-035",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): A librarian is someone ___ works in a library.",
+      "answer": [
+        "who",
+        "that"
+      ],
+      "explain": "For a person in a defining clause, 'who' and 'that' are both correct."
+    },
+    {
+      "id": "en-rel-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): The dog ___ tail is long is mine.",
+      "answer": [
+        "whose"
+      ],
+      "explain": "'Whose' can be used for animals too."
+    },
+    {
+      "id": "en-rel-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): That's the shop ___ I bought my boots.",
+      "answer": [
+        "where"
+      ],
+      "explain": "Use 'where' for a place."
+    },
+    {
+      "id": "en-rel-038",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): The girl ___ umbrella is red is my sister.",
+      "answer": [
+        "whose"
+      ],
+      "explain": "Use 'whose' to show possession."
+    },
+    {
+      "id": "en-rel-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In which sentence can the relative pronoun be left out?",
+      "choices": [
+        "The book that I borrowed was great.",
+        "The man who lives next door is a doctor.",
+        "The dog that barked all night is Tom's.",
+        "The girl who won the race is my cousin."
+      ],
+      "answer": "The book that I borrowed was great.",
+      "explain": "You can leave out an object pronoun, but not a subject pronoun."
+    },
+    {
+      "id": "en-rel-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence still works if you remove the relative pronoun?",
+      "choices": [
+        "The pizza that Dad made was delicious.",
+        "The boy who sits behind me is called Tom.",
+        "The team that won the cup is from Spain.",
+        "The bus which goes to school was late."
+      ],
+      "answer": "The pizza that Dad made was delicious.",
+      "explain": "'That' is the object of 'made', so it can be left out."
+    },
+    {
+      "id": "en-rel-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In which of these sentences can you omit 'that' or 'who'?",
+      "choices": [
+        "Hrothgar is the king who built Heorot.",
+        "Grendel was the monster that attacked Heorot.",
+        "Beowulf is the hero who came to help the Danes.",
+        "The treasure that Hrothgar gave Beowulf was magnificent."
+      ],
+      "answer": "The treasure that Hrothgar gave Beowulf was magnificent.",
+      "explain": "'That' is the object of 'gave', so it can be left out."
+    },
+    {
+      "id": "en-rel-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In which sentence can 'who' be left out?",
+      "choices": [
+        "The girl who plays the violin is funny.",
+        "The girl who I met at camp is funny.",
+        "The girl who lives upstairs is funny.",
+        "The girl who sings in the choir is funny."
+      ],
+      "answer": "The girl who I met at camp is funny.",
+      "explain": "'Who' is the object of 'met', so it can be left out."
+    },
+    {
+      "id": "en-rel-043",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "In which sentence must the relative pronoun stay?",
+      "choices": [
+        "The song that she sang was beautiful.",
+        "The boy who I met on holiday is my friend.",
+        "The film that I saw yesterday was long.",
+        "The boy who lives next door is my friend."
+      ],
+      "answer": "The boy who lives next door is my friend.",
+      "explain": "'Who' is the subject of 'lives', so it cannot be left out."
+    },
+    {
+      "id": "en-rel-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a film is correct?",
+      "choices": [
+        "The film I saw yesterday was boring.",
+        "The film I saw it yesterday was boring.",
+        "The film saw yesterday was boring.",
+        "The film what I saw yesterday was boring."
+      ],
+      "answer": "The film I saw yesterday was boring.",
+      "explain": "The object pronoun can be left out; never add 'it' afterwards."
+    },
+    {
+      "id": "en-rel-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence contains a mistake?",
+      "choices": [
+        "The book I bought is great.",
+        "The town where I live is small.",
+        "The film that I saw it was boring.",
+        "The girl who lives next door is kind."
+      ],
+      "answer": "The film that I saw it was boring.",
+      "explain": "Do not repeat the object: 'the film that I saw', not 'that I saw it'."
+    },
+    {
+      "id": "en-rel-046",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a town is correct?",
+      "choices": [
+        "The town where I live in is small.",
+        "The town where I live it is small.",
+        "The town where I live is small.",
+        "The town which I live is small."
+      ],
+      "answer": "The town where I live is small.",
+      "explain": "'Where' already includes the preposition, so do not add 'in'."
+    },
+    {
+      "id": "en-rel-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Everything ___ he said was true.",
+      "choices": [
+        "what",
+        "who",
+        "that",
+        "whose"
+      ],
+      "answer": "that",
+      "explain": "After 'everything', use 'that', never 'what'."
+    },
+    {
+      "id": "en-rel-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a girl and her brother is correct?",
+      "choices": [
+        "The girl that her brother plays football is my friend.",
+        "The girl which brother plays football is my friend.",
+        "The girl whose brother plays football is my friend.",
+        "The girl who her brother plays football is my friend."
+      ],
+      "answer": "The girl whose brother plays football is my friend.",
+      "explain": "Use 'whose' to replace 'her': the girl's brother."
+    },
+    {
+      "id": "en-rel-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a singer is correct?",
+      "choices": [
+        "The man who lives upstairs is a famous singer.",
+        "The man what lives upstairs is a famous singer.",
+        "The man which lives upstairs is a famous singer.",
+        "The man whose lives upstairs is a famous singer."
+      ],
+      "answer": "The man who lives upstairs is a famous singer.",
+      "explain": "Use 'who' for a person, not 'which'."
+    },
+    {
+      "id": "en-rel-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence means the same as 'This is the house where I was born.'?",
+      "choices": [
+        "This is the house which I was born.",
+        "This is the house in which I was born.",
+        "This is the house in who I was born.",
+        "This is the house in where I was born."
+      ],
+      "answer": "This is the house in which I was born.",
+      "explain": "'Where' means 'in which': the preposition comes before 'which'."
+    },
+    {
+      "id": "en-rel-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'I have a friend. She lives in Canada.'",
+      "choices": [
+        "I have a friend who lives in Canada.",
+        "I have a friend who she lives in Canada.",
+        "I have a friend which lives in Canada.",
+        "I have a friend whose lives in Canada."
+      ],
+      "answer": "I have a friend who lives in Canada.",
+      "explain": "The pronoun replaces 'she': do not keep both."
+    },
+    {
+      "id": "en-rel-052",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'This is the film. I told you about it.'",
+      "choices": [
+        "This is the film that I told you about.",
+        "This is the film who I told you about.",
+        "This is the film what I told you about.",
+        "This is the film that I told you about it."
+      ],
+      "answer": "This is the film that I told you about.",
+      "explain": "The pronoun replaces 'it', so 'it' disappears."
+    },
+    {
+      "id": "en-rel-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'Tom is a boy. His dad is a referee.'",
+      "choices": [
+        "Tom is a boy whose dad is a referee.",
+        "Tom is a boy which dad is a referee.",
+        "Tom is a boy who his dad is a referee.",
+        "Tom is a boy where dad is a referee."
+      ],
+      "answer": "Tom is a boy whose dad is a referee.",
+      "explain": "'Whose' replaces 'his'."
+    },
+    {
+      "id": "en-rel-054",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'Heorot is a hall. The Danes celebrate there.'",
+      "choices": [
+        "Heorot is a hall whose the Danes celebrate.",
+        "Heorot is a hall who the Danes celebrate.",
+        "Heorot is a hall where the Danes celebrate.",
+        "Heorot is a hall where the Danes celebrate there."
+      ],
+      "answer": "Heorot is a hall where the Danes celebrate.",
+      "explain": "'Where' replaces 'there', so 'there' disappears."
+    },
+    {
+      "id": "en-rel-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'Beowulf is a hero. He comes from Geatland.'",
+      "choices": [
+        "Beowulf is a hero whose comes from Geatland.",
+        "Beowulf is a hero which comes from Geatland.",
+        "Beowulf is a hero who comes from Geatland.",
+        "Beowulf is a hero who he comes from Geatland."
+      ],
+      "answer": "Beowulf is a hero who comes from Geatland.",
+      "explain": "'Who' replaces 'he'."
+    },
+    {
+      "id": "en-rel-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'The match was great. We watched it on TV.'",
+      "choices": [
+        "The match who we watched on TV was great.",
+        "The match whose we watched on TV was great.",
+        "The match that we watched on TV was great.",
+        "The match that we watched it on TV was great."
+      ],
+      "answer": "The match that we watched on TV was great.",
+      "explain": "'That' replaces 'it'."
+    },
+    {
+      "id": "en-rel-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'I like the shop. We buy our bread there.'",
+      "choices": [
+        "I like the shop where we buy our bread.",
+        "I like the shop which we buy our bread.",
+        "I like the shop whose we buy our bread.",
+        "I like the shop where we buy our bread there."
+      ],
+      "answer": "I like the shop where we buy our bread.",
+      "explain": "'Where' replaces 'there'."
+    },
+    {
+      "id": "en-rel-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'July is the month. We go on holiday then.'",
+      "choices": [
+        "July is the month where we go on holiday.",
+        "July is the month when we go on holiday then.",
+        "July is the month who we go on holiday.",
+        "July is the month when we go on holiday."
+      ],
+      "answer": "July is the month when we go on holiday.",
+      "explain": "'When' replaces 'then'."
+    },
+    {
+      "id": "en-rel-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a king and his hall is correct?",
+      "choices": [
+        "Beowulf met a king whose hall was attacked by a monster.",
+        "Beowulf met a king who his hall was attacked by a monster.",
+        "Beowulf met a king whom hall was attacked by a monster.",
+        "Beowulf met a king which hall was attacked by a monster."
+      ],
+      "answer": "Beowulf met a king whose hall was attacked by a monster.",
+      "explain": "'Whose' shows possession: the king's hall."
+    },
+    {
+      "id": "en-rel-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a reason is correct?",
+      "choices": [
+        "That is the reason whose he left.",
+        "That is the reason why he left.",
+        "That is the reason where he left.",
+        "That is the reason what he left."
+      ],
+      "answer": "That is the reason why he left.",
+      "explain": "Use 'why' after 'the reason'."
+    },
+    {
+      "id": "en-rel-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a victory is correct?",
+      "choices": [
+        "I remember the day when we won the cup.",
+        "I remember the day where we won the cup.",
+        "I remember the day who we won the cup.",
+        "I remember the day which we won the cup."
+      ],
+      "answer": "I remember the day when we won the cup.",
+      "explain": "Use 'when' after a word like 'day'."
+    },
+    {
+      "id": "en-rel-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Which sentence about a cousin is correct?",
+      "choices": [
+        "The girl I was talking to is my cousin.",
+        "The girl I was talking is my cousin.",
+        "The girl I was talking to her is my cousin.",
+        "The girl who I was talking is my cousin."
+      ],
+      "answer": "The girl I was talking to is my cousin.",
+      "explain": "Keep the preposition 'to' and do not add 'her'."
+    },
+    {
+      "id": "en-rel-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Is the relative pronoun a subject or an object? 'The cake that she baked was delicious.' (subject / object)",
+      "answer": [
+        "object"
+      ],
+      "explain": "'That' is the object of 'baked': she baked the cake."
+    },
+    {
+      "id": "en-rel-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "Is the relative pronoun a subject or an object? 'The girl who won the race is my cousin.' (subject / object)",
+      "answer": [
+        "subject"
+      ],
+      "explain": "'Who' is the subject of 'won'."
+    },
+    {
+      "id": "en-rel-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Is the relative pronoun a subject or an object? 'The film which we watched was long.' (subject / object)",
+      "answer": [
+        "object"
+      ],
+      "explain": "'Which' is the object of 'watched': we watched the film."
+    },
+    {
+      "id": "en-rel-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "Is the relative pronoun a subject or an object? 'The coach who trains us is strict.' (subject / object)",
+      "answer": [
+        "subject"
+      ],
+      "explain": "'Who' is the subject of 'trains'."
+    },
+    {
+      "id": "en-rel-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "Can the relative pronoun be left out? 'The song that I love is old.' (yes / no)",
+      "answer": [
+        "yes"
+      ],
+      "explain": "'That' is the object of 'love', so it can be left out."
+    },
+    {
+      "id": "en-rel-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "Can the relative pronoun be left out? 'The player who scored the goal is my hero.' (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "'Who' is the subject of 'scored', so it must stay."
+    },
+    {
+      "id": "en-rel-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Can the relative pronoun be left out? 'The people who live next door are friendly.' (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "'Who' is the subject of 'live', so it must stay."
+    },
+    {
+      "id": "en-rel-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "Can the relative pronoun be left out? 'The book which I lent you is mine.' (yes / no)",
+      "answer": [
+        "yes"
+      ],
+      "explain": "'Which' is the object of 'lent', so it can be left out."
+    },
+    {
+      "id": "en-rel-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Can the relative pronoun be left out? 'The sword that Beowulf carried was famous.' (yes / no)",
+      "answer": [
+        "yes"
+      ],
+      "explain": "'That' is the object of 'carried', so it can be left out."
+    },
+    {
+      "id": "en-rel-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "Correct the mistake. Which relative pronoun is right? 'The girl which sits in front of me is called Zoe.' (Write one word.)",
+      "answer": [
+        "who",
+        "that"
+      ],
+      "explain": "For a person, use 'who' or 'that', not 'which'."
+    },
+    {
+      "id": "en-rel-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "Everything ___ happened last night was strange. (Write one word.)",
+      "answer": [
+        "that",
+        "which"
+      ],
+      "explain": "After 'everything', use 'that' (or 'which'), never 'what'."
+    },
+    {
+      "id": "en-rel-074",
+      "level": 2,
+      "type": "input",
+      "prompt": "Nothing ___ happened yesterday surprised me. (Write one word.)",
+      "answer": [
+        "that",
+        "which"
+      ],
+      "explain": "After 'nothing', use 'that' (or 'which'), never 'what'."
+    },
+    {
+      "id": "en-rel-075",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a brother is correct?",
+      "choices": [
+        "My brother, who he lives in Paris, is a chef.",
+        "My brother who lives in Paris, is a chef.",
+        "My brother, that lives in Paris, is a chef.",
+        "My brother, who lives in Paris, is a chef."
+      ],
+      "answer": "My brother, who lives in Paris, is a chef.",
+      "explain": "A non-defining clause is between commas and cannot use 'that'."
+    },
+    {
+      "id": "en-rel-076",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about Hrothgar is correct?",
+      "choices": [
+        "Hrothgar, that was king of the Danes, built Heorot.",
+        "Hrothgar who was king of the Danes, built Heorot.",
+        "Hrothgar, which was king of the Danes, built Heorot.",
+        "Hrothgar, who was king of the Danes, built Heorot."
+      ],
+      "answer": "Hrothgar, who was king of the Danes, built Heorot.",
+      "explain": "Extra information about a person uses commas and 'who'."
+    },
+    {
+      "id": "en-rel-077",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which relative pronoun can NOT be used in a clause between commas?",
+      "choices": [
+        "which",
+        "that",
+        "whose",
+        "who"
+      ],
+      "answer": "that",
+      "explain": "'That' is never used in a non-defining clause."
+    },
+    {
+      "id": "en-rel-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence suggests that the speaker has more than one brother?",
+      "choices": [
+        "My brother, whose job is cooking, lives in Paris.",
+        "My only brother, who lives in Paris, is a chef.",
+        "My brother, who lives in Paris, is a chef.",
+        "My brother who lives in Paris is a chef."
+      ],
+      "answer": "My brother who lives in Paris is a chef.",
+      "explain": "Without commas, the clause tells us WHICH brother, so there are others."
+    },
+    {
+      "id": "en-rel-079",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence says that ALL the Geats were rewarded?",
+      "choices": [
+        "The Geats that fought bravely were rewarded.",
+        "Only the Geats who fought bravely were rewarded.",
+        "The Geats who fought bravely were rewarded.",
+        "The Geats, who fought bravely, were rewarded."
+      ],
+      "answer": "The Geats, who fought bravely, were rewarded.",
+      "explain": "With commas, the clause adds extra information about all the Geats."
+    },
+    {
+      "id": "en-rel-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence implies that there were other books somewhere else?",
+      "choices": [
+        "The books, which were old, were mine.",
+        "The books, which were on the table, were mine.",
+        "The books, which I bought, were mine.",
+        "The books which were on the table were mine."
+      ],
+      "answer": "The books which were on the table were mine.",
+      "explain": "Without commas, the clause identifies which books, so there are others."
+    },
+    {
+      "id": "en-rel-081",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is punctuated correctly?",
+      "choices": [
+        "Our school, which was built in 1950, is next to a park.",
+        "Our school which, was built in 1950, is next to a park.",
+        "Our school, which was built in 1950 is next to a park.",
+        "Our school which was built in 1950, is next to a park."
+      ],
+      "answer": "Our school, which was built in 1950, is next to a park.",
+      "explain": "A non-defining clause needs a comma before and after it."
+    },
+    {
+      "id": "en-rel-082",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In which sentence can the relative clause be removed without changing who we are talking about?",
+      "choices": [
+        "Hrothgar, who was king of the Danes, built Heorot.",
+        "The king who built Heorot was Hrothgar.",
+        "The man who lives next door is a doctor.",
+        "The warrior who defeated Grendel was Beowulf."
+      ],
+      "answer": "Hrothgar, who was king of the Danes, built Heorot.",
+      "explain": "The clause between commas only adds extra information."
+    },
+    {
+      "id": "en-rel-083",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "In formal English, complete the sentence: The king to ___ Beowulf swore loyalty was Hygelac.",
+      "choices": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "answer": "whom",
+      "explain": "After a preposition, formal English uses 'whom' for people."
+    },
+    {
+      "id": "en-rel-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a voyage is correct and formal?",
+      "choices": [
+        "The warrior with whom Beowulf sailed was brave.",
+        "The warrior with whose Beowulf sailed was brave.",
+        "The warrior with who Beowulf sailed was brave.",
+        "The warrior with which Beowulf sailed was brave."
+      ],
+      "answer": "The warrior with whom Beowulf sailed was brave.",
+      "explain": "After a preposition, use 'whom' for a person."
+    },
+    {
+      "id": "en-rel-085",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a school is correct and formal?",
+      "choices": [
+        "The school in who I study is old.",
+        "The school in where I study is old.",
+        "The school in which I study is old.",
+        "The school in that I study is old."
+      ],
+      "answer": "The school in which I study is old.",
+      "explain": "After a preposition, use 'which' for things, never 'that'."
+    },
+    {
+      "id": "en-rel-086",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a defeat is correct?",
+      "choices": [
+        "The team lost, who disappointed the fans.",
+        "The team lost, which disappointed the fans.",
+        "The team lost, that disappointed the fans.",
+        "The team lost, what disappointed the fans."
+      ],
+      "answer": "The team lost, which disappointed the fans.",
+      "explain": "'Which' after a comma can refer to a whole clause."
+    },
+    {
+      "id": "en-rel-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "What does 'which' refer to in: 'Tom is learning to swim, which is a good idea.'?",
+      "choices": [
+        "The word 'swim'",
+        "Tom",
+        "A good teacher",
+        "The fact that Tom is learning to swim"
+      ],
+      "answer": "The fact that Tom is learning to swim",
+      "explain": "Here 'which' refers to the whole first part of the sentence."
+    },
+    {
+      "id": "en-rel-088",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a house is correct?",
+      "choices": [
+        "This is the house that its roof is red.",
+        "This is the house whose roof is red.",
+        "This is the house where roof is red.",
+        "This is the house which its roof is red."
+      ],
+      "answer": "This is the house whose roof is red.",
+      "explain": "'Whose' can be used for things as well as people."
+    },
+    {
+      "id": "en-rel-089",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "It was the best match ___ I have ever seen.",
+      "choices": [
+        "that",
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": "that",
+      "explain": "'That' is the usual pronoun after a superlative."
+    },
+    {
+      "id": "en-rel-090",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "All ___ I want is a pizza.",
+      "choices": [
+        "who",
+        "that",
+        "whose",
+        "what"
+      ],
+      "answer": "that",
+      "explain": "After 'all', use 'that' (or no pronoun), never 'what'."
+    },
+    {
+      "id": "en-rel-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence contains a mistake with the relative pronoun?",
+      "choices": [
+        "The girl whose dog barks is my neighbour.",
+        "The book what I bought is good.",
+        "Heorot is the hall where the Danes feast.",
+        "The man who I told you about is here."
+      ],
+      "answer": "The book what I bought is good.",
+      "explain": "'What' is never a relative pronoun here: use 'that' or 'which'."
+    },
+    {
+      "id": "en-rel-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence is not correct?",
+      "choices": [
+        "The place where we met was cold.",
+        "Everything that she said was true.",
+        "The coach, that trains us, is strict.",
+        "The boy that plays the guitar is my cousin."
+      ],
+      "answer": "The coach, that trains us, is strict.",
+      "explain": "A clause between commas cannot use 'that'."
+    },
+    {
+      "id": "en-rel-093",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a birthplace contains a mistake?",
+      "choices": [
+        "This is the village which I was born in.",
+        "This is the village I was born in.",
+        "This is the village where I was born in.",
+        "This is the village where I was born."
+      ],
+      "answer": "This is the village where I was born in.",
+      "explain": "'Where' already means 'in which', so 'in' is too much."
+    },
+    {
+      "id": "en-rel-094",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a cousin's dog is correct?",
+      "choices": [
+        "My cousin whose dog is huge, lives in Rome.",
+        "My cousin, whose dog is huge, lives in Rome.",
+        "My cousin, that dog is huge, lives in Rome.",
+        "My cousin, who dog is huge, lives in Rome."
+      ],
+      "answer": "My cousin, whose dog is huge, lives in Rome.",
+      "explain": "Use 'whose' for possession, with commas for extra information."
+    },
+    {
+      "id": "en-rel-095",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence about a hall is correct?",
+      "choices": [
+        "Heorot, which it Hrothgar built, was the greatest hall in the land.",
+        "Heorot which Hrothgar built, was the greatest hall in the land.",
+        "Heorot, that Hrothgar built, was the greatest hall in the land.",
+        "Heorot, which Hrothgar built, was the greatest hall in the land."
+      ],
+      "answer": "Heorot, which Hrothgar built, was the greatest hall in the land.",
+      "explain": "A clause between commas uses 'which' for a thing, not 'that'."
+    },
+    {
+      "id": "en-rel-096",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'My uncle is a pilot. He lives in Oslo.'",
+      "choices": [
+        "My uncle, he lives in Oslo, is a pilot.",
+        "My uncle, that lives in Oslo, is a pilot.",
+        "My uncle, who lives in Oslo, is a pilot.",
+        "My uncle who lives in Oslo, is a pilot."
+      ],
+      "answer": "My uncle, who lives in Oslo, is a pilot.",
+      "explain": "Extra information about a person: commas and 'who'."
+    },
+    {
+      "id": "en-rel-097",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Which sentence combines the two sentences correctly? 'Heorot was built by Hrothgar. It was the greatest hall in the land.'",
+      "choices": [
+        "Heorot, which was the greatest hall in the land, was built by Hrothgar.",
+        "Heorot, that was the greatest hall in the land, was built by Hrothgar.",
+        "Heorot, who was the greatest hall in the land, was built by Hrothgar.",
+        "Heorot which, was the greatest hall in the land, was built by Hrothgar."
+      ],
+      "answer": "Heorot, which was the greatest hall in the land, was built by Hrothgar.",
+      "explain": "Extra information about a thing: commas and 'which'."
+    },
+    {
+      "id": "en-rel-098",
+      "level": 3,
+      "type": "input",
+      "prompt": "Can the pronoun be left out? 'My aunt, who I visit every summer, lives in Rome.' (yes / no)",
+      "answer": [
+        "no"
+      ],
+      "explain": "In a clause between commas, the pronoun is always needed."
+    },
+    {
+      "id": "en-rel-099",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): My grandmother, ___ is 80, plays tennis every day.",
+      "answer": [
+        "who"
+      ],
+      "explain": "Extra information about a person: commas and 'who'."
+    },
+    {
+      "id": "en-rel-100",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): Heorot, ___ the Danes feasted, was the greatest hall in the land.",
+      "answer": [
+        "where"
+      ],
+      "explain": "Extra information about a place: 'where'."
+    },
+    {
+      "id": "en-rel-101",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): Our school, ___ was built in 1950, is next to a park.",
+      "answer": [
+        "which"
+      ],
+      "explain": "Extra information about a thing: commas and 'which'."
+    },
+    {
+      "id": "en-rel-102",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): My uncle, ___ car was stolen, called the police.",
+      "answer": [
+        "whose"
+      ],
+      "explain": "Use 'whose' for possession, even between commas."
+    },
+    {
+      "id": "en-rel-103",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complete with a relative pronoun (one word): Beowulf, ___ came from Geatland, offered to fight Grendel.",
+      "answer": [
+        "who"
+      ],
+      "explain": "Extra information about a person: commas and 'who'."
+    },
+    {
+      "id": "en-rel-104",
+      "level": 3,
+      "type": "input",
+      "prompt": "It rained all day, ___ spoiled our picnic. (Write one word.)",
+      "answer": [
+        "which"
+      ],
+      "explain": "'Which' can refer to a whole clause."
+    },
+    {
+      "id": "en-rel-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "In formal English: The teacher to ___ I gave my homework was kind. (Write one word.)",
+      "answer": [
+        "whom"
+      ],
+      "explain": "After a preposition, formal English uses 'whom'."
+    }
+  ]
+}

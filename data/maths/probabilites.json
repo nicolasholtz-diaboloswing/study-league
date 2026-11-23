@@ -1,0 +1,1160 @@
+{
+  "topic": "maths-probabilites",
+  "questions": [
+    {
+      "id": "ma-pro-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lancer un dé et regarder la face du dessus est :",
+      "choices": [
+        "une expérience certaine",
+        "une expérience aléatoire",
+        "un diagramme",
+        "une moyenne"
+      ],
+      "answer": "une expérience aléatoire",
+      "explain": "Le résultat dépend du hasard : c'est une expérience aléatoire."
+    },
+    {
+      "id": "ma-pro-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand on lance un dé à six faces, obtenir 4 est :",
+      "choices": [
+        "un caractère",
+        "un effectif",
+        "une issue",
+        "une fréquence"
+      ],
+      "answer": "une issue",
+      "explain": "Chaque résultat possible d'une expérience aléatoire est une issue."
+    },
+    {
+      "id": "ma-pro-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quand on lance un dé à six faces, « obtenir un nombre pair » est :",
+      "choices": [
+        "une issue unique",
+        "une expérience",
+        "un évènement",
+        "une probabilité"
+      ],
+      "answer": "un évènement",
+      "explain": "Un évènement est un ensemble d'issues : ici 2, 4 et 6."
+    },
+    {
+      "id": "ma-pro-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien d'issues possibles a le lancer d'une pièce de monnaie ?",
+      "choices": [
+        "3",
+        "0",
+        "2",
+        "1"
+      ],
+      "answer": "2",
+      "explain": "Pile ou face : 2 issues."
+    },
+    {
+      "id": "ma-pro-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien d'issues possibles a le lancer d'un dé à six faces ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "Les faces 1, 2, 3, 4, 5 et 6 : 6 issues."
+    },
+    {
+      "id": "ma-pro-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une probabilité est toujours un nombre compris entre 0 et 1. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "Une probabilité va de 0 (impossible) à 1 (certain)."
+    },
+    {
+      "id": "ma-pro-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la probabilité d'un évènement impossible ?",
+      "answer": [
+        "0"
+      ],
+      "explain": "Un évènement impossible n'arrive jamais : sa probabilité est 0."
+    },
+    {
+      "id": "ma-pro-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle est la probabilité d'un évènement certain ?",
+      "answer": [
+        "1"
+      ],
+      "explain": "Un évènement certain arrive toujours : sa probabilité est 1."
+    },
+    {
+      "id": "ma-pro-009",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une probabilité peut-elle être égale à 1,5 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Une probabilité est comprise entre 0 et 1."
+    },
+    {
+      "id": "ma-pro-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces évènements est impossible avec un dé à six faces ?",
+      "choices": [
+        "Obtenir 6",
+        "Obtenir un nombre plus petit que 7",
+        "Obtenir un nombre pair",
+        "Obtenir 7"
+      ],
+      "answer": "Obtenir 7",
+      "explain": "Les faces vont de 1 à 6 : obtenir 7 est impossible."
+    },
+    {
+      "id": "ma-pro-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces évènements est certain avec un dé à six faces ?",
+      "choices": [
+        "Obtenir 1",
+        "Obtenir 6",
+        "Obtenir un nombre pair",
+        "Obtenir un nombre plus petit que 7"
+      ],
+      "answer": "Obtenir un nombre plus petit que 7",
+      "explain": "Toutes les faces sont plus petites que 7 : c'est certain."
+    },
+    {
+      "id": "ma-pro-012",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Avec une pièce de monnaie équilibrée, lequel de ces évènements est certain ?",
+      "choices": [
+        "Obtenir face",
+        "Obtenir pile",
+        "Obtenir pile ou face",
+        "Obtenir pile trois fois de suite"
+      ],
+      "answer": "Obtenir pile ou face",
+      "explain": "Tout lancer donne pile ou face : c'est certain."
+    },
+    {
+      "id": "ma-pro-013",
+      "level": 1,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir 4 ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/6"
+      ],
+      "explain": "Il y a 1 issue(s) favorable(s) sur 6 issues possibles : 1/6."
+    },
+    {
+      "id": "ma-pro-014",
+      "level": 1,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre pair ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "Il y a 3 issue(s) favorable(s) sur 6 issues possibles : 3/6 = 1/2."
+    },
+    {
+      "id": "ma-pro-015",
+      "level": 1,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre impair ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "Il y a 3 issue(s) favorable(s) sur 6 issues possibles : 3/6 = 1/2."
+    },
+    {
+      "id": "ma-pro-016",
+      "level": 1,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à 10 faces numérotées de 1 à 10. Quelle est la probabilité d'obtenir 7 ? (donne une fraction)",
+      "answer": [
+        "1/10"
+      ],
+      "explain": "1 issue favorable sur 10."
+    },
+    {
+      "id": "ma-pro-017",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une urne contient 3 boules rouges et 7 boules bleues, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "answer": [
+        "3/10"
+      ],
+      "explain": "3 boule(s) rouge(s) sur 10 boules : 3/10."
+    },
+    {
+      "id": "ma-pro-018",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une urne contient 5 boules rouges et 5 boules bleues, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "5 boule(s) rouge(s) sur 10 boules : 5/10 = 1/2."
+    },
+    {
+      "id": "ma-pro-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une urne contient 1 boule rouge, 1 boule bleue et 2 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/4"
+      ],
+      "explain": "1 boule(s) rouge(s) sur 4 boules : 1/4."
+    },
+    {
+      "id": "ma-pro-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Une urne contient 9 boules rouges et 1 boule bleue, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "answer": [
+        "9/10"
+      ],
+      "explain": "9 boule(s) rouge(s) sur 10 boules : 9/10."
+    },
+    {
+      "id": "ma-pro-021",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'équiprobabilité ?",
+      "choices": [
+        "Une issue est certaine",
+        "La moyenne vaut 1",
+        "Toutes les issues ont la même probabilité",
+        "Il y a exactement 2 issues"
+      ],
+      "answer": "Toutes les issues ont la même probabilité",
+      "explain": "Dans une situation d'équiprobabilité, les issues ont toutes la même chance."
+    },
+    {
+      "id": "ma-pro-022",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une pièce de monnaie équilibrée a une probabilité 1/2 de donner pile. Pourquoi peut-on choisir ce modèle ?",
+      "choices": [
+        "Parce que 1 + 2 = 3",
+        "Parce qu'une pièce a 2 mains",
+        "Parce qu'on a déjà lancé la pièce 2 fois",
+        "Par symétrie : pile et face n'ont pas de raison d'être différents"
+      ],
+      "answer": "Par symétrie : pile et face n'ont pas de raison d'être différents",
+      "explain": "L'équiprobabilité se justifie par un argument de symétrie (ou par l'expérience)."
+    },
+    {
+      "id": "ma-pro-023",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre strictement plus grand que 4 ? (donne une fraction simplifiée)",
+      "choices": [
+        "1/3",
+        "1/4",
+        "2/3",
+        "1/2"
+      ],
+      "answer": "1/3",
+      "explain": "Il y a 2 issue(s) favorable(s) sur 6 issues possibles : 2/6 = 1/3."
+    },
+    {
+      "id": "ma-pro-024",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un multiple de 3 ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/3"
+      ],
+      "explain": "Il y a 2 issue(s) favorable(s) sur 6 issues possibles : 2/6 = 1/3."
+    },
+    {
+      "id": "ma-pro-025",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre plus petit ou égal à 2 ? (donne une fraction simplifiée)",
+      "choices": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "2/3"
+      ],
+      "answer": "1/3",
+      "explain": "Il y a 2 issue(s) favorable(s) sur 6 issues possibles : 2/6 = 1/3."
+    },
+    {
+      "id": "ma-pro-026",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre plus grand que 0 ? (donne une fraction simplifiée)",
+      "answer": [
+        "1"
+      ],
+      "explain": "Il y a 6 issue(s) favorable(s) sur 6 issues possibles : 6/6 = 1."
+    },
+    {
+      "id": "ma-pro-027",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre plus grand que 6 ? (donne une fraction simplifiée)",
+      "answer": [
+        "0"
+      ],
+      "explain": "Il y a 0 issue(s) favorable(s) sur 6 issues possibles : 0/6 = 0."
+    },
+    {
+      "id": "ma-pro-028",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre différent de 6 ? (donne une fraction simplifiée)",
+      "answer": [
+        "5/6"
+      ],
+      "explain": "Il y a 5 issue(s) favorable(s) sur 6 issues possibles : 5/6."
+    },
+    {
+      "id": "ma-pro-029",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre pair, en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "50",
+        "52",
+        "47",
+        "48"
+      ],
+      "answer": "50",
+      "explain": "3/6 = 1/2 = 50 %."
+    },
+    {
+      "id": "ma-pro-030",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre pair, sous forme décimale ?",
+      "choices": [
+        "0,5",
+        "0",
+        "1",
+        "0,6"
+      ],
+      "answer": "0,5",
+      "explain": "3/6 = 1/2 = 0,5."
+    },
+    {
+      "id": "ma-pro-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On lance un dé équilibré à 10 faces numérotées de 1 à 10. Quelle est la probabilité d'obtenir un nombre pair ? (donne une fraction simplifiée)",
+      "choices": [
+        "1/3",
+        "1/2",
+        "2/3",
+        "1/4"
+      ],
+      "answer": "1/2",
+      "explain": "5 issues favorables sur 10 : 5/10 = 1/2."
+    },
+    {
+      "id": "ma-pro-032",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à 10 faces numérotées de 1 à 10. Quelle est la probabilité d'obtenir un multiple de 5, sous forme décimale ?",
+      "answer": [
+        "0,2",
+        "0.2"
+      ],
+      "explain": "5 et 10 sont des multiples de 5 : 2/10 = 0,2."
+    },
+    {
+      "id": "ma-pro-033",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une urne contient 2 boules rouges, 3 boules bleues et 5 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "choices": [
+        "1/10",
+        "2/5",
+        "1/5",
+        "1/4"
+      ],
+      "answer": "1/5",
+      "explain": "2 boule(s) rouge(s) sur 10 boules : 2/10 = 1/5."
+    },
+    {
+      "id": "ma-pro-034",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une urne contient 1 boule rouge, 1 boule bleue et 2 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle ne soit pas verte ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "2 boules ne sont pas vertes sur 4 : 2/4 = 1/2."
+    },
+    {
+      "id": "ma-pro-035",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une urne contient 6 boules rouges, 4 boules bleues et 10 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "answer": [
+        "3/10"
+      ],
+      "explain": "6 boule(s) rouge(s) sur 20 boules : 6/20 = 3/10."
+    },
+    {
+      "id": "ma-pro-036",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une urne contient 4 boules rouges, 8 boules bleues et 8 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/5"
+      ],
+      "explain": "4 boule(s) rouge(s) sur 20 boules : 4/20 = 1/5."
+    },
+    {
+      "id": "ma-pro-037",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une urne contient 3 boules rouges, 3 boules bleues et 6 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/4"
+      ],
+      "explain": "3 boule(s) rouge(s) sur 12 boules : 3/12 = 1/4."
+    },
+    {
+      "id": "ma-pro-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une urne contient 3 boules rouges et 7 boules bleues. Quelle est la probabilité de tirer une boule rouge, sous forme décimale ?",
+      "choices": [
+        "0,03",
+        "0,4",
+        "0,2",
+        "0,3"
+      ],
+      "answer": "0,3",
+      "explain": "3/10 = 0,3."
+    },
+    {
+      "id": "ma-pro-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une urne contient 3 boules rouges et 7 boules bleues. Quelle est la probabilité de tirer une boule rouge, en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "31",
+        "33",
+        "30",
+        "27"
+      ],
+      "answer": "30",
+      "explain": "3/10 = 30 %."
+    },
+    {
+      "id": "ma-pro-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une urne contient 5 boules rouges, 3 boules bleues et le reste de boules jaunes. Il y a 10 boules en tout. Quelle est la probabilité de tirer une boule jaune ? (donne une fraction simplifiée)",
+      "choices": [
+        "1/10",
+        "1/5",
+        "1/4",
+        "2/5"
+      ],
+      "answer": "1/5",
+      "explain": "Il y a 10 − 8 = 2 boules jaunes : 2/10 = 1/5."
+    },
+    {
+      "id": "ma-pro-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une urne contient 4 boules rouges et 6 boules bleues. Quelle couleur a-t-on le plus de chances de tirer ?",
+      "choices": [
+        "Bleue",
+        "Les deux ont autant de chances",
+        "On ne peut pas savoir",
+        "Rouge"
+      ],
+      "answer": "Bleue",
+      "explain": "Il y a plus de boules bleues (6 sur 10) que de rouges (4 sur 10)."
+    },
+    {
+      "id": "ma-pro-042",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Une urne contient 5 boules rouges et 5 boules bleues. Quelle phrase est vraie ?",
+      "choices": [
+        "Tirer une rouge est plus probable",
+        "Tirer une bleue est plus probable",
+        "Tirer une rouge ou une bleue a la même probabilité",
+        "Tirer une rouge est impossible"
+      ],
+      "answer": "Tirer une rouge ou une bleue a la même probabilité",
+      "explain": "5 sur 10 pour chaque couleur : équiprobabilité."
+    },
+    {
+      "id": "ma-pro-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "La probabilité d'un évènement est 1/4. Quelle est la probabilité de l'évènement contraire ? (donne une fraction)",
+      "answer": [
+        "3/4"
+      ],
+      "explain": "P(contraire) = 1 − 1/4 = 3/4."
+    },
+    {
+      "id": "ma-pro-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "La probabilité d'un évènement est 1/3. Quelle est la probabilité de l'évènement contraire ? (donne une fraction)",
+      "answer": [
+        "2/3"
+      ],
+      "explain": "P(contraire) = 1 − 1/3 = 2/3."
+    },
+    {
+      "id": "ma-pro-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "La probabilité d'un évènement est 3/10. Quelle est la probabilité de l'évènement contraire ? (donne une fraction)",
+      "answer": [
+        "7/10"
+      ],
+      "explain": "P(contraire) = 1 − 3/10 = 7/10."
+    },
+    {
+      "id": "ma-pro-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "La probabilité d'un évènement est 1/6. Quelle est la probabilité de l'évènement contraire ? (donne une fraction)",
+      "answer": [
+        "5/6"
+      ],
+      "explain": "P(contraire) = 1 − 1/6 = 5/6."
+    },
+    {
+      "id": "ma-pro-047",
+      "level": 2,
+      "type": "input",
+      "prompt": "La probabilité de gagner un match est 0,6. Quelle est la probabilité de ne pas le gagner, sous forme décimale ?",
+      "answer": [
+        "0,4",
+        "0.4"
+      ],
+      "explain": "1 − 0,6 = 0,4."
+    },
+    {
+      "id": "ma-pro-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "La probabilité qu'un évènement arrive est 35 %. Quelle est la probabilité qu'il n'arrive pas, en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "62",
+        "67",
+        "65",
+        "68"
+      ],
+      "answer": "65",
+      "explain": "100 − 35 = 65 %."
+    },
+    {
+      "id": "ma-pro-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un jeu de 32 cartes, il y a 8 coeurs. On tire une carte au hasard. Quelle est la probabilité que ce soit un coeur ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/4"
+      ],
+      "explain": "8/32 = 1/4."
+    },
+    {
+      "id": "ma-pro-050",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans un jeu de 32 cartes, il y a 4 rois. On tire une carte au hasard. Quelle est la probabilité que ce soit un roi ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/8"
+      ],
+      "explain": "4/32 = 1/8."
+    },
+    {
+      "id": "ma-pro-051",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une roue de loterie est partagée en 8 secteurs identiques, dont 2 sont gagnants. Quelle est la probabilité de gagner ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/4"
+      ],
+      "explain": "2/8 = 1/4."
+    },
+    {
+      "id": "ma-pro-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une roue de loterie est partagée en 10 secteurs identiques numérotés de 1 à 10. Quelle est la probabilité d'obtenir un nombre pair ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "5/10 = 1/2."
+    },
+    {
+      "id": "ma-pro-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "Pour désigner le capitaine parmi 11 joueurs, un entraîneur tire un nom au hasard. Quelle est la probabilité que ce soit Léa ? (donne une fraction)",
+      "answer": [
+        "1/11"
+      ],
+      "explain": "1 issue favorable sur 11."
+    },
+    {
+      "id": "ma-pro-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Lequel est le plus probable : obtenir pile en lançant une pièce, ou obtenir 6 en lançant un dé ? (pile / six)",
+      "answer": [
+        "pile"
+      ],
+      "explain": "1/2 est plus grand que 1/6."
+    },
+    {
+      "id": "ma-pro-055",
+      "level": 2,
+      "type": "input",
+      "prompt": "Lequel est le plus probable : obtenir un nombre pair avec un dé, ou obtenir pile avec une pièce ? (pair / pile / pareil)",
+      "answer": [
+        "pareil"
+      ],
+      "explain": "3/6 = 1/2 dans les deux cas."
+    },
+    {
+      "id": "ma-pro-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "« Une chance sur quatre » correspond à la probabilité :",
+      "choices": [
+        "4/1",
+        "1/4",
+        "1/5",
+        "4"
+      ],
+      "answer": "1/4",
+      "explain": "Une chance sur quatre se note 1/4 (0,25 ou 25 %)."
+    },
+    {
+      "id": "ma-pro-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "« Une chance sur dix » correspond à la probabilité :",
+      "choices": [
+        "0,01",
+        "1,10",
+        "0,1",
+        "10"
+      ],
+      "answer": "0,1",
+      "explain": "Une chance sur dix : 1/10 = 0,1 = 10 %."
+    },
+    {
+      "id": "ma-pro-058",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une chance sur cinq correspond à quelle probabilité en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "20"
+      ],
+      "explain": "1/5 = 20/100 = 20 %."
+    },
+    {
+      "id": "ma-pro-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "Une chance sur deux correspond à quelle probabilité sous forme décimale ?",
+      "answer": [
+        "0,5",
+        "0.5"
+      ],
+      "explain": "1/2 = 0,5."
+    },
+    {
+      "id": "ma-pro-060",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une échelle de probabilité de 0 à 1, où place-t-on l'évènement « obtenir pile avec une pièce équilibrée » ?",
+      "choices": [
+        "À 0",
+        "Au milieu, à 0,5",
+        "À 0,25",
+        "À 1"
+      ],
+      "answer": "Au milieu, à 0,5",
+      "explain": "La probabilité de pile est 1/2 = 0,5, au milieu de l'échelle."
+    },
+    {
+      "id": "ma-pro-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une échelle de probabilité, quel évènement est le plus proche de 0 ?",
+      "choices": [
+        "Obtenir un nombre inférieur à 7 avec un dé",
+        "Obtenir 10 fois de suite 1 avec un dé",
+        "Obtenir pile avec une pièce",
+        "Obtenir un nombre pair avec un dé"
+      ],
+      "answer": "Obtenir 10 fois de suite 1 avec un dé",
+      "explain": "Cet évènement est possible mais extrêmement rare."
+    },
+    {
+      "id": "ma-pro-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une échelle de probabilité, quel évènement est situé à 1 ?",
+      "choices": [
+        "Obtenir 6 avec un dé",
+        "Obtenir pile avec une pièce",
+        "Obtenir un nombre inférieur à 7 avec un dé",
+        "Ne pas obtenir la bonne combinaison au loto"
+      ],
+      "answer": "Obtenir un nombre inférieur à 7 avec un dé",
+      "explain": "Un évènement certain a pour probabilité 1."
+    },
+    {
+      "id": "ma-pro-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un dé est pipé : la face 6 sort plus souvent que les autres. Les six issues sont-elles équiprobables ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Une issue sort plus souvent que les autres : il n'y a pas équiprobabilité."
+    },
+    {
+      "id": "ma-pro-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "On tire au hasard une boule dans une urne contenant des boules identiques (même taille, même masse). Les boules ont-elles la même probabilité d'être tirées ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Objets identiques et tirage au hasard : équiprobabilité."
+    },
+    {
+      "id": "ma-pro-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une urne, une boule est beaucoup plus grosse que les autres. Chaque boule a-t-elle forcément la même probabilité d'être tirée ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La grosse boule se saisit plus facilement : l'équiprobabilité est douteuse."
+    },
+    {
+      "id": "ma-pro-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "Léa dit : « Demain il pleut ou il ne pleut pas, donc la probabilité qu'il pleuve est 1/2. » A-t-elle raison ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Il y a deux issues possibles, mais elles ne sont pas équiprobables : on ne peut pas conclure 1/2."
+    },
+    {
+      "id": "ma-pro-067",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un joueur dit : « Je gagne ou je perds mon match, donc j'ai une chance sur deux de gagner. » Ce raisonnement est-il toujours valable ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Deux issues ne veulent pas dire deux issues équiprobables : tout dépend du niveau des équipes."
+    },
+    {
+      "id": "ma-pro-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance 20 fois une pièce et on obtient 12 fois pile. Quelle est la fréquence de pile en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "60"
+      ],
+      "explain": "12 ÷ 20 = 0,6 = 60 %."
+    },
+    {
+      "id": "ma-pro-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance 50 fois un dé et on obtient 10 fois le 6. Quelle est la fréquence du 6 sous forme de fraction simplifiée ?",
+      "answer": [
+        "1/5"
+      ],
+      "explain": "10/50 = 1/5."
+    },
+    {
+      "id": "ma-pro-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance 100 fois une pièce et on obtient 47 fois pile. Quelle est la fréquence de pile, sous forme décimale ?",
+      "answer": [
+        "0,47",
+        "0.47"
+      ],
+      "explain": "47 ÷ 100 = 0,47."
+    },
+    {
+      "id": "ma-pro-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "On lance 10 fois une pièce, on obtient 7 fois face. Quelle est la fréquence de face en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "70"
+      ],
+      "explain": "7/10 = 70 %."
+    },
+    {
+      "id": "ma-pro-072",
+      "level": 2,
+      "type": "input",
+      "prompt": "La fréquence d'apparition de pile sur 20 lancers est toujours exactement égale à la probabilité 1/2. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "La fréquence observée varie d'une série à l'autre : elle se rapproche de la probabilité quand le nombre de lancers augmente."
+    },
+    {
+      "id": "ma-pro-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quand on répète une expérience aléatoire un très grand nombre de fois, la fréquence d'une issue :",
+      "choices": [
+        "s'éloigne de sa probabilité",
+        "devient exactement 1",
+        "se rapproche de sa probabilité",
+        "devient exactement 0"
+      ],
+      "answer": "se rapproche de sa probabilité",
+      "explain": "C'est la loi des grands nombres : les fréquences se stabilisent autour de la probabilité."
+    },
+    {
+      "id": "ma-pro-074",
+      "level": 3,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un nombre premier ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "Il y a 3 issue(s) favorable(s) sur 6 issues possibles : 3/6 = 1/2."
+    },
+    {
+      "id": "ma-pro-075",
+      "level": 3,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un diviseur de 6 ? (donne une fraction simplifiée)",
+      "answer": [
+        "2/3"
+      ],
+      "explain": "Il y a 4 issue(s) favorable(s) sur 6 issues possibles : 4/6 = 2/3."
+    },
+    {
+      "id": "ma-pro-076",
+      "level": 3,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir un carré parfait (1 ou 4) ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/3"
+      ],
+      "explain": "Il y a 2 issue(s) favorable(s) sur 6 issues possibles : 2/6 = 1/3."
+    },
+    {
+      "id": "ma-pro-077",
+      "level": 3,
+      "type": "input",
+      "prompt": "On lance un dé équilibré à 20 faces numérotées de 1 à 20. Quelle est la probabilité d'obtenir un nombre plus grand que 15, en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "25"
+      ],
+      "explain": "Les faces 16 à 20 : 5 issues sur 20, soit 1/4 = 25 %."
+    },
+    {
+      "id": "ma-pro-078",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une urne contient 2 boules rouges, 3 boules bleues et 5 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle ne soit pas verte ? (donne une fraction simplifiée)",
+      "choices": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "1/4"
+      ],
+      "answer": "1/2",
+      "explain": "5 boules ne sont pas vertes sur 10 : 5/10 = 1/2."
+    },
+    {
+      "id": "ma-pro-079",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une urne contient 6 boules rouges, 4 boules bleues et 10 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle ne soit pas verte ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "10 boules ne sont pas vertes sur 20 : 10/20 = 1/2."
+    },
+    {
+      "id": "ma-pro-080",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Une urne contient 4 boules rouges, 8 boules bleues et 8 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle ne soit pas verte ? (donne une fraction simplifiée)",
+      "choices": [
+        "3/5",
+        "3/4",
+        "3/10",
+        "2/5"
+      ],
+      "answer": "3/5",
+      "explain": "12 boules ne sont pas vertes sur 20 : 12/20 = 3/5."
+    },
+    {
+      "id": "ma-pro-081",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une urne contient 3 boules rouges, 3 boules bleues et 6 boules vertes, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle ne soit pas verte ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "6 boules ne sont pas vertes sur 12 : 6/12 = 1/2."
+    },
+    {
+      "id": "ma-pro-082",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une urne contient 20 boules dont 6 sont rouges. Quelle est la probabilité de tirer une boule qui n'est pas rouge, en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "70"
+      ],
+      "explain": "14 boules non rouges sur 20 : 14/20 = 70 %."
+    },
+    {
+      "id": "ma-pro-083",
+      "level": 3,
+      "type": "input",
+      "prompt": "On tire une boule au hasard dans une urne. La probabilité d'obtenir une boule rouge est 0,3 et il y a 20 boules en tout. Combien y a-t-il de boules rouges ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "0,3 × 20 = 6 boules rouges."
+    },
+    {
+      "id": "ma-pro-084",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On tire une boule au hasard dans une urne de 40 boules. La probabilité d'obtenir une boule bleue est 1/4. Combien y a-t-il de boules bleues ?",
+      "choices": [
+        "8",
+        "11",
+        "12",
+        "10"
+      ],
+      "answer": "10",
+      "explain": "1/4 de 40 = 10 boules bleues."
+    },
+    {
+      "id": "ma-pro-085",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une urne contient seulement des boules rouges et des boules bleues. La probabilité de tirer une rouge est 0,6. Quelle est la probabilité de tirer une bleue, sous forme décimale ?",
+      "answer": [
+        "0,4",
+        "0.4"
+      ],
+      "explain": "Les deux probabilités ont pour somme 1 : 1 − 0,6 = 0,4."
+    },
+    {
+      "id": "ma-pro-086",
+      "level": 3,
+      "type": "input",
+      "prompt": "Une urne contient 12 boules, toutes rouges ou bleues. Il y a 3 fois plus de rouges que de bleues. Quelle est la probabilité de tirer une bleue ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/4"
+      ],
+      "explain": "Rouges = 3 × bleues : 12 = 4 parts, donc 3 bleues et 9 rouges ; 3/12 = 1/4."
+    },
+    {
+      "id": "ma-pro-087",
+      "level": 3,
+      "type": "input",
+      "prompt": "La probabilité d'un évènement est 2/5. Quelle est la probabilité de l'évènement contraire ? (donne une fraction)",
+      "answer": [
+        "3/5"
+      ],
+      "explain": "P(contraire) = 1 − 2/5 = 3/5."
+    },
+    {
+      "id": "ma-pro-088",
+      "level": 3,
+      "type": "input",
+      "prompt": "La probabilité d'un évènement est 7/8. Quelle est la probabilité de l'évènement contraire ? (donne une fraction)",
+      "answer": [
+        "1/8"
+      ],
+      "explain": "P(contraire) = 1 − 7/8 = 1/8."
+    },
+    {
+      "id": "ma-pro-089",
+      "level": 3,
+      "type": "input",
+      "prompt": "Dans un jeu de 32 cartes, il y a 8 coeurs. On tire une carte au hasard. Quelle est la probabilité que ce ne soit pas un coeur, en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "75"
+      ],
+      "explain": "24 cartes sur 32 ne sont pas des coeurs : 24/32 = 3/4 = 75 %."
+    },
+    {
+      "id": "ma-pro-090",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un entraîneur tire au sort un tireur de penalty parmi 5 joueurs dont 2 gauchers. Quelle est la probabilité que ce soit un gaucher ? (donne une fraction)",
+      "answer": [
+        "2/5"
+      ],
+      "explain": "2 gauchers sur 5 joueurs : 2/5."
+    },
+    {
+      "id": "ma-pro-091",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On lance deux pièces de monnaie équilibrées. Les issues sont PP, PF, FP et FF (toutes aussi probables). Quelle est la probabilité d'obtenir exactement un pile ? (donne une fraction simplifiée)",
+      "choices": [
+        "1/2",
+        "2/3",
+        "1/4",
+        "1/3"
+      ],
+      "answer": "1/2",
+      "explain": "PF et FP : 2 issues sur 4, soit 1/2."
+    },
+    {
+      "id": "ma-pro-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On lance deux pièces de monnaie équilibrées. Les issues sont PP, PF, FP et FF (toutes aussi probables). Quelle est la probabilité d'obtenir deux fois pile ? (donne une fraction)",
+      "choices": [
+        "2/5",
+        "3/4",
+        "1/8",
+        "1/4"
+      ],
+      "answer": "1/4",
+      "explain": "Une seule issue (PP) sur 4."
+    },
+    {
+      "id": "ma-pro-093",
+      "level": 3,
+      "type": "input",
+      "prompt": "On lance deux dés équilibrés et on additionne les résultats. Combien y a-t-il d'issues possibles (couples de faces) ?",
+      "answer": [
+        "36"
+      ],
+      "explain": "6 × 6 = 36 couples."
+    },
+    {
+      "id": "ma-pro-094",
+      "level": 3,
+      "type": "input",
+      "prompt": "On lance deux dés équilibrés. Combien de couples de faces donnent un double (même chiffre sur les deux dés) ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "(1,1), (2,2), (3,3), (4,4), (5,5), (6,6) : 6 couples."
+    },
+    {
+      "id": "ma-pro-095",
+      "level": 3,
+      "type": "input",
+      "prompt": "On lance deux dés équilibrés. Quelle est la probabilité d'obtenir un double ? (donne une fraction simplifiée)",
+      "answer": [
+        "1/6"
+      ],
+      "explain": "6 couples sur 36 : 6/36 = 1/6."
+    },
+    {
+      "id": "ma-pro-096",
+      "level": 3,
+      "type": "input",
+      "prompt": "Lequel est le plus probable : obtenir 10 fois de suite le 1 en lançant un dé, ou obtenir face en lançant une pièce ? (dix fois 1 / face)",
+      "answer": [
+        "face"
+      ],
+      "explain": "Obtenir 10 fois de suite le 1 est quasiment impossible (probabilité très proche de 0), alors que face a une chance sur deux."
+    },
+    {
+      "id": "ma-pro-097",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au loto, ne pas obtenir la bonne combinaison est un évènement :",
+      "choices": [
+        "impossible",
+        "de probabilité 1/2",
+        "de probabilité exactement 1",
+        "presque certain, de probabilité très proche de 1"
+      ],
+      "answer": "presque certain, de probabilité très proche de 1",
+      "explain": "La probabilité de gagner est minuscule, donc ne pas gagner a une probabilité très proche de 1 (mais ce n'est pas certain)."
+    },
+    {
+      "id": "ma-pro-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Sur 40 lancers d'un dé, la face 4 est sortie 8 fois. Quelle est sa fréquence, en pourcentage ? (donne seulement le nombre)",
+      "choices": [
+        "21",
+        "20",
+        "23",
+        "19"
+      ],
+      "answer": "20",
+      "explain": "8/40 = 1/5 = 20 %."
+    },
+    {
+      "id": "ma-pro-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "On a obtenu pile 5 fois de suite avec une pièce équilibrée. Quelle est la probabilité d'obtenir pile au 6e lancer ?",
+      "choices": [
+        "1/2",
+        "Plus grande que 1/2",
+        "Plus petite que 1/2",
+        "0"
+      ],
+      "answer": "1/2",
+      "explain": "Les lancers sont indépendants : la pièce n'a pas de mémoire, la probabilité reste 1/2."
+    },
+    {
+      "id": "ma-pro-100",
+      "level": 3,
+      "type": "input",
+      "prompt": "Un joueur marque 3 penalties sur 4 à l'entraînement, depuis longtemps. Estime la probabilité qu'il réussisse le prochain, en pourcentage. (donne seulement le nombre)",
+      "answer": [
+        "75"
+      ],
+      "explain": "On estime la probabilité par la fréquence observée : 3/4 = 75 %."
+    },
+    {
+      "id": "ma-pro-101",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur 200 pièces fabriquées, 10 sont défectueuses. En estimant la probabilité par la fréquence, quelle est la probabilité qu'une pièce soit défectueuse, en pourcentage ? (donne seulement le nombre)",
+      "answer": [
+        "5"
+      ],
+      "explain": "10/200 = 5/100 = 5 %."
+    }
+  ]
+}

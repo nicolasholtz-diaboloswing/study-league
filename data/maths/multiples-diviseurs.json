@@ -1,0 +1,1413 @@
+{
+  "topic": "maths-multiples-diviseurs",
+  "questions": [
+    {
+      "id": "ma-div-001",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 38 est-il divisible par 2 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Le dernier chiffre de 38 est 8 : pair, donc divisible par 2."
+    },
+    {
+      "id": "ma-div-002",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 75 est-il divisible par 2 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le dernier chiffre de 75 est 5 : impair, donc pas divisible par 2."
+    },
+    {
+      "id": "ma-div-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 246 est-il divisible par 2 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Le dernier chiffre de 246 est 6 : pair, donc divisible par 2."
+    },
+    {
+      "id": "ma-div-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 45 est-il divisible par 5 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Le dernier chiffre de 45 est 5 : 0 ou 5, donc divisible par 5."
+    },
+    {
+      "id": "ma-div-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 72 est-il divisible par 5 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le dernier chiffre de 72 est 2 : ni 0 ni 5, donc pas divisible par 5."
+    },
+    {
+      "id": "ma-div-006",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 905 est-il divisible par 5 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Le dernier chiffre de 905 est 5 : 0 ou 5, donc divisible par 5."
+    },
+    {
+      "id": "ma-div-007",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 70 est-il divisible par 10 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Le dernier chiffre de 70 est 0 : 0, donc divisible par 10."
+    },
+    {
+      "id": "ma-div-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 99 est-il divisible par 10 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le dernier chiffre de 99 est 9 : pas 0, donc pas divisible par 10."
+    },
+    {
+      "id": "ma-div-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est divisible par 2 ?",
+      "choices": [
+        "56",
+        "57",
+        "31",
+        "109"
+      ],
+      "answer": "56",
+      "explain": "Le dernier chiffre de 56 est 6 : pair, donc divisible par 2."
+    },
+    {
+      "id": "ma-div-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est divisible par 5 ?",
+      "choices": [
+        "82",
+        "85",
+        "87",
+        "101"
+      ],
+      "answer": "85",
+      "explain": "Le dernier chiffre de 85 est 5 : 0 ou 5, donc divisible par 5."
+    },
+    {
+      "id": "ma-div-011",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est divisible par 10 ?",
+      "choices": [
+        "230",
+        "99",
+        "203",
+        "235"
+      ],
+      "answer": "230",
+      "explain": "Le dernier chiffre de 230 est 0 : 0, donc divisible par 10."
+    },
+    {
+      "id": "ma-div-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "27 est un multiple de 9. Complète : 9 est un ... de 27. (diviseur / multiple)",
+      "answer": [
+        "diviseur"
+      ],
+      "explain": "27 = 9 × 3 : 9 est un diviseur de 27."
+    },
+    {
+      "id": "ma-div-013",
+      "level": 1,
+      "type": "input",
+      "prompt": "48 est un multiple de 6. Complète : 6 est un ... de 48. (diviseur / multiple)",
+      "answer": [
+        "diviseur"
+      ],
+      "explain": "48 = 6 × 8 : 6 est un diviseur de 48."
+    },
+    {
+      "id": "ma-div-014",
+      "level": 1,
+      "type": "input",
+      "prompt": "72 est un multiple de 12. Complète : 12 est un ... de 72. (diviseur / multiple)",
+      "answer": [
+        "diviseur"
+      ],
+      "explain": "72 = 12 × 6 : 12 est un diviseur de 72."
+    },
+    {
+      "id": "ma-div-015",
+      "level": 1,
+      "type": "input",
+      "prompt": "4 est un diviseur de 36. Complète : 36 est un ... de 4. (diviseur / multiple)",
+      "answer": [
+        "multiple"
+      ],
+      "explain": "36 = 4 × 9 : 36 est un multiple de 4."
+    },
+    {
+      "id": "ma-div-016",
+      "level": 1,
+      "type": "input",
+      "prompt": "12 est un diviseur de 60. Complète : 60 est un ... de 12. (diviseur / multiple)",
+      "answer": [
+        "multiple"
+      ],
+      "explain": "60 = 12 × 5 : 60 est un multiple de 12."
+    },
+    {
+      "id": "ma-div-017",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est équivalente à « 54 est divisible par 9 » ?",
+      "choices": [
+        "9 est le quotient de 54 par 9",
+        "54 est un multiple de 9",
+        "54 est un diviseur de 9",
+        "9 est un multiple de 54"
+      ],
+      "answer": "54 est un multiple de 9",
+      "explain": "54 = 9 × 6 : 54 est un multiple de 9, et 9 est un diviseur de 54."
+    },
+    {
+      "id": "ma-div-018",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est équivalente à « 88 est divisible par 8 » ?",
+      "choices": [
+        "88 est un multiple de 8",
+        "88 est un diviseur de 8",
+        "8 est un multiple de 88",
+        "8 est le quotient de 88 par 8"
+      ],
+      "answer": "88 est un multiple de 8",
+      "explain": "88 = 8 × 11 : 88 est un multiple de 8, et 8 est un diviseur de 88."
+    },
+    {
+      "id": "ma-div-019",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel nombre est un diviseur de tous les nombres entiers ?",
+      "choices": [
+        "10",
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": "1",
+      "explain": "Tout nombre entier est divisible par 1 : n = n × 1."
+    },
+    {
+      "id": "ma-div-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le troisième multiple non nul de 8 ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "8 × 3 = 24."
+    },
+    {
+      "id": "ma-div-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel est le cinquième multiple non nul de 6 ?",
+      "choices": [
+        "27",
+        "29",
+        "32",
+        "30"
+      ],
+      "answer": "30",
+      "explain": "6 × 5 = 30."
+    },
+    {
+      "id": "ma-div-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le plus petit multiple non nul de 9 ?",
+      "answer": [
+        "9"
+      ],
+      "explain": "Le plus petit multiple non nul d'un nombre est ce nombre : 9 × 1 = 9."
+    },
+    {
+      "id": "ma-div-023",
+      "level": 1,
+      "type": "input",
+      "prompt": "Division euclidienne de 47 par 5 : quel est le quotient ?",
+      "answer": [
+        "9"
+      ],
+      "explain": "47 = 5 × 9 + 2 avec 2 < 5 : le quotient est 9."
+    },
+    {
+      "id": "ma-div-024",
+      "level": 1,
+      "type": "input",
+      "prompt": "Division euclidienne de 47 par 5 : quel est le reste ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "47 = 5 × 9 + 2 avec 2 < 5 : le reste est 2."
+    },
+    {
+      "id": "ma-div-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "On sait que 17 = 3 × 5 + 2. Dans la division euclidienne de 17 par 5, quel est le quotient ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "Le diviseur est 5, le reste est 2 < 5, donc le quotient est 3."
+    },
+    {
+      "id": "ma-div-026",
+      "level": 1,
+      "type": "input",
+      "prompt": "On sait que 17 = 3 × 5 + 2. Dans la division euclidienne de 17 par 3, quel est le reste ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "Le reste 2 est plus petit que 3 : c'est le reste de la division de 17 par 3 (quotient 5)."
+    },
+    {
+      "id": "ma-div-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète : 21 = 3 × ...",
+      "answer": [
+        "7"
+      ],
+      "explain": "21 ÷ 3 = 7, donc 21 = 3 × 7."
+    },
+    {
+      "id": "ma-div-028",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : 56 = 7 × ...",
+      "choices": [
+        "8",
+        "7",
+        "5",
+        "10"
+      ],
+      "answer": "8",
+      "explain": "56 ÷ 7 = 8, donc 56 = 7 × 8."
+    },
+    {
+      "id": "ma-div-029",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Complète : 96 = 12 × ...",
+      "choices": [
+        "7",
+        "8",
+        "11",
+        "9"
+      ],
+      "answer": "8",
+      "explain": "96 ÷ 12 = 8, donc 96 = 12 × 8."
+    },
+    {
+      "id": "ma-div-030",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien le nombre 12 a-t-il de diviseurs ?",
+      "choices": [
+        "4",
+        "3",
+        "7",
+        "6"
+      ],
+      "answer": "6",
+      "explain": "Les diviseurs de 12 sont 1 ; 2 ; 3 ; 4 ; 6 ; 12 : 6 diviseurs."
+    },
+    {
+      "id": "ma-div-031",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien le nombre 18 a-t-il de diviseurs ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "Les diviseurs de 18 sont 1 ; 2 ; 3 ; 6 ; 9 ; 18 : 6 diviseurs."
+    },
+    {
+      "id": "ma-div-032",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien le nombre 10 a-t-il de diviseurs ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "Les diviseurs de 10 sont 1 ; 2 ; 5 ; 10 : 4 diviseurs."
+    },
+    {
+      "id": "ma-div-033",
+      "level": 1,
+      "type": "input",
+      "prompt": "Combien le nombre 7 a-t-il de diviseurs ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "Les diviseurs de 7 sont 1 ; 7 : 2 diviseurs."
+    },
+    {
+      "id": "ma-div-034",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le plus petit diviseur de 25 supérieur à 1 ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "25 n'est pas divisible par 2, 3 ni 4, mais 25 = 5 × 5."
+    },
+    {
+      "id": "ma-div-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de diviseurs a un nombre premier ?",
+      "choices": [
+        "Aucun",
+        "Exactement 2",
+        "Exactement 1",
+        "Exactement 3"
+      ],
+      "answer": "Exactement 2",
+      "explain": "Un nombre premier a exactement deux diviseurs : 1 et lui-même."
+    },
+    {
+      "id": "ma-div-036",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quel est le plus petit nombre premier ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "1 n'est pas premier (un seul diviseur) ; 2 a deux diviseurs : 1 et 2."
+    },
+    {
+      "id": "ma-div-037",
+      "level": 1,
+      "type": "input",
+      "prompt": "Le nombre 1 est-il premier ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "1 n'a qu'un seul diviseur, alors qu'un nombre premier en a exactement deux."
+    },
+    {
+      "id": "ma-div-038",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est premier ?",
+      "choices": [
+        "9",
+        "21",
+        "15",
+        "7"
+      ],
+      "answer": "7",
+      "explain": "7 n'est divisible que par 1 et par lui-même ; les autres ont un diviseur de plus (9 = 3 × 3, 15 = 3 × 5, 21 = 3 × 7)."
+    },
+    {
+      "id": "ma-div-039",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est premier ?",
+      "choices": [
+        "27",
+        "21",
+        "13",
+        "15"
+      ],
+      "answer": "13",
+      "explain": "13 n'est divisible que par 1 et par lui-même ; les autres ont un diviseur de plus (15 = 3 × 5, 21 = 3 × 7, 27 = 3 × 9)."
+    },
+    {
+      "id": "ma-div-040",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est premier ?",
+      "choices": [
+        "15",
+        "11",
+        "9",
+        "12"
+      ],
+      "answer": "11",
+      "explain": "11 n'est divisible que par 1 et par lui-même ; les autres ont un diviseur de plus (9 = 3 × 3, 12 = 2 × 6, 15 = 3 × 5)."
+    },
+    {
+      "id": "ma-div-041",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Combien de diviseurs a 1 ?",
+      "choices": [
+        "1",
+        "10",
+        "3",
+        "11"
+      ],
+      "answer": "1",
+      "explain": "Seul le nombre 1 divise 1."
+    },
+    {
+      "id": "ma-div-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 51 est-il divisible par 3 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "La somme des chiffres de 51 est 6, un multiple de 3 : 51 est divisible par 3."
+    },
+    {
+      "id": "ma-div-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 124 est-il divisible par 3 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La somme des chiffres de 124 est 7, qui n'est pas un multiple de 3 : 124 n'est pas divisible par 3."
+    },
+    {
+      "id": "ma-div-044",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 333 est-il divisible par 3 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "La somme des chiffres de 333 est 9, un multiple de 3 : 333 est divisible par 3."
+    },
+    {
+      "id": "ma-div-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 4725 est-il divisible par 9 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "La somme des chiffres de 4725 est 18, un multiple de 9 : 4725 est divisible par 9."
+    },
+    {
+      "id": "ma-div-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 123 est-il divisible par 9 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "La somme des chiffres de 123 est 6, qui n'est pas un multiple de 9 : 123 n'est pas divisible par 9."
+    },
+    {
+      "id": "ma-div-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est divisible par 3 ?",
+      "choices": [
+        "85",
+        "100",
+        "72",
+        "71"
+      ],
+      "answer": "72",
+      "explain": "La somme des chiffres de 72 est 9, un multiple de 3 : 72 est divisible par 3."
+    },
+    {
+      "id": "ma-div-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est divisible par 3 ?",
+      "choices": [
+        "412",
+        "415",
+        "411",
+        "413"
+      ],
+      "answer": "411",
+      "explain": "La somme des chiffres de 411 est 6, un multiple de 3 : 411 est divisible par 3."
+    },
+    {
+      "id": "ma-div-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est divisible par 9 ?",
+      "choices": [
+        "250",
+        "253",
+        "251",
+        "252"
+      ],
+      "answer": "252",
+      "explain": "La somme des chiffres de 252 est 9, un multiple de 9 : 252 est divisible par 9."
+    },
+    {
+      "id": "ma-div-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un nombre est divisible par 2 et par 5. Il est forcément divisible par :",
+      "choices": [
+        "4",
+        "25",
+        "7",
+        "10"
+      ],
+      "answer": "10",
+      "explain": "Divisible par 2 et par 5 : le dernier chiffre est 0, donc le nombre est divisible par 10."
+    },
+    {
+      "id": "ma-div-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Un nombre divisible par 9 est toujours :",
+      "choices": [
+        "divisible par 6",
+        "divisible par 18",
+        "pair",
+        "divisible par 3"
+      ],
+      "answer": "divisible par 3",
+      "explain": "9 est un multiple de 3 : tout multiple de 9 est aussi un multiple de 3."
+    },
+    {
+      "id": "ma-div-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un nombre divisible par 3 est toujours divisible par 9. (vrai / faux)",
+      "answer": [
+        "faux"
+      ],
+      "explain": "Contre-exemple : 12 est divisible par 3 mais pas par 9."
+    },
+    {
+      "id": "ma-div-053",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un nombre divisible par 9 est toujours divisible par 3. (vrai / faux)",
+      "answer": [
+        "vrai"
+      ],
+      "explain": "9 = 3 × 3 : un multiple de 9 est un multiple de 3."
+    },
+    {
+      "id": "ma-div-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien y a-t-il de multiples de 7 entre 1 et 50 ? (50 compris)",
+      "answer": [
+        "7"
+      ],
+      "explain": "7 ; 14 ; 21 ; 28 ; 35 ; 42 ; 49 : sept multiples."
+    },
+    {
+      "id": "ma-div-055",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien y a-t-il de multiples de 5 entre 1 et 100 ? (100 compris)",
+      "answer": [
+        "20"
+      ],
+      "explain": "100 ÷ 5 = 20 multiples de 5."
+    },
+    {
+      "id": "ma-div-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand multiple de 9 inférieur à 100 ?",
+      "choices": [
+        "102",
+        "99",
+        "101",
+        "100"
+      ],
+      "answer": "99",
+      "explain": "9 × 11 = 99 et 9 × 12 = 108 dépasse 100."
+    },
+    {
+      "id": "ma-div-057",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Division euclidienne de 38 par 7 : quel est le reste ?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "3",
+      "explain": "38 = 7 × 5 + 3 avec 3 < 7 : le reste est 3."
+    },
+    {
+      "id": "ma-div-058",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Division euclidienne de 59 par 8 : quel est le quotient ?",
+      "choices": [
+        "8",
+        "9",
+        "7",
+        "10"
+      ],
+      "answer": "7",
+      "explain": "59 = 8 × 7 + 3 avec 3 < 8 : le quotient est 7."
+    },
+    {
+      "id": "ma-div-059",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Division euclidienne de 100 par 9 : quel est le reste ?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": "1",
+      "explain": "100 = 9 × 11 + 1 avec 1 < 9 : le reste est 1."
+    },
+    {
+      "id": "ma-div-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Division euclidienne de 85 par 12 : quel est le quotient ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "85 = 12 × 7 + 1 avec 1 < 12 : le quotient est 7."
+    },
+    {
+      "id": "ma-div-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Division euclidienne de 85 par 12 : quel est le reste ?",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": "1",
+      "explain": "85 = 12 × 7 + 1 avec 1 < 12 : le reste est 1."
+    },
+    {
+      "id": "ma-div-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "Division euclidienne de 130 par 20 : quel est le quotient ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "130 = 20 × 6 + 10 avec 10 < 20 : le quotient est 6."
+    },
+    {
+      "id": "ma-div-063",
+      "level": 2,
+      "type": "input",
+      "prompt": "Division euclidienne de 130 par 20 : quel est le reste ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "130 = 20 × 6 + 10 avec 10 < 20 : le reste est 10."
+    },
+    {
+      "id": "ma-div-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une division euclidienne, le diviseur est 9, le quotient 5 et le reste 8. Quel est le dividende ?",
+      "answer": [
+        "53"
+      ],
+      "explain": "Dividende = 9 × 5 + 8 = 45 + 8 = 53."
+    },
+    {
+      "id": "ma-div-065",
+      "level": 2,
+      "type": "input",
+      "prompt": "Peut-on avoir 7 comme reste dans une division euclidienne par 7 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "Le reste est toujours strictement plus petit que le diviseur."
+    },
+    {
+      "id": "ma-div-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans la division euclidienne de 50 par 8, quelle égalité est correcte ?",
+      "choices": [
+        "50 = 6 × 8 + 8",
+        "50 = 8 × 7 − 6",
+        "50 = 8 × 5 + 10",
+        "50 = 8 × 6 + 2"
+      ],
+      "answer": "50 = 8 × 6 + 2",
+      "explain": "8 × 6 = 48 et 50 − 48 = 2 < 8 : 50 = 8 × 6 + 2."
+    },
+    {
+      "id": "ma-div-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quels sont le quotient et le reste dans la division euclidienne de 43 par 6 ?",
+      "choices": [
+        "quotient 6, reste 7",
+        "quotient 7, reste 1",
+        "quotient 7, reste 3",
+        "quotient 8, reste 1"
+      ],
+      "answer": "quotient 7, reste 1",
+      "explain": "6 × 7 = 42 et 43 − 42 = 1."
+    },
+    {
+      "id": "ma-div-068",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien le nombre 24 a-t-il de diviseurs ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "Les diviseurs de 24 sont 1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24 : 8 diviseurs."
+    },
+    {
+      "id": "ma-div-069",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien le nombre 30 a-t-il de diviseurs ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "Les diviseurs de 30 sont 1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 15 ; 30 : 8 diviseurs."
+    },
+    {
+      "id": "ma-div-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien le nombre 48 a-t-il de diviseurs ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Les diviseurs de 48 sont 1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48 : 10 diviseurs."
+    },
+    {
+      "id": "ma-div-071",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien le nombre 100 a-t-il de diviseurs ?",
+      "choices": [
+        "11",
+        "8",
+        "7",
+        "9"
+      ],
+      "answer": "9",
+      "explain": "Les diviseurs de 100 sont 1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100 : 9 diviseurs."
+    },
+    {
+      "id": "ma-div-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand diviseur de 36 autre que 36 lui-même ?",
+      "choices": [
+        "16",
+        "18",
+        "21",
+        "19"
+      ],
+      "answer": "18",
+      "explain": "36 = 2 × 18 : le plus grand diviseur plus petit que 36 est 18."
+    },
+    {
+      "id": "ma-div-073",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand diviseur de 45 autre que 45 lui-même ?",
+      "choices": [
+        "17",
+        "15",
+        "18",
+        "16"
+      ],
+      "answer": "15",
+      "explain": "45 = 3 × 15 : c'est 15."
+    },
+    {
+      "id": "ma-div-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Parmi ces nombres, lequel n'est pas un diviseur de 30 ?",
+      "choices": [
+        "10",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "explain": "30 = 5 × 6 = 3 × 10 mais 30 ÷ 4 = 7,5 : 4 ne divise pas 30."
+    },
+    {
+      "id": "ma-div-075",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le plus grand diviseur commun à 8 et 12 ?",
+      "answer": [
+        "4"
+      ],
+      "explain": "Diviseurs de 8 : 1, 2, 4, 8. Diviseurs de 12 : 1, 2, 3, 4, 6, 12. Le plus grand commun est 4."
+    },
+    {
+      "id": "ma-div-076",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le plus petit multiple commun non nul à 4 et 6 ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "Multiples de 4 : 4, 8, 12, 16, 20, 24 ... Multiples de 6 : 6, 12, 18, 24, 30, 36 ... Le premier commun est 12."
+    },
+    {
+      "id": "ma-div-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le plus petit multiple commun non nul à 8 et 12 ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "Multiples de 8 : 8, 16, 24, 32, 40, 48 ... Multiples de 12 : 12, 24, 36, 48, 60, 72 ... Le premier commun est 24."
+    },
+    {
+      "id": "ma-div-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quel est le plus petit multiple commun non nul à 10 et 15 ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "Multiples de 10 : 10, 20, 30, 40, 50, 60 ... Multiples de 15 : 15, 30, 45, 60, 75, 90 ... Le premier commun est 30."
+    },
+    {
+      "id": "ma-div-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le seul nombre premier pair ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": "2",
+      "explain": "Tout autre nombre pair est divisible par 2, donc a au moins trois diviseurs (1, 2 et lui-même)."
+    },
+    {
+      "id": "ma-div-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est premier ?",
+      "choices": [
+        "29",
+        "33",
+        "27",
+        "39"
+      ],
+      "answer": "29",
+      "explain": "29 n'est divisible que par 1 et par lui-même ; les autres ont un diviseur de plus (27 = 3 × 9, 33 = 3 × 11, 39 = 3 × 13)."
+    },
+    {
+      "id": "ma-div-081",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est premier ?",
+      "choices": [
+        "45",
+        "49",
+        "47",
+        "51"
+      ],
+      "answer": "47",
+      "explain": "47 n'est divisible que par 1 et par lui-même ; les autres ont un diviseur de plus (45 = 3 × 15, 49 = 7 × 7, 51 = 3 × 17)."
+    },
+    {
+      "id": "ma-div-082",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 21 est-il premier ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "21 = 3 × 7 : il a un diviseur autre que 1 et lui-même."
+    },
+    {
+      "id": "ma-div-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 49 est-il premier ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "49 = 7 × 7 : il a un diviseur autre que 1 et lui-même."
+    },
+    {
+      "id": "ma-div-084",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 57 est-il premier ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "57 = 3 × 19 : il a un diviseur autre que 1 et lui-même."
+    },
+    {
+      "id": "ma-div-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 87 est-il premier ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "87 = 3 × 29 : il a un diviseur autre que 1 et lui-même."
+    },
+    {
+      "id": "ma-div-086",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 17 est-il premier ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "17 n'a que deux diviseurs : 1 et 17."
+    },
+    {
+      "id": "ma-div-087",
+      "level": 2,
+      "type": "input",
+      "prompt": "Le nombre 41 est-il premier ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "41 n'a que deux diviseurs : 1 et 41."
+    },
+    {
+      "id": "ma-div-088",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien y a-t-il de nombres premiers inférieurs à 20 ?",
+      "choices": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": "8",
+      "explain": "2 ; 3 ; 5 ; 7 ; 11 ; 13 ; 17 ; 19 : huit nombres premiers."
+    },
+    {
+      "id": "ma-div-089",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un entraîneur veut former des équipes de même taille avec ses 30 joueurs, sans joueur en trop. Combien de tailles d'équipe différentes sont possibles (1 joueur et 30 joueurs compris) ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "Les diviseurs de 30 sont 1, 2, 3, 5, 6, 10, 15, 30 : huit tailles."
+    },
+    {
+      "id": "ma-div-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un club a 56 maillots à ranger dans des caisses de 8. Combien de caisses sont nécessaires ?",
+      "answer": [
+        "7"
+      ],
+      "explain": "56 ÷ 8 = 7 (56 est un multiple de 8)."
+    },
+    {
+      "id": "ma-div-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "On range 50 gourdes dans des paniers de 6. Combien de paniers complets peut-on remplir ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "50 = 6 × 8 + 2 : 8 paniers complets, 2 gourdes restent."
+    },
+    {
+      "id": "ma-div-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "On range 50 gourdes dans des paniers de 6. Combien de gourdes restent-elles hors des paniers complets ?",
+      "answer": [
+        "2"
+      ],
+      "explain": "50 = 6 × 8 + 2 : il en reste 2."
+    },
+    {
+      "id": "ma-div-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un car peut transporter 45 supporters. Combien de cars faut-il pour 100 supporters ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "100 = 45 × 2 + 10 : deux cars ne suffisent pas, il en faut 3."
+    },
+    {
+      "id": "ma-div-094",
+      "level": 2,
+      "type": "input",
+      "prompt": "Deux bus partent ensemble du stade. L'un revient toutes les 12 minutes, l'autre toutes les 8 minutes. Au bout de combien de minutes sont-ils de nouveau ensemble pour la première fois ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "On cherche le plus petit multiple commun de 12 et 8 : 24."
+    },
+    {
+      "id": "ma-div-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "Deux feux clignotent ensemble. L'un clignote toutes les 4 secondes, l'autre toutes les 6 secondes. Au bout de combien de secondes clignotent-ils ensemble pour la première fois après le départ ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "Le plus petit multiple commun de 4 et 6 est 12."
+    },
+    {
+      "id": "ma-div-096",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un nombre est divisible par 6 s'il est divisible par 2 et par 3. 78 est-il divisible par 6 ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "78 est pair et 7 + 8 = 15 est multiple de 3 : 78 = 6 × 13."
+    },
+    {
+      "id": "ma-div-097",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un nombre est divisible par 6 s'il est divisible par 2 et par 3. 94 est-il divisible par 6 ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "94 est pair mais 9 + 4 = 13 n'est pas un multiple de 3."
+    },
+    {
+      "id": "ma-div-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Lequel de ces nombres est divisible par 9 ?",
+      "choices": [
+        "818",
+        "819",
+        "820",
+        "821"
+      ],
+      "answer": "819",
+      "explain": "La somme des chiffres de 819 est 18, un multiple de 9 : 819 est divisible par 9."
+    },
+    {
+      "id": "ma-div-099",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel chiffre faut-il écrire à la place de * pour que 45* soit divisible par 5 et pas par 2 ? (un seul chiffre)",
+      "choices": [
+        "2",
+        "5",
+        "7",
+        "4"
+      ],
+      "answer": "5",
+      "explain": "Divisible par 5 : * vaut 0 ou 5 ; pas par 2 : * est impair, donc * = 5."
+    },
+    {
+      "id": "ma-div-100",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus petit chiffre à écrire à la place de * pour que 4*5 soit divisible par 3 ?",
+      "answer": [
+        "0"
+      ],
+      "explain": "4 + 0 + 5 = 9 est un multiple de 3 : 405 est divisible par 3 (et 0 est le plus petit chiffre)."
+    },
+    {
+      "id": "ma-div-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand chiffre à écrire à la place de * pour que 7*2 soit divisible par 9 ?",
+      "choices": [
+        "9",
+        "6",
+        "10",
+        "11"
+      ],
+      "answer": "9",
+      "explain": "7 + * + 2 doit être un multiple de 9 : * = 0 ou * = 9 ; le plus grand est 9 (792 = 9 × 88)."
+    },
+    {
+      "id": "ma-div-102",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel chiffre faut-il écrire à la place de * pour que 31* soit divisible par 3 et par 5 ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "Divisible par 5 : * = 0 ou 5. Avec 5 : 3 + 1 + 5 = 9, multiple de 3 (315 = 3 × 105)."
+    },
+    {
+      "id": "ma-div-103",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus grand diviseur commun à 20 et 30 ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Diviseurs de 20 : 1, 2, 4, 5, 10, 20. Diviseurs de 30 : 1, 2, 3, 5, 6, 10, 15, 30. Le plus grand commun est 10."
+    },
+    {
+      "id": "ma-div-104",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus grand diviseur commun à 16 et 24 ?",
+      "answer": [
+        "8"
+      ],
+      "explain": "Diviseurs de 16 : 1, 2, 4, 8, 16. Diviseurs de 24 : 1, 2, 3, 4, 6, 8, 12, 24. Le plus grand commun est 8."
+    },
+    {
+      "id": "ma-div-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la somme des nombres premiers inférieurs à 10 ?",
+      "answer": [
+        "17"
+      ],
+      "explain": "2 + 3 + 5 + 7 = 17."
+    },
+    {
+      "id": "ma-div-106",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la décomposition de 30 en produit de nombres premiers ?",
+      "choices": [
+        "3 × 10",
+        "2 × 3 × 5",
+        "2 × 15",
+        "5 × 6"
+      ],
+      "answer": "2 × 3 × 5",
+      "explain": "On décompose jusqu'à n'avoir que des nombres premiers : 30 = 2 × 3 × 5."
+    },
+    {
+      "id": "ma-div-107",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la décomposition de 12 en produit de nombres premiers ?",
+      "choices": [
+        "3 × 4",
+        "2 × 6",
+        "2 × 2 × 3",
+        "2 × 2 × 4"
+      ],
+      "answer": "2 × 2 × 3",
+      "explain": "On décompose jusqu'à n'avoir que des nombres premiers : 12 = 2 × 2 × 3."
+    },
+    {
+      "id": "ma-div-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la décomposition de 18 en produit de nombres premiers ?",
+      "choices": [
+        "2 × 2 × 3 × 3",
+        "2 × 3 × 3",
+        "3 × 6",
+        "2 × 9"
+      ],
+      "answer": "2 × 3 × 3",
+      "explain": "On décompose jusqu'à n'avoir que des nombres premiers : 18 = 2 × 3 × 3."
+    },
+    {
+      "id": "ma-div-109",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la décomposition de 20 en produit de nombres premiers ?",
+      "choices": [
+        "2 × 10",
+        "4 × 5",
+        "2 × 5 × 5",
+        "2 × 2 × 5"
+      ],
+      "answer": "2 × 2 × 5",
+      "explain": "On décompose jusqu'à n'avoir que des nombres premiers : 20 = 2 × 2 × 5."
+    },
+    {
+      "id": "ma-div-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la décomposition de 45 en produit de nombres premiers ?",
+      "choices": [
+        "5 × 9",
+        "3 × 15",
+        "3 × 3 × 5",
+        "3 × 5 × 5"
+      ],
+      "answer": "3 × 3 × 5",
+      "explain": "On décompose jusqu'à n'avoir que des nombres premiers : 45 = 3 × 3 × 5."
+    },
+    {
+      "id": "ma-div-111",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la décomposition de 42 en produit de nombres premiers ?",
+      "choices": [
+        "6 × 7",
+        "2 × 3 × 7",
+        "2 × 21",
+        "2 × 3 × 3 × 7"
+      ],
+      "answer": "2 × 3 × 7",
+      "explain": "On décompose jusqu'à n'avoir que des nombres premiers : 42 = 2 × 3 × 7."
+    },
+    {
+      "id": "ma-div-112",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus grand facteur premier de 30 ? (30 = 2 × 3 × 5)",
+      "answer": [
+        "5"
+      ],
+      "explain": "Les facteurs premiers de 30 sont 2, 3 et 5 : le plus grand est 5."
+    },
+    {
+      "id": "ma-div-113",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le plus grand facteur premier de 84 ? (84 = 2 × 2 × 3 × 7)",
+      "choices": [
+        "7",
+        "4",
+        "9",
+        "6"
+      ],
+      "answer": "7",
+      "explain": "Les facteurs premiers de 84 sont 2, 3 et 7 : le plus grand est 7."
+    },
+    {
+      "id": "ma-div-114",
+      "level": 3,
+      "type": "input",
+      "prompt": "Léo s'entraîne tous les 3 jours, Inès tous les 4 jours. Ils s'entraînent ensemble aujourd'hui. Dans combien de jours s'entraîneront-ils de nouveau ensemble ?",
+      "answer": [
+        "12"
+      ],
+      "explain": "Le plus petit multiple commun de 3 et 4 est 12."
+    },
+    {
+      "id": "ma-div-115",
+      "level": 3,
+      "type": "input",
+      "prompt": "On veut partager 18 pommes et 24 oranges en lots identiques, sans rien laisser. Quel est le plus grand nombre de lots possible ?",
+      "answer": [
+        "6"
+      ],
+      "explain": "Le plus grand diviseur commun de 18 et 24 est 6 (3 pommes et 4 oranges par lot)."
+    },
+    {
+      "id": "ma-div-116",
+      "level": 3,
+      "type": "input",
+      "prompt": "On veut partager 20 bonbons et 30 gâteaux en lots identiques, sans rien laisser. Quel est le plus grand nombre de lots possible ?",
+      "answer": [
+        "10"
+      ],
+      "explain": "Le plus grand diviseur commun de 20 et 30 est 10."
+    },
+    {
+      "id": "ma-div-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Aujourd'hui, c'est lundi. Quel jour sera-t-on dans 100 jours ?",
+      "choices": [
+        "mercredi",
+        "mardi",
+        "jeudi",
+        "lundi"
+      ],
+      "answer": "mercredi",
+      "explain": "100 = 7 × 14 + 2 : après 14 semaines entières, on avance de 2 jours : mercredi."
+    },
+    {
+      "id": "ma-div-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Aujourd'hui, c'est mardi. Quel jour sera-t-on dans 30 jours ?",
+      "choices": [
+        "vendredi",
+        "mercredi",
+        "mardi",
+        "jeudi"
+      ],
+      "answer": "jeudi",
+      "explain": "30 = 7 × 4 + 2 : on avance de 2 jours, donc mardi + 2 = jeudi."
+    },
+    {
+      "id": "ma-div-119",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus petit nombre à trois chiffres divisible par 9 ?",
+      "answer": [
+        "108"
+      ],
+      "explain": "100 n'est pas divisible par 9 (1 + 0 + 0 = 1) ; 9 × 12 = 108."
+    },
+    {
+      "id": "ma-div-120",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus grand nombre à deux chiffres divisible par 3 et par 5 ?",
+      "answer": [
+        "90"
+      ],
+      "explain": "Divisible par 3 et par 5, donc par 15 : le plus grand multiple de 15 à deux chiffres est 90."
+    },
+    {
+      "id": "ma-div-121",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le plus petit nombre divisible à la fois par 2, 3 et 5 (non nul) ?",
+      "answer": [
+        "30"
+      ],
+      "explain": "2 × 3 × 5 = 30."
+    },
+    {
+      "id": "ma-div-122",
+      "level": 3,
+      "type": "input",
+      "prompt": "Le nombre 91 n'est divisible ni par 2, ni par 3, ni par 5. Est-il premier ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "91 = 7 × 13 : il a un diviseur autre que 1 et lui-même."
+    }
+  ]
+}

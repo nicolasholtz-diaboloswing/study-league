@@ -1909,6 +1909,1332 @@
    "rating": 70,
    "rarity": "common",
    "era": "1998"
+  },
+  {
+   "id": "p192",
+   "name": "Garrincha",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 92,
+   "rarity": "legend",
+   "era": "1962"
+  },
+  {
+   "id": "p193",
+   "name": "Zico",
+   "pos": "MID",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 91,
+   "rarity": "legend",
+   "era": "1982"
+  },
+  {
+   "id": "p194",
+   "name": "Rivaldo",
+   "pos": "MID",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "2002"
+  },
+  {
+   "id": "p195",
+   "name": "Rivellino",
+   "pos": "MID",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "1970"
+  },
+  {
+   "id": "p196",
+   "name": "Jairzinho",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 83,
+   "rarity": "rare",
+   "era": "1970"
+  },
+  {
+   "id": "p197",
+   "name": "Bebeto",
+   "pos": "FWD",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1994"
+  },
+  {
+   "id": "p198",
+   "name": "Dunga",
+   "pos": "MID",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1994"
+  },
+  {
+   "id": "p199",
+   "name": "Taffarel",
+   "pos": "GK",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1994"
+  },
+  {
+   "id": "p200",
+   "name": "Carlos Alberto",
+   "pos": "DEF",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "1970"
+  },
+  {
+   "id": "p201",
+   "name": "Lúcio",
+   "pos": "DEF",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 78,
+   "rarity": "rare",
+   "era": "2002"
+  },
+  {
+   "id": "p202",
+   "name": "Aldair",
+   "pos": "DEF",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "1994"
+  },
+  {
+   "id": "p203",
+   "name": "Gilberto Silva",
+   "pos": "MID",
+   "nation": "Brazil",
+   "flag": "🇧🇷",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2002"
+  },
+  {
+   "id": "p204",
+   "name": "Mario Kempes",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 88,
+   "rarity": "epic",
+   "era": "1978"
+  },
+  {
+   "id": "p205",
+   "name": "Daniel Passarella",
+   "pos": "DEF",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 85,
+   "rarity": "epic",
+   "era": "1978"
+  },
+  {
+   "id": "p206",
+   "name": "Ubaldo Fillol",
+   "pos": "GK",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1978"
+  },
+  {
+   "id": "p207",
+   "name": "Osvaldo Ardiles",
+   "pos": "MID",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1978"
+  },
+  {
+   "id": "p208",
+   "name": "Jorge Valdano",
+   "pos": "FWD",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1986"
+  },
+  {
+   "id": "p209",
+   "name": "Jorge Burruchaga",
+   "pos": "MID",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1986"
+  },
+  {
+   "id": "p210",
+   "name": "Oscar Ruggeri",
+   "pos": "DEF",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 74,
+   "rarity": "common",
+   "era": "1986"
+  },
+  {
+   "id": "p211",
+   "name": "Juan Román Riquelme",
+   "pos": "MID",
+   "nation": "Argentina",
+   "flag": "🇦🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p212",
+   "name": "Sepp Maier",
+   "pos": "GK",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "1974"
+  },
+  {
+   "id": "p213",
+   "name": "Paul Breitner",
+   "pos": "DEF",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1974"
+  },
+  {
+   "id": "p214",
+   "name": "Wolfgang Overath",
+   "pos": "MID",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1974"
+  },
+  {
+   "id": "p215",
+   "name": "Karl-Heinz Rummenigge",
+   "pos": "FWD",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "1982"
+  },
+  {
+   "id": "p216",
+   "name": "Harald Schumacher",
+   "pos": "GK",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1982"
+  },
+  {
+   "id": "p217",
+   "name": "Andreas Brehme",
+   "pos": "DEF",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1990"
+  },
+  {
+   "id": "p218",
+   "name": "Jürgen Klinsmann",
+   "pos": "FWD",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "1990"
+  },
+  {
+   "id": "p219",
+   "name": "Oliver Kahn",
+   "pos": "GK",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2002"
+  },
+  {
+   "id": "p220",
+   "name": "Mats Hummels",
+   "pos": "DEF",
+   "nation": "Germany",
+   "flag": "🇩🇪",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2014"
+  },
+  {
+   "id": "p221",
+   "name": "Paolo Rossi",
+   "pos": "FWD",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "1982"
+  },
+  {
+   "id": "p222",
+   "name": "Gaetano Scirea",
+   "pos": "DEF",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 85,
+   "rarity": "epic",
+   "era": "1982"
+  },
+  {
+   "id": "p223",
+   "name": "Francesco Totti",
+   "pos": "FWD",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "2006"
+  },
+  {
+   "id": "p224",
+   "name": "Dino Zoff",
+   "pos": "GK",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 83,
+   "rarity": "rare",
+   "era": "1982"
+  },
+  {
+   "id": "p225",
+   "name": "Marco Tardelli",
+   "pos": "MID",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1982"
+  },
+  {
+   "id": "p226",
+   "name": "Claudio Gentile",
+   "pos": "DEF",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1982"
+  },
+  {
+   "id": "p227",
+   "name": "Bruno Conti",
+   "pos": "FWD",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1982"
+  },
+  {
+   "id": "p228",
+   "name": "Salvatore Schillaci",
+   "pos": "FWD",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1990"
+  },
+  {
+   "id": "p229",
+   "name": "Fabio Grosso",
+   "pos": "DEF",
+   "nation": "Italy",
+   "flag": "🇮🇹",
+   "rating": 72,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "p230",
+   "name": "Gerard Piqué",
+   "pos": "DEF",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p231",
+   "name": "Xabi Alonso",
+   "pos": "MID",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p232",
+   "name": "Cesc Fàbregas",
+   "pos": "MID",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2010"
+  },
+  {
+   "id": "p233",
+   "name": "Raúl",
+   "pos": "FWD",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 84,
+   "rarity": "epic",
+   "era": "2002"
+  },
+  {
+   "id": "p234",
+   "name": "Joan Capdevila",
+   "pos": "DEF",
+   "nation": "Spain",
+   "flag": "🇪🇸",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2010"
+  },
+  {
+   "id": "p235",
+   "name": "Bobby Moore",
+   "pos": "DEF",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 89,
+   "rarity": "legend",
+   "era": "1966"
+  },
+  {
+   "id": "p236",
+   "name": "Geoff Hurst",
+   "pos": "FWD",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 83,
+   "rarity": "rare",
+   "era": "1966"
+  },
+  {
+   "id": "p237",
+   "name": "Nobby Stiles",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 74,
+   "rarity": "common",
+   "era": "1966"
+  },
+  {
+   "id": "p238",
+   "name": "Alan Ball",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1966"
+  },
+  {
+   "id": "p239",
+   "name": "Peter Shilton",
+   "pos": "GK",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1986"
+  },
+  {
+   "id": "p240",
+   "name": "Paul Gascoigne",
+   "pos": "MID",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 83,
+   "rarity": "rare",
+   "era": "1990"
+  },
+  {
+   "id": "p241",
+   "name": "Michael Owen",
+   "pos": "FWD",
+   "nation": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p242",
+   "name": "Ruud Gullit",
+   "pos": "MID",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 89,
+   "rarity": "legend",
+   "era": "1990"
+  },
+  {
+   "id": "p243",
+   "name": "Johan Neeskens",
+   "pos": "MID",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 84,
+   "rarity": "epic",
+   "era": "1974"
+  },
+  {
+   "id": "p244",
+   "name": "Ruud Krol",
+   "pos": "DEF",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1974"
+  },
+  {
+   "id": "p245",
+   "name": "Johnny Rep",
+   "pos": "FWD",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1974"
+  },
+  {
+   "id": "p246",
+   "name": "Ronald Koeman",
+   "pos": "DEF",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "1994"
+  },
+  {
+   "id": "p247",
+   "name": "Wim Jongbloed",
+   "pos": "GK",
+   "nation": "Netherlands",
+   "flag": "🇳🇱",
+   "rating": 72,
+   "rarity": "common",
+   "era": "1974"
+  },
+  {
+   "id": "p248",
+   "name": "Luis Suárez",
+   "pos": "FWD",
+   "nation": "Uruguay",
+   "flag": "🇺🇾",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2010"
+  },
+  {
+   "id": "p249",
+   "name": "Diego Forlán",
+   "pos": "FWD",
+   "nation": "Uruguay",
+   "flag": "🇺🇾",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "2010"
+  },
+  {
+   "id": "p250",
+   "name": "Alcides Ghiggia",
+   "pos": "FWD",
+   "nation": "Uruguay",
+   "flag": "🇺🇾",
+   "rating": 83,
+   "rarity": "rare",
+   "era": "1950"
+  },
+  {
+   "id": "p251",
+   "name": "Diego Godín",
+   "pos": "DEF",
+   "nation": "Uruguay",
+   "flag": "🇺🇾",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2014"
+  },
+  {
+   "id": "p252",
+   "name": "Luka Modrić",
+   "pos": "MID",
+   "nation": "Croatia",
+   "flag": "🇭🇷",
+   "rating": 90,
+   "rarity": "legend",
+   "era": "2018"
+  },
+  {
+   "id": "p253",
+   "name": "Davor Šuker",
+   "pos": "FWD",
+   "nation": "Croatia",
+   "flag": "🇭🇷",
+   "rating": 82,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p254",
+   "name": "Ivan Rakitić",
+   "pos": "MID",
+   "nation": "Croatia",
+   "flag": "🇭🇷",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p255",
+   "name": "Mario Mandžukić",
+   "pos": "FWD",
+   "nation": "Croatia",
+   "flag": "🇭🇷",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2018"
+  },
+  {
+   "id": "p256",
+   "name": "Robert Lewandowski",
+   "pos": "FWD",
+   "nation": "Poland",
+   "flag": "🇵🇱",
+   "rating": 90,
+   "rarity": "legend",
+   "era": "2022"
+  },
+  {
+   "id": "p257",
+   "name": "Zbigniew Boniek",
+   "pos": "MID",
+   "nation": "Poland",
+   "flag": "🇵🇱",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1982"
+  },
+  {
+   "id": "p258",
+   "name": "Grzegorz Lato",
+   "pos": "FWD",
+   "nation": "Poland",
+   "flag": "🇵🇱",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1974"
+  },
+  {
+   "id": "p259",
+   "name": "Zlatan Ibrahimović",
+   "pos": "FWD",
+   "nation": "Sweden",
+   "flag": "🇸🇪",
+   "rating": 87,
+   "rarity": "epic",
+   "era": "2006"
+  },
+  {
+   "id": "p260",
+   "name": "Henrik Larsson",
+   "pos": "FWD",
+   "nation": "Sweden",
+   "flag": "🇸🇪",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p261",
+   "name": "Tomas Brolin",
+   "pos": "FWD",
+   "nation": "Sweden",
+   "flag": "🇸🇪",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1994"
+  },
+  {
+   "id": "p262",
+   "name": "Hugo Sánchez",
+   "pos": "FWD",
+   "nation": "Mexico",
+   "flag": "🇲🇽",
+   "rating": 78,
+   "rarity": "rare",
+   "era": "1986"
+  },
+  {
+   "id": "p263",
+   "name": "Rafael Márquez",
+   "pos": "DEF",
+   "nation": "Mexico",
+   "flag": "🇲🇽",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "p264",
+   "name": "Jorge Campos",
+   "pos": "GK",
+   "nation": "Mexico",
+   "flag": "🇲🇽",
+   "rating": 74,
+   "rarity": "common",
+   "era": "1994"
+  },
+  {
+   "id": "p265",
+   "name": "Sadio Mané",
+   "pos": "FWD",
+   "nation": "Senegal",
+   "flag": "🇸🇳",
+   "rating": 86,
+   "rarity": "epic",
+   "era": "2018"
+  },
+  {
+   "id": "p266",
+   "name": "Kalidou Koulibaly",
+   "pos": "DEF",
+   "nation": "Senegal",
+   "flag": "🇸🇳",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2018"
+  },
+  {
+   "id": "p267",
+   "name": "El Hadji Diouf",
+   "pos": "FWD",
+   "nation": "Senegal",
+   "flag": "🇸🇳",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2002"
+  },
+  {
+   "id": "p268",
+   "name": "Édouard Mendy",
+   "pos": "GK",
+   "nation": "Senegal",
+   "flag": "🇸🇳",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p269",
+   "name": "Jay-Jay Okocha",
+   "pos": "MID",
+   "nation": "Nigeria",
+   "flag": "🇳🇬",
+   "rating": 79,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p270",
+   "name": "Nwankwo Kanu",
+   "pos": "FWD",
+   "nation": "Nigeria",
+   "flag": "🇳🇬",
+   "rating": 75,
+   "rarity": "common",
+   "era": "1998"
+  },
+  {
+   "id": "p271",
+   "name": "Vincent Enyeama",
+   "pos": "GK",
+   "nation": "Nigeria",
+   "flag": "🇳🇬",
+   "rating": 74,
+   "rarity": "common",
+   "era": "2014"
+  },
+  {
+   "id": "p272",
+   "name": "Hidetoshi Nakata",
+   "pos": "MID",
+   "nation": "Japan",
+   "flag": "🇯🇵",
+   "rating": 77,
+   "rarity": "rare",
+   "era": "1998"
+  },
+  {
+   "id": "p273",
+   "name": "Keisuke Honda",
+   "pos": "MID",
+   "nation": "Japan",
+   "flag": "🇯🇵",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2010"
+  },
+  {
+   "id": "p274",
+   "name": "Kaoru Mitoma",
+   "pos": "FWD",
+   "nation": "Japan",
+   "flag": "🇯🇵",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2022"
+  },
+  {
+   "id": "p275",
+   "name": "Michael Essien",
+   "pos": "MID",
+   "nation": "Ghana",
+   "flag": "🇬🇭",
+   "rating": 80,
+   "rarity": "rare",
+   "era": "2006"
+  },
+  {
+   "id": "p276",
+   "name": "Asamoah Gyan",
+   "pos": "FWD",
+   "nation": "Ghana",
+   "flag": "🇬🇭",
+   "rating": 75,
+   "rarity": "common",
+   "era": "2010"
+  },
+  {
+   "id": "p277",
+   "name": "Stephen Appiah",
+   "pos": "MID",
+   "nation": "Ghana",
+   "flag": "🇬🇭",
+   "rating": 73,
+   "rarity": "common",
+   "era": "2006"
+  },
+  {
+   "id": "n001",
+   "kind": "nation",
+   "name": "Brésil",
+   "nation": "Brazil",
+   "rarity": "legend"
+  },
+  {
+   "id": "n002",
+   "kind": "nation",
+   "name": "France",
+   "nation": "France",
+   "rarity": "legend"
+  },
+  {
+   "id": "n003",
+   "kind": "nation",
+   "name": "Allemagne",
+   "nation": "Germany",
+   "rarity": "legend"
+  },
+  {
+   "id": "n004",
+   "kind": "nation",
+   "name": "Argentine",
+   "nation": "Argentina",
+   "rarity": "legend"
+  },
+  {
+   "id": "n005",
+   "kind": "nation",
+   "name": "Italie",
+   "nation": "Italy",
+   "rarity": "epic"
+  },
+  {
+   "id": "n006",
+   "kind": "nation",
+   "name": "Espagne",
+   "nation": "Spain",
+   "rarity": "epic"
+  },
+  {
+   "id": "n007",
+   "kind": "nation",
+   "name": "Angleterre",
+   "nation": "England",
+   "rarity": "epic"
+  },
+  {
+   "id": "n008",
+   "kind": "nation",
+   "name": "Pays-Bas",
+   "nation": "Netherlands",
+   "rarity": "epic"
+  },
+  {
+   "id": "n009",
+   "kind": "nation",
+   "name": "Uruguay",
+   "nation": "Uruguay",
+   "rarity": "epic"
+  },
+  {
+   "id": "n010",
+   "kind": "nation",
+   "name": "Portugal",
+   "nation": "Portugal",
+   "rarity": "rare"
+  },
+  {
+   "id": "n011",
+   "kind": "nation",
+   "name": "Belgique",
+   "nation": "Belgium",
+   "rarity": "rare"
+  },
+  {
+   "id": "n012",
+   "kind": "nation",
+   "name": "Croatie",
+   "nation": "Croatia",
+   "rarity": "rare"
+  },
+  {
+   "id": "n013",
+   "kind": "nation",
+   "name": "Maroc",
+   "nation": "Morocco",
+   "rarity": "rare"
+  },
+  {
+   "id": "n014",
+   "kind": "nation",
+   "name": "Suède",
+   "nation": "Sweden",
+   "rarity": "rare"
+  },
+  {
+   "id": "n015",
+   "kind": "nation",
+   "name": "Mexique",
+   "nation": "Mexico",
+   "rarity": "rare"
+  },
+  {
+   "id": "n016",
+   "kind": "nation",
+   "name": "Pologne",
+   "nation": "Poland",
+   "rarity": "common"
+  },
+  {
+   "id": "n017",
+   "kind": "nation",
+   "name": "Suisse",
+   "nation": "Switzerland",
+   "rarity": "common"
+  },
+  {
+   "id": "n018",
+   "kind": "nation",
+   "name": "Japon",
+   "nation": "Japan",
+   "rarity": "common"
+  },
+  {
+   "id": "n019",
+   "kind": "nation",
+   "name": "Nigéria",
+   "nation": "Nigeria",
+   "rarity": "common"
+  },
+  {
+   "id": "n020",
+   "kind": "nation",
+   "name": "Ghana",
+   "nation": "Ghana",
+   "rarity": "common"
+  },
+  {
+   "id": "n021",
+   "kind": "nation",
+   "name": "Sénégal",
+   "nation": "Senegal",
+   "rarity": "common"
+  },
+  {
+   "id": "n022",
+   "kind": "nation",
+   "name": "Irlande",
+   "nation": "Ireland",
+   "rarity": "common"
+  },
+  {
+   "id": "k001",
+   "kind": "club",
+   "name": "Paris Saint-Germain",
+   "short": "PSG",
+   "colors": [
+    "#004170",
+    "#da291c"
+   ],
+   "crest": "shield",
+   "country": "France",
+   "rarity": "epic"
+  },
+  {
+   "id": "k002",
+   "kind": "club",
+   "name": "Olympique de Marseille",
+   "short": "OM",
+   "colors": [
+    "#2faee0",
+    "#ffffff"
+   ],
+   "crest": "round",
+   "country": "France",
+   "rarity": "rare"
+  },
+  {
+   "id": "k003",
+   "kind": "club",
+   "name": "Olympique Lyonnais",
+   "short": "OL",
+   "colors": [
+    "#1d3f8f",
+    "#d6001c"
+   ],
+   "crest": "diamond",
+   "country": "France",
+   "rarity": "rare"
+  },
+  {
+   "id": "k004",
+   "kind": "club",
+   "name": "AS Monaco",
+   "short": "ASM",
+   "colors": [
+    "#e2001a",
+    "#ffffff"
+   ],
+   "crest": "stripes",
+   "country": "France",
+   "rarity": "common"
+  },
+  {
+   "id": "k005",
+   "kind": "club",
+   "name": "Real Madrid",
+   "short": "RMA",
+   "colors": [
+    "#f8fafc",
+    "#1e3a8a"
+   ],
+   "crest": "round",
+   "country": "Espagne",
+   "rarity": "legend"
+  },
+  {
+   "id": "k006",
+   "kind": "club",
+   "name": "FC Barcelone",
+   "short": "BAR",
+   "colors": [
+    "#a50044",
+    "#004d98"
+   ],
+   "crest": "stripes",
+   "country": "Espagne",
+   "rarity": "legend"
+  },
+  {
+   "id": "k007",
+   "kind": "club",
+   "name": "Atlético de Madrid",
+   "short": "ATM",
+   "colors": [
+    "#cb3524",
+    "#272e61"
+   ],
+   "crest": "stripes",
+   "country": "Espagne",
+   "rarity": "rare"
+  },
+  {
+   "id": "k008",
+   "kind": "club",
+   "name": "Manchester United",
+   "short": "MUN",
+   "colors": [
+    "#da291c",
+    "#fbe122"
+   ],
+   "crest": "shield",
+   "country": "Angleterre",
+   "rarity": "epic"
+  },
+  {
+   "id": "k009",
+   "kind": "club",
+   "name": "Liverpool",
+   "short": "LIV",
+   "colors": [
+    "#c8102e",
+    "#f6eb61"
+   ],
+   "crest": "shield",
+   "country": "Angleterre",
+   "rarity": "epic"
+  },
+  {
+   "id": "k010",
+   "kind": "club",
+   "name": "Arsenal",
+   "short": "ARS",
+   "colors": [
+    "#ef0107",
+    "#ffffff"
+   ],
+   "crest": "round",
+   "country": "Angleterre",
+   "rarity": "rare"
+  },
+  {
+   "id": "k011",
+   "kind": "club",
+   "name": "Chelsea",
+   "short": "CHE",
+   "colors": [
+    "#034694",
+    "#ffffff"
+   ],
+   "crest": "round",
+   "country": "Angleterre",
+   "rarity": "rare"
+  },
+  {
+   "id": "k012",
+   "kind": "club",
+   "name": "Manchester City",
+   "short": "MCI",
+   "colors": [
+    "#6cabdd",
+    "#ffffff"
+   ],
+   "crest": "diamond",
+   "country": "Angleterre",
+   "rarity": "epic"
+  },
+  {
+   "id": "k013",
+   "kind": "club",
+   "name": "Juventus",
+   "short": "JUV",
+   "colors": [
+    "#111111",
+    "#ffffff"
+   ],
+   "crest": "stripes",
+   "country": "Italie",
+   "rarity": "epic"
+  },
+  {
+   "id": "k014",
+   "kind": "club",
+   "name": "AC Milan",
+   "short": "MIL",
+   "colors": [
+    "#fb090b",
+    "#111111"
+   ],
+   "crest": "stripes",
+   "country": "Italie",
+   "rarity": "epic"
+  },
+  {
+   "id": "k015",
+   "kind": "club",
+   "name": "Inter Milan",
+   "short": "INT",
+   "colors": [
+    "#0068a8",
+    "#111111"
+   ],
+   "crest": "stripes",
+   "country": "Italie",
+   "rarity": "epic"
+  },
+  {
+   "id": "k016",
+   "kind": "club",
+   "name": "SSC Naples",
+   "short": "NAP",
+   "colors": [
+    "#12a0d7",
+    "#ffffff"
+   ],
+   "crest": "round",
+   "country": "Italie",
+   "rarity": "common"
+  },
+  {
+   "id": "k017",
+   "kind": "club",
+   "name": "Bayern Munich",
+   "short": "BAY",
+   "colors": [
+    "#dc052d",
+    "#0066b2"
+   ],
+   "crest": "round",
+   "country": "Allemagne",
+   "rarity": "legend"
+  },
+  {
+   "id": "k018",
+   "kind": "club",
+   "name": "Borussia Dortmund",
+   "short": "BVB",
+   "colors": [
+    "#fde100",
+    "#111111"
+   ],
+   "crest": "diamond",
+   "country": "Allemagne",
+   "rarity": "rare"
+  },
+  {
+   "id": "k019",
+   "kind": "club",
+   "name": "FC Porto",
+   "short": "POR",
+   "colors": [
+    "#003399",
+    "#ffffff"
+   ],
+   "crest": "stripes",
+   "country": "Portugal",
+   "rarity": "rare"
+  },
+  {
+   "id": "k020",
+   "kind": "club",
+   "name": "Benfica",
+   "short": "BEN",
+   "colors": [
+    "#e30613",
+    "#ffffff"
+   ],
+   "crest": "shield",
+   "country": "Portugal",
+   "rarity": "rare"
+  },
+  {
+   "id": "k021",
+   "kind": "club",
+   "name": "Sporting Portugal",
+   "short": "SCP",
+   "colors": [
+    "#00805a",
+    "#ffffff"
+   ],
+   "crest": "stripes",
+   "country": "Portugal",
+   "rarity": "common"
+  },
+  {
+   "id": "k022",
+   "kind": "club",
+   "name": "Ajax Amsterdam",
+   "short": "AJX",
+   "colors": [
+    "#d2122e",
+    "#ffffff"
+   ],
+   "crest": "shield",
+   "country": "Pays-Bas",
+   "rarity": "rare"
+  },
+  {
+   "id": "k023",
+   "kind": "club",
+   "name": "PSV Eindhoven",
+   "short": "PSV",
+   "colors": [
+    "#e30613",
+    "#ffffff"
+   ],
+   "crest": "round",
+   "country": "Pays-Bas",
+   "rarity": "common"
+  },
+  {
+   "id": "k024",
+   "kind": "club",
+   "name": "Feyenoord",
+   "short": "FEY",
+   "colors": [
+    "#e4002b",
+    "#ffffff"
+   ],
+   "crest": "diamond",
+   "country": "Pays-Bas",
+   "rarity": "common"
   }
  ]
 }

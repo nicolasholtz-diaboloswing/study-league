@@ -1,0 +1,1417 @@
+{
+  "topic": "maths-fractions",
+  "questions": [
+    {
+      "id": "ma-fra-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans la fraction 3/4, comment s'appelle le nombre 4 ?",
+      "choices": [
+        "Le dénominateur",
+        "Le quotient",
+        "Le reste",
+        "Le numérateur"
+      ],
+      "answer": "Le dénominateur",
+      "explain": "Le nombre du bas d'une fraction est le dénominateur."
+    },
+    {
+      "id": "ma-fra-002",
+      "level": 1,
+      "type": "input",
+      "prompt": "Dans la fraction 5/8, comment s'appelle le nombre 5 ? (numérateur / dénominateur)",
+      "answer": [
+        "numérateur"
+      ],
+      "explain": "Le nombre du haut d'une fraction est le numérateur."
+    },
+    {
+      "id": "ma-fra-003",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle fraction est égale à 3 ÷ 4 ?",
+      "choices": [
+        "4/5",
+        "3/4",
+        "3/8",
+        "3/5"
+      ],
+      "answer": "3/4",
+      "explain": "Une fraction est un quotient : 3 ÷ 4 = 3/4."
+    },
+    {
+      "id": "ma-fra-004",
+      "level": 1,
+      "type": "input",
+      "prompt": "Quelle fraction est égale à 5 ÷ 9 ?",
+      "answer": [
+        "5/9"
+      ],
+      "explain": "5 ÷ 9 = 5/9."
+    },
+    {
+      "id": "ma-fra-005",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris 1/2 sous forme décimale.",
+      "answer": [
+        "0,5",
+        "0.5"
+      ],
+      "explain": "1 ÷ 2 = 0,5."
+    },
+    {
+      "id": "ma-fra-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Écris 1/4 sous forme décimale.",
+      "choices": [
+        "0,35",
+        "0,75",
+        "0,25",
+        "0,5"
+      ],
+      "answer": "0,25",
+      "explain": "1 ÷ 4 = 0,25."
+    },
+    {
+      "id": "ma-fra-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Écris 3/4 sous forme décimale.",
+      "choices": [
+        "0,075",
+        "1,5",
+        "0,65",
+        "0,75"
+      ],
+      "answer": "0,75",
+      "explain": "3 ÷ 4 = 0,75."
+    },
+    {
+      "id": "ma-fra-008",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris 1/10 sous forme décimale.",
+      "answer": [
+        "0,1",
+        "0.1"
+      ],
+      "explain": "1 ÷ 10 = 0,1."
+    },
+    {
+      "id": "ma-fra-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Écris 3/10 sous forme décimale.",
+      "choices": [
+        "0,4",
+        "0,3",
+        "0,03",
+        "0,8"
+      ],
+      "answer": "0,3",
+      "explain": "3 ÷ 10 = 0,3."
+    },
+    {
+      "id": "ma-fra-010",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète : 1/4 = .../12",
+      "answer": [
+        "3"
+      ],
+      "explain": "On multiplie le dénominateur par 3 (4 × 3 = 12), donc le numérateur aussi : 1 × 3 = 3."
+    },
+    {
+      "id": "ma-fra-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète : 7/8 = .../24",
+      "answer": [
+        "21"
+      ],
+      "explain": "On multiplie le dénominateur par 3 (8 × 3 = 24), donc le numérateur aussi : 7 × 3 = 21."
+    },
+    {
+      "id": "ma-fra-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Complète : 2/9 = .../27",
+      "answer": [
+        "6"
+      ],
+      "explain": "On multiplie le dénominateur par 3 (9 × 3 = 27), donc le numérateur aussi : 2 × 3 = 6."
+    },
+    {
+      "id": "ma-fra-013",
+      "level": 1,
+      "type": "input",
+      "prompt": "Compare 2/7 et 5/7. (< / >)",
+      "answer": [
+        "<"
+      ],
+      "explain": "Même dénominateur : on compare les numérateurs : 2/7 < 5/7."
+    },
+    {
+      "id": "ma-fra-014",
+      "level": 1,
+      "type": "input",
+      "prompt": "Compare 9/5 et 4/5. (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "Même dénominateur : on compare les numérateurs : 9/5 > 4/5."
+    },
+    {
+      "id": "ma-fra-015",
+      "level": 1,
+      "type": "input",
+      "prompt": "Compare 5/6 et 5/9. (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "Même numérateur : la plus grande fraction est celle qui a le plus petit dénominateur : 5/6 > 5/9."
+    },
+    {
+      "id": "ma-fra-016",
+      "level": 1,
+      "type": "input",
+      "prompt": "Compare 7/3 et 7/2. (< / >)",
+      "answer": [
+        "<"
+      ],
+      "explain": "Même numérateur : la plus grande fraction est celle qui a le plus petit dénominateur : 7/3 < 7/2."
+    },
+    {
+      "id": "ma-fra-017",
+      "level": 1,
+      "type": "input",
+      "prompt": "Compare 9/7 et 1. (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "9/7 > 1 : le numérateur est plus grand que le dénominateur."
+    },
+    {
+      "id": "ma-fra-018",
+      "level": 1,
+      "type": "input",
+      "prompt": "Compare 5/4 et 1. (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "5/4 > 1 : le numérateur est plus grand que le dénominateur."
+    },
+    {
+      "id": "ma-fra-019",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 3/5 + 4/5 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "7/5"
+      ],
+      "explain": "Même dénominateur : on additionne les numérateurs, 3 + 4 = 7, donc 7/5."
+    },
+    {
+      "id": "ma-fra-020",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 5/9 + 2/9 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "7/9"
+      ],
+      "explain": "Même dénominateur : on additionne les numérateurs, 5 + 2 = 7, donc 7/9."
+    },
+    {
+      "id": "ma-fra-021",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 3/5 + 2/5 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "1",
+        "0",
+        "4",
+        "10"
+      ],
+      "answer": "1",
+      "explain": "Même dénominateur : on additionne les numérateurs, 3 + 2 = 5, donc 5/5 = 1."
+    },
+    {
+      "id": "ma-fra-022",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 5/6 − 1/6 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "2/3"
+      ],
+      "explain": "On soustrait les numérateurs : 5 − 1 = 4, donc 4/6."
+    },
+    {
+      "id": "ma-fra-023",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 4/5 − 1/5 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "3/5",
+        "4/5",
+        "2/5",
+        "3/4"
+      ],
+      "answer": "3/5",
+      "explain": "On soustrait les numérateurs : 4 − 1 = 3, donc 3/5."
+    },
+    {
+      "id": "ma-fra-024",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Calcule 1/3 de 18.",
+      "choices": [
+        "9",
+        "8",
+        "6",
+        "3"
+      ],
+      "answer": "6",
+      "explain": "On divise par 3 : 18 ÷ 3 = 6."
+    },
+    {
+      "id": "ma-fra-025",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 1/4 de 12.",
+      "answer": [
+        "3"
+      ],
+      "explain": "On divise par 4 : 12 ÷ 4 = 3."
+    },
+    {
+      "id": "ma-fra-026",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 1/5 de 45.",
+      "answer": [
+        "9"
+      ],
+      "explain": "On divise par 5 : 45 ÷ 5 = 9."
+    },
+    {
+      "id": "ma-fra-027",
+      "level": 1,
+      "type": "input",
+      "prompt": "Calcule 1/2 de 38.",
+      "answer": [
+        "19"
+      ],
+      "explain": "On divise par 2 : 38 ÷ 2 = 19."
+    },
+    {
+      "id": "ma-fra-028",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris 1/4 sous forme de pourcentage (donne seulement le nombre, sans le signe %).",
+      "answer": [
+        "25"
+      ],
+      "explain": "1/4 = 25/100 = 25 %."
+    },
+    {
+      "id": "ma-fra-029",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris 1/10 sous forme de pourcentage (donne seulement le nombre, sans le signe %).",
+      "answer": [
+        "10"
+      ],
+      "explain": "1/10 = 10/100 = 10 %."
+    },
+    {
+      "id": "ma-fra-030",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète : 9 × 4/9 = ...",
+      "answer": [
+        "4"
+      ],
+      "explain": "9 × 4/9 = 4 : multiplier par 9 puis diviser par 9 ne change rien."
+    },
+    {
+      "id": "ma-fra-031",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : 2 × 5/2 = ...",
+      "choices": [
+        "6",
+        "2",
+        "5",
+        "7"
+      ],
+      "answer": "5",
+      "explain": "2 × 5/2 = 5 : multiplier par 2 puis diviser par 2 ne change rien."
+    },
+    {
+      "id": "ma-fra-032",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : 5 × 6/5 = ...",
+      "choices": [
+        "8",
+        "5",
+        "7",
+        "6"
+      ],
+      "answer": "6",
+      "explain": "5 × 6/5 = 6 : multiplier par 5 puis diviser par 5 ne change rien."
+    },
+    {
+      "id": "ma-fra-033",
+      "level": 2,
+      "type": "input",
+      "prompt": "Peut-on écrire une fraction avec un numérateur plus grand que son dénominateur ? (oui / non)",
+      "answer": [
+        "oui"
+      ],
+      "explain": "Par exemple 7/4 : c'est un nombre plus grand que 1."
+    },
+    {
+      "id": "ma-fra-034",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 1/5 sous forme décimale.",
+      "answer": [
+        "0,2",
+        "0.2"
+      ],
+      "explain": "1 ÷ 5 = 0,2."
+    },
+    {
+      "id": "ma-fra-035",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Écris 2/5 sous forme décimale.",
+      "choices": [
+        "0,4",
+        "0,9",
+        "1,4",
+        "0,3"
+      ],
+      "answer": "0,4",
+      "explain": "2 ÷ 5 = 0,4."
+    },
+    {
+      "id": "ma-fra-036",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 5/2 sous forme décimale.",
+      "answer": [
+        "2,5",
+        "2.5"
+      ],
+      "explain": "5 ÷ 2 = 2,5."
+    },
+    {
+      "id": "ma-fra-037",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Écris 9/4 sous forme décimale.",
+      "choices": [
+        "3,25",
+        "2,25",
+        "1,25",
+        "2,75"
+      ],
+      "answer": "2,25",
+      "explain": "9 ÷ 4 = 2,25."
+    },
+    {
+      "id": "ma-fra-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Écris 7/5 sous forme décimale.",
+      "choices": [
+        "0,4",
+        "1,5",
+        "1,9",
+        "1,4"
+      ],
+      "answer": "1,4",
+      "explain": "7 ÷ 5 = 1,4."
+    },
+    {
+      "id": "ma-fra-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Écris 0,25 sous la forme d'une fraction simplifiée.",
+      "choices": [
+        "1/3",
+        "1/4",
+        "3/4",
+        "1/8"
+      ],
+      "answer": "1/4",
+      "explain": "0,25 = 1/4."
+    },
+    {
+      "id": "ma-fra-040",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 0,6 sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "3/5"
+      ],
+      "explain": "0,6 = 3/5."
+    },
+    {
+      "id": "ma-fra-041",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 0,75 sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "3/4"
+      ],
+      "explain": "0,75 = 3/4."
+    },
+    {
+      "id": "ma-fra-042",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 0,2 sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "1/5"
+      ],
+      "explain": "0,2 = 1/5."
+    },
+    {
+      "id": "ma-fra-043",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 1,5 sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "3/2"
+      ],
+      "explain": "1,5 = 3/2."
+    },
+    {
+      "id": "ma-fra-044",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle fraction est égale à 0,5 ?",
+      "choices": [
+        "1/5",
+        "1/2",
+        "5/100",
+        "2/5"
+      ],
+      "answer": "1/2",
+      "explain": "0,5 = 5/10 = 1/2."
+    },
+    {
+      "id": "ma-fra-045",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : 2/3 = .../15",
+      "choices": [
+        "7",
+        "11",
+        "8",
+        "10"
+      ],
+      "answer": "10",
+      "explain": "On multiplie le dénominateur par 5 (3 × 5 = 15), donc le numérateur aussi : 2 × 5 = 10."
+    },
+    {
+      "id": "ma-fra-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète : 5/6 = .../24",
+      "answer": [
+        "20"
+      ],
+      "explain": "On multiplie le dénominateur par 4 (6 × 4 = 24), donc le numérateur aussi : 5 × 4 = 20."
+    },
+    {
+      "id": "ma-fra-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : 3/4 = 12/...",
+      "choices": [
+        "19",
+        "16",
+        "14",
+        "18"
+      ],
+      "answer": "16",
+      "explain": "On multiplie le numérateur par 4 (3 × 4 = 12), donc le dénominateur aussi : 4 × 4 = 16."
+    },
+    {
+      "id": "ma-fra-048",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : 5/3 = 15/...",
+      "choices": [
+        "9",
+        "7",
+        "11",
+        "8"
+      ],
+      "answer": "9",
+      "explain": "On multiplie le numérateur par 3 (5 × 3 = 15), donc le dénominateur aussi : 3 × 3 = 9."
+    },
+    {
+      "id": "ma-fra-049",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : 2/7 = 14/...",
+      "choices": [
+        "51",
+        "49",
+        "52",
+        "47"
+      ],
+      "answer": "49",
+      "explain": "On multiplie le numérateur par 7 (2 × 7 = 14), donc le dénominateur aussi : 7 × 7 = 49."
+    },
+    {
+      "id": "ma-fra-050",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Complète : 4/5 = 20/...",
+      "choices": [
+        "27",
+        "23",
+        "25",
+        "26"
+      ],
+      "answer": "25",
+      "explain": "On multiplie le numérateur par 5 (4 × 5 = 20), donc le dénominateur aussi : 5 × 5 = 25."
+    },
+    {
+      "id": "ma-fra-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Simplifie la fraction 4/8 au maximum.",
+      "choices": [
+        "2/3",
+        "1/4",
+        "1/3",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explain": "On divise le numérateur et le dénominateur par 4 : 4/8 = 1/2."
+    },
+    {
+      "id": "ma-fra-052",
+      "level": 2,
+      "type": "input",
+      "prompt": "Simplifie la fraction 6/9 au maximum.",
+      "answer": [
+        "2/3"
+      ],
+      "explain": "On divise le numérateur et le dénominateur par 3 : 6/9 = 2/3."
+    },
+    {
+      "id": "ma-fra-053",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Simplifie la fraction 12/16 au maximum.",
+      "choices": [
+        "3/5",
+        "4/5",
+        "3/8",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "explain": "On divise le numérateur et le dénominateur par 4 : 12/16 = 3/4."
+    },
+    {
+      "id": "ma-fra-054",
+      "level": 2,
+      "type": "input",
+      "prompt": "On multiplie le numérateur et le dénominateur d'une fraction par le même nombre non nul. La fraction change-t-elle de valeur ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "On obtient une fraction égale : par exemple 1/2 = 2/4 = 3/6."
+    },
+    {
+      "id": "ma-fra-055",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Laquelle de ces fractions n'est pas égale à 2/3 ?",
+      "choices": [
+        "4/6",
+        "10/15",
+        "20/30",
+        "6/10"
+      ],
+      "answer": "6/10",
+      "explain": "4/6, 10/15 et 20/30 valent 2/3 ; 6/10 = 3/5."
+    },
+    {
+      "id": "ma-fra-056",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Laquelle de ces fractions est égale à 3/4 ?",
+      "choices": [
+        "7/8",
+        "9/12",
+        "4/3",
+        "6/10"
+      ],
+      "answer": "9/12",
+      "explain": "9/12 = 3/4 (on divise par 3)."
+    },
+    {
+      "id": "ma-fra-057",
+      "level": 2,
+      "type": "input",
+      "prompt": "Les fractions 3/5 et 5/8 sont-elles égales ? (oui / non)",
+      "answer": [
+        "non"
+      ],
+      "explain": "3/5 = 0,6 et 5/8 = 0,625 : elles sont différentes."
+    },
+    {
+      "id": "ma-fra-058",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare 2/3 et 3/4. (< / >)",
+      "answer": [
+        "<"
+      ],
+      "explain": "Au même dénominateur 12 : 8/12 et 9/12, donc 2/3 < 3/4."
+    },
+    {
+      "id": "ma-fra-059",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare 5/8 et 3/4. (< / >)",
+      "answer": [
+        "<"
+      ],
+      "explain": "Au même dénominateur 8 : 5/8 et 6/8, donc 5/8 < 3/4."
+    },
+    {
+      "id": "ma-fra-060",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare 7/12 et 1/2. (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "Au même dénominateur 12 : 7/12 et 6/12, donc 7/12 > 1/2."
+    },
+    {
+      "id": "ma-fra-061",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare 5/9 et 1/2. (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "5/9 > 1/2 : la moitié de 9 est 4,5 et le numérateur 5 est plus grand."
+    },
+    {
+      "id": "ma-fra-062",
+      "level": 2,
+      "type": "input",
+      "prompt": "Compare 4/7 et 1/2. (< / >)",
+      "answer": [
+        ">"
+      ],
+      "explain": "4/7 > 1/2 : la moitié de 7 est 3,5 et le numérateur 4 est plus grand."
+    },
+    {
+      "id": "ma-fra-063",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la plus petite de ces fractions ?",
+      "choices": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "2/5"
+      ],
+      "answer": "1/4",
+      "explain": "Plus le dénominateur est grand, plus 1/n est petit : 1/4 est la plus petite (1/4 < 2/5 car 0,25 < 0,4)."
+    },
+    {
+      "id": "ma-fra-064",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans quel ordre croissant sont rangées 1/2 ; 1/3 ; 1/4 ?",
+      "choices": [
+        "1/2 ; 1/3 ; 1/4",
+        "1/4 ; 1/3 ; 1/2",
+        "1/3 ; 1/4 ; 1/2",
+        "1/4 ; 1/2 ; 1/3"
+      ],
+      "answer": "1/4 ; 1/3 ; 1/2",
+      "explain": "Plus le dénominateur est grand, plus la fraction 1/n est petite."
+    },
+    {
+      "id": "ma-fra-065",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On écrit 17/5 = ... + .../5 avec une fraction inférieure à 1. Quel est l'entier ?",
+      "choices": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": "3",
+      "explain": "17 = 5 × 3 + 2, donc 17/5 = 3 + 2/5."
+    },
+    {
+      "id": "ma-fra-066",
+      "level": 2,
+      "type": "input",
+      "prompt": "On écrit 7/2 = ... + .../2 avec une fraction inférieure à 1. Quel est l'entier ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "7 = 2 × 3 + 1, donc 7/2 = 3 + 1/2."
+    },
+    {
+      "id": "ma-fra-067",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On écrit 13/3 = ... + .../3 avec une fraction inférieure à 1. Quel est l'entier ?",
+      "choices": [
+        "7",
+        "6",
+        "4",
+        "1"
+      ],
+      "answer": "4",
+      "explain": "13 = 3 × 4 + 1, donc 13/3 = 4 + 1/3."
+    },
+    {
+      "id": "ma-fra-068",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On écrit 23/10 = ... + .../10 avec une fraction inférieure à 1. Quel est l'entier ?",
+      "choices": [
+        "4",
+        "0",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "explain": "23 = 10 × 2 + 3, donc 23/10 = 2 + 3/10."
+    },
+    {
+      "id": "ma-fra-069",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "On écrit 17/5 = 3 + .../5. Quel est le numérateur de la fraction ?",
+      "choices": [
+        "1",
+        "5",
+        "2",
+        "4"
+      ],
+      "answer": "2",
+      "explain": "17/5 = 3 + 2/5 car 17 = 5 × 3 + 2."
+    },
+    {
+      "id": "ma-fra-070",
+      "level": 2,
+      "type": "input",
+      "prompt": "On écrit 11/4 = 2 + .../4. Quel est le numérateur de la fraction ?",
+      "answer": [
+        "3"
+      ],
+      "explain": "11/4 = 2 + 3/4 car 11 = 4 × 2 + 3."
+    },
+    {
+      "id": "ma-fra-071",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 1 + 2/5 sous la forme d'une seule fraction.",
+      "answer": [
+        "7/5"
+      ],
+      "explain": "1 = 5/5, donc 1 + 2/5 = 7/5."
+    },
+    {
+      "id": "ma-fra-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Écris 3 + 1/2 sous la forme d'une seule fraction.",
+      "choices": [
+        "8/3",
+        "9/2",
+        "2/7",
+        "7/2"
+      ],
+      "answer": "7/2",
+      "explain": "3 = 6/2, donc 3 + 1/2 = 7/2."
+    },
+    {
+      "id": "ma-fra-073",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 2 + 1/6 sous la forme d'une seule fraction.",
+      "answer": [
+        "13/6"
+      ],
+      "explain": "2 = 12/6, donc 2 + 1/6 = 13/6."
+    },
+    {
+      "id": "ma-fra-074",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 9/10 − 4/10 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "1/4",
+        "1/3",
+        "2/3",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explain": "On soustrait les numérateurs : 9 − 4 = 5, donc 5/10."
+    },
+    {
+      "id": "ma-fra-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 8/7 − 3/7 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "4/7",
+        "5/8",
+        "5/7",
+        "5/14"
+      ],
+      "answer": "5/7",
+      "explain": "On soustrait les numérateurs : 8 − 3 = 5, donc 5/7."
+    },
+    {
+      "id": "ma-fra-076",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 1/3 + 1/6 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "1/3",
+        "1/2",
+        "2/3",
+        "1/4"
+      ],
+      "answer": "1/2",
+      "explain": "Au dénominateur 6 : 2/6 + 1/6 = 3/6 = 1/2."
+    },
+    {
+      "id": "ma-fra-077",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 2/3 + 1/6 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "5/6"
+      ],
+      "explain": "Au dénominateur 6 : 4/6 + 1/6 = 5/6."
+    },
+    {
+      "id": "ma-fra-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 3/10 + 1/5 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "Au dénominateur 10 : 3/10 + 2/10 = 5/10 = 1/2."
+    },
+    {
+      "id": "ma-fra-079",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 5/6 − 1/3 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "2/3",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "answer": "1/2",
+      "explain": "Au dénominateur 6 : 5/6 − 2/6 = 3/6 = 1/2."
+    },
+    {
+      "id": "ma-fra-080",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 7/10 − 2/5 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "3/10"
+      ],
+      "explain": "Au dénominateur 10 : 7/10 − 4/10 = 3/10."
+    },
+    {
+      "id": "ma-fra-081",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 1 − 1/4 (donne le résultat sous forme de fraction).",
+      "answer": [
+        "3/4"
+      ],
+      "explain": "1 = 4/4, donc 1 − 1/4 = 3/4."
+    },
+    {
+      "id": "ma-fra-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 3 + 2/5 + 1/5. Donne le résultat sous forme de fraction.",
+      "choices": [
+        "19/5",
+        "5/18",
+        "19/6",
+        "18/5"
+      ],
+      "answer": "18/5",
+      "explain": "3 + 3/5 = 15/5 + 3/5 = 18/5."
+    },
+    {
+      "id": "ma-fra-083",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 3/4 de 20.",
+      "answer": [
+        "15"
+      ],
+      "explain": "On divise par 4 : 20 ÷ 4 = 5, puis on multiplie par 3 : 15."
+    },
+    {
+      "id": "ma-fra-084",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 1/10 de 70.",
+      "answer": [
+        "7"
+      ],
+      "explain": "On divise par 10 : 70 ÷ 10 = 7."
+    },
+    {
+      "id": "ma-fra-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 3/5 de 25.",
+      "answer": [
+        "15"
+      ],
+      "explain": "On divise par 5 : 25 ÷ 5 = 5, puis on multiplie par 3 : 15."
+    },
+    {
+      "id": "ma-fra-086",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Calcule 2/3 de 24.",
+      "choices": [
+        "16",
+        "18",
+        "17",
+        "13"
+      ],
+      "answer": "16",
+      "explain": "On divise par 3 : 24 ÷ 3 = 8, puis on multiplie par 2 : 16."
+    },
+    {
+      "id": "ma-fra-087",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 5/6 de 36.",
+      "answer": [
+        "30"
+      ],
+      "explain": "On divise par 6 : 36 ÷ 6 = 6, puis on multiplie par 5 : 30."
+    },
+    {
+      "id": "ma-fra-088",
+      "level": 2,
+      "type": "input",
+      "prompt": "Calcule 7/10 de 50.",
+      "answer": [
+        "35"
+      ],
+      "explain": "On divise par 10 : 50 ÷ 10 = 5, puis on multiplie par 7 : 35."
+    },
+    {
+      "id": "ma-fra-089",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Prendre les 3/4 d'une quantité, c'est :",
+      "choices": [
+        "la diviser par 3 puis multiplier par 4",
+        "la multiplier par 4 puis diviser par 3",
+        "la diviser par 4 puis multiplier par 3",
+        "lui retrancher 3/4"
+      ],
+      "answer": "la diviser par 4 puis multiplier par 3",
+      "explain": "On cherche 1/4 (division par 4) puis 3 fois ce quart."
+    },
+    {
+      "id": "ma-fra-090",
+      "level": 2,
+      "type": "input",
+      "prompt": "Un match dure 90 minutes. Combien de minutes représentent 2/3 du match ?",
+      "answer": [
+        "60"
+      ],
+      "explain": "90 ÷ 3 = 30, puis 30 × 2 = 60."
+    },
+    {
+      "id": "ma-fra-091",
+      "level": 2,
+      "type": "input",
+      "prompt": "Dans une tribune de 60 places, 3/5 sont occupées. Combien de places sont libres ?",
+      "answer": [
+        "24"
+      ],
+      "explain": "3/5 de 60 = 36 places occupées, donc 60 − 36 = 24 places libres."
+    },
+    {
+      "id": "ma-fra-092",
+      "level": 2,
+      "type": "input",
+      "prompt": "Léo a mangé 1/4 d'un gâteau, puis Inès 1/2 du gâteau. Quelle fraction du gâteau reste-t-il ?",
+      "answer": [
+        "1/4"
+      ],
+      "explain": "1/4 + 1/2 = 3/4 mangés, il reste 1 − 3/4 = 1/4."
+    },
+    {
+      "id": "ma-fra-093",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 1/5 sous forme de pourcentage (donne seulement le nombre, sans le signe %).",
+      "answer": [
+        "20"
+      ],
+      "explain": "1/5 = 20/100 = 20 %."
+    },
+    {
+      "id": "ma-fra-094",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 50 % sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "1/2"
+      ],
+      "explain": "50 % = 50/100 = 1/2."
+    },
+    {
+      "id": "ma-fra-095",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 20 % sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "1/5"
+      ],
+      "explain": "20 % = 20/100 = 1/5."
+    },
+    {
+      "id": "ma-fra-096",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris 60 % sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "3/5"
+      ],
+      "explain": "60 % = 60/100 = 3/5."
+    },
+    {
+      "id": "ma-fra-097",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Parmi ces écritures, laquelle ne vaut pas 1,2 ?",
+      "choices": [
+        "120 %",
+        "12/100",
+        "6/5",
+        "1 + 1/5"
+      ],
+      "answer": "12/100",
+      "explain": "1,2 = 12/10 = 6/5 = 1 + 1/5 = 120 % ; 12/100 = 0,12."
+    },
+    {
+      "id": "ma-fra-098",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Parmi ces écritures, laquelle vaut 0,75 ?",
+      "choices": [
+        "7,5 %",
+        "3/4",
+        "0,075",
+        "7/5"
+      ],
+      "answer": "3/4",
+      "explain": "0,75 = 75/100 = 3/4 = 75 %."
+    },
+    {
+      "id": "ma-fra-099",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une droite graduée en quarts, un point est situé à 3 graduations après le nombre 1. Quelle est son abscisse (écris une fraction) ?",
+      "choices": [
+        "7/8",
+        "8/5",
+        "7/4",
+        "7/3"
+      ],
+      "answer": "7/4",
+      "explain": "1 = 4/4, puis 3 quarts de plus : 4/4 + 3/4 = 7/4."
+    },
+    {
+      "id": "ma-fra-100",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une droite graduée en demis, un point est situé à 5 graduations après 0. Quelle est son abscisse sous forme décimale ?",
+      "choices": [
+        "1,5",
+        "3,5",
+        "3",
+        "2,5"
+      ],
+      "answer": "2,5",
+      "explain": "5 demis valent 5/2 = 2,5."
+    },
+    {
+      "id": "ma-fra-101",
+      "level": 2,
+      "type": "input",
+      "prompt": "Sur une droite graduée en tiers, un point est situé à 2 graduations après le nombre 2. Quelle est son abscisse (écris une fraction) ?",
+      "answer": [
+        "8/3"
+      ],
+      "explain": "2 = 6/3, puis 2 tiers de plus : 6/3 + 2/3 = 8/3."
+    },
+    {
+      "id": "ma-fra-102",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Sur une droite graduée en dixièmes, A est situé à 7 graduations après 0. Quelle est son abscisse sous forme décimale ?",
+      "choices": [
+        "0,7",
+        "0,2",
+        "1,2",
+        "1,4"
+      ],
+      "answer": "0,7",
+      "explain": "7 dixièmes : 7/10 = 0,7."
+    },
+    {
+      "id": "ma-fra-103",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris 0,05 sous la forme d'une fraction simplifiée.",
+      "answer": [
+        "1/20"
+      ],
+      "explain": "0,05 = 1/20."
+    },
+    {
+      "id": "ma-fra-104",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle fraction n'est pas égale à 0,2 ?",
+      "choices": [
+        "2/5",
+        "1/5",
+        "20/100",
+        "2/10"
+      ],
+      "answer": "2/5",
+      "explain": "2/5 = 0,4 alors que 1/5 = 2/10 = 20/100 = 0,2."
+    },
+    {
+      "id": "ma-fra-105",
+      "level": 3,
+      "type": "input",
+      "prompt": "Simplifie la fraction 18/24 au maximum.",
+      "answer": [
+        "3/4"
+      ],
+      "explain": "On divise le numérateur et le dénominateur par 6 : 18/24 = 3/4."
+    },
+    {
+      "id": "ma-fra-106",
+      "level": 3,
+      "type": "input",
+      "prompt": "Simplifie la fraction 15/25 au maximum.",
+      "answer": [
+        "3/5"
+      ],
+      "explain": "On divise le numérateur et le dénominateur par 5 : 15/25 = 3/5."
+    },
+    {
+      "id": "ma-fra-107",
+      "level": 3,
+      "type": "input",
+      "prompt": "Simplifie la fraction 16/40 au maximum.",
+      "answer": [
+        "2/5"
+      ],
+      "explain": "On divise le numérateur et le dénominateur par 8 : 16/40 = 2/5."
+    },
+    {
+      "id": "ma-fra-108",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans quel ordre croissant sont rangées 3/4 ; 2/3 ; 5/6 ?",
+      "choices": [
+        "3/4 ; 2/3 ; 5/6",
+        "2/3 ; 5/6 ; 3/4",
+        "2/3 ; 3/4 ; 5/6",
+        "5/6 ; 3/4 ; 2/3"
+      ],
+      "answer": "2/3 ; 3/4 ; 5/6",
+      "explain": "Au dénominateur 12 : 8/12 ; 9/12 ; 10/12."
+    },
+    {
+      "id": "ma-fra-109",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle fraction est comprise entre 1/2 et 1 ?",
+      "choices": [
+        "1/4",
+        "3/8",
+        "2/5",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "explain": "3/4 = 0,75 est entre 0,5 et 1 ; les autres sont plus petits que 1/2."
+    },
+    {
+      "id": "ma-fra-110",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 1/2 + 2/5 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "10/11",
+        "9/10",
+        "9/11",
+        "9/20"
+      ],
+      "answer": "9/10",
+      "explain": "Au dénominateur 10 : 5/10 + 4/10 = 9/10."
+    },
+    {
+      "id": "ma-fra-111",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule 5/6 − 1/4 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "7/12"
+      ],
+      "explain": "Au dénominateur 12 : 10/12 − 3/12 = 7/12."
+    },
+    {
+      "id": "ma-fra-112",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Calcule 2/3 − 1/4 (donne le résultat sous forme de fraction simplifiée).",
+      "choices": [
+        "5/11",
+        "7/12",
+        "5/12",
+        "5/13"
+      ],
+      "answer": "5/12",
+      "explain": "Au dénominateur 12 : 8/12 − 3/12 = 5/12."
+    },
+    {
+      "id": "ma-fra-113",
+      "level": 3,
+      "type": "input",
+      "prompt": "Calcule 3/4 − 1/6 (donne le résultat sous forme de fraction simplifiée).",
+      "answer": [
+        "7/12"
+      ],
+      "explain": "Au dénominateur 12 : 9/12 − 2/12 = 7/12."
+    },
+    {
+      "id": "ma-fra-114",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur 40 tirs, un attaquant en a marqué 3/8. Combien de buts a-t-il marqués ?",
+      "answer": [
+        "15"
+      ],
+      "explain": "40 ÷ 8 = 5, puis 5 × 3 = 15."
+    },
+    {
+      "id": "ma-fra-115",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Il reste 15 pages à lire, ce qui représente 3/8 d'un livre. Combien de pages a ce livre ?",
+      "choices": [
+        "37",
+        "38",
+        "40",
+        "43"
+      ],
+      "answer": "40",
+      "explain": "3/8 du livre valent 15 pages, donc 1/8 vaut 5 pages et 8/8 valent 40 pages."
+    },
+    {
+      "id": "ma-fra-116",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Les 2/5 d'une somme valent 12 euros. Quelle est la somme entière en euros ?",
+      "choices": [
+        "32",
+        "27",
+        "30",
+        "33"
+      ],
+      "answer": "30",
+      "explain": "1/5 vaut 6 euros, donc 5/5 valent 30 euros."
+    },
+    {
+      "id": "ma-fra-117",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Un joueur a marqué 1/5 des buts de l'équipe, un autre 3/10. Quelle fraction des buts ont-ils marquée à eux deux (fraction simplifiée) ?",
+      "choices": [
+        "1/2",
+        "2/3",
+        "1/4",
+        "1/3"
+      ],
+      "answer": "1/2",
+      "explain": "1/5 = 2/10, donc 2/10 + 3/10 = 5/10 = 1/2."
+    },
+    {
+      "id": "ma-fra-118",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Au premier tour, un coureur parcourt 1/4 du trajet, au deuxième 1/3. Quelle fraction du trajet lui reste-t-il (fraction) ?",
+      "choices": [
+        "5/12",
+        "6/13",
+        "5/11",
+        "5/13"
+      ],
+      "answer": "5/12",
+      "explain": "1/4 + 1/3 = 3/12 + 4/12 = 7/12 ; il reste 12/12 − 7/12 = 5/12."
+    },
+    {
+      "id": "ma-fra-119",
+      "level": 3,
+      "type": "input",
+      "prompt": "Sur une droite graduée en quarts, A a pour abscisse 5/4. Combien de graduations le séparent de 0 ?",
+      "answer": [
+        "5"
+      ],
+      "explain": "5/4 = 5 fois un quart : 5 graduations."
+    },
+    {
+      "id": "ma-fra-120",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quel est le milieu de 1/2 et 1 ? (écris une fraction)",
+      "answer": [
+        "3/4"
+      ],
+      "explain": "Entre 2/4 et 4/4, le milieu est 3/4."
+    }
+  ]
+}

@@ -25,3 +25,4 @@ Repère au 22/11/2026 : le site publié pèse 1,1 Mo et le repo 2,4 Mo. Le proje
 - [ ] Changer son mot de passe depuis le profil (aujourd'hui impossible, et pas de réinitialisation par e-mail).
 - [ ] Matières suivantes : maths, physique, SVT, chinois (YCT2).
 - [ ] Durcir les adversaires de District si la montée devient trop automatique.
+- [ ] Équipes u14 (4e) et u15 (3e) : créer les deux équipes et leurs contenus de maths à partir du programme officiel du cycle 4 (`exemple-mise-en-oeuvre-c4-mathematiques`, parties Quatrième et Troisième). Demande de modifier et redéployer `firestore.rules`, qui n'accepte aujourd'hui que `u10` et `u13`, ainsi que le test de contenu.

@@ -1,0 +1,1893 @@
+{
+  "topic": "fr-gn-phrase-discours",
+  "questions": [
+    {
+      "id": "fr-gpd-001",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Un groupe nominal minimal est formé de :",
+      "choices": [
+        "un nom et un adjectif",
+        "un déterminant et un nom",
+        "un sujet et un verbe",
+        "une préposition et un nom"
+      ],
+      "answer": "un déterminant et un nom",
+      "explain": "Le groupe nominal minimal est composé d'un déterminant et d'un nom : « le ballon »."
+    },
+    {
+      "id": "fr-gpd-002",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on le nom principal d'un groupe nominal, autour duquel s'organisent les autres mots ?",
+      "choices": [
+        "le nom propre",
+        "l'antécédent",
+        "le nom noyau",
+        "le complément du nom"
+      ],
+      "answer": "le nom noyau",
+      "explain": "Le nom noyau est le nom principal du groupe nominal."
+    },
+    {
+      "id": "fr-gpd-003",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le nom noyau du groupe nominal « un ballon neuf » (un mot).",
+      "answer": [
+        "ballon"
+      ],
+      "explain": "Le nom noyau est « ballon » ; « un » est le déterminant et « neuf » une expansion."
+    },
+    {
+      "id": "fr-gpd-004",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel groupe est un groupe nominal minimal ?",
+      "choices": [
+        "le stade",
+        "le stade de Lyon",
+        "le grand stade",
+        "le stade qui brille"
+      ],
+      "answer": "le stade",
+      "explain": "« le stade » se réduit à un déterminant et un nom, sans expansion."
+    },
+    {
+      "id": "fr-gpd-005",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel groupe est un groupe nominal étendu ?",
+      "choices": [
+        "le maillot",
+        "le maillot rouge",
+        "un joueur",
+        "ce stade"
+      ],
+      "answer": "le maillot rouge",
+      "explain": "« rouge » est une expansion : le groupe est étendu."
+    },
+    {
+      "id": "fr-gpd-006",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de l'expansion « courageux » dans « le gardien courageux » ?",
+      "choices": [
+        "complément du nom",
+        "proposition subordonnée relative",
+        "adjectif épithète",
+        "attribut du sujet"
+      ],
+      "answer": "adjectif épithète",
+      "explain": "« courageux » est un adjectif accolé au nom : épithète."
+    },
+    {
+      "id": "fr-gpd-007",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de l'expansion « de l'arbitre » dans « le sifflet de l'arbitre » ?",
+      "choices": [
+        "adjectif épithète",
+        "proposition subordonnée relative",
+        "complément circonstanciel de lieu",
+        "complément du nom"
+      ],
+      "answer": "complément du nom",
+      "explain": "Le groupe « de l'arbitre » précise le nom « sifflet » : complément du nom."
+    },
+    {
+      "id": "fr-gpd-008",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de l'expansion « qui joue gardien » dans « le garçon qui joue gardien » ?",
+      "choices": [
+        "proposition subordonnée relative",
+        "adjectif épithète",
+        "complément du nom",
+        "proposition subordonnée de cause"
+      ],
+      "answer": "proposition subordonnée relative",
+      "explain": "Elle commence par le pronom relatif « qui » et complète le nom « garçon »."
+    },
+    {
+      "id": "fr-gpd-009",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot est le déterminant dans « les petits joueurs » ?",
+      "choices": [
+        "petits",
+        "les",
+        "joueurs",
+        "petits joueurs"
+      ],
+      "answer": "les",
+      "explain": "« les » est l'article défini qui accompagne le nom noyau."
+    },
+    {
+      "id": "fr-gpd-010",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une expansion du nom ?",
+      "choices": [
+        "un mot qui remplace le nom",
+        "un mot qui accompagne le verbe",
+        "un mot ou un groupe de mots qui complète le nom noyau",
+        "le verbe qui suit le groupe nominal"
+      ],
+      "answer": "un mot ou un groupe de mots qui complète le nom noyau",
+      "explain": "Les expansions (épithète, complément du nom, relative) précisent le nom noyau."
+    },
+    {
+      "id": "fr-gpd-011",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris l'adjectif épithète dans « une équipe invaincue » (un mot).",
+      "answer": [
+        "invaincue"
+      ],
+      "explain": "« invaincue » est un adjectif qui complète le nom « équipe »."
+    },
+    {
+      "id": "fr-gpd-012",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le complément du nom dans « un sac de sport » (2 mots).",
+      "answer": [
+        "de sport"
+      ],
+      "explain": "« de sport » complète le nom « sac »."
+    },
+    {
+      "id": "fr-gpd-013",
+      "level": 2,
+      "type": "input",
+      "prompt": "Combien d'expansions le nom noyau a-t-il dans « le grand stade de la ville » ? (un chiffre)",
+      "answer": [
+        "2",
+        "deux"
+      ],
+      "explain": "« grand » (épithète) et « de la ville » (complément du nom)."
+    },
+    {
+      "id": "fr-gpd-014",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le groupe nominal minimal de « un jeune attaquant de notre équipe » ?",
+      "choices": [
+        "un jeune attaquant",
+        "attaquant de notre équipe",
+        "un attaquant",
+        "jeune attaquant"
+      ],
+      "answer": "un attaquant",
+      "explain": "On supprime les expansions « jeune » et « de notre équipe »."
+    },
+    {
+      "id": "fr-gpd-015",
+      "level": 2,
+      "type": "input",
+      "prompt": "Réduis au groupe nominal minimal : « une belle passe de Léa » (2 mots).",
+      "answer": [
+        "une passe"
+      ],
+      "explain": "On garde le déterminant et le nom noyau : « une passe »."
+    },
+    {
+      "id": "fr-gpd-016",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel est le nom noyau de « le cri des supporters » ?",
+      "choices": [
+        "cri",
+        "supporters",
+        "le",
+        "des"
+      ],
+      "answer": "cri",
+      "explain": "« des supporters » est une expansion ; le noyau est « cri »."
+    },
+    {
+      "id": "fr-gpd-017",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le nom noyau du groupe nominal « les grands buts de Léa » (un mot).",
+      "answer": [
+        "buts"
+      ],
+      "explain": "Le noyau est « buts » ; « grands » et « de Léa » sont des expansions."
+    },
+    {
+      "id": "fr-gpd-018",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « Les chiens du voisin aboient », avec quel mot le verbe s'accorde-t-il ?",
+      "choices": [
+        "voisin",
+        "du",
+        "chiens",
+        "Les"
+      ],
+      "answer": "chiens",
+      "explain": "Le verbe s'accorde avec le nom noyau du groupe sujet : « chiens »."
+    },
+    {
+      "id": "fr-gpd-019",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec le verbe aboyer au présent : Les chiens du voisin ___ . (un mot)",
+      "answer": [
+        "aboient"
+      ],
+      "explain": "Le noyau « chiens » est au pluriel : « aboient »."
+    },
+    {
+      "id": "fr-gpd-020",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Pourquoi écrit-on « Le cri des supporters résonne » avec « résonne » au singulier ?",
+      "choices": [
+        "parce que le verbe s'accorde avec le nom noyau « cri »",
+        "parce que le verbe s'accorde avec « supporters »",
+        "parce que « des » impose le singulier",
+        "parce que ce verbe est toujours au singulier"
+      ],
+      "answer": "parce que le verbe s'accorde avec le nom noyau « cri »",
+      "explain": "Le verbe s'accorde avec le noyau du groupe sujet, pas avec le nom de l'expansion."
+    },
+    {
+      "id": "fr-gpd-021",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « le ballon rouge de Léa », quelles sont les deux expansions du nom « ballon » ?",
+      "choices": [
+        "deux adjectifs épithètes",
+        "un adjectif épithète et un complément du nom",
+        "deux compléments du nom",
+        "un complément du nom et une proposition relative"
+      ],
+      "answer": "un adjectif épithète et un complément du nom",
+      "explain": "« rouge » est épithète ; « de Léa » est complément du nom."
+    },
+    {
+      "id": "fr-gpd-022",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le nom noyau du groupe qui est COD dans « La foule couvre la voix du speaker. » ?",
+      "choices": [
+        "speaker",
+        "foule",
+        "voix",
+        "couvre"
+      ],
+      "answer": "voix",
+      "explain": "Le COD est « la voix du speaker » ; son noyau est « voix »."
+    },
+    {
+      "id": "fr-gpd-023",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel est le groupe nominal minimal sujet de « Le gardien de notre équipe, que tout le monde admire, plonge. » ?",
+      "choices": [
+        "Le gardien de notre équipe",
+        "Notre équipe",
+        "Le gardien que tout le monde admire",
+        "Le gardien"
+      ],
+      "answer": "Le gardien",
+      "explain": "On supprime les deux expansions : « Le gardien »."
+    },
+    {
+      "id": "fr-gpd-024",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le nom noyau du groupe sujet (un mot) : Le maillot des joueurs est sale.",
+      "answer": [
+        "maillot"
+      ],
+      "explain": "Le groupe sujet est « Le maillot des joueurs » ; le noyau est « maillot »."
+    },
+    {
+      "id": "fr-gpd-025",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient un groupe nominal sujet avec deux expansions ?",
+      "choices": [
+        "Le chien aboie.",
+        "Le petit chien de mon voisin aboie.",
+        "Le chien de mon voisin aboie.",
+        "Le petit chien aboie."
+      ],
+      "answer": "Le petit chien de mon voisin aboie.",
+      "explain": "« petit » et « de mon voisin » sont deux expansions de « chien »."
+    },
+    {
+      "id": "fr-gpd-026",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Léa porte un maillot que son frère a choisi », de quel nom la proposition relative est-elle l'expansion ?",
+      "choices": [
+        "frère",
+        "Léa",
+        "maillot",
+        "un"
+      ],
+      "answer": "maillot",
+      "explain": "« que son frère a choisi » complète l'antécédent « maillot »."
+    },
+    {
+      "id": "fr-gpd-027",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Combien d'expansions le nom « gardien » a-t-il dans « un gardien courageux qui ne rate jamais un penalty » ?",
+      "choices": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "2",
+      "explain": "« courageux » (épithète) et « qui ne rate jamais un penalty » (relative)."
+    },
+    {
+      "id": "fr-gpd-028",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « le vieux stade où nous jouons », quelles sont les expansions du nom « stade » ?",
+      "choices": [
+        "un adjectif épithète et une proposition relative",
+        "deux adjectifs épithètes",
+        "un complément du nom et une proposition relative",
+        "un adjectif épithète et un complément du nom"
+      ],
+      "answer": "un adjectif épithète et une proposition relative",
+      "explain": "« vieux » est épithète ; « où nous jouons » est une proposition relative."
+    },
+    {
+      "id": "fr-gpd-029",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Combien d'expansions le nom « match » a-t-il dans « un grand match amical qui commence à midi » ?",
+      "choices": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": "3",
+      "explain": "« grand » et « amical » (épithètes), « qui commence à midi » (relative)."
+    },
+    {
+      "id": "fr-gpd-030",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase est correctement accordée ?",
+      "choices": [
+        "Le capitaine des joueurs entrent sur le terrain.",
+        "Les joueurs de l'équipe entre sur le terrain.",
+        "Le capitaine des joueurs entre sur le terrain.",
+        "Les joueurs de l'équipe entrons sur le terrain."
+      ],
+      "answer": "Le capitaine des joueurs entre sur le terrain.",
+      "explain": "Le verbe s'accorde avec le nom noyau du groupe sujet : « capitaine » (singulier) ou « joueurs » (pluriel)."
+    },
+    {
+      "id": "fr-gpd-031",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec le verbe retentir au présent : Les cris du public ___ . (un mot)",
+      "answer": [
+        "retentissent"
+      ],
+      "explain": "Le noyau « cris » est au pluriel : « retentissent »."
+    },
+    {
+      "id": "fr-gpd-032",
+      "level": 3,
+      "type": "input",
+      "prompt": "Complète avec le verbe aboyer au présent : Le chien des voisins ___ . (un mot)",
+      "answer": [
+        "aboie"
+      ],
+      "explain": "Le noyau est « chien » (singulier), pas « voisins »."
+    },
+    {
+      "id": "fr-gpd-033",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « Un panier de ballons roule sur la pelouse », quel mot détermine l'accord du verbe « roule » ?",
+      "choices": [
+        "ballons",
+        "panier",
+        "pelouse",
+        "roule"
+      ],
+      "answer": "panier",
+      "explain": "Le noyau du groupe sujet est « panier » : le verbe est au singulier."
+    },
+    {
+      "id": "fr-gpd-034",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « chacun » dans « Chacun reçoit son maillot. » ?",
+      "choices": [
+        "pronom personnel",
+        "pronom démonstratif",
+        "pronom indéfini",
+        "déterminant indéfini"
+      ],
+      "answer": "pronom indéfini",
+      "explain": "« chacun » remplace un groupe nominal sans le préciser : pronom indéfini."
+    },
+    {
+      "id": "fr-gpd-035",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « personne » dans « Personne ne connaît la réponse. » ?",
+      "choices": [
+        "déterminant indéfini",
+        "nom commun",
+        "pronom personnel",
+        "pronom indéfini"
+      ],
+      "answer": "pronom indéfini",
+      "explain": "Avec « ne », « personne » est un pronom indéfini sujet."
+    },
+    {
+      "id": "fr-gpd-036",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot est un pronom indéfini ?",
+      "choices": [
+        "quelqu'un",
+        "nous",
+        "celui",
+        "le sien"
+      ],
+      "answer": "quelqu'un",
+      "explain": "« quelqu'un » désigne une personne non précisée."
+    },
+    {
+      "id": "fr-gpd-037",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la différence entre un déterminant et un pronom ?",
+      "choices": [
+        "le pronom accompagne un nom ; le déterminant le remplace",
+        "le déterminant accompagne un nom ; le pronom remplace un nom ou un groupe nominal",
+        "le déterminant accompagne un verbe ; le pronom accompagne un adjectif",
+        "ils ont exactement le même rôle"
+      ],
+      "answer": "le déterminant accompagne un nom ; le pronom remplace un nom ou un groupe nominal",
+      "explain": "Le déterminant est placé devant un nom ; le pronom est employé à la place du nom."
+    },
+    {
+      "id": "fr-gpd-038",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « plusieurs » dans « Plusieurs joueurs sont blessés. » ?",
+      "choices": [
+        "pronom indéfini",
+        "adjectif qualificatif",
+        "déterminant indéfini",
+        "adverbe"
+      ],
+      "answer": "déterminant indéfini",
+      "explain": "« plusieurs » accompagne le nom « joueurs » : déterminant indéfini."
+    },
+    {
+      "id": "fr-gpd-039",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « plusieurs » dans « Plusieurs sont blessés. » ?",
+      "choices": [
+        "déterminant indéfini",
+        "adjectif qualificatif",
+        "pronom personnel",
+        "pronom indéfini"
+      ],
+      "answer": "pronom indéfini",
+      "explain": "Ici « plusieurs » n'accompagne aucun nom : c'est un pronom indéfini."
+    },
+    {
+      "id": "fr-gpd-040",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « certains » dans « Certains élèves aiment le sport. » ?",
+      "choices": [
+        "déterminant indéfini",
+        "pronom indéfini",
+        "déterminant démonstratif",
+        "adverbe"
+      ],
+      "answer": "déterminant indéfini",
+      "explain": "« certains » accompagne le nom « élèves »."
+    },
+    {
+      "id": "fr-gpd-041",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « certains » dans « Certains pensent que le match est truqué. » ?",
+      "choices": [
+        "déterminant indéfini",
+        "pronom indéfini",
+        "déterminant démonstratif",
+        "pronom personnel"
+      ],
+      "answer": "pronom indéfini",
+      "explain": "« certains » est sujet de « pensent » et n'accompagne aucun nom : pronom indéfini."
+    },
+    {
+      "id": "fr-gpd-042",
+      "level": 3,
+      "type": "input",
+      "prompt": "Quelle est la nature de « aucun » dans « Aucun joueur n'est blessé. » ? (réponse courte)",
+      "answer": [
+        "déterminant indéfini",
+        "déterminant",
+        "adjectif indéfini"
+      ],
+      "explain": "« aucun » accompagne le nom « joueur » : déterminant indéfini."
+    },
+    {
+      "id": "fr-gpd-043",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « aucun » dans « Aucun n'est blessé. » ?",
+      "choices": [
+        "déterminant indéfini",
+        "pronom personnel",
+        "adverbe",
+        "pronom indéfini"
+      ],
+      "answer": "pronom indéfini",
+      "explain": "Sans nom à accompagner, « aucun » est un pronom indéfini."
+    },
+    {
+      "id": "fr-gpd-044",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « tout » dans « Tout est prêt pour le match. » ?",
+      "choices": [
+        "pronom indéfini",
+        "déterminant indéfini",
+        "pronom personnel",
+        "déterminant démonstratif"
+      ],
+      "answer": "pronom indéfini",
+      "explain": "« tout » est le sujet de « est » : pronom indéfini."
+    },
+    {
+      "id": "fr-gpd-045",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le pronom indéfini (un mot) : Personne ne gagne sans effort.",
+      "answer": [
+        "personne"
+      ],
+      "explain": "« personne » est un pronom indéfini sujet."
+    },
+    {
+      "id": "fr-gpd-046",
+      "level": 2,
+      "type": "input",
+      "prompt": "Écris le pronom indéfini (un mot) : Plusieurs ont marqué ce soir.",
+      "answer": [
+        "plusieurs"
+      ],
+      "explain": "« plusieurs » est sujet de « ont marqué » : pronom indéfini."
+    },
+    {
+      "id": "fr-gpd-047",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient un pronom indéfini ?",
+      "choices": [
+        "Ce joueur siffle dans la rue.",
+        "Mon frère siffle dans la rue.",
+        "Nos voisins sifflent dans la rue.",
+        "Quelqu'un siffle dans la rue."
+      ],
+      "answer": "Quelqu'un siffle dans la rue.",
+      "explain": "« quelqu'un » est un pronom indéfini ; les autres sujets contiennent un déterminant."
+    },
+    {
+      "id": "fr-gpd-048",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « ce » dans « Ce ballon est neuf. » ?",
+      "choices": [
+        "déterminant démonstratif",
+        "pronom démonstratif",
+        "déterminant possessif",
+        "pronom personnel"
+      ],
+      "answer": "déterminant démonstratif",
+      "explain": "« ce » accompagne le nom « ballon » : déterminant démonstratif."
+    },
+    {
+      "id": "fr-gpd-049",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la nature de « ces » dans « Ces crampons sont boueux. » ? (réponse courte)",
+      "answer": [
+        "déterminant démonstratif",
+        "déterminant",
+        "adjectif démonstratif"
+      ],
+      "explain": "« ces » accompagne le nom « crampons »."
+    },
+    {
+      "id": "fr-gpd-050",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « celle » dans « Ma gourde est vide ; celle de Léa est pleine. » ?",
+      "choices": [
+        "pronom possessif",
+        "déterminant démonstratif",
+        "pronom démonstratif",
+        "pronom personnel"
+      ],
+      "answer": "pronom démonstratif",
+      "explain": "« celle » remplace « la gourde » : pronom démonstratif."
+    },
+    {
+      "id": "fr-gpd-051",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « cela » dans « Cela m'étonne beaucoup. » ?",
+      "choices": [
+        "déterminant démonstratif",
+        "pronom personnel",
+        "pronom indéfini",
+        "pronom démonstratif"
+      ],
+      "answer": "pronom démonstratif",
+      "explain": "« cela » désigne quelque chose sans accompagner de nom."
+    },
+    {
+      "id": "fr-gpd-052",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient un pronom démonstratif ?",
+      "choices": [
+        "Je préfère celles de Léa.",
+        "Ces chaussures sont neuves.",
+        "Cette passe est parfaite.",
+        "Cet entraîneur est sévère."
+      ],
+      "answer": "Je préfère celles de Léa.",
+      "explain": "« celles » remplace un nom ; « ces », « cette », « cet » accompagnent un nom."
+    },
+    {
+      "id": "fr-gpd-053",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris le pronom démonstratif (un mot) : Mes crampons sont sales, ceux de Léo sont propres.",
+      "answer": [
+        "ceux"
+      ],
+      "explain": "« ceux » remplace « les crampons » : pronom démonstratif."
+    },
+    {
+      "id": "fr-gpd-054",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « mon » dans « Mon maillot est bleu. » ?",
+      "choices": [
+        "pronom possessif",
+        "déterminant démonstratif",
+        "déterminant possessif",
+        "pronom personnel"
+      ],
+      "answer": "déterminant possessif",
+      "explain": "« mon » accompagne le nom « maillot » : déterminant possessif."
+    },
+    {
+      "id": "fr-gpd-055",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « le tien » dans « Voici mon sac ; où est le tien ? » ?",
+      "choices": [
+        "déterminant possessif",
+        "pronom personnel",
+        "pronom démonstratif",
+        "pronom possessif"
+      ],
+      "answer": "pronom possessif",
+      "explain": "« le tien » remplace « ton sac » : pronom possessif."
+    },
+    {
+      "id": "fr-gpd-056",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient un pronom possessif ?",
+      "choices": [
+        "La nôtre gagne souvent.",
+        "Leur équipe gagne souvent.",
+        "Nos amis gagnent souvent.",
+        "Votre place est ici."
+      ],
+      "answer": "La nôtre gagne souvent.",
+      "explain": "« La nôtre » remplace un nom ; les autres mots accompagnent un nom."
+    },
+    {
+      "id": "fr-gpd-057",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel connecteur exprime la cause ?",
+      "choices": [
+        "pourtant",
+        "car",
+        "ensuite",
+        "donc"
+      ],
+      "answer": "car",
+      "explain": "« car » introduit la cause : « Il pleure car il a perdu. »"
+    },
+    {
+      "id": "fr-gpd-058",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel connecteur exprime la conséquence ?",
+      "choices": [
+        "car",
+        "pourtant",
+        "donc",
+        "d'abord"
+      ],
+      "answer": "donc",
+      "explain": "« donc » introduit la conséquence d'un fait."
+    },
+    {
+      "id": "fr-gpd-059",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel connecteur exprime l'opposition ?",
+      "choices": [
+        "enfin",
+        "car",
+        "donc",
+        "pourtant"
+      ],
+      "answer": "pourtant",
+      "explain": "« pourtant » oppose deux idées."
+    },
+    {
+      "id": "fr-gpd-060",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Que marquent les connecteurs « d'abord », « ensuite » et « enfin » ?",
+      "choices": [
+        "la succession dans le temps",
+        "la cause",
+        "l'opposition",
+        "la conséquence"
+      ],
+      "answer": "la succession dans le temps",
+      "explain": "Ils ordonnent les actions dans le temps."
+    },
+    {
+      "id": "fr-gpd-061",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel rapport logique exprime « pourtant » dans « Léa est blessée ; pourtant elle joue. » ?",
+      "choices": [
+        "la cause",
+        "l'opposition",
+        "la conséquence",
+        "le temps"
+      ],
+      "answer": "l'opposition",
+      "explain": "Jouer malgré une blessure : les deux faits s'opposent."
+    },
+    {
+      "id": "fr-gpd-062",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel rapport logique exprime « donc » dans « Il pleut ; donc le match est annulé. » ?",
+      "choices": [
+        "la cause",
+        "l'opposition",
+        "la conséquence",
+        "le temps"
+      ],
+      "answer": "la conséquence",
+      "explain": "L'annulation est le résultat de la pluie."
+    },
+    {
+      "id": "fr-gpd-063",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel rapport logique exprime « en effet » dans « Léo est fatigué ; en effet, il a couru toute la journée. » ?",
+      "choices": [
+        "la conséquence",
+        "l'opposition",
+        "le temps",
+        "la cause"
+      ],
+      "answer": "la cause",
+      "explain": "Le deuxième fait explique le premier."
+    },
+    {
+      "id": "fr-gpd-064",
+      "level": 2,
+      "type": "input",
+      "prompt": "Choisis le bon connecteur : Il est petit, ___ il saute très haut. (donc / pourtant / car)",
+      "answer": [
+        "pourtant"
+      ],
+      "explain": "Être petit et sauter haut s'opposent."
+    },
+    {
+      "id": "fr-gpd-065",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel rapport logique exprime « cependant » dans « Nous avons perdu ; cependant, nous restons fiers. » ?",
+      "choices": [
+        "la conséquence",
+        "l'opposition",
+        "la cause",
+        "le temps"
+      ],
+      "answer": "l'opposition",
+      "explain": "Perdre et rester fiers s'opposent."
+    },
+    {
+      "id": "fr-gpd-066",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel connecteur convient : « Léa s'entraîne tous les jours, ___ elle progresse. » ?",
+      "choices": [
+        "pourtant",
+        "cependant",
+        "donc",
+        "toutefois"
+      ],
+      "answer": "donc",
+      "explain": "Les progrès sont la conséquence de l'entraînement."
+    },
+    {
+      "id": "fr-gpd-067",
+      "level": 1,
+      "type": "input",
+      "prompt": "Choisis le connecteur de la dernière action : D'abord Léa s'échauffe, ensuite elle tire, ___ elle marque. (enfin / d'abord / pourtant)",
+      "answer": [
+        "enfin"
+      ],
+      "explain": "« enfin » annonce la dernière étape."
+    },
+    {
+      "id": "fr-gpd-068",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel connecteur peut remplacer « mais » dans « Il est petit mais il est rapide » sans changer le rapport logique ?",
+      "choices": [
+        "cependant",
+        "donc",
+        "car",
+        "d'abord"
+      ],
+      "answer": "cependant",
+      "explain": "« mais » et « cependant » expriment tous deux l'opposition."
+    },
+    {
+      "id": "fr-gpd-069",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quels mots forment la négation dans « Il ne mange rien. » ?",
+      "choices": [
+        "ne… pas",
+        "ne… rien",
+        "il… rien",
+        "ne… jamais"
+      ],
+      "answer": "ne… rien",
+      "explain": "La négation est formée de « ne » et « rien » autour du verbe."
+    },
+    {
+      "id": "fr-gpd-070",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est à la forme négative ?",
+      "choices": [
+        "Il dit tout.",
+        "Il dit presque tout.",
+        "Il ne dit rien.",
+        "Il dit quelque chose."
+      ],
+      "answer": "Il ne dit rien.",
+      "explain": "« ne… rien » est une négation."
+    },
+    {
+      "id": "fr-gpd-071",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la forme négative de « Léa joue. » ?",
+      "choices": [
+        "Léa joue pas.",
+        "Léa ne joue.",
+        "Léa pas joue.",
+        "Léa ne joue pas."
+      ],
+      "answer": "Léa ne joue pas.",
+      "explain": "On entoure le verbe de « ne… pas »."
+    },
+    {
+      "id": "fr-gpd-072",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Que signifie « ne… plus » dans « Il ne joue plus. » ?",
+      "choices": [
+        "il jouait avant, mais il a arrêté",
+        "il n'a jamais joué",
+        "il joue un peu",
+        "personne ne joue"
+      ],
+      "answer": "il jouait avant, mais il a arrêté",
+      "explain": "« ne… plus » nie la poursuite d'une action."
+    },
+    {
+      "id": "fr-gpd-073",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la forme négative de « Quelqu'un attend devant la porte. » ?",
+      "choices": [
+        "Quelqu'un attend pas devant la porte.",
+        "Personne n'attend devant la porte.",
+        "Personne attend devant la porte.",
+        "Quelqu'un ne attend plus devant la porte."
+      ],
+      "answer": "Personne n'attend devant la porte.",
+      "explain": "« quelqu'un » devient « personne », accompagné de « ne »."
+    },
+    {
+      "id": "fr-gpd-074",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la forme négative de « Il mange du pain et du fromage. » ?",
+      "choices": [
+        "Il ne mange pas ni pain ni fromage.",
+        "Il ne mange pas pain et fromage.",
+        "Il ne mange ni pain ni fromage.",
+        "Il mange ni pain ni fromage."
+      ],
+      "answer": "Il ne mange ni pain ni fromage.",
+      "explain": "« et » devient « ni… ni » et « ne » se place devant le verbe."
+    },
+    {
+      "id": "fr-gpd-075",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la forme négative de « Il voit quelque chose. » ?",
+      "choices": [
+        "Il voit rien.",
+        "Il ne voit personne.",
+        "Il ne voit jamais.",
+        "Il ne voit rien."
+      ],
+      "answer": "Il ne voit rien.",
+      "explain": "« quelque chose » devient « rien »."
+    },
+    {
+      "id": "fr-gpd-076",
+      "level": 1,
+      "type": "input",
+      "prompt": "Recopie le mot qui accompagne « ne » dans la négation (un mot) : Il ne joue plus.",
+      "answer": [
+        "plus"
+      ],
+      "explain": "La négation est « ne… plus »."
+    },
+    {
+      "id": "fr-gpd-077",
+      "level": 1,
+      "type": "input",
+      "prompt": "Recopie le mot qui accompagne « n' » dans la négation (un mot) : Elle n'a jamais peur.",
+      "answer": [
+        "jamais"
+      ],
+      "explain": "La négation est « ne… jamais »."
+    },
+    {
+      "id": "fr-gpd-078",
+      "level": 2,
+      "type": "input",
+      "prompt": "Recopie le deuxième mot de la négation (un mot) : Nous n'avons vu personne.",
+      "answer": [
+        "personne"
+      ],
+      "explain": "La négation est « ne… personne »."
+    },
+    {
+      "id": "fr-gpd-079",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Où se placent « ne » et « pas » par rapport au verbe conjugué ?",
+      "choices": [
+        "« ne » et « pas » avant le verbe",
+        "« ne » et « pas » après le verbe",
+        "« pas » avant le verbe, « ne » après",
+        "« ne » avant le verbe, « pas » après"
+      ],
+      "answer": "« ne » avant le verbe, « pas » après",
+      "explain": "La négation entoure le verbe conjugué : ne + verbe + pas."
+    },
+    {
+      "id": "fr-gpd-080",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase n'est pas à la forme négative ?",
+      "choices": [
+        "Il joue toujours.",
+        "Personne ne joue.",
+        "Il ne joue jamais.",
+        "Il ne joue plus."
+      ],
+      "answer": "Il joue toujours.",
+      "explain": "« toujours » ne nie rien : forme affirmative."
+    },
+    {
+      "id": "fr-gpd-081",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est à la forme emphatique ?",
+      "choices": [
+        "Léa a marqué.",
+        "C'est Léa qui a marqué.",
+        "Léa a-t-elle marqué ?",
+        "Léa n'a pas marqué."
+      ],
+      "answer": "C'est Léa qui a marqué.",
+      "explain": "« C'est… qui » met « Léa » en valeur."
+    },
+    {
+      "id": "fr-gpd-082",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la forme emphatique de « Inès a marqué le but. » ?",
+      "choices": [
+        "Inès n'a pas marqué le but.",
+        "Inès a-t-elle marqué le but ?",
+        "C'est Inès qui a marqué le but.",
+        "Qui a marqué le but ?"
+      ],
+      "answer": "C'est Inès qui a marqué le but.",
+      "explain": "On encadre le sujet par « C'est… qui »."
+    },
+    {
+      "id": "fr-gpd-083",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel groupe est mis en valeur dans « C'est le gardien qui a arrêté le tir. » ?",
+      "choices": [
+        "le tir",
+        "a arrêté",
+        "qui",
+        "le gardien"
+      ],
+      "answer": "le gardien",
+      "explain": "Le groupe placé entre « c'est » et « qui » est mis en valeur."
+    },
+    {
+      "id": "fr-gpd-084",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelles expressions servent à mettre un groupe en valeur dans la forme emphatique ?",
+      "choices": [
+        "c'est… qui / c'est… que",
+        "ne… pas / ne… plus",
+        "est-ce que… ?",
+        "ni… ni"
+      ],
+      "answer": "c'est… qui / c'est… que",
+      "explain": "On encadre le groupe par « c'est » et « qui » ou « que »."
+    },
+    {
+      "id": "fr-gpd-085",
+      "level": 2,
+      "type": "input",
+      "prompt": "Choisis le bon mot : C'est Léa ___ a marqué. (qui / que)",
+      "answer": [
+        "qui"
+      ],
+      "explain": "« Léa » est le sujet de « a marqué » : on emploie « qui »."
+    },
+    {
+      "id": "fr-gpd-086",
+      "level": 3,
+      "type": "input",
+      "prompt": "Choisis le bon mot : C'est le ballon ___ Léo a tiré. (qui / que)",
+      "answer": [
+        "que"
+      ],
+      "explain": "« le ballon » est COD de « a tiré » : on emploie « que »."
+    },
+    {
+      "id": "fr-gpd-087",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la forme emphatique de « Les supporters chantent. » qui met le sujet en valeur ?",
+      "choices": [
+        "Les supporters chantent-ils ?",
+        "Les supporters ne chantent pas.",
+        "Que chantent les supporters ?",
+        "Ce sont les supporters qui chantent."
+      ],
+      "answer": "Ce sont les supporters qui chantent.",
+      "explain": "Avec un sujet pluriel, on emploie « Ce sont… qui »."
+    },
+    {
+      "id": "fr-gpd-088",
+      "level": 1,
+      "type": "input",
+      "prompt": "Cette phrase est-elle verbale ou non verbale ? Belle parade du gardien ! (verbale / non verbale)",
+      "answer": [
+        "non verbale"
+      ],
+      "explain": "Il n'y a aucun verbe conjugué."
+    },
+    {
+      "id": "fr-gpd-089",
+      "level": 1,
+      "type": "input",
+      "prompt": "Cette phrase est-elle verbale ou non verbale ? Le gardien fait une belle parade. (verbale / non verbale)",
+      "answer": [
+        "verbale"
+      ],
+      "explain": "« fait » est un verbe conjugué."
+    },
+    {
+      "id": "fr-gpd-090",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une phrase non verbale ?",
+      "choices": [
+        "une phrase sans sujet",
+        "une phrase à la forme négative",
+        "une phrase sans verbe conjugué",
+        "une phrase sans majuscule"
+      ],
+      "answer": "une phrase sans verbe conjugué",
+      "explain": "Une phrase non verbale ne contient aucun verbe conjugué."
+    },
+    {
+      "id": "fr-gpd-091",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est non verbale ?",
+      "choices": [
+        "La France gagne la finale.",
+        "Nous attendons le coup d'envoi.",
+        "Le public chante.",
+        "Victoire de la France en finale !"
+      ],
+      "answer": "Victoire de la France en finale !",
+      "explain": "Les autres phrases contiennent un verbe conjugué."
+    },
+    {
+      "id": "fr-gpd-092",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Comment analyser la phrase « Interdiction de fumer dans le stade. » ?",
+      "choices": [
+        "non verbale, car « fumer » est à l'infinitif",
+        "verbale, car « fumer » est un verbe",
+        "verbale, car elle a un sujet",
+        "non verbale, car elle n'a pas de nom"
+      ],
+      "answer": "non verbale, car « fumer » est à l'infinitif",
+      "explain": "Un infinitif n'est pas un verbe conjugué : la phrase est non verbale."
+    },
+    {
+      "id": "fr-gpd-093",
+      "level": 1,
+      "type": "input",
+      "prompt": "Cette phrase est-elle simple ou complexe ? Le public chante. (simple / complexe)",
+      "answer": [
+        "simple"
+      ],
+      "explain": "Un seul verbe conjugué."
+    },
+    {
+      "id": "fr-gpd-094",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Une phrase simple contient :",
+      "choices": [
+        "plusieurs verbes conjugués",
+        "aucun verbe conjugué",
+        "un seul verbe conjugué",
+        "un seul nom"
+      ],
+      "answer": "un seul verbe conjugué",
+      "explain": "Phrase simple = un seul verbe conjugué ; phrase complexe = plusieurs."
+    },
+    {
+      "id": "fr-gpd-095",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est complexe ?",
+      "choices": [
+        "Léa sourit après sa victoire.",
+        "Léa gagne le match.",
+        "Quelle belle victoire !",
+        "Léa sourit parce qu'elle a gagné."
+      ],
+      "answer": "Léa sourit parce qu'elle a gagné.",
+      "explain": "Deux verbes conjugués : « sourit » et « a gagné »."
+    },
+    {
+      "id": "fr-gpd-096",
+      "level": 2,
+      "type": "input",
+      "prompt": "Cette phrase est-elle simple ou complexe ? Léa pense que son équipe gagnera. (simple / complexe)",
+      "answer": [
+        "complexe"
+      ],
+      "explain": "Deux verbes conjugués : « pense » et « gagnera »."
+    },
+    {
+      "id": "fr-gpd-097",
+      "level": 2,
+      "type": "input",
+      "prompt": "Cette phrase est-elle simple ou complexe ? Le capitaine lève la coupe devant les supporters. (simple / complexe)",
+      "answer": [
+        "simple"
+      ],
+      "explain": "Un seul verbe conjugué : « lève »."
+    },
+    {
+      "id": "fr-gpd-098",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Comment analyser la phrase « Léa veut jouer. » ?",
+      "choices": [
+        "phrase complexe, car elle contient deux verbes",
+        "phrase non verbale",
+        "phrase simple, car « jouer » est à l'infinitif",
+        "phrase complexe, car elle a deux sujets"
+      ],
+      "answer": "phrase simple, car « jouer » est à l'infinitif",
+      "explain": "Seul « veut » est conjugué : la phrase est simple."
+    },
+    {
+      "id": "fr-gpd-099",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien de verbes conjugués y a-t-il dans « Léa a marqué deux buts. » ? (un chiffre)",
+      "answer": [
+        "1",
+        "un"
+      ],
+      "explain": "« a marqué » est un seul verbe conjugué au passé composé."
+    },
+    {
+      "id": "fr-gpd-100",
+      "level": 3,
+      "type": "input",
+      "prompt": "Combien de verbes conjugués y a-t-il dans « Les joueurs ont gagné et ils ont fêté la victoire. » ? (un chiffre)",
+      "answer": [
+        "2",
+        "deux"
+      ],
+      "explain": "« ont gagné » et « ont fêté »."
+    },
+    {
+      "id": "fr-gpd-101",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Comment analyser « Le coach nous demande de courir. » ?",
+      "choices": [
+        "phrase complexe : deux verbes conjugués",
+        "phrase simple : un seul verbe conjugué, « demande »",
+        "phrase non verbale",
+        "phrase complexe : trois verbes conjugués"
+      ],
+      "answer": "phrase simple : un seul verbe conjugué, « demande »",
+      "explain": "« courir » est à l'infinitif : un seul verbe conjugué."
+    },
+    {
+      "id": "fr-gpd-102",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est au discours direct ?",
+      "choices": [
+        "Le coach crie de courir plus vite.",
+        "Le coach crie que nous courons plus vite.",
+        "Le coach crie : « Courez plus vite ! »",
+        "Le coach se demande si nous courons vite."
+      ],
+      "answer": "Le coach crie : « Courez plus vite ! »",
+      "explain": "Les paroles sont rapportées telles quelles, avec deux-points et guillemets."
+    },
+    {
+      "id": "fr-gpd-103",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle phrase est au discours indirect ?",
+      "choices": [
+        "Léa dit : « Je suis fatiguée. »",
+        "« Je suis fatiguée », dit Léa.",
+        "Léa : « Je suis fatiguée ! »",
+        "Léa dit qu'elle est fatiguée."
+      ],
+      "answer": "Léa dit qu'elle est fatiguée.",
+      "explain": "Les paroles sont rapportées par le narrateur, après « que »."
+    },
+    {
+      "id": "fr-gpd-104",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quels signes de ponctuation introduisent et encadrent les paroles au discours direct ?",
+      "choices": [
+        "les deux-points et les guillemets",
+        "les points de suspension et les parenthèses",
+        "les virgules et les points-virgules",
+        "les parenthèses et les crochets"
+      ],
+      "answer": "les deux-points et les guillemets",
+      "explain": "On ouvre par deux-points, puis on met les paroles entre guillemets."
+    },
+    {
+      "id": "fr-gpd-105",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Dans un dialogue, quel signe indique le changement de personne qui parle ?",
+      "choices": [
+        "les parenthèses",
+        "le tiret",
+        "les deux-points",
+        "le point-virgule"
+      ],
+      "answer": "le tiret",
+      "explain": "Un tiret commence chaque réplique."
+    },
+    {
+      "id": "fr-gpd-106",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quel mot est un verbe de parole ?",
+      "choices": [
+        "courir",
+        "regarder",
+        "répondre",
+        "ranger"
+      ],
+      "answer": "répondre",
+      "explain": "« répondre » introduit ou accompagne des paroles."
+    },
+    {
+      "id": "fr-gpd-107",
+      "level": 1,
+      "type": "input",
+      "prompt": "Écris le verbe de parole (un mot) : « Je suis prêt », dit Léo.",
+      "answer": [
+        "dit"
+      ],
+      "explain": "« dit » indique qui parle."
+    },
+    {
+      "id": "fr-gpd-108",
+      "level": 1,
+      "type": "input",
+      "prompt": "Discours direct ou indirect ? Léo dit : « Il pleut. » (direct / indirect)",
+      "answer": [
+        "direct"
+      ],
+      "explain": "Les paroles sont entre guillemets, après deux-points."
+    },
+    {
+      "id": "fr-gpd-109",
+      "level": 1,
+      "type": "input",
+      "prompt": "Discours direct ou indirect ? Léo dit qu'il pleut. (direct / indirect)",
+      "answer": [
+        "indirect"
+      ],
+      "explain": "Les paroles sont introduites par « que », sans guillemets."
+    },
+    {
+      "id": "fr-gpd-110",
+      "level": 1,
+      "type": "input",
+      "prompt": "Recopie le verbe introducteur (un mot) : Léa annonce qu'elle part.",
+      "answer": [
+        "annonce"
+      ],
+      "explain": "« annonce » introduit les paroles rapportées."
+    },
+    {
+      "id": "fr-gpd-111",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans « Le match, dit le coach, commence à dix heures. », quelle est la proposition incise ?",
+      "choices": [
+        "Le match",
+        "commence à dix heures",
+        "Le match commence",
+        "dit le coach"
+      ],
+      "answer": "dit le coach",
+      "explain": "L'incise indique qui parle ; elle est encadrée par des virgules."
+    },
+    {
+      "id": "fr-gpd-112",
+      "level": 3,
+      "type": "input",
+      "prompt": "Écris la proposition incise (2 mots) : « Nous gagnerons, affirme Léa, ce soir. »",
+      "answer": [
+        "affirme Léa"
+      ],
+      "explain": "L'incise est « affirme Léa »."
+    },
+    {
+      "id": "fr-gpd-113",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "À quoi sert une proposition incise ?",
+      "choices": [
+        "à poser une question",
+        "à indiquer qui parle, au milieu ou à la fin des paroles",
+        "à exprimer une opposition",
+        "à remplacer le verbe de parole"
+      ],
+      "answer": "à indiquer qui parle, au milieu ou à la fin des paroles",
+      "explain": "L'incise contient un verbe de parole et son sujet."
+    },
+    {
+      "id": "fr-gpd-114",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la mise au discours indirect de « Léa dit : “Je suis prête.” » ?",
+      "choices": [
+        "Léa dit que je suis prête.",
+        "Léa dit : qu'elle est prête.",
+        "Léa dit qu'elle est prête.",
+        "Léa dit si elle est prête."
+      ],
+      "answer": "Léa dit qu'elle est prête.",
+      "explain": "« que » remplace les deux-points et « je » devient « elle »."
+    },
+    {
+      "id": "fr-gpd-115",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot introduit les paroles d'une phrase déclarative au discours indirect ?",
+      "choices": [
+        "si",
+        "qui",
+        "où",
+        "que"
+      ],
+      "answer": "que",
+      "explain": "Après un verbe comme « dit », on emploie « que »."
+    },
+    {
+      "id": "fr-gpd-116",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot introduit une question sans mot interrogatif au discours indirect (Léa demande … ) ?",
+      "choices": [
+        "si",
+        "que",
+        "qui",
+        "comme"
+      ],
+      "answer": "si",
+      "explain": "« Léo vient-il ? » devient « Léa demande si Léo vient »."
+    },
+    {
+      "id": "fr-gpd-117",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quels changements de ponctuation faut-il faire en passant du discours direct au discours indirect ?",
+      "choices": [
+        "on ajoute des guillemets",
+        "on supprime les deux-points et les guillemets",
+        "on ajoute des tirets",
+        "on remplace le point par un point d'exclamation"
+      ],
+      "answer": "on supprime les deux-points et les guillemets",
+      "explain": "Le discours indirect n'a ni deux-points ni guillemets."
+    },
+    {
+      "id": "fr-gpd-118",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec un pronom : Léo dit : « Je suis fatigué. » → Léo dit qu'___ est fatigué.",
+      "answer": [
+        "il"
+      ],
+      "explain": "« je » devient « il » quand c'est Léo qui parle."
+    },
+    {
+      "id": "fr-gpd-119",
+      "level": 2,
+      "type": "input",
+      "prompt": "Complète avec un pronom : Inès dit : « Je suis fatiguée. » → Inès dit qu'___ est fatiguée.",
+      "answer": [
+        "elle"
+      ],
+      "explain": "« je » devient « elle » quand c'est Inès qui parle."
+    },
+    {
+      "id": "fr-gpd-120",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la mise au discours indirect de « Les joueurs disent : “Nous sommes prêts.” » ?",
+      "choices": [
+        "Les joueurs disent qu'ils sont prêts.",
+        "Les joueurs disent que nous sommes prêts.",
+        "Les joueurs disent qu'ils étaient prêts.",
+        "Les joueurs disent qu'elles sont prêtes."
+      ],
+      "answer": "Les joueurs disent qu'ils sont prêts.",
+      "explain": "« nous » devient « ils » ; le présent reste au présent."
+    },
+    {
+      "id": "fr-gpd-121",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Complète au discours indirect : Léa dit : « Mon sac est lourd. » → Léa dit que ___ sac est lourd.",
+      "choices": [
+        "mon",
+        "son",
+        "ton",
+        "leur"
+      ],
+      "answer": "son",
+      "explain": "« mon » devient « son » quand Léa parle de son propre sac."
+    },
+    {
+      "id": "fr-gpd-122",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la mise au discours indirect de « Léa demande : “Suis-je en retard ?” » ?",
+      "choices": [
+        "Léa demande qu'elle est en retard.",
+        "Léa demande si je suis en retard.",
+        "Léa demande si elle est en retard.",
+        "Léa demande : si elle est en retard ?"
+      ],
+      "answer": "Léa demande si elle est en retard.",
+      "explain": "Question sans mot interrogatif : « si » ; « je » devient « elle » ; plus de point d'interrogation."
+    },
+    {
+      "id": "fr-gpd-123",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la mise au discours indirect de « Léo demande : “Où est mon sac ?” » ?",
+      "choices": [
+        "Léo demande où est mon sac.",
+        "Léo demande où est son sac ?",
+        "Léo demande que où est son sac.",
+        "Léo demande où est son sac."
+      ],
+      "answer": "Léo demande où est son sac.",
+      "explain": "On garde « où » ; « mon » devient « son » ; on supprime le point d'interrogation."
+    },
+    {
+      "id": "fr-gpd-124",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle phrase est bien ponctuée ?",
+      "choices": [
+        "Léo dit : « Je tire. »",
+        "Léo dit « Je tire » :",
+        "Léo dit, « Je tire ».",
+        "Léo dit : Je tire. »"
+      ],
+      "answer": "Léo dit : « Je tire. »",
+      "explain": "Deux-points, puis guillemets ouvrants et fermants autour des paroles."
+    },
+    {
+      "id": "fr-gpd-125",
+      "level": 2,
+      "type": "input",
+      "prompt": "Recopie les paroles rapportées (3 mots) : Léo dit : « Je suis prêt. »",
+      "answer": [
+        "Je suis prêt",
+        "Je suis prêt."
+      ],
+      "explain": "Les paroles sont entre guillemets."
+    },
+    {
+      "id": "fr-gpd-126",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle phrase contient une proposition incise ?",
+      "choices": [
+        "Léa propose d'aller au stade.",
+        "Léa propose : « Allons au stade. »",
+        "« Allons au stade, propose Léa, avant la pluie. »",
+        "Léa dit qu'elle va au stade."
+      ],
+      "answer": "« Allons au stade, propose Léa, avant la pluie. »",
+      "explain": "« propose Léa » est une incise au milieu des paroles."
+    },
+    {
+      "id": "fr-gpd-127",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans « — Tu viens ? demande Léo. — Oui, répond Inès. », quels sont les verbes de parole ?",
+      "choices": [
+        "viens et répond",
+        "demande et viens",
+        "Léo et Inès",
+        "demande et répond"
+      ],
+      "answer": "demande et répond",
+      "explain": "« demande » et « répond » introduisent les répliques."
+    },
+    {
+      "id": "fr-gpd-128",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « Regarde ! Léa tire au but. » ?",
+      "choices": [
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de vérité générale",
+        "présent de narration"
+      ],
+      "answer": "présent d'énonciation",
+      "explain": "Le fait se passe au moment où l'on parle."
+    },
+    {
+      "id": "fr-gpd-129",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « Tous les samedis, Léo joue au foot. » ?",
+      "choices": [
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de vérité générale",
+        "présent de narration"
+      ],
+      "answer": "présent d'habitude",
+      "explain": "« Tous les samedis » indique une action qui se répète."
+    },
+    {
+      "id": "fr-gpd-130",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « La Terre tourne autour du Soleil. » ?",
+      "choices": [
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de vérité générale",
+        "présent de narration"
+      ],
+      "answer": "présent de vérité générale",
+      "explain": "C'est un fait toujours vrai."
+    },
+    {
+      "id": "fr-gpd-131",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « Hier soir, pendant le match, le ciel s'obscurcit, l'orage éclate et les joueurs courent vers les vestiaires. » ?",
+      "choices": [
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de vérité générale",
+        "présent de narration"
+      ],
+      "answer": "présent de narration",
+      "explain": "Le présent raconte une suite d'événements passés."
+    },
+    {
+      "id": "fr-gpd-132",
+      "level": 1,
+      "type": "mcq",
+      "prompt": "Qu'exprime le présent d'énonciation ?",
+      "choices": [
+        "un fait qui se passe au moment où l'on parle",
+        "une action qui se répète",
+        "une vérité toujours vraie",
+        "des événements passés racontés"
+      ],
+      "answer": "un fait qui se passe au moment où l'on parle",
+      "explain": "Le présent d'énonciation situe l'action au moment de la parole."
+    },
+    {
+      "id": "fr-gpd-133",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « Chaque matin, je cours avant l'école. » ?",
+      "choices": [
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de vérité générale",
+        "présent de narration"
+      ],
+      "answer": "présent d'habitude",
+      "explain": "« Chaque matin » indique une action répétée."
+    },
+    {
+      "id": "fr-gpd-134",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « L'eau bout à 100 °C. » ?",
+      "choices": [
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de vérité générale",
+        "présent de narration"
+      ],
+      "answer": "présent de vérité générale",
+      "explain": "C'est une loi scientifique toujours vraie."
+    },
+    {
+      "id": "fr-gpd-135",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « Je suis fatiguée aujourd'hui. » ?",
+      "choices": [
+        "présent d'habitude",
+        "présent de vérité générale",
+        "présent de narration",
+        "présent d'énonciation"
+      ],
+      "answer": "présent d'énonciation",
+      "explain": "« aujourd'hui » situe le fait au moment où l'on parle."
+    },
+    {
+      "id": "fr-gpd-136",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « Il y a trois siècles, un pirate découvre une carte au trésor et la cache dans sa botte. » ?",
+      "choices": [
+        "présent de narration",
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de vérité générale"
+      ],
+      "answer": "présent de narration",
+      "explain": "« Il y a trois siècles » place le récit dans le passé : le présent le rend vivant."
+    },
+    {
+      "id": "fr-gpd-137",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la valeur du présent ? Les oiseaux ont des plumes. (présent d'habitude / présent de vérité générale / présent de narration)",
+      "answer": [
+        "présent de vérité générale"
+      ],
+      "explain": "C'est un fait toujours vrai : vérité générale."
+    },
+    {
+      "id": "fr-gpd-138",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la valeur du présent ? Le dimanche, nous allons au stade. (présent d'énonciation / présent d'habitude / présent de vérité générale)",
+      "answer": [
+        "présent d'habitude"
+      ],
+      "explain": "« Le dimanche » indique une répétition."
+    },
+    {
+      "id": "fr-gpd-139",
+      "level": 2,
+      "type": "input",
+      "prompt": "Quelle est la valeur du présent ? Un triangle a trois côtés. (présent d'énonciation / présent d'habitude / présent de vérité générale)",
+      "answer": [
+        "présent de vérité générale"
+      ],
+      "explain": "C'est une définition toujours vraie."
+    },
+    {
+      "id": "fr-gpd-140",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase le présent est-il un présent d'habitude ?",
+      "choices": [
+        "Chaque soir, Léo révise ses leçons.",
+        "Léo révise ses leçons en ce moment.",
+        "Le sport est bon pour la santé.",
+        "Soudain, Léo ouvre la porte et découvre un monstre."
+      ],
+      "answer": "Chaque soir, Léo révise ses leçons.",
+      "explain": "« Chaque soir » marque la répétition."
+    },
+    {
+      "id": "fr-gpd-141",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase le présent est-il un présent de narration ?",
+      "choices": [
+        "Chaque jour, le pirate nettoie son épée.",
+        "Ce soir-là, tout à coup, le pirate saute sur le pont et brandit son épée.",
+        "Le pirate parle à son équipage en ce moment.",
+        "Un pirate vit sur un bateau."
+      ],
+      "answer": "Ce soir-là, tout à coup, le pirate saute sur le pont et brandit son épée.",
+      "explain": "« Ce soir-là » situe l'histoire dans le passé : le présent la rend vivante."
+    },
+    {
+      "id": "fr-gpd-142",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Dans quelle phrase le présent est-il un présent d'énonciation ?",
+      "choices": [
+        "Tous les jours à midi, Léo mange une pomme.",
+        "Une pomme contient des vitamines.",
+        "Chut, Léo mange une pomme en ce moment.",
+        "Un jour, Léo mange une pomme et part en courant."
+      ],
+      "answer": "Chut, Léo mange une pomme en ce moment.",
+      "explain": "« en ce moment » situe l'action au moment où l'on parle."
+    },
+    {
+      "id": "fr-gpd-143",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du présent dans « Deux et deux font quatre. » ?",
+      "choices": [
+        "présent d'énonciation",
+        "présent d'habitude",
+        "présent de narration",
+        "présent de vérité générale"
+      ],
+      "answer": "présent de vérité générale",
+      "explain": "C'est une vérité toujours valable."
+    },
+    {
+      "id": "fr-gpd-144",
+      "level": 3,
+      "type": "mcq",
+      "prompt": "Quel effet produit le présent de narration dans un récit passé ?",
+      "choices": [
+        "il rend l'action plus vivante",
+        "il indique que l'action se répète",
+        "il exprime une vérité générale",
+        "il situe l'action dans le futur"
+      ],
+      "answer": "il rend l'action plus vivante",
+      "explain": "Il rapproche le lecteur de l'action."
+    },
+    {
+      "id": "fr-gpd-145",
+      "level": 2,
+      "type": "input",
+      "prompt": "Recopie l'indice (3 mots) qui montre le présent d'habitude : Tous les soirs, Inès lit un chapitre.",
+      "answer": [
+        "Tous les soirs"
+      ],
+      "explain": "« Tous les soirs » exprime la répétition."
+    },
+    {
+      "id": "fr-gpd-146",
+      "level": 2,
+      "type": "mcq",
+      "prompt": "Quel mot de la phrase indique le présent d'énonciation ? « Maintenant, l'arbitre siffle la fin du match. »",
+      "choices": [
+        "l'arbitre",
+        "siffle",
+        "Maintenant",
+        "fin"
+      ],
+      "answer": "Maintenant",
+      "explain": "« Maintenant » situe l'action au moment où l'on parle."
+    }
+  ]
+}

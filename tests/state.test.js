@@ -4,13 +4,13 @@ import {
   loadCatalog, listTopics, loadTopicQuestions, pickQuestions, acceptedAnswers,
 } from '../js/core/questions.js';
 import { createMatch, answerQuestion, currentQuestion, summarizeMatch } from '../js/core/match.js';
-import { nextFixture, seasonLength } from '../js/core/league.js';
+import { nextFixture, seasonLength, newSeason, DIVISIONS } from '../js/core/league.js';
 import {
-  MATCH_QUESTIONS as NQ, GOAL_EVERY_N_CORRECT as N, SEASON_MATCHDAYS as SL, PACKS, PACK_COST, PACK_SIZE, FREE_PACK_EVERY_N_LEVELS as EVERY,
+  MATCH_QUESTIONS as NQ, LEAGUE_QUESTIONS as LQ, GOAL_EVERY_N_CORRECT as N, SEASON_MATCHDAYS as SL, PACKS, PACK_COST, PACK_SIZE, FREE_PACK_EVERY_N_LEVELS as EVERY,
 } from '../js/config.js';
 import { xpToReach, levelForXp } from '../js/core/rewards.js';
 import {
-  newPlayerState, migrateState, ensureSeason, applyResult, buyPack, openFreePack, SCHEMA_VERSION,
+  newPlayerState, migrateState, ensureSeason, applyResult, buyPack, openFreePack, SCHEMA_VERSION, applyDemotion,
 } from '../js/core/state.js';
 import { fetchJson, CLUBS, CARDS } from './fixtures.js';
 
@@ -303,7 +303,7 @@ test('pendingMatch: new states have a null marker; startPendingMatch writes a pl
   eq(s0.pendingMatch, null);
   const s1 = startPendingMatch(s0, { opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, now: T0 });
   eq(s0.pendingMatch, null, 'input untouched');
-  eq(s1.pendingMatch, { mode: 'league', opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: NQ, startedAt: T0 });
+  eq(s1.pendingMatch, { mode: 'league', opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: LQ, startedAt: T0 });
   eq(JSON.parse(JSON.stringify(s1)).pendingMatch, s1.pendingMatch, 'JSON round trip');
   eq(migrateState(JSON.parse(JSON.stringify(s1))).pendingMatch, s1.pendingMatch, 'survives migration');
   eq(migrateState({ username: 'old', profile: { displayName: 'Old' } }).pendingMatch, null);
@@ -327,7 +327,7 @@ test('applyPendingForfeit: one defeat 0-3, all questions counted wrong in totals
   const s = out.state;
   eq(s.pendingMatch, null);
   eq([s.totals.losses, s.totals.wins, s.totals.leagueMatches, s.totals.matches], [1, 0, 1, 1]);
-  eq([s.totals.goalsFor, s.totals.goalsAgainst, s.totals.correct, s.totals.answered], [0, 3, 0, NQ]);
+  eq([s.totals.goalsFor, s.totals.goalsAgainst, s.totals.correct, s.totals.answered], [0, 3, 0, LQ]);
   eq([out.result.outcome, out.result.goalsFor, out.result.goalsAgainst], ['L', 0, 3]);
   eq([s.questions, s.topics], [{}, {}], 'no mastery history');
   eq(s.coins, 0);
@@ -339,11 +339,11 @@ test('applyPendingForfeit: one defeat 0-3, all questions counted wrong in totals
   eq(s0.league.season.matchday, 0, 'input untouched');
 });
 
-test('a match or pending forfeit stored with 15 questions (before the 10-question format) still settles', () => {
+test('a pending forfeit stored with 10 or 15 questions settles with its own total; a 15-question match is scored by GOAL_EVERY_N_CORRECT', () => {
   const rng = createRng(43);
-  const s0 = startPendingMatch(fresh(43), { opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: 15, now: T0 });
+  const s0 = startPendingMatch(fresh(43), { opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: 10, now: T0 });
   const out = applyPendingForfeit(s0, ctx(rng, T0 + 1000));
-  eq([out.result.total, out.state.totals.answered, out.state.pendingMatch], [15, 15, null]);
+  eq([out.result.total, out.state.totals.answered, out.state.pendingMatch], [10, 10, null]);
   // a 15-question match played now: goals follow GOAL_EVERY_N_CORRECT, perfect = all right, total kept per match
   const s1 = fresh(44);
   const fx = nextFixture(s1.league.season);
@@ -356,58 +356,97 @@ test('a match or pending forfeit stored with 15 questions (before the 10-questio
   eq([s2.matches[0].total, s2.totals.answered], [15, 15]);
 });
 
-// ---------- expert difficulty (u13 only) ----------
-import { playerDifficulty, setDifficulty } from '../js/core/state.js';
+// ---------- the u13 "expert" mode is gone: old states still load ----------
 
-const fresh10 = (seed) => newPlayerState({ username: 'kid', displayName: 'Kid', squad: 'u10', club: 'My FC', colors: ['#f00', '#fff'], clubs: CLUBS, rng: createRng(seed), now: T0 });
-
-test('difficulty: default is normal (new state, old stored state), choice is stored outside profile and kept without mutating', () => {
-  const s0 = fresh(60);
-  eq([s0.difficulty, playerDifficulty(s0)], ['normal', 'normal']);
-  eq(migrateState({ username: 'old', profile: { displayName: 'Old' } }).difficulty, 'normal');
-  eq(migrateState({ username: 'old', profile: { displayName: 'Old' }, difficulty: 'bogus' }).difficulty, 'normal');
-  const s1 = setDifficulty(s0, 'expert');
-  eq([s0.difficulty, s1.difficulty, playerDifficulty(s1)], ['normal', 'expert', 'expert'], 'input untouched');
-  eq(s1.profile, s0.profile, 'profile has no new key');
-  eq(migrateState(JSON.parse(JSON.stringify(s1))).difficulty, 'expert', 'survives save and load');
-  eq(setDifficulty(s1, 'normal').difficulty, 'normal');
-  eq(setDifficulty(s1, 'bogus').difficulty, 'normal');
+test('old states with difficulty or matches flagged expert load without error and drop the field', () => {
+  const old = { schema: 1, role: 'player', username: 'kid', profile: { displayName: 'Kid', squad: 'u13' }, difficulty: 'expert',
+    pendingMatch: { mode: 'league', opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 0, total: 10, startedAt: T0, difficulty: 'expert' },
+    matches: [{ at: T0, mode: 'league', topicId: 'en-det', subjectId: 'en', opponent: 'Club B', division: 0, goalsFor: 1, goalsAgainst: 3, outcome: 'L', correct: 4, total: 10, xp: 50, coins: 5, difficulty: 'expert' }] };
+  const m = migrateState(old);
+  assert(!('difficulty' in m));
+  eq(m.matches[0].difficulty, 'expert', 'history stays readable');
+  const out = applyPendingForfeit(m, ctx(createRng(1), T0 + 1000));
+  eq([out.result.goalsAgainst, out.result.total, 'difficulty' in out.result, out.state.pendingMatch], [3, 10, false, null]);
 });
 
-test('difficulty: a u10 player cannot get expert, even with a tampered state', () => {
-  const k = fresh10(61);
-  eq(setDifficulty(k, 'expert').difficulty, 'normal');
-  const tampered = { ...k, difficulty: 'expert' };
-  eq(playerDifficulty(tampered), 'normal');
-  const p = startPendingMatch(tampered, { opponent: OPP, topicId: 'en-verbs', difficulty: 'expert', now: T0 }).pendingMatch;
-  assert(!('difficulty' in p), 'marker stays normal');
-  const forged = { ...tampered, pendingMatch: { ...p, difficulty: 'expert' } };
-  const out = applyPendingForfeit(forged, ctx(createRng(62), T0));
-  eq([out.result.difficulty, 'difficulty' in out.state.matches[0]], ['normal', false]);
+// ---------- one-off demotion by two divisions (schema 2) ----------
+
+/** A player as saved by the previous version: schema 1 (no marker), in `division`, `played` matchdays in. */
+function schema1(division, played = 3, seed = 70) {
+  const s = fresh(seed);
+  s.league.season = newSeason({ clubs: CLUBS, profile: s.profile, division, number: 5, rng: createRng(seed) });
+  for (let i = 0; i < played; i++) { for (const x of s.league.season.fixtures.filter((f) => f.md === i)) { x.hg = 1; x.ag = 0; } s.league.season.matchday = i + 1; }
+  s.league.history = [{ season: 4, division: 3, position: 1, points: 20, gf: 9, ga: 2, promoted: true, champion: true, at: T0 }];
+  s.xp = 900; s.coins = 120; s.cards = { p001: 2 }; s.totals.titles = 1; s.totals.wins = 7;
+  s.pendingMatch = null; s.schema = 1; delete s.cups;
+  return JSON.parse(JSON.stringify(s));
+}
+
+test('demotion: schema is 2; a state saved at schema 1 is marked by the migration, a new player is not', () => {
+  eq(SCHEMA_VERSION, 2);
+  const marked = migrateState(schema1(4));
+  eq([marked.schema, marked.pendingDemotion], [2, 2]);
+  eq(marked.league.season.division, 4, 'the migration does not touch the season (no clubs, no rng)');
+  const unversioned = schema1(4); delete unversioned.schema;
+  eq(migrateState(unversioned).pendingDemotion, 2, 'a state older than schema 1 is marked too');
+  const brandNew = fresh(71);
+  eq(brandNew.schema, 2);
+  assert(!('pendingDemotion' in brandNew) && !('pendingDemotion' in migrateState(JSON.parse(JSON.stringify(brandNew)))), 'a new player is never demoted');
+  assert(!('pendingDemotion' in migrateState({ role: 'coach', username: 'dad', schema: 1, profile: { displayName: 'Dad' } })), 'a coach has no season');
+  eq(migrateState(JSON.parse(JSON.stringify(marked))).pendingDemotion, 2, 'the marker survives a save and load until applied');
 });
 
-test('difficulty: pendingMatch carries expert, the forfeit result and the match history keep it, normal leaves records as before', () => {
-  const rng = createRng(63);
-  const s0 = startPendingMatch(fresh(63), { opponent: OPP, topicId: 'en-det', subjectId: 'en', difficulty: 'expert', now: T0 });
-  eq(s0.pendingMatch.difficulty, 'expert');
-  eq(JSON.parse(JSON.stringify(s0)).pendingMatch, s0.pendingMatch);
-  eq(migrateState(JSON.parse(JSON.stringify(s0))).pendingMatch.difficulty, 'expert');
-  const out = applyPendingForfeit(s0, ctx(rng, T0 + 1000));
-  eq([out.result.difficulty, out.result.goalsAgainst, out.state.matches[0].difficulty, out.state.pendingMatch], ['expert', 3, 'expert', null]);
-  const n = startPendingMatch(fresh(64), { opponent: OPP, topicId: 'en-det', now: T0 });
-  assert(!('difficulty' in n.pendingMatch));
-  const outN = applyPendingForfeit(n, ctx(rng, T0 + 1000));
-  eq([outN.result.difficulty, 'difficulty' in outN.state.matches[0]], ['normal', false]);
+test('demotion: Ligue 1 -> National, new season from matchday 0, history/totals/cards/xp/coins untouched, marker removed', () => {
+  const marked = migrateState(schema1(4));
+  const before = JSON.stringify(marked);
+  const d = applyDemotion(marked, CLUBS, createRng(5));
+  eq(JSON.stringify(marked), before, 'input untouched');
+  assert(!('pendingDemotion' in d));
+  const season = d.league.season;
+  eq([season.division, season.matchday, season.number, season.clubs.length, seasonLength(season)], [2, 0, 5, 8, SL]);
+  assert(season.fixtures.every((f) => f.hg === null && f.ag === null), 'fresh fixtures');
+  const [lo, hi] = DIVISIONS[2].strength;
+  for (const c of season.clubs.filter((x) => !x.isPlayer)) assert(c.strength >= lo - 0.02 && c.strength <= hi + 0.02, `strength ${c.strength}`);
+  eq(d.league.history, marked.league.history);
+  eq([d.xp, d.coins, d.cards, d.totals, d.profile], [marked.xp, marked.coins, marked.cards, marked.totals, marked.profile]);
 });
 
-test('difficulty: a played expert league match is recorded as expert in the history, with a goal against per wrong answer', () => {
-  const rng = createRng(65);
-  const s0 = fresh(65);
+test('demotion: floor District (Régional -> District, District stays, a District season in progress is not restarted)', () => {
+  eq(applyDemotion(migrateState(schema1(1)), CLUBS, createRng(1)).league.season.division, 0);
+  eq(applyDemotion(migrateState(schema1(3)), CLUBS, createRng(1)).league.season.division, 1);
+  const out = applyDemotion(migrateState(schema1(0, 4)), CLUBS, createRng(1));
+  eq([out.league.season.division, out.league.season.matchday], [0, 4], 'already at the floor: the season goes on');
+  assert(!('pendingDemotion' in out));
+});
+
+test('demotion: happens exactly once (a second pass changes nothing), and a state without marker is returned as is', () => {
+  const once = applyDemotion(migrateState(schema1(4)), CLUBS, createRng(3));
+  const twice = applyDemotion(once, CLUBS, createRng(4));
+  assert(twice === once, 'no marker: same object');
+  eq(twice.league.season.division, 2);
+  const reloaded = migrateState(JSON.parse(JSON.stringify(once)));
+  eq([reloaded.schema, 'pendingDemotion' in reloaded, applyDemotion(reloaded, CLUBS, createRng(5)).league.season.division], [2, false, 2], 'saved at schema 2: no second demotion');
+  const fresh4 = fresh(72);
+  assert(applyDemotion(fresh4, CLUBS, createRng(1)) === fresh4, 'a new player is untouched');
+});
+
+test('demotion: a kick-off marker of the old season is dropped with it', () => {
+  const m = migrateState(schema1(4));
+  m.pendingMatch = { mode: 'league', opponent: OPP, topicId: 'en-det', subjectId: 'en', division: 4, total: 10, startedAt: T0 };
+  eq(applyDemotion(m, CLUBS, createRng(1)).pendingMatch, null);
+});
+
+// ---------- per-match goal rule through applyResult ----------
+
+test('applyResult: a 15-question match played with goalEvery 5 scores one goal per 5 right answers', () => {
+  const rng = createRng(80);
+  const s0 = fresh(80);
   const fx = nextFixture(s0.league.season);
-  const questions = pickQuestions(POOL.filter((q) => q.topicId === 'en-det'), { history: {}, division: 0, rng });
-  const m = createMatch({ mode: 'league', questions, topicId: 'en-det', subjectId: 'en', opponent: { id: fx.opponent.id, name: fx.opponent.name, strength: 0 }, division: 0, difficulty: playerDifficulty(setDifficulty(s0, 'expert')), rng, now: T0 });
-  for (let i = 0; !m.finished; i++) answerQuestion(m, i < 7 ? acceptedAnswers(currentQuestion(m))[0] : 'zzz', 2000);
+  const questions = pickQuestions(POOL.filter((q) => q.topicId === 'en-det'), { n: LQ, history: {}, division: 4, rng });
+  const m = createMatch({ mode: 'league', questions, topicId: 'en-det', subjectId: 'en', opponent: { id: fx.opponent.id, name: fx.opponent.name, strength: 0 }, division: 0, goalEvery: 5, squad: 'u13', rng, now: T0 });
+  eq(m.questions.length, LQ);
+  while (!m.finished) answerQuestion(m, acceptedAnswers(currentQuestion(m))[0], 2000);
   const res = summarizeMatch(m, T0);
-  eq([res.goalsFor, res.goalsAgainst, res.difficulty], [3, 3, 'expert']);
-  eq(applyResult(s0, res, ctx(rng, T0)).state.matches[0].difficulty, 'expert');
+  eq([res.total, res.goalsFor, res.perfect], [LQ, 3, true]);
+  eq(applyResult(s0, res, ctx(rng, T0)).state.matches[0].total, LQ);
 });

@@ -1,20 +1,24 @@
 // Home: the club, one big "Jouer le match" button, the next fixture, progress, level, streak, coins, coach's pick, rivalry, table snippet.
 import * as C from '../components.js';
 import * as A from '../art.js';
-import { PACKS, MATCH_QUESTIONS, MATCH_MINUTES } from '../../config.js';
-import { nextFixture, divisionName, seasonLength } from '../../core/league.js';
-import { RULE } from '../rules.js';
+import { PACKS, LEAGUE_QUESTIONS, LEAGUE_MINUTES } from '../../config.js';
+import { nextFixture, divisionName, seasonLength, goalEveryOf } from '../../core/league.js';
+import { activeEvent, eventToAnnounce, markEventAnnounced } from '../../core/events.js';
+import { announceEvent, eventSubjectNames } from './play.js';
+import { ruleFor } from '../rules.js';
 import { listTopics } from '../../core/questions.js';
 import { weakestTopic, topicStars } from '../../core/stats.js';
 import { myClub, levelBar, tableRows, ordinal, lsGet, lsDel, subjectIcon, streakInfo, nextPackLevel, rivalryLine, esc } from '../shell-utils.js';
 
-const WELCOME = [
-  { icon: '❓', title: 'Réponds aux questions', text: `Un match, c'est ${MATCH_QUESTIONS} questions. Réponds juste et vite pour gagner de l'XP.` },
-  { icon: '⚽', title: 'Marque des buts', text: `${RULE.line}. Une erreur, et l'adversaire peut marquer !` },
+/** The three welcome steps; goalEvery = correct answers per goal in the player's division. */
+const welcomeSteps = (goalEvery) => [
+  { icon: '❓', title: 'Réponds aux questions', text: `Un match, c'est ${LEAGUE_QUESTIONS} questions. Réponds juste et vite pour gagner de l'XP.` },
+  { icon: '⚽', title: 'Marque des buts', text: `${ruleFor(goalEvery).line}. Une erreur, et l'adversaire peut marquer !` },
   { icon: '🏆', title: 'Monte et gagne des cartes', text: 'Bats les autres clubs pour monter de division. Tu gagnes des pièces pour ouvrir des paquets de cartes.' },
 ];
 
 function showWelcome(ctx) {
+  const WELCOME = welcomeSteps(goalEveryOf(ctx.state.league.season.division));
   let i = 0;
   const show = () => {
     const s = WELCOME[i];
@@ -54,8 +58,8 @@ export default {
     const start = Math.max(0, Math.min(mePos - 2, rows.length - 4));
     const snippet = rows.slice(start, start + 4);
 
-    const topics = listTopics(ctx.catalog, st.profile.squad);
-    const pick = weakestTopic(st, topics);
+    const topics = listTopics(ctx.catalog, st.profile.squad, null, st.optionalTopics);
+    const pick = activeEvent(st.profile.squad, ctx.now()) ? null : weakestTopic(st, topics); // the coach's pick is suspended during an event
     const streak = streakInfo(st, ctx.now());
     const lvl = levelBar(st.xp);
     const toGo = Math.max(0, lvl.next - lvl.xp);
@@ -88,7 +92,7 @@ export default {
             <div class="minibar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div>
             <p class="text-dim text-sm">${st.freePacks > 0 ? 'Tu as un paquet à ouvrir !' : `Paquet offert au niveau ${nextPackLevel(lvl.level)}`}</p>
           </div>
-          <p class="text-center text-dim text-sm">${MATCH_QUESTIONS} questions · environ ${MATCH_MINUTES} minutes</p>
+          <p class="text-center text-dim text-sm">${LEAGUE_QUESTIONS} questions · environ ${LEAGUE_MINUTES} minutes</p>
         </section>
 
         <div class="home__stats stack">
@@ -128,10 +132,27 @@ export default {
     }).catch(() => {});
 
     const key = `studyleague.welcome.${ctx.user.uid}`;
+    // the event pop-up, once per local day, as soon as the child is in the app; after the welcome carousel when there is one
+    const event = activeEvent(st.profile.squad, ctx.now());
+    async function announce() {
+      if (gone || !eventToAnnounce(ctx.state, st.profile.squad, ctx.now())) return;
+      await announceEvent(event, eventSubjectNames(event, ctx));
+      if (gone) return; // the child left before confirming: not seen
+      ctx.setState(markEventAnnounced(ctx.state, event, ctx.now()));
+      await ctx.save();
+    }
     if (lsGet(key)) {
       lsDel(key);
       showWelcome(ctx);
-    }
+      if (event) { // wait until the carousel is closed (its steps replace one modal by the next in the same tick)
+        const obs = new MutationObserver(() => {
+          if (document.querySelector('[data-modal]')) return;
+          obs.disconnect();
+          announce();
+        });
+        obs.observe(document.getElementById('modal-root'), { childList: true });
+      }
+    } else if (event) announce();
     return () => { gone = true; };
   },
 };
