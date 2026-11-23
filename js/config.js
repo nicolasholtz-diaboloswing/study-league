@@ -19,6 +19,7 @@ const forceCloud = !!loc && new URLSearchParams(loc.search).has('cloud');
 export const FIREBASE_CONFIG = isDevHost && !forceCloud ? null : CLOUD_CONFIG;
 
 export const APP_NAME = 'Study League';
+export const APP_VERSION = '1.1.0'; // shown in the top bar and on the login screen; bump it at every release (go-live)
 
 // Match
 export const MATCH_QUESTIONS = 10;   // questions per match (league and training), about 3 minutes
@@ -32,8 +33,10 @@ export const OPPONENTS_PER_SEASON = 7;
 export const SEASON_MATCHDAYS = OPPONENTS_PER_SEASON; // a season of about one week at one match a day
 
 // Rewards
-export const PACK_COST = 150;
-export const PACK_SIZE = 3;
+// Two packs: "small" (1 card, never a legend) and "big" (3 cards, legend possible, better odds). Odds: see PACK_ODDS in core/rewards.js.
+export const PACKS = { small: { cost: 75, size: 1 }, big: { cost: 150, size: 3 } };
+export const PACK_COST = PACKS.big.cost;   // the big pack (also the free pack)
+export const PACK_SIZE = PACKS.big.size;
 export const FREE_PACK_EVERY_N_LEVELS = 10;
 export const TRAINING_XP_FACTOR = 0.5;
 

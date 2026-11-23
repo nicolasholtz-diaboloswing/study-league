@@ -2,14 +2,18 @@
 import * as C from '../components.js';
 import * as A from '../art.js';
 import * as E from '../effects.js';
-import { PACK_COST, PACK_SIZE } from '../../config.js';
+import { PACKS, PACK_SIZE } from '../../config.js';
 import { buyPack, openFreePack } from '../../core/state.js';
 import { uniqueCards } from '../../core/stats.js';
-import { RARITIES } from '../../core/rewards.js';
+import { RARITIES, PACK_ODDS } from '../../core/rewards.js';
 import { listen } from './_meta.js';
 
 const RARITY_TABS = [{ id: 'mine', label: 'Mes cartes' }, { id: 'all', label: 'Toutes' }, ...RARITIES.map((r) => ({ id: r, label: A.rarityLabel(r) }))];
-const ODDS = RARITIES.map((r) => `<span class="odds__r odds__r--${r}">${A.rarityLabel(r)}</span>`).join(' · ');
+const BUY_KINDS = ['small', 'big'];
+const packName = (k) => (k === 'small' ? '1 carte' : `${PACKS.big.size} cartes`);
+// rarities that can drop from each pack (the small pack has no legend)
+const ODDS = Object.fromEntries(BUY_KINDS.map((k) => [k, RARITIES.filter((r) => PACK_ODDS[k][r] > 0).map((r) => `<span class="odds__r odds__r--${r}">${A.rarityLabel(r)}</span>`).join(' · ')]));
+const oddsLine = (k) => `<p class="odds"><span class="odds__list">${ODDS[k]}</span><span class="odds__hint">${k === 'small' ? 'Pas de légende dans ce paquet.' : 'Une légende est possible, et les cartes sont plus fortes.'}</span></p>`;
 const POS_TABS = [
   { id: 'all', label: 'Tous' }, { id: 'GK', label: 'Gardiens' }, { id: 'DEF', label: 'Défenseurs' },
   { id: 'MID', label: 'Milieux' }, { id: 'FWD', label: 'Attaquants' },
@@ -55,16 +59,16 @@ export default {
       const fan = `<div class="packbox__fan" aria-hidden="true">${A.cardBack({ size: 'sm' })}${A.cardBack({ size: 'sm' })}${A.cardBack({ size: 'sm' })}</div>`;
       let head, btn;
       if (free > 0) {
-        head = `<h2 class="packbox__title">Paquet offert !</h2><p class="text-dim">Tu as ${free} paquet${free > 1 ? 's' : ''} offert${free > 1 ? 's' : ''} qui t'attend${free > 1 ? 'ent' : ''}. ${PACK_SIZE} cartes dedans.</p>`;
+        head = `<h2 class="packbox__title">Paquet offert !</h2><p class="text-dim">Tu as ${free} paquet${free > 1 ? 's' : ''} offert${free > 1 ? 's' : ''} qui t'attend${free > 1 ? 'ent' : ''}. ${PACK_SIZE} cartes dedans, une légende est possible.</p>`;
         btn = C.button({ label: 'Ouvrir mon paquet offert', variant: 'gold', size: 'lg', block: true, icon: '🎁', attrs: { 'data-pack': 'free' } });
-      } else if (coins >= PACK_COST) {
-        head = `<h2 class="packbox__title">Ouvrir un paquet</h2><p class="text-dim">${PACK_SIZE} cartes pour ${PACK_COST} pièces. Tu en as ${coins}.</p>`;
-        btn = C.button({ label: `Acheter un paquet · ${PACK_COST} pièces`, variant: 'gold', size: 'lg', block: true, icon: '🃏', attrs: { 'data-pack': 'buy' } });
       } else {
-        head = `<h2 class="packbox__title">Ouvrir un paquet</h2><p class="text-dim">Un paquet coûte ${PACK_COST} pièces. Gagne des matchs pour en avoir plus. Tu en as ${coins}.</p>`;
-        btn = C.button({ label: `Encore ${PACK_COST - coins} pièces`, variant: 'secondary', size: 'lg', block: true, disabled: true });
+        head = `<h2 class="packbox__title">Ouvrir un paquet</h2><p class="text-dim">Gagne des matchs pour avoir des pièces. Tu en as ${coins}.</p>`;
+        btn = BUY_KINDS.map((k) => {
+          const p = PACKS[k], ok = coins >= p.cost;
+          return `<div class="stack stack--sm">${C.button({ label: ok ? `${packName(k)} · ${p.cost} pièces` : `${packName(k)} · encore ${p.cost - coins} pièces`, variant: ok ? 'gold' : 'secondary', size: 'lg', block: true, icon: ok ? (k === 'big' ? '🃏' : '🎴') : undefined, disabled: !ok, attrs: { 'data-pack': 'buy-' + k } })}${oddsLine(k)}</div>`;
+        }).join('');
       }
-      const odds = `<p class="odds"><span class="odds__list">${ODDS}</span><span class="odds__hint">Plus c'est rare, plus c'est fort.</span></p>`;
+      const odds = free > 0 ? `<p class="odds"><span class="odds__list">${ODDS.big}</span><span class="odds__hint">Plus c'est rare, plus c'est fort.</span></p>` : '';
       return `<div class="panel panel--gold packbox ${free > 0 ? 'packbox--free' : ''}">${fan}<div class="packbox__body">${head}${btn}${odds}</div></div>`;
     };
 
@@ -85,7 +89,7 @@ export default {
     };
 
     const renderAlbum = () => {
-      el.innerHTML = `<div class="page cards-page">${C.pageHead('Mes cartes', { kicker: 'Album', sub: `Gagne des pièces en jouant, puis achète un paquet ici : ${PACK_COST} pièces = ${PACK_SIZE} cartes.` })}
+      el.innerHTML = `<div class="page cards-page">${C.pageHead('Mes cartes', { kicker: 'Album', sub: `Gagne des pièces en jouant, puis achète des cartes ici : ${PACKS.small.cost} pièces = 1 carte, ${PACKS.big.cost} pièces = ${PACKS.big.size} cartes (avec une légende possible).` })}
         <div class="cards-top">${progress()}${packPanel()}</div>
         <div class="stack stack--sm">
           ${C.tabs(RARITY_TABS, filter.rarity, { scroll: true, attrs: { 'data-filter': 'rarity', 'aria-label': 'Filtrer par rareté' } })}
@@ -106,7 +110,7 @@ export default {
     const showStage = async (kind, got) => {
       document.body.classList.add('in-pack');
       el.innerHTML = `<div class="page page--narrow pack-stage">
-        <header class="page-head text-center"><span class="page-head__kicker">${kind === 'free' ? 'Paquet offert' : 'Ton paquet'}</span><h1 id="stage-title">Touche une carte !</h1><p class="page-head__sub" id="stage-sub">Retourne tes ${got.length} cartes une par une.</p></header>
+        <header class="page-head text-center"><span class="page-head__kicker">${kind === 'free' ? 'Paquet offert' : 'Ton paquet'}</span><h1 id="stage-title">Touche une carte !</h1><p class="page-head__sub" id="stage-sub">${got.length > 1 ? `Retourne tes ${got.length} cartes une par une.` : 'Retourne ta carte.'}</p></header>
         <div id="pack-host"></div>
         <div class="pack pack-caps" id="pack-caps">${got.map((_, i) => `<div class="pack-cap" data-cap="${i}"></div>`).join('')}</div>
         <div class="pack-actions stack stack--sm" id="pack-actions" hidden></div></div>`;
@@ -132,9 +136,12 @@ export default {
       title.textContent = 'Paquet ouvert !';
       sub.textContent = nNew ? `${nNew} nouvelle${nNew > 1 ? 's' : ''} carte${nNew > 1 ? 's' : ''} dans ton album.` : 'Que des doubles cette fois. Tente encore !';
       flushToasts();
-      const more = (state.freePacks || 0) > 0 ? 'free' : (state.coins || 0) >= PACK_COST ? 'buy' : null;
+      const hasFree = (state.freePacks || 0) > 0;
       actions.innerHTML = C.button({ label: 'Voir mon album', variant: 'gold', size: 'lg', block: true, attrs: { 'data-act': 'album' } })
-        + (more ? C.button({ label: more === 'free' ? 'Ouvrir un autre paquet offert' : `Acheter un autre paquet · ${PACK_COST} pièces`, variant: 'secondary', block: true, attrs: { 'data-pack': more } }) : '');
+        + (hasFree
+          ? C.button({ label: 'Ouvrir un autre paquet offert', variant: 'secondary', block: true, attrs: { 'data-pack': 'free' } })
+          : BUY_KINDS.filter((k) => (state.coins || 0) >= PACKS[k].cost).reverse()
+            .map((k) => C.button({ label: `Acheter ${k === 'small' ? 'une autre carte' : `${PACKS.big.size} autres cartes`} · ${PACKS[k].cost} pièces`, variant: 'secondary', block: true, attrs: { 'data-pack': 'buy-' + k } })).join(''));
       actions.hidden = false;
       actions.querySelector('button')?.focus({ preventScroll: true });
       newIds = new Set(got.filter((g) => g.isNew).map((g) => g.card.id));
@@ -145,7 +152,7 @@ export default {
       busy = true;
       let out;
       try {
-        out = kind === 'free' ? openFreePack(state, env()) : buyPack(state, env());
+        out = kind === 'free' ? openFreePack(state, env()) : buyPack(state, env(), kind.replace('buy-', ''));
         Object.assign(state, out.state);
         // the drawn cards travel with the purchase in the same save, so a reload can resume the reveal
         state.pendingReveal = { kind, ids: out.cards.map((g) => g.card.id), fresh: out.cards.map((g) => !!g.isNew) };

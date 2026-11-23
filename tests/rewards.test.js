@@ -1,7 +1,7 @@
 import { test, eq, assert, near } from './runner.js';
 import { createRng } from '../js/core/rng.js';
 import {
-  xpToReach, levelForXp, levelInfo, matchXp, matchCoins, openPack, RARITY_ODDS, BADGES, evaluateBadges,
+  xpToReach, levelForXp, levelInfo, matchXp, matchCoins, openPack, RARITY_ODDS, PACK_ODDS, BADGES, evaluateBadges,
 } from '../js/core/rewards.js';
 import { newPlayerState } from '../js/core/state.js';
 import { CARDS, SUBJECTS } from './fixtures.js';
@@ -48,16 +48,29 @@ test('rewards: pack opening gives 3 cards, marks new vs duplicate', () => {
   eq(twice.map((p) => p.isNew), [true, false, false]);
 });
 
-test('rewards: rarity odds are 60/28/10/2', () => {
-  eq(RARITY_ODDS, { common: 0.6, rare: 0.28, epic: 0.1, legend: 0.02 });
+test('rewards: big pack odds are 55/28/13/4', () => {
+  eq(RARITY_ODDS, { common: 0.55, rare: 0.28, epic: 0.13, legend: 0.04 });
+  eq(PACK_ODDS.big, RARITY_ODDS);
   const rng = createRng(2024);
   const N = 30000;
   const counts = { common: 0, rare: 0, epic: 0, legend: 0 };
   for (const p of openPack(CARDS, rng, {}, N)) counts[p.card.rarity]++;
-  near(counts.common / N, 0.6, 0.015, 'common');
+  near(counts.common / N, 0.55, 0.015, 'common');
   near(counts.rare / N, 0.28, 0.015, 'rare');
-  near(counts.epic / N, 0.1, 0.01, 'epic');
-  near(counts.legend / N, 0.02, 0.006, 'legend');
+  near(counts.epic / N, 0.13, 0.01, 'epic');
+  near(counts.legend / N, 0.04, 0.006, 'legend');
+});
+
+test('rewards: small pack odds are 70/24/6/0 and never give a legend', () => {
+  eq(PACK_ODDS.small, { common: 0.7, rare: 0.24, epic: 0.06, legend: 0 });
+  const rng = createRng(11);
+  const N = 30000;
+  const counts = { common: 0, rare: 0, epic: 0, legend: 0 };
+  for (const p of openPack(CARDS, rng, {}, N, PACK_ODDS.small)) counts[p.card.rarity]++;
+  eq(counts.legend, 0);
+  near(counts.common / N, 0.7, 0.015, 'common');
+  near(counts.rare / N, 0.24, 0.015, 'rare');
+  near(counts.epic / N, 0.06, 0.01, 'epic');
 });
 
 test('rewards: a rarity with no cards is skipped', () => {

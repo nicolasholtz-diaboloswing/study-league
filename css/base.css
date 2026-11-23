@@ -68,6 +68,7 @@ table { border-collapse: collapse; }
 .topbar__club { display: flex; align-items: center; gap: var(--sp-2); min-width: 0; text-decoration: none; color: inherit; }
 .topbar__crest { width: 38px; height: 38px; flex: none; display: grid; place-items: center; }
 .topbar__name { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 30vw; }
+.topbar__version { flex: none; align-self: flex-end; margin-bottom: 10px; font-size: .6875rem; line-height: 1; color: var(--ink-faint); letter-spacing: .02em; }
 .topbar__level { flex: 1; min-width: 0; max-width: 340px; margin-left: auto; }
 .topbar__coins {
   flex: none; display: inline-flex; align-items: center; gap: 6px;

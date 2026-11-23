@@ -25,6 +25,7 @@ document.getElementById('view').innerHTML = `<div class="page">${C.pageHead('Acc
 |---|---|
 | `#top-crest` | put `A.crest(club, 38)` |
 | `#top-club` | club name text |
+| `#top-version` | `v` + `APP_VERSION` (`js/config.js`), set by `main.js`; the login screen shows the same text in `.login__version` |
 | `#top-level` | put `C.xpBar({level, xp, next, compact:true})` |
 | `#top-coins-n` | coin count text |
 | `#nav` links `a.nav__link[data-route]` | set `aria-current="page"` on the active one |
@@ -130,5 +131,5 @@ Division names shown in the UI: District, Régional, National, Ligue 2, Ligue 1.
 ## Cards view and coach view
 
 - Album: «&nbsp;Mes cartes&nbsp;» chip (default when the player owns a card), owned cards first by rating, 3 columns under 480 px, missing cards (`.album__cell--missing`) at about half height. `.odds` shows the four rarities in their colours next to the buy button.
-- Pack reveal is resumable: the purchase save also stores `state.pendingReveal = { kind: 'buy'|'free', ids: [cardId x3], fresh: [bool x3] }`. The cards view resumes it on mount and sets it to `null` (and saves) when the last card is flipped or the child leaves. Badge toasts are held until the reveal is over.
+- Pack reveal is resumable: the purchase save also stores `state.pendingReveal = { kind: 'buy-small'|'buy-big'|'free' (old saves: 'buy'), ids: [cardId x1..3], fresh: [bool x1..3] }`. The cards view resumes it on mount and sets it to `null` (and saves) when the last card is flipped or the child leaves. Badge toasts are held until the reveal is over.
 - Parent dashboard (`coach.js`, shown as « Espace parent »): `.psum` button per child (this week: matches, time, V/N/D, accuracy, weakest theme, last activity; `aria-pressed` marks the selected child), then the detail: 7-day `barChart` with weekday letters (today in gold), themes by subject weakest first (`.coach__todo` = « pas encore joué »), most-missed questions, last 20 matches (`.cm`, two lines on phones).

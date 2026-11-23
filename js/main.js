@@ -7,6 +7,7 @@ import * as C from './ui/components.js';
 import * as A from './ui/art.js';
 import { myClub, levelBar, lsSet } from './ui/shell-utils.js';
 import { settlePendingForfeit } from './ui/flow.js';
+import { APP_VERSION } from './config.js';
 
 const fetchJson = (p) => fetch(p).then((r) => {
   if (!r.ok) throw new Error(`Impossible de charger ${p}`);
@@ -129,6 +130,7 @@ function refreshChrome(routeName = currentRouteName()) {
     a.hidden = coach ? !(r === 'coach' || r === 'more') : false;
     if (r === (TAB_OF[routeName] || routeName)) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   });
+  $('top-version').textContent = `v${APP_VERSION}`;
   const st = ctx.state;
   const home = $('topbar').querySelector('.topbar__club');
   if (st) {
